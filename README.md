@@ -6,6 +6,7 @@ proofs, worked examples, and reduced empirical tables used in the dissertation.
 ## Contents
 
 - `data/` contains the distributed research data:
+  - `corpora/` the text transcriptions (.txt files) and TextGrids (.TextGrid files) of the data utilized (40 hours of British English, 40 hours Northern/Southern of Mandarin, and 160 hours of Brazilian Portuguese). Raw speech corpora and audio are not redistributed here, due to licensing reasons.;
   - `applications/` gives the Basic Syllable, McCollum, Goldrick--Daland,
     Walker, Pater, and Cabrera examples;
   - `continuous_hg/` gives exact profiles, support boundaries, continuation
@@ -63,8 +64,7 @@ The toolchain and Mathlib dependency are declared in that directory.
 The tab-separated files have a header row and preserve exact rational values
 as strings such as `41/42`; decimal columns are included only for reading and
 plotting. The empirical tables are reduced or derived data used by the
-dissertation's declared readers. Raw speech corpora and audio are not
-redistributed here, due to licensing reasons.
+dissertation's declared readers.
 
 The dissertation remains the source for theorem statements, proofs in prose,
 linguistic interpretation, empirical premises, and scope limitations. These
