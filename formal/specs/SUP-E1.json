@@ -1,0 +1,288 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "finite_horizon",
+        "attained_unique_minimizer",
+        "strictly_convex_increasing_edge",
+        "convex_site",
+        "declared_right_endpoint_slope",
+        "exact_endpoint_KKT_iff_global_winner_contract"
+      ],
+      "family": "local_directional_support",
+      "id": "SUP-E1.ASSUMPTION-MANIFEST",
+      "node": "support_selection_assumptions"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "finite_horizon",
+            "attained_unique_minimizer",
+            "strictly_convex_increasing_edge",
+            "convex_site",
+            "declared_right_endpoint_slope",
+            "exact_endpoint_KKT_iff_global_winner_contract"
+          ],
+          "family": "local_directional_support",
+          "node": "support_selection_assumptions"
+        },
+        "component": "zero_lifting_derivative",
+        "expected": {
+          "right_derivative": "PsiPrimeRight(0)-PhiPrime(x_previous)",
+          "zero_site_slope_reduction": "-PhiPrime(x_previous)<0"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E1"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "finite_horizon",
+            "attained_unique_minimizer",
+            "strictly_convex_increasing_edge",
+            "convex_site",
+            "declared_right_endpoint_slope",
+            "exact_endpoint_KKT_iff_global_winner_contract"
+          ],
+          "family": "local_directional_support",
+          "node": "support_selection_assumptions"
+        },
+        "component": "strict_prefix_bound",
+        "expected": {
+          "flux_drop_per_positive_site": ">=c",
+          "integer_form": "K_N<=ceil(PhiPrime(1)/c)-1",
+          "telescoped_bound": "K_N*c<PhiPrime(1)"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E1"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "finite_horizon",
+            "attained_unique_minimizer",
+            "strictly_convex_increasing_edge",
+            "convex_site",
+            "declared_right_endpoint_slope",
+            "exact_endpoint_KKT_iff_global_winner_contract"
+          ],
+          "family": "local_directional_support",
+          "node": "support_selection_assumptions"
+        },
+        "component": "endpoint_support_classification",
+        "expected": {
+          "positive_endpoint_slope": "uniform finite positive-prefix bound",
+          "zero_endpoint_slope": "every finite winner coordinate is positive"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E1"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "6945f59f9eefe37d28b4e6bedea390c536b20c84334d17770924a19763e6f3b3",
+      "id": "SUP-E1.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "91b9e358385b230fe67d7963cd84763e571a53315025c8dc1f542e0f8c525c5c"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "finite_horizon",
+          "attained_unique_minimizer",
+          "strictly_convex_increasing_edge",
+          "convex_site",
+          "declared_right_endpoint_slope",
+          "exact_endpoint_KKT_iff_global_winner_contract"
+        ],
+        "family": "local_directional_support",
+        "node": "support_selection_assumptions"
+      },
+      "component": "zero_lifting_derivative",
+      "expected": {
+        "right_derivative": "PsiPrimeRight(0)-PhiPrime(x_previous)",
+        "zero_site_slope_reduction": "-PhiPrime(x_previous)<0"
+      },
+      "id": "SUP-E1.CLAIM.01",
+      "node": "support_selection_result",
+      "result_id": "SUP-E1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "finite_horizon",
+          "attained_unique_minimizer",
+          "strictly_convex_increasing_edge",
+          "convex_site",
+          "declared_right_endpoint_slope",
+          "exact_endpoint_KKT_iff_global_winner_contract"
+        ],
+        "family": "local_directional_support",
+        "node": "support_selection_assumptions"
+      },
+      "component": "strict_prefix_bound",
+      "expected": {
+        "flux_drop_per_positive_site": ">=c",
+        "integer_form": "K_N<=ceil(PhiPrime(1)/c)-1",
+        "telescoped_bound": "K_N*c<PhiPrime(1)"
+      },
+      "id": "SUP-E1.CLAIM.02",
+      "node": "support_selection_result",
+      "result_id": "SUP-E1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "finite_horizon",
+          "attained_unique_minimizer",
+          "strictly_convex_increasing_edge",
+          "convex_site",
+          "declared_right_endpoint_slope",
+          "exact_endpoint_KKT_iff_global_winner_contract"
+        ],
+        "family": "local_directional_support",
+        "node": "support_selection_assumptions"
+      },
+      "component": "endpoint_support_classification",
+      "expected": {
+        "positive_endpoint_slope": "uniform finite positive-prefix bound",
+        "zero_endpoint_slope": "every finite winner coordinate is positive"
+      },
+      "id": "SUP-E1.CLAIM.03",
+      "node": "support_selection_result",
+      "result_id": "SUP-E1"
+    }
+  ],
+  "domains": [
+    {
+      "family": "support_selection",
+      "id": "SUP-E1.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "SUP-E1",
+      "variables": []
+    }
+  ],
+  "english_statement_sha256": "6945f59f9eefe37d28b4e6bedea390c536b20c84334d17770924a19763e6f3b3",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "418997dd3bc5048b39aec704fd6ceebf913f9debe3ec1e5d04653804dd1459cd",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-LIMIT-001"
+  ],
+  "group": "SUP",
+  "kind": "result",
+  "nonclaims": "The theorem does not classify arbitrary nondifferentiable or nonlocal penalties.",
+  "portuguese_statement_sha256": "91b9e358385b230fe67d7963cd84763e571a53315025c8dc1f542e0f8c525c5c",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "finite_horizon",
+            "attained_unique_minimizer",
+            "strictly_convex_increasing_edge",
+            "convex_site",
+            "declared_right_endpoint_slope",
+            "exact_endpoint_KKT_iff_global_winner_contract"
+          ],
+          "family": "local_directional_support",
+          "node": "support_selection_assumptions"
+        },
+        "component": "zero_lifting_derivative",
+        "expected": {
+          "right_derivative": "PsiPrimeRight(0)-PhiPrime(x_previous)",
+          "zero_site_slope_reduction": "-PhiPrime(x_previous)<0"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "SUP-E1.DERIVATIVE.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "finite_horizon",
+            "attained_unique_minimizer",
+            "strictly_convex_increasing_edge",
+            "convex_site",
+            "declared_right_endpoint_slope",
+            "exact_endpoint_KKT_iff_global_winner_contract"
+          ],
+          "family": "local_directional_support",
+          "node": "support_selection_assumptions"
+        },
+        "component": "strict_prefix_bound",
+        "expected": {
+          "flux_drop_per_positive_site": ">=c",
+          "integer_form": "K_N<=ceil(PhiPrime(1)/c)-1",
+          "telescoped_bound": "K_N*c<PhiPrime(1)"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "SUP-E1.BOUND.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "finite_horizon",
+            "attained_unique_minimizer",
+            "strictly_convex_increasing_edge",
+            "convex_site",
+            "declared_right_endpoint_slope",
+            "exact_endpoint_KKT_iff_global_winner_contract"
+          ],
+          "family": "local_directional_support",
+          "node": "support_selection_assumptions"
+        },
+        "component": "endpoint_support_classification",
+        "expected": {
+          "positive_endpoint_slope": "uniform finite positive-prefix bound",
+          "zero_endpoint_slope": "every finite winner coordinate is positive"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "SUP-E1.GENERAL.03",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact support_selection result consequence",
+  "result_dependencies": [],
+  "result_id": "SUP-E1",
+  "schema_version": "1.0.0",
+  "scope": "General local directional edge/site objective.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "positive real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Endpoint slope classifies exact support",
+  "title_pt_BR": "A inclinação na extremidade classifica o suporte exato",
+  "variables": [],
+  "withdrawal_condition": "Withdraw the support classification if the declared smooth-convex endpoint hypotheses or ExactEndpointWinnerKKT fail for the concrete objective; do not extend it to nondifferentiable, nonlocal, or arbitrary penalties."
+}

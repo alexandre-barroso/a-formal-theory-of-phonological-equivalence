@@ -1,0 +1,17 @@
+{
+  "check_id": "MAX-G8.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "8d0429043e1a1606b2781cad0076ab6df1ff44b6dd9eb765fb6cad2199c7cd0f",
+  "payload": {
+    "en_statement_file_sha256": "3e1000125568bca5afc1a6f997c16b7cee4418cac46337dd2ad220e30d4df5c3",
+    "en_statement_marker": "formal/specs/MAX-G8.json",
+    "en_statement_path": "proofs/en/results/MAX-G8.tex",
+    "en_statement_sha256": "f07da10ef6ad1f2382d422fda6334543c4ddf8e548233ea1abb95c468d8bce4f",
+    "pt_BR_statement_file_sha256": "433b22ebc0384a457903dec93eecd1f5be1c9dd736be14c7aeceb94a1349b9e9",
+    "pt_BR_statement_marker": "formal/specs/MAX-G8.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/MAX-G8.tex",
+    "pt_BR_statement_sha256": "d91e623cb68c9dd1f67f92462ca8c362369ffbf660bb139c66e911b0b0874372"
+  },
+  "result_id": "MAX-G8",
+  "schema_version": "1.0.0"
+}

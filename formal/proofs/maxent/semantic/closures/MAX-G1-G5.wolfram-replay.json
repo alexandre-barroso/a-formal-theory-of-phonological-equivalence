@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "kernel": "MaxEntG1G5SemanticClosure`",
+  "wolfram_source": "formal/kernel/wolfram/MaxEntG1G5SemanticClosure.wl",
+  "wolfram_source_sha256": "2aa39629699cd4c65083e96e927b89d53736f73d740da11fe17542aa37014840",
+  "residual_constructors": {
+    "coefficient_l1_norms": [64, 400, 288],
+    "total_degrees": [2, 2, 4]
+  },
+  "contraction_strictifier": {
+    "exact_recurrence_orders_0_through_10": true,
+    "local_error_identity_exact": true,
+    "completed_square_identity_exact": true,
+    "strict_scale_bounds_1_through_128": true,
+    "sample_gap_exponent": 2176,
+    "sample_chain_length": 12,
+    "sample_strict_negative_power_exponent": -8189,
+    "sample_strict_negative_exact": true
+  },
+  "one_hot_tag_lift": {
+    "positive_copy_dominates_common_factor": true,
+    "negative_copy_is_bounded_by_common_factor": true,
+    "all_one_tag_slice_exact": true
+  },
+  "laurent_and_integer_compiler": {
+    "minimal_shift": [2, 1],
+    "positive_denominator_lcm": 4,
+    "cleared_coefficient_rows": [
+      [[2, 0], -3],
+      [[0, 2], 2]
+    ],
+    "cleared_polynomial_exact": true,
+    "integer_compiler_coefficient_l1": 3
+  },
+  "g4_and_g5": {
+    "g4_cross_factorization_exact": true,
+    "g4_probability_table": [
+      {
+        "activity": "3/4",
+        "left_probability": "32/59",
+        "right_probability": "16/25"
+      },
+      {
+        "activity": "1/2",
+        "left_probability": "4/5",
+        "right_probability": "4/5"
+      },
+      {
+        "activity": "1/4",
+        "left_probability": "32/33",
+        "right_probability": "16/17"
+      }
+    ],
+    "g4_unique_physical_interior_root": "1/2",
+    "g5_kernel_branch_exact": true,
+    "g5_row_space_branch_exact": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "changed_consumer": {
+        "type": "string"
+      },
+      "exact_proof": {
+        "type": "string"
+      },
+      "preserved_consumer": {
+        "type": "string"
+      },
+      "witness": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "witness",
+      "preserved_consumer",
+      "changed_consumer",
+      "exact_proof"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/maxent/law_envelope_incomparability.tsv",
+  "type": "array"
+}

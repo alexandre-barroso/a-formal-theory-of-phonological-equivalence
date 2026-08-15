@@ -1,0 +1,2 @@
+$ sh scripts/check_equation_coverage.sh
+PASS: 63 unique public equation labels have nonempty scoped Lean mappings.

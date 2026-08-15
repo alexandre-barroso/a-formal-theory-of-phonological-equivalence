@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "exact_result": {
+        "type": "string"
+      },
+      "proof_goal_id": {
+        "type": "string"
+      },
+      "result_id": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "result_id",
+      "proof_goal_id",
+      "title",
+      "status",
+      "exact_result"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/finite_calculus/witnesses.tsv",
+  "type": "array"
+}

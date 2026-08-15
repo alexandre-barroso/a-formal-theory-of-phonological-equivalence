@@ -1,0 +1,79 @@
+{
+  "assumptions_used": [
+    "CALC-R14.EXACT-FINITE-MODEL"
+  ],
+  "claim": {
+    "left": {
+      "node": "list",
+      "values": [
+        {
+          "arguments": [
+            {
+              "node": "bell_number",
+              "size": 2
+            },
+            {
+              "node": "bell_number",
+              "size": 3
+            }
+          ],
+          "node": "multiply"
+        },
+        {
+          "node": "bell_number",
+          "size": 3
+        }
+      ]
+    },
+    "node": "equal",
+    "right": {
+      "node": "list",
+      "values": [
+        10,
+        5
+      ]
+    }
+  },
+  "claim_sha256": "3d3bfe76cb4aa80a5dab2116d45da31b0b744df0e12339633510d0de6fc8f9a7",
+  "formal_statement_sha256": "433ee8da5c7a3c371ca8470c1ec307248d4387ec6512986a45ceb6297bd28382",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001"
+  ],
+  "payload": {
+    "expected": {
+      "node": "list",
+      "values": [
+        10,
+        5
+      ]
+    },
+    "expression": {
+      "node": "list",
+      "values": [
+        {
+          "arguments": [
+            {
+              "node": "bell_number",
+              "size": 2
+            },
+            {
+              "node": "bell_number",
+              "size": 3
+            }
+          ],
+          "node": "multiply"
+        },
+        {
+          "node": "bell_number",
+          "size": 3
+        }
+      ]
+    }
+  },
+  "proof_goal_id": "CALC-R14.BELL.01",
+  "proof_id": "CALC-R14.BELL.01.PROOF",
+  "proof_method": "ExactFiniteComputationProof",
+  "result_dependencies": [],
+  "result_id": "CALC-R14",
+  "schema_version": "1.1.0"
+}

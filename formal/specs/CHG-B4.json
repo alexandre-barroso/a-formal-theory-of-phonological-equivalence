@@ -1,0 +1,451 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "h>0",
+        "m>0",
+        "epsilon->0+"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B4.ASSUMPTION-MANIFEST",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "h>0",
+          "m>0",
+          "epsilon->0+"
+        ],
+        "perturbation": "h*phi(epsilon)-m*epsilon",
+        "premises": [
+          "phi(0)=0",
+          "phi(epsilon)/epsilon->0"
+        ]
+      }
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "epsilon->0+"
+            ],
+            "perturbation": "h*phi(epsilon)-m*epsilon",
+            "premises": [
+              "phi(0)=0",
+              "phi(epsilon)/epsilon->0"
+            ]
+          }
+        },
+        "component": "little_o_reduction",
+        "expected": {
+          "negative_when_m_positive": true,
+          "premise": "limit(phi(epsilon)/epsilon,epsilon->0+)=0",
+          "reduced_limit": "-m"
+        },
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B4"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "epsilon->0+"
+            ],
+            "perturbation": "h*phi(epsilon)-m*epsilon",
+            "premises": [
+              "phi(0)=0",
+              "phi(epsilon)/epsilon->0"
+            ]
+          }
+        },
+        "component": "quadratic_optimizer",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B4"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "epsilon->0+"
+            ],
+            "perturbation": "h*phi(epsilon)-m*epsilon",
+            "premises": [
+              "phi(0)=0",
+              "phi(epsilon)/epsilon->0"
+            ]
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "all_back_not_local_minimum": true,
+          "eventual_perturbation_sign": "negative",
+          "quadratic_clipped_optimizer": "max(0,1-m/(2*h))"
+        },
+        "inputs": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "perturbation": "h*phi(epsilon)-m*epsilon",
+          "premises": [
+            "phi(0)=0",
+            "phi(epsilon)/epsilon->0"
+          ]
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B4"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "ee60295478f41810ed5e8f218425d2eb76bdf2f1f8149c90971bbb97f247382b",
+      "id": "CHG-B4.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "df321f354134cb2454fe47b6021f1ec483cfe8217ac266247732609011865a3b"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "h>0",
+          "m>0",
+          "epsilon->0+"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "perturbation": "h*phi(epsilon)-m*epsilon",
+          "premises": [
+            "phi(0)=0",
+            "phi(epsilon)/epsilon->0"
+          ]
+        }
+      },
+      "component": "little_o_reduction",
+      "expected": {
+        "negative_when_m_positive": true,
+        "premise": "limit(phi(epsilon)/epsilon,epsilon->0+)=0",
+        "reduced_limit": "-m"
+      },
+      "id": "CHG-B4.CLAIM.01",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B4"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "h>0",
+          "m>0",
+          "epsilon->0+"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "perturbation": "h*phi(epsilon)-m*epsilon",
+          "premises": [
+            "phi(0)=0",
+            "phi(epsilon)/epsilon->0"
+          ]
+        }
+      },
+      "component": "quadratic_optimizer",
+      "expected": true,
+      "id": "CHG-B4.CLAIM.02",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B4"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "h>0",
+          "m>0",
+          "epsilon->0+"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "perturbation": "h*phi(epsilon)-m*epsilon",
+          "premises": [
+            "phi(0)=0",
+            "phi(epsilon)/epsilon->0"
+          ]
+        }
+      },
+      "component": "universal_result",
+      "expected": {
+        "all_back_not_local_minimum": true,
+        "eventual_perturbation_sign": "negative",
+        "quadratic_clipped_optimizer": "max(0,1-m/(2*h))"
+      },
+      "id": "CHG-B4.CLAIM.03",
+      "inputs": {
+        "domain": [
+          "h>0",
+          "m>0",
+          "epsilon->0+"
+        ],
+        "perturbation": "h*phi(epsilon)-m*epsilon",
+        "premises": [
+          "phi(0)=0",
+          "phi(epsilon)/epsilon->0"
+        ]
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B4"
+    }
+  ],
+  "domains": [
+    {
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B4.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "CHG-B4",
+      "variables": [
+        {
+          "name": "h",
+          "node": "variable"
+        },
+        {
+          "name": "m",
+          "node": "variable"
+        },
+        {
+          "name": "phi",
+          "node": "variable"
+        }
+      ]
+    }
+  ],
+  "english_statement_sha256": "ee60295478f41810ed5e8f218425d2eb76bdf2f1f8149c90971bbb97f247382b",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "34101d6e7090319a35fd6626ff3a6caa9267ff06ca956fb244bc3b115fb3ab73",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-LIMIT-001"
+  ],
+  "group": "CHG",
+  "kind": "result",
+  "nonclaims": "No general empirical endpoint claim.",
+  "portuguese_statement_sha256": "df321f354134cb2454fe47b6021f1ec483cfe8217ac266247732609011865a3b",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "epsilon->0+"
+            ],
+            "perturbation": "h*phi(epsilon)-m*epsilon",
+            "premises": [
+              "phi(0)=0",
+              "phi(epsilon)/epsilon->0"
+            ]
+          }
+        },
+        "component": "little_o_reduction",
+        "expected": {
+          "negative_when_m_positive": true,
+          "premise": "limit(phi(epsilon)/epsilon,epsilon->0+)=0",
+          "reduced_limit": "-m"
+        },
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B4"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B4.LITTLEO.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "epsilon->0+"
+            ],
+            "perturbation": "h*phi(epsilon)-m*epsilon",
+            "premises": [
+              "phi(0)=0",
+              "phi(epsilon)/epsilon->0"
+            ]
+          }
+        },
+        "component": "quadratic_optimizer",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B4"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B4.QUADRATIC.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "epsilon->0+"
+            ],
+            "perturbation": "h*phi(epsilon)-m*epsilon",
+            "premises": [
+              "phi(0)=0",
+              "phi(epsilon)/epsilon->0"
+            ]
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "all_back_not_local_minimum": true,
+          "eventual_perturbation_sign": "negative",
+          "quadratic_clipped_optimizer": "max(0,1-m/(2*h))"
+        },
+        "inputs": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "epsilon->0+"
+          ],
+          "perturbation": "h*phi(epsilon)-m*epsilon",
+          "premises": [
+            "phi(0)=0",
+            "phi(epsilon)/epsilon->0"
+          ]
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B4"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B4.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "h",
+        "m",
+        "phi"
+      ]
+    }
+  ],
+  "registered_query_type": "exact directional_positive_part_power_hg result consequence",
+  "result_dependencies": [],
+  "result_id": "CHG-B4",
+  "schema_version": "1.0.0",
+  "scope": "One-follower endpoint of the declared family.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "nonnegative real",
+    "partial map",
+    "positive real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Endpoint obstruction",
+  "title_pt_BR": "Obstrução de extremidade",
+  "variables": [
+    {
+      "name": "h",
+      "sort": "positive real"
+    },
+    {
+      "name": "m",
+      "sort": "positive real"
+    },
+    {
+      "name": "phi",
+      "sort": "partial map"
+    }
+  ],
+  "withdrawal_condition": "Do not call it the central new theorem. It fails when another first-order/harder protection term is present or the markedness derivative is not strictly inward."
+}

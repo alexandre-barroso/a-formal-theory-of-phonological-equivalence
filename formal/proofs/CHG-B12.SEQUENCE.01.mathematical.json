@@ -1,0 +1,176 @@
+{
+  "assumptions_used": [
+    "CHG-B12.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "fixed_N>=1",
+        "p>1",
+        "J->infinity"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "carrier": "finite_solid_simplex",
+        "domain": [
+          "fixed_N>=1",
+          "p>1",
+          "J->infinity"
+        ],
+        "premises": [
+          "continuous_objective",
+          "unique_continuum_minimizer",
+          "complete_uniform_lattice_denominator_n+1",
+          "continuum_optimizer_absent_from_each_lattice_for_identity_nonpreservation",
+          "registered_query_locally_constant_at_optimizer_for_eventual_preservation"
+        ]
+      }
+    },
+    "component": "decimal_sequence",
+    "expected": [
+      [
+        1,
+        "49/50",
+        "122/125",
+        "4881/5000",
+        "97619/100000",
+        "97619/100000"
+      ],
+      true,
+      true
+    ],
+    "inputs": {},
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B12"
+  },
+  "claim_sha256": "503227d4b6d915e8a95e0b1335a3cff253962fa67e5cb953d8659615c02a9873",
+  "formal_statement_sha256": "f6a38e7f1b736882a25e9aa8d0fa647db29304efa79f19f37ec7b68965df6aaf",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "fixed_N>=1",
+        "p>1",
+        "J->infinity"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "carrier": "finite_solid_simplex",
+        "domain": [
+          "fixed_N>=1",
+          "p>1",
+          "J->infinity"
+        ],
+        "premises": [
+          "continuous_objective",
+          "unique_continuum_minimizer",
+          "complete_uniform_lattice_denominator_n+1",
+          "continuum_optimizer_absent_from_each_lattice_for_identity_nonpreservation",
+          "registered_query_locally_constant_at_optimizer_for_eventual_preservation"
+        ]
+      }
+    },
+    "assumption_model": {
+      "N": 1,
+      "lattice_path": {
+        "J_n": "10^n",
+        "n": "positive_integer_to_infinity"
+      },
+      "p": 2
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "fixed_N>=1",
+          "p>1",
+          "J->infinity"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "carrier": "finite_solid_simplex",
+          "domain": [
+            "fixed_N>=1",
+            "p>1",
+            "J->infinity"
+          ],
+          "premises": [
+            "continuous_objective",
+            "unique_continuum_minimizer",
+            "complete_uniform_lattice_denominator_n+1",
+            "continuum_optimizer_absent_from_each_lattice_for_identity_nonpreservation",
+            "registered_query_locally_constant_at_optimizer_for_eventual_preservation"
+          ]
+        }
+      },
+      "component": "decimal_sequence",
+      "expected": [
+        [
+          1,
+          "49/50",
+          "122/125",
+          "4881/5000",
+          "97619/100000",
+          "97619/100000"
+        ],
+        true,
+        true
+      ],
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B12"
+    },
+    "derivation": {
+      "component": "decimal_sequence",
+      "result_id": "CHG-B12",
+      "steps": [
+        "1/10",
+        "1/100",
+        "1/1000",
+        "1/10000",
+        "1/100000",
+        "1/1000000"
+      ],
+      "target": "41/42"
+    },
+    "mutant_ids": [
+      "CHG-B12.MUTANT.CONCLUSION",
+      "CHG-B12.MUTANT.ASSUMPTION",
+      "CHG-B12.MUTANT.COMPONENT",
+      "CHG-B12.MUT.INDEPENDENT-NEAREST-ROUNDING"
+    ],
+    "observed": [
+      [
+        1,
+        "49/50",
+        "122/125",
+        "4881/5000",
+        "97619/100000",
+        "97619/100000"
+      ],
+      true,
+      true
+    ],
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B12.SEQUENCE.01",
+  "proof_id": "CHG-B12.SEQUENCE.01.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "CHG-B2"
+  ],
+  "result_id": "CHG-B12",
+  "schema_version": "1.1.0"
+}

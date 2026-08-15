@@ -1,0 +1,280 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "FLUX-D4",
+        "explicit_raised_cosine_baseline",
+        "declared_finite_contact_jet_score_audit",
+        "connected_common_analytic_domain",
+        "interior_accumulating_exact_response"
+      ],
+      "id": "FLUX-D5.ASSUMPTION-MANIFEST",
+      "node": "flux_assumptions"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "FLUX-D4",
+            "explicit_raised_cosine_baseline",
+            "declared_finite_contact_jet_score_audit",
+            "connected_common_analytic_domain",
+            "interior_accumulating_exact_response"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "finite_perturbation",
+        "expected": {
+          "marginal_jet_at_1/4": [
+            0,
+            0,
+            0
+          ],
+          "primitive_at_0": 0,
+          "primitive_at_1/2": 0,
+          "primitive_at_1/8_nonzero": true
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D5"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "FLUX-D4",
+            "explicit_raised_cosine_baseline",
+            "declared_finite_contact_jet_score_audit",
+            "connected_common_analytic_domain",
+            "interior_accumulating_exact_response"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "response_recurrence",
+        "expected": "F(z_i(theta))=mu*(1+epsilon)*sum_(j=i)^N x_j(theta)^epsilon",
+        "node": "flux_result",
+        "result_id": "FLUX-D5"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "FLUX-D4",
+            "explicit_raised_cosine_baseline",
+            "declared_finite_contact_jet_score_audit",
+            "connected_common_analytic_domain",
+            "interior_accumulating_exact_response"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "finite_vs_accumulating_tomography",
+        "expected": {
+          "accumulating_interior_exact_response_kernel": "diagonal",
+          "accumulation_claim": "sufficient_not_necessary",
+          "declared_finite_audit_fibre": "nontrivial continuum"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D5"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "e22b10eda1c58fbe0aed775d2bd13e4335495ff73becdbe45d1cef56d41f6377",
+      "id": "FLUX-D5.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "a553f2a9a10f64961b1ef46cbf9fc264276d432d2aa0dac5167c4613049482ac"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "FLUX-D4",
+          "explicit_raised_cosine_baseline",
+          "declared_finite_contact_jet_score_audit",
+          "connected_common_analytic_domain",
+          "interior_accumulating_exact_response"
+        ],
+        "node": "flux_assumptions"
+      },
+      "component": "finite_perturbation",
+      "expected": {
+        "marginal_jet_at_1/4": [
+          0,
+          0,
+          0
+        ],
+        "primitive_at_0": 0,
+        "primitive_at_1/2": 0,
+        "primitive_at_1/8_nonzero": true
+      },
+      "id": "FLUX-D5.CLAIM.01",
+      "node": "flux_result",
+      "result_id": "FLUX-D5"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "FLUX-D4",
+          "explicit_raised_cosine_baseline",
+          "declared_finite_contact_jet_score_audit",
+          "connected_common_analytic_domain",
+          "interior_accumulating_exact_response"
+        ],
+        "node": "flux_assumptions"
+      },
+      "component": "response_recurrence",
+      "expected": "F(z_i(theta))=mu*(1+epsilon)*sum_(j=i)^N x_j(theta)^epsilon",
+      "id": "FLUX-D5.CLAIM.02",
+      "node": "flux_result",
+      "result_id": "FLUX-D5"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "FLUX-D4",
+          "explicit_raised_cosine_baseline",
+          "declared_finite_contact_jet_score_audit",
+          "connected_common_analytic_domain",
+          "interior_accumulating_exact_response"
+        ],
+        "node": "flux_assumptions"
+      },
+      "component": "finite_vs_accumulating_tomography",
+      "expected": {
+        "accumulating_interior_exact_response_kernel": "diagonal",
+        "accumulation_claim": "sufficient_not_necessary",
+        "declared_finite_audit_fibre": "nontrivial continuum"
+      },
+      "id": "FLUX-D5.CLAIM.03",
+      "node": "flux_result",
+      "result_id": "FLUX-D5"
+    }
+  ],
+  "domains": [
+    {
+      "family": "constitutive_flux",
+      "id": "FLUX-D5.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "FLUX-D5",
+      "variables": []
+    }
+  ],
+  "english_statement_sha256": "e22b10eda1c58fbe0aed775d2bd13e4335495ff73becdbe45d1cef56d41f6377",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "e8186e92be199c98ab81062f794ab754191f579a4b3751f6065a0695b7cc730a",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-ANALYTIC-001",
+    "FOUND-LIMIT-001",
+    "FOUND-LINEAR-001"
+  ],
+  "group": "FLUX",
+  "kind": "result",
+  "nonclaims": "The finite construction is audit-relative; the analytic identity theorem is an external antecedent.",
+  "portuguese_statement_sha256": "a553f2a9a10f64961b1ef46cbf9fc264276d432d2aa0dac5167c4613049482ac",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "FLUX-D4",
+            "explicit_raised_cosine_baseline",
+            "declared_finite_contact_jet_score_audit",
+            "connected_common_analytic_domain",
+            "interior_accumulating_exact_response"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "finite_perturbation",
+        "expected": {
+          "marginal_jet_at_1/4": [
+            0,
+            0,
+            0
+          ],
+          "primitive_at_0": 0,
+          "primitive_at_1/2": 0,
+          "primitive_at_1/8_nonzero": true
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D5"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FLUX-D5.FINITE.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "FLUX-D4",
+            "explicit_raised_cosine_baseline",
+            "declared_finite_contact_jet_score_audit",
+            "connected_common_analytic_domain",
+            "interior_accumulating_exact_response"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "response_recurrence",
+        "expected": "F(z_i(theta))=mu*(1+epsilon)*sum_(j=i)^N x_j(theta)^epsilon",
+        "node": "flux_result",
+        "result_id": "FLUX-D5"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FLUX-D5.RECURRENCE.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "FLUX-D4",
+            "explicit_raised_cosine_baseline",
+            "declared_finite_contact_jet_score_audit",
+            "connected_common_analytic_domain",
+            "interior_accumulating_exact_response"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "finite_vs_accumulating_tomography",
+        "expected": {
+          "accumulating_interior_exact_response_kernel": "diagonal",
+          "accumulation_claim": "sufficient_not_necessary",
+          "declared_finite_audit_fibre": "nontrivial continuum"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D5"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FLUX-D5.IDENTITY.03",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact constitutive_flux result consequence",
+  "result_dependencies": [
+    "FLUX-D4"
+  ],
+  "result_id": "FLUX-D5",
+  "schema_version": "1.0.0",
+  "scope": "Finite versus accumulating constitutive response queries.",
+  "sorts": [
+    "analytic germ with declared remainder condition",
+    "finite sequence",
+    "positive real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Finite response fibres and accumulating-response tomography",
+  "title_pt_BR": "Fibras de resposta finitas e tomografia por respostas acumuladas",
+  "variables": [],
+  "withdrawal_condition": "The finite nonidentification claim is restricted to the printed audit family and explicit baselines. Accumulation is sufficient, not necessary or cardinality-minimal. Do not invent an order among other singular or partial-response consumers without factorization."
+}

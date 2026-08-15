@@ -1,0 +1,80 @@
+{
+  "attained_set_statement": "positive masses attain ri(conv(V_B)-conv(V_A))",
+  "proof_design": "MAX-G9 response-envelope characterization and nonfactorization witnesses",
+  "closed_envelope_statement": "closure of the attained set is conv(V_B)-conv(V_A)",
+  "same_envelope_different_law": {
+    "common_envelope": [
+      1,
+      3
+    ],
+    "ledger_one": {
+      "A_rows": [
+        0,
+        1,
+        2
+      ],
+      "B_rows": [
+        3
+      ]
+    },
+    "ledger_two": {
+      "A_rows": [
+        0,
+        2
+      ],
+      "B_rows": [
+        3
+      ]
+    },
+    "positive_denominator_factors": [
+      "1+z",
+      "1+z^2",
+      "1+z^2+z^3"
+    ],
+    "positive_difference_numerator": {
+      "terms": [
+        {
+          "coefficient": "1",
+          "powers": [
+            4
+          ]
+        }
+      ],
+      "variables": [
+        "z"
+      ]
+    }
+  },
+  "same_law_different_envelope": {
+    "envelopes": [
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        3
+      ]
+    ],
+    "ledger_one": {
+      "A_rows": [
+        0
+      ],
+      "B_rows": [
+        1
+      ],
+      "common_factor": "1"
+    },
+    "ledger_two": {
+      "A_rows": [
+        0,
+        2
+      ],
+      "B_rows": [
+        1,
+        3
+      ],
+      "common_factor": "1+z^2"
+    }
+  }
+}

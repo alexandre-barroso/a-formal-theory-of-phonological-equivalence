@@ -1,0 +1,60 @@
+{
+  "assumptions_used": [
+    "APP-BASIC.SOURCE.01"
+  ],
+  "claim": {
+    "algorithm": "basic_syllable_inventory_v1",
+    "expected": {
+      "Inventory": [
+        121,
+        105,
+        16
+      ],
+      "ReusedFrom": "MAX-G6"
+    },
+    "inputs": {
+      "exclude_reflexive": true,
+      "ranking_count": 24
+    },
+    "node": "exact_application_result",
+    "source": {
+      "path": "formal/source_transcriptions/basic_syllable_system.json",
+      "sha256": "344ee31c184c56b375af75daf31f89bff4bbed93011d66785c36f5feb09e8cbd",
+      "transcription_id": "SOURCE-BASIC-SYLLABLE-SYSTEM"
+    }
+  },
+  "claim_sha256": "14990d6b95c2f1b3f31f2df97a25709f6ac46506f862c6a65d62c569f82dc748",
+  "formal_statement_sha256": "14c3f3c79200ded31c7f33dd7dec214994a854463aedb67ba01d12fc8dfa912f",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001"
+  ],
+  "payload": {
+    "algorithm": "basic_syllable_inventory_v1",
+    "expected": {
+      "Inventory": [
+        121,
+        105,
+        16
+      ],
+      "ReusedFrom": "MAX-G6"
+    },
+    "inputs": {
+      "exclude_reflexive": true,
+      "ranking_count": 24
+    },
+    "source": {
+      "path": "formal/source_transcriptions/basic_syllable_system.json",
+      "sha256": "344ee31c184c56b375af75daf31f89bff4bbed93011d66785c36f5feb09e8cbd",
+      "transcription_id": "SOURCE-BASIC-SYLLABLE-SYSTEM"
+    }
+  },
+  "proof_goal_id": "APP-BASIC.REUSE.01",
+  "proof_id": "APP-BASIC.REUSE.01.PROOF",
+  "proof_method": "ExactApplicationProof",
+  "result_dependencies": [
+    "MAX-G6"
+  ],
+  "result_id": "APP-BASIC",
+  "schema_version": "1.1.0"
+}

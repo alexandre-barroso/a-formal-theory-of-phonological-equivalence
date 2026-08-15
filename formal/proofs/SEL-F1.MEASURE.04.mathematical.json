@@ -1,0 +1,70 @@
+{
+  "assumptions_used": [
+    "SEL-F1.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "complete_finite_GEN",
+        "unique_intact_winner",
+        "named_normal_nonzero",
+        "named_normal_in_complete_comparison_family",
+        "strict_winner_inequalities",
+        "arbitrary_measure_for_event_identity_consequence",
+        "validated_nonempty_open_gap_for_strict_full_support_probability",
+        "RadiusTwoSphereFixtureCoordinateTransport_for_exact_probability_fixture"
+      ],
+      "family": "selected_output_event",
+      "node": "support_selection_assumptions"
+    },
+    "component": "universal_radial_equivalence",
+    "expected": {
+      "event_identity_iff": "every rival normal is a positive scalar multiple of the target normal",
+      "pairwise_event_is_upper_bound": true,
+      "probability_equality_if_positive_rays": "every measure on the parameter space",
+      "strict_probability_converse": "requires a proved nonempty open spherical gap and a full-support spherical law"
+    },
+    "node": "support_selection_result",
+    "result_id": "SEL-F1"
+  },
+  "claim_sha256": "20ed62bc7ce3240c8f065207155045e245338e26163f9fc6c323f816296f2944",
+  "formal_statement_sha256": "37f5f80cbb13cfbf3e48c083564d3f916952ffcebfcb7b040f752b2bc227088e",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-LINEAR-001",
+    "FOUND-MEASURE-001",
+    "FOUND-CONVEX-HULL-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.Selection.selectedEvent_eq_pairwise_iff_positiveRays",
+      "measure_selectedEvent_eq_pairwise_of_positiveRays",
+      "exists_open_spherical_gap_of_not_positiveRayFamily",
+      "haarSphereProbability_selected_lt_pairwise_of_not_positiveRayFamily",
+      "sel_f1_open_patch_measure_proof"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "SEL-F1.MEASURE.04"
+  },
+  "proof_goal_id": "SEL-F1.MEASURE.04",
+  "proof_id": "SEL-F1.MEASURE.04.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [],
+  "result_id": "SEL-F1",
+  "schema_version": "1.1.0"
+}

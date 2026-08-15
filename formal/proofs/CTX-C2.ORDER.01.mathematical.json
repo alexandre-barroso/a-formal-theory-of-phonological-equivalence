@@ -1,0 +1,139 @@
+{
+  "assumptions_used": [
+    "CTX-C2.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "algorithm": "ctx_c2_order_fixture_v1",
+    "expected": [
+      [
+        "7/2",
+        4
+      ],
+      [
+        "17/4",
+        4
+      ]
+    ],
+    "family": "contextual_interaction",
+    "inputs": {
+      "p": 2,
+      "paths": [
+        [
+          "1",
+          "0",
+          "1/2"
+        ],
+        [
+          "1",
+          "1",
+          "0"
+        ]
+      ],
+      "rho": "3"
+    },
+    "node": "analytic_proof_result"
+  },
+  "claim_sha256": "82180c5e6821d851fb75672ad48eea42ee4230fe8dc75aadffd2ed631701d50a",
+  "formal_statement_sha256": "50918e1ee50c08eabd298285e6c4b159f982eb1b4d9869e7cc923cd65b63915e",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "p_strictly_greater_than_one",
+        "K_integer_at_least_two",
+        "positive_fixed_edge_site_ratio",
+        "complete_candidate_order_query",
+        "opposite_endpoint_probe",
+        "CTX-C1"
+      ],
+      "node": "contextual_assumptions"
+    },
+    "assumption_model": {
+      "K": 2,
+      "one_trigger": [
+        1,
+        0
+      ],
+      "opposite_triggers": [
+        1,
+        1
+      ],
+      "p": 2,
+      "rho": 3
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "algorithm": "ctx_c2_order_fixture_v1",
+      "expected": [
+        [
+          "7/2",
+          4
+        ],
+        [
+          "17/4",
+          4
+        ]
+      ],
+      "family": "contextual_interaction",
+      "inputs": {
+        "p": 2,
+        "paths": [
+          [
+            "1",
+            "0",
+            "1/2"
+          ],
+          [
+            "1",
+            "1",
+            "0"
+          ]
+        ],
+        "rho": "3"
+      },
+      "node": "analytic_proof_result"
+    },
+    "derivation": {
+      "directional_then_absolute": [
+        [
+          "7/2",
+          4
+        ],
+        [
+          "17/4",
+          4
+        ]
+      ]
+    },
+    "mutant_ids": [
+      "CTX-C2.MUTANT.CONCLUSION",
+      "CTX-C2.MUTANT.ASSUMPTION",
+      "CTX-C2.MUTANT.COMPONENT"
+    ],
+    "observed": [
+      [
+        "7/2",
+        4
+      ],
+      [
+        "17/4",
+        4
+      ]
+    ],
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CTX-C2.ORDER.01",
+  "proof_id": "CTX-C2.ORDER.01.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [],
+  "result_id": "CTX-C2",
+  "schema_version": "1.1.0"
+}

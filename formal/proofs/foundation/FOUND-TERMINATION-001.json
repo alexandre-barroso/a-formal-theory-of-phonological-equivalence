@@ -1,0 +1,22 @@
+{
+  "conclusion": {
+    "condition": "strict descent",
+    "domain": "natural numbers",
+    "node": "well_founded_descent"
+  },
+  "formal_statement_sha256": "6dbcc2b011ae500619935da805fbaaa502a084d888bb333169a6b46f5bac2cd6",
+  "foundation_id": "FOUND-TERMINATION-001",
+  "proof_id": "FOUND-TERMINATION-001.PROOF",
+  "proof_method": "LocalStructuralDerivationProof",
+  "schema_version": "1.0.0",
+  "steps": [
+    {
+      "domain": "natural numbers",
+      "rule": "least_element_principle"
+    },
+    {
+      "conclusion": "well_founded_descent",
+      "rule": "strict_descent_contradicts_minimality"
+    }
+  ]
+}

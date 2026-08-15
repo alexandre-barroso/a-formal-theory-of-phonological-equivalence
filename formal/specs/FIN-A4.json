@@ -1,0 +1,727 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "name": "reachable",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A4.A1",
+      "name": "builtin:duplicate_free_finite_set",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "name": "strong_query",
+            "node": "variable"
+          },
+          {
+            "name": "weak_query",
+            "node": "variable"
+          },
+          {
+            "name": "reduction",
+            "node": "variable"
+          }
+        ],
+        {
+          "name": "reachable",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A4.A2",
+      "name": "builtin:total_maps_on",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "weak_query",
+          "node": "variable"
+        },
+        {
+          "name": "factor",
+          "node": "variable"
+        },
+        {
+          "name": "strong_query",
+          "node": "variable"
+        },
+        {
+          "name": "reachable",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A4.A3",
+      "name": "builtin:weak_query_factors_through_strong",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "consumer_family",
+          "node": "variable"
+        },
+        {
+          "name": "added_consumer",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A4.A4",
+      "name": "builtin:prospectively_fixed_consumer_family",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "arguments": [
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "strong_query",
+              "node": "variable"
+            },
+            "node": "kernel"
+          },
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "weak_query",
+              "node": "variable"
+            },
+            "node": "kernel"
+          }
+        ],
+        "name": "builtin:relation_subset",
+        "node": "predicate_application"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "reduction",
+                "node": "variable"
+              },
+              "node": "kernel"
+            },
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "strong_query",
+                "node": "variable"
+              },
+              "node": "kernel"
+            }
+          ],
+          "name": "builtin:relation_subset",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "reduction",
+                "node": "variable"
+              },
+              "node": "kernel"
+            },
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "weak_query",
+                "node": "variable"
+              },
+              "node": "kernel"
+            }
+          ],
+          "name": "builtin:relation_subset",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "left": {
+          "arguments": [
+            {
+              "name": "reachable",
+              "node": "variable"
+            },
+            {
+              "name": "consumer_family",
+              "node": "variable"
+            },
+            {
+              "name": "added_consumer",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:product_query_kernel",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "reachable",
+                  "node": "variable"
+                },
+                {
+                  "name": "consumer_family",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:consumer_family_kernel",
+              "node": "function_application"
+            },
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "added_consumer",
+                "node": "variable"
+              },
+              "node": "kernel"
+            }
+          ],
+          "node": "intersection"
+        }
+      },
+      {
+        "arguments": [
+          {
+            "name": "reachable",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:all_kernel_claims_restricted_to",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "5cbb51bd8298c9a14ec5d0891c0da19b020c78378ad48e82f5c453444e84b9b4",
+      "id": "FIN-A4.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "0fbfec375d0f1f66921c750cb03ceb72cc8188d85b68d4e8fb267bb94ecc0676"
+    },
+    {
+      "arguments": [
+        {
+          "domain": {
+            "name": "reachable",
+            "node": "variable"
+          },
+          "map": {
+            "name": "strong_query",
+            "node": "variable"
+          },
+          "node": "kernel"
+        },
+        {
+          "domain": {
+            "name": "reachable",
+            "node": "variable"
+          },
+          "map": {
+            "name": "weak_query",
+            "node": "variable"
+          },
+          "node": "kernel"
+        }
+      ],
+      "id": "FIN-A4.C1",
+      "name": "builtin:relation_subset",
+      "node": "predicate_application"
+    },
+    {
+      "antecedent": {
+        "arguments": [
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "reduction",
+              "node": "variable"
+            },
+            "node": "kernel"
+          },
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "strong_query",
+              "node": "variable"
+            },
+            "node": "kernel"
+          }
+        ],
+        "name": "builtin:relation_subset",
+        "node": "predicate_application"
+      },
+      "consequent": {
+        "arguments": [
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "reduction",
+              "node": "variable"
+            },
+            "node": "kernel"
+          },
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "weak_query",
+              "node": "variable"
+            },
+            "node": "kernel"
+          }
+        ],
+        "name": "builtin:relation_subset",
+        "node": "predicate_application"
+      },
+      "id": "FIN-A4.C2",
+      "node": "implies"
+    },
+    {
+      "id": "FIN-A4.C3",
+      "left": {
+        "arguments": [
+          {
+            "name": "reachable",
+            "node": "variable"
+          },
+          {
+            "name": "consumer_family",
+            "node": "variable"
+          },
+          {
+            "name": "added_consumer",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:product_query_kernel",
+        "node": "function_application"
+      },
+      "node": "equal",
+      "right": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "reachable",
+                "node": "variable"
+              },
+              {
+                "name": "consumer_family",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:consumer_family_kernel",
+            "node": "function_application"
+          },
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "added_consumer",
+              "node": "variable"
+            },
+            "node": "kernel"
+          }
+        ],
+        "node": "intersection"
+      }
+    },
+    {
+      "arguments": [
+        {
+          "name": "reachable",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A4.C4",
+      "name": "builtin:all_kernel_claims_restricted_to",
+      "node": "predicate_application"
+    }
+  ],
+  "domains": [
+    {
+      "id": "FIN-A4.DOMAIN",
+      "node": "domain",
+      "predicate": {
+        "arguments": [
+          {
+            "name": "reachable",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:prospectively_fixed_reachable_set",
+        "node": "predicate_application"
+      },
+      "variable": {
+        "name": "reachable",
+        "node": "variable"
+      }
+    }
+  ],
+  "english_statement_sha256": "5cbb51bd8298c9a14ec5d0891c0da19b020c78378ad48e82f5c453444e84b9b4",
+  "expected_proof_methods": [
+    "FiniteSemanticProof",
+    "LeanKernelProof"
+  ],
+  "formal_statement_sha256": "d6ba99b1bba5e503f8c1eaae27446d33d6525a4233c5236dce456592be4adba5",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001"
+  ],
+  "group": "FIN",
+  "kind": "result",
+  "nonclaims": "Neither converse is licensed; unreachable states are outside a reachable-image claim.",
+  "portuguese_statement_sha256": "0fbfec375d0f1f66921c750cb03ceb72cc8188d85b68d4e8fb267bb94ecc0676",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A4.KERNEL.01"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A4.KERNEL.01",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A4.CONVERSES.02"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            true,
+            false,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A4.CONVERSES.02",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A4.REACHABLE.03"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            false,
+            true,
+            [
+              "c"
+            ]
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A4.REACHABLE.03",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "domain": {
+                  "name": "reachable",
+                  "node": "variable"
+                },
+                "map": {
+                  "name": "strong_query",
+                  "node": "variable"
+                },
+                "node": "kernel"
+              },
+              {
+                "domain": {
+                  "name": "reachable",
+                  "node": "variable"
+                },
+                "map": {
+                  "name": "weak_query",
+                  "node": "variable"
+                },
+                "node": "kernel"
+              }
+            ],
+            "name": "builtin:relation_subset",
+            "node": "predicate_application"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "domain": {
+                    "name": "reachable",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "reduction",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                },
+                {
+                  "domain": {
+                    "name": "reachable",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "strong_query",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                }
+              ],
+              "name": "builtin:relation_subset",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "domain": {
+                    "name": "reachable",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "reduction",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                },
+                {
+                  "domain": {
+                    "name": "reachable",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "weak_query",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                }
+              ],
+              "name": "builtin:relation_subset",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "left": {
+              "arguments": [
+                {
+                  "name": "reachable",
+                  "node": "variable"
+                },
+                {
+                  "name": "consumer_family",
+                  "node": "variable"
+                },
+                {
+                  "name": "added_consumer",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:product_query_kernel",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "reachable",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "consumer_family",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:consumer_family_kernel",
+                  "node": "function_application"
+                },
+                {
+                  "domain": {
+                    "name": "reachable",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "added_consumer",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                }
+              ],
+              "node": "intersection"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "name": "reachable",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:all_kernel_claims_restricted_to",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A4.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "reachable",
+        "strong_query",
+        "weak_query",
+        "factor",
+        "reduction",
+        "consumer_family",
+        "added_consumer"
+      ]
+    }
+  ],
+  "registered_query_type": "finite query factorization and direct-consumer refinement",
+  "result_dependencies": [],
+  "result_id": "FIN-A4",
+  "schema_version": "1.0.0",
+  "scope": "Finite direct queries and deterministic chains.",
+  "sorts": [
+    "Boolean",
+    "finite map",
+    "finite sequence",
+    "finite set"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Query and consumer monotonicity",
+  "title_pt_BR": "Monotonicidade de questões e consumidores",
+  "variables": [
+    {
+      "name": "reachable",
+      "sort": "finite set"
+    },
+    {
+      "name": "strong_query",
+      "sort": "finite map"
+    },
+    {
+      "name": "weak_query",
+      "sort": "finite map"
+    },
+    {
+      "name": "factor",
+      "sort": "finite map"
+    },
+    {
+      "name": "reduction",
+      "sort": "finite map"
+    },
+    {
+      "name": "consumer_family",
+      "sort": "finite sequence"
+    },
+    {
+      "name": "added_consumer",
+      "sort": "finite map"
+    }
+  ],
+  "withdrawal_condition": "No firstness claim. The rule does not compare unrelated or incompletely typed queries and does not license retrospective consumer selection."
+}

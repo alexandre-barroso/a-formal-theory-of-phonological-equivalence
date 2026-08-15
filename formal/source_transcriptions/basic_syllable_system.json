@@ -1,0 +1,51 @@
+{
+  "formal_objects": {
+    "candidate_and_input_order": ["CV", "CVC", "V", "VC"],
+    "constraint_order": ["Onset", "NoCoda", "Dep", "Max"],
+    "strict_ot_contract": {
+      "ranking_domain": "all 24 permutations of four constraints",
+      "tie_policy": "a mapping belongs to a strict winner event only when its candidate is the unique lexicographic minimum under the ranking",
+      "universal_direction": "the antecedent winner event is a subset of the consequent winner event"
+    },
+    "violation_tensor": [
+      [[0, 0, 0, 0], [0, 1, 1, 0], [1, 0, 0, 1], [1, 1, 1, 1]],
+      [[0, 0, 0, 1], [0, 1, 0, 0], [1, 0, 0, 2], [1, 1, 0, 1]],
+      [[0, 0, 1, 0], [0, 1, 2, 0], [1, 0, 0, 0], [1, 1, 1, 0]],
+      [[0, 0, 1, 1], [0, 1, 1, 0], [1, 0, 0, 1], [1, 1, 0, 0]]
+    ]
+  },
+  "project_derived_uses": [
+    "The complete 24-ranking event inventory is regenerated from the tensor rather than copied from a report.",
+    "The later 121-convention is decomposed into nonreflexive implications with empty and nonempty antecedent events.",
+    "The exact continuum MaxEnt cone is a project-derived result and is not attributed to the source's finite weight grid."
+  ],
+  "schema_version": "1.0.0",
+  "scope_ceiling": "The transcription fixes one four-form, four-constraint Basic Syllable contract. It does not establish an architecture-wide verdict about MaxEnt, NHG, HG, or phonological ontology.",
+  "source_artifacts": [
+    {
+      "anchors": [
+        {"physical_pdf_page": 14, "printed_page_or_section": "section 4.2", "transcribed_role": "four inputs/candidates, four constraints, and impossible-antecedent analysis"},
+        {"physical_pdf_page": 29, "printed_page_or_section": "section 8.1", "transcribed_role": "121 later-convention universals and the finite [0,5] step-0.1 weight search"}
+      ],
+      "bibtex_key": "magriAnttila2026probabilisticCategorical",
+      "filename": "magriAnttila2026probabilisticCategorical.pdf",
+      "page_count": 59,
+      "sha256": "e8775a431fbc5538438eb597ace78cc77b25914eca57719fbf44fd67bb1e3412"
+    },
+    {
+      "anchors": [
+        {"physical_pdf_page": 6, "printed_page_or_section": "Basic Syllable discussion and example (13)", "transcribed_role": "earlier 100=84+16 correspondence convention and explicit infeasible antecedents"}
+      ],
+      "bibtex_key": "anttilaMagri2018doesMaxEntOvergenerate",
+      "filename": "anttilaMagri2018doesMaxEntOvergenerate.pdf",
+      "page_count": 12,
+      "sha256": "8de92300eb1163136d9ee235a2f5821d7c50a861fc11297c7d9d2df11374275b"
+    }
+  ],
+  "source_claims": [
+    "The later source defines the Basic Syllable system over sixteen mappings and reports 121 categorical HG/NHG implications under its convention.",
+    "The later source's zero-only weight-pruning claim is based on a finite grid and is not presented there as an exact continuum proof.",
+    "The 2018 source reports 100=84+16 under a different correspondence convention and explicitly distinguishes infeasible antecedents."
+  ],
+  "transcription_id": "SOURCE-BASIC-SYLLABLE-SYSTEM"
+}

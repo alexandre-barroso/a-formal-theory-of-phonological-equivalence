@@ -1,0 +1,85 @@
+{
+  "assumptions_used": [
+    "SEL-F2.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "printed_binary_network",
+        "all_four_surface_candidates",
+        "five_independent_disruption_coordinates",
+        "strict_winner_inequalities",
+        "registered_Euclidean_or_Frobenius_coordinate_metric",
+        "exact_intermediate_separating_shell_with_first_event_open_patch_and_second_event_empty",
+        "exact_far_shell_with_nonempty_open_patches_for_both_events",
+        "positive_normalized_angular_mass_for_nonempty_open_spherical_patches",
+        "one_common_two_atom_radial_law_and_one_common_angular_law_for_both_inputs",
+        "far_shell_mass_equals_a_over_two_times_a_plus_c_with_a_b_c_positive"
+      ],
+      "family": "complete_binary_selected_output",
+      "node": "support_selection_assumptions"
+    },
+    "component": "common_radial_law",
+    "expected": {
+      "both_named_errors_positive": true,
+      "euclidean_far_shell_radius_squared": 233,
+      "euclidean_intermediate_probability_order": "P(w->y)=0<P(x->z)",
+      "euclidean_intermediate_shell_radius_squared": 80,
+      "euclidean_two_shell_probability_order": "0<P(w->y)<P(x->z)",
+      "far_shell_weight": "epsilon=a/(2*(a+c))",
+      "frobenius_far_shell_radius_squared": 153,
+      "frobenius_intermediate_probability_order": "P(w->y)=0<P(x->z)",
+      "frobenius_intermediate_shell_radius_squared": 122,
+      "frobenius_two_shell_probability_order": "0<P(w->y)<P(x->z)",
+      "one_common_two_shell_spherical_law_per_declared_metric": true,
+      "probability_gap_identity": "P(x->z)-P(w->y)=a/2+epsilon*b"
+    },
+    "node": "support_selection_result",
+    "result_id": "SEL-F2"
+  },
+  "claim_sha256": "bb0932497581bb173054d6e726dbb4032b4a765566d506b0e6c2d9911a99e177",
+  "formal_statement_sha256": "78aba196d83d36c130061f77e240d1b207b6bf970a7a18987415f55b9cea9fd6",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-LINEAR-001",
+    "FOUND-MEASURE-001",
+    "FOUND-CONVEX-HULL-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.Selection.sel_f2_commonlaw_04",
+      "sel_f2_commonlaw_euclidean",
+      "sel_f2_commonlaw_frobenius",
+      "haarSphereProbability_open_pos",
+      "exists_positive_twoShell_reversal",
+      "sel_f2_common_twoShell_positive_reversal_euclidean",
+      "sel_f2_common_twoShell_positive_reversal_frobenius",
+      "sel_f2_common_twoShell_positive_reversal"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "SEL-F2.COMMONLAW.04"
+  },
+  "proof_goal_id": "SEL-F2.COMMONLAW.04",
+  "proof_id": "SEL-F2.COMMONLAW.04.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [
+    "SEL-F1"
+  ],
+  "result_id": "SEL-F2",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,17 @@
+family	position	exact_value	decimal_value	objective_scope
+linear_site_finite_support	0	1	1	CHG-B2
+linear_site_finite_support	1	3/5	0.6	CHG-B2
+linear_site_finite_support	2	3/10	0.3	CHG-B2
+linear_site_finite_support	3	1/10	0.1	CHG-B2
+linear_site_finite_support	4	0	0	CHG-B2
+linear_site_finite_support	5	0	0	CHG-B2
+linear_site_finite_support	6	0	0	CHG-B2
+linear_site_finite_support	7	0	0	CHG-B2
+matched_power_geometric	0	1	1	SUP-E3/SUP-E4
+matched_power_geometric	1	3/5	0.6	SUP-E3/SUP-E4
+matched_power_geometric	2	9/25	0.36	SUP-E3/SUP-E4
+matched_power_geometric	3	27/125	0.216	SUP-E3/SUP-E4
+matched_power_geometric	4	81/625	0.1296	SUP-E3/SUP-E4
+matched_power_geometric	5	243/3125	0.07776	SUP-E3/SUP-E4
+matched_power_geometric	6	729/15625	0.046656	SUP-E3/SUP-E4
+matched_power_geometric	7	2187/78125	0.0279936	SUP-E3/SUP-E4

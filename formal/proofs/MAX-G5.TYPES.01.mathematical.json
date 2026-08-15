@@ -1,0 +1,432 @@
+{
+  "assumptions_used": [
+    "MAX-G5.DOMAIN"
+  ],
+  "claim": {
+    "bindings": [
+      {
+        "sort": "finite set",
+        "variable": "E"
+      },
+      {
+        "sort": "finite set",
+        "variable": "F"
+      }
+    ],
+    "body": {
+      "arguments": [
+        {
+          "antecedent": {
+            "left": {
+              "name": "E",
+              "node": "variable"
+            },
+            "node": "equal",
+            "right": {
+              "elements": [],
+              "node": "finite_set"
+            }
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "name": "E",
+                "node": "variable"
+              },
+              {
+                "name": "F",
+                "node": "variable"
+              }
+            ],
+            "name": "categorical_event_implication",
+            "node": "function_application"
+          },
+          "node": "implies"
+        },
+        {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "E",
+                  "node": "variable"
+                },
+                {
+                  "name": "F",
+                  "node": "variable"
+                }
+              ],
+              "name": "categorical_event_implication",
+              "node": "function_application"
+            },
+            {
+              "arguments": [
+                {
+                  "name": "E",
+                  "node": "variable"
+                },
+                {
+                  "name": "F",
+                  "node": "variable"
+                }
+              ],
+              "name": "numerical_probability_order",
+              "node": "function_application"
+            }
+          ],
+          "name": "sort_distinct",
+          "node": "predicate_application"
+        },
+        {
+          "antecedent": {
+            "arguments": [
+              {
+                "left": {
+                  "name": "E",
+                  "node": "variable"
+                },
+                "node": "equal",
+                "right": {
+                  "elements": [],
+                  "node": "finite_set"
+                }
+              },
+              {
+                "left": {
+                  "name": "F",
+                  "node": "variable"
+                },
+                "node": "equal",
+                "right": {
+                  "elements": [],
+                  "node": "finite_set"
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "left": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "E",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "F",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "numerical_probability_order",
+                  "node": "function_application"
+                },
+                {
+                  "arguments": [
+                    {
+                      "name": "F",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "E",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "numerical_probability_order",
+                  "node": "function_application"
+                }
+              ],
+              "node": "and"
+            },
+            "node": "iff",
+            "right": {
+              "arguments": [
+                {
+                  "name": "E",
+                  "node": "variable"
+                },
+                {
+                  "name": "F",
+                  "node": "variable"
+                }
+              ],
+              "name": "numerical_probability_equal",
+              "node": "function_application"
+            }
+          },
+          "node": "implies"
+        }
+      ],
+      "node": "and"
+    },
+    "node": "forall"
+  },
+  "claim_sha256": "c3f7b583989665eadf86118e8a2a13f354749545ce8909f6f04406dc4fb797eb",
+  "formal_statement_sha256": "9d71783e3f3c7ea48dded895addba0b8a4d374de11818b0d4c17b48906ee8fe4",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-GORDAN-STIEMKE-001"
+  ],
+  "payload": {
+    "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+    "checker_module_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+    "claim_sha256": "c3f7b583989665eadf86118e8a2a13f354749545ce8909f6f04406dc4fb797eb",
+    "closure_proof": {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "finite set",
+            "variable": "E"
+          },
+          {
+            "sort": "finite set",
+            "variable": "F"
+          }
+        ],
+        "body": {
+          "arguments": [
+            {
+              "antecedent": {
+                "left": {
+                  "name": "E",
+                  "node": "variable"
+                },
+                "node": "equal",
+                "right": {
+                  "elements": [],
+                  "node": "finite_set"
+                }
+              },
+              "consequent": {
+                "arguments": [
+                  {
+                    "name": "E",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "F",
+                    "node": "variable"
+                  }
+                ],
+                "name": "categorical_event_implication",
+                "node": "function_application"
+              },
+              "node": "implies"
+            },
+            {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "E",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "F",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "categorical_event_implication",
+                  "node": "function_application"
+                },
+                {
+                  "arguments": [
+                    {
+                      "name": "E",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "F",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "numerical_probability_order",
+                  "node": "function_application"
+                }
+              ],
+              "name": "sort_distinct",
+              "node": "predicate_application"
+            },
+            {
+              "antecedent": {
+                "arguments": [
+                  {
+                    "left": {
+                      "name": "E",
+                      "node": "variable"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "elements": [],
+                      "node": "finite_set"
+                    }
+                  },
+                  {
+                    "left": {
+                      "name": "F",
+                      "node": "variable"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "elements": [],
+                      "node": "finite_set"
+                    }
+                  }
+                ],
+                "node": "and"
+              },
+              "consequent": {
+                "left": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "name": "E",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "F",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "numerical_probability_order",
+                      "node": "function_application"
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "name": "F",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "E",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "numerical_probability_order",
+                      "node": "function_application"
+                    }
+                  ],
+                  "node": "and"
+                },
+                "node": "iff",
+                "right": {
+                  "arguments": [
+                    {
+                      "name": "E",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "F",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "numerical_probability_equal",
+                  "node": "function_application"
+                }
+              },
+              "node": "implies"
+            }
+          ],
+          "node": "and"
+        },
+        "node": "forall"
+      },
+      "claim_sha256": "c3f7b583989665eadf86118e8a2a13f354749545ce8909f6f04406dc4fb797eb",
+      "formal_statement_sha256": "9b7e6778a5f6948a78554fbd7c11bdf7839fd60ba89f0ab19717025bc210a29d",
+      "payload": {
+        "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+        "checker_module_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+        "claim_sha256": "c3f7b583989665eadf86118e8a2a13f354749545ce8909f6f04406dc4fb797eb",
+        "closure_record": {
+          "claim_sha256": "c3f7b583989665eadf86118e8a2a13f354749545ce8909f6f04406dc4fb797eb",
+          "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+          "definition_dependencies": [
+            "MAXENT-SHARED-1"
+          ],
+          "formal_statement_sha256": "9b7e6778a5f6948a78554fbd7c11bdf7839fd60ba89f0ab19717025bc210a29d",
+          "foundation_dependencies": [
+            "FOUND-LOGIC-001",
+            "FOUND-GORDAN-STIEMKE-001"
+          ],
+          "mutant_ids": [
+            "MAX-G5.TYPES.MUTANT.COERCE_BOOLEAN_TO_ORDER",
+            "MAX-G5.TYPES.MUTANT.EMPTY_ANTECEDENT_FALSE",
+            "MAX-G5.TYPES.MUTANT.DROP_ANTISYMMETRY"
+          ],
+          "proof_goal_dependencies": [],
+          "proof_goal_id": "MAX-G5.TYPES.01",
+          "proof_methods": [
+            "FirstOrderProof"
+          ],
+          "proof_schema": "many_sorted_vacuity_and_order_antisymmetry_v1",
+          "proof_steps": [
+            "assign_categorical_event_implication_to_the_Boolean_event_inclusion_sort",
+            "assign_numerical_probability_order_to_the_ordered_real_sort",
+            "prove_empty_event_is_included_in_every_finite_event",
+            "forbid_a_coercion_from_categorical_truth_to_numerical_order",
+            "apply_weak_order_antisymmetry_to_mutual_numerical_orders",
+            "prove_numerical_equality_implies_both_weak_orders"
+          ],
+          "result_dependencies": [
+            "MAX-G4"
+          ],
+          "result_id": "MAX-G5",
+          "schema_payload": {
+            "categorical_sort": "Boolean event inclusion",
+            "empty_event_probability_evidence": false,
+            "implicit_coercions": [],
+            "numerical_sort": "ordered real probability"
+          },
+          "source_transcription_dependencies": []
+        },
+        "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+        "proof": "formal/proofs/maxent/semantic/closures/MAX-G1-G5.semantic-proof.json",
+        "proof_goal_id": "MAX-G5.TYPES.01",
+        "proof_sha256": "87252dd8f550aa6909accd1f7cc40978786a3050cf8dda816c81f3eb1bd8726e",
+        "semantic_kernel_version": "maxent-semantic-g1-g5-1.0.0",
+        "verification": {
+          "claim_sha256": "c3f7b583989665eadf86118e8a2a13f354749545ce8909f6f04406dc4fb797eb",
+          "closure_kind": "UNIVERSAL_PROOF_SCHEMA_RELATIVE_TO_EXACT_FOUNDATIONS",
+          "evidence": {
+            "antisymmetry_checked": true,
+            "empty_event_inclusion": true,
+            "sorts_distinct": true,
+            "unrelated_numerical_order": false
+          },
+          "foundation_statement_sha256": {
+            "FOUND-GORDAN-STIEMKE-001": "a88c144dfb2d969f3ed8ff0d281974af67837592bd2bfb3ba0b886df3bd30f7f",
+            "FOUND-LOGIC-001": "918530e19823f1b57edf8a26ed784e53ddcd380587ea2c7bdcf8f90bb700df24"
+          },
+          "mutant_count": 3,
+          "proof_goal_id": "MAX-G5.TYPES.01",
+          "proof_schema": "many_sorted_vacuity_and_order_antisymmetry_v1",
+          "proof_step_count": 6,
+          "result_id": "MAX-G5",
+          "status": "PASS"
+        },
+        "verification_sha256": "1896742915b2c07a1be8a3750806edf8b85d60e7f5fb446b8f695fb58842f799"
+      },
+      "proof_goal_id": "MAX-G5.TYPES.01",
+      "proof_id": "MAX-G5.TYPES.01.MAXENT-SEMANTIC-CLOSURE.PROOF",
+      "proof_method": "MaxEntSemanticClosureProof",
+      "result_id": "MAX-G5",
+      "schema_version": "1.0.0"
+    },
+    "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+    "proof_goal_id": "MAX-G5.TYPES.01",
+    "proof_method": "MaxEntSemanticClosureProof",
+    "replayed_universal": true,
+    "semantic_kernel_version": "maxent-semantics-1.0.0",
+    "supports_whole_result_closure": true
+  },
+  "proof_goal_id": "MAX-G5.TYPES.01",
+  "proof_id": "MAX-G5.TYPES.01.MAXENT-SEMANTIC-CLOSURE.PROOF",
+  "proof_method": "MaxEntSemanticClosureProof",
+  "result_dependencies": [
+    "MAX-G4"
+  ],
+  "result_id": "MAX-G5",
+  "schema_version": "1.1.0"
+}

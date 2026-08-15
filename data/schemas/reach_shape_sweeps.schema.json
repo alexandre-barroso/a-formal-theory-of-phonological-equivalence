@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "asymptotic_shape": {
+        "type": "string"
+      },
+      "h_over_m_decimal": {
+        "type": "integer"
+      },
+      "h_over_m_exact": {
+        "type": "integer"
+      },
+      "p_decimal": {
+        "type": "string"
+      },
+      "p_exact": {
+        "type": "string"
+      },
+      "q_exact": {
+        "type": "string"
+      },
+      "reach_control": {
+        "type": "string"
+      },
+      "shape_control": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "p_exact",
+      "p_decimal",
+      "h_over_m_exact",
+      "h_over_m_decimal",
+      "asymptotic_shape",
+      "reach_control",
+      "shape_control",
+      "q_exact"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/continuous_hg/reach_shape_sweeps.tsv",
+  "type": "array"
+}

@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "dress_minus_fleece_f1_20_median_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_30_median_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_40_median_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_50_median_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_60_median_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_70_median_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_80_median_hz": {
+        "type": "string"
+      },
+      "end_offset_ms": {
+        "type": "integer"
+      },
+      "f1_20_positive_speakers": {
+        "type": "integer"
+      },
+      "f1_20_zero_speakers": {
+        "type": "integer"
+      },
+      "f1_30_positive_speakers": {
+        "type": "integer"
+      },
+      "f1_30_zero_speakers": {
+        "type": "integer"
+      },
+      "f1_40_positive_speakers": {
+        "type": "integer"
+      },
+      "f1_40_zero_speakers": {
+        "type": "integer"
+      },
+      "f1_50_positive_speakers": {
+        "type": "integer"
+      },
+      "f1_50_zero_speakers": {
+        "type": "integer"
+      },
+      "f1_60_positive_speakers": {
+        "type": "integer"
+      },
+      "f1_60_zero_speakers": {
+        "type": "integer"
+      },
+      "f1_70_positive_speakers": {
+        "type": "integer"
+      },
+      "f1_70_zero_speakers": {
+        "type": "integer"
+      },
+      "f1_80_positive_speakers": {
+        "type": "integer"
+      },
+      "f1_80_zero_speakers": {
+        "type": "integer"
+      },
+      "f2_20_positive_speakers": {
+        "type": "integer"
+      },
+      "f2_20_zero_speakers": {
+        "type": "integer"
+      },
+      "f2_30_positive_speakers": {
+        "type": "integer"
+      },
+      "f2_30_zero_speakers": {
+        "type": "integer"
+      },
+      "f2_40_positive_speakers": {
+        "type": "integer"
+      },
+      "f2_40_zero_speakers": {
+        "type": "integer"
+      },
+      "f2_50_positive_speakers": {
+        "type": "integer"
+      },
+      "f2_50_zero_speakers": {
+        "type": "integer"
+      },
+      "f2_60_positive_speakers": {
+        "type": "integer"
+      },
+      "f2_60_zero_speakers": {
+        "type": "integer"
+      },
+      "f2_70_positive_speakers": {
+        "type": "integer"
+      },
+      "f2_70_zero_speakers": {
+        "type": "integer"
+      },
+      "f2_80_positive_speakers": {
+        "type": "integer"
+      },
+      "f2_80_zero_speakers": {
+        "type": "integer"
+      },
+      "fleece_minus_dress_f2_20_median_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_30_median_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_40_median_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_50_median_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_60_median_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_70_median_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_80_median_hz": {
+        "type": "string"
+      },
+      "paired_speaker_support": {
+        "type": "integer"
+      },
+      "q_order_result": {
+        "type": "string"
+      },
+      "speaker_split": {
+        "type": "string"
+      },
+      "start_offset_ms": {
+        "type": "integer"
+      },
+      "support_defined_n_ge_35": {
+        "type": "string"
+      },
+      "tracker_id": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "speaker_split",
+      "tracker_id",
+      "start_offset_ms",
+      "end_offset_ms",
+      "paired_speaker_support",
+      "support_defined_n_ge_35",
+      "f1_20_positive_speakers",
+      "f1_20_zero_speakers",
+      "dress_minus_fleece_f1_20_median_hz",
+      "f2_20_positive_speakers",
+      "f2_20_zero_speakers",
+      "fleece_minus_dress_f2_20_median_hz",
+      "f1_30_positive_speakers",
+      "f1_30_zero_speakers",
+      "dress_minus_fleece_f1_30_median_hz",
+      "f2_30_positive_speakers",
+      "f2_30_zero_speakers",
+      "fleece_minus_dress_f2_30_median_hz",
+      "f1_40_positive_speakers",
+      "f1_40_zero_speakers",
+      "dress_minus_fleece_f1_40_median_hz",
+      "f2_40_positive_speakers",
+      "f2_40_zero_speakers",
+      "fleece_minus_dress_f2_40_median_hz",
+      "f1_50_positive_speakers",
+      "f1_50_zero_speakers",
+      "dress_minus_fleece_f1_50_median_hz",
+      "f2_50_positive_speakers",
+      "f2_50_zero_speakers",
+      "fleece_minus_dress_f2_50_median_hz",
+      "f1_60_positive_speakers",
+      "f1_60_zero_speakers",
+      "dress_minus_fleece_f1_60_median_hz",
+      "f2_60_positive_speakers",
+      "f2_60_zero_speakers",
+      "fleece_minus_dress_f2_60_median_hz",
+      "f1_70_positive_speakers",
+      "f1_70_zero_speakers",
+      "dress_minus_fleece_f1_70_median_hz",
+      "f2_70_positive_speakers",
+      "f2_70_zero_speakers",
+      "fleece_minus_dress_f2_70_median_hz",
+      "f1_80_positive_speakers",
+      "f1_80_zero_speakers",
+      "dress_minus_fleece_f1_80_median_hz",
+      "f2_80_positive_speakers",
+      "f2_80_zero_speakers",
+      "fleece_minus_dress_f2_80_median_hz",
+      "q_order_result"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/demonstrations/english_aggregate_cells.tsv",
+  "type": "array"
+}

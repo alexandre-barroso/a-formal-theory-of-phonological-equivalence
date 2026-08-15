@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "distinct_slices_q": {
+        "type": "integer"
+      },
+      "maximum_contact_plus_reversals": {
+        "type": "integer"
+      },
+      "minimum_slices_for_pattern": {
+        "type": "integer"
+      },
+      "sharp": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "distinct_slices_q",
+      "maximum_contact_plus_reversals",
+      "minimum_slices_for_pattern",
+      "sharp"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/maxent/response_capacity.tsv",
+  "type": "array"
+}

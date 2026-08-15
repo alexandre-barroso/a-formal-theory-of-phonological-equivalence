@@ -1,0 +1,72 @@
+{
+  "assumptions_used": [
+    "SUP-E3.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "p>1",
+        "h>0",
+        "m>0",
+        "0<lambda<1",
+        "ell_p_domain",
+        "directional_positive_part_edge",
+        "matched_site_power"
+      ],
+      "family": "infinite_matched_power",
+      "node": "support_selection_assumptions"
+    },
+    "component": "infinite_geometric_minimizer",
+    "expected": {
+      "ell_p_admissible": true,
+      "existence": true,
+      "root_count_on_(0,1)": 1,
+      "unique_profile": "x_i=lambda^i"
+    },
+    "node": "support_selection_result",
+    "result_id": "SUP-E3"
+  },
+  "claim_sha256": "d137d2da914b0548a852947b230d9200c3ea99cf409f4e108e635c9f3f5359f9",
+  "formal_statement_sha256": "9d7fbce0e9189ac1b79ec826b71040429c06a6552279fda582a058ce669dd707",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.Support.existsUnique_matchedPowerDecayRatio",
+      "matchedPower_bellman_lower_bound",
+      "matchedPower_bellman_equality_iff",
+      "matchedPower_geometric_cost_hasSum",
+      "matchedPower_global_lower_bound",
+      "matchedPower_global_equality_forces_recurrence",
+      "matchedPower_unique_global_minimizer",
+      "sup_e3_general_real_exponent"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "SUP-E3.EXISTENCE.03"
+  },
+  "proof_goal_id": "SUP-E3.EXISTENCE.03",
+  "proof_id": "SUP-E3.EXISTENCE.03.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [],
+  "result_id": "SUP-E3",
+  "schema_version": "1.1.0"
+}

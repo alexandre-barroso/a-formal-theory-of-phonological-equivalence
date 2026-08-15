@@ -1,0 +1,144 @@
+{
+  "assumptions": [
+    {
+      "id": "CALC-R15.EXACT-FINITE-MODEL",
+      "node": "boolean",
+      "value": true
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "left": {
+          "contract": {
+            "admitted": true,
+            "failure_reason": "",
+            "formed": true,
+            "matched_rows": [
+              {
+                "source_answer": "A",
+                "transported_target_answer": "A"
+              }
+            ],
+            "scientific_status": "INCOMPLETE",
+            "transport_defined": true
+          },
+          "node": "finite_decision"
+        },
+        "node": "equal",
+        "right": {
+          "node": "list",
+          "values": [
+            "Q-CONSERVATIVE",
+            "",
+            "INCOMPLETE"
+          ]
+        }
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "1b318604548c994b7da3592d2395092e41ae9ce38a2842710d74d2f56375dc66",
+      "id": "CALC-R15.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "60ef8ebf7d1bbdfb575c6c1ec3545f86d5f877be3beb8165b4f884c949326638"
+    },
+    {
+      "contract": {
+        "admitted": true,
+        "failure_reason": "",
+        "formed": true,
+        "matched_rows": [
+          {
+            "source_answer": "A",
+            "transported_target_answer": "A"
+          }
+        ],
+        "scientific_status": "INCOMPLETE",
+        "transport_defined": true
+      },
+      "id": "CALC-R15.COMPUTATION.01",
+      "node": "finite_decision"
+    }
+  ],
+  "domains": [
+    {
+      "id": "CALC-R15.FINITE-DOMAIN",
+      "node": "finite_set",
+      "values": [
+        "CALC-R15.EXTERNAL.01"
+      ]
+    }
+  ],
+  "english_statement_sha256": "1b318604548c994b7da3592d2395092e41ae9ce38a2842710d74d2f56375dc66",
+  "expected_proof_methods": [
+    "ExactFiniteComputationProof"
+  ],
+  "formal_statement_sha256": "c79c6ff300b75f778f47bf65b53d3e5254748b91a6137736bee703647442118e",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001"
+  ],
+  "group": "CALC",
+  "kind": "regression",
+  "nonclaims": "The classifier never upgrades external evidence.",
+  "portuguese_statement_sha256": "60ef8ebf7d1bbdfb575c6c1ec3545f86d5f877be3beb8165b4f884c949326638",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "contract": {
+            "admitted": true,
+            "failure_reason": "",
+            "formed": true,
+            "matched_rows": [
+              {
+                "source_answer": "A",
+                "transported_target_answer": "A"
+              }
+            ],
+            "scientific_status": "INCOMPLETE",
+            "transport_defined": true
+          },
+          "node": "finite_decision"
+        },
+        "node": "equal",
+        "right": {
+          "node": "list",
+          "values": [
+            "Q-CONSERVATIVE",
+            "",
+            "INCOMPLETE"
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-R15.EXTERNAL.01",
+      "proof_methods": [
+        "ExactFiniteComputationProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact finite regression construction",
+  "result_dependencies": [],
+  "result_id": "CALC-R15",
+  "schema_version": "1.0.0",
+  "scope": "Formal/scientific product result.",
+  "sorts": [
+    "Boolean",
+    "rational",
+    "finite set",
+    "finite map",
+    "partition",
+    "relation",
+    "typed answer object"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Formal success does not repair external incompleteness",
+  "title_pt_BR": "O sucesso formal não corrige a incompletude externa",
+  "variables": [],
+  "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 15; any changed expectation requires documented reverification."
+}

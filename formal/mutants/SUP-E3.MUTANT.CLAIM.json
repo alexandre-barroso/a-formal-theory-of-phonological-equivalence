@@ -1,0 +1,329 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "p>1",
+        "h>0",
+        "m>0",
+        "0<lambda<1",
+        "ell_p_domain",
+        "directional_positive_part_edge",
+        "matched_site_power"
+      ],
+      "family": "infinite_matched_power",
+      "id": "SUP-E3.ASSUMPTION-MANIFEST",
+      "node": "support_selection_assumptions"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "p>1",
+            "h>0",
+            "m>0",
+            "0<lambda<1",
+            "ell_p_domain",
+            "directional_positive_part_edge",
+            "matched_site_power"
+          ],
+          "family": "infinite_matched_power",
+          "node": "support_selection_assumptions"
+        },
+        "component": "quadratic_decay_root",
+        "expected": {
+          "isolating_interval": [
+            1,
+            "1/2"
+          ],
+          "minimal_polynomial": [
+            1,
+            -3,
+            1
+          ],
+          "unique": true
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E3"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "p>1",
+            "h>0",
+            "m>0",
+            "0<lambda<1",
+            "ell_p_domain",
+            "directional_positive_part_edge",
+            "matched_site_power"
+          ],
+          "family": "infinite_matched_power",
+          "node": "support_selection_assumptions"
+        },
+        "component": "continuation_energy_identity",
+        "expected": {
+          "continuation_coefficient": "h*(1-lambda)^(p-1)",
+          "decay_equation": "(h/m)*(1-lambda)^(p-1)*(1-lambda^(p-1))=lambda^(p-1)",
+          "energy": "(h*(1-lambda)^p+m*lambda^p)/(1-lambda^p)"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E3"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "p>1",
+            "h>0",
+            "m>0",
+            "0<lambda<1",
+            "ell_p_domain",
+            "directional_positive_part_edge",
+            "matched_site_power"
+          ],
+          "family": "infinite_matched_power",
+          "node": "support_selection_assumptions"
+        },
+        "component": "infinite_geometric_minimizer",
+        "expected": {
+          "ell_p_admissible": true,
+          "existence": true,
+          "root_count_on_(0,1)": 1,
+          "unique_profile": "x_i=lambda^i"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E3"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "a11934c06c48228d07b58cf74bd9ff6a640c62c0413b29212011bc0de7cbf3c1",
+      "id": "SUP-E3.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "1caec9ae5177664d1b9ed57e8b30ae4ce6f38a7b5b6ed059e54ebba580c80dc9"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "p>1",
+          "h>0",
+          "m>0",
+          "0<lambda<1",
+          "ell_p_domain",
+          "directional_positive_part_edge",
+          "matched_site_power"
+        ],
+        "family": "infinite_matched_power",
+        "node": "support_selection_assumptions"
+      },
+      "component": "quadratic_decay_root",
+      "expected": {
+        "isolating_interval": [
+          0,
+          "1/2"
+        ],
+        "minimal_polynomial": [
+          1,
+          -3,
+          1
+        ],
+        "unique": true
+      },
+      "id": "SUP-E3.CLAIM.01",
+      "node": "support_selection_result",
+      "result_id": "SUP-E3"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "p>1",
+          "h>0",
+          "m>0",
+          "0<lambda<1",
+          "ell_p_domain",
+          "directional_positive_part_edge",
+          "matched_site_power"
+        ],
+        "family": "infinite_matched_power",
+        "node": "support_selection_assumptions"
+      },
+      "component": "continuation_energy_identity",
+      "expected": {
+        "continuation_coefficient": "h*(1-lambda)^(p-1)",
+        "decay_equation": "(h/m)*(1-lambda)^(p-1)*(1-lambda^(p-1))=lambda^(p-1)",
+        "energy": "(h*(1-lambda)^p+m*lambda^p)/(1-lambda^p)"
+      },
+      "id": "SUP-E3.CLAIM.02",
+      "node": "support_selection_result",
+      "result_id": "SUP-E3"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "p>1",
+          "h>0",
+          "m>0",
+          "0<lambda<1",
+          "ell_p_domain",
+          "directional_positive_part_edge",
+          "matched_site_power"
+        ],
+        "family": "infinite_matched_power",
+        "node": "support_selection_assumptions"
+      },
+      "component": "infinite_geometric_minimizer",
+      "expected": {
+        "ell_p_admissible": true,
+        "existence": true,
+        "root_count_on_(0,1)": 1,
+        "unique_profile": "x_i=lambda^i"
+      },
+      "id": "SUP-E3.CLAIM.03",
+      "node": "support_selection_result",
+      "result_id": "SUP-E3"
+    }
+  ],
+  "domains": [
+    {
+      "family": "support_selection",
+      "id": "SUP-E3.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "SUP-E3",
+      "variables": []
+    }
+  ],
+  "english_statement_sha256": "a11934c06c48228d07b58cf74bd9ff6a640c62c0413b29212011bc0de7cbf3c1",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "9a5b6ed1b3b9e941aaf99f891161424a50cd5bbf87e2ab7edd8ec54d31c425f4",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "group": "SUP",
+  "kind": "result",
+  "nonclaims": "The result does not apply to the original linear-site McCollum grammar.",
+  "portuguese_statement_sha256": "1caec9ae5177664d1b9ed57e8b30ae4ce6f38a7b5b6ed059e54ebba580c80dc9",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "p>1",
+            "h>0",
+            "m>0",
+            "0<lambda<1",
+            "ell_p_domain",
+            "directional_positive_part_edge",
+            "matched_site_power"
+          ],
+          "family": "infinite_matched_power",
+          "node": "support_selection_assumptions"
+        },
+        "component": "quadratic_decay_root",
+        "expected": {
+          "isolating_interval": [
+            1,
+            "1/2"
+          ],
+          "minimal_polynomial": [
+            1,
+            -3,
+            1
+          ],
+          "unique": true
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E3"
+      },
+      "mandatory": true,
+      "proof_goal_id": "SUP-E3.ROOT.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "p>1",
+            "h>0",
+            "m>0",
+            "0<lambda<1",
+            "ell_p_domain",
+            "directional_positive_part_edge",
+            "matched_site_power"
+          ],
+          "family": "infinite_matched_power",
+          "node": "support_selection_assumptions"
+        },
+        "component": "continuation_energy_identity",
+        "expected": {
+          "continuation_coefficient": "h*(1-lambda)^(p-1)",
+          "decay_equation": "(h/m)*(1-lambda)^(p-1)*(1-lambda^(p-1))=lambda^(p-1)",
+          "energy": "(h*(1-lambda)^p+m*lambda^p)/(1-lambda^p)"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E3"
+      },
+      "mandatory": true,
+      "proof_goal_id": "SUP-E3.ENERGY.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "p>1",
+            "h>0",
+            "m>0",
+            "0<lambda<1",
+            "ell_p_domain",
+            "directional_positive_part_edge",
+            "matched_site_power"
+          ],
+          "family": "infinite_matched_power",
+          "node": "support_selection_assumptions"
+        },
+        "component": "infinite_geometric_minimizer",
+        "expected": {
+          "ell_p_admissible": true,
+          "existence": true,
+          "root_count_on_(0,1)": 1,
+          "unique_profile": "x_i=lambda^i"
+        },
+        "node": "support_selection_result",
+        "result_id": "SUP-E3"
+      },
+      "mandatory": true,
+      "proof_goal_id": "SUP-E3.EXISTENCE.03",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact support_selection result consequence",
+  "result_dependencies": [],
+  "result_id": "SUP-E3",
+  "schema_version": "1.0.0",
+  "scope": "Infinite matched-power directional objective.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "positive real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Matched-power geometric persistence",
+  "title_pt_BR": "Persistência geométrica com potências correspondentes",
+  "variables": [],
+  "withdrawal_condition": "Withdraw if existence, admissibility, the Bellman lower bound, equality characterization, summability, or uniqueness fails on the declared infinite finite-energy domain."
+}

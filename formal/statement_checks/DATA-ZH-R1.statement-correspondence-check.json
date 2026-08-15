@@ -1,0 +1,17 @@
+{
+  "check_id": "DATA-ZH-R1.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "b8fa10a8f6b54c54028c1bc138edb5f8fd3922604861c861af7cb3516383febc",
+  "payload": {
+    "en_statement_file_sha256": "be31079ebcfbd75cb0bdf4124ff65a63e6897ad86f2f6e572dfb6a10ca99167a",
+    "en_statement_marker": "formal/specs/DATA-ZH-R1.json",
+    "en_statement_path": "proofs/en/results/DATA-ZH-R1.tex",
+    "en_statement_sha256": "bdaffa943f9b7438de0de100170716ff433e93bb3c8bace9e92b856dfab822a1",
+    "pt_BR_statement_file_sha256": "8bf66e5ea12789529d9c966fcf4b0f64f0c37d4ac529d986ea864220a49422e1",
+    "pt_BR_statement_marker": "formal/specs/DATA-ZH-R1.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/DATA-ZH-R1.tex",
+    "pt_BR_statement_sha256": "63a557225b9e25bf3b0bfa4a0e156340916c52f4d0ec4037318da64856d771f5"
+  },
+  "result_id": "DATA-ZH-R1",
+  "schema_version": "1.0.0"
+}

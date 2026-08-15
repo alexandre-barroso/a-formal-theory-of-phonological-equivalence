@@ -1,0 +1,7 @@
+follower	critical_h_over_m_exact	critical_h_over_m_decimal	equality_support	above_boundary_support	onset_side
+1	1/2	0.5	0	1	strictly_above
+2	3/2	1.5	1	2	strictly_above
+3	3	3	2	3	strictly_above
+4	5	5	3	4	strictly_above
+5	15/2	7.5	4	5	strictly_above
+6	21/2	10.5	5	6	strictly_above

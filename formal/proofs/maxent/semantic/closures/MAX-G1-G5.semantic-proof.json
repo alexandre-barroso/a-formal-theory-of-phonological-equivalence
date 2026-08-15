@@ -1,0 +1,553 @@
+{
+  "checker": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+  "checker_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+  "proof_id": "MAX-G1-G5-SEMANTIC-CLOSURE-1",
+  "records": [
+    {
+      "claim_sha256": "19e7afc729b2f7a38d6f8b497a511d60725f5b6b1b5b522d33ea61d73495a72d",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "7655731a2d21bb34241ec67d6bb4850affd60d00f5e3f8c8b72e0af629a70dba",
+      "foundation_dependencies": [
+        "FOUND-REAL-001",
+        "FOUND-POLYNOMIAL-001",
+        "FOUND-EXP-ACTIVITY-BIJECTION-001"
+      ],
+      "mutant_ids": [
+        "MAX-G1.CARRIER.MUTANT.REVERSE_MARGIN",
+        "MAX-G1.CARRIER.MUTANT.DROP_DUPLICATE_LABEL",
+        "MAX-G1.CARRIER.MUTANT.ALLOW_ZERO_MASS"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G1.CARRIER.01",
+      "proof_methods": [
+        "RewriteChainProof",
+        "InductionProof"
+      ],
+      "proof_schema": "finite_relative_partition_carrier_induction_v1",
+      "proof_steps": [
+        "substitute_positive_activities_for_nonnegative_weights",
+        "divide_each_partition_by_its_named_positive_mass_monomial",
+        "induct_over_every_labelled_candidate_term",
+        "aggregate_equal_relative_rows_without_deleting_labels",
+        "reverse_positive_reciprocals",
+        "identify_the_signed_relative_partition_margin"
+      ],
+      "result_dependencies": [],
+      "result_id": "MAX-G1",
+      "schema_payload": {
+        "activity_domain": "(0,1]^k",
+        "base_mass_domain": "positive rationals",
+        "multiplicity_policy": "each candidate label contributes one term before collection",
+        "orientation": "p_A(a)<=p_B(b) iff R_A-R_B>=0"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "6616be4c7f0a402370dd7775d16bb9e9076d80e56babd159c052b303c0751c38",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "7655731a2d21bb34241ec67d6bb4850affd60d00f5e3f8c8b72e0af629a70dba",
+      "foundation_dependencies": [
+        "FOUND-REAL-001",
+        "FOUND-POLYNOMIAL-001",
+        "FOUND-EXP-ACTIVITY-BIJECTION-001"
+      ],
+      "mutant_ids": [
+        "MAX-G1.CLEAR.MUTANT.NONMINIMAL_SHIFT",
+        "MAX-G1.CLEAR.MUTANT.NONPOSITIVE_LCM",
+        "MAX-G1.CLEAR.MUTANT.UNCLEARED_NEGATIVE_EXPONENT"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G1.CLEAR.02",
+      "proof_methods": [
+        "LaurentClearingProof",
+        "PolynomialIdentityProof"
+      ],
+      "proof_schema": "minimal_laurent_integer_clearing_v1",
+      "proof_steps": [
+        "collect_the_finite_rational_laurent_support",
+        "take_each_coordinate_negative_minimum_or_zero",
+        "prove_shifted_exponents_are_nonnegative_and_shift_is_minimal",
+        "take_the_positive_lcm_of_coefficient_denominators",
+        "recompute_the_integer_coefficient_map",
+        "use_strict_positivity_of_d_times_z_to_the_shift"
+      ],
+      "result_dependencies": [],
+      "result_id": "MAX-G1",
+      "schema_payload": {
+        "coefficient_target": "integers",
+        "multiplier_sign_domain": "strictly positive on (0,1]^k",
+        "zero_polynomial_denominator_lcm": 1,
+        "zero_polynomial_shift": "zero vector"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "ece1388cce8e803b0e56a4183a0149750ddd0bd5e8bd838a65396db70711bb11",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "3e5a401fa2754212350b8202a77d3e55e1522f807ee198c0afe6883f97243049",
+      "foundation_dependencies": [
+        "FOUND-FINITE-001",
+        "FOUND-POLYNOMIAL-001"
+      ],
+      "mutant_ids": [
+        "MAX-G2.ANCHOR.MUTANT.ADD_COMMON_SHIFT",
+        "MAX-G2.ANCHOR.MUTANT.SWAP_COEFFICIENT_SIGN",
+        "MAX-G2.ANCHOR.MUTANT.COLLAPSE_MULTIPLICITY"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G2.ANCHOR.01",
+      "proof_methods": [
+        "InductionProof",
+        "PolynomialIdentityProof"
+      ],
+      "proof_schema": "integer_polynomial_labelled_coefficient_compiler_v1",
+      "proof_steps": [
+        "parse_a_canonical_finite_integer_coefficient_map",
+        "create_one_zero_row_named_candidate_per_input",
+        "induct_over_the_sorted_monomial_support",
+        "emit_abs_coefficient_distinct_labels_on_the_sign_selected_side",
+        "preserve_unit_base_mass_and_nonnegative_integer_rows",
+        "recompute_literal_relative_partition_difference_equal_to_F",
+        "derive_two_plus_coefficient_l1_candidate_count"
+      ],
+      "result_dependencies": [
+        "MAX-G1"
+      ],
+      "result_id": "MAX-G2",
+      "schema_payload": {
+        "base_masses": "unit",
+        "common_monomial_shift": "none",
+        "duplicate_rows": "allowed only as distinctly labelled coefficient copies",
+        "named_rows": "zero"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "d4a3730e92d4db4ed88fdba914e88a12d3922916933821b0556905e50b7c5c2c",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "3e5a401fa2754212350b8202a77d3e55e1522f807ee198c0afe6883f97243049",
+      "foundation_dependencies": [
+        "FOUND-FINITE-001",
+        "FOUND-POLYNOMIAL-001"
+      ],
+      "mutant_ids": [
+        "MAX-G2.ORDER.MUTANT.REVERSE_RECIPROCAL",
+        "MAX-G2.ORDER.MUTANT.KEEP_NAMED_CONSTANT",
+        "MAX-G2.ORDER.MUTANT.REPLACE_FORALL_BY_SAMPLE"
+      ],
+      "proof_goal_dependencies": [
+        "MAX-G1.CARRIER.01",
+        "MAX-G2.ANCHOR.01"
+      ],
+      "proof_goal_id": "MAX-G2.ORDER.02",
+      "proof_methods": [
+        "RewriteChainProof"
+      ],
+      "proof_schema": "compiled_named_probability_order_rewrite_v1",
+      "proof_steps": [
+        "expand_both_unit_mass_named_probabilities",
+        "cancel_the_two_named_unit_terms_in_the_partition_margin",
+        "use_strict_positivity_of_both_denominators",
+        "reverse_reciprocal_order",
+        "substitute_the_anchor_literal_difference_F",
+        "quantify_over_the_physical_activity_cube"
+      ],
+      "result_dependencies": [
+        "MAX-G1"
+      ],
+      "result_id": "MAX-G2",
+      "schema_payload": {
+        "activity_domain": "(0,1]^k",
+        "dependency_mode": "G1 carrier plus G2 literal compiler",
+        "orientation": "p_left<=p_right iff F>=0"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "69e4ec987e2abeb148f87108763102994516051cdc54b59654e98334249a6277",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "9e4fc91b3e296044672590b7cc98440446e53b820798588ce5286919d60d11ab",
+      "foundation_dependencies": [
+        "FOUND-REAL-001",
+        "FOUND-POLYNOMIAL-001",
+        "FOUND-COMPACT-POLY-MIN-001"
+      ],
+      "mutant_ids": [
+        "MAX-G3.RESIDUAL.MUTANT.ALLOW_BAD_INDEX",
+        "MAX-G3.RESIDUAL.MUTANT.DROP_ONE_SQUARE",
+        "MAX-G3.RESIDUAL.MUTANT.REPLACE_400Q_BY_399Q"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G3.RESIDUAL.01",
+      "proof_methods": [
+        "InductionProof",
+        "SumOfSquaresProof"
+      ],
+      "proof_schema": "bounded_etr_inv_affine_residual_sos_induction_v1",
+      "proof_steps": [
+        "require_N_at_least_two_q_at_least_one_and_in_range_indices",
+        "parse_only_one_add_and_inverse_source_atoms",
+        "substitute_x_i_equals_one_half_plus_three_halves_u_i",
+        "construct_the_three_exact_cleared_residual_templates",
+        "square_and_sum_each_source_atom_by_finite_induction",
+        "derive_integer_coefficients_and_total_degree_at_most_four",
+        "derive_each_summand_l1_bound_at_most_400",
+        "use_ordered_field_sum_of_squares_zero_equivalence"
+      ],
+      "result_dependencies": [
+        "MAX-G1",
+        "MAX-G2"
+      ],
+      "result_id": "MAX-G3",
+      "schema_payload": {
+        "clearing_factor": 16,
+        "coefficient_l1_bound": "400*q",
+        "constructors": [
+          "x=1",
+          "x+y=z",
+          "x*y=1"
+        ],
+        "degree_bound": 4,
+        "source_range": "x_i in [1/2,2] encoded by u_i in [0,1]"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "5cbe049b5009df7c28ada909dcd211e46a6bddddce8eb17773e49688917db425",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "9e4fc91b3e296044672590b7cc98440446e53b820798588ce5286919d60d11ab",
+      "foundation_dependencies": [
+        "FOUND-REAL-001",
+        "FOUND-POLYNOMIAL-001",
+        "FOUND-COMPACT-POLY-MIN-001"
+      ],
+      "mutant_ids": [
+        "MAX-G3.CHAIN.MUTANT.USE_NONINTEGER_BPHI",
+        "MAX-G3.CHAIN.MUTANT.SHORTEN_M",
+        "MAX-G3.CHAIN.MUTANT.ASSUME_EXACT_CHAIN_MINIMIZES_PENALTY"
+      ],
+      "proof_goal_dependencies": [
+        "MAX-G3.RESIDUAL.01"
+      ],
+      "proof_goal_id": "MAX-G3.CHAIN.02",
+      "proof_methods": [
+        "InductionProof",
+        "PolynomialIdentityProof",
+        "FirstOrderProof"
+      ],
+      "proof_schema": "dyadic_gap_contraction_strictifier_v1",
+      "proof_steps": [
+        "instantiate_the_compact_cube_minimum_bound_for_degree_four_integer_S",
+        "upper_bound_the_imported_exponent_by_integer_Bbar",
+        "serialize_bbar_as_two_to_the_negative_Bbar",
+        "choose_m_as_ceiling_log2_of_Bbar_plus_three",
+        "prove_two_a_m_squared_is_strictly_below_bbar",
+        "prove_the_exact_recurrence_two_a_i_plus_one_equals_a_i_squared",
+        "telescope_the_one_Lipschitz_half_square_recurrence",
+        "apply_finite_Cauchy_Schwarz_to_the_residuals",
+        "derive_abs_r_m_minus_a_m_at_most_one_half_sqrt_m_sum_rho_squared",
+        "complete_the_square_to_bound_the_chain_penalty_below_by_minus_four_a_m_squared",
+        "prove_strictifier_negativity_from_a_source_zero",
+        "combine_two_a_m_squared_below_bbar_with_the_unsatisfiable_gap",
+        "prove_strictifier_positivity_without_assuming_the_exact_chain_minimizes_the_penalty"
+      ],
+      "result_dependencies": [
+        "MAX-G1",
+        "MAX-G2"
+      ],
+      "result_id": "MAX-G3",
+      "schema_payload": {
+        "chain": "a_0=1 and 2*a_(i+1)=a_i^2",
+        "exact_chain_minimizer_claim": "forbidden",
+        "gap_bound": "bbar=2^-Bbar",
+        "gap_exponent": "Bbar=N*8^N*(4+2N+ceil_log2(max(1,400q,6N)))",
+        "penalty_bound": "m*sum_i(rho_i^2)-2*r_m^2>=-4*a_m^2",
+        "residual": "rho_i=2*r_(i+1)-r_i^2",
+        "reverse_kind": "logical gap implication",
+        "stability_bound": "abs(r_m-a_m)<=sqrt(m*sum_i(rho_i^2))/2",
+        "strictification_condition": "2*a_m^2<bbar"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "96bd132090f47adaec32120f1c632c5752155ec01f76e6eafa3fd83c01d09fc8",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "db8a6d3828b065eba3985c70ab283ecb35c576b4ff82494a520cc69a644433b8",
+      "foundation_dependencies": [
+        "FOUND-EXPONENTIAL-INDEPENDENCE-001"
+      ],
+      "mutant_ids": [
+        "MAX-G4.REVERSAL.MUTANT.ALLOW_UNEQUAL_MASS",
+        "MAX-G4.REVERSAL.MUTANT.USE_PROPER_WEIGHT_CONE",
+        "MAX-G4.REVERSAL.MUTANT.FLIP_ONE_QUARTER_ORDER"
+      ],
+      "proof_goal_dependencies": [
+        "MAX-G1.CARRIER.01"
+      ],
+      "proof_goal_id": "MAX-G4.REVERSAL.01",
+      "proof_methods": [
+        "FirstOrderProof",
+        "CounterexampleProof"
+      ],
+      "proof_schema": "same_input_cancellation_and_cross_input_reversal_v1",
+      "proof_steps": [
+        "require_equal_named_masses_and_the_full_nonnegative_orthant",
+        "cancel_the_common_same_input_partition_function",
+        "derive_all_weight_equality_iff_row_identity",
+        "derive_all_weight_weak_order_iff_coordinatewise_domination",
+        "use_a_unit_coordinate_weight_to_refute_each_negative_coordinate",
+        "replay_the_registered_two_z_cubed_versus_z_squared_cross_input_witness"
+      ],
+      "result_dependencies": [
+        "MAX-G1",
+        "MAX-G3"
+      ],
+      "result_id": "MAX-G4",
+      "schema_payload": {
+        "cross_input_left_rows": [
+          3,
+          3
+        ],
+        "cross_input_right_rows": [
+          2
+        ],
+        "registered_activities": [
+          "3/4",
+          "1/2",
+          "1/4"
+        ],
+        "same_input_mass_contract": "equal named masses",
+        "same_input_weight_domain": "full nonnegative orthant"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "72f7ccac29a5cf7883b60485c06f8d963cfc1e42c8dfc600907869b6cff26956",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "db8a6d3828b065eba3985c70ab283ecb35c576b4ff82494a520cc69a644433b8",
+      "foundation_dependencies": [
+        "FOUND-EXPONENTIAL-INDEPENDENCE-001"
+      ],
+      "mutant_ids": [
+        "MAX-G4.TIE.MUTANT.ACCEPT_ZERO_ROOT",
+        "MAX-G4.TIE.MUTANT.ADD_SECOND_INTERIOR_ROOT",
+        "MAX-G4.TIE.MUTANT.REPLACE_FACTOR_BY_RULE_STRING"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G4.TIE.02",
+      "proof_methods": [
+        "PolynomialIdentityProof",
+        "SemialgebraicUnsatProof"
+      ],
+      "proof_schema": "registered_cross_input_tie_factorization_v1",
+      "proof_steps": [
+        "recompute_the_cross_margin_two_z_cubed_minus_z_squared",
+        "factor_as_z_squared_times_two_z_minus_one",
+        "exclude_z_zero_from_the_physical_activity_domain",
+        "isolate_z_equals_one_half_as_the_only_physical_root",
+        "check_strict_signs_on_both_sides"
+      ],
+      "result_dependencies": [
+        "MAX-G1",
+        "MAX-G3"
+      ],
+      "result_id": "MAX-G4",
+      "schema_payload": {
+        "cross_margin": "z^2*(2*z-1)",
+        "physical_domain": "0<z<=1",
+        "unique_root": "1/2"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "70f980215f4fa87e9468d142eeee3abf42611d996203ca6fb20007129617c9ce",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "db8a6d3828b065eba3985c70ab283ecb35c576b4ff82494a520cc69a644433b8",
+      "foundation_dependencies": [
+        "FOUND-EXPONENTIAL-INDEPENDENCE-001"
+      ],
+      "mutant_ids": [
+        "MAX-G4.MULTISET.MUTANT.DROP_MULTIPLICITY",
+        "MAX-G4.MULTISET.MUTANT.DROP_MASS_RATIO",
+        "MAX-G4.MULTISET.MUTANT.OMIT_EXPONENTIAL_INDEPENDENCE"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G4.MULTISET.03",
+      "proof_methods": [
+        "InductionProof",
+        "ExactLinearAlgebraProof",
+        "CounterexampleProof"
+      ],
+      "proof_schema": "weighted_relative_row_measure_exponential_independence_v1",
+      "proof_steps": [
+        "divide_each_cross_input_partition_by_its_named_mass_monomial",
+        "collect_mass_ratios_at_each_distinct_relative_row",
+        "cancel_the_common_named_relative_zero_atom",
+        "restrict_an_all_weight_identity_to_a_nonempty_open_positive_orthant",
+        "instantiate_finite_exponential_independence_on_distinct_relative_rows",
+        "derive_zero_signed_atomic_measure_coordinatewise",
+        "prove_the_converse_by_termwise_measure_identity",
+        "replay_the_repeated_row_multiplicity_counterexample"
+      ],
+      "result_dependencies": [
+        "MAX-G1",
+        "MAX-G3"
+      ],
+      "result_id": "MAX-G4",
+      "schema_payload": {
+        "arbitrary_mass_invariant": "rational mass-weighted relative-row atomic measure",
+        "literal_set_equality_is_sufficient": false,
+        "unit_mass_specialization": "multiplicity-sensitive multiset"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "c3f7b583989665eadf86118e8a2a13f354749545ce8909f6f04406dc4fb797eb",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "9b7e6778a5f6948a78554fbd7c11bdf7839fd60ba89f0ab19717025bc210a29d",
+      "foundation_dependencies": [
+        "FOUND-LOGIC-001",
+        "FOUND-GORDAN-STIEMKE-001"
+      ],
+      "mutant_ids": [
+        "MAX-G5.TYPES.MUTANT.COERCE_BOOLEAN_TO_ORDER",
+        "MAX-G5.TYPES.MUTANT.EMPTY_ANTECEDENT_FALSE",
+        "MAX-G5.TYPES.MUTANT.DROP_ANTISYMMETRY"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G5.TYPES.01",
+      "proof_methods": [
+        "FirstOrderProof"
+      ],
+      "proof_schema": "many_sorted_vacuity_and_order_antisymmetry_v1",
+      "proof_steps": [
+        "assign_categorical_event_implication_to_the_Boolean_event_inclusion_sort",
+        "assign_numerical_probability_order_to_the_ordered_real_sort",
+        "prove_empty_event_is_included_in_every_finite_event",
+        "forbid_a_coercion_from_categorical_truth_to_numerical_order",
+        "apply_weak_order_antisymmetry_to_mutual_numerical_orders",
+        "prove_numerical_equality_implies_both_weak_orders"
+      ],
+      "result_dependencies": [
+        "MAX-G4"
+      ],
+      "result_id": "MAX-G5",
+      "schema_payload": {
+        "categorical_sort": "Boolean event inclusion",
+        "empty_event_probability_evidence": false,
+        "implicit_coercions": [],
+        "numerical_sort": "ordered real probability"
+      },
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "02c65afa569a9c52e09c9091bda19f40c51915cc95941fb2a7ac541e00cf2335",
+      "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+      "definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "formal_statement_sha256": "9b7e6778a5f6948a78554fbd7c11bdf7839fd60ba89f0ab19717025bc210a29d",
+      "foundation_dependencies": [
+        "FOUND-LOGIC-001",
+        "FOUND-GORDAN-STIEMKE-001"
+      ],
+      "mutant_ids": [
+        "MAX-G5.GORDAN.MUTANT.ACCEPT_ZERO_W",
+        "MAX-G5.GORDAN.MUTANT.NONSTRICT_ROW_SPACE",
+        "MAX-G5.GORDAN.MUTANT.RETURN_BOTH_BRANCHES"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G5.GORDAN.02",
+      "proof_methods": [
+        "ExactConeAlternativeProof"
+      ],
+      "proof_schema": "exact_rational_normalized_kernel_or_positive_row_space_v1",
+      "proof_steps": [
+        "parse_an_arbitrary_finite_rational_matrix_with_positive_column_count",
+        "solve_Dw_zero_w_nonnegative_sum_w_one_by_exact_Fourier_Motzkin",
+        "independently_verify_every_kernel_witness_coordinate_and_equality",
+        "if_infeasible_solve_D_transpose_lambda_at_least_one_exactly",
+        "independently_verify_strictly_positive_row_space_output",
+        "prove_exclusivity_by_lambda_transpose_Dw",
+        "instantiate_Gordan_Stiemke_only_for_exhaustiveness",
+        "use_rational_polyhedral_witness_lemmas_for_both_branches"
+      ],
+      "result_dependencies": [
+        "MAX-G4"
+      ],
+      "result_id": "MAX-G5",
+      "schema_payload": {
+        "algorithm": "exact rational Fourier-Motzkin with back substitution",
+        "kernel_domain": "nonnegative rationals",
+        "kernel_normalization": "sum(w)=1",
+        "row_space_scaling": "D^T lambda >= 1"
+      },
+      "source_transcription_dependencies": []
+    }
+  ],
+  "required_foundation_file": "formal/proofs/maxent/semantic/required_foundation_schemas.json",
+  "required_foundation_file_sha256": "26d00f724f1ae7538a27bd3df354989e06b20cd429381eccba2c322cb5fa1456",
+  "schema_version": "1.0.0",
+  "semantic_kernel_version": "maxent-semantic-g1-g5-1.0.0",
+  "shared_definition_file": "formal/proofs/maxent/semantic/shared_maxent_definitions.json",
+  "shared_definition_file_sha256": "8df017476a6fe6df6c37a15606af0a7db7c09f2e1b7256e8cbaa68b94ce4dafb",
+  "specification_files": [
+    {
+      "path": "formal/proofs/maxent/semantic/specs/MAX-G1.json",
+      "result_id": "MAX-G1",
+      "sha256": "4126465f68453207460232fb178207574412064a5c6c5a28ef897baaf3a88085"
+    },
+    {
+      "path": "formal/proofs/maxent/semantic/specs/MAX-G2.json",
+      "result_id": "MAX-G2",
+      "sha256": "20d86ef38dd06a4c88b6098ec03097d39c6d55e768e52c0ba0a0de8e953ba884"
+    },
+    {
+      "path": "formal/proofs/maxent/semantic/specs/MAX-G3.json",
+      "result_id": "MAX-G3",
+      "sha256": "bf3df7f0825a5006b48d0f2a30222dbf84e4c0bc60895a0a42c6d25abb51caf3"
+    },
+    {
+      "path": "formal/proofs/maxent/semantic/specs/MAX-G4.json",
+      "result_id": "MAX-G4",
+      "sha256": "70e975e0ae0419e8b5ab7bb9e8f0def760329fd6c749bbf639a224817f07e199"
+    },
+    {
+      "path": "formal/proofs/maxent/semantic/specs/MAX-G5.json",
+      "result_id": "MAX-G5",
+      "sha256": "aa402f2c96bdd67206779782d3d2b9420e612de2dee7c39de45e6c0f325dfc9e"
+    }
+  ],
+  "trusted_foundation_file": "formal/foundation/trusted_foundation.json",
+  "trusted_foundation_file_sha256": "3b63cbccec9d64cf6afa8f9476666e88e90a42665d4f5eb5ff65cd6c4b5d1259"
+}

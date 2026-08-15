@@ -1,0 +1,1274 @@
+{
+  "definition_set_id": "MAXENT-SHARED-1",
+  "definitions": [
+    {
+      "body": {
+        "arguments": [
+          {
+            "left": {
+              "arguments": [
+                {
+                  "name": "L",
+                  "node": "variable"
+                },
+                "constraint_count"
+              ],
+              "name": "field",
+              "node": "function_application"
+            },
+            "node": "greater",
+            "right": {
+              "node": "integer",
+              "value": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "candidates"
+                ],
+                "name": "field",
+                "node": "function_application"
+              }
+            ],
+            "name": "builtin:nonempty_distinct_finite_sequence",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "named_candidate"
+                ],
+                "name": "field",
+                "node": "function_application"
+              },
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "candidates"
+                ],
+                "name": "field",
+                "node": "function_application"
+              }
+            ],
+            "name": "builtin:member",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "violation_rows"
+                ],
+                "name": "field",
+                "node": "function_application"
+              },
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "candidates"
+                ],
+                "name": "field",
+                "node": "function_application"
+              }
+            ],
+            "name": "builtin:map_domain_equals_sequence",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "base_masses"
+                ],
+                "name": "field",
+                "node": "function_application"
+              },
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "candidates"
+                ],
+                "name": "field",
+                "node": "function_application"
+              }
+            ],
+            "name": "builtin:map_domain_equals_sequence",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "consequence_map"
+                ],
+                "name": "field",
+                "node": "function_application"
+              },
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "candidates"
+                ],
+                "name": "field",
+                "node": "function_application"
+              }
+            ],
+            "name": "builtin:map_domain_equals_sequence",
+            "node": "predicate_application"
+          },
+          {
+            "bindings": [
+              {
+                "sort": "typed answer object",
+                "variable": "c"
+              }
+            ],
+            "body": {
+              "antecedent": {
+                "arguments": [
+                  {
+                    "name": "c",
+                    "node": "variable"
+                  },
+                  {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      },
+                      "candidates"
+                    ],
+                    "name": "field",
+                    "node": "function_application"
+                  }
+                ],
+                "name": "builtin:member",
+                "node": "predicate_application"
+              },
+              "consequent": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "name": "L",
+                                "node": "variable"
+                              },
+                              "violation_rows"
+                            ],
+                            "name": "field",
+                            "node": "function_application"
+                          },
+                          {
+                            "name": "c",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "lookup",
+                        "node": "function_application"
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "name": "L",
+                            "node": "variable"
+                          },
+                          "constraint_count"
+                        ],
+                        "name": "field",
+                        "node": "function_application"
+                      }
+                    ],
+                    "name": "builtin:nonnegative_integer_vector_of_length",
+                    "node": "predicate_application"
+                  },
+                  {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "name": "L",
+                                "node": "variable"
+                              },
+                              "base_masses"
+                            ],
+                            "name": "field",
+                            "node": "function_application"
+                          },
+                          {
+                            "name": "c",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "lookup",
+                        "node": "function_application"
+                      }
+                    ],
+                    "name": "builtin:positive_rational",
+                    "node": "predicate_application"
+                  }
+                ],
+                "node": "and"
+              },
+              "node": "implies"
+            },
+            "node": "forall"
+          }
+        ],
+        "node": "and"
+      },
+      "id": "wf_maxent_ledger",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        }
+      ],
+      "returns": "Boolean"
+    },
+    {
+      "body": {
+        "binding": {
+          "sort": "natural number",
+          "variable": "j"
+        },
+        "body": {
+          "argument": {
+            "argument": {
+              "arguments": [
+                {
+                  "name": "w",
+                  "node": "variable"
+                },
+                {
+                  "name": "j",
+                  "node": "variable"
+                }
+              ],
+              "name": "index",
+              "node": "function_application"
+            },
+            "node": "negate"
+          },
+          "node": "exp"
+        },
+        "domain": {
+          "arguments": [
+            {
+              "name": "w",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:index_set",
+          "node": "function_application"
+        },
+        "node": "map"
+      },
+      "id": "activity_vector",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "w",
+          "sort": "vector"
+        }
+      ],
+      "returns": "vector"
+    },
+    {
+      "body": {
+        "binding": {
+          "sort": "natural number",
+          "variable": "j"
+        },
+        "body": {
+          "base": {
+            "arguments": [
+              {
+                "name": "z",
+                "node": "variable"
+              },
+              {
+                "name": "j",
+                "node": "variable"
+              }
+            ],
+            "name": "index",
+            "node": "function_application"
+          },
+          "exponent": {
+            "arguments": [
+              {
+                "name": "row",
+                "node": "variable"
+              },
+              {
+                "name": "j",
+                "node": "variable"
+              }
+            ],
+            "name": "index",
+            "node": "function_application"
+          },
+          "node": "power"
+        },
+        "domain": {
+          "arguments": [
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:index_set",
+          "node": "function_application"
+        },
+        "node": "finite_product"
+      },
+      "id": "monomial",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "z",
+          "sort": "vector"
+        },
+        {
+          "name": "row",
+          "sort": "vector"
+        }
+      ],
+      "returns": "positive real"
+    },
+    {
+      "body": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  "base_masses"
+                ],
+                "name": "field",
+                "node": "function_application"
+              },
+              {
+                "name": "c",
+                "node": "variable"
+              }
+            ],
+            "name": "lookup",
+            "node": "function_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "z",
+                "node": "variable"
+              },
+              {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      },
+                      "violation_rows"
+                    ],
+                    "name": "field",
+                    "node": "function_application"
+                  },
+                  {
+                    "name": "c",
+                    "node": "variable"
+                  }
+                ],
+                "name": "lookup",
+                "node": "function_application"
+              }
+            ],
+            "name": "monomial",
+            "node": "function_application"
+          }
+        ],
+        "node": "multiply"
+      },
+      "id": "unnormalized_mass",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "c",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "z",
+          "sort": "vector"
+        }
+      ],
+      "returns": "positive real"
+    },
+    {
+      "body": {
+        "binding": {
+          "sort": "typed answer object",
+          "variable": "c"
+        },
+        "body": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            {
+              "name": "c",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "unnormalized_mass",
+          "node": "function_application"
+        },
+        "domain": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            "candidates"
+          ],
+          "name": "field",
+          "node": "function_application"
+        },
+        "node": "finite_sum"
+      },
+      "id": "partition_function",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "z",
+          "sort": "vector"
+        }
+      ],
+      "returns": "positive real"
+    },
+    {
+      "body": {
+        "denominator": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "partition_function",
+          "node": "function_application"
+        },
+        "node": "divide",
+        "numerator": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            {
+              "name": "c",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "unnormalized_mass",
+          "node": "function_application"
+        }
+      },
+      "id": "candidate_probability",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "c",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "z",
+          "sort": "vector"
+        }
+      ],
+      "returns": "positive real"
+    },
+    {
+      "body": {
+        "denominator": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            {
+              "name": "c",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "unnormalized_mass",
+          "node": "function_application"
+        },
+        "node": "divide",
+        "numerator": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "partition_function",
+          "node": "function_application"
+        }
+      },
+      "id": "relative_partition",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "c",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "z",
+          "sort": "vector"
+        }
+      ],
+      "returns": "positive real"
+    },
+    {
+      "body": {
+        "left": {
+          "arguments": [
+            {
+              "name": "A",
+              "node": "variable"
+            },
+            {
+              "name": "a",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "relative_partition",
+          "node": "function_application"
+        },
+        "node": "subtract",
+        "right": {
+          "arguments": [
+            {
+              "name": "B",
+              "node": "variable"
+            },
+            {
+              "name": "b",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "relative_partition",
+          "node": "function_application"
+        }
+      },
+      "id": "cross_named_margin",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "A",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "a",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "B",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "b",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "z",
+          "sort": "vector"
+        }
+      ],
+      "returns": "real"
+    },
+    {
+      "body": {
+        "binding": {
+          "sort": "typed answer object",
+          "variable": "c"
+        },
+        "body": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            {
+              "name": "c",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "unnormalized_mass",
+          "node": "function_application"
+        },
+        "domain": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "L",
+                  "node": "variable"
+                },
+                "candidates"
+              ],
+              "name": "field",
+              "node": "function_application"
+            },
+            {
+              "arguments": [
+                {
+                  "name": "L",
+                  "node": "variable"
+                },
+                "consequence_map"
+              ],
+              "name": "field",
+              "node": "function_application"
+            },
+            {
+              "name": "y",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:filter_equal_image",
+          "node": "function_application"
+        },
+        "node": "finite_sum"
+      },
+      "id": "fibre_mass",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "y",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "z",
+          "sort": "vector"
+        }
+      ],
+      "returns": "nonnegative real"
+    },
+    {
+      "body": {
+        "denominator": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "partition_function",
+          "node": "function_application"
+        },
+        "node": "divide",
+        "numerator": {
+          "arguments": [
+            {
+              "name": "L",
+              "node": "variable"
+            },
+            {
+              "name": "y",
+              "node": "variable"
+            },
+            {
+              "name": "z",
+              "node": "variable"
+            }
+          ],
+          "name": "fibre_mass",
+          "node": "function_application"
+        }
+      },
+      "id": "consequence_probability",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "y",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "z",
+          "sort": "vector"
+        }
+      ],
+      "returns": "nonnegative real"
+    },
+    {
+      "body": {
+        "base": {
+          "lower": {
+            "denominator": 1,
+            "node": "rational",
+            "numerator": 0
+          },
+          "node": "closed_interval",
+          "upper": {
+            "denominator": 1,
+            "node": "rational",
+            "numerator": 1
+          }
+        },
+        "exponent": {
+          "name": "k",
+          "node": "variable"
+        },
+        "node": "cartesian_power"
+      },
+      "id": "closed_unit_cube",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "k",
+          "sort": "natural number"
+        }
+      ],
+      "returns": "set of vectors"
+    },
+    {
+      "body": {
+        "base": {
+          "lower": {
+            "denominator": 1,
+            "node": "rational",
+            "numerator": 0
+          },
+          "node": "left_open_interval",
+          "upper": {
+            "denominator": 1,
+            "node": "rational",
+            "numerator": 1
+          }
+        },
+        "exponent": {
+          "name": "k",
+          "node": "variable"
+        },
+        "node": "cartesian_power"
+      },
+      "id": "physical_activity_cube",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "k",
+          "sort": "natural number"
+        }
+      ],
+      "returns": "set of vectors"
+    },
+    {
+      "body": {
+        "bindings": [
+          {
+            "sort": "vector",
+            "variable": "z"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "name": "z",
+                "node": "variable"
+              },
+              {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "A",
+                        "node": "variable"
+                      },
+                      "constraint_count"
+                    ],
+                    "name": "field",
+                    "node": "function_application"
+                  }
+                ],
+                "name": "physical_activity_cube",
+                "node": "function_application"
+              }
+            ],
+            "name": "builtin:member",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "left": {
+              "arguments": [
+                {
+                  "name": "A",
+                  "node": "variable"
+                },
+                {
+                  "name": "a",
+                  "node": "variable"
+                },
+                {
+                  "name": "z",
+                  "node": "variable"
+                }
+              ],
+              "name": "candidate_probability",
+              "node": "function_application"
+            },
+            "node": "less_equal",
+            "right": {
+              "arguments": [
+                {
+                  "name": "B",
+                  "node": "variable"
+                },
+                {
+                  "name": "b",
+                  "node": "variable"
+                },
+                {
+                  "name": "z",
+                  "node": "variable"
+                }
+              ],
+              "name": "candidate_probability",
+              "node": "function_application"
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "id": "universal_named_order",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "A",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "a",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "B",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "b",
+          "sort": "typed answer object"
+        }
+      ],
+      "returns": "Boolean"
+    },
+    {
+      "body": {
+        "left": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "L",
+                  "node": "variable"
+                },
+                "violation_rows"
+              ],
+              "name": "field",
+              "node": "function_application"
+            },
+            {
+              "name": "c",
+              "node": "variable"
+            }
+          ],
+          "name": "lookup",
+          "node": "function_application"
+        },
+        "node": "subtract",
+        "right": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "L",
+                  "node": "variable"
+                },
+                "violation_rows"
+              ],
+              "name": "field",
+              "node": "function_application"
+            },
+            {
+              "name": "a",
+              "node": "variable"
+            }
+          ],
+          "name": "lookup",
+          "node": "function_application"
+        }
+      },
+      "id": "relative_row",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "c",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "a",
+          "sort": "typed answer object"
+        }
+      ],
+      "returns": "integer vector"
+    },
+    {
+      "body": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "L",
+                "node": "variable"
+              },
+              "candidates"
+            ],
+            "name": "field",
+            "node": "function_application"
+          },
+          {
+            "binding": {
+              "sort": "typed answer object",
+              "variable": "c"
+            },
+            "body": {
+              "arguments": [
+                {
+                  "name": "L",
+                  "node": "variable"
+                },
+                {
+                  "name": "c",
+                  "node": "variable"
+                },
+                {
+                  "name": "a",
+                  "node": "variable"
+                }
+              ],
+              "name": "relative_row",
+              "node": "function_application"
+            },
+            "domain": {
+              "arguments": [
+                {
+                  "name": "L",
+                  "node": "variable"
+                },
+                "candidates"
+              ],
+              "name": "field",
+              "node": "function_application"
+            },
+            "node": "map"
+          },
+          {
+            "binding": {
+              "sort": "typed answer object",
+              "variable": "c"
+            },
+            "body": {
+              "denominator": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      },
+                      "base_masses"
+                    ],
+                    "name": "field",
+                    "node": "function_application"
+                  },
+                  {
+                    "name": "a",
+                    "node": "variable"
+                  }
+                ],
+                "name": "lookup",
+                "node": "function_application"
+              },
+              "node": "divide",
+              "numerator": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      },
+                      "base_masses"
+                    ],
+                    "name": "field",
+                    "node": "function_application"
+                  },
+                  {
+                    "name": "c",
+                    "node": "variable"
+                  }
+                ],
+                "name": "lookup",
+                "node": "function_application"
+              }
+            },
+            "domain": {
+              "arguments": [
+                {
+                  "name": "L",
+                  "node": "variable"
+                },
+                "candidates"
+              ],
+              "name": "field",
+              "node": "function_application"
+            },
+            "node": "map"
+          }
+        ],
+        "name": "builtin:aggregate_labelled_atomic_measure",
+        "node": "function_application"
+      },
+      "id": "relative_row_mass_measure",
+      "node": "function_definition",
+      "parameters": [
+        {
+          "name": "L",
+          "sort": "MaxEntLedger"
+        },
+        {
+          "name": "a",
+          "sort": "typed answer object"
+        }
+      ],
+      "returns": "finite rational atomic measure"
+    }
+  ],
+  "schema_version": "2.0.0",
+  "sorts": [
+    {
+      "fields": [
+        {
+          "name": "constraint_count",
+          "sort": "natural number"
+        },
+        {
+          "name": "candidates",
+          "sort": "finite sequence"
+        },
+        {
+          "name": "named_candidate",
+          "sort": "typed answer object"
+        },
+        {
+          "name": "violation_rows",
+          "sort": "finite map"
+        },
+        {
+          "name": "base_masses",
+          "sort": "finite map"
+        },
+        {
+          "name": "consequence_map",
+          "sort": "finite map"
+        }
+      ],
+      "name": "MaxEntLedger",
+      "node": "record_type"
+    },
+    {
+      "fields": [
+        {
+          "name": "dimension",
+          "sort": "natural number"
+        },
+        {
+          "name": "coefficient_map",
+          "sort": "finite map"
+        }
+      ],
+      "name": "SparsePolynomial",
+      "node": "record_type"
+    },
+    {
+      "fields": [
+        {
+          "name": "dimension",
+          "sort": "natural number"
+        },
+        {
+          "name": "coefficient_map",
+          "sort": "finite map"
+        }
+      ],
+      "name": "SparseLaurentPolynomial",
+      "node": "record_type"
+    },
+    {
+      "constructors": [
+        {
+          "fields": [
+            "variable_index"
+          ],
+          "name": "one"
+        },
+        {
+          "fields": [
+            "left_index",
+            "right_index",
+            "result_index"
+          ],
+          "name": "add"
+        },
+        {
+          "fields": [
+            "left_index",
+            "right_index"
+          ],
+          "name": "inverse"
+        }
+      ],
+      "container": "finite sequence with declared variable_count",
+      "name": "BoundedETRINVInstance",
+      "node": "sum_type"
+    },
+    {
+      "fields": [
+        {
+          "name": "ambient_dimension",
+          "sort": "natural number"
+        },
+        {
+          "name": "points",
+          "sort": "finite sequence"
+        }
+      ],
+      "name": "FinitePointConfiguration",
+      "node": "record_type"
+    }
+  ]
+}

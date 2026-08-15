@@ -1,0 +1,7 @@
+n	markedness_slope_exact	lexical_ratio_exact_expression	response_logit_exact	response_exact_expression	identified_from_lexicon	requires_response_bridge
+0	1/2	exp(-1/2)	3/2	1/(1+exp(-3/2))	markedness_slope	intercept
+1	1/2	exp(-1/2)	1	1/(1+exp(-1))	markedness_slope	intercept
+2	1/2	exp(-1/2)	1/2	1/(1+exp(-1/2))	markedness_slope	intercept
+3	1/2	exp(-1/2)	0	1/(1+exp(0))	markedness_slope	intercept
+4	1/2	exp(-1/2)	-1/2	1/(1+exp(1/2))	markedness_slope	intercept
+5	1/2	exp(-1/2)	-1	1/(1+exp(1))	markedness_slope	intercept

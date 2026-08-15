@@ -1,0 +1,401 @@
+{
+  "assumptions": [
+    {
+      "id": "CALC-R04.EXACT-FINITE-MODEL",
+      "node": "boolean",
+      "value": true
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "left": {
+          "left": {
+            "node": "list",
+            "values": [
+              "B1",
+              "B2"
+            ]
+          },
+          "node": "set_difference",
+          "right": {
+            "map": {
+              "entries": [
+                {
+                  "key": "A",
+                  "value": "B1"
+                }
+              ],
+              "node": "finite_map"
+            },
+            "node": "values"
+          }
+        },
+        "node": "equal",
+        "right": {
+          "node": "list__MUTANT__",
+          "values": [
+            "B2"
+          ]
+        }
+      },
+      {
+        "left": {
+          "node": "list",
+          "values": [
+            {
+              "domain": {
+                "node": "list",
+                "values": [
+                  "B1",
+                  "B2",
+                  "B3"
+                ]
+              },
+              "node": "frontier",
+              "strict_edges": {
+                "node": "list",
+                "values": [
+                  [
+                    "B3",
+                    "B1"
+                  ],
+                  [
+                    "B3",
+                    "B2"
+                  ]
+                ]
+              }
+            },
+            {
+              "left": {
+                "domain": {
+                  "node": "list",
+                  "values": [
+                    "B1",
+                    "B2",
+                    "B3"
+                  ]
+                },
+                "node": "frontier",
+                "strict_edges": {
+                  "node": "list",
+                  "values": [
+                    [
+                      "B3",
+                      "B1"
+                    ],
+                    [
+                      "B3",
+                      "B2"
+                    ]
+                  ]
+                }
+              },
+              "node": "set_difference",
+              "right": {
+                "map": {
+                  "entries": [
+                    {
+                      "key": "A",
+                      "value": "B1"
+                    }
+                  ],
+                  "node": "finite_map"
+                },
+                "node": "values"
+              }
+            }
+          ]
+        },
+        "node": "equal",
+        "right": {
+          "node": "list",
+          "values": [
+            [
+              "B1",
+              "B2"
+            ],
+            [
+              "B2"
+            ]
+          ]
+        }
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "fa930ade936047c88e6a411aa2d4d0941bf65770cf43da5844a2129f0136ead0",
+      "id": "CALC-R04.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "0980b1274f7304a07ba6e66631af5914065948aaa68afc870f17217fd2ff1b14"
+    },
+    {
+      "id": "CALC-R04.COMPUTATION.01",
+      "left": {
+        "node": "list",
+        "values": [
+          "B1",
+          "B2"
+        ]
+      },
+      "node": "set_difference",
+      "right": {
+        "map": {
+          "entries": [
+            {
+              "key": "A",
+              "value": "B1"
+            }
+          ],
+          "node": "finite_map"
+        },
+        "node": "values"
+      }
+    },
+    {
+      "id": "CALC-R04.COMPUTATION.02",
+      "node": "list",
+      "values": [
+        {
+          "domain": {
+            "node": "list",
+            "values": [
+              "B1",
+              "B2",
+              "B3"
+            ]
+          },
+          "node": "frontier",
+          "strict_edges": {
+            "node": "list",
+            "values": [
+              [
+                "B3",
+                "B1"
+              ],
+              [
+                "B3",
+                "B2"
+              ]
+            ]
+          }
+        },
+        {
+          "left": {
+            "domain": {
+              "node": "list",
+              "values": [
+                "B1",
+                "B2",
+                "B3"
+              ]
+            },
+            "node": "frontier",
+            "strict_edges": {
+              "node": "list",
+              "values": [
+                [
+                  "B3",
+                  "B1"
+                ],
+                [
+                  "B3",
+                  "B2"
+                ]
+              ]
+            }
+          },
+          "node": "set_difference",
+          "right": {
+            "map": {
+              "entries": [
+                {
+                  "key": "A",
+                  "value": "B1"
+                }
+              ],
+              "node": "finite_map"
+            },
+            "node": "values"
+          }
+        }
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "CALC-R04.FINITE-DOMAIN",
+      "node": "finite_set",
+      "values": [
+        "CALC-R04.SURJECTIVITY.01",
+        "CALC-R04.FRONTIER.02"
+      ]
+    }
+  ],
+  "english_statement_sha256": "fa930ade936047c88e6a411aa2d4d0941bf65770cf43da5844a2129f0136ead0",
+  "expected_proof_methods": [
+    "ExactFiniteComputationProof"
+  ],
+  "formal_statement_sha256": "25a037675439a783d98dba426a69509402ba35266368602b3b7296712143320e",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001"
+  ],
+  "group": "CALC",
+  "kind": "regression",
+  "nonclaims": "A commuting square on the image cannot stand for the omitted orbit.",
+  "portuguese_statement_sha256": "0980b1274f7304a07ba6e66631af5914065948aaa68afc870f17217fd2ff1b14",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "left": {
+            "node": "list",
+            "values": [
+              "B1",
+              "B2"
+            ]
+          },
+          "node": "set_difference",
+          "right": {
+            "map": {
+              "entries": [
+                {
+                  "key": "A",
+                  "value": "B1"
+                }
+              ],
+              "node": "finite_map"
+            },
+            "node": "values"
+          }
+        },
+        "node": "equal",
+        "right": {
+          "node": "list__MUTANT__",
+          "values": [
+            "B2"
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-R04.SURJECTIVITY.01",
+      "proof_methods": [
+        "ExactFiniteComputationProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "node": "list",
+          "values": [
+            {
+              "domain": {
+                "node": "list",
+                "values": [
+                  "B1",
+                  "B2",
+                  "B3"
+                ]
+              },
+              "node": "frontier",
+              "strict_edges": {
+                "node": "list",
+                "values": [
+                  [
+                    "B3",
+                    "B1"
+                  ],
+                  [
+                    "B3",
+                    "B2"
+                  ]
+                ]
+              }
+            },
+            {
+              "left": {
+                "domain": {
+                  "node": "list",
+                  "values": [
+                    "B1",
+                    "B2",
+                    "B3"
+                  ]
+                },
+                "node": "frontier",
+                "strict_edges": {
+                  "node": "list",
+                  "values": [
+                    [
+                      "B3",
+                      "B1"
+                    ],
+                    [
+                      "B3",
+                      "B2"
+                    ]
+                  ]
+                }
+              },
+              "node": "set_difference",
+              "right": {
+                "map": {
+                  "entries": [
+                    {
+                      "key": "A",
+                      "value": "B1"
+                    }
+                  ],
+                  "node": "finite_map"
+                },
+                "node": "values"
+              }
+            }
+          ]
+        },
+        "node": "equal",
+        "right": {
+          "node": "list",
+          "values": [
+            [
+              "B1",
+              "B2"
+            ],
+            [
+              "B2"
+            ]
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-R04.FRONTIER.02",
+      "proof_methods": [
+        "ExactFiniteComputationProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact finite regression construction",
+  "result_dependencies": [],
+  "result_id": "CALC-R04",
+  "schema_version": "1.0.0",
+  "scope": "Fixed-index reduct admission.",
+  "sorts": [
+    "Boolean",
+    "rational",
+    "finite set",
+    "finite map",
+    "partition",
+    "relation",
+    "typed answer object"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Pair-orbit surjectivity is load-bearing",
+  "title_pt_BR": "A sobrejetividade da órbita de pares é indispensável",
+  "variables": [],
+  "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 4; any changed expectation requires documented reverification."
+}

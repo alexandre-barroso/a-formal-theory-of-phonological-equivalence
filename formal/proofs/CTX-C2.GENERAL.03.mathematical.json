@@ -1,0 +1,71 @@
+{
+  "assumptions_used": [
+    "CTX-C2.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "algorithm": "ctx_c2_general_v1",
+    "expected": {
+      "all_one_trigger_winners_equal": true,
+      "complete_orders_equal": false,
+      "shortest_opposite_trigger_separator": "K+1",
+      "three_code_probes": [
+        "K+1",
+        "2K"
+      ]
+    },
+    "family": "contextual_interaction",
+    "inputs": {
+      "domain": {
+        "K": "integer K>=2",
+        "p": "p>1",
+        "rho": "rho>0"
+      },
+      "imports": [
+        "CTX-C1"
+      ],
+      "one_trigger_evaluators": [
+        "positive_part_edge",
+        "absolute_edge"
+      ],
+      "opposite_trigger_probe": "fixed right endpoint 1",
+      "running_minimum": "y_i=min(x_0,...,x_i)",
+      "separator_span": "K+1"
+    },
+    "node": "analytic_proof_result"
+  },
+  "claim_sha256": "e0a16608d773f22547869cb7d6b7763f22c17d18616061a25b044f396a46b958",
+  "formal_statement_sha256": "50918e1ee50c08eabd298285e6c4b159f982eb1b4d9869e7cc923cd65b63915e",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.Context.ctx_c2_general_03_analytic"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "CTX-C2.GENERAL.03"
+  },
+  "proof_goal_id": "CTX-C2.GENERAL.03",
+  "proof_id": "CTX-C2.GENERAL.03.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [],
+  "result_id": "CTX-C2",
+  "schema_version": "1.1.0"
+}

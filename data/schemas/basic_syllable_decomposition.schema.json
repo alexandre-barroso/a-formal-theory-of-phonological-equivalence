@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "antecedent_status": {
+        "type": "string"
+      },
+      "facet": {
+        "type": "string"
+      },
+      "implication_id": {
+        "type": "string"
+      },
+      "transport_status": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "implication_id",
+      "antecedent_status",
+      "transport_status",
+      "facet"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/maxent/basic_syllable_decomposition.tsv",
+  "type": "array"
+}

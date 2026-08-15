@@ -1,0 +1,543 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "left": {
+            "name": "p",
+            "node": "variable"
+          },
+          "node": "greater",
+          "right": {
+            "node": "rational",
+            "value": "0"
+          }
+        },
+        {
+          "left": {
+            "name": "p",
+            "node": "variable"
+          },
+          "node": "less",
+          "right": {
+            "node": "rational",
+            "value": "1"
+          }
+        }
+      ],
+      "id": "CALC-R12.P-RANGE",
+      "node": "and"
+    }
+  ],
+  "conclusion": {
+    "coefficients": [
+      {
+        "arguments": [
+          {
+            "left": {
+              "node": "rational",
+              "value": "1"
+            },
+            "node": "subtract",
+            "right": {
+              "name": "p",
+              "node": "variable"
+            }
+          },
+          {
+            "base": {
+              "name": "p",
+              "node": "variable"
+            },
+            "exponent": {
+              "node": "natural",
+              "value": 0
+            },
+            "node": "power"
+          }
+        ],
+        "node": "multiply"
+      },
+      {
+        "arguments": [
+          {
+            "left": {
+              "node": "rational",
+              "value": "1"
+            },
+            "node": "subtract",
+            "right": {
+              "name": "p",
+              "node": "variable"
+            }
+          },
+          {
+            "base": {
+              "name": "p",
+              "node": "variable"
+            },
+            "exponent": {
+              "node": "natural",
+              "value": 1
+            },
+            "node": "power"
+          }
+        ],
+        "node": "multiply"
+      },
+      {
+        "arguments": [
+          {
+            "left": {
+              "node": "rational",
+              "value": "1"
+            },
+            "node": "subtract",
+            "right": {
+              "name": "p",
+              "node": "variable"
+            }
+          },
+          {
+            "base": {
+              "name": "p",
+              "node": "variable"
+            },
+            "exponent": {
+              "node": "natural",
+              "value": 2
+            },
+            "node": "power"
+          }
+        ],
+        "node": "multiply"
+      },
+      {
+        "arguments": [
+          {
+            "left": {
+              "node": "rational",
+              "value": "1"
+            },
+            "node": "subtract",
+            "right": {
+              "name": "p",
+              "node": "variable"
+            }
+          },
+          {
+            "base": {
+              "name": "p",
+              "node": "variable"
+            },
+            "exponent": {
+              "node": "natural",
+              "value": 3
+            },
+            "node": "power"
+          }
+        ],
+        "node": "multiply"
+      }
+    ],
+    "infinity_mass": {
+      "node": "rational",
+      "value": "0"
+    },
+    "node": "geometric_stopped_law",
+    "range_assumption": {
+      "arguments": [
+        {
+          "left": {
+            "name": "p",
+            "node": "variable"
+          },
+          "node": "greater",
+          "right": {
+            "node": "rational",
+            "value": "0"
+          }
+        },
+        {
+          "left": {
+            "name": "p",
+            "node": "variable"
+          },
+          "node": "less",
+          "right": {
+            "node": "rational",
+            "value": "1"
+          }
+        }
+      ],
+      "node": "and"
+    },
+    "state_count": 2,
+    "total_mass": {
+      "node": "rational",
+      "value": "1"
+    },
+    "variable": "p"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "f630230b9f98e56eb656a9b7480c10e285c439c62b877c554618071ef83b919c",
+      "id": "CALC-R12.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "e4be391f13e52b69f37ad4f0e595aa7edfd27277bd6a14dedcbb8a700c18d882"
+    },
+    {
+      "id": "CALC-R12.COEFFICIENTS",
+      "node": "sequence",
+      "values": [
+        {
+          "arguments": [
+            {
+              "left": {
+                "node": "rational",
+                "value": "1"
+              },
+              "node": "subtract",
+              "right": {
+                "name": "p",
+                "node": "variable"
+              }
+            },
+            {
+              "base": {
+                "name": "p",
+                "node": "variable"
+              },
+              "exponent": {
+                "node": "natural",
+                "value": 0
+              },
+              "node": "power"
+            }
+          ],
+          "node": "multiply"
+        },
+        {
+          "arguments": [
+            {
+              "left": {
+                "node": "rational",
+                "value": "1"
+              },
+              "node": "subtract",
+              "right": {
+                "name": "p",
+                "node": "variable"
+              }
+            },
+            {
+              "base": {
+                "name": "p",
+                "node": "variable"
+              },
+              "exponent": {
+                "node": "natural",
+                "value": 1
+              },
+              "node": "power"
+            }
+          ],
+          "node": "multiply"
+        },
+        {
+          "arguments": [
+            {
+              "left": {
+                "node": "rational",
+                "value": "1"
+              },
+              "node": "subtract",
+              "right": {
+                "name": "p",
+                "node": "variable"
+              }
+            },
+            {
+              "base": {
+                "name": "p",
+                "node": "variable"
+              },
+              "exponent": {
+                "node": "natural",
+                "value": 2
+              },
+              "node": "power"
+            }
+          ],
+          "node": "multiply"
+        },
+        {
+          "arguments": [
+            {
+              "left": {
+                "node": "rational",
+                "value": "1"
+              },
+              "node": "subtract",
+              "right": {
+                "name": "p",
+                "node": "variable"
+              }
+            },
+            {
+              "base": {
+                "name": "p",
+                "node": "variable"
+              },
+              "exponent": {
+                "node": "natural",
+                "value": 3
+              },
+              "node": "power"
+            }
+          ],
+          "node": "multiply"
+        }
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "CALC-R12.P-DOMAIN",
+      "node": "domain",
+      "predicate": {
+        "arguments": [
+          {
+            "left": {
+              "name": "p",
+              "node": "variable"
+            },
+            "node": "greater",
+            "right": {
+              "node": "rational",
+              "value": "0"
+            }
+          },
+          {
+            "left": {
+              "name": "p",
+              "node": "variable"
+            },
+            "node": "less",
+            "right": {
+              "node": "rational",
+              "value": "1"
+            }
+          }
+        ],
+        "node": "and"
+      },
+      "variable": {
+        "name": "p",
+        "node": "variable"
+      }
+    }
+  ],
+  "english_statement_sha256": "f630230b9f98e56eb656a9b7480c10e285c439c62b877c554618071ef83b919c",
+  "expected_proof_methods": [
+    "GeometricSeriesProof"
+  ],
+  "formal_statement_sha256": "383e649afef1468cfd4916e07e4bfbfc3160d2a0fa1d75d627e23f7801ea9410",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-REAL-001",
+    "FOUND-LIMIT-001"
+  ],
+  "group": "CALC",
+  "kind": "regression",
+  "nonclaims": "Word-by-word finite enumeration is neither required nor claimed.",
+  "portuguese_statement_sha256": "e4be391f13e52b69f37ad4f0e595aa7edfd27277bd6a14dedcbb8a700c18d882",
+  "proof_goals": [
+    {
+      "claim": {
+        "coefficients": [
+          {
+            "arguments": [
+              {
+                "left": {
+                  "node": "rational",
+                  "value": "1"
+                },
+                "node": "subtract",
+                "right": {
+                  "name": "p",
+                  "node": "variable"
+                }
+              },
+              {
+                "base": {
+                  "name": "p",
+                  "node": "variable"
+                },
+                "exponent": {
+                  "node": "natural",
+                  "value": 0
+                },
+                "node": "power"
+              }
+            ],
+            "node": "multiply"
+          },
+          {
+            "arguments": [
+              {
+                "left": {
+                  "node": "rational",
+                  "value": "1"
+                },
+                "node": "subtract",
+                "right": {
+                  "name": "p",
+                  "node": "variable"
+                }
+              },
+              {
+                "base": {
+                  "name": "p",
+                  "node": "variable"
+                },
+                "exponent": {
+                  "node": "natural",
+                  "value": 1
+                },
+                "node": "power"
+              }
+            ],
+            "node": "multiply"
+          },
+          {
+            "arguments": [
+              {
+                "left": {
+                  "node": "rational",
+                  "value": "1"
+                },
+                "node": "subtract",
+                "right": {
+                  "name": "p",
+                  "node": "variable"
+                }
+              },
+              {
+                "base": {
+                  "name": "p",
+                  "node": "variable"
+                },
+                "exponent": {
+                  "node": "natural",
+                  "value": 2
+                },
+                "node": "power"
+              }
+            ],
+            "node": "multiply"
+          },
+          {
+            "arguments": [
+              {
+                "left": {
+                  "node": "rational",
+                  "value": "1"
+                },
+                "node": "subtract",
+                "right": {
+                  "name": "p",
+                  "node": "variable"
+                }
+              },
+              {
+                "base": {
+                  "name": "p",
+                  "node": "variable"
+                },
+                "exponent": {
+                  "node": "natural",
+                  "value": 3
+                },
+                "node": "power"
+              }
+            ],
+            "node": "multiply"
+          }
+        ],
+        "infinity_mass": {
+          "node": "rational",
+          "value": "0"
+        },
+        "node": "geometric_stopped_law",
+        "range_assumption": {
+          "arguments": [
+            {
+              "left": {
+                "name": "p",
+                "node": "variable"
+              },
+              "node": "greater",
+              "right": {
+                "node": "rational",
+                "value": "0"
+              }
+            },
+            {
+              "left": {
+                "name": "p",
+                "node": "variable"
+              },
+              "node": "less",
+              "right": {
+                "node": "rational",
+                "value": "1"
+              }
+            }
+          ],
+          "node": "and"
+        },
+        "state_count": 2,
+        "total_mass": {
+          "node": "rational",
+          "value": "1"
+        },
+        "variable": "p"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-R12.SERIES.01",
+      "proof_methods": [
+        "GeometricSeriesProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "p"
+      ]
+    }
+  ],
+  "registered_query_type": "exact rational stopped probability law",
+  "result_dependencies": [],
+  "result_id": "CALC-R12",
+  "schema_version": "1.0.0",
+  "scope": "Rational stochastic stopped series.",
+  "sorts": [
+    "natural number",
+    "real",
+    "probability mass function",
+    "finite proof code"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Infinite stopped support with finite exact presentation",
+  "title_pt_BR": "Suporte interrompido infinito com apresentação exata finita",
+  "variables": [
+    {
+      "name": "p",
+      "sort": "real"
+    }
+  ],
+  "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 12; any changed expectation requires documented reverification."
+}

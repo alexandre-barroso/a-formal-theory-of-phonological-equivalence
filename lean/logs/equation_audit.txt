@@ -1,0 +1,651 @@
+$ lake env lean PhonologicalCalculus/EquationAudit.lean
+PhonologicalCalculus.Application.app_mcc_grid :
+  (∀ (x : ℝ),
+      PhonologicalCalculus.Application.oneFollowerObjective (41 / 42) ≤
+          PhonologicalCalculus.Application.oneFollowerObjective x ∧
+        (PhonologicalCalculus.Application.oneFollowerObjective x =
+            PhonologicalCalculus.Application.oneFollowerObjective (41 / 42) →
+          x = 41 / 42)) ∧
+    (∀ (k : Fin 11),
+        PhonologicalCalculus.Application.oneFollowerObjectiveRat 1 ≤
+            PhonologicalCalculus.Application.oneFollowerObjectiveRat
+              (PhonologicalCalculus.Application.tenthsCandidate k) ∧
+          (PhonologicalCalculus.Application.oneFollowerObjectiveRat
+                (PhonologicalCalculus.Application.tenthsCandidate k) =
+              PhonologicalCalculus.Application.oneFollowerObjectiveRat 1 →
+            k = ⟨10, ⋯⟩)) ∧
+      41 / 42 ≠ 1
+PhonologicalCalculus.Application.mccollum_profile_5_1 :
+  PhonologicalCalculus.Application.quadraticSaturatedProfile 5 1 4 4 = [1, 3 / 5, 3 / 10, 1 / 10, 0]
+PhonologicalCalculus.Application.mccollum_profile_20_3 :
+  PhonologicalCalculus.Application.quadraticSaturatedProfile 20 3 5 5 = [1, 13 / 20, 3 / 8, 7 / 40, 1 / 20, 0]
+PhonologicalCalculus.Application.app_basic_reuse :
+  PhonologicalCalculus.MaxEnt.basicSyllableImplications.length = 121 ∧
+    PhonologicalCalculus.MaxEnt.basicSyllableEmptyAntecedentImplications.length = 105 ∧
+      PhonologicalCalculus.MaxEnt.basicSyllableLiveImplications.length = 16
+PhonologicalCalculus.FiniteRequest.evaluate_eq_conservative_iff.{u_1, u_2, u_3} {Row : Type u_1}
+  {SourceAnswer : Type u_2} {TargetAnswer : Type u_3} [DecidableEq Row] [DecidableEq TargetAnswer]
+  (r : PhonologicalCalculus.FiniteRequest Row SourceAnswer TargetAnswer) :
+  r.evaluate = PhonologicalCalculus.Verdict.conservative ↔
+    r.eligible ∧ ∀ row ∈ r.rows, r.transport (r.sourceAnswer row) = r.targetAnswer row
+PhonologicalCalculus.FiniteRequest.mem_mismatchSet_iff.{u_1, u_2, u_3} {Row : Type u_1} {SourceAnswer : Type u_2}
+  {TargetAnswer : Type u_3} [DecidableEq Row] [DecidableEq TargetAnswer]
+  (r : PhonologicalCalculus.FiniteRequest Row SourceAnswer TargetAnswer) (row : Row) :
+  row ∈ r.mismatchSet ↔ row ∈ r.rows ∧ r.transport (r.sourceAnswer row) ≠ r.targetAnswer row
+PhonologicalCalculus.Regression.CALC_R01_PARTITION_01 :
+  PhonologicalCalculus.Regression.directQuery PhonologicalCalculus.Regression.ABC.a =
+      PhonologicalCalculus.Regression.directQuery PhonologicalCalculus.Regression.ABC.b ∧
+    PhonologicalCalculus.Regression.directQuery PhonologicalCalculus.Regression.ABC.a ≠
+        PhonologicalCalculus.Regression.directQuery PhonologicalCalculus.Regression.ABC.c ∧
+      Function.Injective PhonologicalCalculus.Regression.contextualQuery
+PhonologicalCalculus.Regression.CALC_R02_COIMAGE_01 :
+  PhonologicalCalculus.Regression.optimizerImage.card = 3 ∧
+    PhonologicalCalculus.Regression.optimizerKernel = PhonologicalCalculus.Regression.expectedOptimizerKernel
+PhonologicalCalculus.Regression.CALC_R04_SURJECTIVITY_01 :
+  {PhonologicalCalculus.Regression.Level.B1, PhonologicalCalculus.Regression.Level.B2} \
+      PhonologicalCalculus.Regression.comparisonImage =
+    {PhonologicalCalculus.Regression.Level.B2}
+PhonologicalCalculus.Regression.CALC_R11_FIBRE_01 :
+  PhonologicalCalculus.Regression.pushforwardMassAt PhonologicalCalculus.Regression.FibreLabel.a = 1
+PhonologicalCalculus.Regression.CALC_R12_SERIES_01 {p : ℝ} (hp0 : 0 < p) (hp1 : p < 1) :
+  PhonologicalCalculus.Regression.geometricCoefficient p 0 = 1 - p ∧
+    PhonologicalCalculus.Regression.geometricCoefficient p 1 = (1 - p) * p ∧
+      PhonologicalCalculus.Regression.geometricCoefficient p 2 = (1 - p) * p ^ 2 ∧
+        PhonologicalCalculus.Regression.geometricCoefficient p 3 = (1 - p) * p ^ 3 ∧
+          (∀ (n : ℕ), 0 < PhonologicalCalculus.Regression.geometricCoefficient p n) ∧
+            HasSum (PhonologicalCalculus.Regression.geometricCoefficient p) 1 ∧
+              PhonologicalCalculus.Regression.stoppedStateCount = 2 ∧
+                PhonologicalCalculus.Regression.geometricInfinityMass = 0
+PhonologicalCalculus.Regression.CALC_R14_BELL_01 : Nat.bell 2 * Nat.bell 3 = 10 ∧ Nat.bell 3 = 5
+PhonologicalCalculus.ContinuousHG.pathHarmony (penalty : ℝ → ℝ) (h m : ℝ) (profile : List ℝ) : ℝ
+PhonologicalCalculus.ContinuousHG.solidSimplex_profile_equivalence (previous : ℝ) :
+  (∀ (profile : List ℝ),
+      PhonologicalCalculus.ContinuousHG.AdmissibleProfileFrom previous profile →
+        PhonologicalCalculus.ContinuousHG.SolidSimplexFrom previous
+          (PhonologicalCalculus.ContinuousHG.decreasesFrom previous profile)) ∧
+    (∀ (decreases : List ℝ),
+        PhonologicalCalculus.ContinuousHG.SolidSimplexFrom previous decreases →
+          PhonologicalCalculus.ContinuousHG.AdmissibleProfileFrom previous
+            (PhonologicalCalculus.ContinuousHG.profileFromDecreases previous decreases)) ∧
+      (∀ (profile : List ℝ),
+          PhonologicalCalculus.ContinuousHG.profileFromDecreases previous
+              (PhonologicalCalculus.ContinuousHG.decreasesFrom previous profile) =
+            profile) ∧
+        ∀ (decreases : List ℝ),
+          PhonologicalCalculus.ContinuousHG.decreasesFrom previous
+              (PhonologicalCalculus.ContinuousHG.profileFromDecreases previous decreases) =
+            decreases
+PhonologicalCalculus.ContinuousHG.powerReducedObjective.{u_1} {ι : Type u_1} [Fintype ι] (h m p : ℝ)
+  (weight d : ι → ℝ) : ℝ
+PhonologicalCalculus.ContinuousHG.generalPowerFirstZeroCell_iff_shiftedSum {h m p : ℝ} {K : ℕ} :
+  PhonologicalCalculus.ContinuousHG.GeneralPowerFirstZeroCell h m p K ↔
+    0 < K ∧
+      0 < h ∧
+        0 < m ∧
+          1 < p ∧
+            PhonologicalCalculus.ContinuousHG.powerPathShiftedSum h m p (K - 1) < 1 ∧
+              1 ≤ PhonologicalCalculus.ContinuousHG.powerPathShiftedSum h m p K
+PhonologicalCalculus.ContinuousHG.powerKKTDecrease_unique_minimizer.{u_1} {ι : Type u_1} [Fintype ι] {h m p eta : ℝ}
+  (weight : ι → ℝ) (hh : 0 < h) (hp : 1 < p) (heta : 0 ≤ eta)
+  (hmass : PhonologicalCalculus.ContinuousHG.powerKKTMass h m p eta weight = 1) :
+  PhonologicalCalculus.ContinuousHG.IsUniqueMinimizerOn PhonologicalCalculus.ContinuousHG.SolidSimplex
+    (PhonologicalCalculus.ContinuousHG.powerReducedObjective h m p weight)
+    (PhonologicalCalculus.ContinuousHG.powerKKTDecrease h m p eta weight)
+PhonologicalCalculus.ContinuousHG.normalizedProfileLoss_powered_gap {p rho tau : ℝ} {K i j : ℕ} (hp : 1 < p)
+  (hrho : 0 < rho) (_htau0 : 0 ≤ tau) (htau1 : tau < 1) (hij : i < j) (hjK : j < K)
+  (hphase : PhonologicalCalculus.ContinuousHG.shiftedPowerSum (1 / (p - 1)) tau K = (p * rho) ^ (1 / (p - 1))) :
+  PhonologicalCalculus.ContinuousHG.normalizedProfileLoss (1 / (p - 1)) tau K i ^ (p - 1) -
+      PhonologicalCalculus.ContinuousHG.normalizedProfileLoss (1 / (p - 1)) tau K j ^ (p - 1) =
+    ↑(j - i) / (p * rho)
+PhonologicalCalculus.ContinuousHG.quadraticPositiveFollowerCount_iff_phaseCell (h m : ℝ) (L : ℕ) :
+  PhonologicalCalculus.ContinuousHG.QuadraticPositiveFollowerCount h m L ↔
+    PhonologicalCalculus.ContinuousHG.QuadraticPhaseCell h m (L + 1)
+PhonologicalCalculus.ContinuousHG.chg_b6_allBack_weak_iff {N : ℕ} (hN : 0 < N) {h m delta p : ℝ} (hh : 0 < h)
+  (hm : 0 < m) (hdelta : 0 < delta) (hdeltaOne : delta ≤ 1) (hp : 1 ≤ p) :
+  (∀ (count : Fin N → ℕ),
+      PhonologicalCalculus.ContinuousHG.UniformLatticeAdmissible delta count →
+        0 ≤
+          PhonologicalCalculus.ContinuousHG.UniformLatticeScore
+            (PhonologicalCalculus.ContinuousHG.directionalLatticeCoefficient h delta p) m p
+            (PhonologicalCalculus.ContinuousHG.quadraticPathWeight N) count) ↔
+    m * ↑N ≤ PhonologicalCalculus.ContinuousHG.directionalLatticeCoefficient h delta p
+PhonologicalCalculus.ContinuousHG.generalPowerRatioPhaseCell_iff_threshold {p rho : ℝ} {K : ℕ} :
+  PhonologicalCalculus.ContinuousHG.GeneralPowerRatioPhaseCell p rho K ↔
+    1 < p ∧
+      0 < rho ∧
+        0 < K ∧
+          PhonologicalCalculus.ContinuousHG.generalPowerSum p (K - 1) <
+              (p * rho) ^ PhonologicalCalculus.ContinuousHG.powerShiftExponent p ∧
+            (p * rho) ^ PhonologicalCalculus.ContinuousHG.powerShiftExponent p ≤
+              PhonologicalCalculus.ContinuousHG.generalPowerSum p K
+PhonologicalCalculus.ContinuousHG.powerProfileFromDecreases_eq_normalizedPhaseProfile {h m p eta : ℝ} {K i : ℕ}
+  (hh : 0 < h) (hm : 0 < m) (hp : 1 < p) (heta : eta < m)
+  (hmass : PhonologicalCalculus.ContinuousHG.powerPathMass h m p eta K = 1) :
+  PhonologicalCalculus.ContinuousHG.powerProfileFromDecreases
+      (PhonologicalCalculus.ContinuousHG.powerPathDecrease h m p eta K) i =
+    PhonologicalCalculus.ContinuousHG.normalizedPhaseProfile (PhonologicalCalculus.ContinuousHG.powerShiftExponent p)
+      (eta / m) K i
+PhonologicalCalculus.ContinuousHG.chg_b13_uniform_long_support_scaling {p : ℝ} (hp : 1 < p) :
+  (∀ (epsilon : ℝ),
+      0 < epsilon →
+        ∀ᶠ (K : ℕ) in Filter.atTop,
+          ∀ (tau : ℝ),
+            0 ≤ tau →
+              tau < 1 →
+                ∀ i ≤ K,
+                  |PhonologicalCalculus.ContinuousHG.normalizedPhaseProfile
+                          (PhonologicalCalculus.ContinuousHG.powerShiftExponent p) tau K i -
+                        PhonologicalCalculus.ContinuousHG.scalingProfile p (↑i / ↑K)| <
+                    epsilon) ∧
+    ∀ (epsilon : ℝ),
+      0 < epsilon →
+        ∀ᶠ (K : ℕ) in Filter.atTop,
+          ∀ (tau : ℝ),
+            0 ≤ tau →
+              tau < 1 →
+                ∀ (i : ℕ),
+                  1 ≤ i →
+                    i ≤ K →
+                      |↑K *
+                              PhonologicalCalculus.ContinuousHG.normalizedPhaseDecrease
+                                (PhonologicalCalculus.ContinuousHG.powerShiftExponent p) tau K (K - i) -
+                            PhonologicalCalculus.ContinuousHG.scalingDensity p (↑i / ↑K)| <
+                        epsilon
+PhonologicalCalculus.ContinuousHG.chg_b14_complete_ratio_onset_and_optimizer {p q : ℝ} (hp : 1 < p)
+  (hq : q = PhonologicalCalculus.ContinuousHG.powerShiftExponent p) {k : ℕ} (hk : 0 < k) :
+  (p < 2 →
+      Filter.Tendsto
+        (fun t =>
+          PhonologicalCalculus.ContinuousHG.supportBirthCoordinate q k t /
+            (PhonologicalCalculus.ContinuousHG.supportBirthRatio p q k t -
+                PhonologicalCalculus.ContinuousHG.supportBirthRatio p q k 0) ^
+              q)
+        (nhdsWithin 0 (Set.Ioi 0))
+        (nhds (PhonologicalCalculus.ContinuousHG.supportBirthSubquadraticCoordinateCoefficient p q k))) ∧
+    (p = 2 →
+        Filter.Tendsto
+          (fun t =>
+            PhonologicalCalculus.ContinuousHG.supportBirthCoordinate q k t /
+              (PhonologicalCalculus.ContinuousHG.supportBirthRatio p q k t -
+                PhonologicalCalculus.ContinuousHG.supportBirthRatio p q k 0))
+          (nhdsWithin 0 (Set.Ioi 0))
+          (nhds (PhonologicalCalculus.ContinuousHG.supportBirthQuadraticCoordinateCoefficient p k))) ∧
+      (2 < p →
+          Filter.Tendsto
+            (fun t =>
+              PhonologicalCalculus.ContinuousHG.supportBirthCoordinate q k t /
+                (PhonologicalCalculus.ContinuousHG.supportBirthRatio p q k t -
+                  PhonologicalCalculus.ContinuousHG.supportBirthRatio p q k 0))
+            (nhdsWithin 0 (Set.Ioi 0))
+            (nhds (PhonologicalCalculus.ContinuousHG.supportBirthSuperquadraticCoordinateCoefficient p q k))) ∧
+        PhonologicalCalculus.ContinuousHG.SupportBirthOptimizerProof
+            (PhonologicalCalculus.ContinuousHG.supportBirthRatio p q k 0) p k ∧
+          (∀ (t : ℝ),
+              0 < t →
+                t ≤ 1 →
+                  PhonologicalCalculus.ContinuousHG.SupportBirthEnteringCoordinateProof p q k t ∧
+                    PhonologicalCalculus.ContinuousHG.SupportBirthOptimizerProof
+                        (PhonologicalCalculus.ContinuousHG.supportBirthRatio p q k t) p (k + 1) ∧
+                      0 < PhonologicalCalculus.ContinuousHG.supportBirthCoordinate q k t) ∧
+            Filter.Tendsto (PhonologicalCalculus.ContinuousHG.supportBirthCoordinate q k) (nhdsWithin 0 (Set.Ioi 0))
+              (nhds 0)
+PhonologicalCalculus.ContinuousHG.chg_b15_full_vector_optimizer_boundary_law :
+  (∀ (N : ℕ) (rho : ℝ), 0 < N → ↑N < rho → PhonologicalCalculus.ContinuousHG.SingularFixedRatioAboveProof N rho) ∧
+    (∀ (N : ℕ) (hN : 0 < N), PhonologicalCalculus.ContinuousHG.SingularFixedRatioEqualityProof N hN) ∧
+      (∀ (N : ℕ) (rho : ℝ) (hN : 0 < N),
+          0 < rho → rho < ↑N → PhonologicalCalculus.ContinuousHG.SingularFixedRatioBelowProof N rho hN) ∧
+        ∀ (N : ℕ) (c : ℝ) (hN : 0 < N), -1 < c → PhonologicalCalculus.ContinuousHG.SingularJointPathProof N c hN
+PhonologicalCalculus.ContinuousHG.chg_b16_unconditional_actual_hard_exponent_law {rho : ℝ} (hrho : 0 < rho) :
+  (∀ᶠ (p : ℝ) in Filter.atTop,
+      PhonologicalCalculus.ContinuousHG.GeneralPowerFirstZeroCell rho 1 p 2 ∧
+        PhonologicalCalculus.ContinuousHG.IsUniqueMinimizerOn PhonologicalCalculus.ContinuousHG.SolidSimplex
+            (PhonologicalCalculus.ContinuousHG.powerReducedObjective rho 1 p
+              (PhonologicalCalculus.ContinuousHG.powerPathWeight 2))
+            (PhonologicalCalculus.ContinuousHG.powerPathDecrease rho 1 p
+              (PhonologicalCalculus.ContinuousHG.hardExponentActualOffset rho p) 2) ∧
+          0 <
+              PhonologicalCalculus.ContinuousHG.powerProfileFromDecreases
+                (PhonologicalCalculus.ContinuousHG.powerPathDecrease rho 1 p
+                  (PhonologicalCalculus.ContinuousHG.hardExponentActualOffset rho p) 2)
+                1 ∧
+            ∀ (R : ℕ),
+              PhonologicalCalculus.ContinuousHG.IsUniqueMinimizerOn PhonologicalCalculus.ContinuousHG.SolidSimplex
+                (PhonologicalCalculus.ContinuousHG.powerReducedObjective rho 1 p
+                  (PhonologicalCalculus.ContinuousHG.powerPathWeight (2 + R)))
+                (PhonologicalCalculus.ContinuousHG.powerPathDecrease rho 1 p
+                  (PhonologicalCalculus.ContinuousHG.hardExponentActualOffset rho p + 1 * ↑R) (2 + R))) ∧
+    Filter.Tendsto
+        (fun p =>
+          PhonologicalCalculus.ContinuousHG.powerProfileFromDecreases
+              (PhonologicalCalculus.ContinuousHG.powerPathDecrease rho 1 p
+                (PhonologicalCalculus.ContinuousHG.hardExponentActualOffset rho p) 2)
+              1 /
+            PhonologicalCalculus.ContinuousHG.hardExponentScale rho p)
+        Filter.atTop (nhds 1) ∧
+      Filter.Tendsto
+        (fun p =>
+          PhonologicalCalculus.ContinuousHG.powerProfileFromDecreases
+            (PhonologicalCalculus.ContinuousHG.powerPathDecrease rho 1 p
+              (PhonologicalCalculus.ContinuousHG.hardExponentActualOffset rho p) 2)
+            1)
+        Filter.atTop (nhds 0)
+PhonologicalCalculus.Context.absoluteIntervalPathHarmony (h m p : ℝ) {L : ℕ} (slope : Fin L → ℝ) : ℝ
+PhonologicalCalculus.Context.phaseShiftedPowerSum_eq_context (q tau : ℝ) (K : ℕ) :
+  PhonologicalCalculus.ContinuousHG.shiftedPowerSum q tau K = PhonologicalCalculus.Context.shiftedPowerSum K q (1 - tau)
+PhonologicalCalculus.Context.ctx_c1_general_04_analytic {h m p : ℝ} {K : ℕ}
+  (hcell : PhonologicalCalculus.ContinuousHG.GeneralPowerFirstZeroCell h m p K) :
+  ∃! u,
+    u ∈ Set.Ioc 0 1 ∧
+      PhonologicalCalculus.Context.shiftedPowerSum K (PhonologicalCalculus.ContinuousHG.powerShiftExponent p) u =
+          (p * (h / m)) ^ PhonologicalCalculus.ContinuousHG.powerShiftExponent p ∧
+        (∀ (L : ℕ),
+            ∃ winner,
+              PhonologicalCalculus.ContinuousHG.IsUniqueMinimizerOn PhonologicalCalculus.Context.AbsoluteIntervalBox
+                  (PhonologicalCalculus.Context.absoluteIntervalPathHarmony h m p) winner ∧
+                (PhonologicalCalculus.Context.AbsoluteIntervalAllPositive winner ↔
+                    L ≤
+                      PhonologicalCalculus.Context.maximumPositiveGap K
+                        (PhonologicalCalculus.Context.absoluteEdgeSupportClass u)) ∧
+                  (PhonologicalCalculus.Context.AbsoluteIntervalHasZero winner ↔
+                    PhonologicalCalculus.Context.maximumPositiveGap K
+                        (PhonologicalCalculus.Context.absoluteEdgeSupportClass u) <
+                      L)) ∧
+          (∀ L ≤ 2 * K - 1,
+              ∃ winner,
+                PhonologicalCalculus.ContinuousHG.IsUniqueMinimizerOn PhonologicalCalculus.Context.AbsoluteIntervalBox
+                    (PhonologicalCalculus.Context.absoluteIntervalPathHarmony h m p) winner ∧
+                  PhonologicalCalculus.Context.AbsoluteIntervalAllPositive winner) ∧
+            (∃ winner,
+                PhonologicalCalculus.ContinuousHG.IsUniqueMinimizerOn PhonologicalCalculus.Context.AbsoluteIntervalBox
+                    (PhonologicalCalculus.Context.absoluteIntervalPathHarmony h m p) winner ∧
+                  (PhonologicalCalculus.Context.AbsoluteIntervalHasZero winner ↔ u ≤ 1 / 2)) ∧
+              (∀ (L : ℕ),
+                  2 * K + 1 ≤ L →
+                    ∃ winner,
+                      PhonologicalCalculus.ContinuousHG.IsUniqueMinimizerOn
+                          PhonologicalCalculus.Context.AbsoluteIntervalBox
+                          (PhonologicalCalculus.Context.absoluteIntervalPathHarmony h m p) winner ∧
+                        PhonologicalCalculus.Context.AbsoluteIntervalHasZero winner) ∧
+                ∀ (v : ℝ),
+                  PhonologicalCalculus.Context.phaseBit u = PhonologicalCalculus.Context.phaseBit v →
+                    ∀ (L : ℕ),
+                      PhonologicalCalculus.Context.positiveAtGap K L
+                          (PhonologicalCalculus.Context.absoluteEdgeSupportClass u) =
+                        PhonologicalCalculus.Context.positiveAtGap K L
+                          (PhonologicalCalculus.Context.absoluteEdgeSupportClass v)
+PhonologicalCalculus.Demonstration.data_pt_r1_replay :
+  PhonologicalCalculus.Demonstration.portugueseBinding.rowCount = 72 ∧
+    PhonologicalCalculus.Demonstration.portugueseBinding.distinctNaturalKeyCount = 72 ∧
+      PhonologicalCalculus.Demonstration.portugueseCells = 18 ∧
+        PhonologicalCalculus.Demonstration.portugueseRows = 72 ∧
+          PhonologicalCalculus.Demonstration.portuguesePositiveMedianRows = 72 ∧
+            PhonologicalCalculus.Demonstration.gatePassCount
+                  PhonologicalCalculus.Demonstration.PortuguesePatternBin.full =
+                17 ∧
+              PhonologicalCalculus.Demonstration.gatePassCount
+                    PhonologicalCalculus.Demonstration.PortuguesePatternBin.leaveFlatnessOut =
+                  11 ∧
+                PhonologicalCalculus.Demonstration.gatePassCount
+                      PhonologicalCalculus.Demonstration.PortuguesePatternBin.leaveHighLowOut =
+                    16 ∧
+                  PhonologicalCalculus.Demonstration.gatePassCount
+                        PhonologicalCalculus.Demonstration.PortuguesePatternBin.leaveZcrOut =
+                      13 ∧
+                    PhonologicalCalculus.Demonstration.gateChangedCount
+                          PhonologicalCalculus.Demonstration.PortuguesePatternBin.leaveFlatnessOut =
+                        6 ∧
+                      PhonologicalCalculus.Demonstration.gateChangedCount
+                            PhonologicalCalculus.Demonstration.PortuguesePatternBin.leaveHighLowOut =
+                          3 ∧
+                        PhonologicalCalculus.Demonstration.gateChangedCount
+                              PhonologicalCalculus.Demonstration.PortuguesePatternBin.leaveZcrOut =
+                            4 ∧
+                          PhonologicalCalculus.Demonstration.portugueseChangedDecisions = 13 ∧
+                            PhonologicalCalculus.Demonstration.portugueseYesToNo = 12 ∧
+                              PhonologicalCalculus.Demonstration.portugueseNoToYes = 1 ∧
+                                PhonologicalCalculus.Demonstration.portugueseUniqueChangedCells = 9 ∧
+                                  PhonologicalCalculus.Demonstration.representedRows
+                                        PhonologicalCalculus.Demonstration.portugueseKeyBins =
+                                      72 ∧
+                                    PhonologicalCalculus.Demonstration.representedDistinctKeys
+                                          PhonologicalCalculus.Demonstration.portugueseKeyBins =
+                                        72 ∧
+                                      PhonologicalCalculus.Demonstration.everyKeyOccursOnce
+                                          PhonologicalCalculus.Demonstration.portugueseKeyBins =
+                                        true
+PhonologicalCalculus.Demonstration.data_en_r1_replay :
+  PhonologicalCalculus.Demonstration.englishAggregateBinding.rowCount = 300 ∧
+    PhonologicalCalculus.Demonstration.englishAggregateBinding.distinctNaturalKeyCount = 300 ∧
+      PhonologicalCalculus.Demonstration.englishSpeakerBinding.rowCount = 14135 ∧
+        PhonologicalCalculus.Demonstration.englishSpeakerBinding.distinctNaturalKeyCount = 14135 ∧
+          PhonologicalCalculus.Demonstration.englishAggregateRows = 300 ∧
+            PhonologicalCalculus.Demonstration.englishRowsInSplit
+                  PhonologicalCalculus.Demonstration.EnglishSplit.developmentEven =
+                150 ∧
+              PhonologicalCalculus.Demonstration.englishRowsInSplit
+                    PhonologicalCalculus.Demonstration.EnglishSplit.confirmationOdd =
+                  150 ∧
+                PhonologicalCalculus.Demonstration.englishPassingAggregateRows = 300 ∧
+                  PhonologicalCalculus.Demonstration.englishAggregateCells = 4200 ∧
+                    PhonologicalCalculus.Demonstration.englishPositiveMedianCells = 4200 ∧
+                      PhonologicalCalculus.Demonstration.englishCellBins.all
+                            PhonologicalCalculus.Demonstration.EnglishCellBin.hasStrictMajority =
+                          true ∧
+                        PhonologicalCalculus.Demonstration.englishAggregateSupport = 14135 ∧
+                          PhonologicalCalculus.Demonstration.englishSpeakerRows = 14135 ∧
+                            PhonologicalCalculus.Demonstration.englishPassingSpeakerRows = 14135 ∧
+                              PhonologicalCalculus.Demonstration.representedRows
+                                    PhonologicalCalculus.Demonstration.englishAggregateKeyBins =
+                                  300 ∧
+                                PhonologicalCalculus.Demonstration.representedDistinctKeys
+                                      PhonologicalCalculus.Demonstration.englishAggregateKeyBins =
+                                    300 ∧
+                                  PhonologicalCalculus.Demonstration.everyKeyOccursOnce
+                                        PhonologicalCalculus.Demonstration.englishAggregateKeyBins =
+                                      true ∧
+                                    PhonologicalCalculus.Demonstration.representedRows
+                                          PhonologicalCalculus.Demonstration.englishSpeakerKeyBins =
+                                        14135 ∧
+                                      PhonologicalCalculus.Demonstration.representedDistinctKeys
+                                            PhonologicalCalculus.Demonstration.englishSpeakerKeyBins =
+                                          14135 ∧
+                                        PhonologicalCalculus.Demonstration.everyKeyOccursOnce
+                                              PhonologicalCalculus.Demonstration.englishSpeakerKeyBins =
+                                            true ∧
+                                          PhonologicalCalculus.Demonstration.englishMinimumAboveHalf = 8 ∧
+                                            PhonologicalCalculus.Demonstration.englishMinimumAboveStrictMajority = 7 ∧
+                                              PhonologicalCalculus.Demonstration.englishContainsBoundaryWitness = true ∧
+                                                PhonologicalCalculus.Demonstration.englishBoundaryRawSurplus = 16
+PhonologicalCalculus.Demonstration.data_zh_r1_replay :
+  PhonologicalCalculus.Demonstration.mandarinBinding.rowCount = 639 ∧
+    PhonologicalCalculus.Demonstration.mandarinBinding.distinctNaturalKeyCount = 639 ∧
+      PhonologicalCalculus.Demonstration.mandarinRows = 639 ∧
+        PhonologicalCalculus.Demonstration.mandarinOriginalCount
+              PhonologicalCalculus.Demonstration.MandarinDecision.match =
+            621 ∧
+          PhonologicalCalculus.Demonstration.mandarinOriginalCount
+                PhonologicalCalculus.Demonstration.MandarinDecision.counterexample =
+              18 ∧
+            PhonologicalCalculus.Demonstration.mandarinOriginalCount
+                  PhonologicalCalculus.Demonstration.MandarinDecision.noConclusionScope =
+                0 ∧
+              PhonologicalCalculus.Demonstration.mandarinCorrectedCount
+                    PhonologicalCalculus.Demonstration.MandarinDecision.match =
+                  622 ∧
+                PhonologicalCalculus.Demonstration.mandarinCorrectedCount
+                      PhonologicalCalculus.Demonstration.MandarinDecision.counterexample =
+                    13 ∧
+                  PhonologicalCalculus.Demonstration.mandarinCorrectedCount
+                        PhonologicalCalculus.Demonstration.MandarinDecision.noConclusionScope =
+                      4 ∧
+                    PhonologicalCalculus.Demonstration.mandarinScopeCount
+                          PhonologicalCalculus.Demonstration.MandarinScope.clearSimplex =
+                        608 ∧
+                      PhonologicalCalculus.Demonstration.mandarinScopeCount
+                            PhonologicalCalculus.Demonstration.MandarinScope.clearComplexLastDigit =
+                          4 ∧
+                        PhonologicalCalculus.Demonstration.mandarinScopeCount
+                              PhonologicalCalculus.Demonstration.MandarinScope.ambiguousOrOutsideScope =
+                            4 ∧
+                          PhonologicalCalculus.Demonstration.mandarinScopeCount
+                                PhonologicalCalculus.Demonstration.MandarinScope.ordinalAbsolute =
+                              23 ∧
+                            PhonologicalCalculus.Demonstration.mandarinClearComplexRetyped = 4 ∧
+                              PhonologicalCalculus.Demonstration.mandarinAllClearComplexRetyped = true ∧
+                                PhonologicalCalculus.Demonstration.representedRows
+                                      PhonologicalCalculus.Demonstration.mandarinKeyBins =
+                                    639 ∧
+                                  PhonologicalCalculus.Demonstration.representedDistinctKeys
+                                        PhonologicalCalculus.Demonstration.mandarinKeyBins =
+                                      639 ∧
+                                    PhonologicalCalculus.Demonstration.everyKeyOccursOnce
+                                        PhonologicalCalculus.Demonstration.mandarinKeyBins =
+                                      true
+PhonologicalCalculus.mem_collisionSet_iff.{u_1, u_2} {X : Type u_1} {Y : Type u_2} [Fintype X] [DecidableEq X]
+  [DecidableEq Y] (f : X → Y) (x y : X) : (x, y) ∈ PhonologicalCalculus.CollisionSet f ↔ x ≠ y ∧ f x = f y
+PhonologicalCalculus.productQuery_kernel_exact.{u_1, u_2, u_3} {I : Type u_1} {X : Type u_2} {Answer : I → Type u_3}
+  (queries : (index : I) → X → Answer index) (x y : X) :
+  PhonologicalCalculus.ProductQuery queries x = PhonologicalCalculus.ProductQuery queries y ↔
+    ∀ (index : I), queries index x = queries index y
+PhonologicalCalculus.kernelRefines_productQuery_iff.{u_1, u_2, u_3, u_4} {I : Type u_1} {X : Type u_2}
+  {Reduction : Type u_3} {Answer : I → Type u_4} (reduction : X → Reduction)
+  (queries : (index : I) → X → Answer index) :
+  PhonologicalCalculus.KernelRefines reduction (PhonologicalCalculus.ProductQuery queries) ↔
+    ∀ (index : I), PhonologicalCalculus.KernelRefines reduction (queries index)
+PhonologicalCalculus.blockwiseAddedConsumerPrice_eq.{u_1, u_2, u_3} {X : Type u_1} {A : Type u_2} {B : Type u_3}
+  [Fintype X] (first : X → A) (added : X → B) :
+  PhonologicalCalculus.BlockwiseAddedConsumerPrice first added = PhonologicalCalculus.AddedConsumerPrice first added
+PhonologicalCalculus.productQuery_kernel_exact.{u_1, u_2, u_3} {I : Type u_1} {X : Type u_2} {Answer : I → Type u_3}
+  (queries : (index : I) → X → Answer index) (x y : X) :
+  PhonologicalCalculus.ProductQuery queries x = PhonologicalCalculus.ProductQuery queries y ↔
+    ∀ (index : I), queries index x = queries index y
+PhonologicalCalculus.fin_a2_coherence_03 :
+  PhonologicalCalculus.ActionLiftCoherent id PhonologicalCalculus.identityBoolAction
+      PhonologicalCalculus.identityBoolAction ∧
+    (∀ (value : Bool), PhonologicalCalculus.identityBoolAction false value = value) ∧
+      ∀ (first second value : Bool),
+        PhonologicalCalculus.identityBoolAction first (PhonologicalCalculus.identityBoolAction second value) =
+          PhonologicalCalculus.identityBoolAction second value
+PhonologicalCalculus.Flux.shiftEquivariant_iff_periodic_deviation (F : ℝ → ℝ) (lambda : ℝ) :
+  PhonologicalCalculus.Flux.ShiftEquivariant F lambda ↔
+    Function.Periodic (PhonologicalCalculus.Flux.gaugeDeviation F) lambda
+PhonologicalCalculus.Flux.periodicFluxGauge_strictMono {delta epsilon : ℝ} (hdelta : delta ≠ 0)
+  (hepsilon : |epsilon| < 1) : StrictMono (PhonologicalCalculus.Flux.periodicFluxGauge delta epsilon)
+PhonologicalCalculus.Flux.finiteLedger_exists_nonzero_nullVector {J K : ℕ} (hJK : J < K)
+  (A : Matrix (Fin J) (Fin K) ℝ) : ∃ v, v ≠ 0 ∧ A.mulVec v = 0
+PhonologicalCalculus.Flux.flux_d4_complete_with_canonical_lambert {lambda p C : ℝ} {t : ℝ → ℝ} (hlambda : lambda ≠ 0)
+  (hp : 1 < p) (hC : 0 < C) (r : ℕ) (htPos : ∀ᶠ (epsilon : ℝ) in nhdsWithin 0 (Set.Ioi 0), 0 < t epsilon)
+  (htZero : Filter.Tendsto t (nhdsWithin 0 (Set.Ioi 0)) (nhds 0))
+  (hRemainder :
+    Filter.Tendsto
+      (PhonologicalCalculus.Flux.contactNormalizedRemainder (PhonologicalCalculus.Flux.oddContactResponseExponent r p) C
+        t)
+      (nhdsWithin 0 (Set.Ioi 0)) (nhds 0)) :
+  (PhonologicalCalculus.Flux.oddContactGauge lambda r 0 = 0 ∧
+      PhonologicalCalculus.Flux.ShiftEquivariant (PhonologicalCalculus.Flux.oddContactGauge lambda r) lambda ∧
+        StrictMono (PhonologicalCalculus.Flux.oddContactGauge lambda r) ∧
+          deriv (PhonologicalCalculus.Flux.oddContactGauge lambda r) =
+              PhonologicalCalculus.Flux.raisedCosineMarginal lambda r ∧
+            analyticOrderAt
+                (fun z =>
+                  PhonologicalCalculus.Flux.oddContactGauge lambda r z -
+                    PhonologicalCalculus.Flux.oddContactGauge lambda r 0)
+                0 =
+              ↑(2 * r + 1)) ∧
+    Filter.Tendsto
+        (PhonologicalCalculus.Flux.contactRecoveredCoefficient
+          (PhonologicalCalculus.Flux.oddContactResponseExponent r p) t)
+        (nhdsWithin 0 (Set.Ioi 0)) (nhds C) ∧
+      Filter.Tendsto (fun epsilon => Real.log (t epsilon) / Real.log epsilon) (nhdsWithin 0 (Set.Ioi 0))
+          (nhds (1 / PhonologicalCalculus.Flux.oddContactResponseExponent r p)) ∧
+        Filter.Tendsto
+            (fun epsilon =>
+              t epsilon /
+                PhonologicalCalculus.Flux.lambertNormalT epsilon
+                  (PhonologicalCalculus.Flux.oddContactResponseExponent r p) C
+                  (PhonologicalCalculus.Flux.contactLambertBranch
+                    (PhonologicalCalculus.Flux.oddContactResponseExponent r p) C epsilon))
+            (nhdsWithin 0 (Set.Ioi 0)) (nhds 1) ∧
+          Asymptotics.IsEquivalent (nhdsWithin 0 (Set.Ioi 0))
+            (fun epsilon =>
+              t epsilon ^ PhonologicalCalculus.Flux.oddContactResponseExponent r p / -Real.log (t epsilon))
+            fun epsilon => epsilon / C
+PhonologicalCalculus.Flux.terminalKKT_accumulatingResponse_identifies.{u_1} {Theta : Type u_1} {domain : Set ℝ}
+  {leftLaw rightLaw : ℝ → ℝ} {leftFlux rightFlux profile : Theta → ℕ → ℝ} {sample : Theta → ℝ} {mu epsilon : ℝ}
+  {first last : ℕ} {base : ℝ} (hfirst : first ≤ last)
+  (hleftStep :
+    ∀ (parameter : Theta) (index : ℕ),
+      leftFlux parameter index - leftFlux parameter (index + 1) =
+        mu * (1 + epsilon) * profile parameter index ^ epsilon)
+  (hrightStep :
+    ∀ (parameter : Theta) (index : ℕ),
+      rightFlux parameter index - rightFlux parameter (index + 1) =
+        mu * (1 + epsilon) * profile parameter index ^ epsilon)
+  (hleftTerminal : ∀ (parameter : Theta), leftFlux parameter (last + 1) = 0)
+  (hrightTerminal : ∀ (parameter : Theta), rightFlux parameter (last + 1) = 0)
+  (hleftSample : ∀ (parameter : Theta), leftFlux parameter first = leftLaw (sample parameter))
+  (hrightSample : ∀ (parameter : Theta), rightFlux parameter first = rightLaw (sample parameter))
+  (hleftAnalytic : AnalyticOnNhd ℝ leftLaw domain) (hrightAnalytic : AnalyticOnNhd ℝ rightLaw domain)
+  (hdomain : IsPreconnected domain) (hbase : base ∈ domain)
+  (haccumulation : ∃ᶠ (point : ℝ) in nhdsWithin base {base}ᶜ, ∃ parameter, sample parameter = point) :
+  Set.EqOn leftLaw rightLaw domain
+PhonologicalCalculus.MaxEnt.activityProbability_eq_exponentialProbability.{uConstraint, uCandidate}
+  {J : Type uConstraint} {C : Type uCandidate} [Fintype J] [Fintype C]
+  (ledger : PhonologicalCalculus.MaxEnt.CompleteFiniteLedger J C) (weight : J → ℝ) (candidate : C) :
+  PhonologicalCalculus.MaxEnt.rationalNamedCandidateProbability ledger.baseMass
+      (fun c coordinate => ↑(ledger.row c coordinate)) candidate (PhonologicalCalculus.MaxEnt.activityOfWeight weight) =
+    PhonologicalCalculus.MaxEnt.exponentialCandidateProbability ledger weight candidate
+PhonologicalCalculus.MaxEnt.fibreMass.{u_1, u_2, u_3, u_4} {K : Type u_1} {J : Type u_2} {C : Type u_3} {Y : Type u_4}
+  [Field K] [Fintype J] [Fintype C] [DecidableEq Y] (baseMass : C → K) (row : C → J → ℤ) (consequence : C → Y)
+  (answer : Y) (activity : J → K) : K
+PhonologicalCalculus.MaxEnt.normalized_order_iff_cross_product.{u_1} {K : Type u_1} [Field K] [LinearOrder K]
+  [IsStrictOrderedRing K] {a b sa sb : K} (hsa : 0 < sa) (hsb : 0 < sb) : a / sa ≤ b / sb ↔ a * sb ≤ b * sa
+PhonologicalCalculus.MaxEnt.max_g3_strictifierPolynomial_complete
+  (problem : PhonologicalCalculus.MaxEnt.BoundedETRINVInstance) (m bits : ℕ)
+  (hGapIfNoZero :
+    (¬∃ source, problem.IsCubePoint source ∧ problem.sourceResidualSum source = 0) →
+      ∀ (source : Fin problem.variableCount → ℝ),
+        problem.IsCubePoint source →
+          PhonologicalCalculus.MaxEnt.dyadicCompactGap bits ≤ problem.sourceResidualSum source)
+  (hLength : bits + 3 < 2 ^ (m + 1)) :
+  (PhonologicalCalculus.MaxEnt.etrStrictifierPolynomialFin problem m).totalDegree ≤ 4 ∧
+    PhonologicalCalculus.MaxEnt.coefficientL1 (PhonologicalCalculus.MaxEnt.etrStrictifierPolynomialFin problem m) ≤
+        800 * problem.equationCount + 9 * m ^ 2 + 2 ∧
+      (problem.Satisfiable ↔
+        ∃ point,
+          PhonologicalCalculus.MaxEnt.ETRStrictifierPositiveCubePoint point ∧
+            MvPolynomial.eval₂ (Int.castRingHom ℝ) point
+                (PhonologicalCalculus.MaxEnt.etrStrictifierPolynomialFin problem m) <
+              0)
+PhonologicalCalculus.MaxEnt.CollectedSignedQuarticCode.taggedResidualMonomial_factorization
+  (source : PhonologicalCalculus.MaxEnt.CollectedSignedQuarticCode) (copy : source.Copy)
+  (oldActivity : Fin source.coordinateCount → ℝ) (tagActivity : Fin source.tagDimension → ℝ) :
+  PhonologicalCalculus.MaxEnt.boundedQuarticResidualMonomial (source.taggedResidualRow copy)
+      (source.joinActivity oldActivity tagActivity) =
+    source.sourceMonomial copy.fst oldActivity * source.tagResidualMonomial copy tagActivity
+PhonologicalCalculus.MaxEnt.properCNFSelectorMargin_eq_polynomial.{u_1, u_2} {V : Type u_1} {C : Type u_2} [Fintype V]
+  [DecidableEq V] [Fintype C] [DecidableEq C] (formula : PhonologicalCalculus.MaxEnt.ProperAtMostThreeCNF V C)
+  (point : V ⊕ C → ℝ) :
+  PhonologicalCalculus.MaxEnt.duplicateFreeResidualMargin (PhonologicalCalculus.MaxEnt.selectorPositiveRows formula)
+      (PhonologicalCalculus.MaxEnt.selectorNegativeRows formula) point =
+    PhonologicalCalculus.MaxEnt.properCNFSelectorPolynomial formula point
+PhonologicalCalculus.MaxEnt.max_g6_cone_02.{u_1} {K : Type u_1} [Field K] [LinearOrder K] [IsStrictOrderedRing K]
+  (a b c d : K) :
+  0 < a →
+    a ≤ 1 →
+      0 < b →
+        b ≤ 1 →
+          0 < c →
+            c ≤ 1 →
+              0 < d →
+                d ≤ 1 →
+                  (PhonologicalCalculus.MaxEnt.basicSyllableAllLiveOrders a b c d ↔
+                    0 ≤ PhonologicalCalculus.MaxEnt.basicSyllableFacetD b c d ∧
+                      0 ≤ PhonologicalCalculus.MaxEnt.basicSyllableFacetC a c d)
+PhonologicalCalculus.MaxEnt.max_g7_contact_02_mixedGerm.{u_1} {E : Type u_1} [NormedAddCommGroup E] [NormedSpace ℝ E]
+  (denominator numerator response : E → ℝ) (base : E) (order : ℕ) (hdenominator : ContDiff ℝ ⊤ denominator)
+  (hresponse : ContDiff ℝ ⊤ response) (hdenominatorNe : ∀ (weight : E), denominator weight ≠ 0)
+  (hfactor : numerator = fun weight => denominator weight * response weight) :
+  PhonologicalCalculus.MaxEnt.mixedResponseJetZeroThrough numerator base order ↔
+    PhonologicalCalculus.MaxEnt.mixedResponseJetZeroThrough response base order
+PhonologicalCalculus.MaxEnt.max_g8_capacity_02_general
+  (hfoundation : PhonologicalCalculus.MaxEnt.FoundAnalyticRolleMultiplicity001) {q : ℕ}
+  (data : PhonologicalCalculus.MaxEnt.CollectedDistinctExponentialResponse q) (contacts reversals : Finset ℝ)
+  (multiplicity : ℝ → ℕ) (left right : ℝ) (hinterval : left < right) (hdisjoint : Disjoint contacts reversals)
+  (hcontactsInside : ∀ x ∈ contacts, x ∈ Set.Ioo left right)
+  (hreversalsInside : ∀ x ∈ reversals, x ∈ Set.Ioo left right)
+  (hcontacts :
+    ∀ x ∈ contacts, PhonologicalCalculus.MaxEnt.responseContactMultiplicityAt data.response x (multiplicity x))
+  (hreversals : ∀ x ∈ reversals, PhonologicalCalculus.MaxEnt.strictResponseReversalAt data.response x) :
+  ∑ x ∈ contacts, multiplicity x + reversals.card ≤ q - 1
+PhonologicalCalculus.MaxEnt.max_g9_lawtoenv_01.{u_1} {K : Type u_1} [Field K] [LinearOrder K] [IsStrictOrderedRing K] :
+  (∀ (z : K),
+      0 < z →
+        z ≤ 1 →
+          PhonologicalCalculus.MaxEnt.normalizedBinaryLaw 1 z =
+            PhonologicalCalculus.MaxEnt.normalizedBinaryLaw (1 + z ^ 2) (z + z ^ 3)) ∧
+    PhonologicalCalculus.MaxEnt.responseEnvelopeOfRows [0] [1] = some (1, 1) ∧
+      PhonologicalCalculus.MaxEnt.responseEnvelopeOfRows [0, 2] [1, 3] = some (-1, 3) ∧
+        PhonologicalCalculus.MaxEnt.responseEnvelopeOfRows [0] [1] ≠
+          PhonologicalCalculus.MaxEnt.responseEnvelopeOfRows [0, 2] [1, 3]
+PhonologicalCalculus.MaxEnt.max_g9_envtolaw_02.{u_1} {K : Type u_1} [Field K] [LinearOrder K] [IsStrictOrderedRing K] :
+  PhonologicalCalculus.MaxEnt.responseEnvelopeOfRows [0, 1, 2] [3] = some (1, 3) ∧
+    PhonologicalCalculus.MaxEnt.responseEnvelopeOfRows [0, 2] [3] = some (1, 3) ∧
+      PhonologicalCalculus.MaxEnt.responseEnvelopeOfRows [0, 1, 2] [3] =
+          PhonologicalCalculus.MaxEnt.responseEnvelopeOfRows [0, 2] [3] ∧
+        ∀ (z : K),
+          0 < z →
+            z ≤ 1 →
+              PhonologicalCalculus.MaxEnt.normalizedBinaryLaw (1 + z + z ^ 2) (z ^ 3) ≠
+                  PhonologicalCalculus.MaxEnt.normalizedBinaryLaw (1 + z ^ 2) (z ^ 3) ∧
+                (1 + z + z ^ 2) * (1 + z ^ 2 + z ^ 3) - (1 + z ^ 2) * (1 + z + z ^ 2 + z ^ 3) = z ^ 4 ∧
+                  0 < (1 + z) * (1 + z ^ 2) * (1 + z ^ 2 + z ^ 3)
+PhonologicalCalculus.Selection.selectedEvent_subset_pairwise.{u_1} {ι : Type u_1} [Fintype ι] {target : ι → ℝ}
+  {normals : List (ι → ℝ)} (htarget : target ∈ normals) :
+  PhonologicalCalculus.Selection.selectedEvent normals ⊆ PhonologicalCalculus.Selection.pairwiseEvent target
+PhonologicalCalculus.Selection.selectedEvent_eq_pairwise_iff_positiveRays.{u_1} {ι : Type u_1} [Fintype ι]
+  {target : ι → ℝ} {normals : List (ι → ℝ)} (htargetMember : target ∈ normals) (htargetNonzero : target ≠ 0) :
+  PhonologicalCalculus.Selection.selectedEvent normals = PhonologicalCalculus.Selection.pairwiseEvent target ↔
+    PhonologicalCalculus.Selection.PositiveRayFamily target normals
+PhonologicalCalculus.Selection.counterexampleFaithfulness : PhonologicalCalculus.Selection.BinaryMatrix
+PhonologicalCalculus.Selection.counterexampleMarkedness : PhonologicalCalculus.Selection.BinaryMatrix
+PhonologicalCalculus.Selection.sel_f2_scores_01 :
+  PhonologicalCalculus.Selection.scoreRow PhonologicalCalculus.Selection.firstInput = [0, 20, -17, 1] ∧
+    PhonologicalCalculus.Selection.scoreRow PhonologicalCalculus.Selection.secondInput = [0, 3, 17, 18] ∧
+      20 > 0 ∧ 20 > -17 ∧ 20 > 1 ∧ 18 > 0 ∧ 18 > 3 ∧ 18 > 17
+PhonologicalCalculus.Selection.sel_f2_euclidean_02 :
+  PhonologicalCalculus.Selection.firstSelectedClosure PhonologicalCalculus.Selection.euclideanFirstProjection ∧
+    PhonologicalCalculus.Selection.euclideanSquared PhonologicalCalculus.Selection.euclideanFirstProjection = 361 / 5 ∧
+      (∀ (point : PhonologicalCalculus.Selection.Disruption),
+          PhonologicalCalculus.Selection.firstSelectedClosure point →
+            361 / 5 ≤ PhonologicalCalculus.Selection.euclideanSquared point) ∧
+        PhonologicalCalculus.Selection.secondSelectedClosure PhonologicalCalculus.Selection.euclideanSecondProjection ∧
+          PhonologicalCalculus.Selection.euclideanSquared PhonologicalCalculus.Selection.euclideanSecondProjection =
+              1010 / 9 ∧
+            (∀ (point : PhonologicalCalculus.Selection.Disruption),
+                PhonologicalCalculus.Selection.secondSelectedClosure point →
+                  1010 / 9 ≤ PhonologicalCalculus.Selection.euclideanSquared point) ∧
+              1010 / 9 - 361 / 5 = 1801 / 45 ∧ 0 < 16 / 9 ∧ 0 < 55 / 9
+PhonologicalCalculus.Support.EndpointPathKKT (edge site : ℝ → ℝ) (horizon positiveLength : ℕ) (flux : ℕ → ℝ)
+  (siteSlope edgeSlopeAtOne boundaryPrevious boundaryIncomingSlope : ℝ) : Prop
+PhonologicalCalculus.Support.sup_e1_completeEndpointWinnerBridge.{u_1} {Candidate : Type u_1} {edge site : ℝ → ℝ}
+  {horizon positiveLength : Candidate → ℕ} {flux : Candidate → ℕ → ℝ}
+  {boundaryPrevious boundaryIncomingSlope : Candidate → ℝ} {siteSlope edgeSlopeAtOne : ℝ} (winner : Candidate → Prop) :
+  (PhonologicalCalculus.Support.ExactEndpointWinnerKKT winner fun candidate =>
+      PhonologicalCalculus.Support.EndpointPathKKT edge site (horizon candidate) (positiveLength candidate)
+        (flux candidate) siteSlope edgeSlopeAtOne (boundaryPrevious candidate) (boundaryIncomingSlope candidate)) →
+    (siteSlope = 0 → ∀ (candidate : Candidate), winner candidate → positiveLength candidate = horizon candidate) ∧
+      (0 < siteSlope →
+        ∀ (candidate : Candidate),
+          winner candidate →
+            ↑(positiveLength candidate) * siteSlope < edgeSlopeAtOne ∧
+              positiveLength candidate ≤ ⌈edgeSlopeAtOne / siteSlope⌉₊ - 1)
+PhonologicalCalculus.Support.sup_e3_general_real_exponent (h m p : ℝ) (hPositive : 0 < h) (mPositive : 0 < m)
+  (pGreaterOne : 1 < p) :
+  ∃! lambda,
+    0 < lambda ∧
+      lambda < 1 ∧
+        PhonologicalCalculus.Support.MatchedPowerDecayEquation h m p lambda ∧
+          HasSum (PhonologicalCalculus.Support.matchedPowerGeometricCost h m p lambda)
+              (PhonologicalCalculus.Support.matchedPowerContinuationCoefficient h p lambda) ∧
+            Summable fun index => PhonologicalCalculus.Support.matchedPowerGeometricProfile lambda index ^ p
+PhonologicalCalculus.Support.matchedPower_unique_global_minimizer (h m p lambda : ℝ) (profile : ℕ → ℝ)
+  (hPositive : 0 < h) (mPositive : 0 < m) (pGreaterOne : 1 < p) (lambdaPositive : 0 < lambda)
+  (lambdaBelowOne : lambda < 1) (decay : PhonologicalCalculus.Support.MatchedPowerDecayEquation h m p lambda)
+  (profileInitial : profile 0 = 1) (profileNonnegative : ∀ (index : ℕ), 0 ≤ profile index)
+  (costSummable : Summable (PhonologicalCalculus.Support.matchedPowerProfileCost h m p profile))
+  (siteSummable : Summable fun index => profile index ^ p)
+  (costEquality :
+    ∑' (index : ℕ), PhonologicalCalculus.Support.matchedPowerProfileCost h m p profile index =
+      PhonologicalCalculus.Support.matchedPowerContinuationCoefficient h p lambda)
+  (index : ℕ) : profile index = PhonologicalCalculus.Support.matchedPowerGeometricProfile lambda index
+PhonologicalCalculus.Support.sup_e4_general_real_exponent (h m p lambda : ℝ) (hPositive : 0 < h) (mPositive : 0 < m)
+  (pGreaterOne : 1 < p) (lambdaPositive : 0 < lambda) (lambdaBelowOne : lambda < 1)
+  (decay : PhonologicalCalculus.Support.MatchedPowerDecayEquation h m p lambda) :
+  (∀ (horizon : ℕ),
+      PhonologicalCalculus.Support.matchedPowerFiniteContinuationCost h m p lambda
+          (PhonologicalCalculus.Support.matchedPowerGeometricProfile lambda) horizon =
+        PhonologicalCalculus.Support.matchedPowerContinuationCoefficient h p lambda) ∧
+    ∃! coefficient,
+      coefficient = PhonologicalCalculus.Support.matchedPowerContinuationCoefficient h p lambda ∧
+        coefficient = PhonologicalCalculus.Support.matchedPowerContinuationCoefficient h p lambda / lambda ^ (p - 1) - m

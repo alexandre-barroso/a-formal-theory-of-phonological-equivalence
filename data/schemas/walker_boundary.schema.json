@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "assimilation_cost_exact": {
+        "type": "integer"
+      },
+      "boundary_exact": {
+        "type": "string"
+      },
+      "difference_exact": {
+        "type": "string"
+      },
+      "faithful_cost_exact": {
+        "type": "string"
+      },
+      "outcome": {
+        "type": "string"
+      },
+      "row_id": {
+        "type": "string"
+      },
+      "row_origin": {
+        "type": "string"
+      },
+      "x_exact": {
+        "type": "string"
+      },
+      "y_exact": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "row_id",
+      "row_origin",
+      "x_exact",
+      "y_exact",
+      "difference_exact",
+      "assimilation_cost_exact",
+      "faithful_cost_exact",
+      "outcome",
+      "boundary_exact"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/applications/walker_boundary.tsv",
+  "type": "array"
+}

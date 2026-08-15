@@ -1,0 +1,108 @@
+{
+  "assumptions_used": [
+    "SUP-E1.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "finite_horizon",
+        "attained_unique_minimizer",
+        "strictly_convex_increasing_edge",
+        "convex_site",
+        "declared_right_endpoint_slope",
+        "exact_endpoint_KKT_iff_global_winner_contract"
+      ],
+      "family": "local_directional_support",
+      "node": "support_selection_assumptions"
+    },
+    "component": "strict_prefix_bound",
+    "expected": {
+      "flux_drop_per_positive_site": ">=c",
+      "integer_form": "K_N<=ceil(PhiPrime(1)/c)-1",
+      "telescoped_bound": "K_N*c<PhiPrime(1)"
+    },
+    "node": "support_selection_result",
+    "result_id": "SUP-E1"
+  },
+  "claim_sha256": "6828c561ad75ae31333ce6af1c4094ad216138f78922a2c455682093358eb995",
+  "formal_statement_sha256": "418997dd3bc5048b39aec704fd6ceebf913f9debe3ec1e5d04653804dd1459cd",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "finite_horizon",
+        "attained_unique_minimizer",
+        "strictly_convex_increasing_edge",
+        "convex_site",
+        "declared_right_endpoint_slope",
+        "exact_endpoint_KKT_iff_global_winner_contract"
+      ],
+      "family": "local_directional_support",
+      "node": "support_selection_assumptions"
+    },
+    "assumption_model": {
+      "edge": "quadratic",
+      "edge_weight": 5,
+      "site": "linear",
+      "site_weight": 1
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "finite_horizon",
+          "attained_unique_minimizer",
+          "strictly_convex_increasing_edge",
+          "convex_site",
+          "declared_right_endpoint_slope",
+          "exact_endpoint_KKT_iff_global_winner_contract"
+        ],
+        "family": "local_directional_support",
+        "node": "support_selection_assumptions"
+      },
+      "component": "strict_prefix_bound",
+      "expected": {
+        "flux_drop_per_positive_site": ">=c",
+        "integer_form": "K_N<=ceil(PhiPrime(1)/c)-1",
+        "telescoped_bound": "K_N*c<PhiPrime(1)"
+      },
+      "node": "support_selection_result",
+      "result_id": "SUP-E1"
+    },
+    "derivation": {
+      "component": "strict_prefix_bound",
+      "derivation": [
+        "KKT flux decreases by at least c=PsiPrimeRight(0)>0 at each positive coordinate",
+        "the last positive flux is strictly positive",
+        "the first flux is at most PhiPrime(1)",
+        "strict real inequality converts to the displayed integer ceiling"
+      ],
+      "result_id": "SUP-E1"
+    },
+    "mutant_ids": [
+      "SUP-E1.MUTANT.CONCLUSION",
+      "SUP-E1.MUTANT.ASSUMPTION",
+      "SUP-E1.MUTANT.COMPONENT"
+    ],
+    "observed": {
+      "flux_drop_per_positive_site": ">=c",
+      "integer_form": "K_N<=ceil(PhiPrime(1)/c)-1",
+      "telescoped_bound": "K_N*c<PhiPrime(1)"
+    },
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "SUP-E1.BOUND.02",
+  "proof_id": "SUP-E1.BOUND.02.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [],
+  "result_id": "SUP-E1",
+  "schema_version": "1.1.0"
+}

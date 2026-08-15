@@ -1,0 +1,4 @@
+object	complete_score_row	statistic_kind	euclidean_squared_exact	frobenius_squared_exact	order
+pair_1	0,20,-17,1	minimum_selected_output_onset_square	361/5	361/3	pairwise_first_selected_second
+pair_2	0,3,17,18	minimum_selected_output_onset_square	1010/9	618/5	pairwise_second_selected_first
+region_gap	not_applicable	ordered_onset_square_gap_second_minus_first	1801/45	49/15	reversal_proof

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:second-order-phonology:statement-check:1.0.0",
+  "title": "Bilingual statement-correspondence check",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "check_id",
+    "check_type",
+    "result_id",
+    "formal_statement_sha256",
+    "payload"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "check_id": {"type": "string", "minLength": 1},
+    "check_type": {"const": "StatementCorrespondenceCheck"},
+    "result_id": {"type": "string", "minLength": 1},
+    "formal_statement_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "payload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en_statement_path",
+        "en_statement_file_sha256",
+        "en_statement_marker",
+        "en_statement_sha256",
+        "pt_BR_statement_path",
+        "pt_BR_statement_file_sha256",
+        "pt_BR_statement_marker",
+        "pt_BR_statement_sha256"
+      ],
+      "properties": {
+        "en_statement_path": {"type": "string", "minLength": 1},
+        "en_statement_file_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "en_statement_marker": {"type": "string", "minLength": 1},
+        "en_statement_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "pt_BR_statement_path": {"type": "string", "minLength": 1},
+        "pt_BR_statement_file_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "pt_BR_statement_marker": {"type": "string", "minLength": 1},
+        "pt_BR_statement_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  }
+}

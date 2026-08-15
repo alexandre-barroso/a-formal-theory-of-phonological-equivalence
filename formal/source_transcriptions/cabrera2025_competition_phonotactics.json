@@ -1,0 +1,67 @@
+{
+  "formal_objects": {
+    "one_shot_consumer": {
+      "candidate_inventory": ["c_0", "c_1", "c_2", "c_3"],
+      "violation_count": "candidate c_n has n violations of MARKEDNESS",
+      "harmony": "-m*n",
+      "probability": "q_n=exp(-m*n)/sum_{j=0}^K exp(-m*j)",
+      "printed_finite_display": "K=3",
+      "normalization": "all structural candidates belong to one probability distribution"
+    },
+    "multiple_competitions_consumer": {
+      "candidate_inventory": "for each n, structural candidate c_n competes only with a null candidate",
+      "structural_harmony": "-m*n",
+      "null_harmony": "-p",
+      "structural_probability": "r_n=exp(-m*n)/(exp(-m*n)+exp(-p))=1/(1+exp(m*n-p))",
+      "normalization": "each structural-versus-null pair is a separate probability distribution"
+    },
+    "parameter_domains": {
+      "markedness_weight": "m>0 in the project corollary; the source plots positive weights",
+      "mparse_weight": "p is the MPARSE weight",
+      "violation_count": "n is a nonnegative integer"
+    },
+    "tie_and_threshold_semantics": {
+      "probability_half": "r_n=1/2 exactly when p=m*n",
+      "tie_convention": "No categorical tie-breaking rule is needed for the registered probability and curvature queries."
+    },
+    "declared_omissions_and_open_question": [
+      "The one-shot display restricts the otherwise unbounded OT candidate series to zero through three violations for tractability.",
+      "The separate multiple-competition probabilities need not sum to one across structural candidates.",
+      "The null candidate is unobservable in lexical data.",
+      "The source leaves open how MPARSE is learned under task transfer, especially for concave-down data."
+    ],
+    "source_local_wording_issues": [
+      "The displayed equation (7) fixes the adjacent probability ratio; nearby prose reverses the verbal direction of that ratio.",
+      "The Figure 5 prose calls the visibly concave-up leftmost target concave-down. Neither local wording issue changes the transcribed equations."
+    ]
+  },
+  "project_derived_uses": [
+    "The application classifies the observation result as a generated corollary of the closed consumer-relative MaxEnt response package.",
+    "The complete one-shot law deletes p exactly, while the binary response's discrete curvature changes sign at p=m*(n+1).",
+    "Once m is identified by an adjacent one-shot ratio, one independently warranted binary response recovers p; the response bridge remains an explicit empirical premise."
+  ],
+  "schema_version": "1.0.0",
+  "scope_ceiling": "This transcription licenses the two printed MaxEnt consumers and the source's stated MPARSE learning gap. It does not equate lexical frequency with acceptability, treat null-candidate frequency as observed, select a universal phonotactic architecture, or supply a grammar-to-response bridge.",
+  "source_artifacts": [
+    {
+      "anchors": [
+        {"physical_pdf_page": 1, "printed_page_or_section": "p. 1, tableau (1)", "transcribed_role": "one-shot candidate competition and common partition function"},
+        {"physical_pdf_page": 2, "printed_page_or_section": "p. 2, tableau (2)", "transcribed_role": "separate structural-versus-null competitions and MPARSE"},
+        {"physical_pdf_page": 4, "printed_page_or_section": "p. 4, equations (5)-(7)", "transcribed_role": "one-shot counting law, finite K=3 display, and adjacent ratio"},
+        {"physical_pdf_page": 5, "printed_page_or_section": "p. 5, multiple-competition tableau", "transcribed_role": "binary structural-versus-null probability formula"},
+        {"physical_pdf_page": 6, "printed_page_or_section": "p. 6, Figure 3 discussion", "transcribed_role": "MPARSE-dependent curvature claim"},
+        {"physical_pdf_page": 8, "printed_page_or_section": "p. 8, section 6", "transcribed_role": "unobserved-null learning problem and two proposed future bridges"}
+      ],
+      "bibtex_key": "cabrera2025oneShotCompetitionsPhonotactics",
+      "filename": "cabrera2025oneShotCompetitionsPhonotactics.pdf",
+      "page_count": 10,
+      "sha256": "4df8fb41b36f537b04c3dac8d7f23de9bba1d06db98fe3a48e28859087dc32cf"
+    }
+  ],
+  "source_claims": [
+    "One-shot and multiple-competition MaxEnt architectures normalize different candidate sets.",
+    "The multiple-competition response shape depends on MPARSE.",
+    "The source explicitly identifies learning MPARSE from unobserved null candidates as an open problem."
+  ],
+  "transcription_id": "SOURCE-CABRERA-2025-COMPETITION-PHONOTACTICS"
+}

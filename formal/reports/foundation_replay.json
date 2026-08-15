@@ -1,0 +1,156 @@
+{
+  "failures": [],
+  "foundation_count": 22,
+  "locally_derived_count": 8,
+  "results": [
+    {
+      "classification": "software-semantic assumption",
+      "formal_statement_sha256": "918530e19823f1b57edf8a26ed784e53ddcd380587ea2c7bdcf8f90bb700df24",
+      "foundation_id": "FOUND-LOGIC-001",
+      "status": "PASS"
+    },
+    {
+      "formal_statement_sha256": "0662f37bb659d49ab5cab300d66d4d107fbf5de546938b7d69de6bbe710e3957",
+      "foundation_id": "FOUND-FINITE-001",
+      "proof_id": "FOUND-FINITE-001.PROOF",
+      "proof_method": "LocalStructuralDerivationProof",
+      "status": "PASS",
+      "step_count": 4
+    },
+    {
+      "formal_statement_sha256": "6dbcc2b011ae500619935da805fbaaa502a084d888bb333169a6b46f5bac2cd6",
+      "foundation_id": "FOUND-TERMINATION-001",
+      "proof_id": "FOUND-TERMINATION-001.PROOF",
+      "proof_method": "LocalStructuralDerivationProof",
+      "status": "PASS",
+      "step_count": 2
+    },
+    {
+      "formal_statement_sha256": "a35de646d5900615271611a6cc30f3bbeeb6dfcb318d805862cdc5b9e625b0a5",
+      "foundation_id": "FOUND-PARTITION-001",
+      "proof_id": "FOUND-PARTITION-001.PROOF",
+      "proof_method": "LocalStructuralDerivationProof",
+      "status": "PASS",
+      "step_count": 2
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "da865947d517d7f5735355bbeac7c8743bc893f5e80dcb85a3a203d4892a3070",
+      "foundation_id": "FOUND-MARKOV-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "axiom",
+      "formal_statement_sha256": "e6438e754fe5803277d6687707d8be61815ee990e48e0f631525243ef5d609f3",
+      "foundation_id": "FOUND-REAL-001",
+      "status": "PASS"
+    },
+    {
+      "formal_statement_sha256": "b39d75d2beabe456461d4ecdb057ed917f0d87748dd8f01069ef64d26d90c5de",
+      "foundation_id": "FOUND-CONVEX-001",
+      "proof_id": "FOUND-CONVEX-001.PROOF",
+      "proof_method": "LocalStructuralDerivationProof",
+      "status": "PASS",
+      "step_count": 2
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "938504e7495aef52119e6fb4d87681d0418e242027e42930afc5258883c0d21d",
+      "foundation_id": "FOUND-KKT-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "8138429fcfe8ef6b6d89cc9a4185c8cacdc7a13881704dd65668bc198b60d3cf",
+      "foundation_id": "FOUND-LIMIT-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "6fb46187d0fb3c769ec374fd2bcf784f7ed28138e901de397e0424a158fb6b7a",
+      "foundation_id": "FOUND-ANALYTIC-001",
+      "status": "PASS"
+    },
+    {
+      "formal_statement_sha256": "89ee460d08d8bae60855e2d26116f6e7077e4abd3cc1dca5d58ec151c9b48694",
+      "foundation_id": "FOUND-LINEAR-001",
+      "proof_id": "FOUND-LINEAR-001.PROOF",
+      "proof_method": "LocalStructuralDerivationProof",
+      "status": "PASS",
+      "step_count": 2
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "8e9f0543de5e9fa9971941be35a2559675011cc9b213b227f6b17afea2e3c581",
+      "foundation_id": "FOUND-MEASURE-001",
+      "status": "PASS"
+    },
+    {
+      "formal_statement_sha256": "d281b54074552434d89c0b04459c5be57a343539e48895aa4641a3620bbcc5bd",
+      "foundation_id": "FOUND-CONVEX-HULL-001",
+      "proof_id": "FOUND-CONVEX-HULL-001.PROOF",
+      "proof_method": "LocalStructuralDerivationProof",
+      "status": "PASS",
+      "step_count": 2
+    },
+    {
+      "formal_statement_sha256": "c017a0589acfbe5ffac8e1d4001773b32254c7d569e7faedb3980c17b15ffb86",
+      "foundation_id": "FOUND-POLYNOMIAL-001",
+      "proof_id": "FOUND-POLYNOMIAL-001.PROOF",
+      "proof_method": "LocalStructuralDerivationProof",
+      "status": "PASS",
+      "step_count": 2
+    },
+    {
+      "formal_statement_sha256": "3aff16b4670ea8d3ee6b9f547686e0ae5eeabcfffc474f8ae57c652b02338502",
+      "foundation_id": "FOUND-EXP-ACTIVITY-BIJECTION-001",
+      "proof_id": "FOUND-EXP-ACTIVITY-BIJECTION-001.PROOF",
+      "proof_method": "LocalStructuralDerivationProof",
+      "status": "PASS",
+      "step_count": 3
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "b4194eb72237f5f1be049bf1206c623baae21935c94b7dbc04505a40df80fb8c",
+      "foundation_id": "FOUND-COMPACT-POLY-MIN-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "4fdc1e20bd7daf856b68880a1ddd668624368ab5b8e9ba634f29729195419185",
+      "foundation_id": "FOUND-COMPLEXITY-ETRINV-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "a06167835fd747e79a23abd4f72cf0689d31680243441e6e0bb5cc30329ca553",
+      "foundation_id": "FOUND-COMPLEXITY-3SAT-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "74b164700ab1d1498eaad8fe19c2efecfee2144ac4ea3e9433276ab89badb111",
+      "foundation_id": "FOUND-EXPONENTIAL-INDEPENDENCE-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "a88c144dfb2d969f3ed8ff0d281974af67837592bd2bfb3ba0b886df3bd30f7f",
+      "foundation_id": "FOUND-GORDAN-STIEMKE-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "ea076cbb76c187c411afdbd9afa5896540143052f797ee611a985c44ce3fbb3f",
+      "foundation_id": "FOUND-ANALYTIC-ROLLE-MULTIPLICITY-001",
+      "status": "PASS"
+    },
+    {
+      "classification": "imported standard theorem",
+      "formal_statement_sha256": "747c288576c495b83cf22acf81653e93e1dce7f445a37b6911594beae7099e79",
+      "foundation_id": "FOUND-RELATIVE-INTERIOR-SUM-001",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

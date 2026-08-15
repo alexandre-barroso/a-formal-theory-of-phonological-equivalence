@@ -1,0 +1,164 @@
+{
+  "audited_result_count": 9,
+  "audits": [
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G1.tex",
+        "registered_statement_sha256": "15a9952240229f099e6e4c1fb48610867516c7d14f7756b13f5d08f36781a2c6",
+        "sha256": "01669c19876b4284179338c88dcaccb9db150c1f2b248c1e51378d61dcb4f25d"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G1.tex",
+        "registered_statement_sha256": "e5c9640565791ee83a1e6f4ef245b47e1bd2563002766487b3dc54a4a949de13",
+        "sha256": "8d7da61ab0f74f9ee30940666cc9e68101af66700df96fd9230283cfffca77b1"
+      },
+      "result_id": "MAX-G1",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    },
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G2.tex",
+        "registered_statement_sha256": "2928a990fab8aa73e8e5f0e0b00738aad84feaea493c1a384855d3b56331c6b8",
+        "sha256": "38bba892cd1fbdb766cf1fb4bec0fea35a9a703c6d569b2009983e080ce991c8"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G2.tex",
+        "registered_statement_sha256": "0c69dff6937071a85fb771265f7ef4851e822d76d5ed5d34624f05aa32a8e1ba",
+        "sha256": "855ca1451978103f566b09826e0c74f9899f5779367e3f82ed2febb326ca6b55"
+      },
+      "result_id": "MAX-G2",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    },
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G3.tex",
+        "registered_statement_sha256": "34e00ae5bd72a6bfc5061974762076aed479b9719b900d74be34f1c56af8f938",
+        "sha256": "e967281626c057cbda123e44f6a56c4b52acda4639d74fe421bfe0c60286f2ff"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G3.tex",
+        "registered_statement_sha256": "c6ebf86ce604c4c6d4949eb57ba3d5805873c2d0c932f657192df93e25812b0c",
+        "sha256": "224e4c080ab9f9113e73f687c717a264ac3e0731bc505775f020a31f98aeea4b"
+      },
+      "result_id": "MAX-G3",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    },
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G4.tex",
+        "registered_statement_sha256": "08d83f88194df82e0f5959230d3c88666ae87682dcab1b403206d63fc6614fbc",
+        "sha256": "0bf72920995fc66b0052985f3829a72246d3918585e29b7d392107bee8a3c4ef"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G4.tex",
+        "registered_statement_sha256": "46ade16ff7882ed51b94934723c35aae0f174a2ca4d11206704245bcf517eba6",
+        "sha256": "47c34445dd2145c92cda768e88ad1d4bd39c8f31f42b48d1fd55cd577f8ec0a6"
+      },
+      "result_id": "MAX-G4",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    },
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G5.tex",
+        "registered_statement_sha256": "31d567bfb27abe873a9f777fd8b6efc166aebbf8c461e5b6e89bd19b60e537c2",
+        "sha256": "e839f9ef63612517877d5c1314b27ab703ec09b4081968a3ba3abbcbeeea83f4"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G5.tex",
+        "registered_statement_sha256": "7c466771d630803746101003ee09f1c0d66d329fd56cd70f553d23511090f483",
+        "sha256": "2ad95723d4affe44ce53fb1beec8c8ec40912d73b4b7e4999a562c661358a273"
+      },
+      "result_id": "MAX-G5",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    },
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G6.tex",
+        "registered_statement_sha256": "280ff12ec018d3ef43a177f2aa9054ce19d6a4dfd7973ad62244e4ec3a98b230",
+        "sha256": "9de1e32dacbb9373e1b9835576c402c77228a252bf4731d2e7bd57533de4b5a9"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G6.tex",
+        "registered_statement_sha256": "f646f84316ed208361e4bdccf104974681316299cf408025aafe81aa65dd744e",
+        "sha256": "f526fa61a3c2752519816c05c85f952359bb06b31e6849149a5d3ab7c82e3c7d"
+      },
+      "result_id": "MAX-G6",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    },
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G7.tex",
+        "registered_statement_sha256": "8752e5cfea081904c19f1aa23f73e9e254f5edc788be260200d65e56f2a4bd7d",
+        "sha256": "b51ba18c864acb28026a733af7903cb4722989d47f605f10ba18b11ae3512620"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G7.tex",
+        "registered_statement_sha256": "8ac4e3bf674fb2760590ad81c4274fa942ef69d3ec6a1da1e840c01cc572e683",
+        "sha256": "f673f05633f70ca14255bdb901c79dcc199948c34cf9d3d6bffaf7b5060c7222"
+      },
+      "result_id": "MAX-G7",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    },
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G8.tex",
+        "registered_statement_sha256": "f07da10ef6ad1f2382d422fda6334543c4ddf8e548233ea1abb95c468d8bce4f",
+        "sha256": "3e1000125568bca5afc1a6f997c16b7cee4418cac46337dd2ad220e30d4df5c3"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G8.tex",
+        "registered_statement_sha256": "d91e623cb68c9dd1f67f92462ca8c362369ffbf660bb139c66e911b0b0874372",
+        "sha256": "433b22ebc0384a457903dec93eecd1f5be1c9dd736be14c7aeceb94a1349b9e9"
+      },
+      "result_id": "MAX-G8",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    },
+    {
+      "english": {
+        "lexical_match": true,
+        "path": "proofs/en/results/MAX-G9.tex",
+        "registered_statement_sha256": "f792183dc515385223335110e82e34a84a3e67ef860d1dc6a41f3500f3d1990c",
+        "sha256": "7642ccad859b91a443a838911bab2b72ed17cfb468bdff587fdb0c2e3a047dd7"
+      },
+      "portuguese": {
+        "lexical_match": true,
+        "path": "proofs/pt_BR/results/MAX-G9.tex",
+        "registered_statement_sha256": "10747e11c0de14607dae1bb52ee063fb046507dfa6f191a29e3b367201fb5f9a",
+        "sha256": "1fbe50e122392eeb386e420d90c4c62b93717f7c5015b0ecf14f2a51b2305c66"
+      },
+      "result_id": "MAX-G9",
+      "semantic_review_reason": "The semantic companion is machine-closed relative to its declared trusted foundation.",
+      "semantic_review_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION"
+    }
+  ],
+  "lean_kernel_proof_goal_count": 8,
+  "lexically_matched_result_count": 9,
+  "schema_version": "1.0.0",
+  "semantic_replay_proof_goal_count": 22,
+  "status": "PASS_BILINGUAL_STATEMENT_MATCH",
+  "total_registered_proof_goal_count": 30
+}

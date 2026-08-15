@@ -1,0 +1,59 @@
+{
+  "assumptions_used": [
+    "CALC-R03.EXACT-FINITE-MODEL"
+  ],
+  "claim": {
+    "left": {
+      "contract": {
+        "admitted": false,
+        "failure_reason": "QUERY SEMANTICS NOT COMPARABLE",
+        "formed": true,
+        "matched_rows": [],
+        "scientific_status": "COMPLETE",
+        "transport_defined": true
+      },
+      "node": "finite_decision"
+    },
+    "node": "equal",
+    "right": {
+      "node": "list",
+      "values": [
+        "NOT EVALUATED",
+        "QUERY SEMANTICS NOT COMPARABLE",
+        "COMPLETE"
+      ]
+    }
+  },
+  "claim_sha256": "1f479b14fdead41ae690336e453918512b7c6ab04ec8cb0ba404a967ea9b8572",
+  "formal_statement_sha256": "b4e629cca9e1dbf241d21d13afc7a6bffe2c0073a1f319c104a1e0ad9245e863",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001"
+  ],
+  "payload": {
+    "expected": {
+      "node": "list",
+      "values": [
+        "NOT EVALUATED",
+        "QUERY SEMANTICS NOT COMPARABLE",
+        "COMPLETE"
+      ]
+    },
+    "expression": {
+      "contract": {
+        "admitted": false,
+        "failure_reason": "QUERY SEMANTICS NOT COMPARABLE",
+        "formed": true,
+        "matched_rows": [],
+        "scientific_status": "COMPLETE",
+        "transport_defined": true
+      },
+      "node": "finite_decision"
+    }
+  },
+  "proof_goal_id": "CALC-R03.REFUSAL.01",
+  "proof_id": "CALC-R03.REFUSAL.01.PROOF",
+  "proof_method": "ExactFiniteComputationProof",
+  "result_dependencies": [],
+  "result_id": "CALC-R03",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,90 @@
+{
+  "assumptions_used": [
+    "FIN-A3.A1",
+    "FIN-A3.A2",
+    "FIN-A3.A3",
+    "FIN-A3.A4",
+    "FIN-A3.A5"
+  ],
+  "claim": {
+    "left": {
+      "arguments": [
+        "FIN-A3.EDGECASES.03"
+      ],
+      "name": "builtin:finite_regression_observed",
+      "node": "function_application"
+    },
+    "node": "equal",
+    "right": {
+      "answer_type": "registered_exact_result",
+      "node": "typed_answer",
+      "value": {
+        "DeadlockState": "dead",
+        "EmptyWordMass": "1/4",
+        "ProbabilityInfinityMass": 0,
+        "StructuralCycle": true,
+        "SummedWordMass": 1
+      }
+    }
+  },
+  "claim_sha256": "64ddfc42f04d7a914a548238d9af81ccd0cdfe8b1eb1f3c0955ea231cd62f403",
+  "formal_statement_sha256": "f4f04fb4212c1c46f0120b7db40386b0b12bac1b4a2ad4c6f9edd622099c85cb",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001",
+    "FOUND-MARKOV-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 5,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_model": {
+      "cast_registry": [],
+      "coefficient_domain": "rational",
+      "readout": "exact",
+      "state_graph": {
+        "edges": [
+          [
+            "s",
+            "a",
+            "z"
+          ]
+        ],
+        "states": [
+          "s",
+          "z"
+        ]
+      },
+      "stop_policy": {
+        "stops": [
+          "z"
+        ]
+      }
+    },
+    "assumption_model_result": true,
+    "derivation": [],
+    "derivation_method": "exact_finite_replay",
+    "mutant_ids": [
+      "erase_answer_tags",
+      "allow_unregistered_cross_tag_cast"
+    ],
+    "regression_algorithm": "FIN-A3.EDGECASES.03",
+    "regression_expected": {
+      "DeadlockState": "dead",
+      "EmptyWordMass": "1/4",
+      "ProbabilityInfinityMass": 0,
+      "StructuralCycle": true,
+      "SummedWordMass": 1
+    },
+    "result_schema_id": "FIN-A3.FINITE-SCHEMA.1",
+    "semantic_kernel_version": "finite-semantics-1.0.0"
+  },
+  "proof_goal_id": "FIN-A3.EDGECASES.03",
+  "proof_id": "FIN-A3.EDGECASES.03.FINITE-SEMANTIC.PROOF",
+  "proof_method": "FiniteSemanticProof",
+  "result_dependencies": [],
+  "result_id": "FIN-A3",
+  "schema_version": "1.1.0"
+}

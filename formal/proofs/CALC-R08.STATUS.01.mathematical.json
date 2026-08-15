@@ -1,0 +1,109 @@
+{
+  "assumptions_used": [
+    "CALC-R08.EXACT-FINITE-MODEL"
+  ],
+  "claim": {
+    "left": {
+      "node": "list",
+      "values": [
+        {
+          "condition": {
+            "left": {
+              "node": "cardinality",
+              "value": {
+                "node": "finite_set",
+                "values": []
+              }
+            },
+            "node": "equal",
+            "right": 0
+          },
+          "else": "RECOVERY TESTED",
+          "node": "conditional",
+          "then": "EMPTY LICENSED SOURCE IMAGE: SEMANTIC INVERSE VACUOUS"
+        },
+        {
+          "condition": {
+            "left": {
+              "node": "cardinality",
+              "value": {
+                "node": "finite_set",
+                "values": []
+              }
+            },
+            "node": "equal",
+            "right": 0
+          },
+          "else": "RECOVERY TESTED",
+          "node": "conditional",
+          "then": "REPRESENTATIVE INVERSE VACUOUS: EMPTY LICENSED SOURCE IMAGE"
+        }
+      ]
+    },
+    "node": "equal",
+    "right": {
+      "node": "list",
+      "values": [
+        "EMPTY LICENSED SOURCE IMAGE: SEMANTIC INVERSE VACUOUS",
+        "REPRESENTATIVE INVERSE VACUOUS: EMPTY LICENSED SOURCE IMAGE"
+      ]
+    }
+  },
+  "claim_sha256": "31dffd30e7d15bda90fbae4627ef63da0b9f7c7c6ec839868165379510f66d22",
+  "formal_statement_sha256": "8856b18b8b5fb3251271ba82e509339fe55c5bff78c028f3917b174c569d4308",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001"
+  ],
+  "payload": {
+    "expected": {
+      "node": "list",
+      "values": [
+        "EMPTY LICENSED SOURCE IMAGE: SEMANTIC INVERSE VACUOUS",
+        "REPRESENTATIVE INVERSE VACUOUS: EMPTY LICENSED SOURCE IMAGE"
+      ]
+    },
+    "expression": {
+      "node": "list",
+      "values": [
+        {
+          "condition": {
+            "left": {
+              "node": "cardinality",
+              "value": {
+                "node": "finite_set",
+                "values": []
+              }
+            },
+            "node": "equal",
+            "right": 0
+          },
+          "else": "RECOVERY TESTED",
+          "node": "conditional",
+          "then": "EMPTY LICENSED SOURCE IMAGE: SEMANTIC INVERSE VACUOUS"
+        },
+        {
+          "condition": {
+            "left": {
+              "node": "cardinality",
+              "value": {
+                "node": "finite_set",
+                "values": []
+              }
+            },
+            "node": "equal",
+            "right": 0
+          },
+          "else": "RECOVERY TESTED",
+          "node": "conditional",
+          "then": "REPRESENTATIVE INVERSE VACUOUS: EMPTY LICENSED SOURCE IMAGE"
+        }
+      ]
+    }
+  },
+  "proof_goal_id": "CALC-R08.STATUS.01",
+  "proof_id": "CALC-R08.STATUS.01.PROOF",
+  "proof_method": "ExactFiniteComputationProof",
+  "result_dependencies": [],
+  "result_id": "CALC-R08",
+  "schema_version": "1.1.0"
+}

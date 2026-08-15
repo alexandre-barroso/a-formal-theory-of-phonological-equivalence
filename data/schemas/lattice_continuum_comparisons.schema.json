@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "candidate_decimal": {
+        "type": "string"
+      },
+      "candidate_domain": {
+        "type": "string"
+      },
+      "candidate_exact": {
+        "type": "string"
+      },
+      "case_id": {
+        "type": "string"
+      },
+      "objective_decimal": {
+        "type": "string"
+      },
+      "objective_exact": {
+        "type": "string"
+      },
+      "winner": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "case_id",
+      "candidate_exact",
+      "candidate_decimal",
+      "objective_exact",
+      "objective_decimal",
+      "candidate_domain",
+      "winner"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/continuous_hg/lattice_continuum_comparisons.tsv",
+  "type": "array"
+}

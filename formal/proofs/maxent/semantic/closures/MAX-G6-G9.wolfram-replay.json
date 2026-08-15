@@ -1,0 +1,16 @@
+{
+  "balanced_contact_all_exact": true,
+  "balanced_contact_contract_count": 72,
+  "basic_syllable_collapse_vector": [1, 1, 1, 1],
+  "kernel": "MaxEntG6G9SemanticClosure`",
+  "leibniz_jet_orders_0_through_10_all_exact": true,
+  "response_counterexample": {
+    "law_difference_numerator_coefficients": [0, 0, 0, 0, 1],
+    "law_difference_numerator_is_z4": true,
+    "positive_denominator_on_positive_activity": true
+  },
+  "schema_version": "1.0.0",
+  "vandermonde_exact_ratios_n1_through_n7": [1, 1, 1, 1, 1, 1, 1],
+  "wolfram_source": "formal/kernel/wolfram/MaxEntG6G9SemanticClosure.wl",
+  "wolfram_source_sha256": "4fb4207ee96dc3ce10561d721065fc04948fbe253d85c66a1270fad19088ea33"
+}

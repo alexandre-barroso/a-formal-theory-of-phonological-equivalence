@@ -1,0 +1,66 @@
+{
+  "conclusion": {
+    "bindings": [
+      {
+        "sort": "natural number",
+        "variable": "k"
+      }
+    ],
+    "body": {
+      "arguments": [
+        {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "k",
+                  "node": "variable"
+                }
+              ],
+              "name": "nonnegative_real_orthant",
+              "node": "function_application"
+            }
+          ],
+          "name": "componentwise_exp_neg",
+          "node": "function_application"
+        },
+        {
+          "arguments": [
+            {
+              "name": "k",
+              "node": "variable"
+            }
+          ],
+          "name": "physical_activity_cube",
+          "node": "function_application"
+        }
+      ],
+      "name": "bijection",
+      "node": "predicate_application"
+    },
+    "node": "forall"
+  },
+  "formal_statement_sha256": "3aff16b4670ea8d3ee6b9f547686e0ae5eeabcfffc474f8ae57c652b02338502",
+  "foundation_id": "FOUND-EXP-ACTIVITY-BIJECTION-001",
+  "proof_id": "FOUND-EXP-ACTIVITY-BIJECTION-001.PROOF",
+  "proof_method": "LocalStructuralDerivationProof",
+  "schema_version": "1.0.0",
+  "steps": [
+    {
+      "conclusion": "each coordinate exp(-w_i) lies in (0,1]",
+      "rule": "exponential_positivity_and_monotonicity"
+    },
+    {
+      "conclusion": "w_i=-log(z_i) is nonnegative for every z_i in (0,1]",
+      "rule": "logarithm_inverse_on_positive_reals"
+    },
+    {
+      "conclusion": "the two componentwise maps are mutual inverses",
+      "premises": [
+        0,
+        1
+      ],
+      "rule": "finite_product_bijection"
+    }
+  ]
+}

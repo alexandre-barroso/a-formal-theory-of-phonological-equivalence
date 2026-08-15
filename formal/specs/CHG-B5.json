@@ -1,0 +1,546 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>0"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B5.ASSUMPTION-MANIFEST",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "branches": [
+          "0<p<1",
+          "p=1",
+          "p>1"
+        ],
+        "carrier": "solid_simplex",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ]
+      }
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "branches": [
+              "0<p<1",
+              "p=1",
+              "p>1"
+            ],
+            "carrier": "solid_simplex",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>0"
+            ]
+          }
+        },
+        "component": "endpoint_sets",
+        "expected": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            "1/4",
+            "1/2",
+            "3/4",
+            1
+          ]
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B5"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "branches": [
+              "0<p<1",
+              "p=1",
+              "p>1"
+            ],
+            "carrier": "solid_simplex",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>0"
+            ]
+          }
+        },
+        "component": "repair_distribution",
+        "expected": [
+          true,
+          true,
+          true
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B5"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "branches": [
+              "0<p<1",
+              "p=1",
+              "p>1"
+            ],
+            "carrier": "solid_simplex",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>0"
+            ]
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "linear_equality_optimizers": "{t*e_1:0<=t<=1}",
+          "linear_repair": "indifferent",
+          "sublinear_equality_optimizers": [
+            "0",
+            "e_1"
+          ],
+          "sublinear_repair": "concentrated",
+          "superlinear_repair": "distributed"
+        },
+        "inputs": {
+          "branches": [
+            "0<p<1",
+            "p=1",
+            "p>1"
+          ],
+          "carrier": "solid_simplex",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ]
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B5"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "78c358d2b63667b8c9d574c6f9d4f76bffb8b0d6c7c13d1816d890fa1b423e8b",
+      "id": "CHG-B5.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "e82e8a705ef91ecfbabba349cc721496afc8c6cc1d4d5013f2a65eae4196ec73"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "branches": [
+            "0<p<1",
+            "p=1",
+            "p>1"
+          ],
+          "carrier": "solid_simplex",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ]
+        }
+      },
+      "component": "endpoint_sets",
+      "expected": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          "1/4",
+          "1/2",
+          "3/4",
+          1
+        ]
+      ],
+      "id": "CHG-B5.CLAIM.01",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B5"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "branches": [
+            "0<p<1",
+            "p=1",
+            "p>1"
+          ],
+          "carrier": "solid_simplex",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ]
+        }
+      },
+      "component": "repair_distribution",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "id": "CHG-B5.CLAIM.02",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B5"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "branches": [
+            "0<p<1",
+            "p=1",
+            "p>1"
+          ],
+          "carrier": "solid_simplex",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ]
+        }
+      },
+      "component": "universal_result",
+      "expected": {
+        "linear_equality_optimizers": "{t*e_1:0<=t<=1}",
+        "linear_repair": "indifferent",
+        "sublinear_equality_optimizers": [
+          "0",
+          "e_1"
+        ],
+        "sublinear_repair": "concentrated",
+        "superlinear_repair": "distributed"
+      },
+      "id": "CHG-B5.CLAIM.03",
+      "inputs": {
+        "branches": [
+          "0<p<1",
+          "p=1",
+          "p>1"
+        ],
+        "carrier": "solid_simplex",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ]
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B5"
+    }
+  ],
+  "domains": [
+    {
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B5.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "CHG-B5",
+      "variables": [
+        {
+          "name": "N",
+          "node": "variable"
+        },
+        {
+          "name": "h",
+          "node": "variable"
+        },
+        {
+          "name": "m",
+          "node": "variable"
+        },
+        {
+          "name": "p",
+          "node": "variable"
+        }
+      ]
+    }
+  ],
+  "english_statement_sha256": "78c358d2b63667b8c9d574c6f9d4f76bffb8b0d6c7c13d1816d890fa1b423e8b",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "dfe8c2506601d0e546941522d843b98968c8326c0e9dbd44ff6e1e6f6e3fdd9b",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001"
+  ],
+  "group": "CHG",
+  "kind": "result",
+  "nonclaims": "The exponent is not estimated from acoustic data.",
+  "portuguese_statement_sha256": "e82e8a705ef91ecfbabba349cc721496afc8c6cc1d4d5013f2a65eae4196ec73",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "branches": [
+              "0<p<1",
+              "p=1",
+              "p>1"
+            ],
+            "carrier": "solid_simplex",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>0"
+            ]
+          }
+        },
+        "component": "endpoint_sets",
+        "expected": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            "1/4",
+            "1/2",
+            "3/4",
+            1
+          ]
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B5"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B5.ENDPOINTS.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "branches": [
+              "0<p<1",
+              "p=1",
+              "p>1"
+            ],
+            "carrier": "solid_simplex",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>0"
+            ]
+          }
+        },
+        "component": "repair_distribution",
+        "expected": [
+          true,
+          true,
+          true
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B5"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B5.REPAIR.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "branches": [
+              "0<p<1",
+              "p=1",
+              "p>1"
+            ],
+            "carrier": "solid_simplex",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>0"
+            ]
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "linear_equality_optimizers": "{t*e_1:0<=t<=1}",
+          "linear_repair": "indifferent",
+          "sublinear_equality_optimizers": [
+            "0",
+            "e_1"
+          ],
+          "sublinear_repair": "concentrated",
+          "superlinear_repair": "distributed"
+        },
+        "inputs": {
+          "branches": [
+            "0<p<1",
+            "p=1",
+            "p>1"
+          ],
+          "carrier": "solid_simplex",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ]
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B5"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B5.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "N",
+        "h",
+        "m",
+        "p"
+      ]
+    }
+  ],
+  "registered_query_type": "exact directional_positive_part_power_hg result consequence",
+  "result_dependencies": [],
+  "result_id": "CHG-B5",
+  "schema_version": "1.0.0",
+  "scope": "Exponent phase boundary of the declared path objective.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "nonnegative real",
+    "positive real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Complete exponent boundary at p=1",
+  "title_pt_BR": "Fronteira completa do expoente em p=1",
+  "variables": [
+    {
+      "name": "N",
+      "sort": "natural number"
+    },
+    {
+      "name": "h",
+      "sort": "positive real"
+    },
+    {
+      "name": "m",
+      "sort": "positive real"
+    },
+    {
+      "name": "p",
+      "sort": "positive real"
+    }
+  ],
+  "withdrawal_condition": "Withdraw any claim beyond the solid-simplex path, positive linear markedness, and fixed total-repair comparison. Do not advertise generic optimization novelty."
+}

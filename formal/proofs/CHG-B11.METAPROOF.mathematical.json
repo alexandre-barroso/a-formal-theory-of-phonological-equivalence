@@ -1,0 +1,89 @@
+{
+  "assumptions_used": [
+    "CHG-B11.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "a>b>c>0"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "admission": "all_pair_and_global_family_equations",
+        "data": "exact_consecutive_active_decreases",
+        "domain": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "a>b>c>0"
+        ]
+      }
+    },
+    "component": "universal_result",
+    "expected": {
+      "admissible_log_concave_triple_identifies": [
+        "p",
+        "h/m"
+      ],
+      "common_scale_identified": false,
+      "global_admission_still_required": true,
+      "known_p_identifies": "h/m",
+      "support_identifies": "phase_cell"
+    },
+    "inputs": {
+      "admission": "all_pair_and_global_family_equations",
+      "data": "exact_consecutive_active_decreases",
+      "domain": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "a>b>c>0"
+      ]
+    },
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B11"
+  },
+  "claim_sha256": "c22b62fc2c2b3bd3065fc8c3a664c7fb49fef334e74bbb15f0201aa7ae94f3e7",
+  "formal_statement_sha256": "3678fd7d865494bf27e17499109966656bbd908681b58b6bc401c907d81f1dbb",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.ContinuousHG.chg_b11_complete_query_relative_identifiability",
+      "poweredGapFamilyAdmission_consecutive_triple_identifies"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "CHG-B11.METAPROOF"
+  },
+  "proof_goal_id": "CHG-B11.METAPROOF",
+  "proof_id": "CHG-B11.METAPROOF.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [
+    "CHG-B2",
+    "CHG-B9"
+  ],
+  "result_id": "CHG-B11",
+  "schema_version": "1.1.0"
+}

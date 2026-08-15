@@ -1,0 +1,493 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "name": "state_graph",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.A1",
+      "name": "builtin:finite_state_action_graph",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "stop_policy",
+          "node": "variable"
+        },
+        {
+          "name": "state_graph",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.A2",
+      "name": "builtin:exact_stop_policy",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "coefficient_domain",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.A3",
+      "name": "builtin:exact_coefficient_domain",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "readout",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.A4",
+      "name": "builtin:exact_readout_and_equality",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "cast_registry",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.A5",
+      "name": "builtin:prospective_cast_registry",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "arguments": [
+          [
+            "StoppedSet",
+            "StoppedProbability",
+            "WeightedSeries",
+            "AllPrefixes"
+          ]
+        ],
+        "name": "builtin:answer_tags_pairwise_disjoint",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          [
+            "StoppedSet",
+            "StoppedProbability",
+            "WeightedSeries",
+            "AllPrefixes"
+          ],
+          {
+            "name": "cast_registry",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:cross_tag_comparison_requires_registered_cast",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "state_graph",
+            "node": "variable"
+          },
+          {
+            "name": "stop_policy",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:stopped_probability_retains_nontermination_mass",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "coefficient_domain",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:weighted_series_has_no_probability_semantics_without_normalization",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "readout",
+            "node": "variable"
+          },
+          {
+            "name": "cast_registry",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:prefix_and_stopped_answers_require_registered_projection",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "7ce47740c635e0443daf13325921a87038469b6113e538fa4b6e5c085991bcbe",
+      "id": "FIN-A3.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "977c0f2bcbb7ab6f1b7cd7216c6355c9b6f1c0a6c6aef535719cb1619a316889"
+    },
+    {
+      "arguments": [
+        [
+          "StoppedSet",
+          "StoppedProbability",
+          "WeightedSeries",
+          "AllPrefixes"
+        ]
+      ],
+      "id": "FIN-A3.C1",
+      "name": "builtin:answer_tags_pairwise_disjoint",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        [
+          "StoppedSet",
+          "StoppedProbability",
+          "WeightedSeries",
+          "AllPrefixes"
+        ],
+        {
+          "name": "cast_registry",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.C2",
+      "name": "builtin:cross_tag_comparison_requires_registered_cast",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "state_graph",
+          "node": "variable"
+        },
+        {
+          "name": "stop_policy",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.C3",
+      "name": "builtin:stopped_probability_retains_nontermination_mass",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "coefficient_domain",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.C4",
+      "name": "builtin:weighted_series_has_no_probability_semantics_without_normalization",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "readout",
+          "node": "variable"
+        },
+        {
+          "name": "cast_registry",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A3.C5",
+      "name": "builtin:prefix_and_stopped_answers_require_registered_projection",
+      "node": "predicate_application"
+    }
+  ],
+  "domains": [
+    {
+      "id": "FIN-A3.DOMAIN",
+      "node": "domain",
+      "predicate": {
+        "arguments": [
+          {
+            "name": "state_graph",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:finite_serial_graph",
+        "node": "predicate_application"
+      },
+      "variable": {
+        "name": "state_graph",
+        "node": "variable"
+      }
+    }
+  ],
+  "english_statement_sha256": "7ce47740c635e0443daf13325921a87038469b6113e538fa4b6e5c085991bcbe",
+  "expected_proof_methods": [
+    "FiniteSemanticProof",
+    "LeanKernelProof"
+  ],
+  "formal_statement_sha256": "f4f04fb4212c1c46f0120b7db40386b0b12bac1b4a2ad4c6f9edd622099c85cb",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001",
+    "FOUND-MARKOV-001"
+  ],
+  "group": "FIN",
+  "kind": "result",
+  "nonclaims": "No implicit conditioning, probability interpretation of a generic series, or prefix/stopped cast.",
+  "portuguese_statement_sha256": "977c0f2bcbb7ab6f1b7cd7216c6355c9b6f1c0a6c6aef535719cb1619a316889",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A3.MARGINALS.01"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            true,
+            true,
+            false
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A3.MARGINALS.01",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A3.NONTERMINATION.02"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            [
+              1
+            ],
+            [
+              1
+            ],
+            false
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A3.NONTERMINATION.02",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A3.EDGECASES.03"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": {
+            "DeadlockState": "dead",
+            "EmptyWordMass": "1/4",
+            "ProbabilityInfinityMass": 0,
+            "StructuralCycle": true,
+            "SummedWordMass": 1
+          }
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A3.EDGECASES.03",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A3.TYPES.04"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            [
+              "StoppedSet",
+              "StoppedProbability",
+              "WeightedSeries",
+              "AllPrefixes"
+            ],
+            true,
+            1,
+            5
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A3.TYPES.04",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "arguments": [
+              [
+                "StoppedSet",
+                "StoppedProbability",
+                "WeightedSeries",
+                "AllPrefixes"
+              ]
+            ],
+            "name": "builtin:answer_tags_pairwise_disjoint",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              [
+                "StoppedSet",
+                "StoppedProbability",
+                "WeightedSeries",
+                "AllPrefixes"
+              ],
+              {
+                "name": "cast_registry",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:cross_tag_comparison_requires_registered_cast",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "state_graph",
+                "node": "variable"
+              },
+              {
+                "name": "stop_policy",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:stopped_probability_retains_nontermination_mass",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "coefficient_domain",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:weighted_series_has_no_probability_semantics_without_normalization",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "readout",
+                "node": "variable"
+              },
+              {
+                "name": "cast_registry",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:prefix_and_stopped_answers_require_registered_projection",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A3.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "state_graph",
+        "stop_policy",
+        "coefficient_domain",
+        "readout",
+        "cast_registry"
+      ]
+    }
+  ],
+  "registered_query_type": "syntax-relative equality of disjoint tagged serial-answer sorts",
+  "result_dependencies": [],
+  "result_id": "FIN-A3",
+  "schema_version": "1.0.0",
+  "scope": "Finite serial analyses.",
+  "sorts": [
+    "Boolean",
+    "finite directed graph",
+    "finite proof code"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Typed finite serial decisions",
+  "title_pt_BR": "Decisões seriais finitas tipadas",
+  "variables": [
+    {
+      "name": "state_graph",
+      "sort": "finite directed graph"
+    },
+    {
+      "name": "stop_policy",
+      "sort": "finite proof code"
+    },
+    {
+      "name": "coefficient_domain",
+      "sort": "finite proof code"
+    },
+    {
+      "name": "readout",
+      "sort": "finite proof code"
+    },
+    {
+      "name": "cast_registry",
+      "sort": "finite proof code"
+    }
+  ],
+  "withdrawal_condition": "Withdraw if any admitted mode is silently converted to another, deadlock is called nontermination, duplicate paths are not summed, or total mass/stopping premises fail."
+}

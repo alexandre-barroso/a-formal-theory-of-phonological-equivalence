@@ -1,0 +1,1026 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "name": "I",
+          "node": "variable"
+        }
+      ],
+      "id": "MAX-G5.DOMAIN",
+      "name": "complete_finite_categorical_events_and_probability_transport",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "argument": {
+          "bindings": [
+            {
+              "sort": "finite set",
+              "variable": "E"
+            },
+            {
+              "sort": "finite set",
+              "variable": "F"
+            }
+          ],
+          "body": {
+            "arguments": [
+              {
+                "antecedent": {
+                  "left": {
+                    "name": "E",
+                    "node": "variable"
+                  },
+                  "node": "equal",
+                  "right": {
+                    "elements": [],
+                    "node": "finite_set"
+                  }
+                },
+                "consequent": {
+                  "arguments": [
+                    {
+                      "name": "E",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "F",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "categorical_event_implication",
+                  "node": "function_application"
+                },
+                "node": "implies"
+              },
+              {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "E",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "F",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "categorical_event_implication",
+                    "node": "function_application"
+                  },
+                  {
+                    "arguments": [
+                      {
+                        "name": "E",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "F",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "numerical_probability_order",
+                    "node": "function_application"
+                  }
+                ],
+                "name": "sort_distinct",
+                "node": "predicate_application"
+              },
+              {
+                "antecedent": {
+                  "arguments": [
+                    {
+                      "left": {
+                        "name": "E",
+                        "node": "variable"
+                      },
+                      "node": "equal",
+                      "right": {
+                        "elements": [],
+                        "node": "finite_set"
+                      }
+                    },
+                    {
+                      "left": {
+                        "name": "F",
+                        "node": "variable"
+                      },
+                      "node": "equal",
+                      "right": {
+                        "elements": [],
+                        "node": "finite_set"
+                      }
+                    }
+                  ],
+                  "node": "and"
+                },
+                "consequent": {
+                  "left": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "E",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "F",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "numerical_probability_order",
+                        "node": "function_application"
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "name": "F",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "E",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "numerical_probability_order",
+                        "node": "function_application"
+                      }
+                    ],
+                    "node": "and"
+                  },
+                  "node": "iff",
+                  "right": {
+                    "arguments": [
+                      {
+                        "name": "E",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "F",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "numerical_probability_equal",
+                    "node": "function_application"
+                  }
+                },
+                "node": "implies"
+              }
+            ],
+            "node": "and"
+          },
+          "node": "forall"
+        },
+        "node": "not"
+      },
+      {
+        "bindings": [
+          {
+            "sort": "matrix",
+            "variable": "D"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "D",
+                    "node": "variable"
+                  }
+                ],
+                "name": "finite_rational_matrix",
+                "node": "predicate_application"
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "D",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "column_count",
+                  "node": "function_application"
+                },
+                "node": "greater",
+                "right": {
+                  "node": "integer",
+                  "value": 0
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "left": {
+              "bindings": [
+                {
+                  "sort": "vector",
+                  "variable": "w"
+                }
+              ],
+              "body": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "w",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "nonnegative_rational_vector",
+                    "node": "predicate_application"
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "w",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "sum_entries",
+                      "node": "function_application"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "denominator": 1,
+                      "node": "rational",
+                      "numerator": 1
+                    }
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "w",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "length",
+                      "node": "function_application"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "arguments": [
+                        {
+                          "name": "D",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "column_count",
+                      "node": "function_application"
+                    }
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "D",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "w",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "matrix_vector_product",
+                      "node": "function_application"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "D",
+                              "node": "variable"
+                            }
+                          ],
+                          "name": "row_count",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "zero_vector",
+                      "node": "function_application"
+                    }
+                  }
+                ],
+                "node": "and"
+              },
+              "node": "exists"
+            },
+            "node": "exclusive_or",
+            "right": {
+              "bindings": [
+                {
+                  "sort": "vector",
+                  "variable": "lambda"
+                }
+              ],
+              "body": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "lambda",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "rational_vector",
+                    "node": "predicate_application"
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "lambda",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "length",
+                      "node": "function_application"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "arguments": [
+                        {
+                          "name": "D",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "row_count",
+                      "node": "function_application"
+                    }
+                  },
+                  {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "name": "D",
+                                "node": "variable"
+                              }
+                            ],
+                            "name": "transpose",
+                            "node": "function_application"
+                          },
+                          {
+                            "name": "lambda",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "matrix_vector_product",
+                        "node": "function_application"
+                      }
+                    ],
+                    "name": "strictly_positive_vector",
+                    "node": "predicate_application"
+                  }
+                ],
+                "node": "and"
+              },
+              "node": "exists"
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      {
+        "bindings": [
+          {
+            "sort": "finite set",
+            "variable": "I"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "name": "I",
+                "node": "variable"
+              }
+            ],
+            "name": "finite_same_input_impossible_candidate_set",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "left": {
+              "arguments": [
+                {
+                  "name": "I",
+                  "node": "variable"
+                }
+              ],
+              "name": "weight_region_preserving_all_mutual_transports",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "I",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "difference_matrix",
+                  "node": "function_application"
+                }
+              ],
+              "name": "nonnegative_kernel",
+              "node": "function_application"
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "31d567bfb27abe873a9f777fd8b6efc166aebbf8c461e5b6e89bd19b60e537c2",
+      "id": "MAX-G5.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "7c466771d630803746101003ee09f1c0d66d329fd56cd70f553d23511090f483",
+      "semantic_definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "semantic_definitions": [],
+      "semantic_formal_statement_sha256": "9b7e6778a5f6948a78554fbd7c11bdf7839fd60ba89f0ab19717025bc210a29d",
+      "semantic_nonclaims": "Vacuous categorical truth is not probability evidence; any collapse conclusion is contract-specific.",
+      "semantic_scope": "Finite strict-winner events and a declared nonnegative weight orthant with complete same-input violation rows.",
+      "semantic_specification_path": "formal/proofs/maxent/semantic/specs/MAX-G5.json",
+      "semantic_specification_sha256": "aa402f2c96bdd67206779782d3d2b9420e612de2dee7c39de45e6c0f325dfc9e",
+      "semantic_withdrawal_condition": "Vacuous categorical truth is not probability evidence; any collapse conclusion is contract-specific."
+    }
+  ],
+  "domains": [
+    {
+      "arguments": [
+        {
+          "name": "I",
+          "node": "variable"
+        }
+      ],
+      "id": "MAX-G5.DOMAIN",
+      "name": "complete_finite_categorical_events_and_probability_transport",
+      "node": "predicate_application"
+    }
+  ],
+  "english_statement_sha256": "31d567bfb27abe873a9f777fd8b6efc166aebbf8c461e5b6e89bd19b60e537c2",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "MaxEntSemanticClosureProof"
+  ],
+  "formal_statement_sha256": "32813e40f673ba2ffc12c285c3a388d7ca1d7e1d40de9b536452cb1d1500b534",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-GORDAN-STIEMKE-001"
+  ],
+  "group": "MAX",
+  "kind": "theorem",
+  "nonclaims": "Vacuity is not numerical evidence and a collapse proof is contract-specific.",
+  "portuguese_statement_sha256": "7c466771d630803746101003ee09f1c0d66d329fd56cd70f553d23511090f483",
+  "proof_goals": [
+    {
+      "claim": {
+        "argument": {
+          "bindings": [
+            {
+              "sort": "finite set",
+              "variable": "E"
+            },
+            {
+              "sort": "finite set",
+              "variable": "F"
+            }
+          ],
+          "body": {
+            "arguments": [
+              {
+                "antecedent": {
+                  "left": {
+                    "name": "E",
+                    "node": "variable"
+                  },
+                  "node": "equal",
+                  "right": {
+                    "elements": [],
+                    "node": "finite_set"
+                  }
+                },
+                "consequent": {
+                  "arguments": [
+                    {
+                      "name": "E",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "F",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "categorical_event_implication",
+                  "node": "function_application"
+                },
+                "node": "implies"
+              },
+              {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "E",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "F",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "categorical_event_implication",
+                    "node": "function_application"
+                  },
+                  {
+                    "arguments": [
+                      {
+                        "name": "E",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "F",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "numerical_probability_order",
+                    "node": "function_application"
+                  }
+                ],
+                "name": "sort_distinct",
+                "node": "predicate_application"
+              },
+              {
+                "antecedent": {
+                  "arguments": [
+                    {
+                      "left": {
+                        "name": "E",
+                        "node": "variable"
+                      },
+                      "node": "equal",
+                      "right": {
+                        "elements": [],
+                        "node": "finite_set"
+                      }
+                    },
+                    {
+                      "left": {
+                        "name": "F",
+                        "node": "variable"
+                      },
+                      "node": "equal",
+                      "right": {
+                        "elements": [],
+                        "node": "finite_set"
+                      }
+                    }
+                  ],
+                  "node": "and"
+                },
+                "consequent": {
+                  "left": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "E",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "F",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "numerical_probability_order",
+                        "node": "function_application"
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "name": "F",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "E",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "numerical_probability_order",
+                        "node": "function_application"
+                      }
+                    ],
+                    "node": "and"
+                  },
+                  "node": "iff",
+                  "right": {
+                    "arguments": [
+                      {
+                        "name": "E",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "F",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "numerical_probability_equal",
+                    "node": "function_application"
+                  }
+                },
+                "node": "implies"
+              }
+            ],
+            "node": "and"
+          },
+          "node": "forall"
+        },
+        "node": "not"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G5.TYPES.01",
+      "proof_methods": [
+        "MaxEntSemanticClosureProof"
+      ]
+    },
+    {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "matrix",
+            "variable": "D"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "D",
+                    "node": "variable"
+                  }
+                ],
+                "name": "finite_rational_matrix",
+                "node": "predicate_application"
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "D",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "column_count",
+                  "node": "function_application"
+                },
+                "node": "greater",
+                "right": {
+                  "node": "integer",
+                  "value": 0
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "left": {
+              "bindings": [
+                {
+                  "sort": "vector",
+                  "variable": "w"
+                }
+              ],
+              "body": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "w",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "nonnegative_rational_vector",
+                    "node": "predicate_application"
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "w",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "sum_entries",
+                      "node": "function_application"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "denominator": 1,
+                      "node": "rational",
+                      "numerator": 1
+                    }
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "w",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "length",
+                      "node": "function_application"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "arguments": [
+                        {
+                          "name": "D",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "column_count",
+                      "node": "function_application"
+                    }
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "D",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "w",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "matrix_vector_product",
+                      "node": "function_application"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "D",
+                              "node": "variable"
+                            }
+                          ],
+                          "name": "row_count",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "zero_vector",
+                      "node": "function_application"
+                    }
+                  }
+                ],
+                "node": "and"
+              },
+              "node": "exists"
+            },
+            "node": "exclusive_or",
+            "right": {
+              "bindings": [
+                {
+                  "sort": "vector",
+                  "variable": "lambda"
+                }
+              ],
+              "body": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "lambda",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "rational_vector",
+                    "node": "predicate_application"
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "lambda",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "length",
+                      "node": "function_application"
+                    },
+                    "node": "equal",
+                    "right": {
+                      "arguments": [
+                        {
+                          "name": "D",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "row_count",
+                      "node": "function_application"
+                    }
+                  },
+                  {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "name": "D",
+                                "node": "variable"
+                              }
+                            ],
+                            "name": "transpose",
+                            "node": "function_application"
+                          },
+                          {
+                            "name": "lambda",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "matrix_vector_product",
+                        "node": "function_application"
+                      }
+                    ],
+                    "name": "strictly_positive_vector",
+                    "node": "predicate_application"
+                  }
+                ],
+                "node": "and"
+              },
+              "node": "exists"
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G5.GORDAN.02",
+      "proof_methods": [
+        "MaxEntSemanticClosureProof"
+      ]
+    },
+    {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "finite set",
+            "variable": "I"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "name": "I",
+                "node": "variable"
+              }
+            ],
+            "name": "finite_same_input_impossible_candidate_set",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "left": {
+              "arguments": [
+                {
+                  "name": "I",
+                  "node": "variable"
+                }
+              ],
+              "name": "weight_region_preserving_all_mutual_transports",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "I",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "difference_matrix",
+                  "node": "function_application"
+                }
+              ],
+              "name": "nonnegative_kernel",
+              "node": "function_application"
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G5.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "sort": "finite set",
+      "variable": "E"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "finite set",
+      "variable": "F"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "matrix",
+      "variable": "D"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "finite set",
+      "variable": "I"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "vector",
+      "variable": "w"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "vector",
+      "variable": "lambda"
+    }
+  ],
+  "registered_query_type": "categorical implication to numerical probability-order transport",
+  "result_dependencies": [
+    "MAX-G4"
+  ],
+  "result_id": "MAX-G5",
+  "schema_version": "1.0.0",
+  "scope": "Categorical-to-probabilistic implication transport.",
+  "sorts": [
+    "finite set",
+    "matrix",
+    "vector"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Typed vacuity and numerical transport",
+  "title_pt_BR": "Vacuidade tipada e transporte numérico",
+  "variables": [
+    {
+      "name": "E",
+      "sort": "finite set"
+    },
+    {
+      "name": "F",
+      "sort": "finite set"
+    },
+    {
+      "name": "D",
+      "sort": "matrix"
+    },
+    {
+      "name": "I",
+      "sort": "finite set"
+    },
+    {
+      "name": "w",
+      "sort": "vector"
+    },
+    {
+      "name": "lambda",
+      "sort": "vector"
+    }
+  ],
+  "withdrawal_condition": "Refuse if categorical winner events, same-input status, tie policy, or complete violations are not fixed.  It is not evidence that impossible mappings should be equiprobable in nature."
+}

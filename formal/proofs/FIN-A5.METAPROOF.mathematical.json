@@ -1,0 +1,472 @@
+{
+  "assumptions_used": [
+    "FIN-A5.A1",
+    "FIN-A5.A2",
+    "FIN-A5.A3",
+    "FIN-A5.A4",
+    "FIN-A5.A5",
+    "FIN-A5.A6",
+    "FIN-A5.A7"
+  ],
+  "claim": {
+    "arguments": [
+      {
+        "left": {
+          "domain": {
+            "name": "carrier",
+            "node": "variable"
+          },
+          "map": {
+            "name": "product_query",
+            "node": "variable"
+          },
+          "node": "kernel"
+        },
+        "node": "equal",
+        "right": {
+          "arguments": [
+            {
+              "name": "carrier",
+              "node": "variable"
+            },
+            {
+              "name": "queries",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:intersection_of_query_kernels",
+          "node": "function_application"
+        }
+      },
+      {
+        "arguments": [
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "domain": {
+                    "name": "carrier",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "reduction",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                },
+                {
+                  "domain": {
+                    "name": "carrier",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "product_query",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                }
+              ],
+              "name": "builtin:relation_subset",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "queries",
+                  "node": "variable"
+                },
+                {
+                  "name": "reduction",
+                  "node": "variable"
+                },
+                {
+                  "name": "carrier",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:query_family_factors_through",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "queries",
+                  "node": "variable"
+                },
+                {
+                  "name": "reduction",
+                  "node": "variable"
+                },
+                {
+                  "name": "carrier",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:query_family_factors_through",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "domain": {
+                    "name": "carrier",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "reduction",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                },
+                {
+                  "domain": {
+                    "name": "carrier",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "product_query",
+                    "node": "variable"
+                  },
+                  "node": "kernel"
+                }
+              ],
+              "name": "builtin:relation_subset",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          }
+        ],
+        "node": "and"
+      },
+      {
+        "arguments": [
+          {
+            "name": "product_query",
+            "node": "variable"
+          },
+          {
+            "name": "queries",
+            "node": "variable"
+          },
+          {
+            "name": "carrier",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:product_query_is_minimum_exact_direct_carrier",
+        "node": "predicate_application"
+      },
+      {
+        "left": {
+          "arguments": [
+            {
+              "name": "carrier",
+              "node": "variable"
+            },
+            {
+              "name": "queries",
+              "node": "variable"
+            },
+            {
+              "name": "added_query",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:added_consumer_price",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "arguments": [
+            {
+              "name": "carrier",
+              "node": "variable"
+            },
+            {
+              "name": "queries",
+              "node": "variable"
+            },
+            {
+              "name": "added_query",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:sum_block_image_cardinality_minus_one",
+          "node": "function_application"
+        }
+      },
+      {
+        "arguments": [
+          {
+            "antecedent": {
+              "left": {
+                "arguments": [
+                  {
+                    "name": "carrier",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "queries",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "added_query",
+                    "node": "variable"
+                  }
+                ],
+                "name": "builtin:added_consumer_price",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "natural",
+                "value": 0
+              }
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "added_query",
+                  "node": "variable"
+                },
+                {
+                  "name": "carrier",
+                  "node": "variable"
+                },
+                {
+                  "name": "queries",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:consumer_constant_on_every_old_block",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "added_query",
+                  "node": "variable"
+                },
+                {
+                  "name": "carrier",
+                  "node": "variable"
+                },
+                {
+                  "name": "queries",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:consumer_constant_on_every_old_block",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "left": {
+                "arguments": [
+                  {
+                    "name": "carrier",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "queries",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "added_query",
+                    "node": "variable"
+                  }
+                ],
+                "name": "builtin:added_consumer_price",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "natural",
+                "value": 0
+              }
+            },
+            "node": "implies"
+          }
+        ],
+        "node": "and"
+      },
+      {
+        "arguments": [
+          {
+            "name": "chain_maps",
+            "node": "variable"
+          },
+          {
+            "domain": {
+              "name": "carrier",
+              "node": "variable"
+            },
+            "map": {
+              "name": "product_query",
+              "node": "variable"
+            },
+            "node": "kernel"
+          },
+          {
+            "name": "carrier",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:earliest_kernel_loss_exists_when_any_loss_exists",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "reduction",
+            "node": "variable"
+          },
+          {
+            "name": "deterministic_suffix",
+            "node": "variable"
+          },
+          {
+            "name": "markov_suffix",
+            "node": "variable"
+          },
+          {
+            "name": "carrier",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:collapsed_pair_remains_equal_under_value_only_suffixes",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "reduction",
+                  "node": "variable"
+                },
+                {
+                  "name": "carrier",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:injective_on",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "reduction",
+                  "node": "variable"
+                },
+                {
+                  "name": "carrier",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:all_binary_consumers_factor_through",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "reduction",
+                  "node": "variable"
+                },
+                {
+                  "name": "carrier",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:all_binary_consumers_factor_through",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "reduction",
+                  "node": "variable"
+                },
+                {
+                  "name": "carrier",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:injective_on",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          }
+        ],
+        "node": "and"
+      },
+      {
+        "arguments": [
+          {
+            "name": "chain_maps",
+            "node": "variable"
+          },
+          {
+            "name": "carrier",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:chain_collisions_are_disjoint_union_of_first_introductions",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "claim_sha256": "f187988ffb601dae36f78dfb54e570c59ac746c39daf23eb27d421abd2c4c8a1",
+  "formal_statement_sha256": "c6f4b3f4fba8a4884f7f0364befbe7f79100dd5ba394f77d3740b7287eef771e",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001",
+    "FOUND-MARKOV-001",
+    "FOUND-TERMINATION-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.fin_a5_carrierAlgebra",
+      "productQuery_minimum_carrier_cardinality",
+      "blockwiseAddedConsumerPrice_eq",
+      "firstLossIndex_specification",
+      "collisionSet_comp_decomposition"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "FIN-A5.METAPROOF"
+  },
+  "proof_goal_id": "FIN-A5.METAPROOF",
+  "proof_id": "FIN-A5.METAPROOF.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [
+    "FIN-A4"
+  ],
+  "result_id": "FIN-A5",
+  "schema_version": "1.1.0"
+}

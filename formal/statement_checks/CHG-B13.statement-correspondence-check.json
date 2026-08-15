@@ -1,0 +1,17 @@
+{
+  "check_id": "CHG-B13.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "66b25e95ff6c7f35a3ab560af9bd148c58dc94f82432d6967ee8a6e8287f6854",
+  "payload": {
+    "en_statement_file_sha256": "72f5080c23d35f9582d30f126d71d781a0aefe0b35a87d21b94a4372c44bfe89",
+    "en_statement_marker": "formal/specs/CHG-B13.json",
+    "en_statement_path": "proofs/en/results/CHG-B13.tex",
+    "en_statement_sha256": "7a834c17e2fdaa4d858c7b12da52d14f67b3d60ca7e387196df20eecef8dda25",
+    "pt_BR_statement_file_sha256": "982978cf27261cfe0a923f31ec7a533cfbad45394cf1f3e675f7dcb3d13e3f5b",
+    "pt_BR_statement_marker": "formal/specs/CHG-B13.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/CHG-B13.tex",
+    "pt_BR_statement_sha256": "f3fd95a92c5418cd24a1523a734058cf76d273f6b0631b2895fb468e47ff66fd"
+  },
+  "result_id": "CHG-B13",
+  "schema_version": "1.0.0"
+}

@@ -1,0 +1,4 @@
+case_id	row_a	row_b	relation	condition	regime
+dominance	1,1	2,1	P(A)>=P(B)	w1>=0	same_input
+identity	1,2	1,2	P(A)=P(B)	all_nonnegative_weights	same_input
+incomparable	1,2	2,1	weight_dependent	w1-w2_changes_sign	same_input

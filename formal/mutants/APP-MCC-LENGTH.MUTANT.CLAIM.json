@@ -1,0 +1,337 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        "formal/source_transcriptions/mccollum2019_directional_hg.json",
+        "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304"
+      ],
+      "id": "APP-MCC-LENGTH.SOURCE.01",
+      "name": "builtin:source_transcription_matches",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "algorithm": "quadratic_profile_bundle_v1",
+        "expected": [
+          [
+            6,
+            [
+              "1",
+              "13/20",
+              "3/8",
+              "7/40",
+              "1/20",
+              "0"
+            ]
+          ],
+          [
+            4,
+            [
+              "1",
+              "3/5",
+              "3/10",
+              "1/10",
+              "0"
+            ]
+          ],
+          [
+            9,
+            [
+              "1",
+              "50/63",
+              "11/18",
+              "19/42",
+              "20/63",
+              "13/63",
+              "5/42",
+              "1/18",
+              "1/63",
+              "0"
+            ]
+          ]
+        ],
+        "inputs": [
+          {
+            "h": "20",
+            "horizon": 5,
+            "m": "3"
+          },
+          {
+            "h": "5",
+            "horizon": 4,
+            "m": "1"
+          },
+          {
+            "h": "21",
+            "horizon": 9,
+            "m": "1"
+          }
+        ],
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      },
+      {
+        "algorithm": "quadratic_profile_v1",
+        "expected": [
+          "1",
+          "41/42"
+        ],
+        "inputs": {
+          "h": "21",
+          "horizon": 1,
+          "m": "1"
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "2da565ed3f0cd45e17f1dc46b3640b4fb1572dad2eac6c4a5d3ab484bcea9a54",
+      "id": "APP-MCC-LENGTH.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "e597953d5cdd07ef07ef3cb84390e0e7f71f03035f404a42ca3612957cab697b"
+    },
+    {
+      "algorithm": "quadratic_profile_bundle_v1",
+      "expected": [
+        [
+          5,
+          [
+            "1",
+            "13/20",
+            "3/8",
+            "7/40",
+            "1/20",
+            "0"
+          ]
+        ],
+        [
+          4,
+          [
+            "1",
+            "3/5",
+            "3/10",
+            "1/10",
+            "0"
+          ]
+        ],
+        [
+          9,
+          [
+            "1",
+            "50/63",
+            "11/18",
+            "19/42",
+            "20/63",
+            "13/63",
+            "5/42",
+            "1/18",
+            "1/63",
+            "0"
+          ]
+        ]
+      ],
+      "id": "APP-MCC-LENGTH.APPLICATION.01",
+      "inputs": [
+        {
+          "h": "20",
+          "horizon": 5,
+          "m": "3"
+        },
+        {
+          "h": "5",
+          "horizon": 4,
+          "m": "1"
+        },
+        {
+          "h": "21",
+          "horizon": 9,
+          "m": "1"
+        }
+      ],
+      "node": "exact_application_result",
+      "source": {
+        "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+        "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+        "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+      }
+    },
+    {
+      "algorithm": "quadratic_profile_v1",
+      "expected": [
+        "1",
+        "41/42"
+      ],
+      "id": "APP-MCC-LENGTH.APPLICATION.02",
+      "inputs": {
+        "h": "21",
+        "horizon": 1,
+        "m": "1"
+      },
+      "node": "exact_application_result",
+      "source": {
+        "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+        "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+        "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+      }
+    }
+  ],
+  "domains": [
+    {
+      "id": "APP-MCC-LENGTH.APPLICATION-DOMAIN",
+      "node": "finite_set",
+      "values": [
+        "APP-MCC-LENGTH.ANCHORS.01",
+        "APP-MCC-LENGTH.ONEFOLLOWER.02"
+      ]
+    }
+  ],
+  "english_statement_sha256": "2da565ed3f0cd45e17f1dc46b3640b4fb1572dad2eac6c4a5d3ab484bcea9a54",
+  "expected_proof_methods": [
+    "ExactApplicationProof"
+  ],
+  "formal_statement_sha256": "b9dc6d07f826c413bc5fed886efa54c51b645bcf46ac94308d7001a7eba1e668",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001"
+  ],
+  "group": "APP",
+  "kind": "application",
+  "nonclaims": "No universal finite-harmony claim or replacement of the one-follower tableau.",
+  "portuguese_statement_sha256": "e597953d5cdd07ef07ef3cb84390e0e7f71f03035f404a42ca3612957cab697b",
+  "proof_goals": [
+    {
+      "claim": {
+        "algorithm": "quadratic_profile_bundle_v1",
+        "expected": [
+          [
+            6,
+            [
+              "1",
+              "13/20",
+              "3/8",
+              "7/40",
+              "1/20",
+              "0"
+            ]
+          ],
+          [
+            4,
+            [
+              "1",
+              "3/5",
+              "3/10",
+              "1/10",
+              "0"
+            ]
+          ],
+          [
+            9,
+            [
+              "1",
+              "50/63",
+              "11/18",
+              "19/42",
+              "20/63",
+              "13/63",
+              "5/42",
+              "1/18",
+              "1/63",
+              "0"
+            ]
+          ]
+        ],
+        "inputs": [
+          {
+            "h": "20",
+            "horizon": 5,
+            "m": "3"
+          },
+          {
+            "h": "5",
+            "horizon": 4,
+            "m": "1"
+          },
+          {
+            "h": "21",
+            "horizon": 9,
+            "m": "1"
+          }
+        ],
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "APP-MCC-LENGTH.ANCHORS.01",
+      "proof_methods": [
+        "ExactApplicationProof"
+      ]
+    },
+    {
+      "claim": {
+        "algorithm": "quadratic_profile_v1",
+        "expected": [
+          "1",
+          "41/42"
+        ],
+        "inputs": {
+          "h": "21",
+          "horizon": 1,
+          "m": "1"
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "APP-MCC-LENGTH.ONEFOLLOWER.02",
+      "proof_methods": [
+        "ExactApplicationProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact source-transcribed application consequence",
+  "result_dependencies": [
+    "CHG-B2",
+    "CHG-B3"
+  ],
+  "result_id": "APP-MCC-LENGTH",
+  "schema_version": "1.0.0",
+  "scope": "Formal optimizer consequences, not acoustic measurement.",
+  "sorts": [
+    "Boolean",
+    "natural number",
+    "rational",
+    "real",
+    "finite sequence",
+    "typed answer object"
+  ],
+  "source_transcription_dependencies": [
+    "formal/source_transcriptions/mccollum2019_directional_hg.json"
+  ],
+  "title_en": "McCollum all-horizon length consequences",
+  "title_pt_BR": "Consequências de comprimento em todos os horizontes na análise de McCollum",
+  "variables": [],
+  "withdrawal_condition": "Withdraw if weights/constraints depend on length or followers are protected; the verdict is for complete profile, not every possible query."
+}

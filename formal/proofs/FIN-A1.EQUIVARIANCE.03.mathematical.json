@@ -1,0 +1,85 @@
+{
+  "assumptions_used": [
+    "FIN-A1.A1",
+    "FIN-A1.A2",
+    "FIN-A1.A3",
+    "FIN-A1.A4"
+  ],
+  "claim": {
+    "left": {
+      "arguments": [
+        "FIN-A1.EQUIVARIANCE.03"
+      ],
+      "name": "builtin:finite_regression_observed",
+      "node": "function_application"
+    },
+    "node": "equal",
+    "right": {
+      "answer_type": "registered_exact_result",
+      "node": "typed_answer",
+      "value": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "claim_sha256": "9709dc46321d11dabb6ff679e8d4ab5618d65d8c9b84e6c9a09a31fa1ea773d7",
+  "formal_statement_sha256": "c17a61ef74c408f6ff99ff0a7e6e4ace476ae414894334e0d72d5523fabc766b",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 4,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_model": {
+      "orbit_map": [
+        {
+          "key": [
+            "a"
+          ],
+          "value": [
+            1
+          ]
+        }
+      ],
+      "source_orbits": [
+        [
+          "a"
+        ]
+      ],
+      "target_orbits": [
+        [
+          1
+        ]
+      ]
+    },
+    "assumption_model_result": true,
+    "derivation": [],
+    "derivation_method": "exact_finite_replay",
+    "mutant_ids": [
+      "replace_injectivity_by_surjectivity",
+      "allow_orbit_collision_with_inverse"
+    ],
+    "regression_algorithm": "FIN-A1.EQUIVARIANCE.03",
+    "regression_expected": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "result_schema_id": "FIN-A1.FINITE-SCHEMA.1",
+    "semantic_kernel_version": "finite-semantics-1.0.0"
+  },
+  "proof_goal_id": "FIN-A1.EQUIVARIANCE.03",
+  "proof_id": "FIN-A1.EQUIVARIANCE.03.FINITE-SEMANTIC.PROOF",
+  "proof_method": "FiniteSemanticProof",
+  "result_dependencies": [],
+  "result_id": "FIN-A1",
+  "schema_version": "1.1.0"
+}

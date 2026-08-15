@@ -1,0 +1,97 @@
+{
+  "assumptions_used": [
+    "DATA-ZH-R1.SOURCE-IDENTITY"
+  ],
+  "claim": {
+    "algorithm": "mandarin_construction_scope_v1",
+    "expected": [
+      {
+        "clear_complex_final_retyped_as_match": 0,
+        "counterexamples": 18,
+        "matches": 621,
+        "refusals": 0,
+        "stage": "coarse_substring"
+      },
+      {
+        "clear_complex_final_retyped_as_match": 4,
+        "counterexamples": 13,
+        "matches": 622,
+        "refusals": 4,
+        "stage": "construction_sensitive"
+      }
+    ],
+    "node": "exact_data_replay",
+    "sources": [
+      {
+        "key_fields": [
+          "inventory_number",
+          "target_hanzi_interval_1based",
+          "occurrence_ordinal_within_cell"
+        ],
+        "path": "data/source_ledgers/mandarin_corrected_source.tsv",
+        "required_fields": [
+          "inventory_number",
+          "target_hanzi_interval_1based",
+          "occurrence_ordinal_within_cell",
+          "construction_scope_class",
+          "original_decision",
+          "corrected_decision"
+        ],
+        "role": "mandarin_rows",
+        "row_count": 639,
+        "sha256": "8e010db5245c9436fb4bdd5d5f3791a2f4553915cb877c1218dcd70e1bf3c67c"
+      }
+    ]
+  },
+  "claim_sha256": "e249a6cae15fbc65a181e3c1d82ade43b590fbf69e614e06786446d4f6f8ab3a",
+  "formal_statement_sha256": "b8fa10a8f6b54c54028c1bc138edb5f8fd3922604861c861af7cb3516383febc",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001"
+  ],
+  "payload": {
+    "algorithm": "mandarin_construction_scope_v1",
+    "expected": [
+      {
+        "clear_complex_final_retyped_as_match": 0,
+        "counterexamples": 18,
+        "matches": 621,
+        "refusals": 0,
+        "stage": "coarse_substring"
+      },
+      {
+        "clear_complex_final_retyped_as_match": 4,
+        "counterexamples": 13,
+        "matches": 622,
+        "refusals": 4,
+        "stage": "construction_sensitive"
+      }
+    ],
+    "sources": [
+      {
+        "key_fields": [
+          "inventory_number",
+          "target_hanzi_interval_1based",
+          "occurrence_ordinal_within_cell"
+        ],
+        "path": "data/source_ledgers/mandarin_corrected_source.tsv",
+        "required_fields": [
+          "inventory_number",
+          "target_hanzi_interval_1based",
+          "occurrence_ordinal_within_cell",
+          "construction_scope_class",
+          "original_decision",
+          "corrected_decision"
+        ],
+        "role": "mandarin_rows",
+        "row_count": 639,
+        "sha256": "8e010db5245c9436fb4bdd5d5f3791a2f4553915cb877c1218dcd70e1bf3c67c"
+      }
+    ]
+  },
+  "proof_goal_id": "DATA-ZH-R1.REPLAY.01",
+  "proof_id": "DATA-ZH-R1.REPLAY.01.PROOF",
+  "proof_method": "ExactDataReplayProof",
+  "result_dependencies": [],
+  "result_id": "DATA-ZH-R1",
+  "schema_version": "1.1.0"
+}

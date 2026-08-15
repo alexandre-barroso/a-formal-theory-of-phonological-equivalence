@@ -1,0 +1,95 @@
+{
+  "assumptions_used": [
+    "FIN-A7.A1",
+    "FIN-A7.A2",
+    "FIN-A7.A3",
+    "FIN-A7.A4",
+    "FIN-A7.A5",
+    "FIN-A7.A6"
+  ],
+  "claim": {
+    "left": {
+      "arguments": [
+        "FIN-A7.POSITIVESECTION.04"
+      ],
+      "name": "builtin:finite_regression_observed",
+      "node": "function_application"
+    },
+    "node": "equal",
+    "right": {
+      "answer_type": "registered_exact_result",
+      "node": "typed_answer",
+      "value": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "claim_sha256": "3f335222520eda27e73ac7ce506585767b2b04d5aebbb8d4896e9dcaeee21185",
+  "formal_statement_sha256": "4d5a2cde4a89ef62f553a841b2c2e737d57c2bb5e13919fc022c9edb20aad6e7",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 6,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_model": {
+      "code_map": {
+        "s": "c"
+      },
+      "descent": {
+        "c": "c"
+      },
+      "external_response": {
+        "ordered_source": [
+          "s"
+        ]
+      },
+      "interpretation": {
+        "c": "answer"
+      },
+      "reachable_codes": [
+        "c"
+      ],
+      "reader": {
+        "c": "answer"
+      },
+      "semantic_equality": "exact",
+      "source_section": {
+        "c": "s"
+      }
+    },
+    "assumption_model_result": true,
+    "derivation": [],
+    "derivation_method": "exact_finite_replay",
+    "mutant_ids": [
+      "require_section_for_carrier_verdict",
+      "omit_reader_faithfulness",
+      "infer_effective_inverse_from_injectivity_alone"
+    ],
+    "regression_algorithm": "FIN-A7.POSITIVESECTION.04",
+    "regression_expected": [
+      true,
+      true,
+      true
+    ],
+    "result_schema_id": "FIN-A7.FINITE-SCHEMA.1",
+    "semantic_kernel_version": "finite-semantics-1.0.0"
+  },
+  "proof_goal_id": "FIN-A7.POSITIVESECTION.04",
+  "proof_id": "FIN-A7.POSITIVESECTION.04.FINITE-SEMANTIC.PROOF",
+  "proof_method": "FiniteSemanticProof",
+  "result_dependencies": [
+    "CALC-F1",
+    "FIN-A4",
+    "FIN-A5",
+    "FIN-A6"
+  ],
+  "result_id": "FIN-A7",
+  "schema_version": "1.1.0"
+}

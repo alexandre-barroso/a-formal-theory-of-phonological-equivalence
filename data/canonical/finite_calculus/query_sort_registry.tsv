@@ -1,0 +1,9 @@
+query_sort	answer_type	layer	definition
+winner_identity	candidate_or_tie_set	grammar	exact winner identity including ties
+candidate_order	total_preorder	grammar	complete candidate preorder
+hg_margin	rational_margin_vector	grammar	registered pairwise HG margins
+maxent_law	exact_probability_law	grammar	fixed-mass normalized distribution
+serial_trace	typed_trace_or_path_law	grammar	derivational history with stopping semantics
+terminal_output	typed_output	grammar	terminal grammatical output
+realized_form	realization_value	realization	output after a declared grammar-to-phonetics map
+observed_property	observation_or_corpus_value	observation	registered measurement or corpus decision

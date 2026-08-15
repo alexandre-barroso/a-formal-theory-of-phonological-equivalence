@@ -1,0 +1,336 @@
+{
+  "assumptions": [
+    {
+      "id": "CALC-R05.EXACT-FINITE-MODEL",
+      "node": "boolean",
+      "value": true
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "left": {
+          "node": "list",
+          "values": [
+            {
+              "left": {
+                "map": {
+                  "entries": [
+                    {
+                      "key": "w1",
+                      "value": "w2"
+                    },
+                    {
+                      "key": "w2",
+                      "value": "w1"
+                    }
+                  ],
+                  "node": "finite_map"
+                },
+                "node": "map_set",
+                "set": {
+                  "node": "finite_set",
+                  "values": [
+                    "w1",
+                    "w2"
+                  ]
+                }
+              },
+              "node": "equal",
+              "right": {
+                "node": "finite_set",
+                "values": [
+                  "w1",
+                  "w2"
+                ]
+              }
+            },
+            {
+              "left": {
+                "key": "w1",
+                "map": {
+                  "entries": [
+                    {
+                      "key": "w1",
+                      "value": "w2"
+                    },
+                    {
+                      "key": "w2",
+                      "value": "w1"
+                    }
+                  ],
+                  "node": "finite_map"
+                },
+                "node": "lookup"
+              },
+              "node": "equal",
+              "right": "w1"
+            },
+            {
+              "left": {
+                "key": "w2",
+                "map": {
+                  "entries": [
+                    {
+                      "key": "w1",
+                      "value": "w2"
+                    },
+                    {
+                      "key": "w2",
+                      "value": "w1"
+                    }
+                  ],
+                  "node": "finite_map"
+                },
+                "node": "lookup"
+              },
+              "node": "equal",
+              "right": "w2"
+            }
+          ]
+        },
+        "node": "equal",
+        "right": {
+          "node": "list",
+          "values": [
+            true,
+            false,
+            false
+          ]
+        }
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "55280da4f7ae18019398b148e03e5930d5cc92e7040a658e9c3888cc61b1a7d0",
+      "id": "CALC-R05.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "ed2b114cfd4346a8c8403b4de6768cf869d48cbf4ae3c3c5578ca81741aa0beb"
+    },
+    {
+      "id": "CALC-R05.COMPUTATION.01",
+      "node": "list",
+      "values": [
+        {
+          "left": {
+            "map": {
+              "entries": [
+                {
+                  "key": "w1",
+                  "value": "w2"
+                },
+                {
+                  "key": "w2",
+                  "value": "w1"
+                }
+              ],
+              "node": "finite_map"
+            },
+            "node": "map_set",
+            "set": {
+              "node": "finite_set",
+              "values": [
+                "w1",
+                "w2"
+              ]
+            }
+          },
+          "node": "equal",
+          "right": {
+            "node": "finite_set",
+            "values": [
+              "w1",
+              "w2"
+            ]
+          }
+        },
+        {
+          "left": {
+            "key": "w1",
+            "map": {
+              "entries": [
+                {
+                  "key": "w1",
+                  "value": "w2"
+                },
+                {
+                  "key": "w2",
+                  "value": "w1"
+                }
+              ],
+              "node": "finite_map"
+            },
+            "node": "lookup"
+          },
+          "node": "equal",
+          "right": "w1"
+        },
+        {
+          "left": {
+            "key": "w2",
+            "map": {
+              "entries": [
+                {
+                  "key": "w1",
+                  "value": "w2"
+                },
+                {
+                  "key": "w2",
+                  "value": "w1"
+                }
+              ],
+              "node": "finite_map"
+            },
+            "node": "lookup"
+          },
+          "node": "equal",
+          "right": "w2"
+        }
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "CALC-R05.FINITE-DOMAIN",
+      "node": "finite_set",
+      "values": [
+        "CALC-R05.ORBIT.01"
+      ]
+    }
+  ],
+  "english_statement_sha256": "55280da4f7ae18019398b148e03e5930d5cc92e7040a658e9c3888cc61b1a7d0",
+  "expected_proof_methods": [
+    "ExactFiniteComputationProof"
+  ],
+  "formal_statement_sha256": "2667bb63c33827f123f34e93224557ad08ed8282fff1b3c55cb5f831a58d0874",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001"
+  ],
+  "group": "CALC",
+  "kind": "regression",
+  "nonclaims": "No canonical singleton selector is inferred.",
+  "portuguese_statement_sha256": "ed2b114cfd4346a8c8403b4de6768cf869d48cbf4ae3c3c5578ca81741aa0beb",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "node": "list",
+          "values": [
+            {
+              "left": {
+                "map": {
+                  "entries": [
+                    {
+                      "key": "w1",
+                      "value": "w2"
+                    },
+                    {
+                      "key": "w2",
+                      "value": "w1"
+                    }
+                  ],
+                  "node": "finite_map"
+                },
+                "node": "map_set",
+                "set": {
+                  "node": "finite_set",
+                  "values": [
+                    "w1",
+                    "w2"
+                  ]
+                }
+              },
+              "node": "equal",
+              "right": {
+                "node": "finite_set",
+                "values": [
+                  "w1",
+                  "w2"
+                ]
+              }
+            },
+            {
+              "left": {
+                "key": "w1",
+                "map": {
+                  "entries": [
+                    {
+                      "key": "w1",
+                      "value": "w2"
+                    },
+                    {
+                      "key": "w2",
+                      "value": "w1"
+                    }
+                  ],
+                  "node": "finite_map"
+                },
+                "node": "lookup"
+              },
+              "node": "equal",
+              "right": "w1"
+            },
+            {
+              "left": {
+                "key": "w2",
+                "map": {
+                  "entries": [
+                    {
+                      "key": "w1",
+                      "value": "w2"
+                    },
+                    {
+                      "key": "w2",
+                      "value": "w1"
+                    }
+                  ],
+                  "node": "finite_map"
+                },
+                "node": "lookup"
+              },
+              "node": "equal",
+              "right": "w2"
+            }
+          ]
+        },
+        "node": "equal",
+        "right": {
+          "node": "list",
+          "values": [
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-R05.ORBIT.01",
+      "proof_methods": [
+        "ExactFiniteComputationProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact finite regression construction",
+  "result_dependencies": [],
+  "result_id": "CALC-R05",
+  "schema_version": "1.0.0",
+  "scope": "Complete witness sets and orbits.",
+  "sorts": [
+    "Boolean",
+    "rational",
+    "finite set",
+    "finite map",
+    "partition",
+    "relation",
+    "typed answer object"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Gauge-swapped shortest witnesses",
+  "title_pt_BR": "Testemunhos mínimos permutados por gauge",
+  "variables": [],
+  "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 5; any changed expectation requires documented reverification."
+}

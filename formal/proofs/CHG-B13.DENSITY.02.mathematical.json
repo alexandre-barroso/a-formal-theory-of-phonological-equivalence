@@ -1,0 +1,146 @@
+{
+  "assumptions_used": [
+    "CHG-B13.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "fixed_p>1",
+        "rho->infinity",
+        "0<=u<=1",
+        "0<=tau<1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "fixed_p>1",
+          "rho->infinity",
+          "0<=u<=1",
+          "0<=tau<1"
+        ],
+        "profile": "saturated_normalized_profile",
+        "uniformity": [
+          "position",
+          "tau"
+        ]
+      }
+    },
+    "component": "quadratic_density",
+    "expected": [
+      1,
+      "1/3"
+    ],
+    "inputs": {},
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B13"
+  },
+  "claim_sha256": "b6021801301341fd7e22299621ff240b21ae654b9b1e79065664c799617b53db",
+  "formal_statement_sha256": "66b25e95ff6c7f35a3ab560af9bd148c58dc94f82432d6967ee8a6e8287f6854",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "fixed_p>1",
+        "rho->infinity",
+        "0<=u<=1",
+        "0<=tau<1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "fixed_p>1",
+          "rho->infinity",
+          "0<=u<=1",
+          "0<=tau<1"
+        ],
+        "profile": "saturated_normalized_profile",
+        "uniformity": [
+          "position",
+          "tau"
+        ]
+      }
+    },
+    "assumption_model": {
+      "p": 2,
+      "rho_path": {
+        "n": "positive_integer_to_infinity",
+        "rho_n": "n"
+      },
+      "tau": 0,
+      "u": "1/3"
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "fixed_p>1",
+          "rho->infinity",
+          "0<=u<=1",
+          "0<=tau<1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "fixed_p>1",
+            "rho->infinity",
+            "0<=u<=1",
+            "0<=tau<1"
+          ],
+          "profile": "saturated_normalized_profile",
+          "uniformity": [
+            "position",
+            "tau"
+          ]
+        }
+      },
+      "component": "quadratic_density",
+      "expected": [
+        1,
+        "1/3"
+      ],
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B13"
+    },
+    "derivation": {
+      "component": "quadratic_density",
+      "density": "2*(1-u)",
+      "integrals": [
+        "integral D=1",
+        "integral u*D=1/3"
+      ],
+      "result_id": "CHG-B13"
+    },
+    "mutant_ids": [
+      "CHG-B13.MUTANT.CONCLUSION",
+      "CHG-B13.MUTANT.ASSUMPTION",
+      "CHG-B13.MUTANT.COMPONENT",
+      "CHG-B13.MUT.POINTWISE-AS-UNIFORM"
+    ],
+    "observed": [
+      1,
+      "1/3"
+    ],
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B13.DENSITY.02",
+  "proof_id": "CHG-B13.DENSITY.02.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "CHG-B2",
+    "CHG-B9"
+  ],
+  "result_id": "CHG-B13",
+  "schema_version": "1.1.0"
+}

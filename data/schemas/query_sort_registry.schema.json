@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "answer_type": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      },
+      "layer": {
+        "type": "string"
+      },
+      "query_sort": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "query_sort",
+      "answer_type",
+      "layer",
+      "definition"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/finite_calculus/query_sort_registry.tsv",
+  "type": "array"
+}

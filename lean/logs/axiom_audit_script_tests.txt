@@ -1,0 +1,2 @@
+$ sh scripts/test_axiom_audit_scripts.sh
+PASS: axiom-audit checker rejects error-only, incomplete, and unexpected-axiom logs and accepts a complete whitelisted log.

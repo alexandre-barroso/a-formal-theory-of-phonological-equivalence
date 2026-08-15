@@ -1,0 +1,54 @@
+{
+  "application_id": "APP-COR-WALKER-2020",
+  "classification": "generated_corollary",
+  "data_evidence": {
+    "path": "data/canonical/applications/walker_boundary.tsv",
+    "role": "exact rational boundary cases and six printed activity comparisons"
+  },
+  "exact_consequences": [
+    "Assimilation uniquely wins exactly when y-x>-1/20; equality is a tie; faithfulness uniquely wins exactly when y-x<-1/20.",
+    "Every pair in -1/20<y-x<0 refutes an order-only response rule for the printed weighted evaluator.",
+    "The exact pair x=4/5, y=39/50 has assimilation cost 17 and faithful cost 88/5.",
+    "For c<l<d, all six unique printed directions are preserved exactly when min(l-c,d-l)>1/20."
+  ],
+  "lean_binding": {
+    "declarations": [
+      "PhonologicalCalculus.Application.walker_assimilation_iff",
+      "PhonologicalCalculus.Application.walker_tie_iff",
+      "PhonologicalCalculus.Application.walker_faithful_iff",
+      "PhonologicalCalculus.Application.walker_order_only_open_strip_counterwitness",
+      "PhonologicalCalculus.Application.walker_registered_counterwitness",
+      "PhonologicalCalculus.Application.walker_six_directions_iff_minimum_gap"
+    ],
+    "module": "PhonologicalCalculus/Application/SourceFacing.lean"
+  },
+  "no_conclusion_if": [
+    "the claim concerns a complete Korean candidate set rather than the printed two-candidate fragment",
+    "the omitted directionality condition or additional candidates are material",
+    "psychological activity magnitudes or population frequencies are requested"
+  ],
+  "nonclaims": [
+    "The six printed .7/.8/.9 cells are not overturned.",
+    "No complete Korean grammar or activity-learning result is claimed."
+  ],
+  "registered_parent_results": [
+    "FIN-A7"
+  ],
+  "registered_query": "complete weak-winner response of the printed two-candidate penalty evaluator",
+  "schema_version": "1.0.0",
+  "scope": "The two candidates and exact penalty equation printed for Korean place assimilation.",
+  "source_artifact": {
+    "filename": "walker2020gradientFeatureActivity.pdf",
+    "page_anchors": [4, 5, 6, 7, 8],
+    "sha256": "532b8702bb719efe3cc5ecaf8ab151832794cc1d0408493489ac5b6398d9d896"
+  },
+  "source_transcription": {
+    "path": "formal/source_transcriptions/walker2020_korean_place_activity.json",
+    "sha256": "e8b9bfc691f1b685e1c3276fb8677c624c0520548f7f7b8c68f5013d68992f0a",
+    "transcription_id": "SOURCE-WALKER-2020-KOREAN-PLACE-ACTIVITY"
+  },
+  "title_en": "Exact response boundary in Walker's Korean place-activity fragment",
+  "title_pt_BR": "Fronteira exata de resposta no fragmento de atividade de ponto de Walker",
+  "withdrawal_condition": "Withdraw or narrow the application if an authoritative version changes equation (5), its weights, the activity domain, or the intended scope of the order-only statement."
+}
+

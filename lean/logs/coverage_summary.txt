@@ -1,0 +1,9 @@
+Result coverage
+lean_closed	68
+
+Proof-goal coverage
+lean_closed	218
+
+Registry totals
+results	68
+proof_goals	218

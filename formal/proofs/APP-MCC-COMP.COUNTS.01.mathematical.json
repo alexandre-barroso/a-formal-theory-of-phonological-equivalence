@@ -1,0 +1,107 @@
+{
+  "assumptions_used": [
+    "APP-MCC-COMP.SOURCE.01"
+  ],
+  "claim": {
+    "algorithm": "quadratic_all_horizon_carrier_and_label_counts_v2",
+    "expected": {
+      "all_horizon_phase_carrier": {
+        "decode_encode_exact_for_every_natural_horizon": true,
+        "exists_first_zero_phase": true,
+        "optimizer_proof_for_every_natural_horizon": true,
+        "phase_carrier_cardinality": "K+1",
+        "profile_proof_for_every_natural_horizon": true
+      },
+      "registered_label_counts": [
+        16,
+        11,
+        46
+      ]
+    },
+    "inputs": {
+      "all_horizon_domain": {
+        "h": "positive_real",
+        "horizon": "natural_number",
+        "m": "positive_real"
+      },
+      "registered_label_cases": [
+        {
+          "h": "20",
+          "m": "3"
+        },
+        {
+          "h": "5",
+          "m": "1"
+        },
+        {
+          "h": "21",
+          "m": "1"
+        }
+      ]
+    },
+    "node": "exact_application_result",
+    "source": {
+      "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+      "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+      "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+    }
+  },
+  "claim_sha256": "ebd5e2d70d6b48a971a25be75da40a95b12c2dde211e5d43ee79f76ef6f9d79b",
+  "formal_statement_sha256": "f796d0bb669392ebfeca06ca2fd90c4974d048417fb9154e496855eece25d87e",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001"
+  ],
+  "payload": {
+    "algorithm": "quadratic_all_horizon_carrier_and_label_counts_v2",
+    "expected": {
+      "all_horizon_phase_carrier": {
+        "decode_encode_exact_for_every_natural_horizon": true,
+        "exists_first_zero_phase": true,
+        "optimizer_proof_for_every_natural_horizon": true,
+        "phase_carrier_cardinality": "K+1",
+        "profile_proof_for_every_natural_horizon": true
+      },
+      "registered_label_counts": [
+        16,
+        11,
+        46
+      ]
+    },
+    "inputs": {
+      "all_horizon_domain": {
+        "h": "positive_real",
+        "horizon": "natural_number",
+        "m": "positive_real"
+      },
+      "registered_label_cases": [
+        {
+          "h": "20",
+          "m": "3"
+        },
+        {
+          "h": "5",
+          "m": "1"
+        },
+        {
+          "h": "21",
+          "m": "1"
+        }
+      ]
+    },
+    "source": {
+      "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+      "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+      "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+    }
+  },
+  "proof_goal_id": "APP-MCC-COMP.COUNTS.01",
+  "proof_id": "APP-MCC-COMP.COUNTS.01.PROOF",
+  "proof_method": "ExactApplicationProof",
+  "result_dependencies": [
+    "CHG-B2",
+    "FIN-A7"
+  ],
+  "result_id": "APP-MCC-COMP",
+  "schema_version": "1.1.0"
+}

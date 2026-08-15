@@ -1,0 +1,313 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        [
+          {
+            "key_fields": [
+              "speaker_split",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "path": "data/source_ledgers/english_aggregate_source.tsv",
+            "required_fields": [
+              "speaker_split",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms",
+              "paired_speaker_support",
+              "q_order_result"
+            ],
+            "role": "english_aggregate",
+            "row_count": 300,
+            "sha256": "24cf794450a5369c16994af2321ea0312d8b1e05f7f84ef5232c7354485166b3"
+          },
+          {
+            "key_fields": [
+              "speaker_split",
+              "speaker_id",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "path": "data/source_ledgers/english_speaker_scenario_source.tsv",
+            "required_fields": [
+              "speaker_split",
+              "speaker_id",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "role": "english_speaker_scenarios",
+            "row_count": 14135,
+            "sha256": "f8d3f7806dbbbc26b78d3eb606a336ad102d3ccbd991aade39289a65daa81530"
+          }
+        ]
+      ],
+      "id": "DATA-EN-R1.SOURCE-IDENTITY",
+      "name": "builtin:source_manifest_matches",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "algorithm": "english_pooled_order_v1",
+    "expected": {
+      "above_strict_majority": 9,
+      "aggregate_rows": 300,
+      "illustrative_support": "29_vs_13",
+      "positive_median_cells": 4200,
+      "raw_surplus": 16,
+      "scenarios": 150,
+      "speaker_scenario_rows": 14135,
+      "splits": 2
+    },
+    "node": "exact_data_replay",
+    "sources": [
+      {
+        "key_fields": [
+          "speaker_split",
+          "tracker_id",
+          "start_offset_ms",
+          "end_offset_ms"
+        ],
+        "path": "data/source_ledgers/english_aggregate_source.tsv",
+        "required_fields": [
+          "speaker_split",
+          "tracker_id",
+          "start_offset_ms",
+          "end_offset_ms",
+          "paired_speaker_support",
+          "q_order_result"
+        ],
+        "role": "english_aggregate",
+        "row_count": 300,
+        "sha256": "24cf794450a5369c16994af2321ea0312d8b1e05f7f84ef5232c7354485166b3"
+      },
+      {
+        "key_fields": [
+          "speaker_split",
+          "speaker_id",
+          "tracker_id",
+          "start_offset_ms",
+          "end_offset_ms"
+        ],
+        "path": "data/source_ledgers/english_speaker_scenario_source.tsv",
+        "required_fields": [
+          "speaker_split",
+          "speaker_id",
+          "tracker_id",
+          "start_offset_ms",
+          "end_offset_ms"
+        ],
+        "role": "english_speaker_scenarios",
+        "row_count": 14135,
+        "sha256": "f8d3f7806dbbbc26b78d3eb606a336ad102d3ccbd991aade39289a65daa81530"
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "178b8c2683cf56d9184a8b586deafd89c26025475c0fd135311e956a75047fd6",
+      "id": "DATA-EN-R1.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "8e745b5aa44087fe508a98cb900cb5ede98d87800a23017547fa99395c5671f5"
+    },
+    {
+      "arguments": [
+        "english_pooled_order_v1",
+        [
+          {
+            "key_fields": [
+              "speaker_split",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "path": "data/source_ledgers/english_aggregate_source.tsv",
+            "required_fields": [
+              "speaker_split",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms",
+              "paired_speaker_support",
+              "q_order_result"
+            ],
+            "role": "english_aggregate",
+            "row_count": 300,
+            "sha256": "24cf794450a5369c16994af2321ea0312d8b1e05f7f84ef5232c7354485166b3"
+          },
+          {
+            "key_fields": [
+              "speaker_split",
+              "speaker_id",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "path": "data/source_ledgers/english_speaker_scenario_source.tsv",
+            "required_fields": [
+              "speaker_split",
+              "speaker_id",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "role": "english_speaker_scenarios",
+            "row_count": 14135,
+            "sha256": "f8d3f7806dbbbc26b78d3eb606a336ad102d3ccbd991aade39289a65daa81530"
+          }
+        ]
+      ],
+      "id": "DATA-EN-R1.REPLAY",
+      "name": "builtin:exact_data_replay",
+      "node": "function_application"
+    }
+  ],
+  "domains": [
+    {
+      "entries": [
+        {
+          "key_fields": [
+            "speaker_split",
+            "tracker_id",
+            "start_offset_ms",
+            "end_offset_ms"
+          ],
+          "path": "data/source_ledgers/english_aggregate_source.tsv",
+          "required_fields": [
+            "speaker_split",
+            "tracker_id",
+            "start_offset_ms",
+            "end_offset_ms",
+            "paired_speaker_support",
+            "q_order_result"
+          ],
+          "role": "english_aggregate",
+          "row_count": 300,
+          "sha256": "24cf794450a5369c16994af2321ea0312d8b1e05f7f84ef5232c7354485166b3"
+        },
+        {
+          "key_fields": [
+            "speaker_split",
+            "speaker_id",
+            "tracker_id",
+            "start_offset_ms",
+            "end_offset_ms"
+          ],
+          "path": "data/source_ledgers/english_speaker_scenario_source.tsv",
+          "required_fields": [
+            "speaker_split",
+            "speaker_id",
+            "tracker_id",
+            "start_offset_ms",
+            "end_offset_ms"
+          ],
+          "role": "english_speaker_scenarios",
+          "row_count": 14135,
+          "sha256": "f8d3f7806dbbbc26b78d3eb606a336ad102d3ccbd991aade39289a65daa81530"
+        }
+      ],
+      "id": "DATA-EN-R1.DOMAIN",
+      "node": "map"
+    }
+  ],
+  "english_statement_sha256": "178b8c2683cf56d9184a8b586deafd89c26025475c0fd135311e956a75047fd6",
+  "expected_proof_methods": [
+    "ExactDataReplayProof"
+  ],
+  "formal_statement_sha256": "693cb3378106af7ec5adecdb49fb4349281a9a5e776a28718b4cfe4c7852c59f",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001"
+  ],
+  "group": "DATA",
+  "kind": "data_demonstration",
+  "nonclaims": "Does not rerun waveforms or establish an all-accent English law.",
+  "portuguese_statement_sha256": "8e745b5aa44087fe508a98cb900cb5ede98d87800a23017547fa99395c5671f5",
+  "proof_goals": [
+    {
+      "claim": {
+        "algorithm": "english_pooled_order_v1",
+        "expected": {
+          "above_strict_majority": 9,
+          "aggregate_rows": 300,
+          "illustrative_support": "29_vs_13",
+          "positive_median_cells": 4200,
+          "raw_surplus": 16,
+          "scenarios": 150,
+          "speaker_scenario_rows": 14135,
+          "splits": 2
+        },
+        "node": "exact_data_replay",
+        "sources": [
+          {
+            "key_fields": [
+              "speaker_split",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "path": "data/source_ledgers/english_aggregate_source.tsv",
+            "required_fields": [
+              "speaker_split",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms",
+              "paired_speaker_support",
+              "q_order_result"
+            ],
+            "role": "english_aggregate",
+            "row_count": 300,
+            "sha256": "24cf794450a5369c16994af2321ea0312d8b1e05f7f84ef5232c7354485166b3"
+          },
+          {
+            "key_fields": [
+              "speaker_split",
+              "speaker_id",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "path": "data/source_ledgers/english_speaker_scenario_source.tsv",
+            "required_fields": [
+              "speaker_split",
+              "speaker_id",
+              "tracker_id",
+              "start_offset_ms",
+              "end_offset_ms"
+            ],
+            "role": "english_speaker_scenarios",
+            "row_count": 14135,
+            "sha256": "f8d3f7806dbbbc26b78d3eb606a336ad102d3ccbd991aade39289a65daa81530"
+          }
+        ]
+      },
+      "mandatory": true,
+      "proof_goal_id": "DATA-EN-R1.REPLAY.01",
+      "proof_methods": [
+        "ExactDataReplayProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact finite decision-ledger replay",
+  "result_dependencies": [
+    "FIN-A5"
+  ],
+  "result_id": "DATA-EN-R1",
+  "schema_version": "1.0.0",
+  "scope": "Pooled target-free acoustic order decision arithmetic.",
+  "sorts": [
+    "finite sequence",
+    "finite map",
+    "typed answer object"
+  ],
+  "source_transcription_dependencies": [
+    "data/source_ledgers/english_aggregate_source.tsv",
+    "data/source_ledgers/english_speaker_scenario_source.tsv"
+  ],
+  "title_en": "English pooled order ledger replay",
+  "title_pt_BR": "Reprodução do registro de ordem agregada em inglês",
+  "variables": [],
+  "withdrawal_condition": "Any lost definedness or reversed sign withdraws the pass. It does not establish metric equivalence, a phoneme, an all-accent population, or repair the failed fine reader."
+}

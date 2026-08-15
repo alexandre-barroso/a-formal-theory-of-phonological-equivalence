@@ -1,0 +1,570 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "0<=tau<1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B9.ASSUMPTION-MANIFEST",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "phase_equation": "B_K(tau)=(p*rho)^q",
+        "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+      }
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "K>=1",
+              "p>1",
+              "rho>0",
+              "0<=tau<1"
+            ],
+            "phase_equation": "B_K(tau)=(p*rho)^q",
+            "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+          }
+        },
+        "component": "normalized_mass",
+        "expected": true,
+        "inputs": {
+          "support": 4,
+          "tau": "1/3"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B9"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "K>=1",
+              "p>1",
+              "rho>0",
+              "0<=tau<1"
+            ],
+            "phase_equation": "B_K(tau)=(p*rho)^q",
+            "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+          }
+        },
+        "component": "powered_gaps",
+        "expected": [
+          "-1/10",
+          "-1/10",
+          "-1/10"
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B9"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "K>=1",
+              "p>1",
+              "rho>0",
+              "0<=tau<1"
+            ],
+            "phase_equation": "B_K(tau)=(p*rho)^q",
+            "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+          }
+        },
+        "component": "normalized_profile",
+        "expected": [
+          1,
+          "3/5",
+          "3/10",
+          "1/10",
+          0
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B9"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "K>=1",
+              "p>1",
+              "rho>0",
+              "0<=tau<1"
+            ],
+            "phase_equation": "B_K(tau)=(p*rho)^q",
+            "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "normalized_profile": "B_(K-i)(tau)/B_K(tau)",
+          "powered_gap_step": "-1/(p*rho)",
+          "profile_discretely_convex": true,
+          "scalar_dual_condition": true,
+          "unique_phase_parameter": true
+        },
+        "inputs": {
+          "domain": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "phase_equation": "B_K(tau)=(p*rho)^q",
+          "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B9"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "828e5a36b4c8f12da204ec6cf0ebd55b39fc80083060b47580b9a4f5707c5039",
+      "id": "CHG-B9.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "e02efc7542c0e3079b7c18e44e60885c325f7372d83e141137170844fe0c86de"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "phase_equation": "B_K(tau)=(p*rho)^q",
+          "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+        }
+      },
+      "component": "normalized_mass",
+      "expected": true,
+      "id": "CHG-B9.CLAIM.01",
+      "inputs": {
+        "support": 4,
+        "tau": "1/3"
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B9"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "phase_equation": "B_K(tau)=(p*rho)^q",
+          "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+        }
+      },
+      "component": "powered_gaps",
+      "expected": [
+        "-1/10",
+        "-1/10",
+        "-1/10"
+      ],
+      "id": "CHG-B9.CLAIM.02",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B9"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "phase_equation": "B_K(tau)=(p*rho)^q",
+          "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+        }
+      },
+      "component": "normalized_profile",
+      "expected": [
+        1,
+        "3/5",
+        "3/10",
+        "1/10",
+        0
+      ],
+      "id": "CHG-B9.CLAIM.03",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B9"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "phase_equation": "B_K(tau)=(p*rho)^q",
+          "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+        }
+      },
+      "component": "universal_result",
+      "expected": {
+        "normalized_profile": "B_(K-i)(tau)/B_K(tau)",
+        "powered_gap_step": "-1/(p*rho)",
+        "profile_discretely_convex": true,
+        "scalar_dual_condition": true,
+        "unique_phase_parameter": true
+      },
+      "id": "CHG-B9.CLAIM.04",
+      "inputs": {
+        "domain": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "phase_equation": "B_K(tau)=(p*rho)^q",
+        "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B9"
+    }
+  ],
+  "domains": [
+    {
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B9.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "CHG-B9",
+      "variables": [
+        {
+          "name": "K",
+          "node": "variable"
+        },
+        {
+          "name": "rho",
+          "node": "variable"
+        },
+        {
+          "name": "p",
+          "node": "variable"
+        },
+        {
+          "name": "tau",
+          "node": "variable"
+        }
+      ]
+    }
+  ],
+  "english_statement_sha256": "828e5a36b4c8f12da204ec6cf0ebd55b39fc80083060b47580b9a4f5707c5039",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "2769fde9cc1611d9012420a3fb879f727123909502ad7bfc8c7e941d7ac108a4",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "group": "CHG",
+  "kind": "result",
+  "nonclaims": "The profile is grammar-internal and not a token probability or acoustic curve.",
+  "portuguese_statement_sha256": "e02efc7542c0e3079b7c18e44e60885c325f7372d83e141137170844fe0c86de",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "K>=1",
+              "p>1",
+              "rho>0",
+              "0<=tau<1"
+            ],
+            "phase_equation": "B_K(tau)=(p*rho)^q",
+            "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+          }
+        },
+        "component": "normalized_mass",
+        "expected": true,
+        "inputs": {
+          "support": 4,
+          "tau": "1/3"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B9"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B9.NORMALIZE.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "K>=1",
+              "p>1",
+              "rho>0",
+              "0<=tau<1"
+            ],
+            "phase_equation": "B_K(tau)=(p*rho)^q",
+            "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+          }
+        },
+        "component": "powered_gaps",
+        "expected": [
+          "-1/10",
+          "-1/10",
+          "-1/10"
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B9"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B9.GAPS.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "K>=1",
+              "p>1",
+              "rho>0",
+              "0<=tau<1"
+            ],
+            "phase_equation": "B_K(tau)=(p*rho)^q",
+            "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+          }
+        },
+        "component": "normalized_profile",
+        "expected": [
+          1,
+          "3/5",
+          "3/10",
+          "1/10",
+          0
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B9"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B9.PROFILE.03",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "K>=1",
+              "p>1",
+              "rho>0",
+              "0<=tau<1"
+            ],
+            "phase_equation": "B_K(tau)=(p*rho)^q",
+            "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "normalized_profile": "B_(K-i)(tau)/B_K(tau)",
+          "powered_gap_step": "-1/(p*rho)",
+          "profile_discretely_convex": true,
+          "scalar_dual_condition": true,
+          "unique_phase_parameter": true
+        },
+        "inputs": {
+          "domain": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "phase_equation": "B_K(tau)=(p*rho)^q",
+          "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B9"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B9.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "K",
+        "rho",
+        "p",
+        "tau"
+      ]
+    }
+  ],
+  "registered_query_type": "exact directional_positive_part_power_hg result consequence",
+  "result_dependencies": [
+    "CHG-B2"
+  ],
+  "result_id": "CHG-B9",
+  "schema_version": "1.0.0",
+  "scope": "Active set of the declared directional family.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "nonnegative real",
+    "positive real",
+    "real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Normalized phase profile and powered-gap linearity",
+  "title_pt_BR": "Perfil de fase normalizado e linearidade da potência das diferenças",
+  "variables": [
+    {
+      "name": "K",
+      "sort": "natural number"
+    },
+    {
+      "name": "rho",
+      "sort": "positive real"
+    },
+    {
+      "name": "p",
+      "sort": "real"
+    },
+    {
+      "name": "tau",
+      "sort": "real"
+    }
+  ],
+  "withdrawal_condition": "Refuse an empirical use without a calibrated grammar-to-realization reader. Withdraw family membership if any admitted active pair violates the common law or indexing/normalization fails."
+}

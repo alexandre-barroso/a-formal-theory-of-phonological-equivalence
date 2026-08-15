@@ -1,0 +1,512 @@
+{
+  "assumptions_used": [
+    "MAX-G1.DOMAIN"
+  ],
+  "claim": {
+    "bindings": [
+      {
+        "sort": "SparseLaurentPolynomial",
+        "variable": "L"
+      }
+    ],
+    "body": {
+      "antecedent": {
+        "arguments": [
+          {
+            "name": "L",
+            "node": "variable"
+          }
+        ],
+        "name": "canonical_finite_rational_laurent_polynomial",
+        "node": "predicate_application"
+      },
+      "consequent": {
+        "bindings": [
+          {
+            "sort": "vector",
+            "variable": "s"
+          },
+          {
+            "sort": "positive real",
+            "variable": "d"
+          },
+          {
+            "sort": "SparsePolynomial",
+            "variable": "P"
+          }
+        ],
+        "body": {
+          "arguments": [
+            {
+              "left": {
+                "name": "s",
+                "node": "variable"
+              },
+              "node": "equal",
+              "right": {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  }
+                ],
+                "name": "componentwise_minimal_exponent_clearing",
+                "node": "function_application"
+              }
+            },
+            {
+              "left": {
+                "name": "d",
+                "node": "variable"
+              },
+              "node": "equal",
+              "right": {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  }
+                ],
+                "name": "positive_coefficient_denominator_lcm",
+                "node": "function_application"
+              }
+            },
+            {
+              "left": {
+                "name": "P",
+                "node": "variable"
+              },
+              "node": "equal",
+              "right": {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "s",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "d",
+                    "node": "variable"
+                  }
+                ],
+                "name": "clear_laurent",
+                "node": "function_application"
+              }
+            },
+            {
+              "arguments": [
+                {
+                  "name": "P",
+                  "node": "variable"
+                }
+              ],
+              "name": "canonical_finite_integer_polynomial",
+              "node": "predicate_application"
+            },
+            {
+              "bindings": [
+                {
+                  "sort": "vector",
+                  "variable": "z"
+                }
+              ],
+              "body": {
+                "antecedent": {
+                  "arguments": [
+                    {
+                      "name": "z",
+                      "node": "variable"
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "L",
+                              "node": "variable"
+                            },
+                            "dimension"
+                          ],
+                          "name": "field",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "physical_activity_cube",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "builtin:member",
+                  "node": "predicate_application"
+                },
+                "consequent": {
+                  "left": {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "L",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "z",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "evaluate_sparse_polynomial",
+                      "node": "function_application"
+                    },
+                    "node": "greater_equal",
+                    "right": {
+                      "denominator": 1,
+                      "node": "rational",
+                      "numerator": 0
+                    }
+                  },
+                  "node": "iff",
+                  "right": {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "P",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "z",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "evaluate_sparse_polynomial",
+                      "node": "function_application"
+                    },
+                    "node": "greater_equal",
+                    "right": {
+                      "denominator": 1,
+                      "node": "rational",
+                      "numerator": 0
+                    }
+                  }
+                },
+                "node": "implies"
+              },
+              "node": "forall"
+            }
+          ],
+          "node": "and"
+        },
+        "node": "exists"
+      },
+      "node": "implies"
+    },
+    "node": "forall"
+  },
+  "claim_sha256": "6616be4c7f0a402370dd7775d16bb9e9076d80e56babd159c052b303c0751c38",
+  "formal_statement_sha256": "6e68d3a33b0c8bd7c4ab73a6eb26ae595ff44642a089a5bf28153242d0293bc0",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-POLYNOMIAL-001",
+    "FOUND-EXP-ACTIVITY-BIJECTION-001"
+  ],
+  "payload": {
+    "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+    "checker_module_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+    "claim_sha256": "6616be4c7f0a402370dd7775d16bb9e9076d80e56babd159c052b303c0751c38",
+    "closure_proof": {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "SparseLaurentPolynomial",
+            "variable": "L"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "name": "L",
+                "node": "variable"
+              }
+            ],
+            "name": "canonical_finite_rational_laurent_polynomial",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "bindings": [
+              {
+                "sort": "vector",
+                "variable": "s"
+              },
+              {
+                "sort": "positive real",
+                "variable": "d"
+              },
+              {
+                "sort": "SparsePolynomial",
+                "variable": "P"
+              }
+            ],
+            "body": {
+              "arguments": [
+                {
+                  "left": {
+                    "name": "s",
+                    "node": "variable"
+                  },
+                  "node": "equal",
+                  "right": {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "componentwise_minimal_exponent_clearing",
+                    "node": "function_application"
+                  }
+                },
+                {
+                  "left": {
+                    "name": "d",
+                    "node": "variable"
+                  },
+                  "node": "equal",
+                  "right": {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "positive_coefficient_denominator_lcm",
+                    "node": "function_application"
+                  }
+                },
+                {
+                  "left": {
+                    "name": "P",
+                    "node": "variable"
+                  },
+                  "node": "equal",
+                  "right": {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "s",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "d",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "clear_laurent",
+                    "node": "function_application"
+                  }
+                },
+                {
+                  "arguments": [
+                    {
+                      "name": "P",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "canonical_finite_integer_polynomial",
+                  "node": "predicate_application"
+                },
+                {
+                  "bindings": [
+                    {
+                      "sort": "vector",
+                      "variable": "z"
+                    }
+                  ],
+                  "body": {
+                    "antecedent": {
+                      "arguments": [
+                        {
+                          "name": "z",
+                          "node": "variable"
+                        },
+                        {
+                          "arguments": [
+                            {
+                              "arguments": [
+                                {
+                                  "name": "L",
+                                  "node": "variable"
+                                },
+                                "dimension"
+                              ],
+                              "name": "field",
+                              "node": "function_application"
+                            }
+                          ],
+                          "name": "physical_activity_cube",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "builtin:member",
+                      "node": "predicate_application"
+                    },
+                    "consequent": {
+                      "left": {
+                        "left": {
+                          "arguments": [
+                            {
+                              "name": "L",
+                              "node": "variable"
+                            },
+                            {
+                              "name": "z",
+                              "node": "variable"
+                            }
+                          ],
+                          "name": "evaluate_sparse_polynomial",
+                          "node": "function_application"
+                        },
+                        "node": "greater_equal",
+                        "right": {
+                          "denominator": 1,
+                          "node": "rational",
+                          "numerator": 0
+                        }
+                      },
+                      "node": "iff",
+                      "right": {
+                        "left": {
+                          "arguments": [
+                            {
+                              "name": "P",
+                              "node": "variable"
+                            },
+                            {
+                              "name": "z",
+                              "node": "variable"
+                            }
+                          ],
+                          "name": "evaluate_sparse_polynomial",
+                          "node": "function_application"
+                        },
+                        "node": "greater_equal",
+                        "right": {
+                          "denominator": 1,
+                          "node": "rational",
+                          "numerator": 0
+                        }
+                      }
+                    },
+                    "node": "implies"
+                  },
+                  "node": "forall"
+                }
+              ],
+              "node": "and"
+            },
+            "node": "exists"
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "claim_sha256": "6616be4c7f0a402370dd7775d16bb9e9076d80e56babd159c052b303c0751c38",
+      "formal_statement_sha256": "7655731a2d21bb34241ec67d6bb4850affd60d00f5e3f8c8b72e0af629a70dba",
+      "payload": {
+        "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+        "checker_module_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+        "claim_sha256": "6616be4c7f0a402370dd7775d16bb9e9076d80e56babd159c052b303c0751c38",
+        "closure_record": {
+          "claim_sha256": "6616be4c7f0a402370dd7775d16bb9e9076d80e56babd159c052b303c0751c38",
+          "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+          "definition_dependencies": [
+            "MAXENT-SHARED-1"
+          ],
+          "formal_statement_sha256": "7655731a2d21bb34241ec67d6bb4850affd60d00f5e3f8c8b72e0af629a70dba",
+          "foundation_dependencies": [
+            "FOUND-REAL-001",
+            "FOUND-POLYNOMIAL-001",
+            "FOUND-EXP-ACTIVITY-BIJECTION-001"
+          ],
+          "mutant_ids": [
+            "MAX-G1.CLEAR.MUTANT.NONMINIMAL_SHIFT",
+            "MAX-G1.CLEAR.MUTANT.NONPOSITIVE_LCM",
+            "MAX-G1.CLEAR.MUTANT.UNCLEARED_NEGATIVE_EXPONENT"
+          ],
+          "proof_goal_dependencies": [],
+          "proof_goal_id": "MAX-G1.CLEAR.02",
+          "proof_methods": [
+            "LaurentClearingProof",
+            "PolynomialIdentityProof"
+          ],
+          "proof_schema": "minimal_laurent_integer_clearing_v1",
+          "proof_steps": [
+            "collect_the_finite_rational_laurent_support",
+            "take_each_coordinate_negative_minimum_or_zero",
+            "prove_shifted_exponents_are_nonnegative_and_shift_is_minimal",
+            "take_the_positive_lcm_of_coefficient_denominators",
+            "recompute_the_integer_coefficient_map",
+            "use_strict_positivity_of_d_times_z_to_the_shift"
+          ],
+          "result_dependencies": [],
+          "result_id": "MAX-G1",
+          "schema_payload": {
+            "coefficient_target": "integers",
+            "multiplier_sign_domain": "strictly positive on (0,1]^k",
+            "zero_polynomial_denominator_lcm": 1,
+            "zero_polynomial_shift": "zero vector"
+          },
+          "source_transcription_dependencies": []
+        },
+        "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+        "proof": "formal/proofs/maxent/semantic/closures/MAX-G1-G5.semantic-proof.json",
+        "proof_goal_id": "MAX-G1.CLEAR.02",
+        "proof_sha256": "87252dd8f550aa6909accd1f7cc40978786a3050cf8dda816c81f3eb1bd8726e",
+        "semantic_kernel_version": "maxent-semantic-g1-g5-1.0.0",
+        "verification": {
+          "claim_sha256": "6616be4c7f0a402370dd7775d16bb9e9076d80e56babd159c052b303c0751c38",
+          "closure_kind": "UNIVERSAL_PROOF_SCHEMA_RELATIVE_TO_EXACT_FOUNDATIONS",
+          "evidence": {
+            "denominator_lcm": 12,
+            "integer_terms": 2,
+            "minimal_shift": [
+              2,
+              1
+            ]
+          },
+          "foundation_statement_sha256": {
+            "FOUND-EXP-ACTIVITY-BIJECTION-001": "3aff16b4670ea8d3ee6b9f547686e0ae5eeabcfffc474f8ae57c652b02338502",
+            "FOUND-POLYNOMIAL-001": "c017a0589acfbe5ffac8e1d4001773b32254c7d569e7faedb3980c17b15ffb86",
+            "FOUND-REAL-001": "e6438e754fe5803277d6687707d8be61815ee990e48e0f631525243ef5d609f3"
+          },
+          "mutant_count": 3,
+          "proof_goal_id": "MAX-G1.CLEAR.02",
+          "proof_schema": "minimal_laurent_integer_clearing_v1",
+          "proof_step_count": 6,
+          "result_id": "MAX-G1",
+          "status": "PASS"
+        },
+        "verification_sha256": "62aa25ce7a4ec1170e26861540afd4f91f8467b762fffcbefe6b41554ac28039"
+      },
+      "proof_goal_id": "MAX-G1.CLEAR.02",
+      "proof_id": "MAX-G1.CLEAR.02.MAXENT-SEMANTIC-CLOSURE.PROOF",
+      "proof_method": "MaxEntSemanticClosureProof",
+      "result_id": "MAX-G1",
+      "schema_version": "1.0.0"
+    },
+    "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+    "proof_goal_id": "MAX-G1.CLEAR.02",
+    "proof_method": "MaxEntSemanticClosureProof",
+    "replayed_universal": true,
+    "semantic_kernel_version": "maxent-semantics-1.0.0",
+    "supports_whole_result_closure": true
+  },
+  "proof_goal_id": "MAX-G1.CLEAR.02",
+  "proof_id": "MAX-G1.CLEAR.02.MAXENT-SEMANTIC-CLOSURE.PROOF",
+  "proof_method": "MaxEntSemanticClosureProof",
+  "result_dependencies": [],
+  "result_id": "MAX-G1",
+  "schema_version": "1.1.0"
+}

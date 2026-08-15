@@ -1,0 +1,488 @@
+{
+  "assumptions_used": [
+    "MAX-G4.DOMAIN"
+  ],
+  "claim": {
+    "arguments": [
+      {
+        "bindings": [
+          {
+            "sort": "MaxEntLedger",
+            "variable": "L"
+          },
+          {
+            "sort": "typed answer object",
+            "variable": "a"
+          },
+          {
+            "sort": "typed answer object",
+            "variable": "b"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  }
+                ],
+                "name": "wf_maxent_ledger",
+                "node": "function_application"
+              },
+              {
+                "arguments": [
+                  {
+                    "name": "L",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "a",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "b",
+                    "node": "variable"
+                  }
+                ],
+                "name": "same_input_candidates_equal_mass",
+                "node": "predicate_application"
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "L",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "a",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "b",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "all_weight_same_input_probability_equal",
+                  "node": "function_application"
+                },
+                "node": "iff",
+                "right": {
+                  "left": {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "a",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "violation_row",
+                    "node": "function_application"
+                  },
+                  "node": "equal",
+                  "right": {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "b",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "violation_row",
+                    "node": "function_application"
+                  }
+                }
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "L",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "a",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "b",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "all_weight_same_input_probability_order",
+                  "node": "function_application"
+                },
+                "node": "iff",
+                "right": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "name": "L",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "a",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "violation_row",
+                      "node": "function_application"
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "name": "L",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "b",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "violation_row",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "coordinatewise_greater_equal",
+                  "node": "predicate_application"
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      {
+        "arguments": [],
+        "name": "exact_registered_cross_input_reversal_witness",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "claim_sha256": "96bd132090f47adaec32120f1c632c5752155ec01f76e6eafa3fd83c01d09fc8",
+  "formal_statement_sha256": "919ef83f74c653cb7c99eebb61c88365b6ec3f7b2741bb6ad91cb1d76b565ffe",
+  "foundation_dependencies": [
+    "FOUND-EXPONENTIAL-INDEPENDENCE-001"
+  ],
+  "payload": {
+    "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+    "checker_module_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+    "claim_sha256": "96bd132090f47adaec32120f1c632c5752155ec01f76e6eafa3fd83c01d09fc8",
+    "closure_proof": {
+      "claim": {
+        "arguments": [
+          {
+            "bindings": [
+              {
+                "sort": "MaxEntLedger",
+                "variable": "L"
+              },
+              {
+                "sort": "typed answer object",
+                "variable": "a"
+              },
+              {
+                "sort": "typed answer object",
+                "variable": "b"
+              }
+            ],
+            "body": {
+              "antecedent": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "wf_maxent_ledger",
+                    "node": "function_application"
+                  },
+                  {
+                    "arguments": [
+                      {
+                        "name": "L",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "a",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "b",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "same_input_candidates_equal_mass",
+                    "node": "predicate_application"
+                  }
+                ],
+                "node": "and"
+              },
+              "consequent": {
+                "arguments": [
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "L",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "a",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "b",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "all_weight_same_input_probability_equal",
+                      "node": "function_application"
+                    },
+                    "node": "iff",
+                    "right": {
+                      "left": {
+                        "arguments": [
+                          {
+                            "name": "L",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "a",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "violation_row",
+                        "node": "function_application"
+                      },
+                      "node": "equal",
+                      "right": {
+                        "arguments": [
+                          {
+                            "name": "L",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "b",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "violation_row",
+                        "node": "function_application"
+                      }
+                    }
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "L",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "a",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "b",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "all_weight_same_input_probability_order",
+                      "node": "function_application"
+                    },
+                    "node": "iff",
+                    "right": {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "L",
+                              "node": "variable"
+                            },
+                            {
+                              "name": "a",
+                              "node": "variable"
+                            }
+                          ],
+                          "name": "violation_row",
+                          "node": "function_application"
+                        },
+                        {
+                          "arguments": [
+                            {
+                              "name": "L",
+                              "node": "variable"
+                            },
+                            {
+                              "name": "b",
+                              "node": "variable"
+                            }
+                          ],
+                          "name": "violation_row",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "coordinatewise_greater_equal",
+                      "node": "predicate_application"
+                    }
+                  }
+                ],
+                "node": "and"
+              },
+              "node": "implies"
+            },
+            "node": "forall"
+          },
+          {
+            "arguments": [],
+            "name": "exact_registered_cross_input_reversal_witness",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "claim_sha256": "96bd132090f47adaec32120f1c632c5752155ec01f76e6eafa3fd83c01d09fc8",
+      "formal_statement_sha256": "db8a6d3828b065eba3985c70ab283ecb35c576b4ff82494a520cc69a644433b8",
+      "payload": {
+        "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+        "checker_module_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+        "claim_sha256": "96bd132090f47adaec32120f1c632c5752155ec01f76e6eafa3fd83c01d09fc8",
+        "closure_record": {
+          "claim_sha256": "96bd132090f47adaec32120f1c632c5752155ec01f76e6eafa3fd83c01d09fc8",
+          "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+          "definition_dependencies": [
+            "MAXENT-SHARED-1"
+          ],
+          "formal_statement_sha256": "db8a6d3828b065eba3985c70ab283ecb35c576b4ff82494a520cc69a644433b8",
+          "foundation_dependencies": [
+            "FOUND-EXPONENTIAL-INDEPENDENCE-001"
+          ],
+          "mutant_ids": [
+            "MAX-G4.REVERSAL.MUTANT.ALLOW_UNEQUAL_MASS",
+            "MAX-G4.REVERSAL.MUTANT.USE_PROPER_WEIGHT_CONE",
+            "MAX-G4.REVERSAL.MUTANT.FLIP_ONE_QUARTER_ORDER"
+          ],
+          "proof_goal_dependencies": [
+            "MAX-G1.CARRIER.01"
+          ],
+          "proof_goal_id": "MAX-G4.REVERSAL.01",
+          "proof_methods": [
+            "FirstOrderProof",
+            "CounterexampleProof"
+          ],
+          "proof_schema": "same_input_cancellation_and_cross_input_reversal_v1",
+          "proof_steps": [
+            "require_equal_named_masses_and_the_full_nonnegative_orthant",
+            "cancel_the_common_same_input_partition_function",
+            "derive_all_weight_equality_iff_row_identity",
+            "derive_all_weight_weak_order_iff_coordinatewise_domination",
+            "use_a_unit_coordinate_weight_to_refute_each_negative_coordinate",
+            "replay_the_registered_two_z_cubed_versus_z_squared_cross_input_witness"
+          ],
+          "result_dependencies": [
+            "MAX-G1",
+            "MAX-G3"
+          ],
+          "result_id": "MAX-G4",
+          "schema_payload": {
+            "cross_input_left_rows": [
+              3,
+              3
+            ],
+            "cross_input_right_rows": [
+              2
+            ],
+            "registered_activities": [
+              "3/4",
+              "1/2",
+              "1/4"
+            ],
+            "same_input_mass_contract": "equal named masses",
+            "same_input_weight_domain": "full nonnegative orthant"
+          },
+          "source_transcription_dependencies": []
+        },
+        "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+        "proof": "formal/proofs/maxent/semantic/closures/MAX-G1-G5.semantic-proof.json",
+        "proof_goal_id": "MAX-G4.REVERSAL.01",
+        "proof_sha256": "87252dd8f550aa6909accd1f7cc40978786a3050cf8dda816c81f3eb1bd8726e",
+        "semantic_kernel_version": "maxent-semantic-g1-g5-1.0.0",
+        "verification": {
+          "claim_sha256": "96bd132090f47adaec32120f1c632c5752155ec01f76e6eafa3fd83c01d09fc8",
+          "closure_kind": "UNIVERSAL_PROOF_SCHEMA_RELATIVE_TO_EXACT_FOUNDATIONS",
+          "evidence": {
+            "probability_table": [
+              {
+                "activity": "3/4",
+                "left_probability": "32/59",
+                "right_probability": "16/25"
+              },
+              {
+                "activity": "1/2",
+                "left_probability": "4/5",
+                "right_probability": "4/5"
+              },
+              {
+                "activity": "1/4",
+                "left_probability": "32/33",
+                "right_probability": "16/17"
+              }
+            ],
+            "same_input_unit_coordinate_converse": true
+          },
+          "foundation_statement_sha256": {
+            "FOUND-EXPONENTIAL-INDEPENDENCE-001": "74b164700ab1d1498eaad8fe19c2efecfee2144ac4ea3e9433276ab89badb111"
+          },
+          "mutant_count": 3,
+          "proof_goal_id": "MAX-G4.REVERSAL.01",
+          "proof_schema": "same_input_cancellation_and_cross_input_reversal_v1",
+          "proof_step_count": 6,
+          "result_id": "MAX-G4",
+          "status": "PASS"
+        },
+        "verification_sha256": "8b6b676419f2a6a6a844746fa5909f2780c02deb13cad33af94e3b648ae0d7a9"
+      },
+      "proof_goal_id": "MAX-G4.REVERSAL.01",
+      "proof_id": "MAX-G4.REVERSAL.01.MAXENT-SEMANTIC-CLOSURE.PROOF",
+      "proof_method": "MaxEntSemanticClosureProof",
+      "result_id": "MAX-G4",
+      "schema_version": "1.0.0"
+    },
+    "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+    "proof_goal_id": "MAX-G4.REVERSAL.01",
+    "proof_method": "MaxEntSemanticClosureProof",
+    "replayed_universal": true,
+    "semantic_kernel_version": "maxent-semantics-1.0.0",
+    "supports_whole_result_closure": true
+  },
+  "proof_goal_id": "MAX-G4.REVERSAL.01",
+  "proof_id": "MAX-G4.REVERSAL.01.MAXENT-SEMANTIC-CLOSURE.PROOF",
+  "proof_method": "MaxEntSemanticClosureProof",
+  "result_dependencies": [
+    "MAX-G1",
+    "MAX-G3"
+  ],
+  "result_id": "MAX-G4",
+  "schema_version": "1.1.0"
+}

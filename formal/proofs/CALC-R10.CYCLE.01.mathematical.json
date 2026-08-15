@@ -1,0 +1,159 @@
+{
+  "assumptions_used": [
+    "CALC-R10.EXACT-FINITE-MODEL"
+  ],
+  "claim": {
+    "left": {
+      "node": "list",
+      "values": [
+        {
+          "edges": {
+            "node": "list",
+            "values": [
+              [
+                "s",
+                "a",
+                "s"
+              ],
+              [
+                "s",
+                "b",
+                "z"
+              ]
+            ]
+          },
+          "node": "graph_has_reachable_cycle",
+          "starts": {
+            "node": "list",
+            "values": [
+              "s"
+            ]
+          },
+          "stops": {
+            "node": "list",
+            "values": [
+              "z"
+            ]
+          }
+        },
+        {
+          "edges": {
+            "node": "list",
+            "values": [
+              [
+                "s",
+                "b",
+                "z"
+              ]
+            ]
+          },
+          "node": "graph_has_reachable_cycle",
+          "starts": {
+            "node": "list",
+            "values": [
+              "s"
+            ]
+          },
+          "stops": {
+            "node": "list",
+            "values": [
+              "z"
+            ]
+          }
+        },
+        0
+      ]
+    },
+    "node": "equal",
+    "right": {
+      "node": "list",
+      "values": [
+        true,
+        false,
+        0
+      ]
+    }
+  },
+  "claim_sha256": "93ea2ab816de8e0fc4494097c66e896d6cea9db9be4350b2cc751de5e4abfb29",
+  "formal_statement_sha256": "244e9b9fa58bd321ca67eea82759c70ea43929145ab3a84df757e2c477704d80",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001"
+  ],
+  "payload": {
+    "expected": {
+      "node": "list",
+      "values": [
+        true,
+        false,
+        0
+      ]
+    },
+    "expression": {
+      "node": "list",
+      "values": [
+        {
+          "edges": {
+            "node": "list",
+            "values": [
+              [
+                "s",
+                "a",
+                "s"
+              ],
+              [
+                "s",
+                "b",
+                "z"
+              ]
+            ]
+          },
+          "node": "graph_has_reachable_cycle",
+          "starts": {
+            "node": "list",
+            "values": [
+              "s"
+            ]
+          },
+          "stops": {
+            "node": "list",
+            "values": [
+              "z"
+            ]
+          }
+        },
+        {
+          "edges": {
+            "node": "list",
+            "values": [
+              [
+                "s",
+                "b",
+                "z"
+              ]
+            ]
+          },
+          "node": "graph_has_reachable_cycle",
+          "starts": {
+            "node": "list",
+            "values": [
+              "s"
+            ]
+          },
+          "stops": {
+            "node": "list",
+            "values": [
+              "z"
+            ]
+          }
+        },
+        0
+      ]
+    }
+  },
+  "proof_goal_id": "CALC-R10.CYCLE.01",
+  "proof_id": "CALC-R10.CYCLE.01.PROOF",
+  "proof_method": "ExactFiniteComputationProof",
+  "result_dependencies": [],
+  "result_id": "CALC-R10",
+  "schema_version": "1.1.0"
+}

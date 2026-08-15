@@ -1,0 +1,118 @@
+{
+  "assumptions_used": [
+    "FLUX-D4.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "positive_gauge_period",
+        "p>1",
+        "positive_contact_coefficient",
+        "finite_positive_odd_contact_order",
+        "eventually_positive_response_scale",
+        "response_scale_tends_to_zero",
+        "normalized_remainder_tends_to_zero",
+        "signed_analytic_extension"
+      ],
+      "node": "flux_assumptions"
+    },
+    "component": "lambert_normal_form",
+    "expected": {
+      "coefficient_limit": "C",
+      "identity": "C*t^Gamma/(-log(t))=epsilon",
+      "log_slope_limit": "1/Gamma",
+      "t": "(epsilon*W(Gamma*C/epsilon)/(Gamma*C))^(1/Gamma)"
+    },
+    "node": "flux_result",
+    "result_id": "FLUX-D4"
+  },
+  "claim_sha256": "fc7e5ba7a4e6a50a43a967a7a27194bfa0fe08e76d1ddcb5ae7be45b97c74b6b",
+  "formal_statement_sha256": "7db91f47ec9a567e47e57cf474ace7b1aa2a1d73463c7092545a017e1ae67829",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-ANALYTIC-001",
+    "FOUND-LIMIT-001",
+    "FOUND-LINEAR-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "positive_gauge_period",
+        "p>1",
+        "positive_contact_coefficient",
+        "finite_positive_odd_contact_order",
+        "eventually_positive_response_scale",
+        "response_scale_tends_to_zero",
+        "normalized_remainder_tends_to_zero",
+        "signed_analytic_extension"
+      ],
+      "node": "flux_assumptions"
+    },
+    "assumption_model": {
+      "contact_coefficient": 1,
+      "contact_order": 1,
+      "epsilon": "1/100",
+      "p": 2
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "positive_gauge_period",
+          "p>1",
+          "positive_contact_coefficient",
+          "finite_positive_odd_contact_order",
+          "eventually_positive_response_scale",
+          "response_scale_tends_to_zero",
+          "normalized_remainder_tends_to_zero",
+          "signed_analytic_extension"
+        ],
+        "node": "flux_assumptions"
+      },
+      "component": "lambert_normal_form",
+      "expected": {
+        "coefficient_limit": "C",
+        "identity": "C*t^Gamma/(-log(t))=epsilon",
+        "log_slope_limit": "1/Gamma",
+        "t": "(epsilon*W(Gamma*C/epsilon)/(Gamma*C))^(1/Gamma)"
+      },
+      "node": "flux_result",
+      "result_id": "FLUX-D4"
+    },
+    "derivation": {
+      "component": "lambert_normal_form",
+      "defining_rule": "W(z)*exp(W(z))=z",
+      "domain": [
+        "epsilon>0",
+        "Gamma>0",
+        "C>0",
+        "Gamma*C/epsilon>1"
+      ],
+      "result_id": "FLUX-D4"
+    },
+    "mutant_ids": [
+      "FLUX-D4.MUTANT.CONCLUSION",
+      "FLUX-D4.MUTANT.ASSUMPTION",
+      "FLUX-D4.MUTANT.COMPONENT"
+    ],
+    "observed": {
+      "coefficient_limit": "C",
+      "identity": "C*t^Gamma/(-log(t))=epsilon",
+      "log_slope_limit": "1/Gamma",
+      "t": "(epsilon*W(Gamma*C/epsilon)/(Gamma*C))^(1/Gamma)"
+    },
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "FLUX-D4.NORMALFORM.03",
+  "proof_id": "FLUX-D4.NORMALFORM.03.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "FLUX-D1"
+  ],
+  "result_id": "FLUX-D4",
+  "schema_version": "1.1.0"
+}

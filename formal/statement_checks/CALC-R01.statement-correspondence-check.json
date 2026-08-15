@@ -1,0 +1,17 @@
+{
+  "check_id": "CALC-R01.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "1edd33e91dfb348e41d9dcc6da448f7c2af572fbb6cba0e9d24922e27a6d66cd",
+  "payload": {
+    "en_statement_file_sha256": "43ddcb1f062f4338292eaccf439215dc2fe924ade07f4220fc985e90a6d2abe7",
+    "en_statement_marker": "formal/specs/CALC-R01.json",
+    "en_statement_path": "proofs/en/results/CALC-R01.tex",
+    "en_statement_sha256": "9667f773537888656346615cc1b6de283e9958fc6d804a823ebd96cfcefcce53",
+    "pt_BR_statement_file_sha256": "e058b90476f1a1fd1e33caec44183dc1033ba0442d40f2337a03572f6862d6c2",
+    "pt_BR_statement_marker": "formal/specs/CALC-R01.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/CALC-R01.tex",
+    "pt_BR_statement_sha256": "6df389f8624bf6a7c2bf90238896607e0c2b23638ac3542051db1ad6dfc5898c"
+  },
+  "result_id": "CALC-R01",
+  "schema_version": "1.0.0"
+}

@@ -1,0 +1,917 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "name": "raw_source",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A2.A1",
+      "name": "builtin:duplicate_free_finite_set",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "raw_target",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A2.A2",
+      "name": "builtin:duplicate_free_finite_set",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "weakening",
+          "node": "variable"
+        },
+        {
+          "name": "raw_source",
+          "node": "variable"
+        },
+        {
+          "name": "raw_target",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A2.A3",
+      "name": "builtin:total_map",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "source_policy",
+          "node": "variable"
+        },
+        {
+          "name": "target_policy",
+          "node": "variable"
+        },
+        {
+          "name": "raw_source",
+          "node": "variable"
+        },
+        {
+          "name": "raw_target",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A2.A4",
+      "name": "builtin:complete_action_policies",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "weakening",
+              "node": "variable"
+            },
+            {
+              "name": "source_policy",
+              "node": "variable"
+            },
+            {
+              "name": "target_policy",
+              "node": "variable"
+            },
+            {
+              "name": "action_lift",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:representative_recovery_exists",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "weakening",
+                  "node": "variable"
+                },
+                {
+                  "name": "raw_source",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:injective_on",
+              "node": "predicate_application"
+            },
+            {
+              "arguments": [
+                {
+                  "domain": {
+                    "name": "raw_source",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "weakening",
+                    "node": "variable"
+                  },
+                  "node": "image"
+                },
+                {
+                  "name": "target_policy",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:image_stable_before_restriction",
+              "node": "predicate_application"
+            },
+            {
+              "arguments": [
+                {
+                  "name": "weakening",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_policy",
+                  "node": "variable"
+                },
+                {
+                  "name": "target_policy",
+                  "node": "variable"
+                },
+                {
+                  "name": "action_lift",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:coherent_action_lift",
+              "node": "predicate_application"
+            }
+          ],
+          "node": "and"
+        },
+        "node": "implies"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "weakening",
+                  "node": "variable"
+                },
+                {
+                  "name": "raw_source",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:injective_on",
+              "node": "predicate_application"
+            },
+            {
+              "arguments": [
+                {
+                  "domain": {
+                    "name": "raw_source",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "weakening",
+                    "node": "variable"
+                  },
+                  "node": "image"
+                },
+                {
+                  "name": "target_policy",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:image_stable_before_restriction",
+              "node": "predicate_application"
+            },
+            {
+              "arguments": [
+                {
+                  "name": "weakening",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_policy",
+                  "node": "variable"
+                },
+                {
+                  "name": "target_policy",
+                  "node": "variable"
+                },
+                {
+                  "name": "action_lift",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:coherent_action_lift",
+              "node": "predicate_application"
+            }
+          ],
+          "node": "and"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "name": "weakening",
+              "node": "variable"
+            },
+            {
+              "name": "source_policy",
+              "node": "variable"
+            },
+            {
+              "name": "target_policy",
+              "node": "variable"
+            },
+            {
+              "name": "action_lift",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:representative_recovery_exists",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "arguments": [
+          {
+            "name": "weakening",
+            "node": "variable"
+          },
+          {
+            "name": "target_policy",
+            "node": "variable"
+          },
+          {
+            "name": "raw_target",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:target_stability_checked_on_complete_policy",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "action_lift",
+            "node": "variable"
+          },
+          {
+            "name": "source_policy",
+            "node": "variable"
+          },
+          {
+            "name": "target_policy",
+            "node": "variable"
+          },
+          {
+            "name": "weakening",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:action_lift_preserves_identity_composition_and_square",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "b053a983421a4857fc83acbd27b680bee9b4c256b5fc68cd5fdd428705ad860e",
+      "id": "FIN-A2.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "0a9faf543c46dd88e6d09a5c83be32313f34bcc88484795cf68bc04ef2bb4326"
+    },
+    {
+      "antecedent": {
+        "arguments": [
+          {
+            "name": "weakening",
+            "node": "variable"
+          },
+          {
+            "name": "source_policy",
+            "node": "variable"
+          },
+          {
+            "name": "target_policy",
+            "node": "variable"
+          },
+          {
+            "name": "action_lift",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:representative_recovery_exists",
+        "node": "predicate_application"
+      },
+      "consequent": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "weakening",
+                "node": "variable"
+              },
+              {
+                "name": "raw_source",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:injective_on",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "domain": {
+                  "name": "raw_source",
+                  "node": "variable"
+                },
+                "map": {
+                  "name": "weakening",
+                  "node": "variable"
+                },
+                "node": "image"
+              },
+              {
+                "name": "target_policy",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:image_stable_before_restriction",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "weakening",
+                "node": "variable"
+              },
+              {
+                "name": "source_policy",
+                "node": "variable"
+              },
+              {
+                "name": "target_policy",
+                "node": "variable"
+              },
+              {
+                "name": "action_lift",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:coherent_action_lift",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "id": "FIN-A2.C1",
+      "node": "implies"
+    },
+    {
+      "antecedent": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "weakening",
+                "node": "variable"
+              },
+              {
+                "name": "raw_source",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:injective_on",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "domain": {
+                  "name": "raw_source",
+                  "node": "variable"
+                },
+                "map": {
+                  "name": "weakening",
+                  "node": "variable"
+                },
+                "node": "image"
+              },
+              {
+                "name": "target_policy",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:image_stable_before_restriction",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "weakening",
+                "node": "variable"
+              },
+              {
+                "name": "source_policy",
+                "node": "variable"
+              },
+              {
+                "name": "target_policy",
+                "node": "variable"
+              },
+              {
+                "name": "action_lift",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:coherent_action_lift",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "consequent": {
+        "arguments": [
+          {
+            "name": "weakening",
+            "node": "variable"
+          },
+          {
+            "name": "source_policy",
+            "node": "variable"
+          },
+          {
+            "name": "target_policy",
+            "node": "variable"
+          },
+          {
+            "name": "action_lift",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:representative_recovery_exists",
+        "node": "predicate_application"
+      },
+      "id": "FIN-A2.C2",
+      "node": "implies"
+    },
+    {
+      "arguments": [
+        {
+          "name": "weakening",
+          "node": "variable"
+        },
+        {
+          "name": "target_policy",
+          "node": "variable"
+        },
+        {
+          "name": "raw_target",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A2.C3",
+      "name": "builtin:target_stability_checked_on_complete_policy",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "action_lift",
+          "node": "variable"
+        },
+        {
+          "name": "source_policy",
+          "node": "variable"
+        },
+        {
+          "name": "target_policy",
+          "node": "variable"
+        },
+        {
+          "name": "weakening",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A2.C4",
+      "name": "builtin:action_lift_preserves_identity_composition_and_square",
+      "node": "predicate_application"
+    }
+  ],
+  "domains": [
+    {
+      "id": "FIN-A2.DOMAIN",
+      "node": "domain",
+      "predicate": {
+        "arguments": [
+          {
+            "name": "raw_source",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:finite_representative_source",
+        "node": "predicate_application"
+      },
+      "variable": {
+        "name": "raw_source",
+        "node": "variable"
+      }
+    }
+  ],
+  "english_statement_sha256": "b053a983421a4857fc83acbd27b680bee9b4c256b5fc68cd5fdd428705ad860e",
+  "expected_proof_methods": [
+    "FiniteSemanticProof",
+    "LeanKernelProof"
+  ],
+  "formal_statement_sha256": "9a1dd3f7a17fdc77a93b1ff877a996d96d3c2f3ae4c4bb402dce4ab594cc5ef9",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001"
+  ],
+  "group": "FIN",
+  "kind": "result",
+  "nonclaims": "Semantic orbit recovery alone is insufficient.",
+  "portuguese_statement_sha256": "0a9faf543c46dd88e6d09a5c83be32313f34bcc88484795cf68bc04ef2bb4326",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A2.PROOF.01"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result__MUTANT__",
+          "node": "typed_answer",
+          "value": [
+            true,
+            [],
+            {
+              "a": "a",
+              "b": "b"
+            }
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A2.PROOF.01",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A2.OUTBOUND.02"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            [
+              "swap",
+              "c",
+              "d"
+            ]
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A2.OUTBOUND.02",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A2.COHERENCE.03"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A2.COHERENCE.03",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "weakening",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_policy",
+                  "node": "variable"
+                },
+                {
+                  "name": "target_policy",
+                  "node": "variable"
+                },
+                {
+                  "name": "action_lift",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:representative_recovery_exists",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "weakening",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "raw_source",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:injective_on",
+                  "node": "predicate_application"
+                },
+                {
+                  "arguments": [
+                    {
+                      "domain": {
+                        "name": "raw_source",
+                        "node": "variable"
+                      },
+                      "map": {
+                        "name": "weakening",
+                        "node": "variable"
+                      },
+                      "node": "image"
+                    },
+                    {
+                      "name": "target_policy",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:image_stable_before_restriction",
+                  "node": "predicate_application"
+                },
+                {
+                  "arguments": [
+                    {
+                      "name": "weakening",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_policy",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "target_policy",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "action_lift",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:coherent_action_lift",
+                  "node": "predicate_application"
+                }
+              ],
+              "node": "and"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "weakening",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "raw_source",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:injective_on",
+                  "node": "predicate_application"
+                },
+                {
+                  "arguments": [
+                    {
+                      "domain": {
+                        "name": "raw_source",
+                        "node": "variable"
+                      },
+                      "map": {
+                        "name": "weakening",
+                        "node": "variable"
+                      },
+                      "node": "image"
+                    },
+                    {
+                      "name": "target_policy",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:image_stable_before_restriction",
+                  "node": "predicate_application"
+                },
+                {
+                  "arguments": [
+                    {
+                      "name": "weakening",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_policy",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "target_policy",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "action_lift",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:coherent_action_lift",
+                  "node": "predicate_application"
+                }
+              ],
+              "node": "and"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "weakening",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_policy",
+                  "node": "variable"
+                },
+                {
+                  "name": "target_policy",
+                  "node": "variable"
+                },
+                {
+                  "name": "action_lift",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:representative_recovery_exists",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "arguments": [
+              {
+                "name": "weakening",
+                "node": "variable"
+              },
+              {
+                "name": "target_policy",
+                "node": "variable"
+              },
+              {
+                "name": "raw_target",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:target_stability_checked_on_complete_policy",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "action_lift",
+                "node": "variable"
+              },
+              {
+                "name": "source_policy",
+                "node": "variable"
+              },
+              {
+                "name": "target_policy",
+                "node": "variable"
+              },
+              {
+                "name": "weakening",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:action_lift_preserves_identity_composition_and_square",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A2.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "raw_source",
+        "raw_target",
+        "weakening",
+        "source_policy",
+        "target_policy",
+        "action_lift"
+      ]
+    }
+  ],
+  "registered_query_type": "raw representative recovery under a complete action policy",
+  "result_dependencies": [
+    "FIN-A1"
+  ],
+  "result_id": "FIN-A2",
+  "schema_version": "1.0.0",
+  "scope": "Finite representative policies.",
+  "sorts": [
+    "Boolean",
+    "finite map",
+    "finite proof code",
+    "finite set"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Representative recovery",
+  "title_pt_BR": "Recuperação de representantes",
+  "variables": [
+    {
+      "name": "raw_source",
+      "sort": "finite set"
+    },
+    {
+      "name": "raw_target",
+      "sort": "finite set"
+    },
+    {
+      "name": "weakening",
+      "sort": "finite map"
+    },
+    {
+      "name": "source_policy",
+      "sort": "finite proof code"
+    },
+    {
+      "name": "target_policy",
+      "sort": "finite proof code"
+    },
+    {
+      "name": "action_lift",
+      "sort": "finite proof code"
+    }
+  ],
+  "withdrawal_condition": "Refuse if the target policy was restricted before stability was tested, if the action list is incomplete, or if only orbit-level recovery is needed. Narrow novelty if an equivalent proof is located in prior phonological work."
+}

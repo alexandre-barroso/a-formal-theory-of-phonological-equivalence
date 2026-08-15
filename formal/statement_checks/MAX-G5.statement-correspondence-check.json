@@ -1,0 +1,17 @@
+{
+  "check_id": "MAX-G5.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "9d71783e3f3c7ea48dded895addba0b8a4d374de11818b0d4c17b48906ee8fe4",
+  "payload": {
+    "en_statement_file_sha256": "e839f9ef63612517877d5c1314b27ab703ec09b4081968a3ba3abbcbeeea83f4",
+    "en_statement_marker": "formal/specs/MAX-G5.json",
+    "en_statement_path": "proofs/en/results/MAX-G5.tex",
+    "en_statement_sha256": "31d567bfb27abe873a9f777fd8b6efc166aebbf8c461e5b6e89bd19b60e537c2",
+    "pt_BR_statement_file_sha256": "2ad95723d4affe44ce53fb1beec8c8ec40912d73b4b7e4999a562c661358a273",
+    "pt_BR_statement_marker": "formal/specs/MAX-G5.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/MAX-G5.tex",
+    "pt_BR_statement_sha256": "7c466771d630803746101003ee09f1c0d66d329fd56cd70f553d23511090f483"
+  },
+  "result_id": "MAX-G5",
+  "schema_version": "1.0.0"
+}

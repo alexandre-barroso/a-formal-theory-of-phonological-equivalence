@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "decimal_value": {
+        "type": "string"
+      },
+      "exact_value": {
+        "type": "string"
+      },
+      "horizon": {
+        "type": "integer"
+      },
+      "position": {
+        "type": "integer"
+      },
+      "prefix_stable": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "horizon",
+      "position",
+      "exact_value",
+      "decimal_value",
+      "prefix_stable"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/continuous_hg/extension_stability.tsv",
+  "type": "array"
+}

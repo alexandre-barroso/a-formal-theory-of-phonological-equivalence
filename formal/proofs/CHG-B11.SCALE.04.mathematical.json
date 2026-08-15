@@ -1,0 +1,131 @@
+{
+  "assumptions_used": [
+    "CHG-B11.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "a>b>c>0"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "admission": "all_pair_and_global_family_equations",
+        "data": "exact_consecutive_active_decreases",
+        "domain": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "a>b>c>0"
+        ]
+      }
+    },
+    "component": "common_scale",
+    "expected": true,
+    "inputs": {},
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B11"
+  },
+  "claim_sha256": "c38e79e032515900f227f06691a35b67d8fd4fa286dc525ed11953f0dd881422",
+  "formal_statement_sha256": "3678fd7d865494bf27e17499109966656bbd908681b58b6bc401c907d81f1dbb",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "a>b>c>0"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "admission": "all_pair_and_global_family_equations",
+        "data": "exact_consecutive_active_decreases",
+        "domain": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "a>b>c>0"
+        ]
+      }
+    },
+    "assumption_model": {
+      "K": 3,
+      "a": "3/5",
+      "b": "1/2",
+      "c": "2/5",
+      "p": 2,
+      "rho": 5
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "a>b>c>0"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "admission": "all_pair_and_global_family_equations",
+          "data": "exact_consecutive_active_decreases",
+          "domain": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "a>b>c>0"
+          ]
+        }
+      },
+      "component": "common_scale",
+      "expected": true,
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B11"
+    },
+    "derivation": {
+      "component": "common_scale",
+      "profile": [
+        1,
+        "3/5",
+        "3/10",
+        "1/10",
+        0,
+        0
+      ],
+      "result_id": "CHG-B11",
+      "scale_factor": 7
+    },
+    "mutant_ids": [
+      "CHG-B11.MUTANT.CONCLUSION",
+      "CHG-B11.MUTANT.ASSUMPTION",
+      "CHG-B11.MUTANT.COMPONENT",
+      "CHG-B11.MUT.LOCAL-TRIPLE-IS-GLOBAL"
+    ],
+    "observed": true,
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B11.SCALE.04",
+  "proof_id": "CHG-B11.SCALE.04.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "CHG-B2",
+    "CHG-B9"
+  ],
+  "result_id": "CHG-B11",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,28 @@
+{
+  "alternative": "strictly_positive_row_space",
+  "proof_design": "MAX-G5 exact rational cone-alternative witness",
+  "lambda": [
+    -1,
+    -1
+  ],
+  "matrix": [
+    [
+      -1,
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      -1,
+      -1,
+      0
+    ]
+  ],
+  "transpose_product": [
+    1,
+    1,
+    1,
+    1
+  ]
+}

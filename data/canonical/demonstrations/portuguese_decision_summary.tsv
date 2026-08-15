@@ -1,0 +1,6 @@
+reader	weak_positive_cells	strong_pass_cells	strong_total_cells	changed_decisions_from_full
+full	72	17	18	0
+leave_flatness_out	72	11	18	6
+leave_high_low_out	72	16	18	3
+leave_zcr_out	72	13	18	4
+union_of_reduction_witnesses	72	not_applicable	18	9

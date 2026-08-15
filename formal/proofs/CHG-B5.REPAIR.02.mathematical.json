@@ -1,0 +1,159 @@
+{
+  "assumptions_used": [
+    "CHG-B5.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>0"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "branches": [
+          "0<p<1",
+          "p=1",
+          "p>1"
+        ],
+        "carrier": "solid_simplex",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ]
+      }
+    },
+    "component": "repair_distribution",
+    "expected": [
+      true,
+      true,
+      true
+    ],
+    "inputs": {},
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B5"
+  },
+  "claim_sha256": "be0f3628f16dcda3278e221e0e3a019c25a07d924d867f136fec903ce4973a07",
+  "formal_statement_sha256": "dfe8c2506601d0e546941522d843b98968c8326c0e9dbd44ff6e1e6f6e3fdd9b",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>0"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "branches": [
+          "0<p<1",
+          "p=1",
+          "p>1"
+        ],
+        "carrier": "solid_simplex",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ]
+      }
+    },
+    "assumption_model": {
+      "branch_models": [
+        {
+          "N": 2,
+          "h": 2,
+          "m": 1,
+          "p": "1/2"
+        },
+        {
+          "N": 2,
+          "h": 2,
+          "m": 1,
+          "p": 1
+        },
+        {
+          "N": 2,
+          "h": 2,
+          "m": 1,
+          "p": 2
+        }
+      ]
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "branches": [
+            "0<p<1",
+            "p=1",
+            "p>1"
+          ],
+          "carrier": "solid_simplex",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>0"
+          ]
+        }
+      },
+      "component": "repair_distribution",
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B5"
+    },
+    "derivation": {
+      "component": "repair_distribution",
+      "edge_count": 4,
+      "fixed_total": 1,
+      "result_id": "CHG-B5"
+    },
+    "mutant_ids": [
+      "CHG-B5.MUTANT.CONCLUSION",
+      "CHG-B5.MUTANT.ASSUMPTION",
+      "CHG-B5.MUTANT.COMPONENT",
+      "CHG-B5.MUT.SUBLINEAR-EQUALITY-SEGMENT"
+    ],
+    "observed": [
+      true,
+      true,
+      true
+    ],
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B5.REPAIR.02",
+  "proof_id": "CHG-B5.REPAIR.02.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [],
+  "result_id": "CHG-B5",
+  "schema_version": "1.1.0"
+}

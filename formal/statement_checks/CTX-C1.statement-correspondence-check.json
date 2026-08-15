@@ -1,0 +1,17 @@
+{
+  "check_id": "CTX-C1.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "beed0989886f522831b6a438f872b1f19d1cdd939cc18392645e9424907a6ff8",
+  "payload": {
+    "en_statement_file_sha256": "d232240795547485c036bacdb490c13a78a23224d5a2e8e9778848d026bbfc0f",
+    "en_statement_marker": "formal/specs/CTX-C1.json",
+    "en_statement_path": "proofs/en/results/CTX-C1.tex",
+    "en_statement_sha256": "86cc1af24ce05400dbc5fe354f66d6f960a3063ef0a7c25ec5861925b31e6f1e",
+    "pt_BR_statement_file_sha256": "b52a1bd0b93c10c5dcff0a2fe90b27451a62a506fbb3db73ddc86a33d82c4e4e",
+    "pt_BR_statement_marker": "formal/specs/CTX-C1.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/CTX-C1.tex",
+    "pt_BR_statement_sha256": "96287b98ded6912a4c5eeb4128ce2341cd430749a2b03e4261b27b0c2f848bdf"
+  },
+  "result_id": "CTX-C1",
+  "schema_version": "1.0.0"
+}

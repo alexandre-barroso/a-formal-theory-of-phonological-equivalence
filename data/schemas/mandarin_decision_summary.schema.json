@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "clear_complex_final_retyped_as_match": {
+        "type": "integer"
+      },
+      "counterexamples": {
+        "type": "integer"
+      },
+      "matches": {
+        "type": "integer"
+      },
+      "refusals": {
+        "type": "integer"
+      },
+      "stage": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "stage",
+      "matches",
+      "counterexamples",
+      "refusals",
+      "clear_complex_final_retyped_as_match"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/demonstrations/mandarin_decision_summary.tsv",
+  "type": "array"
+}

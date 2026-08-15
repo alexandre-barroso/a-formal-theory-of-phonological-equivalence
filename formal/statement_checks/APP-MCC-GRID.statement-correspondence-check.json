@@ -1,0 +1,17 @@
+{
+  "check_id": "APP-MCC-GRID.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "f019672b48a6274c318e071b932758ce3fcc6e267c2ca55354bd0be2f0889893",
+  "payload": {
+    "en_statement_file_sha256": "3b432d6f49423d32ea307cdc4a4c9a5f8c2235f8598aec2339416d5f2ec9cf06",
+    "en_statement_marker": "formal/specs/APP-MCC-GRID.json",
+    "en_statement_path": "proofs/en/results/APP-MCC-GRID.tex",
+    "en_statement_sha256": "b576a7a9acec218f0fd54a354376afdc591810d3f16453652f37c4c44be04742",
+    "pt_BR_statement_file_sha256": "8b7e0f999e04a913c3200ecf1d0026d8ed7eb3430ca287badb44cdabe9b2fe42",
+    "pt_BR_statement_marker": "formal/specs/APP-MCC-GRID.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/APP-MCC-GRID.tex",
+    "pt_BR_statement_sha256": "bb25cf4eca94da5250d2917f5efc4b9313d7801221eed1d475fef81b0fad8807"
+  },
+  "result_id": "APP-MCC-GRID",
+  "schema_version": "1.0.0"
+}

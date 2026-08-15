@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "dress_distinct_word_types": {
+        "type": "integer"
+      },
+      "dress_minus_fleece_f1_20_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_30_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_40_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_50_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_60_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_70_hz": {
+        "type": "string"
+      },
+      "dress_minus_fleece_f1_80_hz": {
+        "type": "string"
+      },
+      "end_offset_ms": {
+        "type": "integer"
+      },
+      "fleece_distinct_word_types": {
+        "type": "integer"
+      },
+      "fleece_minus_dress_f2_20_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_30_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_40_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_50_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_60_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_70_hz": {
+        "type": "string"
+      },
+      "fleece_minus_dress_f2_80_hz": {
+        "type": "string"
+      },
+      "pair_support_status": {
+        "type": "string"
+      },
+      "speaker_id": {
+        "type": "string"
+      },
+      "speaker_split": {
+        "type": "string"
+      },
+      "start_offset_ms": {
+        "type": "integer"
+      },
+      "tracker_id": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "speaker_split",
+      "speaker_id",
+      "tracker_id",
+      "start_offset_ms",
+      "end_offset_ms",
+      "dress_distinct_word_types",
+      "fleece_distinct_word_types",
+      "pair_support_status",
+      "dress_minus_fleece_f1_20_hz",
+      "fleece_minus_dress_f2_20_hz",
+      "dress_minus_fleece_f1_30_hz",
+      "fleece_minus_dress_f2_30_hz",
+      "dress_minus_fleece_f1_40_hz",
+      "fleece_minus_dress_f2_40_hz",
+      "dress_minus_fleece_f1_50_hz",
+      "fleece_minus_dress_f2_50_hz",
+      "dress_minus_fleece_f1_60_hz",
+      "fleece_minus_dress_f2_60_hz",
+      "dress_minus_fleece_f1_70_hz",
+      "fleece_minus_dress_f2_70_hz",
+      "dress_minus_fleece_f1_80_hz",
+      "fleece_minus_dress_f2_80_hz"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/demonstrations/english_speaker_scenario_margins.tsv",
+  "type": "array"
+}

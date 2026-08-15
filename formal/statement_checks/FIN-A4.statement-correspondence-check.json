@@ -1,0 +1,17 @@
+{
+  "check_id": "FIN-A4.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "d6ba99b1bba5e503f8c1eaae27446d33d6525a4233c5236dce456592be4adba5",
+  "payload": {
+    "en_statement_file_sha256": "59f77ba5cdbb2151a2ff4edc737b9fd413da22d4f4fbb52f75eaaa0a69c1a257",
+    "en_statement_marker": "formal/specs/FIN-A4.json",
+    "en_statement_path": "proofs/en/results/FIN-A4.tex",
+    "en_statement_sha256": "5cbb51bd8298c9a14ec5d0891c0da19b020c78378ad48e82f5c453444e84b9b4",
+    "pt_BR_statement_file_sha256": "d20fd546527bade0830a3e8b547c6d222cba032191817aff5abcff10fc91e2fa",
+    "pt_BR_statement_marker": "formal/specs/FIN-A4.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/FIN-A4.tex",
+    "pt_BR_statement_sha256": "0fbfec375d0f1f66921c750cb03ceb72cc8188d85b68d4e8fb267bb94ecc0676"
+  },
+  "result_id": "FIN-A4",
+  "schema_version": "1.0.0"
+}

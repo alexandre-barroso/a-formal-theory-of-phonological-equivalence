@@ -1,0 +1,101 @@
+{
+  "assumptions_used": [
+    "CHG-B5.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>0"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "branches": [
+          "0<p<1",
+          "p=1",
+          "p>1"
+        ],
+        "carrier": "solid_simplex",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>0"
+        ]
+      }
+    },
+    "component": "universal_result",
+    "expected": {
+      "linear_equality_optimizers": "{t*e_1:0<=t<=1}",
+      "linear_repair": "indifferent",
+      "sublinear_equality_optimizers": [
+        "0",
+        "e_1"
+      ],
+      "sublinear_repair": "concentrated",
+      "superlinear_repair": "distributed"
+    },
+    "inputs": {
+      "branches": [
+        "0<p<1",
+        "p=1",
+        "p>1"
+      ],
+      "carrier": "solid_simplex",
+      "domain": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>0"
+      ]
+    },
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B5"
+  },
+  "claim_sha256": "fc1c9a1271040c52dd7434391a0415efca779cceeede1f08b26741fb3a5e44bd",
+  "formal_statement_sha256": "dfe8c2506601d0e546941522d843b98968c8326c0e9dbd44ff6e1e6f6e3fdd9b",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.ContinuousHG.chg_b5_full_path_exponent_boundary",
+      "sublinear_powerPath_minimizer_above_iff",
+      "sublinear_powerPath_minimizer_equal_iff",
+      "sublinear_powerPath_minimizer_below_iff",
+      "linear_powerPath_minimizer_above_iff",
+      "linear_powerPath_minimizer_equal_iff",
+      "linear_powerPath_minimizer_below_iff",
+      "superlinear_finite_equal_distribution_lowerBound",
+      "chg_b5_complete_exponent_boundary"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "CHG-B5.METAPROOF"
+  },
+  "proof_goal_id": "CHG-B5.METAPROOF",
+  "proof_id": "CHG-B5.METAPROOF.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [],
+  "result_id": "CHG-B5",
+  "schema_version": "1.1.0"
+}

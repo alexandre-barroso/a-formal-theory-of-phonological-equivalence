@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "anchor": {
+        "type": "string"
+      },
+      "audit": {
+        "type": "string"
+      },
+      "identified": {
+        "type": "string"
+      },
+      "not_identified": {
+        "type": "string"
+      },
+      "required_bridge": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "audit",
+      "identified",
+      "not_identified",
+      "required_bridge",
+      "anchor"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/continuous_hg/identifiability_examples.tsv",
+  "type": "array"
+}

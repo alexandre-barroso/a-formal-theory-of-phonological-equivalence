@@ -1,0 +1,58 @@
+{
+  "application_id": "SEL-F2-GOLDRICK-DALAND-2009",
+  "classification": "registered_theorem_application",
+  "data_evidence": {
+    "path": "data/canonical/applications/goldrick_daland_counterexample.tsv",
+    "role": "exact project-constructed complete four-output grammar and projection ledger"
+  },
+  "exact_consequences": [
+    "The project construction satisfies the transcribed equifaithfulness, markedness, equal-normal-length, and strict pairwise-order premises.",
+    "The complete four-output score rows have unique intact winners.",
+    "The Euclidean selected-output onset squares are 361/5 and 1010/9, with reversed gap 1801/45.",
+    "The induced Frobenius onset squares are 361/3 and 618/5, with reversed gap 49/15.",
+    "The Euclidean two-shell law uses squared radii 80 and 233; the Frobenius two-shell law uses squared radii 122 and 153. On each far shell, explicit strict points prove nonempty open patches of both selected-output events.",
+    "For one explicit common two-shell spherical law per declared metric, both named selected-output errors have positive probability and P[(G+delta G)(w)=y] < P[(G+delta G)(x)=z], the strict reverse of the source's final Corollary 3."
+  ],
+  "lean_binding": {
+    "declarations": [
+      "PhonologicalCalculus.Application.goldrickDaland_sel_f2_source_matchedPremises",
+      "PhonologicalCalculus.Application.goldrickDaland_sel_f2_source_contrastPreservation",
+      "PhonologicalCalculus.Application.goldrickDaland_sel_f2_source_scores",
+      "PhonologicalCalculus.Application.goldrickDaland_sel_f2_source_euclidean",
+      "PhonologicalCalculus.Application.goldrickDaland_sel_f2_source_frobenius",
+      "PhonologicalCalculus.Application.goldrickDaland_sel_f2_source_commonLaw",
+      "PhonologicalCalculus.Application.goldrickDaland_sel_f2_source_twoShellPositiveReversal"
+    ],
+    "module": "PhonologicalCalculus/Application/SourceFacing.lean"
+  },
+  "no_conclusion_if": [
+    "complete candidate support, unique intact winners, or selected-output error semantics are unavailable",
+    "the two mappings are not evaluated under one common joint perturbation law",
+    "the declared perturbation metric or spherical angular law differs from the transcribed contract",
+    "the authoritative radial-law semantics excludes two-atom magnitude distributions and no separately proved absolutely continuous bridge is supplied"
+  ],
+  "nonclaims": [
+    "The source's pairwise Theorem 3 is not refuted.",
+    "The source's empirical markedness tendency and simulations are not refuted.",
+    "The project-constructed four-output matrices are not attributed to the source."
+  ],
+  "registered_parent_results": [
+    "SEL-F2"
+  ],
+  "registered_query": "selected-output probability order under one common spherical perturbation law, not pairwise crossing probability",
+  "schema_version": "1.0.0",
+  "scope": "The exact complete binary grammar and two declared perturbation metrics encoded by SEL-F2.",
+  "source_artifact": {
+    "filename": "goldrickDaland2009speechErrorsHarmonicGrammarNetworks.pdf",
+    "page_anchors": [31, 32, 34, 36, 37, 38],
+    "sha256": "b7b97d9341ad2454cf55694d7aa2209807743a66d8dda089a359edbba5ab18e3"
+  },
+  "source_transcription": {
+    "path": "formal/source_transcriptions/goldrick_daland2009_selected_output.json",
+    "sha256": "70fa40619ca06d9efccaf01cf9e99afcbbfd13e0c4ab48771b97bbc345daacb1",
+    "transcription_id": "SOURCE-GOLDRICK-DALAND-2009-SELECTED-OUTPUT"
+  },
+  "title_en": "Goldrick--Daland selected-output counterexample",
+  "title_pt_BR": "Contraexemplo de saída selecionada para Goldrick--Daland",
+  "withdrawal_condition": "Withdraw the source-facing conclusion if the authoritative contract does not use selected-output error, unique intact winners, the stated spherical disruption law, or the matched-pair premises instantiated by SEL-F2."
+}

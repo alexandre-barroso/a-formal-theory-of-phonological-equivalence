@@ -1,0 +1,17 @@
+{
+  "check_id": "APP-MCC-LENGTH.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "b32a629b1c0b6eebb7793055a673c171ac067c583193e1dd3c9ce87d0df4894f",
+  "payload": {
+    "en_statement_file_sha256": "4b7b5a53f9077b4203597a1da2448aaf0b49df09b8718ac14736542cf762e5cb",
+    "en_statement_marker": "formal/specs/APP-MCC-LENGTH.json",
+    "en_statement_path": "proofs/en/results/APP-MCC-LENGTH.tex",
+    "en_statement_sha256": "2da565ed3f0cd45e17f1dc46b3640b4fb1572dad2eac6c4a5d3ab484bcea9a54",
+    "pt_BR_statement_file_sha256": "92b9477dd86606a8c547df05ffb212e61c78ee16a2b8c3fa3374694be44333d2",
+    "pt_BR_statement_marker": "formal/specs/APP-MCC-LENGTH.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/APP-MCC-LENGTH.tex",
+    "pt_BR_statement_sha256": "e597953d5cdd07ef07ef3cb84390e0e7f71f03035f404a42ca3612957cab697b"
+  },
+  "result_id": "APP-MCC-LENGTH",
+  "schema_version": "1.0.0"
+}

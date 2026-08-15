@@ -1,0 +1,2 @@
+total_implications	empty_antecedent	nonempty_antecedent	full_lift_solution	live_cone_facets	nonzero_witness
+121	105	16	all_weights_zero	wMax<=2wNoCoda+wDep;wDep<=2wOnset+wMax	(log(2),0,0,0)

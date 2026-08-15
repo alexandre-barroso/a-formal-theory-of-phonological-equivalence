@@ -1,0 +1,650 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "name": "A",
+          "node": "variable"
+        },
+        {
+          "name": "B",
+          "node": "variable"
+        }
+      ],
+      "id": "MAX-G9.DOMAIN",
+      "name": "complete_nonempty_finite_fibres_positive_masses",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "arguments": [
+          {
+            "elements": [
+              "(1,z)",
+              "((1+z^2),(z+z^3))"
+            ],
+            "node": "finite_sequence"
+          }
+        ],
+        "name": "same_fixed_mass_normalized_law_but_distinct_response_envelopes_exact_witness",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "elements": [
+              "(1+z+z^2,z^3)",
+              "(1+z^2,z^3)"
+            ],
+            "node": "finite_sequence"
+          }
+        ],
+        "name": "same_response_envelope_but_distinct_fixed_mass_normalized_laws_exact_witness",
+        "node": "predicate_application"
+      },
+      {
+        "bindings": [
+          {
+            "sort": "FinitePointConfiguration",
+            "variable": "A"
+          },
+          {
+            "sort": "FinitePointConfiguration",
+            "variable": "B"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "A",
+                    "node": "variable"
+                  }
+                ],
+                "name": "nonempty_finite_point_configuration",
+                "node": "predicate_application"
+              },
+              {
+                "arguments": [
+                  {
+                    "name": "B",
+                    "node": "variable"
+                  }
+                ],
+                "name": "nonempty_finite_point_configuration",
+                "node": "predicate_application"
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "A",
+                      "node": "variable"
+                    },
+                    "ambient_dimension"
+                  ],
+                  "name": "field",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "name": "B",
+                      "node": "variable"
+                    },
+                    "ambient_dimension"
+                  ],
+                  "name": "field",
+                  "node": "function_application"
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "A",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "positive_mass_conditional_mean_set",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "A",
+                              "node": "variable"
+                            },
+                            "points"
+                          ],
+                          "name": "field",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "convex_hull",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "relative_interior",
+                  "node": "function_application"
+                }
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "A",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "B",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "attainable_positive_mass_response_set",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "arguments": [
+                                {
+                                  "name": "B",
+                                  "node": "variable"
+                                },
+                                "points"
+                              ],
+                              "name": "field",
+                              "node": "function_application"
+                            }
+                          ],
+                          "name": "convex_hull",
+                          "node": "function_application"
+                        },
+                        {
+                          "arguments": [
+                            {
+                              "arguments": [
+                                {
+                                  "name": "A",
+                                  "node": "variable"
+                                },
+                                "points"
+                              ],
+                              "name": "field",
+                              "node": "function_application"
+                            }
+                          ],
+                          "name": "convex_hull",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "minkowski_difference",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "relative_interior",
+                  "node": "function_application"
+                }
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "name": "A",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "B",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "attainable_positive_mass_response_set",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "closure",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "B",
+                              "node": "variable"
+                            },
+                            "points"
+                          ],
+                          "name": "field",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "convex_hull",
+                      "node": "function_application"
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "A",
+                              "node": "variable"
+                            },
+                            "points"
+                          ],
+                          "name": "field",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "convex_hull",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "minkowski_difference",
+                  "node": "function_application"
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "f792183dc515385223335110e82e34a84a3e67ef860d1dc6a41f3500f3d1990c",
+      "id": "MAX-G9.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "10747e11c0de14607dae1bb52ee063fb046507dfa6f191a29e3b367201fb5f9a",
+      "semantic_definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "semantic_definitions": [],
+      "semantic_formal_statement_sha256": "e4ae84244fd6b3f7559f05f3826934408955a0349d6002b783e8213d4182e463",
+      "semantic_nonclaims": "The closed envelope is not the attained set when nonconstant, is not a fixed-mass response field, and is not asserted to be a minimum contextual carrier.",
+      "semantic_scope": "Complete nonempty finite fibres, finite real violation rows, fixed finite weight, and independently variable positive base masses.",
+      "semantic_specification_path": "formal/proofs/maxent/semantic/specs/MAX-G9.json",
+      "semantic_specification_sha256": "42f7c8590e77bc96a9beada5962ffaf48bc28feb387c31f6e19204ebceb8d25f",
+      "semantic_withdrawal_condition": "The closed envelope is not the attained set when nonconstant, is not a fixed-mass response field, and is not asserted to be a minimum contextual carrier."
+    }
+  ],
+  "domains": [
+    {
+      "arguments": [
+        {
+          "name": "A",
+          "node": "variable"
+        },
+        {
+          "name": "B",
+          "node": "variable"
+        }
+      ],
+      "id": "MAX-G9.DOMAIN",
+      "name": "complete_nonempty_finite_fibres_positive_masses",
+      "node": "predicate_application"
+    }
+  ],
+  "english_statement_sha256": "f792183dc515385223335110e82e34a84a3e67ef860d1dc6a41f3500f3d1990c",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "MaxEntSemanticClosureProof"
+  ],
+  "formal_statement_sha256": "67476bd1b115b6a7c5881dc5225883c0aa2db72e735d3e02cf5dbc2d528771d5",
+  "foundation_dependencies": [
+    "FOUND-CONVEX-HULL-001",
+    "FOUND-RELATIVE-INTERIOR-SUM-001"
+  ],
+  "group": "MAX",
+  "kind": "theorem",
+  "nonclaims": "The envelope is not a fixed-mass response field or minimum universal carrier.",
+  "portuguese_statement_sha256": "10747e11c0de14607dae1bb52ee063fb046507dfa6f191a29e3b367201fb5f9a",
+  "proof_goals": [
+    {
+      "claim": {
+        "arguments": [
+          {
+            "elements": [
+              "(1,z)",
+              "((1+z^2),(z+z^3))"
+            ],
+            "node": "finite_sequence"
+          }
+        ],
+        "name": "same_fixed_mass_normalized_law_but_distinct_response_envelopes_exact_witness",
+        "node": "predicate_application"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G9.LAWTOENV.01",
+      "proof_methods": [
+        "MaxEntSemanticClosureProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "elements": [
+              "(1+z+z^2,z^3)",
+              "(1+z^2,z^3)"
+            ],
+            "node": "finite_sequence"
+          }
+        ],
+        "name": "same_response_envelope_but_distinct_fixed_mass_normalized_laws_exact_witness",
+        "node": "predicate_application"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G9.ENVTOLAW.02",
+      "proof_methods": [
+        "MaxEntSemanticClosureProof"
+      ]
+    },
+    {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "FinitePointConfiguration",
+            "variable": "A"
+          },
+          {
+            "sort": "FinitePointConfiguration",
+            "variable": "B"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "A",
+                    "node": "variable"
+                  }
+                ],
+                "name": "nonempty_finite_point_configuration",
+                "node": "predicate_application"
+              },
+              {
+                "arguments": [
+                  {
+                    "name": "B",
+                    "node": "variable"
+                  }
+                ],
+                "name": "nonempty_finite_point_configuration",
+                "node": "predicate_application"
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "A",
+                      "node": "variable"
+                    },
+                    "ambient_dimension"
+                  ],
+                  "name": "field",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "name": "B",
+                      "node": "variable"
+                    },
+                    "ambient_dimension"
+                  ],
+                  "name": "field",
+                  "node": "function_application"
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "A",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "positive_mass_conditional_mean_set",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "A",
+                              "node": "variable"
+                            },
+                            "points"
+                          ],
+                          "name": "field",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "convex_hull",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "relative_interior",
+                  "node": "function_application"
+                }
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "A",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "B",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "attainable_positive_mass_response_set",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "arguments": [
+                                {
+                                  "name": "B",
+                                  "node": "variable"
+                                },
+                                "points"
+                              ],
+                              "name": "field",
+                              "node": "function_application"
+                            }
+                          ],
+                          "name": "convex_hull",
+                          "node": "function_application"
+                        },
+                        {
+                          "arguments": [
+                            {
+                              "arguments": [
+                                {
+                                  "name": "A",
+                                  "node": "variable"
+                                },
+                                "points"
+                              ],
+                              "name": "field",
+                              "node": "function_application"
+                            }
+                          ],
+                          "name": "convex_hull",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "minkowski_difference",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "relative_interior",
+                  "node": "function_application"
+                }
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "name": "A",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "B",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "attainable_positive_mass_response_set",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "closure",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "B",
+                              "node": "variable"
+                            },
+                            "points"
+                          ],
+                          "name": "field",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "convex_hull",
+                      "node": "function_application"
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "arguments": [
+                            {
+                              "name": "A",
+                              "node": "variable"
+                            },
+                            "points"
+                          ],
+                          "name": "field",
+                          "node": "function_application"
+                        }
+                      ],
+                      "name": "convex_hull",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "minkowski_difference",
+                  "node": "function_application"
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G9.CONVEX.03",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "sort": "FinitePointConfiguration",
+      "variable": "A"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "FinitePointConfiguration",
+      "variable": "B"
+    }
+  ],
+  "registered_query_type": "fixed-mass normalized law versus arbitrary-positive-mass first-order response envelope",
+  "result_dependencies": [
+    "MAX-G7"
+  ],
+  "result_id": "MAX-G9",
+  "schema_version": "1.0.0",
+  "scope": "Probability-law versus response-envelope consumers.",
+  "sorts": [
+    "FinitePointConfiguration"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Normalized law and arbitrary-mass response are incomparable",
+  "title_pt_BR": "Incomparabilidade entre lei normalizada e resposta de massa arbitrária",
+  "variables": [
+    {
+      "name": "A",
+      "sort": "FinitePointConfiguration"
+    },
+    {
+      "name": "B",
+      "sort": "FinitePointConfiguration"
+    }
+  ],
+  "withdrawal_condition": "The envelope is complete only for its declared direct arbitrary-mass response query. It is neither automatically a minimum contextual carrier nor the fixed-mass response field."
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "decimal_value": {
+        "type": "string"
+      },
+      "exact_value": {
+        "type": "string"
+      },
+      "example_id": {
+        "type": "string"
+      },
+      "h": {
+        "type": "integer"
+      },
+      "m": {
+        "type": "integer"
+      },
+      "p": {
+        "type": "integer"
+      },
+      "position": {
+        "type": "integer"
+      },
+      "support_status": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "example_id",
+      "h",
+      "m",
+      "p",
+      "position",
+      "exact_value",
+      "decimal_value",
+      "support_status"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/continuous_hg/exact_profiles.tsv",
+  "type": "array"
+}

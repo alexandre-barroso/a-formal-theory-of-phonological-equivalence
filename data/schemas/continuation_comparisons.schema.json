@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "decimal_value": {
+        "type": "string"
+      },
+      "exact_value": {
+        "type": "string"
+      },
+      "family": {
+        "type": "string"
+      },
+      "objective_scope": {
+        "type": "string"
+      },
+      "position": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "family",
+      "position",
+      "exact_value",
+      "decimal_value",
+      "objective_scope"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/continuous_hg/continuation_comparisons.tsv",
+  "type": "array"
+}

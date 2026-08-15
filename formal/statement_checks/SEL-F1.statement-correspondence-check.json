@@ -1,0 +1,17 @@
+{
+  "check_id": "SEL-F1.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "37f5f80cbb13cfbf3e48c083564d3f916952ffcebfcb7b040f752b2bc227088e",
+  "payload": {
+    "en_statement_file_sha256": "3e5ae5e93e373acfc22a9d662439a3579594b0ebc727de0a3cbd9ec1d7653b1e",
+    "en_statement_marker": "formal/specs/SEL-F1.json",
+    "en_statement_path": "proofs/en/results/SEL-F1.tex",
+    "en_statement_sha256": "ad3681cd7be0d740a681518095816c60757a710528e259d0a0e4139caf7257bd",
+    "pt_BR_statement_file_sha256": "aac8fecb1074bcacc004a5653a4f02c11b2f3c04c5a349ad8c7988b96c1d7420",
+    "pt_BR_statement_marker": "formal/specs/SEL-F1.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/SEL-F1.tex",
+    "pt_BR_statement_sha256": "44cf3cc5bd608ccff61dfe2ca1a2af57f72cc0f3006194f6cda7dc0a8b1d89f7"
+  },
+  "result_id": "SEL-F1",
+  "schema_version": "1.0.0"
+}

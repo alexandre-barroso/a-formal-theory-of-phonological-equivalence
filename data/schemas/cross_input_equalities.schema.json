@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "base_masses": {
+        "type": "string"
+      },
+      "case_id": {
+        "type": "string"
+      },
+      "input_a_rows": {
+        "type": "string"
+      },
+      "input_b_rows": {
+        "type": "string"
+      },
+      "universal_equality": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "case_id",
+      "input_a_rows",
+      "input_b_rows",
+      "base_masses",
+      "universal_equality"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/maxent/cross_input_equalities.tsv",
+  "type": "array"
+}

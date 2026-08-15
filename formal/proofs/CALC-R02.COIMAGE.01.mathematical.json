@@ -1,0 +1,357 @@
+{
+  "assumptions_used": [
+    "CALC-R02.EXACT-FINITE-MODEL"
+  ],
+  "claim": {
+    "left": {
+      "node": "list",
+      "values": [
+        {
+          "node": "cardinality",
+          "value": {
+            "contexts": [
+              {
+                "entries": [
+                  {
+                    "key": 1,
+                    "value": 1
+                  },
+                  {
+                    "key": 2,
+                    "value": 2
+                  },
+                  {
+                    "key": 3,
+                    "value": 3
+                  },
+                  {
+                    "key": 4,
+                    "value": 4
+                  }
+                ],
+                "node": "finite_map"
+              }
+            ],
+            "domain": {
+              "node": "list",
+              "values": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "node": "kernel_partition",
+            "observers": [
+              {
+                "entries": [
+                  {
+                    "key": 1,
+                    "value": "A"
+                  },
+                  {
+                    "key": 2,
+                    "value": "A"
+                  },
+                  {
+                    "key": 3,
+                    "value": "B"
+                  },
+                  {
+                    "key": 4,
+                    "value": "C"
+                  }
+                ],
+                "node": "finite_map"
+              }
+            ]
+          }
+        },
+        {
+          "node": "cardinality",
+          "value": {
+            "domain": {
+              "node": "list",
+              "values": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "map": {
+              "entries": [
+                {
+                  "key": 1,
+                  "value": "A"
+                },
+                {
+                  "key": 2,
+                  "value": "A"
+                },
+                {
+                  "key": 3,
+                  "value": "B"
+                },
+                {
+                  "key": 4,
+                  "value": "C"
+                }
+              ],
+              "node": "finite_map"
+            },
+            "node": "map_image"
+          }
+        },
+        {
+          "domain": {
+            "node": "list",
+            "values": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          "map": {
+            "entries": [
+              {
+                "key": 1,
+                "value": "A"
+              },
+              {
+                "key": 2,
+                "value": "A"
+              },
+              {
+                "key": 3,
+                "value": "B"
+              },
+              {
+                "key": 4,
+                "value": "C"
+              }
+            ],
+            "node": "finite_map"
+          },
+          "node": "map_kernel"
+        }
+      ]
+    },
+    "node": "equal",
+    "right": {
+      "node": "list",
+      "values": [
+        3,
+        3,
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      ]
+    }
+  },
+  "claim_sha256": "c02f81165b44d01bb602f010f2e1e0e1a885ae978a7d04cf4bca588f773f4ee6",
+  "formal_statement_sha256": "2bea56a5e3744ebe39c01ed48c786776f2cf4b12cab5f6cbc6dcf3e0d641f58d",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001"
+  ],
+  "payload": {
+    "expected": {
+      "node": "list",
+      "values": [
+        3,
+        3,
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      ]
+    },
+    "expression": {
+      "node": "list",
+      "values": [
+        {
+          "node": "cardinality",
+          "value": {
+            "contexts": [
+              {
+                "entries": [
+                  {
+                    "key": 1,
+                    "value": 1
+                  },
+                  {
+                    "key": 2,
+                    "value": 2
+                  },
+                  {
+                    "key": 3,
+                    "value": 3
+                  },
+                  {
+                    "key": 4,
+                    "value": 4
+                  }
+                ],
+                "node": "finite_map"
+              }
+            ],
+            "domain": {
+              "node": "list",
+              "values": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "node": "kernel_partition",
+            "observers": [
+              {
+                "entries": [
+                  {
+                    "key": 1,
+                    "value": "A"
+                  },
+                  {
+                    "key": 2,
+                    "value": "A"
+                  },
+                  {
+                    "key": 3,
+                    "value": "B"
+                  },
+                  {
+                    "key": 4,
+                    "value": "C"
+                  }
+                ],
+                "node": "finite_map"
+              }
+            ]
+          }
+        },
+        {
+          "node": "cardinality",
+          "value": {
+            "domain": {
+              "node": "list",
+              "values": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            "map": {
+              "entries": [
+                {
+                  "key": 1,
+                  "value": "A"
+                },
+                {
+                  "key": 2,
+                  "value": "A"
+                },
+                {
+                  "key": 3,
+                  "value": "B"
+                },
+                {
+                  "key": 4,
+                  "value": "C"
+                }
+              ],
+              "node": "finite_map"
+            },
+            "node": "map_image"
+          }
+        },
+        {
+          "domain": {
+            "node": "list",
+            "values": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          "map": {
+            "entries": [
+              {
+                "key": 1,
+                "value": "A"
+              },
+              {
+                "key": 2,
+                "value": "A"
+              },
+              {
+                "key": 3,
+                "value": "B"
+              },
+              {
+                "key": 4,
+                "value": "C"
+              }
+            ],
+            "node": "finite_map"
+          },
+          "node": "map_kernel"
+        }
+      ]
+    }
+  },
+  "proof_goal_id": "CALC-R02.COIMAGE.01",
+  "proof_id": "CALC-R02.COIMAGE.01.PROOF",
+  "proof_method": "ExactFiniteComputationProof",
+  "result_dependencies": [],
+  "result_id": "CALC-R02",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,196 @@
+{
+  "assumptions_used": [
+    "FIN-A4.A1",
+    "FIN-A4.A2",
+    "FIN-A4.A3",
+    "FIN-A4.A4"
+  ],
+  "claim": {
+    "arguments": [
+      {
+        "arguments": [
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "strong_query",
+              "node": "variable"
+            },
+            "node": "kernel"
+          },
+          {
+            "domain": {
+              "name": "reachable",
+              "node": "variable"
+            },
+            "map": {
+              "name": "weak_query",
+              "node": "variable"
+            },
+            "node": "kernel"
+          }
+        ],
+        "name": "builtin:relation_subset",
+        "node": "predicate_application"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "reduction",
+                "node": "variable"
+              },
+              "node": "kernel"
+            },
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "strong_query",
+                "node": "variable"
+              },
+              "node": "kernel"
+            }
+          ],
+          "name": "builtin:relation_subset",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "reduction",
+                "node": "variable"
+              },
+              "node": "kernel"
+            },
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "weak_query",
+                "node": "variable"
+              },
+              "node": "kernel"
+            }
+          ],
+          "name": "builtin:relation_subset",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "left": {
+          "arguments": [
+            {
+              "name": "reachable",
+              "node": "variable"
+            },
+            {
+              "name": "consumer_family",
+              "node": "variable"
+            },
+            {
+              "name": "added_consumer",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:product_query_kernel",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "reachable",
+                  "node": "variable"
+                },
+                {
+                  "name": "consumer_family",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:consumer_family_kernel",
+              "node": "function_application"
+            },
+            {
+              "domain": {
+                "name": "reachable",
+                "node": "variable"
+              },
+              "map": {
+                "name": "added_consumer",
+                "node": "variable"
+              },
+              "node": "kernel"
+            }
+          ],
+          "node": "intersection"
+        }
+      },
+      {
+        "arguments": [
+          {
+            "name": "reachable",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:all_kernel_claims_restricted_to",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "claim_sha256": "8a6fad92bc3920f4fcf7d8f0a9af7b9aebebe38356d81b3803efc62a5bf27736",
+  "formal_statement_sha256": "d6ba99b1bba5e503f8c1eaae27446d33d6525a4233c5236dce456592be4adba5",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.fin_a4_query_consumer_monotonicity"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "FIN-A4.METAPROOF"
+  },
+  "proof_goal_id": "FIN-A4.METAPROOF",
+  "proof_id": "FIN-A4.METAPROOF.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [],
+  "result_id": "FIN-A4",
+  "schema_version": "1.1.0"
+}

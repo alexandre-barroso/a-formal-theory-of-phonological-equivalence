@@ -1,0 +1,593 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "name": "consumer_universe",
+          "node": "variable"
+        },
+        {
+          "name": "carrier",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.A1",
+      "name": "builtin:finite_consumer_universe_on_carrier",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "redundancy_closure",
+          "node": "variable"
+        },
+        {
+          "name": "consumer_universe",
+          "node": "variable"
+        },
+        {
+          "name": "carrier",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.A2",
+      "name": "builtin:kernel_induced_redundancy_closure",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "signature",
+          "node": "variable"
+        },
+        {
+          "name": "carrier",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.A3",
+      "name": "builtin:fixed_complete_partial_signature",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "contextual_relations",
+          "node": "variable"
+        },
+        {
+          "name": "signature",
+          "node": "variable"
+        },
+        {
+          "name": "carrier",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.A4",
+      "name": "builtin:nonempty_family_of_strong_congruences",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "direct_kernel",
+          "node": "variable"
+        },
+        {
+          "name": "consumer_universe",
+          "node": "variable"
+        },
+        {
+          "name": "carrier",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.A5",
+      "name": "builtin:direct_consumer_kernel",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "arguments": [
+          {
+            "name": "redundancy_closure",
+            "node": "variable"
+          },
+          {
+            "name": "consumer_universe",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:extensive_monotone_idempotent",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "redundancy_closure",
+            "node": "variable"
+          },
+          {
+            "name": "consumer_universe",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:closure_fixed_points_form_lattice_with_intersection_and_closed_union",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "contextual_relations",
+            "node": "variable"
+          },
+          {
+            "name": "signature",
+            "node": "variable"
+          },
+          {
+            "name": "carrier",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:nonempty_intersection_is_strong_congruence",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "direct_kernel",
+            "node": "variable"
+          },
+          {
+            "name": "signature",
+            "node": "variable"
+          },
+          {
+            "name": "carrier",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:finite_refinement_yields_greatest_strong_congruence_below",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "signature",
+            "node": "variable"
+          },
+          {
+            "name": "carrier",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:nonuniform_partial_definedness_refutes_proposed_relation_strongness",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "0750411688a380d044e2390584f3ee9f62f11dde74d7c8e6cecdb325279c0631",
+      "id": "FIN-A6.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "a7e8f53ac8ff52c901454b7a63aa5dccfcb12d74dba5ecb6845f4a6cd2b59da6"
+    },
+    {
+      "arguments": [
+        {
+          "name": "redundancy_closure",
+          "node": "variable"
+        },
+        {
+          "name": "consumer_universe",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.C1",
+      "name": "builtin:extensive_monotone_idempotent",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "redundancy_closure",
+          "node": "variable"
+        },
+        {
+          "name": "consumer_universe",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.C2",
+      "name": "builtin:closure_fixed_points_form_lattice_with_intersection_and_closed_union",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "contextual_relations",
+          "node": "variable"
+        },
+        {
+          "name": "signature",
+          "node": "variable"
+        },
+        {
+          "name": "carrier",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.C3",
+      "name": "builtin:nonempty_intersection_is_strong_congruence",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "direct_kernel",
+          "node": "variable"
+        },
+        {
+          "name": "signature",
+          "node": "variable"
+        },
+        {
+          "name": "carrier",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.C4",
+      "name": "builtin:finite_refinement_yields_greatest_strong_congruence_below",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "signature",
+          "node": "variable"
+        },
+        {
+          "name": "carrier",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A6.C5",
+      "name": "builtin:nonuniform_partial_definedness_refutes_proposed_relation_strongness",
+      "node": "predicate_application"
+    }
+  ],
+  "domains": [
+    {
+      "id": "FIN-A6.DOMAIN",
+      "node": "domain",
+      "predicate": {
+        "arguments": [
+          {
+            "name": "carrier",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:finite_information_carrier",
+        "node": "predicate_application"
+      },
+      "variable": {
+        "name": "carrier",
+        "node": "variable"
+      }
+    }
+  ],
+  "english_statement_sha256": "0750411688a380d044e2390584f3ee9f62f11dde74d7c8e6cecdb325279c0631",
+  "expected_proof_methods": [
+    "FiniteSemanticProof",
+    "LeanKernelProof"
+  ],
+  "formal_statement_sha256": "cfb19822a585e516c0f3228e95950365ec25ba3ffb7de71750275a29efb3641b",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001",
+    "FOUND-TERMINATION-001"
+  ],
+  "group": "FIN",
+  "kind": "result",
+  "nonclaims": "No lattice is asserted across changing evaluators, signatures, roots, or scientific policies.",
+  "portuguese_statement_sha256": "a7e8f53ac8ff52c901454b7a63aa5dccfcb12d74dba5ecb6845f4a6cd2b59da6",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A6.LATTICE.01"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            2,
+            2,
+            4,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A6.LATTICE.01",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A6.CLOSURE.02"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            true,
+            true,
+            true,
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A6.CLOSURE.02",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A6.DEFINEDNESS.03"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            false,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A6.DEFINEDNESS.03",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A6.LATTICEOPS.04"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            5,
+            true,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A6.LATTICEOPS.04",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A6.CONTEXT.05"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A6.CONTEXT.05",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "redundancy_closure",
+                "node": "variable"
+              },
+              {
+                "name": "consumer_universe",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:extensive_monotone_idempotent",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "redundancy_closure",
+                "node": "variable"
+              },
+              {
+                "name": "consumer_universe",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:closure_fixed_points_form_lattice_with_intersection_and_closed_union",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "contextual_relations",
+                "node": "variable"
+              },
+              {
+                "name": "signature",
+                "node": "variable"
+              },
+              {
+                "name": "carrier",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:nonempty_intersection_is_strong_congruence",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "direct_kernel",
+                "node": "variable"
+              },
+              {
+                "name": "signature",
+                "node": "variable"
+              },
+              {
+                "name": "carrier",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:finite_refinement_yields_greatest_strong_congruence_below",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "signature",
+                "node": "variable"
+              },
+              {
+                "name": "carrier",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:nonuniform_partial_definedness_refutes_proposed_relation_strongness",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A6.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "carrier",
+        "consumer_universe",
+        "redundancy_closure",
+        "signature",
+        "contextual_relations",
+        "direct_kernel"
+      ]
+    }
+  ],
+  "registered_query_type": "direct closure lattice and fixed-signature contextual meet structure",
+  "result_dependencies": [
+    "FIN-A4",
+    "FIN-A5"
+  ],
+  "result_id": "FIN-A6",
+  "schema_version": "1.0.0",
+  "scope": "Finite direct and fixed-signature contextual carriers.",
+  "sorts": [
+    "Boolean",
+    "finite map",
+    "finite proof code",
+    "finite sequence",
+    "finite set",
+    "relation"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Finite consumer-battery information lattice",
+  "title_pt_BR": "Reticulado de informação de um conjunto finito de consumidores",
+  "variables": [
+    {
+      "name": "carrier",
+      "sort": "finite set"
+    },
+    {
+      "name": "consumer_universe",
+      "sort": "finite sequence"
+    },
+    {
+      "name": "redundancy_closure",
+      "sort": "finite map"
+    },
+    {
+      "name": "signature",
+      "sort": "finite proof code"
+    },
+    {
+      "name": "contextual_relations",
+      "sort": "finite sequence"
+    },
+    {
+      "name": "direct_kernel",
+      "sort": "relation"
+    }
+  ],
+  "withdrawal_condition": "Refuse across changed signatures, carriers, contexts, reachability, evaluators, or retrospectively added diagnostics. || Withdraw if the signature, operation domain, parameter/context policy, or reachable scope differs between the compared objects. || The universal join, strongness, fixed signature, and full domain account are load-bearing. Without them, no conclusion follows."
+}

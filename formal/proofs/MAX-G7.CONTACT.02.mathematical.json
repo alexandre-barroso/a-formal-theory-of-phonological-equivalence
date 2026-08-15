@@ -1,0 +1,282 @@
+{
+  "assumptions_used": [
+    "MAX-G7.DOMAIN"
+  ],
+  "claim": {
+    "bindings": [
+      {
+        "sort": "SparsePolynomial",
+        "variable": "N"
+      },
+      {
+        "sort": "SparsePolynomial",
+        "variable": "D"
+      },
+      {
+        "sort": "vector",
+        "variable": "w0"
+      },
+      {
+        "sort": "natural number",
+        "variable": "r"
+      },
+      {
+        "sort": "analytic germ with declared remainder condition",
+        "variable": "response"
+      }
+    ],
+    "body": {
+      "antecedent": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "D",
+                "node": "variable"
+              },
+              {
+                "name": "w0",
+                "node": "variable"
+              }
+            ],
+            "name": "positive_denominator_at",
+            "node": "predicate_application"
+          },
+          {
+            "left": {
+              "arguments": [
+                {
+                  "name": "N",
+                  "node": "variable"
+                },
+                {
+                  "name": "D",
+                  "node": "variable"
+                }
+              ],
+              "name": "quotient_function",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "name": "response",
+              "node": "variable"
+            }
+          }
+        ],
+        "node": "and"
+      },
+      "consequent": {
+        "left": {
+          "arguments": [
+            {
+              "name": "response",
+              "node": "variable"
+            },
+            {
+              "name": "w0",
+              "node": "variable"
+            },
+            {
+              "name": "r",
+              "node": "variable"
+            }
+          ],
+          "name": "jet_zero_through",
+          "node": "function_application"
+        },
+        "node": "iff",
+        "right": {
+          "arguments": [
+            {
+              "name": "N",
+              "node": "variable"
+            },
+            {
+              "name": "w0",
+              "node": "variable"
+            },
+            {
+              "name": "r",
+              "node": "variable"
+            }
+          ],
+          "name": "jet_zero_through",
+          "node": "function_application"
+        }
+      },
+      "node": "implies"
+    },
+    "node": "forall"
+  },
+  "claim_sha256": "8aac46fece3d8a1b6541b55989eebe7f2917b1d2f79f0f28d38a982cdb7f0707",
+  "formal_statement_sha256": "bcce9e403ac23e5419d4abcbf113cd042700fcfd557ebbb8eb47b61ee1a095df",
+  "foundation_dependencies": [
+    "FOUND-POLYNOMIAL-001",
+    "FOUND-LINEAR-001"
+  ],
+  "payload": {
+    "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g6_g9.py",
+    "checker_module_sha256": "1920742e3ffffbf6a2ca650eaf9ce1f0479bba191a21a72eccfdd8ce1a33fab4",
+    "claim_sha256": "8aac46fece3d8a1b6541b55989eebe7f2917b1d2f79f0f28d38a982cdb7f0707",
+    "closure_proof": {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "SparsePolynomial",
+            "variable": "N"
+          },
+          {
+            "sort": "SparsePolynomial",
+            "variable": "D"
+          },
+          {
+            "sort": "vector",
+            "variable": "w0"
+          },
+          {
+            "sort": "natural number",
+            "variable": "r"
+          },
+          {
+            "sort": "analytic germ with declared remainder condition",
+            "variable": "response"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "D",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "w0",
+                    "node": "variable"
+                  }
+                ],
+                "name": "positive_denominator_at",
+                "node": "predicate_application"
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "N",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "D",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "quotient_function",
+                  "node": "function_application"
+                },
+                "node": "equal",
+                "right": {
+                  "name": "response",
+                  "node": "variable"
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "left": {
+              "arguments": [
+                {
+                  "name": "response",
+                  "node": "variable"
+                },
+                {
+                  "name": "w0",
+                  "node": "variable"
+                },
+                {
+                  "name": "r",
+                  "node": "variable"
+                }
+              ],
+              "name": "jet_zero_through",
+              "node": "function_application"
+            },
+            "node": "iff",
+            "right": {
+              "arguments": [
+                {
+                  "name": "N",
+                  "node": "variable"
+                },
+                {
+                  "name": "w0",
+                  "node": "variable"
+                },
+                {
+                  "name": "r",
+                  "node": "variable"
+                }
+              ],
+              "name": "jet_zero_through",
+              "node": "function_application"
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "claim_sha256": "8aac46fece3d8a1b6541b55989eebe7f2917b1d2f79f0f28d38a982cdb7f0707",
+      "formal_statement_sha256": "0566a333d2a4072bf8d80f5fbc65e0ef987eb8b0ec342250325c3b9fbaa14918",
+      "payload": {
+        "claim_sha256": "8aac46fece3d8a1b6541b55989eebe7f2917b1d2f79f0f28d38a982cdb7f0707",
+        "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+        "foundation_dependencies": [
+          "FOUND-POLYNOMIAL-001",
+          "FOUND-LINEAR-001"
+        ],
+        "mutant_ids": [
+          "allow_zero_denominator",
+          "drop_lower_jet_induction",
+          "differentiate_quotient_without_cross_numerator"
+        ],
+        "proof": "formal/proofs/maxent/semantic/closures/MAX-G6-G9.semantic-proof.json",
+        "proof_goal_dependencies": [],
+        "proof_goal_id": "MAX-G7.CONTACT.02",
+        "proof_schema": "positive_denominator_quotient_jet_v1",
+        "proof_sha256": "a7190a45c1d38e26a2e1f4d4188e6dc55d9a8e5d014a2578429bd070a4ec96a8",
+        "replay_result": {
+          "division_guard": "D(w0)>0",
+          "forward": "zero response jet implies zero numerator jet termwise",
+          "identity": "N=D*response",
+          "jet_recurrence": "N^(k)=sum_(j=0)^k binomial(k,j) D^(j) response^(k-j)",
+          "reverse_induction": "lower response jets zero reduce N^(k)=D(w0) response^(k)"
+        },
+        "replay_result_sha256": "8276cff46387aefd431b720f00682c6a7ebdbe61219df28f8ee4939db4800ffe",
+        "result_dependencies": [],
+        "semantic_kernel_version": "maxent-g6-g9-semantic-closure-1.0.0",
+        "source_transcription_dependencies": []
+      },
+      "proof_goal_id": "MAX-G7.CONTACT.02",
+      "proof_id": "MAX-G7.CONTACT.02.MAXENT-SEMANTIC-CLOSURE.PROOF",
+      "proof_method": "MaxEntSemanticClosureProof",
+      "result_id": "MAX-G7",
+      "schema_version": "1.0.0"
+    },
+    "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+    "proof_goal_id": "MAX-G7.CONTACT.02",
+    "proof_method": "MaxEntSemanticClosureProof",
+    "replayed_universal": true,
+    "semantic_kernel_version": "maxent-semantics-1.0.0",
+    "supports_whole_result_closure": true
+  },
+  "proof_goal_id": "MAX-G7.CONTACT.02",
+  "proof_id": "MAX-G7.CONTACT.02.MAXENT-SEMANTIC-CLOSURE.PROOF",
+  "proof_method": "MaxEntSemanticClosureProof",
+  "result_dependencies": [
+    "MAX-G1"
+  ],
+  "result_id": "MAX-G7",
+  "schema_version": "1.1.0"
+}

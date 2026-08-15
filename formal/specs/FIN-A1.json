@@ -1,0 +1,909 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "name": "source_orbits",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A1.A1",
+      "name": "builtin:duplicate_free_finite_set",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "target_orbits",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A1.A2",
+      "name": "builtin:duplicate_free_finite_set",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "orbit_map",
+          "node": "variable"
+        },
+        {
+          "name": "source_orbits",
+          "node": "variable"
+        },
+        {
+          "name": "target_orbits",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A1.A3",
+      "name": "builtin:total_induced_orbit_map",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "orbit_map",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A1.A4",
+      "name": "builtin:equivariance_witnesses_orbit_well_definedness",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "arguments": [
+          {
+            "name": "orbit_map",
+            "node": "variable"
+          },
+          {
+            "name": "source_orbits",
+            "node": "variable"
+          },
+          {
+            "name": "target_orbits",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:induced_orbit_map_is_well_defined",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "domain": {
+                    "name": "source_orbits",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "orbit_map",
+                    "node": "variable"
+                  },
+                  "node": "collision_pairs"
+                }
+              ],
+              "name": "builtin:finite_relation_empty",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:injective_on",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:injective_on",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "domain": {
+                    "name": "source_orbits",
+                    "node": "variable"
+                  },
+                  "map": {
+                    "name": "orbit_map",
+                    "node": "variable"
+                  },
+                  "node": "collision_pairs"
+                }
+              ],
+              "name": "builtin:finite_relation_empty",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          }
+        ],
+        "node": "and"
+      },
+      {
+        "arguments": [
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:injective_on",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:two_sided_inverse_on_image_exists",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:two_sided_inverse_on_image_exists",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:injective_on",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          }
+        ],
+        "node": "and"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "orbit_map",
+              "node": "variable"
+            },
+            {
+              "name": "source_orbits",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:two_sided_inverse_on_image_exists",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "name": "orbit_map",
+              "node": "variable"
+            },
+            {
+              "name": "source_orbits",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:inverse_on_image_is_unique",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "source_orbits",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:finite_set_empty",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "name": "orbit_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:recovery_status_is_vacuous",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "f74ec62df8c83233c0afe21366d3fcadde42d006918ef4ac29b461604d2919bd",
+      "id": "FIN-A1.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "5ecedb0ef41f9055d36b88f0f499fd27e5e7e198043a16acbff749724345a4f2"
+    },
+    {
+      "arguments": [
+        {
+          "name": "orbit_map",
+          "node": "variable"
+        },
+        {
+          "name": "source_orbits",
+          "node": "variable"
+        },
+        {
+          "name": "target_orbits",
+          "node": "variable"
+        }
+      ],
+      "id": "FIN-A1.C1",
+      "name": "builtin:induced_orbit_map_is_well_defined",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "antecedent": {
+            "arguments": [
+              {
+                "domain": {
+                  "name": "source_orbits",
+                  "node": "variable"
+                },
+                "map": {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                "node": "collision_pairs"
+              }
+            ],
+            "name": "builtin:finite_relation_empty",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "name": "orbit_map",
+                "node": "variable"
+              },
+              {
+                "name": "source_orbits",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:injective_on",
+            "node": "predicate_application"
+          },
+          "node": "implies"
+        },
+        {
+          "antecedent": {
+            "arguments": [
+              {
+                "name": "orbit_map",
+                "node": "variable"
+              },
+              {
+                "name": "source_orbits",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:injective_on",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "domain": {
+                  "name": "source_orbits",
+                  "node": "variable"
+                },
+                "map": {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                "node": "collision_pairs"
+              }
+            ],
+            "name": "builtin:finite_relation_empty",
+            "node": "predicate_application"
+          },
+          "node": "implies"
+        }
+      ],
+      "id": "FIN-A1.C2",
+      "node": "and"
+    },
+    {
+      "arguments": [
+        {
+          "antecedent": {
+            "arguments": [
+              {
+                "name": "orbit_map",
+                "node": "variable"
+              },
+              {
+                "name": "source_orbits",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:injective_on",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "name": "orbit_map",
+                "node": "variable"
+              },
+              {
+                "name": "source_orbits",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:two_sided_inverse_on_image_exists",
+            "node": "predicate_application"
+          },
+          "node": "implies"
+        },
+        {
+          "antecedent": {
+            "arguments": [
+              {
+                "name": "orbit_map",
+                "node": "variable"
+              },
+              {
+                "name": "source_orbits",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:two_sided_inverse_on_image_exists",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "name": "orbit_map",
+                "node": "variable"
+              },
+              {
+                "name": "source_orbits",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:injective_on",
+            "node": "predicate_application"
+          },
+          "node": "implies"
+        }
+      ],
+      "id": "FIN-A1.C3",
+      "node": "and"
+    },
+    {
+      "antecedent": {
+        "arguments": [
+          {
+            "name": "orbit_map",
+            "node": "variable"
+          },
+          {
+            "name": "source_orbits",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:two_sided_inverse_on_image_exists",
+        "node": "predicate_application"
+      },
+      "consequent": {
+        "arguments": [
+          {
+            "name": "orbit_map",
+            "node": "variable"
+          },
+          {
+            "name": "source_orbits",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:inverse_on_image_is_unique",
+        "node": "predicate_application"
+      },
+      "id": "FIN-A1.C4",
+      "node": "implies"
+    },
+    {
+      "antecedent": {
+        "arguments": [
+          {
+            "name": "source_orbits",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:finite_set_empty",
+        "node": "predicate_application"
+      },
+      "consequent": {
+        "arguments": [
+          {
+            "name": "orbit_map",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:recovery_status_is_vacuous",
+        "node": "predicate_application"
+      },
+      "id": "FIN-A1.C5",
+      "node": "implies"
+    }
+  ],
+  "domains": [
+    {
+      "id": "FIN-A1.DOMAIN",
+      "node": "domain",
+      "predicate": {
+        "arguments": [
+          {
+            "name": "source_orbits",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:finite_orbit_set",
+        "node": "predicate_application"
+      },
+      "variable": {
+        "name": "source_orbits",
+        "node": "variable"
+      }
+    }
+  ],
+  "english_statement_sha256": "f74ec62df8c83233c0afe21366d3fcadde42d006918ef4ac29b461604d2919bd",
+  "expected_proof_methods": [
+    "FiniteSemanticProof",
+    "LeanKernelProof"
+  ],
+  "formal_statement_sha256": "c17a61ef74c408f6ff99ff0a7e6e4ace476ae414894334e0d72d5523fabc766b",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001"
+  ],
+  "group": "FIN",
+  "kind": "result",
+  "nonclaims": "No raw representative inverse, public reverse term, or scientific adequacy follows.",
+  "portuguese_statement_sha256": "5ecedb0ef41f9055d36b88f0f499fd27e5e7e198043a16acbff749724345a4f2",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A1.INVERSE.01"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A1.INVERSE.01",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A1.EMPTY.02"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": "EMPTY LICENSED SOURCE IMAGE: SEMANTIC INVERSE VACUOUS"
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A1.EMPTY.02",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A1.EQUIVARIANCE.03"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A1.EQUIVARIANCE.03",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "FIN-A1.NEGATIVE.04"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            false,
+            [
+              [
+                [
+                  "a"
+                ],
+                [
+                  "b",
+                  "c"
+                ]
+              ]
+            ],
+            true
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A1.NEGATIVE.04",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "orbit_map",
+                "node": "variable"
+              },
+              {
+                "name": "source_orbits",
+                "node": "variable"
+              },
+              {
+                "name": "target_orbits",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:induced_orbit_map_is_well_defined",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "antecedent": {
+                  "arguments": [
+                    {
+                      "domain": {
+                        "name": "source_orbits",
+                        "node": "variable"
+                      },
+                      "map": {
+                        "name": "orbit_map",
+                        "node": "variable"
+                      },
+                      "node": "collision_pairs"
+                    }
+                  ],
+                  "name": "builtin:finite_relation_empty",
+                  "node": "predicate_application"
+                },
+                "consequent": {
+                  "arguments": [
+                    {
+                      "name": "orbit_map",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_orbits",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:injective_on",
+                  "node": "predicate_application"
+                },
+                "node": "implies"
+              },
+              {
+                "antecedent": {
+                  "arguments": [
+                    {
+                      "name": "orbit_map",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_orbits",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:injective_on",
+                  "node": "predicate_application"
+                },
+                "consequent": {
+                  "arguments": [
+                    {
+                      "domain": {
+                        "name": "source_orbits",
+                        "node": "variable"
+                      },
+                      "map": {
+                        "name": "orbit_map",
+                        "node": "variable"
+                      },
+                      "node": "collision_pairs"
+                    }
+                  ],
+                  "name": "builtin:finite_relation_empty",
+                  "node": "predicate_application"
+                },
+                "node": "implies"
+              }
+            ],
+            "node": "and"
+          },
+          {
+            "arguments": [
+              {
+                "antecedent": {
+                  "arguments": [
+                    {
+                      "name": "orbit_map",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_orbits",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:injective_on",
+                  "node": "predicate_application"
+                },
+                "consequent": {
+                  "arguments": [
+                    {
+                      "name": "orbit_map",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_orbits",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:two_sided_inverse_on_image_exists",
+                  "node": "predicate_application"
+                },
+                "node": "implies"
+              },
+              {
+                "antecedent": {
+                  "arguments": [
+                    {
+                      "name": "orbit_map",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_orbits",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:two_sided_inverse_on_image_exists",
+                  "node": "predicate_application"
+                },
+                "consequent": {
+                  "arguments": [
+                    {
+                      "name": "orbit_map",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_orbits",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:injective_on",
+                  "node": "predicate_application"
+                },
+                "node": "implies"
+              }
+            ],
+            "node": "and"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:two_sided_inverse_on_image_exists",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:inverse_on_image_is_unique",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "source_orbits",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:finite_set_empty",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "orbit_map",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:recovery_status_is_vacuous",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          }
+        ],
+        "node": "and"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FIN-A1.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "source_orbits",
+        "target_orbits",
+        "orbit_map"
+      ]
+    }
+  ],
+  "registered_query_type": "semantic orbit recovery on a finite induced map",
+  "result_dependencies": [],
+  "result_id": "FIN-A1",
+  "schema_version": "1.0.0",
+  "scope": "Finite semantic orbit sets.",
+  "sorts": [
+    "Boolean",
+    "finite map",
+    "finite set"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Semantic orbit recovery",
+  "title_pt_BR": "Recuperação de órbitas semânticas",
+  "variables": [
+    {
+      "name": "source_orbits",
+      "sort": "finite set"
+    },
+    {
+      "name": "target_orbits",
+      "sort": "finite set"
+    },
+    {
+      "name": "orbit_map",
+      "sort": "finite map"
+    }
+  ],
+  "withdrawal_condition": "No novelty claim. Refuse if the action is incomplete, the weakening is not equivariant, or the requested conclusion concerns raw representatives rather than orbits."
+}

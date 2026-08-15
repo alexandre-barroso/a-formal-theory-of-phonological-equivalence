@@ -1,0 +1,17 @@
+{
+  "check_id": "FLUX-D1.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "88ec3663c29e46c9ec2c5b78900a65a00efc11cd213796a96801ba61331ab648",
+  "payload": {
+    "en_statement_file_sha256": "78526d64943bb4ac335d3c447e130e7f7bca81ad16c9e0ae26e824fc51546916",
+    "en_statement_marker": "formal/specs/FLUX-D1.json",
+    "en_statement_path": "proofs/en/results/FLUX-D1.tex",
+    "en_statement_sha256": "6a726fc4664762dc10df688f5210b4eeba9f49fcb6279c71fff39765fedc6535",
+    "pt_BR_statement_file_sha256": "b0715bc6e564025d17424ec8f6e562ded71139ffe5d4f19a2d1a36387e1e6fd6",
+    "pt_BR_statement_marker": "formal/specs/FLUX-D1.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/FLUX-D1.tex",
+    "pt_BR_statement_sha256": "cec67483651a9b3e38474fbcc209af9e8245e462abb9b90cf7d6575f09e3f2f1"
+  },
+  "result_id": "FLUX-D1",
+  "schema_version": "1.0.0"
+}

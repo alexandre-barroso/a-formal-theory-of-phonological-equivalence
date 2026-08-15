@@ -1,0 +1,2 @@
+$ sh scripts/check_forbidden_tokens.sh
+PASS: no sorry, admit, native_decide, unsafe, or project axiom declarations found.

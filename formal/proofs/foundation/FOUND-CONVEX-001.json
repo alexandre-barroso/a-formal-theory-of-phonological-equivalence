@@ -1,0 +1,25 @@
+{
+  "conclusion": {
+    "conditions": [
+      "convex domain",
+      "attained minimum",
+      "strictly convex objective"
+    ],
+    "node": "strict_convexity_unique_minimizer"
+  },
+  "formal_statement_sha256": "b39d75d2beabe456461d4ecdb057ed917f0d87748dd8f01069ef64d26d90c5de",
+  "foundation_id": "FOUND-CONVEX-001",
+  "proof_id": "FOUND-CONVEX-001.PROOF",
+  "proof_method": "LocalStructuralDerivationProof",
+  "schema_version": "1.0.0",
+  "steps": [
+    {
+      "domain": "convex domain",
+      "rule": "strict_midpoint_inequality"
+    },
+    {
+      "conclusion": "strict_convexity_unique_minimizer",
+      "rule": "two_minimizers_contradiction"
+    }
+  ]
+}

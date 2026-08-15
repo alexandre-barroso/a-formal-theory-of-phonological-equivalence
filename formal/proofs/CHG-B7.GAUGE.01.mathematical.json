@@ -1,0 +1,121 @@
+{
+  "assumptions_used": [
+    "CHG-B7.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "h>0",
+        "m>0",
+        "lambda>0",
+        "p>1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+        "rho": "h/m"
+      }
+    },
+    "component": "scale_gauge",
+    "expected": true,
+    "inputs": {},
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B7"
+  },
+  "claim_sha256": "cd1844fe8d0ac7d8a02016014d717636108bdda12fe8c4199c4c55b77fbae4cf",
+  "formal_statement_sha256": "afc641c94a9f75a1539fb9d0672f477638266c71d70e3329c031341e1cbbc855",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "h>0",
+        "m>0",
+        "lambda>0",
+        "p>1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+        "rho": "h/m"
+      }
+    },
+    "assumption_model": {
+      "h": 5,
+      "lambda": 7,
+      "m": 1,
+      "p": 2
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+          "rho": "h/m"
+        }
+      },
+      "component": "scale_gauge",
+      "expected": true,
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B7"
+    },
+    "derivation": {
+      "base": "25/8",
+      "component": "scale_gauge",
+      "result_id": "CHG-B7",
+      "scaled": "175/8"
+    },
+    "mutant_ids": [
+      "CHG-B7.MUTANT.CONCLUSION",
+      "CHG-B7.MUTANT.ASSUMPTION",
+      "CHG-B7.MUTANT.COMPONENT",
+      "CHG-B7.MUT.ABSOLUTE-WEIGHT-IDENTIFICATION"
+    ],
+    "observed": true,
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B7.GAUGE.01",
+  "proof_id": "CHG-B7.GAUGE.01.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "CHG-B2"
+  ],
+  "result_id": "CHG-B7",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,1375 @@
+{
+  "assumptions_used": [
+    "MAX-G6.DOMAIN"
+  ],
+  "claim": {
+    "arguments": [
+      {
+        "left": {
+          "arguments": [
+            {
+              "entries": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "node": "tensor"
+            }
+          ],
+          "name": "strict_ranking_count",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "node": "integer",
+          "value": 24
+        }
+      },
+      {
+        "left": {
+          "arguments": [
+            {
+              "entries": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "node": "tensor"
+            }
+          ],
+          "name": "distinct_winner_maps",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "elements": [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              3,
+              3
+            ],
+            [
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "node": "finite_set"
+        }
+      },
+      {
+        "left": {
+          "arguments": [
+            {
+              "entries": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "node": "tensor"
+            }
+          ],
+          "name": "nonreflexive_implication_count",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "node": "integer",
+          "value": 121
+        }
+      },
+      {
+        "left": {
+          "arguments": [
+            {
+              "entries": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "node": "tensor"
+            }
+          ],
+          "name": "empty_antecedent_implication_count",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "node": "integer",
+          "value": 105
+        }
+      },
+      {
+        "left": {
+          "arguments": [
+            {
+              "entries": [
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    2
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    1
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    1,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    0,
+                    1,
+                    1
+                  ],
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    0,
+                    0,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              ],
+              "node": "tensor"
+            }
+          ],
+          "name": "live_implication_count",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "node": "integer",
+          "value": 16
+        }
+      }
+    ],
+    "node": "and"
+  },
+  "claim_sha256": "79ff26d06194fd3d9cda17de5ce15791c4c311e42ed052ef38eb87bdc55099e6",
+  "formal_statement_sha256": "0af24a02c4c558f776143b884ac582286ff4b84518062ee9c140766d9205f83c",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-POLYNOMIAL-001"
+  ],
+  "payload": {
+    "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g6_g9.py",
+    "checker_module_sha256": "1920742e3ffffbf6a2ca650eaf9ce1f0479bba191a21a72eccfdd8ce1a33fab4",
+    "claim_sha256": "79ff26d06194fd3d9cda17de5ce15791c4c311e42ed052ef38eb87bdc55099e6",
+    "closure_proof": {
+      "claim": {
+        "arguments": [
+          {
+            "left": {
+              "arguments": [
+                {
+                  "entries": [
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        2
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        2,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        0
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "node": "tensor"
+                }
+              ],
+              "name": "strict_ranking_count",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "node": "integer",
+              "value": 24
+            }
+          },
+          {
+            "left": {
+              "arguments": [
+                {
+                  "entries": [
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        2
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        2,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        0
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "node": "tensor"
+                }
+              ],
+              "name": "distinct_winner_maps",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "elements": [
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  3,
+                  3
+                ],
+                [
+                  1,
+                  2,
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              ],
+              "node": "finite_set"
+            }
+          },
+          {
+            "left": {
+              "arguments": [
+                {
+                  "entries": [
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        2
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        2,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        0
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "node": "tensor"
+                }
+              ],
+              "name": "nonreflexive_implication_count",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "node": "integer",
+              "value": 121
+            }
+          },
+          {
+            "left": {
+              "arguments": [
+                {
+                  "entries": [
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        2
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        2,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        0
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "node": "tensor"
+                }
+              ],
+              "name": "empty_antecedent_implication_count",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "node": "integer",
+              "value": 105
+            }
+          },
+          {
+            "left": {
+              "arguments": [
+                {
+                  "entries": [
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        2
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        2,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        0
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "node": "tensor"
+                }
+              ],
+              "name": "live_implication_count",
+              "node": "function_application"
+            },
+            "node": "equal",
+            "right": {
+              "node": "integer",
+              "value": 16
+            }
+          }
+        ],
+        "node": "and"
+      },
+      "claim_sha256": "79ff26d06194fd3d9cda17de5ce15791c4c311e42ed052ef38eb87bdc55099e6",
+      "formal_statement_sha256": "2c52204afe5352468a8443d39f05fc06b3eb803413e85281c42a2114960c4a2f",
+      "payload": {
+        "claim_sha256": "79ff26d06194fd3d9cda17de5ce15791c4c311e42ed052ef38eb87bdc55099e6",
+        "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+        "foundation_dependencies": [
+          "FOUND-FINITE-001",
+          "FOUND-POLYNOMIAL-001"
+        ],
+        "mutant_ids": [
+          "omit_one_ranking",
+          "change_tensor_cell",
+          "retain_only_distinct_maps"
+        ],
+        "proof": "formal/proofs/maxent/semantic/closures/MAX-G6-G9.semantic-proof.json",
+        "proof_goal_dependencies": [],
+        "proof_goal_id": "MAX-G6.ENUM.01",
+        "proof_schema": "basic_syllable_exhaustive_inventory_v1",
+        "proof_sha256": "a7190a45c1d38e26a2e1f4d4188e6dc55d9a8e5d014a2578429bd070a4ec96a8",
+        "replay_result": {
+          "empty_antecedent_count": 105,
+          "live_implication_count": 16,
+          "nonreflexive_implication_count": 121,
+          "ranking_count": 24,
+          "winner_maps": [
+            [
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              3,
+              3
+            ],
+            [
+              1,
+              2,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ]
+        },
+        "replay_result_sha256": "a0f6b559ea42d128676f6bfa1c0eb40eb839ab5837229ffb437dc914c9678022",
+        "result_dependencies": [],
+        "semantic_kernel_version": "maxent-g6-g9-semantic-closure-1.0.0",
+        "source_transcription_dependencies": [
+          "formal/source_transcriptions/basic_syllable_system.json"
+        ]
+      },
+      "proof_goal_id": "MAX-G6.ENUM.01",
+      "proof_id": "MAX-G6.ENUM.01.MAXENT-SEMANTIC-CLOSURE.PROOF",
+      "proof_method": "MaxEntSemanticClosureProof",
+      "result_id": "MAX-G6",
+      "schema_version": "1.0.0"
+    },
+    "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+    "proof_goal_id": "MAX-G6.ENUM.01",
+    "proof_method": "MaxEntSemanticClosureProof",
+    "replayed_universal": false,
+    "semantic_kernel_version": "maxent-semantics-1.0.0",
+    "supports_whole_result_closure": true
+  },
+  "proof_goal_id": "MAX-G6.ENUM.01",
+  "proof_id": "MAX-G6.ENUM.01.MAXENT-SEMANTIC-CLOSURE.PROOF",
+  "proof_method": "MaxEntSemanticClosureProof",
+  "result_dependencies": [
+    "MAX-G5"
+  ],
+  "result_id": "MAX-G6",
+  "schema_version": "1.1.0"
+}

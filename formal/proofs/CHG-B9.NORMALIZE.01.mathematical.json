@@ -1,0 +1,134 @@
+{
+  "assumptions_used": [
+    "CHG-B9.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "0<=tau<1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "phase_equation": "B_K(tau)=(p*rho)^q",
+        "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+      }
+    },
+    "component": "normalized_mass",
+    "expected": true,
+    "inputs": {
+      "support": 4,
+      "tau": "1/3"
+    },
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B9"
+  },
+  "claim_sha256": "07fb0441239a8d99a4ac74cbeb15fda18d5c2f1d32ea9dfc9418a406dbcb6d1c",
+  "formal_statement_sha256": "2769fde9cc1611d9012420a3fb879f727123909502ad7bfc8c7e941d7ac108a4",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "0<=tau<1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "phase_equation": "B_K(tau)=(p*rho)^q",
+        "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+      }
+    },
+    "assumption_model": {
+      "K": 4,
+      "p": 2,
+      "rho": 5,
+      "tau": 0
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "K>=1",
+            "p>1",
+            "rho>0",
+            "0<=tau<1"
+          ],
+          "phase_equation": "B_K(tau)=(p*rho)^q",
+          "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+        }
+      },
+      "component": "normalized_mass",
+      "expected": true,
+      "inputs": {
+        "support": 4,
+        "tau": "1/3"
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B9"
+    },
+    "derivation": {
+      "component": "normalized_mass",
+      "decreases": [
+        "11/26",
+        "4/13",
+        "5/26",
+        "1/13"
+      ],
+      "mass": 1,
+      "result_id": "CHG-B9"
+    },
+    "mutant_ids": [
+      "CHG-B9.MUTANT.CONCLUSION",
+      "CHG-B9.MUTANT.ASSUMPTION",
+      "CHG-B9.MUTANT.COMPONENT",
+      "CHG-B9.MUT.UNRESTRICTED-PHASE-PARAMETER"
+    ],
+    "observed": true,
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B9.NORMALIZE.01",
+  "proof_id": "CHG-B9.NORMALIZE.01.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "CHG-B2"
+  ],
+  "result_id": "CHG-B9",
+  "schema_version": "1.1.0"
+}

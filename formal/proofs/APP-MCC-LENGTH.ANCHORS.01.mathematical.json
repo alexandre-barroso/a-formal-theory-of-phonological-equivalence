@@ -1,0 +1,147 @@
+{
+  "assumptions_used": [
+    "APP-MCC-LENGTH.SOURCE.01"
+  ],
+  "claim": {
+    "algorithm": "quadratic_profile_bundle_v1",
+    "expected": [
+      [
+        5,
+        [
+          "1",
+          "13/20",
+          "3/8",
+          "7/40",
+          "1/20",
+          "0"
+        ]
+      ],
+      [
+        4,
+        [
+          "1",
+          "3/5",
+          "3/10",
+          "1/10",
+          "0"
+        ]
+      ],
+      [
+        9,
+        [
+          "1",
+          "50/63",
+          "11/18",
+          "19/42",
+          "20/63",
+          "13/63",
+          "5/42",
+          "1/18",
+          "1/63",
+          "0"
+        ]
+      ]
+    ],
+    "inputs": [
+      {
+        "h": "20",
+        "horizon": 5,
+        "m": "3"
+      },
+      {
+        "h": "5",
+        "horizon": 4,
+        "m": "1"
+      },
+      {
+        "h": "21",
+        "horizon": 9,
+        "m": "1"
+      }
+    ],
+    "node": "exact_application_result",
+    "source": {
+      "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+      "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+      "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+    }
+  },
+  "claim_sha256": "2571e23f3558832531b65c34656f8228909c55e598f2a5f5ffec453db0cb7981",
+  "formal_statement_sha256": "b32a629b1c0b6eebb7793055a673c171ac067c583193e1dd3c9ce87d0df4894f",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001"
+  ],
+  "payload": {
+    "algorithm": "quadratic_profile_bundle_v1",
+    "expected": [
+      [
+        5,
+        [
+          "1",
+          "13/20",
+          "3/8",
+          "7/40",
+          "1/20",
+          "0"
+        ]
+      ],
+      [
+        4,
+        [
+          "1",
+          "3/5",
+          "3/10",
+          "1/10",
+          "0"
+        ]
+      ],
+      [
+        9,
+        [
+          "1",
+          "50/63",
+          "11/18",
+          "19/42",
+          "20/63",
+          "13/63",
+          "5/42",
+          "1/18",
+          "1/63",
+          "0"
+        ]
+      ]
+    ],
+    "inputs": [
+      {
+        "h": "20",
+        "horizon": 5,
+        "m": "3"
+      },
+      {
+        "h": "5",
+        "horizon": 4,
+        "m": "1"
+      },
+      {
+        "h": "21",
+        "horizon": 9,
+        "m": "1"
+      }
+    ],
+    "source": {
+      "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+      "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+      "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+    }
+  },
+  "proof_goal_id": "APP-MCC-LENGTH.ANCHORS.01",
+  "proof_id": "APP-MCC-LENGTH.ANCHORS.01.PROOF",
+  "proof_method": "ExactApplicationProof",
+  "result_dependencies": [
+    "CHG-B2",
+    "CHG-B3"
+  ],
+  "result_id": "APP-MCC-LENGTH",
+  "schema_version": "1.1.0"
+}

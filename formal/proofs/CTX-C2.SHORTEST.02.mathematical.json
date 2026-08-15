@@ -1,0 +1,116 @@
+{
+  "assumptions_used": [
+    "CTX-C2.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "algorithm": "ctx_c2_shortest_fixture_v1",
+    "expected": [
+      [
+        "1/6",
+        0
+      ],
+      [
+        "1/3",
+        "1/3"
+      ]
+    ],
+    "family": "contextual_interaction",
+    "inputs": {
+      "p": 2,
+      "phase": "1/4",
+      "support": 2
+    },
+    "node": "analytic_proof_result"
+  },
+  "claim_sha256": "d5e1117e2c9ff694ea005dd5217d2e5cea578ca311e34543ed8f3e4b04ebbe6c",
+  "formal_statement_sha256": "50918e1ee50c08eabd298285e6c4b159f982eb1b4d9869e7cc923cd65b63915e",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "p_strictly_greater_than_one",
+        "K_integer_at_least_two",
+        "positive_fixed_edge_site_ratio",
+        "complete_candidate_order_query",
+        "opposite_endpoint_probe",
+        "CTX-C1"
+      ],
+      "node": "contextual_assumptions"
+    },
+    "assumption_model": {
+      "K": 2,
+      "one_trigger": [
+        1,
+        0
+      ],
+      "opposite_triggers": [
+        1,
+        1
+      ],
+      "p": 2,
+      "rho": 3
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "algorithm": "ctx_c2_shortest_fixture_v1",
+      "expected": [
+        [
+          "1/6",
+          0
+        ],
+        [
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "family": "contextual_interaction",
+      "inputs": {
+        "p": 2,
+        "phase": "1/4",
+        "support": 2
+      },
+      "node": "analytic_proof_result"
+    },
+    "derivation": {
+      "absolute": [
+        "1/3",
+        "1/3"
+      ],
+      "forward": [
+        "1/6",
+        0
+      ],
+      "rho": "3/4"
+    },
+    "mutant_ids": [
+      "CTX-C2.MUTANT.CONCLUSION",
+      "CTX-C2.MUTANT.ASSUMPTION",
+      "CTX-C2.MUTANT.COMPONENT"
+    ],
+    "observed": [
+      [
+        "1/6",
+        0
+      ],
+      [
+        "1/3",
+        "1/3"
+      ]
+    ],
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CTX-C2.SHORTEST.02",
+  "proof_id": "CTX-C2.SHORTEST.02.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [],
+  "result_id": "CTX-C2",
+  "schema_version": "1.1.0"
+}

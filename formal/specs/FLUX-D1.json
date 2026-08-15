@@ -1,0 +1,376 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "fixed_real_load_for_complete_winner_bridge",
+        "positive_load_for_registered_periodic_analytic_fixture",
+        "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+        "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+        "baseline_exact_path_KKT_iff_global_winner_contract",
+        "transformed_exact_path_KKT_iff_global_winner_contract",
+        "arbitrary_complete_box_path_family_for_shift_sufficiency",
+        "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+      ],
+      "id": "FLUX-D1.ASSUMPTION-MANIFEST",
+      "node": "flux_assumptions"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "fixed_real_load_for_complete_winner_bridge",
+            "positive_load_for_registered_periodic_analytic_fixture",
+            "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+            "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+            "baseline_exact_path_KKT_iff_global_winner_contract",
+            "transformed_exact_path_KKT_iff_global_winner_contract",
+            "arbitrary_complete_box_path_family_for_shift_sufficiency",
+            "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "periodic_shift",
+        "expected": {
+          "F": "y+epsilon*delta/(2*Pi)*sin(2*Pi*y/delta)",
+          "shift_identity": "F(y+delta)-F(y)=delta",
+          "strictly_increasing_when": "abs(epsilon)<1"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D1"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "fixed_real_load_for_complete_winner_bridge",
+            "positive_load_for_registered_periodic_analytic_fixture",
+            "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+            "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+            "baseline_exact_path_KKT_iff_global_winner_contract",
+            "transformed_exact_path_KKT_iff_global_winner_contract",
+            "arbitrary_complete_box_path_family_for_shift_sufficiency",
+            "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "integrated_potential",
+        "expected": {
+          "derivative": "F(c*d)",
+          "potential": "c*d^2/2+epsilon*delta^2/(4*Pi^2*c)*(1-cos(2*Pi*c*d/delta))"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D1"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "fixed_real_load_for_complete_winner_bridge",
+            "positive_load_for_registered_periodic_analytic_fixture",
+            "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+            "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+            "baseline_exact_path_KKT_iff_global_winner_contract",
+            "transformed_exact_path_KKT_iff_global_winner_contract",
+            "arbitrary_complete_box_path_family_for_shift_sufficiency",
+            "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "candidate_order_reversal",
+        "expected": {
+          "difference": "1/100+(-9+Sqrt(5))/(32*Pi^2)",
+          "sign": "negative"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D1"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "fixed_real_load_for_complete_winner_bridge",
+            "positive_load_for_registered_periodic_analytic_fixture",
+            "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+            "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+            "baseline_exact_path_KKT_iff_global_winner_contract",
+            "transformed_exact_path_KKT_iff_global_winner_contract",
+            "arbitrary_complete_box_path_family_for_shift_sufficiency",
+            "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "fixed_load_equivalence",
+        "expected": {
+          "general_solution": "F(y)=y+P(y), P lambda-periodic",
+          "obstacle_signs_preserved": true,
+          "winner_equivalence_iff": "F(y+lambda)=F(y)+lambda on the complete reachable flux domain"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D1"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "6a726fc4664762dc10df688f5210b4eeba9f49fcb6279c71fff39765fedc6535",
+      "id": "FLUX-D1.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "cec67483651a9b3e38474fbcc209af9e8245e462abb9b90cf7d6575f09e3f2f1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "fixed_real_load_for_complete_winner_bridge",
+          "positive_load_for_registered_periodic_analytic_fixture",
+          "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+          "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+          "baseline_exact_path_KKT_iff_global_winner_contract",
+          "transformed_exact_path_KKT_iff_global_winner_contract",
+          "arbitrary_complete_box_path_family_for_shift_sufficiency",
+          "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+        ],
+        "node": "flux_assumptions"
+      },
+      "component": "periodic_shift",
+      "expected": {
+        "F": "y+epsilon*delta/(2*Pi)*sin(2*Pi*y/delta)",
+        "shift_identity": "F(y+delta)-F(y)=delta",
+        "strictly_increasing_when": "abs(epsilon)<1"
+      },
+      "id": "FLUX-D1.CLAIM.01",
+      "node": "flux_result",
+      "result_id": "FLUX-D1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "fixed_real_load_for_complete_winner_bridge",
+          "positive_load_for_registered_periodic_analytic_fixture",
+          "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+          "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+          "baseline_exact_path_KKT_iff_global_winner_contract",
+          "transformed_exact_path_KKT_iff_global_winner_contract",
+          "arbitrary_complete_box_path_family_for_shift_sufficiency",
+          "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+        ],
+        "node": "flux_assumptions"
+      },
+      "component": "integrated_potential",
+      "expected": {
+        "derivative": "F(c*d)",
+        "potential": "c*d^2/2+epsilon*delta^2/(4*Pi^2*c)*(1-cos(2*Pi*c*d/delta))"
+      },
+      "id": "FLUX-D1.CLAIM.02",
+      "node": "flux_result",
+      "result_id": "FLUX-D1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "fixed_real_load_for_complete_winner_bridge",
+          "positive_load_for_registered_periodic_analytic_fixture",
+          "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+          "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+          "baseline_exact_path_KKT_iff_global_winner_contract",
+          "transformed_exact_path_KKT_iff_global_winner_contract",
+          "arbitrary_complete_box_path_family_for_shift_sufficiency",
+          "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+        ],
+        "node": "flux_assumptions"
+      },
+      "component": "candidate_order_reversal",
+      "expected": {
+        "difference": "1/100+(-9+Sqrt(5))/(32*Pi^2)",
+        "sign": "negative"
+      },
+      "id": "FLUX-D1.CLAIM.03",
+      "node": "flux_result",
+      "result_id": "FLUX-D1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "fixed_real_load_for_complete_winner_bridge",
+          "positive_load_for_registered_periodic_analytic_fixture",
+          "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+          "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+          "baseline_exact_path_KKT_iff_global_winner_contract",
+          "transformed_exact_path_KKT_iff_global_winner_contract",
+          "arbitrary_complete_box_path_family_for_shift_sufficiency",
+          "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+        ],
+        "node": "flux_assumptions"
+      },
+      "component": "fixed_load_equivalence",
+      "expected": {
+        "general_solution": "F(y)=y+P(y), P lambda-periodic",
+        "obstacle_signs_preserved": true,
+        "winner_equivalence_iff": "F(y+lambda)=F(y)+lambda on the complete reachable flux domain"
+      },
+      "id": "FLUX-D1.CLAIM.04",
+      "node": "flux_result",
+      "result_id": "FLUX-D1"
+    }
+  ],
+  "domains": [
+    {
+      "family": "constitutive_flux",
+      "id": "FLUX-D1.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "FLUX-D1",
+      "variables": []
+    }
+  ],
+  "english_statement_sha256": "6a726fc4664762dc10df688f5210b4eeba9f49fcb6279c71fff39765fedc6535",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "88ec3663c29e46c9ec2c5b78900a65a00efc11cd213796a96801ba61331ab648",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-ANALYTIC-001",
+    "FOUND-LIMIT-001",
+    "FOUND-LINEAR-001"
+  ],
+  "group": "FLUX",
+  "kind": "result",
+  "nonclaims": "Finite candidate preorders and margins are not preserved automatically.",
+  "portuguese_statement_sha256": "cec67483651a9b3e38474fbcc209af9e8245e462abb9b90cf7d6575f09e3f2f1",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "fixed_real_load_for_complete_winner_bridge",
+            "positive_load_for_registered_periodic_analytic_fixture",
+            "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+            "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+            "baseline_exact_path_KKT_iff_global_winner_contract",
+            "transformed_exact_path_KKT_iff_global_winner_contract",
+            "arbitrary_complete_box_path_family_for_shift_sufficiency",
+            "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "periodic_shift",
+        "expected": {
+          "F": "y+epsilon*delta/(2*Pi)*sin(2*Pi*y/delta)",
+          "shift_identity": "F(y+delta)-F(y)=delta",
+          "strictly_increasing_when": "abs(epsilon)<1"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FLUX-D1.SHIFT.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "fixed_real_load_for_complete_winner_bridge",
+            "positive_load_for_registered_periodic_analytic_fixture",
+            "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+            "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+            "baseline_exact_path_KKT_iff_global_winner_contract",
+            "transformed_exact_path_KKT_iff_global_winner_contract",
+            "arbitrary_complete_box_path_family_for_shift_sufficiency",
+            "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "integrated_potential",
+        "expected": {
+          "derivative": "F(c*d)",
+          "potential": "c*d^2/2+epsilon*delta^2/(4*Pi^2*c)*(1-cos(2*Pi*c*d/delta))"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FLUX-D1.POTENTIAL.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "fixed_real_load_for_complete_winner_bridge",
+            "positive_load_for_registered_periodic_analytic_fixture",
+            "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+            "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+            "baseline_exact_path_KKT_iff_global_winner_contract",
+            "transformed_exact_path_KKT_iff_global_winner_contract",
+            "arbitrary_complete_box_path_family_for_shift_sufficiency",
+            "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "candidate_order_reversal",
+        "expected": {
+          "difference": "1/100+(-9+Sqrt(5))/(32*Pi^2)",
+          "sign": "negative"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FLUX-D1.REVERSAL.03",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "fixed_real_load_for_complete_winner_bridge",
+            "positive_load_for_registered_periodic_analytic_fixture",
+            "odd_strictly_increasing_bijective_marginals_for_registered_constitutive_fixture",
+            "strict_convexity_only_when_instantiating_a_concrete_objective_bridge",
+            "baseline_exact_path_KKT_iff_global_winner_contract",
+            "transformed_exact_path_KKT_iff_global_winner_contract",
+            "arbitrary_complete_box_path_family_for_shift_sufficiency",
+            "complete_free_two_edge_winner_probe_family_for_shift_necessity"
+          ],
+          "node": "flux_assumptions"
+        },
+        "component": "fixed_load_equivalence",
+        "expected": {
+          "general_solution": "F(y)=y+P(y), P lambda-periodic",
+          "obstacle_signs_preserved": true,
+          "winner_equivalence_iff": "F(y+lambda)=F(y)+lambda on the complete reachable flux domain"
+        },
+        "node": "flux_result",
+        "result_id": "FLUX-D1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "FLUX-D1.NECESSITY.04",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact constitutive_flux result consequence",
+  "result_dependencies": [],
+  "result_id": "FLUX-D1",
+  "schema_version": "1.0.0",
+  "scope": "Path-winner response at one declared load.",
+  "sorts": [
+    "analytic germ with declared remainder condition",
+    "finite sequence",
+    "positive real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Fixed-load path-flux equivalence",
+  "title_pt_BR": "Equivalência de fluxo em caminho com carga fixa",
+  "variables": [],
+  "withdrawal_condition": "Necessity is reachable-domain qualified; it is not a theorem for unregistered paths or loads."
+}

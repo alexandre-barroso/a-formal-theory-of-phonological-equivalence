@@ -1,0 +1,1956 @@
+{
+  "applications": [
+    {
+      "application_reference": "McCollum grid-versus-continuum",
+      "catalog_status": "catalogued",
+      "citation_keys": "mccollum2019gradienceLocality",
+      "dependency_result_ids": "CHG-B4;CHG-B6",
+      "exact_source_facing_result": "At h=21,m=1,N=1 the exact continuum optimizer is 41/42 while the tenths lattice selects 1, so exact winner identity is not preserved.",
+      "nonclaim_or_ceiling": "Printed formal fragment only; no empirical Kyrgyz or weaker-query upcast.",
+      "proof_or_audit_route": "proofs/en/results/CHG-B4.tex;proofs/en/results/CHG-B6.tex;data/canonical/applications/mccollum_grid_continuum.tsv",
+      "stable_public_id": "APP-MCC-GRID"
+    },
+    {
+      "application_reference": "McCollum horizon extension",
+      "catalog_status": "catalogued",
+      "citation_keys": "mccollum2019gradienceLocality",
+      "dependency_result_ids": "CHG-B2;CHG-B3",
+      "exact_source_facing_result": "Before saturation, adding a follower changes earlier positive coordinates; at and after K_p, extension appends zeros and preserves the prefix. At h=5,m=1,p=2 the profile is 1,3/5,3/10,1/10,0,... .",
+      "nonclaim_or_ceiling": "Formal optimizer consequence only; no universal finite-harmony claim.",
+      "proof_or_audit_route": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B3.tex;data/canonical/applications/mccollum_length_profile.tsv",
+      "stable_public_id": "APP-MCC-LENGTH"
+    },
+    {
+      "application_reference": "Fixed-parameter profile compiler",
+      "catalog_status": "catalogued",
+      "citation_keys": "mccollum2019gradienceLocality",
+      "dependency_result_ids": "FIN-A7;CHG-B2",
+      "exact_source_facing_result": "For fixed rational quadratic weights, a finite indexed response code reproduces the registered winner/profile/support consequences.",
+      "nonclaim_or_ceiling": "Upper bound for the named query surface, not a minimal grammar, continuum elimination theorem, or cognitive representation.",
+      "proof_or_audit_route": "proofs/en/results/FIN-A7.tex;proofs/en/results/CHG-B2.tex;data/canonical/applications/mccollum_length_profile.tsv",
+      "stable_public_id": "APP-MCC-COMP"
+    },
+    {
+      "application_reference": "Goldrick-Daland selected-output counterexample",
+      "catalog_status": "catalogued",
+      "citation_keys": "goldrickDaland2009speechErrorsHarmonicGrammarNetworks",
+      "dependency_result_ids": "SEL-F1",
+      "exact_source_facing_result": "A complete binary grammar satisfies the printed Definition-8 premises and Theorem-3 pairwise order but reverses final Corollary 3 under one common spherical radial law for which both named errors have positive probability.",
+      "nonclaim_or_ceiling": "Refutes final Corollary 3 as written, not Theorem 3, the simulations, or the empirical tendency.",
+      "proof_or_audit_route": "proofs/en/results/SEL-F1.tex;data/canonical/applications/goldrick_daland_counterexample.tsv",
+      "stable_public_id": "SEL-F2"
+    },
+    {
+      "application_reference": "Basic Syllable vacuity decomposition",
+      "catalog_status": "catalogued",
+      "citation_keys": "magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate",
+      "dependency_result_ids": "MAX-G5;MAX-G6",
+      "exact_source_facing_result": "The later all-121 lift is zero iff w=0, but 105 implications have empty antecedents and the 16 nonvacuous implications define the printed full-dimensional two-facet cone.",
+      "nonclaim_or_ceiling": "The published zero arithmetic is not called false; the 2018 100-arrow convention remains distinct.",
+      "proof_or_audit_route": "proofs/en/results/MAX-G5.tex;proofs/en/results/MAX-G6.tex;data/canonical/applications/basic_syllable.tsv",
+      "stable_public_id": "APP-BASIC"
+    },
+    {
+      "application_reference": "Pater-Staubs-Jesney-Smith hidden-UR scaling",
+      "catalog_status": "uncatalogued_post_closure",
+      "citation_keys": "paterStaubsJesneySmith2012learningProbabilitiesUR",
+      "dependency_result_ids": "MAX-G7",
+      "exact_source_facing_result": "For fixed finite hidden support and fixed positive masses, common scaling sends overt target mass to one iff every global hidden-score maximizer lies in the target surface fibre; finite-scale success alone is insufficient.",
+      "nonclaim_or_ceiling": "No reclassification of an unprinted complete candidate ledger or claim about learning convergence.",
+      "proof_or_audit_route": "proofs/en/results/MAX-G7.tex;data/canonical/applications/pater_scaling.tsv",
+      "stable_public_id": "APP-PATER"
+    },
+    {
+      "application_reference": "Walker Korean gradient-activity boundary",
+      "catalog_status": "uncatalogued_post_closure",
+      "citation_keys": "walker2020gradientFeatureActivity",
+      "dependency_result_ids": "FIN-A7",
+      "exact_source_facing_result": "The printed two-candidate penalties imply assimilation iff y-x>-1/20; the open strip -0.05<y-x<0 qualifies the early order-sufficiency prose while all six printed decimal cells remain correct.",
+      "nonclaim_or_ceiling": "No complete Korean GEN, learned scale, or population claim.",
+      "proof_or_audit_route": "proofs/en/results/FIN-A7.tex;data/canonical/applications/walker_boundary.tsv",
+      "stable_public_id": "APP-WALKER"
+    },
+    {
+      "application_reference": "Cabrera one-shot identification boundary",
+      "catalog_status": "uncatalogued_post_closure",
+      "citation_keys": "cabrera2025oneShotCompetitionsPhonotactics",
+      "dependency_result_ids": "MAX-G7;MAX-G9",
+      "exact_source_facing_result": "The complete one-shot law identifies m through q_(n+1)/q_n=e^-m but deletes the MPARSE intercept p; an independently bridged binary response recovers p=mn+logit(r_n), otherwise no conclusion about p.",
+      "nonclaim_or_ceiling": "A zero/one null frequency is an analyst convention, not lexical evidence; no p inference without an independent response bridge.",
+      "proof_or_audit_route": "proofs/en/results/MAX-G7.tex;proofs/en/results/MAX-G9.tex;data/canonical/applications/cabrera_identifiability.tsv",
+      "stable_public_id": "APP-CABRERA"
+    }
+  ],
+  "claims": [
+    {
+      "allowed_strength": "The analytical mathematics is closed and synchronized as one typed consequence-response preservation system at the exact declared scope; the bounded post-closure source/application audit is also closed.",
+      "chapter": "1",
+      "claim_id": "FR-C01",
+      "exact_final_proposition": "The registered analytical results form one typed consequence-response preservation system at the exact declared scope; the bounded source-facing applications remain separate registered consequences.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Research closure is not dissertation completion, field reception, empirical universality, or unrestricted proof-assistant verification beyond the 68 registered results and 218 registered proof goals.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The project remains unnamed and is neither a universal speaker grammar nor a universal continuity/categoricality thesis; its one contribution is not multiplied by the number of applications.",
+      "chapter": "1",
+      "claim_id": "FR-C02",
+      "exact_final_proposition": "The project remains unnamed and is neither a universal speaker grammar nor a universal continuity/categoricality thesis; its one contribution is not multiplied by the number of applications.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Optional naming cannot alter the research object; no universal ontology, language-wide upcast, or independent-count claim.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The recognized gap is the absence in the completed and targeted record of a general typed account of which phonological claims survive candidate-support refinement, domain extension, evaluator/presentation change, representation reduction, and relocation to realization.",
+      "chapter": "1",
+      "claim_id": "FR-C03",
+      "exact_final_proposition": "The recognized gap is the absence in the completed and targeted record of a general typed account of which phonological claims survive candidate-support refinement, domain extension, evaluator/presentation change, representation reduction, and relocation to realization.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Not a universal proof that no related method exists; same-scope prior work narrows or withdraws priority.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The final doctoral question asks which registered phonological and locus claims are conservative under those transformations, and what exact attainment and persistence laws govern directional superlinear continuous harmony.",
+      "chapter": "1",
+      "claim_id": "FR-C04",
+      "exact_final_proposition": "The final doctoral question asks which registered phonological and locus claims are conservative under those transformations, and what exact attainment and persistence laws govern directional superlinear continuous harmony.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Query- and contract-relative; not a universal ontology question.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The final theory is a negative, second-order theory of typed analysis conservativity and representational warrant, not a positive first-order speaker grammar.",
+      "chapter": "1",
+      "claim_id": "FR-C05",
+      "exact_final_proposition": "The final theory is a negative, second-order theory of typed analysis conservativity and representational warrant, not a positive first-order speaker grammar.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Leaves possible human input--output mappings unrestricted and makes no positive continuity claim.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "A phonological analysis is the typed contract \\(\\mathcal A=(I,\\mathrm{GEN},\\mathrm{CON},\\mathrm{EVAL},O,Q,\\mathcal G,\\mathcal R,\\mathcal C)\\).",
+      "chapter": "1",
+      "claim_id": "FR-C06",
+      "exact_final_proposition": "A phonological analysis is the typed contract \\(\\mathcal A=(I,\\mathrm{GEN},\\mathrm{CON},\\mathrm{EVAL},O,Q,\\mathcal G,\\mathcal R,\\mathcal C)\\).",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "An incomplete contract receives `NO CONCLUSION`.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "\\(Q\\)-conservativity is equality of the transported complete registered \\(Q\\)-value, including support, definedness, ties, and stopping information; no pass upcasts to a stronger query. A fixed finite consumer battery has one coarsest exact **direct-answer** carrier and exact added-consumer price. Preservation through formation operations or contexts instead uses the greatest admitted strong congruence inside that direct kernel. Both induce partial orders of behavioral content and earliest reachable loss witnesses.",
+      "chapter": "1",
+      "claim_id": "FR-C07",
+      "exact_final_proposition": "\\(Q\\)-conservativity is equality of the transported complete registered \\(Q\\)-value, including support, definedness, ties, and stopping information; no pass upcasts to a stronger query. A fixed finite consumer battery has one coarsest exact **direct-answer** carrier and exact added-consumer price. Preservation through formation operations or contexts instead uses the greatest admitted strong congruence inside that direct kernel. Both induce partial orders of behavioral content and earliest reachable loss witnesses.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Classifies a frozen transformation and battery, not cognitive truth or a complete phoneme inventory; incomplete transport, signature, context policy, or contract produces refusal.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Grammar, acquisition, realization, observation/annotation, listener response, and corpus inference are six distinct layers connected only by declared maps.",
+      "chapter": "1",
+      "claim_id": "FR-C08",
+      "exact_final_proposition": "Grammar, acquisition, realization, observation/annotation, listener response, and corpus inference are six distinct layers connected only by declared maps.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Smooth observations or numerical activity do not identify a grammatical carrier.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Phoneme, underlying form, surface form, `GEN`, `EVAL`, and output have distinct typed definitions and cannot be identified with acoustic or annotation objects.",
+      "chapter": "1",
+      "claim_id": "FR-C09",
+      "exact_final_proposition": "Phoneme, underlying form, surface form, `GEN`, `EVAL`, and output have distinct typed definitions and cannot be identified with acoustic or annotation objects.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Definitions are analysis- and domain-relative, not a universal phoneme ontology.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Finite, query-specific, contract-relative soundness, completeness, termination, complete mismatch witnesses, and formal refusal.",
+      "chapter": "2",
+      "claim_id": "FR-C10",
+      "exact_final_proposition": "For a fully specified finite analysis contract and a decidable registered query, the declared procedure terminates and is sound and complete for exact query preservation relative to that contract. The normative one-file specification retains or correctly replaces all thirteen version-6 clauses and preserves the version-7/version-8 repairs.",
+      "primary_evidence": "proofs/en/results/CALC-F1.tex",
+      "prohibited_upcast": "Scientific completeness; source adequacy; raw-continuum decision; tractability; speaker grammar; proof-assistant verification outside the registered scope and enumerated foundations.",
+      "status": "flagship_methodological",
+      "result_ids": "CALC-F1"
+    },
+    {
+      "allowed_strength": "Exact distinction among semantic-orbit, raw-representative, and public-term recovery.",
+      "chapter": "3",
+      "claim_id": "FR-C11",
+      "exact_final_proposition": "Semantic orbit recovery, raw representative recovery, and existence of a reverse public term are three distinct finite judgments.",
+      "primary_evidence": "proofs/en/results/FIN-A1.tex;proofs/en/results/FIN-A2.tex",
+      "prohibited_upcast": "Orbit recovery to raw inverse or mental-representation identity.",
+      "status": "supporting_mathematical_result",
+      "result_ids": "FIN-A1;FIN-A2"
+    },
+    {
+      "allowed_strength": "Typed separation of stopped sets, exact laws, generic series, prefixes, outputs, traces, stopping, and nontermination.",
+      "chapter": "3",
+      "claim_id": "FR-C12",
+      "exact_final_proposition": "Completed stopped sets, exact stopped laws, weighted series, prefix objects, terminal outputs, and traces are different dependent semantic types.",
+      "primary_evidence": "proofs/en/results/FIN-A3.tex",
+      "prohibited_upcast": "Silent casts among set, probability, path, trace, terminal, or prefix semantics.",
+      "status": "supporting_mathematical_result",
+      "result_ids": "FIN-A3"
+    },
+    {
+      "allowed_strength": "Exact optimizer, finite support, extension stability, profile, identifiability hierarchy, approximation distinction, self-similarity, and bifurcation for the declared family.",
+      "chapter": "6",
+      "claim_id": "FR-C13",
+      "exact_final_proposition": "For the declared \\(p>1\\) directional-HG class, the exact optimizer is unique, has finite positive persistence and an extension-stable zero tail, and obeys an exact shifted-power profile, local powered-gap law, comparative statics, lattice-convergence boundary, self-similar limit, and continuous support-bifurcation law.",
+      "primary_evidence": "proofs/en/results/CHG-B1.tex;proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B9.tex;proofs/en/results/CHG-B10.tex;proofs/en/results/CHG-B11.tex;proofs/en/results/CHG-B12.tex;proofs/en/results/CHG-B13.tex;proofs/en/results/CHG-B14.tex",
+      "prohibited_upcast": "Universal continuous-HG, vowel-harmony, acoustic, population, or psychological claim.",
+      "status": "flagship_mathematical",
+      "result_ids": "CHG-B1;CHG-B2;CHG-B9;CHG-B10;CHG-B11;CHG-B12;CHG-B13;CHG-B14"
+    },
+    {
+      "allowed_strength": "Exact quadratic active set and profile with equality on the zero side.",
+      "chapter": "6",
+      "claim_id": "FR-C14",
+      "exact_final_proposition": "The quadratic specialization has an exact strict/weak triangular active-set law, closed profiles, and exact positive-persistence formula.",
+      "primary_evidence": "proofs/en/results/CHG-B3.tex",
+      "prohibited_upcast": "Empirical measurement or generic quadratic HG theorem.",
+      "status": "supporting_mathematical_result",
+      "result_ids": "CHG-B3"
+    },
+    {
+      "allowed_strength": "Exact exponent, grid, gauge, persistence, singular-limit, and hard-exponent distinctions at declared scope.",
+      "chapter": "6",
+      "claim_id": "FR-C15",
+      "exact_final_proposition": "The exponent boundary separates sublinear endpoint choice, the linear uniform equality segment, and superlinear finite persistence; on every uniform lattice with \\(p\\geq1\\), all-back wins iff \\(h\\delta^{p-1}\\geq Nm\\), uniquely iff the inequality is strict. Common positive weight scaling preserves deterministic winner behavior; the resulting weight-ratio phases and support--resolution horizon are exact but query-relative. At \\(p\\downarrow1\\), a complete boundary layer selects every linear-tie member by approach rate; at \\(p\\to\\infty\\), exact support remains one follower long while its magnitude vanishes and the metric profile tends all-front.",
+      "primary_evidence": "proofs/en/results/CHG-B5.tex;proofs/en/results/CHG-B6.tex;proofs/en/results/CHG-B7.tex;proofs/en/results/CHG-B8.tex;proofs/en/results/CHG-B15.tex;proofs/en/results/CHG-B16.tex",
+      "prohibited_upcast": "Grid-continuum identity; path-neutral tie ontology; generic hard-constraint convergence; acoustic limit.",
+      "status": "flagship_mathematical",
+      "result_ids": "CHG-B5;CHG-B6;CHG-B7;CHG-B8;CHG-B15;CHG-B16"
+    },
+    {
+      "allowed_strength": "Exact delimited McCollum formal consequences and changed winner/support interpretation.",
+      "chapter": "7",
+      "claim_id": "FR-C16",
+      "exact_final_proposition": "The printed path weights give positive persistence 4 in Uyghur, 3 in Kazakh, and 8 in Kyrgyz; the Kyrgyz one-follower continuum winner is \\(41/42\\) while the tenth lattice selects \\(1\\).",
+      "primary_evidence": "proofs/en/results/APP-MCC-GRID.tex;proofs/en/results/APP-MCC-LENGTH.tex",
+      "prohibited_upcast": "Speaker observation; language-wide finite-harmony conclusion; omitted-constraint robustness.",
+      "status": "published_analysis_consequence",
+      "result_ids": "APP-MCC-GRID;APP-MCC-LENGTH"
+    },
+    {
+      "allowed_strength": "Finite proof-carrying response code for named fixed-parameter consequences.",
+      "chapter": "3",
+      "claim_id": "FR-C17",
+      "exact_final_proposition": "The external continuous theorem is not internalized into version 8; at fixed rational quadratic weights, a finite compiler preserves only named queries and supplies no positive continuum inference.",
+      "primary_evidence": "proofs/en/results/FIN-A7.tex;proofs/en/results/APP-MCC-COMP.tex",
+      "prohibited_upcast": "Internalization of raw continuum, full GEN/preorder, or necessary continuous carrier.",
+      "status": "limitation_or_refusal",
+      "result_ids": "FIN-A7;APP-MCC-COMP"
+    },
+    {
+      "allowed_strength": "The theory is situated within, and compares rather than replaces, strict OT, finite HG, finite MaxEnt, finite serialism, gradient symbolic grammar, phonetic optimization, and finite categorical rivals.",
+      "chapter": "1",
+      "claim_id": "FR-C18",
+      "exact_final_proposition": "The theory is situated within, and compares rather than replaces, strict OT, finite HG, finite MaxEnt, finite serialism, gradient symbolic grammar, phonetic optimization, and finite categorical rivals.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Agreement under one evaluator or layer does not transport to another without proof.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "For the tested current Uyghur low-vowel pattern, the strongest supported rival is categorical lexical harmony and allomorphy followed by context-sensitive postphonological centralization; no positive continuous grammar-internal carrier is warranted.",
+      "chapter": "1",
+      "claim_id": "FR-C19",
+      "exact_final_proposition": "For the tested current Uyghur low-vowel pattern, the strongest supported rival is categorical lexical harmony and allomorphy followed by context-sensitive postphonological centralization; no positive continuous grammar-internal carrier is warranted.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Tested Chunja low vowels only; author manuscript; no universal categoricality or unique realization mechanism.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Bounded priority attaches only to the phonology-specific conjunction of typed \\(Q\\)-conservativity, evaluator/layer-sensitive admission and refusal, proof-carrying analytic import, finite carrier proofs, the exact continuous-HG response/identification theorems, the finite-MaxEnt response and compiler theorems with their separately conditional complexity boundary, and their single consequence-response architecture.",
+      "chapter": "1",
+      "claim_id": "FR-C20",
+      "exact_final_proposition": "Bounded priority attaches only to the phonology-specific conjunction of typed \\(Q\\)-conservativity, evaluator/layer-sensitive admission and refusal, proof-carrying analytic import, finite carrier proofs, the exact continuous-HG response/identification theorems, the finite-MaxEnt response and compiler theorems with their separately conditional complexity boundary, and their single consequence-response architecture.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Equality, kernels, quotients, strong preservation, formal comparison, analytic identity, Lambert-\\(W\\), interpolation, zero counting, convex hulls, real-closed-field decision, KKT, asymptotics, and model comparison are not claimed new; same-scope prior work withdraws or narrows priority.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "All 38 live and four historical GradiEnt defects have terminal dispositions: retained-and-proved after replacement or explicitly retired.",
+      "chapter": "1",
+      "claim_id": "FR-C21",
+      "exact_final_proposition": "All 38 live and four historical GradiEnt defects have terminal dispositions: retained-and-proved after replacement or explicitly retired.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "This is complete predecessor closure, not a second independent novelty claim.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Eleven exact regressions prevent return to target leakage, invalid variational resemblance, intercept gauge, boundary-only stability, endpoint-distance effort, mixed dimensions, candidate cloning, finite-to-continuum inference, large-\\(n\\) error dilution, optimizer semantics, or grid/grammar confusion.",
+      "chapter": "1",
+      "claim_id": "FR-C22",
+      "exact_final_proposition": "Eleven exact regressions prevent return to target leakage, invalid variational resemblance, intercept gauge, boundary-only stability, endpoint-distance effort, mixed dimensions, candidate cloning, finite-to-continuum inference, large-\\(n\\) error dilution, optimizer semantics, or grid/grammar confusion.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Each witness defeats the exact predecessor inference; it does not prohibit all future models serving a similar function.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The public method is an ordinary evaluator calculation plus a compact typed comparison record, an evaluator-specific rider, and a mandatory status/refusal footer.",
+      "chapter": "1",
+      "claim_id": "FR-C23",
+      "exact_final_proposition": "The public method is an ordinary evaluator calculation plus a compact typed comparison record, an evaluator-specific rider, and a mandatory status/refusal footer.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "The cards and examples communicate the calculus; they are not theoretical novelty, typographical minimality, measured field adoption, or proof that every hard instance is short.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The phoneme firewall shows that a contextual quotient may merge independently contrasting `/pa/` and `/ba/`, while a context-sensitive query may split stipulated surface realizations of one lexical `/t/`.",
+      "chapter": "1",
+      "claim_id": "FR-C24",
+      "exact_final_proposition": "The phoneme firewall shows that a contextual quotient may merge independently contrasting `/pa/` and `/ba/`, while a context-sensitive query may split stipulated surface realizations of one lexical `/t/`.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Formal examples; the stipulated `/t/` pairing is not attributed to a named variety.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Bare minimum-cardinality word discrimination does not uniquely identify an underlying carrier: two incomparable two-symbol quotients correctly separate \\(L=\\{ac,bd\\}\\).",
+      "chapter": "1",
+      "claim_id": "FR-C25",
+      "exact_final_proposition": "Bare minimum-cardinality word discrimination does not uniquely identify an underlying carrier: two incomparable two-symbol quotients correctly separate \\(L=\\{ac,bd\\}\\).",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Underidentification for this evidence contract, not universal nonuniqueness of underlying forms.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Exact winner nonconservativity between tenths lattice and continuum in the declared one-follower fragment.",
+      "chapter": "7",
+      "claim_id": "FR-C26",
+      "exact_final_proposition": "The Kyrgyz comparison proves exact `GEN` nonconservativity: the tenth lattice and \\([0,1]\\) have different exact winners.",
+      "primary_evidence": "proofs/en/results/APP-MCC-GRID.tex",
+      "prohibited_upcast": "Production measurement or every weaker query.",
+      "status": "published_analysis_consequence",
+      "result_ids": "APP-MCC-GRID"
+    },
+    {
+      "allowed_strength": "The same category quotient can preserve a strict-OT winner-category set while changing the finite-MaxEnt category law from \\(2/3:1/3\\) to \\(1/2:1/2\\) if fiber mass is discarded.",
+      "chapter": "1",
+      "claim_id": "FR-C27",
+      "exact_final_proposition": "The same category quotient can preserve a strict-OT winner-category set while changing the finite-MaxEnt category law from \\(2/3:1/3\\) to \\(1/2:1/2\\) if fiber mass is discarded.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "MaxEnt is conserved if pushed-forward base mass \\(2:1\\) is retained; strict-OT full support is not claimed preserved.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "In Shona, an immediate H string may fail to preserve tone-node identity, association, domain, and provenance needed by a later phonological operation; a finite enriched-state rival remains sufficient for the bounded fragment.",
+      "chapter": "1",
+      "claim_id": "FR-C28",
+      "exact_final_proposition": "In Shona, an immediate H string may fail to preserve tone-node identity, association, domain, and provenance needed by a later phonological operation; a finite enriched-state rival remains sufficient for the bounded fragment.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Retrospective mixed-context diagnostic; no unique graph ontology or complete Shona grammar.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The available Portuguese support cannot distinguish distance, proposed boundary/domain, and conditional-morphology loci, and a matched categorical-plus-realization rival survives; therefore target outcomes remained sealed.",
+      "chapter": "1",
+      "claim_id": "FR-C29",
+      "exact_final_proposition": "The available Portuguese support cannot distinguish distance, proposed boundary/domain, and conditional-morphology loci, and a matched categorical-plus-realization rival survives; therefore target outcomes remained sealed.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Structural support result only; no Portuguese acoustic null/effect, phone identity, dialect, or carrier conclusion.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The four packet components have distinct roles: text nominates construction, waveform is physical record, TextGrid is uncertain annotation, and BioEar is a deterministic waveform transform.",
+      "chapter": "1",
+      "claim_id": "FR-C30",
+      "exact_final_proposition": "The four packet components have distinct roles: text nominates construction, waveform is physical record, TextGrid is uncertain annotation, and BioEar is a deterministic waveform transform.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "None is phonologist-validated ground truth or independent evidence for grammar, response, or replication.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The Portuguese support result is fixed by an inventory of 89,378 signed items in 251 inquiries, 24,393,269 bytes, SHA-256 `62ff972948c92800ff3eafd233fd34a023e3f06a6983da260fd44f83de494c70`.",
+      "chapter": "1",
+      "claim_id": "FR-C31",
+      "exact_final_proposition": "The Portuguese support result is fixed by an inventory of 89,378 signed items in 251 inquiries, 24,393,269 bytes, SHA-256 `62ff972948c92800ff3eafd233fd34a023e3f06a6983da260fd44f83de494c70`.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Inquiry-local diarization labels are not global speaker identities.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "On every admitted opportunity \\(q\\), \\(d(q)=b(q)=m(q)\\); at least two crossed binary rows are necessary to make the three columns pairwise distinct, and the registered support contains none.",
+      "chapter": "1",
+      "claim_id": "FR-C32",
+      "exact_final_proposition": "On every admitted opportunity \\(q\\), \\(d(q)=b(q)=m(q)\\); at least two crossed binary rows are necessary to make the three columns pairwise distinct, and the registered support contains none.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Support-specific; another corpus could contain the rows.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "No target `.wav`, TextGrid, transcript outcome, or `_bioear.h5` target value was opened because support and realization gates failed.",
+      "chapter": "1",
+      "claim_id": "FR-C33",
+      "exact_final_proposition": "No target `.wav`, TextGrid, transcript outcome, or `_bioear.h5` target value was opened because support and realization gates failed.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "“No conclusion” is not an acoustic null or equivalence result.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Almost one terabyte and very large \\(n\\) cannot dilute unknown systematic alignment, design, selection, or provenance error; large \\(n\\) reduces sampling variance only under a valid observation model.",
+      "chapter": "1",
+      "claim_id": "FR-C34",
+      "exact_final_proposition": "Almost one terabyte and very large \\(n\\) cannot dilute unknown systematic alignment, design, selection, or provenance error; large \\(n\\) reduces sampling variance only under a valid observation model.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "The cited L2-English study does not calibrate the owned Brazilian Portuguese corpus.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The mathematically synchronized package satisfies the project's six-row bounded doctoral-contribution test: recognized problem, nontrivial theorem, independent audit, analysis-changing application, finite public consequence, and central falsifier.",
+      "chapter": "1",
+      "claim_id": "FR-C35",
+      "exact_final_proposition": "The mathematically synchronized package satisfies the project's six-row bounded doctoral-contribution test: recognized problem, nontrivial theorem, independent audit, analysis-changing application, finite public consequence, and central falsifier.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Internal substantive standard only; no reception, prestige, universality, or case-independence is claimed.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Every central result and refusal has a finite paper-and-pencil form that supplements ordinary tableaux rather than replacing them; no software or new tableau is required to apply the declared decision cards.",
+      "chapter": "1",
+      "claim_id": "FR-C36",
+      "exact_final_proposition": "Every central result and refusal has a finite paper-and-pencil form that supplements ordinary tableaux rather than replacing them; no software or new tableau is required to apply the declared decision cards.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Paper calculability is not psychological simplicity or general tractability; reproducing a worst-case hardness reduction or large empirical ledger may require extended calculation.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "All stronger conclusions have explicit no-upcast, falsifier, timing, dependence, alias, and withdrawal rules.",
+      "chapter": "1",
+      "claim_id": "FR-C37",
+      "exact_final_proposition": "All stronger conclusions have explicit no-upcast, falsifier, timing, dependence, alias, and withdrawal rules.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "A refusal defeats only the named inference; the deterministic one-hot-tag lift preserves only its registered Boolean order verdict, while aliases and masses remain part of the original grammar's probability law; retrospective evidence cannot become prospective confirmation.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Chronological limitation: an earlier package-status judgment has no present evidential force beyond its then-registered scope.",
+      "chapter": "1",
+      "claim_id": "FR-C38",
+      "exact_final_proposition": "An earlier package-status judgment does not license a current scientific-completeness claim after the registered scope changes.",
+      "primary_evidence": "CHANGELOG.md;registry/claim_budget.tsv",
+      "prohibited_upcast": "It may document chronology but cannot independently authorize a present completion statement.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "One typed consequence-response preservation system with two evaluator-specific response branches.",
+      "chapter": "1",
+      "claim_id": "FR-C39",
+      "exact_final_proposition": "The formal doctoral contribution is one typed consequence-response preservation system: finite consequence registration and refusal, proof-carrying analytic import, and exact continuous-HG and finite-MaxEnt response branches. Every language or published-source case is an application, reproduction, stress test, or delimitation of that system.",
+      "primary_evidence": "proofs/en/results/CALC-F1.tex;proofs/en/results/FIN-A7.tex;proofs/en/results/CHG-B2.tex;proofs/en/results/FLUX-D4.tex;proofs/en/results/FLUX-D5.tex;proofs/en/results/MAX-G7.tex;proofs/en/results/MAX-G8.tex;proofs/en/results/MAX-G9.tex",
+      "prohibited_upcast": "Multiple architectures, research questions, or contributions inferred from theorem/application counts.",
+      "status": "flagship_methodological",
+      "result_ids": "CALC-F1;FIN-A7;CHG-B2;FLUX-D4;FLUX-D5;MAX-G7;MAX-G8;MAX-G9"
+    },
+    {
+      "allowed_strength": "Exact weak-versus-strong observation-query preservation and 13 gate witnesses.",
+      "chapter": "8",
+      "claim_id": "FR-C40",
+      "exact_final_proposition": "On the target-disjoint CORAA--NURC-SP control-development panel, deleting \\(H\\), \\(F\\), or \\(Z\\) preserves all 18 \\(Q_{\\mathrm{med}}\\) signs but changes \\(Q_{\\mathrm{gate}}\\) in 3, 6, and 4 cells respectively, yielding 13 exact witnesses; the full-cue variant passes 17/18 cells, the reduced variants jointly pass 40/54, and all variants jointly pass 57/72.",
+      "primary_evidence": "proofs/en/results/DATA-PT-R1.tex",
+      "prohibited_upcast": "Realized palatalization; target outcome; phone truth; grammatical cue primitive; language-wide law.",
+      "status": "data_demonstration",
+      "result_ids": "DATA-PT-R1"
+    },
+    {
+      "allowed_strength": "Exact retrospective ordinal VCTK ledger replay and positive-affine sign preservation.",
+      "chapter": "8",
+      "claim_id": "FR-C41",
+      "exact_final_proposition": "In target-free varied-accent VCTK read English, all 150 registered scenarios and all 4,200 splitwise median cells preserve the retrospective FLEECE--DRESS 14-sign order query; every cell has a strict positive-speaker majority, and formantwise positive affine speaker gauges preserve those signs.",
+      "primary_evidence": "proofs/en/results/DATA-EN-R1.tex",
+      "prohibited_upcast": "Metric equivalence; final-/t/ analysis; merger/phoneme ontology; all-accent law.",
+      "status": "data_demonstration",
+      "result_ids": "DATA-EN-R1"
+    },
+    {
+      "allowed_strength": "Exact construction-scope collision, corrected 622/13/4 decision table, and four repaired manufactured counterexamples.",
+      "chapter": "8",
+      "claim_id": "FR-C42",
+      "exact_final_proposition": "In AISHELL-3, forgetting simplex `一个` versus complex-cardinal final-digit `…十一个` scope is nonconservative for \\(Q_{\\mathrm{Wu}}\\); retaining scope produces 622 matches, 13 counterexamples, and 4 `NO_CONCLUSION_SCOPE` rows and repairs four manufactured counterexamples.",
+      "primary_evidence": "proofs/en/results/DATA-ZH-R1.tex",
+      "prohibited_upcast": "F0/acoustic result; unique derivation; speaker/dialect effect; Mandarin-wide rule.",
+      "status": "data_demonstration",
+      "result_ids": "DATA-ZH-R1"
+    },
+    {
+      "allowed_strength": "The settled 12-case battery reproduces every registered bounded source consequence across eight named languages, at least nine domains, at least six transformation types, and multiple evaluator families, yielding five conservative and seven nonconservative verdicts.",
+      "chapter": "1",
+      "claim_id": "FR-C43",
+      "exact_final_proposition": "The settled 12-case battery reproduces every registered bounded source consequence across eight named languages, at least nine domains, at least six transformation types, and multiple evaluator families, yielding five conservative and seven nonconservative verdicts.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Replication breadth, not twelve discoveries, twelve solved languages, or twelve independent validations.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The contested 10-case battery passes its bounded live-analysis gate: three analysis-changing conclusions, one positive evaluator-semantic warrant, exact nonidentification/refusal results, and surviving simpler rivals are preserved with the corrected Greek, Poko, Huai'an, and Mandarin records.",
+      "chapter": "1",
+      "claim_id": "FR-C44",
+      "exact_final_proposition": "The contested 10-case battery passes its bounded live-analysis gate: three analysis-changing conclusions, one positive evaluator-semantic warrant, exact nonidentification/refusal results, and surviving simpler rivals are preserved with the corrected Greek, Poko, Huai'an, and Mandarin records.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "Does not solve ten whole languages; `NO CONCLUSION` remains a result type; Mandarin 622/13/4 supersedes 621/18 for final reporting.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "The combined record warrants task-generality across the registered transformations, queries, and layers, not universality: all timing labels, failed readers, target seals, surviving rivals, population scopes, and shared dependencies remain binding.",
+      "chapter": "1",
+      "claim_id": "FR-C45",
+      "exact_final_proposition": "The combined record warrants task-generality across the registered transformations, queries, and layers, not universality: all timing labels, failed readers, target seals, surviving rivals, population scopes, and shared dependencies remain binding.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "The 25 rows reduce to 17 bookkeeping evidence families, which is not an independence count; no first-order speaker grammar, carrier, ontology, or universal law follows.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Status relativity to the exact theorem set; no scientific claim follows from package chronology.",
+      "chapter": "1",
+      "claim_id": "FR-C46",
+      "exact_final_proposition": "A package-status judgment remains relative to its exact registered theorem set and is withdrawn when that theorem set changes.",
+      "primary_evidence": "CHANGELOG.md;registry/claim_budget.tsv",
+      "prohibited_upcast": "This row records chronology only and cannot establish the amended 2-August files.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Exact all-rival selected-output admission theorem and narrow counterexample to Goldrick-Daland final Corollary 3.",
+      "chapter": "7",
+      "claim_id": "FR-C47",
+      "exact_final_proposition": "For strict noisy-HG selection, a named output is the intersection of every target--competitor halfspace, and a single pairwise cap is uniformly exact over spherical radial laws iff every required comparison vector is a positive-ray duplicate. A complete binary grammar with score rows \\((0,20,-17,1)\\) and \\((0,3,17,18)\\) satisfies Goldrick--Daland Definition 8 and their source-format Theorem-3 order \\(19/2>15/2\\) (equivalently, the same strict order appears as five-coordinate crossing distances \\(19/\\sqrt5>15/\\sqrt5\\)), yet its selected-region onset squares satisfy \\(361/5<1010/9\\), reversing final Corollary 3 under one common spherical radial law for which both named errors have positive probability.",
+      "primary_evidence": "proofs/en/results/SEL-F1.tex;proofs/en/results/SEL-F2.tex",
+      "prohibited_upcast": "Refutation of Theorem 3, simulations, empirical tendency, or the entire theory.",
+      "status": "published_analysis_consequence",
+      "result_ids": "SEL-F1;SEL-F2"
+    },
+    {
+      "allowed_strength": "The deterministic one-hot compiler preserves the bounded-ETR-INV unsatisfiability verdict and satisfies the registered finite row-count and target-object-size bounds relative to ExplicitCompactMinimumFoundation.",
+      "chapter": "4",
+      "claim_id": "FR-C48",
+      "exact_final_proposition": "Relative to ExplicitCompactMinimumFoundation, the deterministic bounded-ETR-INV compiler produces a fully explicit finite-MaxEnt universal-order instance with two inputs, unit masses, zero named rows, globally distinct nonnamed \\(\\{1,\\ldots,5\\}\\)-profiles, and exactly the source-unsatisfiability verdict; the row count and encoded target-object size satisfy the registered source-size bounds.",
+      "primary_evidence": "proofs/en/results/MAX-G1.tex;proofs/en/results/MAX-G2.tex;proofs/en/results/MAX-G3.tex",
+      "prohibited_upcast": "Standard-machine running time; \\(\\forall\\mathbb R\\)-membership or completeness; pointwise-probability preservation; candidate identity; cognitive or natural-language hardness.",
+      "status": "flagship_mathematical",
+      "result_ids": "MAX-G1;MAX-G2;MAX-G3"
+    },
+    {
+      "allowed_strength": "Exact normalizer-by-relation classification, including the exact globally distinct {1,2}^k proper-CNF selector bridge and local charge bounds; conventional coNP-completeness only under ExecutableCNFConventionalBoundary.",
+      "chapter": "4",
+      "claim_id": "FR-C49",
+      "exact_final_proposition": "Finite unit-mass MaxEnt has an exact normalizer-by-relation classification: under one input, all-weight equality is violation-row identity and weak order is coordinatewise domination; across inputs, equality is multiplicity-sensitive equality of relative-row multisets and weak order is polynomial nonnegativity. A concrete proper-CNF selector compiler exactly transports unsatisfiability to the globally distinct \\(\\{1,2\\}^k\\) subfamily with explicit local list-size and verifier-charge bounds; conventional coNP-completeness follows only after supplying ExecutableCNFConventionalBoundary. On a declared convex weight cone, the cells relativize to span-annihilation, dual-cone domination, projected weighted atomic-measure identity, and exponential-sum nonnegativity.",
+      "primary_evidence": "proofs/en/results/MAX-G1.tex;proofs/en/results/MAX-G4.tex",
+      "prohibited_upcast": "One four-part breakthrough; P!=NP; cross-input inference from same-input cancellation.",
+      "status": "flagship_mathematical",
+      "result_ids": "MAX-G1;MAX-G4"
+    },
+    {
+      "allowed_strength": "Typed vacuity-collapse theorem and exact 121=105+16 Basic Syllable decomposition with nonvacuous cone.",
+      "chapter": "4",
+      "claim_id": "FR-C50",
+      "exact_final_proposition": "Transporting mutual categorical implications among impossible same-input mappings into universal MaxEnt probability order forces \\(D_Iw=0\\); the allowed nonnegative cone is \\(\\{0\\}\\) iff the row space of \\(D_I\\) contains a strictly positive vector. In the Basic Syllable ledger, all 121 lifted implications hold iff \\(w=0\\), but 105 have empty antecedents and the 16 nonempty lifts instead define the full-dimensional closed cone \\(w_{\\rm Max}\\leq2w_{\\rm NoCoda}+w_{\\rm Dep}\\), \\(w_{\\rm Dep}\\leq2w_{\\rm Onset}+w_{\\rm Max}\\), with nonempty interior.",
+      "primary_evidence": "proofs/en/results/MAX-G5.tex;proofs/en/results/MAX-G6.tex;proofs/en/results/APP-BASIC.tex",
+      "prohibited_upcast": "Rejection of MaxEnt, proof of categorical ontology, or claim that published zero arithmetic is numerically false.",
+      "status": "published_analysis_consequence",
+      "result_ids": "MAX-G5;MAX-G6;APP-BASIC"
+    },
+    {
+      "allowed_strength": "The former 2-August two-component presentation is superseded by the audited one-system closure; no result reopens the retired GradiEnt ontology, adds continuous MaxEnt, or promotes applications and elementary lemmas into coequal architectures.",
+      "chapter": "1",
+      "claim_id": "FR-C51",
+      "exact_final_proposition": "The former 2-August two-component presentation is superseded by the audited one-system closure; no result reopens the retired GradiEnt ontology, adds continuous MaxEnt, or promotes applications and elementary lemmas into coequal architectures.",
+      "primary_evidence": "registry/claim_budget.tsv;registry/source_claim_crosswalk.tsv",
+      "prohibited_upcast": "This architectural correction adds no empirical claim, third theory, universality, or field-reception claim.",
+      "status": "limitation_or_refusal",
+      "result_ids": "not_applicable"
+    },
+    {
+      "allowed_strength": "Proof-carrying exact analytic-response import with definedness, common bearer, semantic equality, finite reachable image, descent, and requested witness lift.",
+      "chapter": "3",
+      "claim_id": "FR-C52",
+      "exact_final_proposition": "A registered infinite response family enters the finite calculus only after dependent answers are totalized with explicit undefined values and source and target are transported into one common bearer, through A7's proof-carrying finite symbolic code, exact interpretation, decidable semantic equality, effective carrier readers and descent, finite reachable image, and any witness lift promised by the output contract.",
+      "primary_evidence": "proofs/en/results/FIN-A7.tex",
+      "prohibited_upcast": "Finite formula/grid as automatic continuum admission; source witness without search or section.",
+      "status": "flagship_methodological",
+      "result_ids": "FIN-A7"
+    },
+    {
+      "allowed_strength": "Constructive realization of all positive odd contact orders and, conditional on the registered normalized remainder, the exact quotient balance, Lambert-W law, coefficient recovery, and logarithmic slope in the declared gauge family.",
+      "chapter": "6",
+      "claim_id": "FR-C53",
+      "exact_final_proposition": "In the declared analytic fixed-load directional-HG gauge, every positive odd contact order is constructively realized; conditional on the registered normalized remainder, the corrected quotient balance, Lambert-\\(W\\) asymptotic, logarithmic slope, and coefficient limit follow exactly.",
+      "primary_evidence": "proofs/en/results/FLUX-D4.tex",
+      "prohibited_upcast": "A derivation of the normalized remainder from a KKT contact-germ model; acoustic onset law; theorem about all continuous HG.",
+      "status": "flagship_mathematical",
+      "result_ids": "FLUX-D4"
+    },
+    {
+      "allowed_strength": "Finite-audit continuum fibres and sufficient accumulating-response identification on the declared analytic domain.",
+      "chapter": "6",
+      "claim_id": "FR-C54",
+      "exact_final_proposition": "At every explicit raised-cosine baseline the declared complete affine-winner plus finite birth/jet/score audit has a continuum analytic-law fibre, whereas an admitted exact interior optimizer response in which one powered drop accumulates identifies the normalized law on the common connected analytic domain.",
+      "primary_evidence": "proofs/en/results/FLUX-D5.tex",
+      "prohibited_upcast": "Finite impossibility outside the printed audit family; claim that accumulation is necessary or minimal.",
+      "status": "flagship_mathematical",
+      "result_ids": "FLUX-D5"
+    },
+    {
+      "allowed_strength": "Fixed-support finite-MaxEnt normalized-law identification by a complete finite response jet and support-free finite-order refusal.",
+      "chapter": "4",
+      "claim_id": "FR-C55",
+      "exact_final_proposition": "On a frozen nonempty reduced finite-MaxEnt exponent support, the complete mixed log-odds jet at one admitted interior weight through \\(\\rho(\\Gamma)\\) identifies the fixed-mass normalized law; there is no support-independent finite derivative, moment, face, or grid order across unbounded-support contracts.",
+      "primary_evidence": "proofs/en/results/MAX-G7.tex",
+      "prohibited_upcast": "Support-independent audit order; arbitrary symbolic-code impossibility.",
+      "status": "flagship_mathematical",
+      "result_ids": "MAX-G7"
+    },
+    {
+      "allowed_strength": "Sharp one-ray contact-phase capacity sum(c_j)+r<=q-1 with attaining constructions.",
+      "chapter": "4",
+      "claim_id": "FR-C56",
+      "exact_final_proposition": "A nonzero collected \\(q\\)-slice one-ray finite-MaxEnt comparison with contact multiplicities \\(c_j\\) and \\(r\\) further strict reversals satisfies the sharp law \\(\\sum_jc_j+r\\le q-1\\), with exact attaining constructions and the printed balanced-interior rider.",
+      "primary_evidence": "proofs/en/results/MAX-G8.tex",
+      "prohibited_upcast": "Raw-candidate count; multivariate grammar equality; unbalanced boundary claim.",
+      "status": "flagship_mathematical",
+      "result_ids": "MAX-G8"
+    },
+    {
+      "allowed_strength": "Incomparability of fixed-mass normalized-law and arbitrary-positive-mass response-envelope carriers.",
+      "chapter": "4",
+      "claim_id": "FR-C57",
+      "exact_final_proposition": "The fixed-mass normalized-law carrier and arbitrary-positive-mass response-envelope carrier are incomparable; each can be preserved while the other changes, and the latter envelope is \\(\\operatorname{conv}(V_B)-\\operatorname{conv}(V_A)\\).",
+      "primary_evidence": "proofs/en/results/MAX-G9.tex",
+      "prohibited_upcast": "Either consumer answering the other without a separately proved bridge.",
+      "status": "flagship_mathematical",
+      "result_ids": "MAX-G9"
+    },
+    {
+      "allowed_strength": "Exact artifact correspondence and bounded application scope with independent machine and written-proof statuses.",
+      "chapter": "9",
+      "claim_id": "FR-C58",
+      "exact_final_proposition": "Every registered result is linked to its proof, executable status, bounded source-facing application, reproducibility level, and registered Lean declaration; this correspondence does not constitute empirical validation or proof-assistant verification beyond the registered scope and enumerated foundations.",
+      "primary_evidence": "proofs/en/results/CALC-F1.tex;proofs/en/results/FIN-A7.tex;proofs/en/results/CHG-B2.tex;proofs/en/results/FLUX-D4.tex;proofs/en/results/FLUX-D5.tex;proofs/en/results/MAX-G7.tex;proofs/en/results/MAX-G8.tex;proofs/en/results/MAX-G9.tex;proofs/en/results/SEL-F2.tex;proofs/en/results/MAX-G6.tex;proofs/en/results/APP-MCC-GRID.tex;proofs/en/results/APP-MCC-LENGTH.tex;proofs/en/results/DATA-PT-R1.tex;proofs/en/results/DATA-EN-R1.tex;proofs/en/results/DATA-ZH-R1.tex",
+      "prohibited_upcast": "Dissertation completion; field reception; empirical validation; proof-assistant verification outside the registered scope and enumerated foundations.",
+      "status": "limitation_or_refusal",
+      "result_ids": "CALC-F1;FIN-A7;CHG-B2;FLUX-D4;FLUX-D5;MAX-G7;MAX-G8;MAX-G9;SEL-F2;MAX-G6;APP-MCC-GRID;APP-MCC-LENGTH;DATA-PT-R1;DATA-EN-R1;DATA-ZH-R1"
+    }
+  ],
+  "dependency_edges": [
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R01.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R01",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R02.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R02",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R03.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R03",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R04.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R04",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R05.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R05",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R06.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R06",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R07.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R07",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R08.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R08",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R09.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R09",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R10.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R10",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R11.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R11",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R12.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R12",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R13.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R13",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R14.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R14",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-R15.tex;proofs/en/results/CALC-F1.tex",
+      "dependent_id": "CALC-F1",
+      "notes": "Regression result is audit evidence, not an independent mathematical premise.",
+      "prerequisite_id": "CALC-R15",
+      "relation_type": "regression_for"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A1.tex;proofs/en/results/FIN-A2.tex",
+      "dependent_id": "FIN-A2",
+      "notes": "Representative recovery strengthens semantic-orbit recovery.",
+      "prerequisite_id": "FIN-A1",
+      "relation_type": "mathematical_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A4.tex;proofs/en/results/FIN-A5.tex",
+      "dependent_id": "FIN-A5",
+      "notes": "Kernel order and factorization support minimum carriers and first-loss localization.",
+      "prerequisite_id": "FIN-A4",
+      "relation_type": "structural_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A4.tex;proofs/en/results/FIN-A6.tex",
+      "dependent_id": "FIN-A6",
+      "notes": "Frozen consumer order precedes the finite closure lattice.",
+      "prerequisite_id": "FIN-A4",
+      "relation_type": "structural_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A5.tex;proofs/en/results/FIN-A6.tex",
+      "dependent_id": "FIN-A6",
+      "notes": "Carrier intersections and refinements support the fixed-signature lattice.",
+      "prerequisite_id": "FIN-A5",
+      "relation_type": "structural_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CALC-F1.tex;proofs/en/results/FIN-A7.tex",
+      "dependent_id": "FIN-A7",
+      "notes": "A7 imports an external response into the admitted finite classifier; it does not turn F1 into a raw-continuum decider.",
+      "prerequisite_id": "CALC-F1",
+      "relation_type": "interface_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A4.tex;proofs/en/results/FIN-A7.tex",
+      "dependent_id": "FIN-A7",
+      "notes": "A7 requires exact query/carrier factorization.",
+      "prerequisite_id": "FIN-A4",
+      "relation_type": "carrier_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A5.tex;proofs/en/results/FIN-A7.tex",
+      "dependent_id": "FIN-A7",
+      "notes": "A7 requires finite reachable carrier images and effective readers.",
+      "prerequisite_id": "FIN-A5",
+      "relation_type": "carrier_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A6.tex;proofs/en/results/FIN-A7.tex",
+      "dependent_id": "FIN-A7",
+      "notes": "Contextual descent and definedness remain separate admission requirements.",
+      "prerequisite_id": "FIN-A6",
+      "relation_type": "context_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B1.tex;proofs/en/results/CHG-B2.tex",
+      "dependent_id": "CHG-B2",
+      "notes": "Canonical theorem tree.",
+      "prerequisite_id": "CHG-B1",
+      "relation_type": "mathematical_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B3.tex",
+      "dependent_id": "CHG-B3",
+      "notes": "Quadratic closed form specializes the all-horizon theorem.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "corollary_or_specialization"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B6.tex",
+      "dependent_id": "CHG-B6",
+      "notes": "Exact lattice comparison is interpreted against the continuous optimizer.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "application_enabling_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B7.tex",
+      "dependent_id": "CHG-B7",
+      "notes": "Persistence phases specialize the support law; common scaling is inherited separately.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "corollary_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B6.tex;proofs/en/results/CHG-B8.tex",
+      "dependent_id": "CHG-B8",
+      "notes": "Support-resolution duality is a rearrangement of B6.",
+      "prerequisite_id": "CHG-B6",
+      "relation_type": "algebraic_corollary"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B9.tex",
+      "dependent_id": "CHG-B9",
+      "notes": "Normalized profile and powered-gap law use the exact active set.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "mathematical_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B10.tex",
+      "dependent_id": "CHG-B10",
+      "notes": "Comparative statics and extension stability depend on the exact optimizer.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "mathematical_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B11.tex",
+      "dependent_id": "CHG-B11",
+      "notes": "Identifiability is relative to exact active profiles.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "mathematical_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B9.tex;proofs/en/results/CHG-B11.tex",
+      "dependent_id": "CHG-B11",
+      "notes": "Powered-gap relations supply the finite parameter test.",
+      "prerequisite_id": "CHG-B9",
+      "relation_type": "profile_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B12.tex",
+      "dependent_id": "CHG-B12",
+      "notes": "Lattice convergence uses the unique continuum minimizer.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "uniqueness_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B13.tex",
+      "dependent_id": "CHG-B13",
+      "notes": "Self-similarity is derived from the exact profile.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "asymptotic_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B9.tex;proofs/en/results/CHG-B13.tex",
+      "dependent_id": "CHG-B13",
+      "notes": "Normalized profile form supplies the scaling limit.",
+      "prerequisite_id": "CHG-B9",
+      "relation_type": "profile_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B14.tex",
+      "dependent_id": "CHG-B14",
+      "notes": "Support bifurcation occurs at B2 phase boundaries.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "active_set_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B9.tex;proofs/en/results/CHG-B14.tex",
+      "dependent_id": "CHG-B14",
+      "notes": "Onset coefficients use the active-profile formula.",
+      "prerequisite_id": "CHG-B9",
+      "relation_type": "local_profile_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B15.tex",
+      "dependent_id": "CHG-B15",
+      "notes": "The singular p-to-one limit is taken through the exact winner family.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "optimizer_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B5.tex;proofs/en/results/CHG-B15.tex",
+      "dependent_id": "CHG-B15",
+      "notes": "B5 fixes the p=1 limiting optimizer set whose approach is noncommutative.",
+      "prerequisite_id": "CHG-B5",
+      "relation_type": "boundary_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/CHG-B16.tex",
+      "dependent_id": "CHG-B16",
+      "notes": "Hard-exponent support-magnitude separation uses the exact phase law.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "optimizer_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FLUX-D1.tex;proofs/en/results/FLUX-D2.tex",
+      "dependent_id": "FLUX-D2",
+      "notes": "D2 strengthens fixed-load gauge equivalence with multiple loads and topology.",
+      "prerequisite_id": "FLUX-D1",
+      "relation_type": "gauge_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FLUX-D1.tex;proofs/en/results/FLUX-D3.tex",
+      "dependent_id": "FLUX-D3",
+      "notes": "D3 constructs finite-ledger alternatives within the declared gauge family.",
+      "prerequisite_id": "FLUX-D1",
+      "relation_type": "gauge_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FLUX-D1.tex;proofs/en/results/FLUX-D4.tex",
+      "dependent_id": "FLUX-D4",
+      "notes": "D4 constructs and studies response inside the admitted analytic fixed-load gauge; its asymptotic conclusion is conditional on the registered normalized remainder.",
+      "prerequisite_id": "FLUX-D1",
+      "relation_type": "gauge_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FLUX-D4.tex;proofs/en/results/FLUX-D5.tex",
+      "dependent_id": "FLUX-D5",
+      "notes": "D5 closes the finite-versus-accumulating response hierarchy built from D4.",
+      "prerequisite_id": "FLUX-D4",
+      "relation_type": "identification_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/SUP-E1.tex;proofs/en/results/SUP-E2.tex",
+      "dependent_id": "SUP-E2",
+      "notes": "Endpoint support classification precedes the projectivity obstruction.",
+      "prerequisite_id": "SUP-E1",
+      "relation_type": "support_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/SUP-E3.tex;proofs/en/results/SUP-E4.tex",
+      "dependent_id": "SUP-E4",
+      "notes": "E4 constructs the exact finite continuation of E3's infinite winner.",
+      "prerequisite_id": "SUP-E3",
+      "relation_type": "continuation_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/SEL-F1.tex;proofs/en/results/SEL-F2.tex",
+      "dependent_id": "SEL-F2",
+      "notes": "F2 instantiates the selected-output versus pairwise admission distinction.",
+      "prerequisite_id": "SEL-F1",
+      "relation_type": "admission_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G1.tex;proofs/en/results/MAX-G2.tex",
+      "dependent_id": "MAX-G2",
+      "notes": "G2 compiles integer polynomials into the G1 probability-order carrier.",
+      "prerequisite_id": "MAX-G1",
+      "relation_type": "carrier_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G1.tex;proofs/en/results/MAX-G3.tex",
+      "dependent_id": "MAX-G3",
+      "notes": "G3's exact bounded-ETR-INV compiler uses the relative-partition sign carrier; no unconditional complexity classification is inferred.",
+      "prerequisite_id": "MAX-G1",
+      "relation_type": "algebraic_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G2.tex;proofs/en/results/MAX-G3.tex",
+      "dependent_id": "MAX-G3",
+      "notes": "G2 supplies the exact compiler used in G3.",
+      "prerequisite_id": "MAX-G2",
+      "relation_type": "compiler_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G1.tex;proofs/en/results/MAX-G4.tex",
+      "dependent_id": "MAX-G4",
+      "notes": "G4 classifies equality/order by normalizer relation using G1.",
+      "prerequisite_id": "MAX-G1",
+      "relation_type": "algebraic_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G3.tex;proofs/en/results/MAX-G4.tex",
+      "dependent_id": "MAX-G4",
+      "notes": "G4's proper-CNF selector is independent of G3's bounded-ETR-INV compiler; this edge records their scope contrast, and conventional coNP-completeness remains conditional on ExecutableCNFConventionalBoundary.",
+      "prerequisite_id": "MAX-G3",
+      "relation_type": "scope_contrast"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G4.tex;proofs/en/results/MAX-G5.tex",
+      "dependent_id": "MAX-G5",
+      "notes": "Typed categorical-to-probabilistic transport uses the exact MaxEnt relation semantics.",
+      "prerequisite_id": "MAX-G4",
+      "relation_type": "transport_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G5.tex;proofs/en/results/MAX-G6.tex",
+      "dependent_id": "MAX-G6",
+      "notes": "G6 is the Basic Syllable instantiation of the typed vacuity theorem.",
+      "prerequisite_id": "MAX-G5",
+      "relation_type": "application_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G1.tex;proofs/en/results/MAX-G7.tex",
+      "dependent_id": "MAX-G7",
+      "notes": "G7 fixes the normalized finite-MaxEnt law carrier on explicit support.",
+      "prerequisite_id": "MAX-G1",
+      "relation_type": "response_carrier_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G7.tex;proofs/en/results/MAX-G8.tex",
+      "dependent_id": "MAX-G8",
+      "notes": "G8 counts contacts and reversals of one collected fixed-support response.",
+      "prerequisite_id": "MAX-G7",
+      "relation_type": "response_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G7.tex;proofs/en/results/MAX-G9.tex",
+      "dependent_id": "MAX-G9",
+      "notes": "G9 compares the fixed-mass normalized-law consumer with the arbitrary-mass envelope.",
+      "prerequisite_id": "MAX-G7",
+      "relation_type": "consumer_prerequisite"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B4.tex;proofs/en/results/APP-MCC-GRID.tex",
+      "dependent_id": "APP-MCC-GRID",
+      "notes": "Endpoint obstruction supports the continuum side of the source correction.",
+      "prerequisite_id": "CHG-B4",
+      "relation_type": "application_of"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B6.tex;proofs/en/results/APP-MCC-GRID.tex",
+      "dependent_id": "APP-MCC-GRID",
+      "notes": "Exact lattice boundary supports the grid side of the source correction.",
+      "prerequisite_id": "CHG-B6",
+      "relation_type": "application_of"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/APP-MCC-LENGTH.tex",
+      "dependent_id": "APP-MCC-LENGTH",
+      "notes": "Length consequence instantiates the all-horizon support theorem.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "application_of"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B3.tex;proofs/en/results/APP-MCC-LENGTH.tex",
+      "dependent_id": "APP-MCC-LENGTH",
+      "notes": "Quadratic exact profiles produce the printed source values.",
+      "prerequisite_id": "CHG-B3",
+      "relation_type": "application_of"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A7.tex;proofs/en/results/APP-MCC-COMP.tex",
+      "dependent_id": "APP-MCC-COMP",
+      "notes": "Compiler is a finite proof-carrying response code at fixed parameters.",
+      "prerequisite_id": "FIN-A7",
+      "relation_type": "application_of"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/CHG-B2.tex;proofs/en/results/APP-MCC-COMP.tex",
+      "dependent_id": "APP-MCC-COMP",
+      "notes": "Exact optimizer profiles define the finite answer alphabet.",
+      "prerequisite_id": "CHG-B2",
+      "relation_type": "application_of"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/MAX-G6.tex;proofs/en/results/APP-BASIC.tex",
+      "dependent_id": "APP-BASIC",
+      "notes": "APP-BASIC reuses the cached G6 proof record and adds no contribution.",
+      "prerequisite_id": "MAX-G6",
+      "relation_type": "application_reuse"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A4.tex;proofs/en/results/DATA-PT-R1.tex",
+      "dependent_id": "DATA-PT-R1",
+      "notes": "Portuguese compares preservation under a weak versus stronger query.",
+      "prerequisite_id": "FIN-A4",
+      "relation_type": "application_of"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A5.tex;proofs/en/results/DATA-EN-R1.tex",
+      "dependent_id": "DATA-EN-R1",
+      "notes": "English applies factorization after the retrospective query is frozen.",
+      "prerequisite_id": "FIN-A5",
+      "relation_type": "application_of"
+    },
+    {
+      "authoritative_basis": "proofs/en/results/FIN-A5.tex;proofs/en/results/DATA-ZH-R1.tex",
+      "dependent_id": "DATA-ZH-R1",
+      "notes": "Mandarin exposes a collision induced by forgetting construction scope.",
+      "prerequisite_id": "FIN-A5",
+      "relation_type": "application_of"
+    }
+  ],
+  "source_conflicts": [],
+  "results": [
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-F1",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New phonological formal theorem at the integrated declared scope.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "Any admitted false status, omitted mismatch, incomplete witness set, non-natural selected witness, type coercion, unlicensed scientific upcast, or nontermination defeats or narrows the theorem. Discovery of same-scope prior art narrows ownership, not correctness by itself."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R01",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 1; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R02",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 2; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R03",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 3; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R04",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 4; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R05",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 5; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R06",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 6; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R07",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 7; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R08",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 8; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R09",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 9; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R10",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 10; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R11",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 11; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R12",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 12; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R13",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 13; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R14",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 14; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "2",
+      "citation_keys": "ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;kracht2003mathematicsLanguage;oakden2020notationalEquivalence;danis2025logicalTransductions;prince2017representingOTGrammars;merchantPrince2022motherTableaux;simas2026optimizerQuotient",
+      "id": "CALC-R15",
+      "kind": "regression",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Mandatory regression result; no independent theorem-level novelty claim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 15; any changed expectation requires documented reverification."
+    },
+    {
+      "chapter": "3",
+      "citation_keys": "kracht2003mathematicsLanguage;ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;blackwell1951comparisonExperiments;lambertHeinz2026interpretingState;simas2026optimizerQuotient",
+      "id": "FIN-A1",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "No novelty claim; inherited content is used with explicit phonological typing.",
+      "ownership_class": "Inherited verbatim.",
+      "review_priority": "standard",
+      "withdrawal_condition": "No novelty claim. Refuse if the action is incomplete, the weakening is not equivariant, or the requested conclusion concerns raw representatives rather than orbits."
+    },
+    {
+      "chapter": "3",
+      "citation_keys": "kracht2003mathematicsLanguage;ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;blackwell1951comparisonExperiments;lambertHeinz2026interpretingState;simas2026optimizerQuotient",
+      "id": "FIN-A2",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Exact specialization or integration claim only; generic mathematics is not claimed new.",
+      "ownership_class": "Direct specialization, with a project-specific phonological admission package.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Refuse if the target policy was restricted before stability was tested, if the action list is incomplete, or if only orbit-level recovery is needed. Narrow novelty if an equivalent proof is located in prior phonological work."
+    },
+    {
+      "chapter": "3",
+      "citation_keys": "kracht2003mathematicsLanguage;ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;blackwell1951comparisonExperiments;lambertHeinz2026interpretingState;simas2026optimizerQuotient",
+      "id": "FIN-A3",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New phonological formal theorem/package for the integrated typing; the algorithms and two counterexamples are inherited or elementary.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Withdraw if any admitted mode is silently converted to another, deadlock is called nontermination, duplicate paths are not summed, or total mass/stopping premises fail."
+    },
+    {
+      "chapter": "3",
+      "citation_keys": "kracht2003mathematicsLanguage;ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;blackwell1951comparisonExperiments;lambertHeinz2026interpretingState;simas2026optimizerQuotient",
+      "id": "FIN-A4",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Exact specialization or integration claim only; generic mathematics is not claimed new.",
+      "ownership_class": "Direct specialization.",
+      "review_priority": "standard",
+      "withdrawal_condition": "No firstness claim. The rule does not compare unrelated or incompletely typed queries and does not license retrospective consumer selection."
+    },
+    {
+      "chapter": "3",
+      "citation_keys": "kracht2003mathematicsLanguage;ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;blackwell1951comparisonExperiments;lambertHeinz2026interpretingState;simas2026optimizerQuotient",
+      "id": "FIN-A5",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Exact specialization or integration claim only; generic mathematics is not claimed new.",
+      "ownership_class": "Direct specialization. || Elementary but useful. || Direct specialization with elementary refinements.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Withdraw any generic novelty. If operations or contexts must be preserved, replace the raw kernel by the admitted strong congruence; if consumers were added after inspection, no warrant follows. || It is not an information-theoretic, cognitive, or universal complexity measure; withdraw if the carrier or consumer family changes. || The conclusion does not apply when side information bypasses the reduction, the reachable domain excludes the witness, the query changes, or the suffix has access to the original state."
+    },
+    {
+      "chapter": "3",
+      "citation_keys": "kracht2003mathematicsLanguage;ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;blackwell1951comparisonExperiments;lambertHeinz2026interpretingState;simas2026optimizerQuotient",
+      "id": "FIN-A6",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Exact specialization or integration claim only; generic mathematics is not claimed new.",
+      "ownership_class": "Direct specialization. || Elementary but useful.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Refuse across changed signatures, carriers, contexts, reachability, evaluators, or retrospectively added diagnostics. || Withdraw if the signature, operation domain, parameter/context policy, or reachable scope differs between the compared objects. || The universal join, strongness, fixed signature, and full domain account are load-bearing. Without them, no conclusion follows."
+    },
+    {
+      "chapter": "3",
+      "citation_keys": "kracht2003mathematicsLanguage;ranzatoTapparo2007strongPreservation;hulden2017formalComputationalVerification;blackwell1951comparisonExperiments;lambertHeinz2026interpretingState;simas2026optimizerQuotient",
+      "id": "FIN-A7",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Project-specialized bridge theorem; exact and load-bearing, but generic factorization is inherited.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "Refuse uniform decision if the carrier, reachable image, reader, or descent is ineffective or incomplete. Without finite search or an effective section, report carrier-level nonpreservation only; do not promise a source representative. A7 does not make F1 a raw-continuum decider."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B1",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family, with inherited convexity.",
+      "review_priority": "high",
+      "withdrawal_condition": "Withdraw if a varying follower constraint, protection term, nonpositive weight, different boundary condition, or non-directional cost invalidates the running-min comparison."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B2",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "Withdraw theorem correctness on any exact counterexample under the printed assumptions. Withdraw/narrow priority if earlier same-family work is found. Change of GEN, constraint set, weights, trigger, path protection, or horizon policy creates another theorem."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B3",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family for the full active-set/equality/profile law; the projection and Lipschitz facts are direct specializations.",
+      "review_priority": "high",
+      "withdrawal_condition": "Withdraw if equality is treated as a positive residue/tie, if the source uses only a declared lattice, or if another active constraint changes the path objective."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B4",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Elementary but useful.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Do not call it the central new theorem. It fails when another first-order/harder protection term is present or the markedness derivative is not strictly inward."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B5",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Elementary but useful.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Withdraw any claim beyond the solid-simplex path, positive linear markedness, and fixed total-repair comparison. Do not advertise generic optimization novelty."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B6",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous-family/lattice comparison, proved by an elementary inequality.",
+      "review_priority": "high",
+      "withdrawal_condition": "Withdraw if the support is nonuniform, not grammatical, or includes other candidates/constraints; at \\(p<1\\) use the different full-drop boundary."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B7",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Inherited verbatim. || New theorem for the declared continuous family, as corollaries of B2 plus inherited power sums.",
+      "review_priority": "standard",
+      "withdrawal_condition": "It does not carry into MaxEnt/noisy HG without temperature/noise scaling and does not identify raw weights. || Do not interpret the phase as a speaker distribution or estimator; withdraw if \\(p\\), weights, or path structure vary."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B8",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Elementary but useful.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Restricted to uniform lattice, \\(p>1\\), fixed weights, and the declared path; it is not an empirical word-length law."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B9",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family, with inherited KKT, convex duality, and power-law stationarity.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Refuse an empirical use without a calibrated grammar-to-realization reader. Withdraw family membership if any admitted active pair violates the common law or indexing/normalization fails."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B10",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family for coordinate and extension claims; envelope/concavity identities are direct specializations.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Fixed \\(p\\), trigger, weights, path, and coordinate alignment are required; inactive coordinates need not change strictly with weight."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B11",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Refuse if the decreases are not exact grammar values, not consecutive, differently indexed, or lack a common calibrated reader. Absolute weight scale remains unidentified."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B12",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Exact specialization or integration claim only; generic mathematics is not claimed new.",
+      "ownership_class": "Direct specialization, with an elementary but useful phonological consequence.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Fixed finite \\(N\\), \\(p>1\\), dense uniform lattices, and unique continuum optimizer are required; eventual query stability requires local constancy."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B13",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Not an acoustic-time trajectory, token distribution, or estimator. Withdraw under varying parameters, nonordinal alignment, or a different path grammar."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B14",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family.",
+      "review_priority": "high",
+      "withdrawal_condition": "Fixed long-enough horizon and family assumptions are essential. It is not an acoustic onset law or universal typology."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B15",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family.",
+      "review_priority": "high",
+      "withdrawal_condition": "The joint approach rate must be specified; otherwise return no conclusion. The selected member is not a canonical ontology, entropy principle, or speaker tie rule."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CHG-B16",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared continuous family.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Fixed ratio and fixed finite horizon are load-bearing; finite-\\(p\\) positivity requires \\(p\\rho>1\\). Do not call it generic hard-constraint convergence or an acoustic/speaker-exponent result."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CTX-C1",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New theorem for the declared two-trigger family, after subtracting strict convexity, KKT/powered-path mathematics, and established multiple-trigger phonology. The project residual is the exact (L=2K, u=1/2) boundary, the full three-regime span classification, and the coarsest binary-support carrier ((K,\\mathbf1[u>1/2])).",
+      "review_priority": "standard",
+      "withdrawal_condition": "Equal licensed endpoints, fixed (p>1), constant weights, and the declared absolute-edge path are required."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "CTX-C2",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Project-derived supporting theorem, not another flagship. Running-minimum reduction and finite order witnesses are elementary or inherited; the residual is all-horizon one-trigger winner coincidence, complete-order nonidentity, the exact shortest separator (K+1), and the three-code diagnostic.",
+      "review_priority": "standard",
+      "withdrawal_condition": "It does not establish complete evaluator equivalence or a bidirectional speaker grammar. The arbitrary-(K) equivalence and shortestness arguments are machine-closed relative to the registered trusted foundation; the written proofs remain explanatory."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "nocedalWright1999numerical;corlessEtAl1996lambertW;buldyginKlesovSteinebach2006extensionsKaramata;klatteKummer2022HolderCalmnessMinimizingSets",
+      "id": "FLUX-D1",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New constitutive-gauge theorem for the declared fixed-load path family. Generic convex, KKT, and functional-equation background is inherited; each ExactWinnerKKT equivalence remains a project-specific concrete-objective premise. The residual is obstacle-preserving path-winner equivalence under (F(y+\\lambda)=F(y)+\\lambda), necessity on the complete reachable probe language, and the exact periodic analytic family.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Necessity is reachable-domain qualified; it is not a theorem for unregistered paths or loads."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "nocedalWright1999numerical;corlessEtAl1996lambertW;buldyginKlesovSteinebach2006extensionsKaramata;klatteKummer2022HolderCalmnessMinimizingSets",
+      "id": "FLUX-D2",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New load/topology rigidity theorem for the declared family, using inherited dense-period and continuous-additivity results. Generic KKT background is inherited; every ExactWinnerKKT and ExactStarWinnerKKT equivalence remains a project-specific concrete-objective premise. The residual is the commensurate-load gauge, incommensurate-load collapse, and degree-three star separator.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Branching conclusions require independently licensed branching structure."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "nocedalWright1999numerical;corlessEtAl1996lambertW;buldyginKlesovSteinebach2006extensionsKaramata;klatteKummer2022HolderCalmnessMinimizingSets",
+      "id": "FLUX-D3",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New exact finite-ledger nonidentification theorem, with finite nullspace/Fourier analysis inherited. For each predeclared finite commensurate-load ledger, an arbitrarily close analytic alternative preserves registered path winners, harmonies, ties, margins, and fixed-support MaxEnt law while changing an unregistered response.",
+      "review_priority": "standard",
+      "withdrawal_condition": "One alternative is constructed per finite ledger; no universal invisible alternative is claimed."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "nocedalWright1999numerical;corlessEtAl1996lambertW;buldyginKlesovSteinebach2006extensionsKaramata;klatteKummer2022HolderCalmnessMinimizingSets",
+      "id": "FLUX-D4",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New conditional continuous-response theorem for the declared analytic gauge family: constructive realization of every positive odd contact plus exact response consequences of the prospectively registered normalized remainder.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "Requires a positive gauge period, p>1, positive C, a finite positive odd contact, an eventually positive response scale tending to zero, the normalized remainder tending to zero, and an admitted signed analytic extension. The former KKT/contact-germ derivation of that remainder is withdrawn from the dissertation theorem set and is not asserted. This is not an acoustic onset theorem or a theorem about all continuous HG."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "nocedalWright1999numerical;corlessEtAl1996lambertW;buldyginKlesovSteinebach2006extensionsKaramata;klatteKummer2022HolderCalmnessMinimizingSets",
+      "id": "FLUX-D5",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New identification theorem for the declared analytic family.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "The finite nonidentification claim is restricted to the printed audit family and explicit baselines. Accumulation is sufficient, not necessary or cardinality-minimal. Do not invent an order among other singular or partial-response consumers without factorization."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "SUP-E1",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Project theorem for the declared local HG path, after subtracting generic convex perturbation and telescoping. Zero endpoint site slope forces all-positive finite support; positive endpoint slope (c) gives the stated finite bound.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Withdraw the support classification if the declared smooth-convex endpoint hypotheses or ExactEndpointWinnerKKT fail for the concrete objective; do not extend it to nondifferentiable, nonlocal, or arbitrary penalties."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "SUP-E2",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Project formal-phonology impossibility theorem with elementary KKT ingredients. An all-positive free-end winner cannot preserve its complete old prefix after horizon extension; exact zero permits zero-extension projectivity.",
+      "review_priority": "standard",
+      "withdrawal_condition": "One unchanged local parallel objective, unique positive winners, and a free endpoint are load-bearing."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "SUP-E3",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New exact theorem for the declared matched-power infinite family, with existence, homogeneity, Bellman, and recurrence ancestry inherited. The residual is the unique geometric \\(\\ell^p\\) optimizer, scalar decay equation, and closed continuation energy.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Withdraw if existence, admissibility, the Bellman lower bound, equality characterization, summability, or uniqueness fails on the declared infinite finite-energy domain."
+    },
+    {
+      "chapter": "6",
+      "citation_keys": "mccollum2019gradienceLocality;nocedalWright1999numerical;flemmingCho2017contourTones",
+      "id": "SUP-E4",
+      "kind": "result",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New continuation theorem and source-facing correction, using inherited value-function machinery. The residual is (C=h(1-\\lambda)^{p-1}), exact projective finite prefixes, and the McCollum trilemma.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Uniqueness is only among terminal terms (\\tau x_N^p), not arbitrary completions."
+    },
+    {
+      "chapter": "7",
+      "citation_keys": "goldrickDaland2009speechErrorsHarmonicGrammarNetworks",
+      "id": "SEL-F1",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Project selected-output admission theorem/direct convex specialization, not new generic normal-cone geometry. Pairwise and selected-output events coincide for every radial law exactly under the positive-ray condition on complete finite `GEN`.",
+      "review_priority": "high",
+      "withdrawal_condition": "Event identity is distinct from accidental equality under one distribution. Strict full-support probability requires a separately established nonempty open spherical gap. The exact radius-two probability fixture is available only relative to RadiusTwoSphereFixtureCoordinateTransport, which supplies the event-to-coordinate-integral identities and does not identify an otherwise arbitrary supplied measure as canonical uniform/Haar."
+    },
+    {
+      "chapter": "7",
+      "citation_keys": "goldrickDaland2009speechErrorsHarmonicGrammarNetworks",
+      "id": "SEL-F2",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New application and published-source correction, not an independent generic mathematical breakthrough. The complete binary grammar preserves Goldrick--Daland's matched-pair premises and pairwise order while reversing the final selected-output order under one common radial law.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "It refutes final Corollary 3 as written, not Theorem 3, the simulations, or the empirical tendency."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G1",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Exact specialization or integration claim only; generic mathematics is not claimed new.",
+      "ownership_class": "Direct algebraic specialization, exact and useful but not doctorate-bearing alone.",
+      "review_priority": "high",
+      "withdrawal_condition": "Refuse for infinite support, incomplete `GEN`, untyped base masses or structural zeros, changed tie semantics, noninteger violations outside the theorem, negative weights, or an empirical-frequency query."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G2",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Every canonically collected integer polynomial on the unit cube is represented exactly as the relative-partition difference of two finite unit-mass MaxEnt inputs. Coefficient multiplicity is realized by distinct labelled candidates even when violation rows repeat.",
+      "review_priority": "high",
+      "withdrawal_condition": "**New typed compiler theorem at the declared finite-MaxEnt scope**, using inherited coefficient splitting and Laurent/polynomial algebra. It is a supporting expressive compiler, not a pointwise-probability equivalence, a duplicate-free theorem, or an efficiency result."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G3",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New query-specific executable compilation theorem at the declared restricted encoding, relative to the explicit compact-minimum foundation.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "It preserves the Boolean universal-order verdict and strict counterwitness existence, not pointwise probabilities, full distributions, candidate identity, or independent phonological content for tag constraints. The source-size estimate is an object-size theorem, not a conventional runtime theorem. || A counterexample to compiler semantics, row distinctness, or the stated size bounds withdraws the affected clause. Failure of ExplicitCompactMinimumFoundation blocks the semantic equivalence. A same-scope predecessor narrows ownership, not correctness by itself."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G4",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Inherited elementary algebra, phonologically typed here. || New exact executable selector bridge and local charge analysis at the declared restricted encoding. || Conditional conventional coNP-completeness theorem only through ExecutableCNFConventionalBoundary. || Project-derived theorem conjunction and phonological organization; not four independent breakthroughs.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "Does not apply across inputs, with unequal masses, or to absolute probabilities. || Do not claim \\(\\mathrm P\\ne\\mathrm{NP}\\), a strict class separation, unconditional coNP-completeness, a universal-real classification, or natural-language hardness. || Requires complete finite support, declared positive masses, all nonnegative weights, the registered relation, proper-CNF well-formedness, and the exact compiler. The ABM Finnish application remains `NO CONCLUSION` without complete ledgers. || Cone statements do not cover affine slices, boxes, simplexes, posterior regions, or arbitrary manifolds merely by renaming them cones."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G5",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New phonological query-transport theorem at the bounded finite-MaxEnt scope; Gordan--Stiemke itself is inherited.",
+      "review_priority": "high",
+      "withdrawal_condition": "Refuse if categorical winner events, same-input status, tie policy, or complete violations are not fixed.  It is not evidence that impossible mappings should be equiprobable in nature."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G6",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Application or bounded demonstration only; not independent theorem ownership.",
+      "ownership_class": "New application or correction.",
+      "review_priority": "high",
+      "withdrawal_condition": "Withdraw if the source ledger, strict-event semantics, implication inventory, or exact cone factorization changes.  This neither refutes MaxEnt nor proves categorical phonology."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G7",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Exact phonological specialization and supporting theorem.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "Refuse if support, multiplicity, masses, or transport are incomplete. A nonseparating ray can hide a difference to every order. The theorem makes no impossibility claim about arbitrary exact symbolic codes."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G8",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Principal new finite-MaxEnt response theorem at the declared one-ray scope.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "Requires one declared ray, finite collected support, nonidentity, distinct exponents, exact multiplicities, and the printed mass condition for the balanced rider. Equality on one ray is not multivariate grammar equality."
+    },
+    {
+      "chapter": "4",
+      "citation_keys": "anttilaBorgesonMagri2019equiprobableMappings;magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate;basu2017algorithmsRealAlgebraicGeometrySurvey;schaeferStefankovic2024beyondExistentialTheoryReals;abrahamsenAdamaszekMiltzow2022artGalleryExistentialReals;jeronimoPerrucciTsigaridas2013minimumPolynomialBasicClosedSemialgebraicSet;ouaknineWorrell2014ultimatePositivity;karp1972reducibilityCombinatorialProblems;gareyJohnsonStockmeyer1976simplifiedNPCompleteGraphProblems",
+      "id": "MAX-G9",
+      "kind": "result",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "New typed counterexample theorem and supporting evaluator result.",
+      "review_priority": "flagship",
+      "withdrawal_condition": "The envelope is complete only for its declared direct arbitrary-mass response query. It is neither automatically a minimum contextual carrier nor the fixed-mass response field."
+    },
+    {
+      "chapter": "7",
+      "citation_keys": "mccollum2019gradienceLocality",
+      "id": "APP-MCC-GRID",
+      "kind": "application",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Application or bounded demonstration only; not independent theorem ownership.",
+      "ownership_class": "New application or correction.",
+      "review_priority": "high",
+      "withdrawal_condition": "Withdraw if only the lattice was intended as grammatical support, if source constraints differ, or if the registered query is weakened enough to pass."
+    },
+    {
+      "chapter": "7",
+      "citation_keys": "mccollum2019gradienceLocality",
+      "id": "APP-MCC-LENGTH",
+      "kind": "application",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Application or bounded demonstration only; not independent theorem ownership.",
+      "ownership_class": "New application or correction, directly instantiating B2/B3.",
+      "review_priority": "high",
+      "withdrawal_condition": "Withdraw if weights/constraints depend on length or followers are protected; the verdict is for complete profile, not every possible query."
+    },
+    {
+      "chapter": "7",
+      "citation_keys": "mccollum2019gradienceLocality",
+      "id": "APP-MCC-COMP",
+      "kind": "application",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Project theorem only at the exact declared scope, with bounded and withdrawable priority language.",
+      "ownership_class": "Elementary but useful.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Withdraw or expand the compiler if losers, full Harmony preorder, arbitrary parameters, topology, operation closure, or cognitive locus are registered."
+    },
+    {
+      "chapter": "7",
+      "citation_keys": "magriAnttila2023paradoxesMaxEntMarkedness;anttilaMagri2018doesMaxEntOvergenerate",
+      "id": "APP-BASIC",
+      "kind": "application",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Application or bounded demonstration only; not independent theorem ownership.",
+      "ownership_class": "New application or correction.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Withdraw if the source ledger, strict-event semantics, implication inventory, or exact cone factorization changes.  This neither refutes MaxEnt nor proves categorical phonology."
+    },
+    {
+      "chapter": "8",
+      "citation_keys": "barbosa2023manualfonetica;pozzaniAlbano2016gradientesAlofonicos;santosEtAl2022coraaNurcSpMinimal",
+      "id": "DATA-PT-R1",
+      "kind": "data_demonstration",
+      "main_or_appendix": "main_and_appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Application or bounded demonstration only; not independent theorem ownership.",
+      "ownership_class": "New application or correction.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Recompute if cue extraction, cell support, frozen thresholds, or row ledgers change; targets remain sealed."
+    },
+    {
+      "chapter": "8",
+      "citation_keys": "ferragnePellegrino2010formantFrequencies;hillenbrandGettyClarkWheeler1995acousticCharacteristics;yamagishiVeauxMacDonald2019vctk092;lobanov1971classificationRussianVowels",
+      "id": "DATA-EN-R1",
+      "kind": "data_demonstration",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Application or bounded demonstration only; not independent theorem ownership.",
+      "ownership_class": "New application or correction; the positive-affine sign law is inherited elementary algebra.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Any lost definedness or reversed sign withdraws the pass. It does not establish metric equivalence, a phoneme, an all-accent population, or repair the failed fine reader."
+    },
+    {
+      "chapter": "8",
+      "citation_keys": "wu2024suppletionNumerals;shiEtAl2021aishell3",
+      "id": "DATA-ZH-R1",
+      "kind": "data_demonstration",
+      "main_or_appendix": "appendix",
+      "mandatory_for_dissertation": "true",
+      "novelty_claim": "Application or bounded demonstration only; not independent theorem ownership.",
+      "ownership_class": "New application or correction.",
+      "review_priority": "standard",
+      "withdrawal_condition": "Recompute if Wu's benchmark, Pinyin scope parsing, inventory, or ambiguity policy changes. The four refused rows remain undefined."
+    }
+  ]
+}

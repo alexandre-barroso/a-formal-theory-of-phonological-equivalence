@@ -1,0 +1,951 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B2.ASSUMPTION-MANIFEST",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "a": "(m/(p*h))^q",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "q": "1/(p-1)",
+        "routes": [
+          "KKT",
+          "supporting_hyperplane"
+        ],
+        "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+      }
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "assumption_model",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "inactive_stationarity",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "extension_multiplier",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "equality_boundary",
+        "expected": [
+          4,
+          [
+            1,
+            "3/5",
+            "3/10",
+            "1/10",
+            0,
+            0,
+            0
+          ],
+          3,
+          0
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "exact_anchors",
+        "expected": [
+          [
+            5,
+            [
+              1,
+              "13/20",
+              "3/8",
+              "7/40",
+              "1/20",
+              0
+            ]
+          ],
+          [
+            4,
+            [
+              1,
+              "3/5",
+              "3/10",
+              "1/10",
+              0,
+              0
+            ]
+          ],
+          [
+            9,
+            [
+              1,
+              "41/42"
+            ]
+          ]
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "equality_is_zero_side": true,
+          "least_first_zero_exists": true,
+          "positive_follower_count": "K_p-1",
+          "prefix_extension_stable_from": "K_p",
+          "quadratic_specialization": "L=max{k>=0:m*k*(k+1)<=4*h}",
+          "unique_optimizer": true
+        },
+        "inputs": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "2c9a7dcdbed6431e13426c7517a74ecba42eae809eaee1ceca66203c814c1d1a",
+      "id": "CHG-B2.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "fcd21e34871d45fdfdc3beed8ac98480a02bec4be18be3076523f77d9a63335f"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        }
+      },
+      "component": "assumption_model",
+      "expected": true,
+      "id": "CHG-B2.CLAIM.01",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B2"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        }
+      },
+      "component": "inactive_stationarity",
+      "expected": true,
+      "id": "CHG-B2.CLAIM.02",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B2"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        }
+      },
+      "component": "extension_multiplier",
+      "expected": true,
+      "id": "CHG-B2.CLAIM.03",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B2"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        }
+      },
+      "component": "equality_boundary",
+      "expected": [
+        4,
+        [
+          1,
+          "3/5",
+          "3/10",
+          "1/10",
+          0,
+          0,
+          0
+        ],
+        3,
+        0
+      ],
+      "id": "CHG-B2.CLAIM.04",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B2"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        }
+      },
+      "component": "exact_anchors",
+      "expected": [
+        [
+          5,
+          [
+            1,
+            "13/20",
+            "3/8",
+            "7/40",
+            "1/20",
+            0
+          ]
+        ],
+        [
+          4,
+          [
+            1,
+            "3/5",
+            "3/10",
+            "1/10",
+            0,
+            0
+          ]
+        ],
+        [
+          9,
+          [
+            1,
+            "41/42"
+          ]
+        ]
+      ],
+      "id": "CHG-B2.CLAIM.05",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B2"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        }
+      },
+      "component": "universal_result",
+      "expected": {
+        "equality_is_zero_side": true,
+        "least_first_zero_exists": true,
+        "positive_follower_count": "K_p-1",
+        "prefix_extension_stable_from": "K_p",
+        "quadratic_specialization": "L=max{k>=0:m*k*(k+1)<4*h}",
+        "unique_optimizer": true
+      },
+      "id": "CHG-B2.CLAIM.06",
+      "inputs": {
+        "a": "(m/(p*h))^q",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "q": "1/(p-1)",
+        "routes": [
+          "KKT",
+          "supporting_hyperplane"
+        ],
+        "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B2"
+    }
+  ],
+  "domains": [
+    {
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B2.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "CHG-B2",
+      "variables": [
+        {
+          "name": "N",
+          "node": "variable"
+        },
+        {
+          "name": "h",
+          "node": "variable"
+        },
+        {
+          "name": "m",
+          "node": "variable"
+        },
+        {
+          "name": "p",
+          "node": "variable"
+        }
+      ]
+    }
+  ],
+  "english_statement_sha256": "2c9a7dcdbed6431e13426c7517a74ecba42eae809eaee1ceca66203c814c1d1a",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "17c47490edf0532a3cf528a929eb56d13accb60c5964ad45d164a758ba0851f6",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "group": "CHG",
+  "kind": "result",
+  "nonclaims": "No theorem about all continuous HG, all vowel harmony, or phonetic trajectories.",
+  "portuguese_statement_sha256": "fcd21e34871d45fdfdc3beed8ac98480a02bec4be18be3076523f77d9a63335f",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "assumption_model",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B2.ASSUMPTIONS.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "inactive_stationarity",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B2.KKT.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "extension_multiplier",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B2.EXTENSION.03",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "equality_boundary",
+        "expected": [
+          4,
+          [
+            1,
+            "3/5",
+            "3/10",
+            "1/10",
+            0,
+            0,
+            0
+          ],
+          3,
+          0
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B2.BOUNDARY.04",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "exact_anchors",
+        "expected": [
+          [
+            5,
+            [
+              1,
+              "13/20",
+              "3/8",
+              "7/40",
+              "1/20",
+              0
+            ]
+          ],
+          [
+            4,
+            [
+              1,
+              "3/5",
+              "3/10",
+              "1/10",
+              0,
+              0
+            ]
+          ],
+          [
+            9,
+            [
+              1,
+              "41/42"
+            ]
+          ]
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B2.ANCHORS.05",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "a": "(m/(p*h))^q",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1"
+            ],
+            "q": "1/(p-1)",
+            "routes": [
+              "KKT",
+              "supporting_hyperplane"
+            ],
+            "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "equality_is_zero_side": true,
+          "least_first_zero_exists": true,
+          "positive_follower_count": "K_p-1",
+          "prefix_extension_stable_from": "K_p",
+          "quadratic_specialization": "L=max{k>=0:m*k*(k+1)<4*h}",
+          "unique_optimizer": true
+        },
+        "inputs": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B2"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B2.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "N",
+        "h",
+        "m",
+        "p"
+      ]
+    }
+  ],
+  "registered_query_type": "exact directional_positive_part_power_hg result consequence",
+  "result_dependencies": [
+    "CHG-B1"
+  ],
+  "result_id": "CHG-B2",
+  "schema_version": "1.0.0",
+  "scope": "Directional power harmony plus positive linear markedness.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "nonnegative real",
+    "positive real",
+    "real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "All-horizon finite persistence",
+  "title_pt_BR": "Persistência finita em todos os horizontes",
+  "variables": [
+    {
+      "name": "N",
+      "sort": "natural number"
+    },
+    {
+      "name": "h",
+      "sort": "positive real"
+    },
+    {
+      "name": "m",
+      "sort": "positive real"
+    },
+    {
+      "name": "p",
+      "sort": "real"
+    }
+  ],
+  "withdrawal_condition": "Withdraw theorem correctness on any exact counterexample under the printed assumptions. Withdraw/narrow priority if earlier same-family work is found. Change of GEN, constraint set, weights, trigger, path protection, or horizon policy creates another theorem."
+}

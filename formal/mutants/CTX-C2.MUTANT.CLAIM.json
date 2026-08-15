@@ -1,0 +1,341 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "p_strictly_greater_than_one",
+        "K_integer_at_least_two",
+        "positive_fixed_edge_site_ratio",
+        "complete_candidate_order_query",
+        "opposite_endpoint_probe",
+        "CTX-C1"
+      ],
+      "id": "CTX-C2.ASSUMPTION-MANIFEST",
+      "node": "contextual_assumptions"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "algorithm": "ctx_c2_order_fixture_v1",
+        "expected": [
+          [
+            "7/2__MUTANT__",
+            4
+          ],
+          [
+            "17/4",
+            4
+          ]
+        ],
+        "family": "contextual_interaction",
+        "inputs": {
+          "p": 2,
+          "paths": [
+            [
+              "1",
+              "0",
+              "1/2"
+            ],
+            [
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "rho": "3"
+        },
+        "node": "analytic_proof_result"
+      },
+      {
+        "algorithm": "ctx_c2_shortest_fixture_v1",
+        "expected": [
+          [
+            "1/6",
+            0
+          ],
+          [
+            "1/3",
+            "1/3"
+          ]
+        ],
+        "family": "contextual_interaction",
+        "inputs": {
+          "p": 2,
+          "phase": "1/4",
+          "support": 2
+        },
+        "node": "analytic_proof_result"
+      },
+      {
+        "algorithm": "ctx_c2_general_v1",
+        "expected": {
+          "all_one_trigger_winners_equal": true,
+          "complete_orders_equal": false,
+          "shortest_opposite_trigger_separator": "K+1",
+          "three_code_probes": [
+            "K+1",
+            "2K"
+          ]
+        },
+        "family": "contextual_interaction",
+        "inputs": {
+          "domain": {
+            "K": "integer K>=2",
+            "p": "p>1",
+            "rho": "rho>0"
+          },
+          "imports": [
+            "CTX-C1"
+          ],
+          "one_trigger_evaluators": [
+            "positive_part_edge",
+            "absolute_edge"
+          ],
+          "opposite_trigger_probe": "fixed right endpoint 1",
+          "running_minimum": "y_i=min(x_0,...,x_i)",
+          "separator_span": "K+1"
+        },
+        "node": "analytic_proof_result"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "6cc58763cbe12c318faa1f7be82c8b461121c223558337eef2b221ef07e8b629",
+      "id": "CTX-C2.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "aabb7716836a79154000e65315f626aa8fc27080e327bde9e61003d0d848b210"
+    },
+    {
+      "algorithm": "ctx_c2_order_fixture_v1",
+      "expected": [
+        [
+          "7/2",
+          4
+        ],
+        [
+          "17/4",
+          4
+        ]
+      ],
+      "family": "contextual_interaction",
+      "id": "CTX-C2.CLAIM.01",
+      "inputs": {
+        "p": 2,
+        "paths": [
+          [
+            "1",
+            "0",
+            "1/2"
+          ],
+          [
+            "1",
+            "1",
+            "0"
+          ]
+        ],
+        "rho": "3"
+      },
+      "node": "analytic_proof_result"
+    },
+    {
+      "algorithm": "ctx_c2_shortest_fixture_v1",
+      "expected": [
+        [
+          "1/6",
+          0
+        ],
+        [
+          "1/3",
+          "1/3"
+        ]
+      ],
+      "family": "contextual_interaction",
+      "id": "CTX-C2.CLAIM.02",
+      "inputs": {
+        "p": 2,
+        "phase": "1/4",
+        "support": 2
+      },
+      "node": "analytic_proof_result"
+    },
+    {
+      "algorithm": "ctx_c2_general_v1",
+      "expected": {
+        "all_one_trigger_winners_equal": true,
+        "complete_orders_equal": false,
+        "shortest_opposite_trigger_separator": "K+1",
+        "three_code_probes": [
+          "K+1",
+          "2K"
+        ]
+      },
+      "family": "contextual_interaction",
+      "id": "CTX-C2.CLAIM.03",
+      "inputs": {
+        "domain": {
+          "K": "integer K>=2",
+          "p": "p>1",
+          "rho": "rho>0"
+        },
+        "imports": [
+          "CTX-C1"
+        ],
+        "one_trigger_evaluators": [
+          "positive_part_edge",
+          "absolute_edge"
+        ],
+        "opposite_trigger_probe": "fixed right endpoint 1",
+        "running_minimum": "y_i=min(x_0,...,x_i)",
+        "separator_span": "K+1"
+      },
+      "node": "analytic_proof_result"
+    }
+  ],
+  "domains": [
+    {
+      "family": "contextual_interaction",
+      "id": "CTX-C2.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "CTX-C2",
+      "variables": []
+    }
+  ],
+  "english_statement_sha256": "6cc58763cbe12c318faa1f7be82c8b461121c223558337eef2b221ef07e8b629",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "f13836cddd561191325ea96264056c9ca256bd00a9340bd3164a188806b4ca6e",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001"
+  ],
+  "group": "CTX",
+  "kind": "result",
+  "nonclaims": "Winner coincidence does not imply margin, preorder, or evaluator identity.",
+  "portuguese_statement_sha256": "aabb7716836a79154000e65315f626aa8fc27080e327bde9e61003d0d848b210",
+  "proof_goals": [
+    {
+      "claim": {
+        "algorithm": "ctx_c2_order_fixture_v1",
+        "expected": [
+          [
+            "7/2__MUTANT__",
+            4
+          ],
+          [
+            "17/4",
+            4
+          ]
+        ],
+        "family": "contextual_interaction",
+        "inputs": {
+          "p": 2,
+          "paths": [
+            [
+              "1",
+              "0",
+              "1/2"
+            ],
+            [
+              "1",
+              "1",
+              "0"
+            ]
+          ],
+          "rho": "3"
+        },
+        "node": "analytic_proof_result"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CTX-C2.ORDER.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "algorithm": "ctx_c2_shortest_fixture_v1",
+        "expected": [
+          [
+            "1/6",
+            0
+          ],
+          [
+            "1/3",
+            "1/3"
+          ]
+        ],
+        "family": "contextual_interaction",
+        "inputs": {
+          "p": 2,
+          "phase": "1/4",
+          "support": 2
+        },
+        "node": "analytic_proof_result"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CTX-C2.SHORTEST.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "algorithm": "ctx_c2_general_v1",
+        "expected": {
+          "all_one_trigger_winners_equal": true,
+          "complete_orders_equal": false,
+          "shortest_opposite_trigger_separator": "K+1",
+          "three_code_probes": [
+            "K+1",
+            "2K"
+          ]
+        },
+        "family": "contextual_interaction",
+        "inputs": {
+          "domain": {
+            "K": "integer K>=2",
+            "p": "p>1",
+            "rho": "rho>0"
+          },
+          "imports": [
+            "CTX-C1"
+          ],
+          "one_trigger_evaluators": [
+            "positive_part_edge",
+            "absolute_edge"
+          ],
+          "opposite_trigger_probe": "fixed right endpoint 1",
+          "running_minimum": "y_i=min(x_0,...,x_i)",
+          "separator_span": "K+1"
+        },
+        "node": "analytic_proof_result"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CTX-C2.GENERAL.03",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact contextual_interaction result consequence",
+  "result_dependencies": [],
+  "result_id": "CTX-C2",
+  "schema_version": "1.0.0",
+  "scope": "Evaluator direction under one- and two-trigger probes.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "positive real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Direction is not identified by one-trigger winners",
+  "title_pt_BR": "Os vencedores com um gatilho não identificam a direção",
+  "variables": [],
+  "withdrawal_condition": "It does not establish complete evaluator equivalence or a bidirectional speaker grammar. The arbitrary-(K) equivalence and shortestness arguments are machine-closed relative to the registered trusted foundation; the written proofs remain explanatory."
+}

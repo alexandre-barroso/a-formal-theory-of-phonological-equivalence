@@ -1,0 +1,17 @@
+{
+  "check_id": "FIN-A7.STATEMENT-CORRESPONDENCE.CHECK",
+  "check_type": "StatementCorrespondenceCheck",
+  "formal_statement_sha256": "4d5a2cde4a89ef62f553a841b2c2e737d57c2bb5e13919fc022c9edb20aad6e7",
+  "payload": {
+    "en_statement_file_sha256": "c1b008ac3ebf5669dedd64bcb29a78ebe521c97a5882ce7447172720dd64cdc3",
+    "en_statement_marker": "formal/specs/FIN-A7.json",
+    "en_statement_path": "proofs/en/results/FIN-A7.tex",
+    "en_statement_sha256": "5b68010aaa52e196255cdc0a13801d160f030fde374a99ee15a2a52314b44dc0",
+    "pt_BR_statement_file_sha256": "edf0ca8e1371b1a68cc744eab57c969e22a39e3b6fba46d83995e59b460643b0",
+    "pt_BR_statement_marker": "formal/specs/FIN-A7.json",
+    "pt_BR_statement_path": "proofs/pt_BR/results/FIN-A7.tex",
+    "pt_BR_statement_sha256": "5520acabf542bf6451b3dfa5282d92c99190a8d362e4d0a2841bb2b21e01bdfa"
+  },
+  "result_id": "FIN-A7",
+  "schema_version": "1.0.0"
+}

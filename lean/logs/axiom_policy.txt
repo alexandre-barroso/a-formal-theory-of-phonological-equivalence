@@ -1,0 +1,2 @@
+$ sh scripts/check_axiom_audit_output.sh logs/axiom_audit.txt
+PASS: all 1881 axiom-audit targets returned successfully; all 3 reported axiom dependencies are in the explicit standard whitelist.

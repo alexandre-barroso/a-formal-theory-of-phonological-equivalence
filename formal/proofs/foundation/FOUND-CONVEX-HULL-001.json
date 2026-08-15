@@ -1,0 +1,21 @@
+{
+  "conclusion": {
+    "domain": "finite point sets",
+    "node": "positive_barycentric_relative_interior"
+  },
+  "formal_statement_sha256": "d281b54074552434d89c0b04459c5be57a343539e48895aa4641a3620bbcc5bd",
+  "foundation_id": "FOUND-CONVEX-HULL-001",
+  "proof_id": "FOUND-CONVEX-HULL-001.PROOF",
+  "proof_method": "LocalStructuralDerivationProof",
+  "schema_version": "1.0.0",
+  "steps": [
+    {
+      "domain": "finite point sets",
+      "rule": "positive_barycentric_image_is_relative_open"
+    },
+    {
+      "conclusion": "positive_barycentric_relative_interior",
+      "rule": "face_separation_for_boundary_points"
+    }
+  ]
+}

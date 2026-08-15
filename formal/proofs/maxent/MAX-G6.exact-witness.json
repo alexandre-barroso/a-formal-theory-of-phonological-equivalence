@@ -1,0 +1,2565 @@
+{
+  "proof_design": "MAX-G6 exact finite inventory and cone factorization",
+  "collapse_lambda": [
+    -1,
+    -1
+  ],
+  "collapse_matrix": [
+    [
+      -1,
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      -1,
+      -1,
+      0
+    ]
+  ],
+  "collapse_product": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "distinct_winner_maps": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      3,
+      3
+    ],
+    [
+      1,
+      2,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ]
+  ],
+  "facet_polynomials": {
+    "c_minus_a2d": {
+      "terms": [
+        {
+          "coefficient": "1",
+          "powers": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "powers": [
+            2,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "variables": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "d_minus_b2c": {
+      "terms": [
+        {
+          "coefficient": "1",
+          "powers": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient": "-1",
+          "powers": [
+            0,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "variables": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    }
+  },
+  "factor_atoms": {
+    "a": {
+      "nonnegativity_rule": "closed_unit_cube_coordinate",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "ab": {
+      "nonnegativity_rule": "nonnegative_coordinate_monomial",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "abcd": {
+      "nonnegativity_rule": "nonnegative_coordinate_monomial",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "ad": {
+      "nonnegativity_rule": "nonnegative_coordinate_monomial",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "b": {
+      "nonnegativity_rule": "closed_unit_cube_coordinate",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              0,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "bc": {
+      "nonnegativity_rule": "nonnegative_coordinate_monomial",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "c": {
+      "nonnegativity_rule": "closed_unit_cube_coordinate",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "cd": {
+      "nonnegativity_rule": "nonnegative_coordinate_monomial",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "d": {
+      "nonnegativity_rule": "closed_unit_cube_coordinate",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "facet_c_minus_a2d": {
+      "nonnegativity_rule": "registered_facet_assumption",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              0,
+              0,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "facet_d_minus_b2c": {
+      "nonnegativity_rule": "registered_facet_assumption",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "one": {
+      "nonnegativity_rule": "positive_constant",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "one_minus_a2d2": {
+      "nonnegativity_rule": "unit_cube_one_minus_coordinate_monomial",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              0,
+              0,
+              2
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "one_minus_ab": {
+      "nonnegativity_rule": "unit_cube_one_minus_coordinate_monomial",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    },
+    "one_minus_cd": {
+      "nonnegativity_rule": "unit_cube_one_minus_coordinate_monomial",
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      }
+    }
+  },
+  "implication_counts": {
+    "all_with_reflexive": 137,
+    "empty_antecedent": 105,
+    "live": 16,
+    "nonreflexive": 121
+  },
+  "ledger": [
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ]
+  ],
+  "live_implications": [
+    {
+      "antecedent": [
+        2,
+        1
+      ],
+      "antecedent_event": [
+        0,
+        1
+      ],
+      "consequent": [
+        1,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "id": "b",
+            "op": "atom"
+          },
+          {
+            "arguments": [
+              {
+                "id": "one",
+                "op": "atom"
+              },
+              {
+                "id": "ad",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "one_minus_cd",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              1,
+              2
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "9fce022786144dd3a391a84d54f2273536eb2162121537e752bbb9f1fc6d0e8d"
+    },
+    {
+      "antecedent": [
+        2,
+        2
+      ],
+      "antecedent_event": [
+        2,
+        3
+      ],
+      "consequent": [
+        1,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "id": "one",
+                "op": "atom"
+              },
+              {
+                "id": "ad",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "facet_d_minus_b2c",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              2,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "878052a91e3a209c0400b9e1c59d29c255a6a573a190df5ba9b0a9a30aa6803f"
+    },
+    {
+      "antecedent": [
+        3,
+        1
+      ],
+      "antecedent_event": [
+        0,
+        2
+      ],
+      "consequent": [
+        1,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "id": "a",
+            "op": "atom"
+          },
+          {
+            "arguments": [
+              {
+                "id": "one",
+                "op": "atom"
+              },
+              {
+                "id": "bc",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "one_minus_cd",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              2,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "6775267a961b69de22448bef4e3a97f48830273287bca34ba5ea925f2fac6e44"
+    },
+    {
+      "antecedent": [
+        3,
+        3
+      ],
+      "antecedent_event": [
+        1,
+        3
+      ],
+      "consequent": [
+        1,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "id": "one",
+                "op": "atom"
+              },
+              {
+                "id": "bc",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "facet_c_minus_a2d",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "7be953ef5c12c30c2ead41c6ab5531692312970b4cfc318eed30a7228d42c5d3"
+    },
+    {
+      "antecedent": [
+        4,
+        1
+      ],
+      "antecedent_event": [
+        0
+      ],
+      "consequent": [
+        1,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "id": "one_minus_cd",
+            "op": "atom"
+          },
+          {
+            "arguments": [
+              {
+                "id": "ab",
+                "op": "atom"
+              },
+              {
+                "id": "bc",
+                "op": "atom"
+              },
+              {
+                "id": "ad",
+                "op": "atom"
+              },
+              {
+                "id": "abcd",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              1,
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              2,
+              2
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "ee7d88c1add009c6742b6ef6302bb9a8eba8de16690a54a54e523c749a433017"
+    },
+    {
+      "antecedent": [
+        4,
+        1
+      ],
+      "antecedent_event": [
+        0
+      ],
+      "consequent": [
+        2,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "id": "a",
+            "op": "atom"
+          },
+          {
+            "arguments": [
+              {
+                "id": "b",
+                "op": "atom"
+              },
+              {
+                "id": "d",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "one_minus_cd",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "ba44c8134739b6fcead6bd4878231aa8e5fa1c9c6cf02dcba1444c256e6be2eb"
+    },
+    {
+      "antecedent": [
+        4,
+        1
+      ],
+      "antecedent_event": [
+        0
+      ],
+      "consequent": [
+        3,
+        1
+      ],
+      "consequent_event": [
+        0,
+        2
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "id": "b",
+            "op": "atom"
+          },
+          {
+            "arguments": [
+              {
+                "id": "a",
+                "op": "atom"
+              },
+              {
+                "id": "c",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "one_minus_cd",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              1,
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "9d1c57e23f1c10af8b524f566ca8a78a554315d6049363539ff4a50943c47b11"
+    },
+    {
+      "antecedent": [
+        4,
+        2
+      ],
+      "antecedent_event": [
+        2
+      ],
+      "consequent": [
+        1,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "id": "a",
+                "op": "atom"
+              },
+              {
+                "arguments": [
+                  {
+                    "id": "b",
+                    "op": "atom"
+                  },
+                  {
+                    "id": "d",
+                    "op": "atom"
+                  }
+                ],
+                "op": "add"
+              },
+              {
+                "id": "one_minus_cd",
+                "op": "atom"
+              }
+            ],
+            "op": "multiply"
+          },
+          {
+            "arguments": [
+              {
+                "id": "c",
+                "op": "atom"
+              },
+              {
+                "arguments": [
+                  {
+                    "id": "one",
+                    "op": "atom"
+                  },
+                  {
+                    "id": "ad",
+                    "op": "atom"
+                  }
+                ],
+                "op": "add"
+              },
+              {
+                "id": "facet_d_minus_b2c",
+                "op": "atom"
+              }
+            ],
+            "op": "multiply"
+          }
+        ],
+        "op": "add"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              2,
+              2,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "da911170ec5592c3c2d432121d058f392d5030cac002606306127e35fd1968a0"
+    },
+    {
+      "antecedent": [
+        4,
+        2
+      ],
+      "antecedent_event": [
+        2
+      ],
+      "consequent": [
+        2,
+        2
+      ],
+      "consequent_event": [
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "id": "a",
+            "op": "atom"
+          },
+          {
+            "arguments": [
+              {
+                "id": "b",
+                "op": "atom"
+              },
+              {
+                "id": "d",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "one_minus_cd",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "ba44c8134739b6fcead6bd4878231aa8e5fa1c9c6cf02dcba1444c256e6be2eb"
+    },
+    {
+      "antecedent": [
+        4,
+        2
+      ],
+      "antecedent_event": [
+        2
+      ],
+      "consequent": [
+        3,
+        1
+      ],
+      "consequent_event": [
+        0,
+        2
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "id": "a",
+                "op": "atom"
+              },
+              {
+                "id": "c",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "facet_d_minus_b2c",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "c033dd7701467de008496b39f5ed56cd0cafd57111a7e995f5a35587fdf973a8"
+    },
+    {
+      "antecedent": [
+        4,
+        3
+      ],
+      "antecedent_event": [
+        1
+      ],
+      "consequent": [
+        1,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "id": "a",
+                "op": "atom"
+              },
+              {
+                "id": "b",
+                "op": "atom"
+              },
+              {
+                "id": "one_minus_cd",
+                "op": "atom"
+              }
+            ],
+            "op": "multiply"
+          },
+          {
+            "arguments": [
+              {
+                "id": "b",
+                "op": "atom"
+              },
+              {
+                "id": "c",
+                "op": "atom"
+              },
+              {
+                "id": "one_minus_a2d2",
+                "op": "atom"
+              }
+            ],
+            "op": "multiply"
+          },
+          {
+            "arguments": [
+              {
+                "id": "d",
+                "op": "atom"
+              },
+              {
+                "id": "facet_c_minus_a2d",
+                "op": "atom"
+              }
+            ],
+            "op": "multiply"
+          }
+        ],
+        "op": "add"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              1,
+              1,
+              2
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "4fce26c2083328e8af070ab9766512ed506dde5c3dcd4a6ff1ddc76f1c9f5069"
+    },
+    {
+      "antecedent": [
+        4,
+        3
+      ],
+      "antecedent_event": [
+        1
+      ],
+      "consequent": [
+        2,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "id": "b",
+                "op": "atom"
+              },
+              {
+                "id": "d",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "facet_c_minus_a2d",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              1,
+              0,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "a9f8c4088072c47d1a88609a31f23163575e90af66f1e704ca805fa6107d3f82"
+    },
+    {
+      "antecedent": [
+        4,
+        3
+      ],
+      "antecedent_event": [
+        1
+      ],
+      "consequent": [
+        3,
+        3
+      ],
+      "consequent_event": [
+        1,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "id": "b",
+            "op": "atom"
+          },
+          {
+            "arguments": [
+              {
+                "id": "a",
+                "op": "atom"
+              },
+              {
+                "id": "c",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "one_minus_cd",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              1,
+              2,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "9d1c57e23f1c10af8b524f566ca8a78a554315d6049363539ff4a50943c47b11"
+    },
+    {
+      "antecedent": [
+        4,
+        4
+      ],
+      "antecedent_event": [
+        3
+      ],
+      "consequent": [
+        1,
+        1
+      ],
+      "consequent_event": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "id": "one_minus_ab",
+            "op": "atom"
+          },
+          {
+            "arguments": [
+              {
+                "id": "bc",
+                "op": "atom"
+              },
+              {
+                "id": "ad",
+                "op": "atom"
+              },
+              {
+                "id": "cd",
+                "op": "atom"
+              },
+              {
+                "id": "abcd",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              1,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              2,
+              1,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "326487d8a03aefdd060846c448a84461ddfa89237fe18571fdefb099a40b3eeb"
+    },
+    {
+      "antecedent": [
+        4,
+        4
+      ],
+      "antecedent_event": [
+        3
+      ],
+      "consequent": [
+        2,
+        2
+      ],
+      "consequent_event": [
+        2,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "id": "b",
+                "op": "atom"
+              },
+              {
+                "id": "d",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "facet_c_minus_a2d",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              0,
+              0,
+              2
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              2,
+              1,
+              0,
+              1
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "a9f8c4088072c47d1a88609a31f23163575e90af66f1e704ca805fa6107d3f82"
+    },
+    {
+      "antecedent": [
+        4,
+        4
+      ],
+      "antecedent_event": [
+        3
+      ],
+      "consequent": [
+        3,
+        3
+      ],
+      "consequent_event": [
+        1,
+        3
+      ],
+      "factorization": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "id": "a",
+                "op": "atom"
+              },
+              {
+                "id": "c",
+                "op": "atom"
+              }
+            ],
+            "op": "add"
+          },
+          {
+            "id": "facet_d_minus_b2c",
+            "op": "atom"
+          }
+        ],
+        "op": "multiply"
+      },
+      "polynomial": {
+        "terms": [
+          {
+            "coefficient": "1",
+            "powers": [
+              0,
+              0,
+              1,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              0,
+              2,
+              2,
+              0
+            ]
+          },
+          {
+            "coefficient": "1",
+            "powers": [
+              1,
+              0,
+              0,
+              1
+            ]
+          },
+          {
+            "coefficient": "-1",
+            "powers": [
+              1,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
+      },
+      "polynomial_sha256": "c033dd7701467de008496b39f5ed56cd0cafd57111a7e995f5a35587fdf973a8"
+    }
+  ],
+  "necessity": [
+    {
+      "facet_atom": "facet_d_minus_b2c",
+      "live_implication_index_one_based": 2,
+      "strictly_positive_factor": {
+        "arguments": [
+          {
+            "id": "one",
+            "op": "atom"
+          },
+          {
+            "id": "ad",
+            "op": "atom"
+          }
+        ],
+        "op": "add"
+      }
+    },
+    {
+      "facet_atom": "facet_c_minus_a2d",
+      "live_implication_index_one_based": 4,
+      "strictly_positive_factor": {
+        "arguments": [
+          {
+            "id": "one",
+            "op": "atom"
+          },
+          {
+            "id": "bc",
+            "op": "atom"
+          }
+        ],
+        "op": "add"
+      }
+    }
+  ],
+  "ranking_to_winner_map": [
+    {
+      "ranking": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "winner_map": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ranking": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "winner_map": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ranking": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "winner_map": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ranking": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "winner_map": [
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "ranking": [
+        1,
+        4,
+        2,
+        3
+      ],
+      "winner_map": [
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "ranking": [
+        1,
+        4,
+        3,
+        2
+      ],
+      "winner_map": [
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "ranking": [
+        2,
+        1,
+        3,
+        4
+      ],
+      "winner_map": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ranking": [
+        2,
+        1,
+        4,
+        3
+      ],
+      "winner_map": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ranking": [
+        2,
+        3,
+        1,
+        4
+      ],
+      "winner_map": [
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "ranking": [
+        2,
+        3,
+        4,
+        1
+      ],
+      "winner_map": [
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "ranking": [
+        2,
+        4,
+        1,
+        3
+      ],
+      "winner_map": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ranking": [
+        2,
+        4,
+        3,
+        1
+      ],
+      "winner_map": [
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "ranking": [
+        3,
+        1,
+        2,
+        4
+      ],
+      "winner_map": [
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "ranking": [
+        3,
+        1,
+        4,
+        2
+      ],
+      "winner_map": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ranking": [
+        3,
+        2,
+        1,
+        4
+      ],
+      "winner_map": [
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "ranking": [
+        3,
+        2,
+        4,
+        1
+      ],
+      "winner_map": [
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "ranking": [
+        3,
+        4,
+        1,
+        2
+      ],
+      "winner_map": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ranking": [
+        3,
+        4,
+        2,
+        1
+      ],
+      "winner_map": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ranking": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "winner_map": [
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "ranking": [
+        4,
+        1,
+        3,
+        2
+      ],
+      "winner_map": [
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "ranking": [
+        4,
+        2,
+        1,
+        3
+      ],
+      "winner_map": [
+        1,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "ranking": [
+        4,
+        2,
+        3,
+        1
+      ],
+      "winner_map": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ranking": [
+        4,
+        3,
+        1,
+        2
+      ],
+      "winner_map": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "ranking": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "winner_map": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "strict_activity_interior_witness": [
+    "1/2",
+    "1/2",
+    "1/2",
+    "1/2"
+  ],
+  "strict_facet_values": [
+    "3/8",
+    "3/8"
+  ],
+  "variables": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ]
+}

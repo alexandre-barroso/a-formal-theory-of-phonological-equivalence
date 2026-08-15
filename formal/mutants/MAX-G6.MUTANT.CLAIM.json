@@ -1,0 +1,3534 @@
+{
+  "assumptions": [
+    {
+      "id": "MAX-G6.DOMAIN",
+      "left": {
+        "name": "source_tensor",
+        "node": "variable"
+      },
+      "node": "equal",
+      "right": {
+        "entries": [
+          [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0,
+              0
+            ]
+          ]
+        ],
+        "node": "tensor"
+      }
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "argument": {
+          "arguments": [
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "strict_ranking_count",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "integer",
+                "value": 24
+              }
+            },
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "distinct_winner_maps",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "elements": [
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    3,
+                    3
+                  ],
+                  [
+                    1,
+                    2,
+                    1,
+                    2
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "node": "finite_set"
+              }
+            },
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "nonreflexive_implication_count",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "integer",
+                "value": 121
+              }
+            },
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "empty_antecedent_implication_count",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "integer",
+                "value": 105
+              }
+            },
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "live_implication_count",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "integer",
+                "value": 16
+              }
+            }
+          ],
+          "node": "and"
+        },
+        "node": "not"
+      },
+      {
+        "bindings": [
+          {
+            "sort": "positive real",
+            "variable": "a"
+          },
+          {
+            "sort": "positive real",
+            "variable": "b"
+          },
+          {
+            "sort": "positive real",
+            "variable": "c"
+          },
+          {
+            "sort": "positive real",
+            "variable": "d"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "left": {
+                  "name": "a",
+                  "node": "variable"
+                },
+                "node": "less_equal",
+                "right": {
+                  "denominator": 1,
+                  "node": "rational",
+                  "numerator": 1
+                }
+              },
+              {
+                "left": {
+                  "name": "b",
+                  "node": "variable"
+                },
+                "node": "less_equal",
+                "right": {
+                  "denominator": 1,
+                  "node": "rational",
+                  "numerator": 1
+                }
+              },
+              {
+                "left": {
+                  "name": "c",
+                  "node": "variable"
+                },
+                "node": "less_equal",
+                "right": {
+                  "denominator": 1,
+                  "node": "rational",
+                  "numerator": 1
+                }
+              },
+              {
+                "left": {
+                  "name": "d",
+                  "node": "variable"
+                },
+                "node": "less_equal",
+                "right": {
+                  "denominator": 1,
+                  "node": "rational",
+                  "numerator": 1
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "left": {
+              "arguments": [
+                {
+                  "entries": [
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        2
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        2,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        0
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "node": "tensor"
+                },
+                {
+                  "entries": [
+                    {
+                      "name": "a",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "b",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "c",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "d",
+                      "node": "variable"
+                    }
+                  ],
+                  "node": "vector"
+                }
+              ],
+              "name": "all_sixteen_live_polynomial_orders",
+              "node": "function_application"
+            },
+            "node": "iff",
+            "right": {
+              "arguments": [
+                {
+                  "left": {
+                    "name": "d",
+                    "node": "variable"
+                  },
+                  "node": "greater_equal",
+                  "right": {
+                    "arguments": [
+                      {
+                        "base": {
+                          "name": "b",
+                          "node": "variable"
+                        },
+                        "exponent": {
+                          "node": "integer",
+                          "value": 2
+                        },
+                        "node": "power"
+                      },
+                      {
+                        "name": "c",
+                        "node": "variable"
+                      }
+                    ],
+                    "node": "multiply"
+                  }
+                },
+                {
+                  "left": {
+                    "name": "c",
+                    "node": "variable"
+                  },
+                  "node": "greater_equal",
+                  "right": {
+                    "arguments": [
+                      {
+                        "base": {
+                          "name": "a",
+                          "node": "variable"
+                        },
+                        "exponent": {
+                          "node": "integer",
+                          "value": 2
+                        },
+                        "node": "power"
+                      },
+                      {
+                        "name": "d",
+                        "node": "variable"
+                      }
+                    ],
+                    "node": "multiply"
+                  }
+                }
+              ],
+              "node": "and"
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      {
+        "arguments": [
+          {
+            "entries": [
+              [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  1,
+                  0,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  0
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "node": "tensor"
+          }
+        ],
+        "name": "exact_source_convention_separation",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "entries": [
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      2,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "node": "tensor"
+              }
+            ],
+            "name": "two_facets_necessary_and_sufficient",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "entries": [
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      2,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "node": "tensor"
+              },
+              {
+                "entries": [
+                  {
+                    "denominator": 2,
+                    "node": "rational",
+                    "numerator": 1
+                  },
+                  {
+                    "denominator": 2,
+                    "node": "rational",
+                    "numerator": 1
+                  },
+                  {
+                    "denominator": 2,
+                    "node": "rational",
+                    "numerator": 1
+                  },
+                  {
+                    "denominator": 2,
+                    "node": "rational",
+                    "numerator": 1
+                  }
+                ],
+                "node": "vector"
+              }
+            ],
+            "name": "two_facet_activity_region_has_strict_interior",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "entries": [
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      2,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "node": "tensor"
+              }
+            ],
+            "name": "all_121_transported_orders_collapse_exactly_to_zero_weight",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "entries": [
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      2,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "node": "tensor"
+              }
+            ],
+            "name": "sixteen_live_orders_do_not_collapse_to_zero_weight",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "280ff12ec018d3ef43a177f2aa9054ce19d6a4dfd7973ad62244e4ec3a98b230",
+      "id": "MAX-G6.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "f646f84316ed208361e4bdccf104974681316299cf408025aafe81aa65dd744e",
+      "semantic_definition_dependencies": [
+        "MAXENT-SHARED-1"
+      ],
+      "semantic_definitions": [
+        {
+          "id": "basic_syllable_tensor",
+          "node": "constant_definition",
+          "returns": "finite sequence",
+          "value": {
+            "entries": [
+              [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  1,
+                  0,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  0
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "node": "tensor"
+          }
+        }
+      ],
+      "semantic_formal_statement_sha256": "2c52204afe5352468a8443d39f05fc06b3eb803413e85281c42a2114960c4a2f",
+      "semantic_nonclaims": "Does not transfer to another correspondence convention or establish a general verdict for MaxEnt or categorical phonology.",
+      "semantic_scope": "Exactly the transcribed four-input, four-candidate, four-constraint tensor and all 24 strict OT rankings.",
+      "semantic_specification_path": "formal/proofs/maxent/semantic/specs/MAX-G6.json",
+      "semantic_specification_sha256": "cefb99e5896d762b77840bc1f7f6297e2d81f1725d861610a47d398fa121d596",
+      "semantic_withdrawal_condition": "Does not transfer to another correspondence convention or establish a general verdict for MaxEnt or categorical phonology."
+    }
+  ],
+  "domains": [
+    {
+      "id": "MAX-G6.DOMAIN",
+      "left": {
+        "name": "source_tensor",
+        "node": "variable"
+      },
+      "node": "equal",
+      "right": {
+        "entries": [
+          [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0,
+              0
+            ]
+          ]
+        ],
+        "node": "tensor"
+      }
+    }
+  ],
+  "english_statement_sha256": "280ff12ec018d3ef43a177f2aa9054ce19d6a4dfd7973ad62244e4ec3a98b230",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "MaxEntSemanticClosureProof"
+  ],
+  "formal_statement_sha256": "0727bfff4ad344ab82b099ee8261a4b6f7fe4c1ba5144e8b53f4ac7a82a1278f",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-POLYNOMIAL-001"
+  ],
+  "group": "MAX",
+  "kind": "theorem",
+  "nonclaims": "The 2018 and 2026 inventories use different correspondence conventions.",
+  "portuguese_statement_sha256": "f646f84316ed208361e4bdccf104974681316299cf408025aafe81aa65dd744e",
+  "proof_goals": [
+    {
+      "claim": {
+        "argument": {
+          "arguments": [
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "strict_ranking_count",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "integer",
+                "value": 24
+              }
+            },
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "distinct_winner_maps",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "elements": [
+                  [
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    1,
+                    1,
+                    3,
+                    3
+                  ],
+                  [
+                    1,
+                    2,
+                    1,
+                    2
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "node": "finite_set"
+              }
+            },
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "nonreflexive_implication_count",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "integer",
+                "value": 121
+              }
+            },
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "empty_antecedent_implication_count",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "integer",
+                "value": 105
+              }
+            },
+            {
+              "left": {
+                "arguments": [
+                  {
+                    "entries": [
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          2
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          1
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          2,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          0
+                        ],
+                        [
+                          1,
+                          1,
+                          1,
+                          0
+                        ]
+                      ],
+                      [
+                        [
+                          0,
+                          0,
+                          1,
+                          1
+                        ],
+                        [
+                          0,
+                          1,
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0,
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          1,
+                          0,
+                          0
+                        ]
+                      ]
+                    ],
+                    "node": "tensor"
+                  }
+                ],
+                "name": "live_implication_count",
+                "node": "function_application"
+              },
+              "node": "equal",
+              "right": {
+                "node": "integer",
+                "value": 16
+              }
+            }
+          ],
+          "node": "and"
+        },
+        "node": "not"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G6.ENUM.01",
+      "proof_methods": [
+        "MaxEntSemanticClosureProof"
+      ]
+    },
+    {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "positive real",
+            "variable": "a"
+          },
+          {
+            "sort": "positive real",
+            "variable": "b"
+          },
+          {
+            "sort": "positive real",
+            "variable": "c"
+          },
+          {
+            "sort": "positive real",
+            "variable": "d"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "left": {
+                  "name": "a",
+                  "node": "variable"
+                },
+                "node": "less_equal",
+                "right": {
+                  "denominator": 1,
+                  "node": "rational",
+                  "numerator": 1
+                }
+              },
+              {
+                "left": {
+                  "name": "b",
+                  "node": "variable"
+                },
+                "node": "less_equal",
+                "right": {
+                  "denominator": 1,
+                  "node": "rational",
+                  "numerator": 1
+                }
+              },
+              {
+                "left": {
+                  "name": "c",
+                  "node": "variable"
+                },
+                "node": "less_equal",
+                "right": {
+                  "denominator": 1,
+                  "node": "rational",
+                  "numerator": 1
+                }
+              },
+              {
+                "left": {
+                  "name": "d",
+                  "node": "variable"
+                },
+                "node": "less_equal",
+                "right": {
+                  "denominator": 1,
+                  "node": "rational",
+                  "numerator": 1
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "left": {
+              "arguments": [
+                {
+                  "entries": [
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        2
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        1
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        2,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        0
+                      ],
+                      [
+                        1,
+                        1,
+                        1,
+                        0
+                      ]
+                    ],
+                    [
+                      [
+                        0,
+                        0,
+                        1,
+                        1
+                      ],
+                      [
+                        0,
+                        1,
+                        1,
+                        0
+                      ],
+                      [
+                        1,
+                        0,
+                        0,
+                        1
+                      ],
+                      [
+                        1,
+                        1,
+                        0,
+                        0
+                      ]
+                    ]
+                  ],
+                  "node": "tensor"
+                },
+                {
+                  "entries": [
+                    {
+                      "name": "a",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "b",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "c",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "d",
+                      "node": "variable"
+                    }
+                  ],
+                  "node": "vector"
+                }
+              ],
+              "name": "all_sixteen_live_polynomial_orders",
+              "node": "function_application"
+            },
+            "node": "iff",
+            "right": {
+              "arguments": [
+                {
+                  "left": {
+                    "name": "d",
+                    "node": "variable"
+                  },
+                  "node": "greater_equal",
+                  "right": {
+                    "arguments": [
+                      {
+                        "base": {
+                          "name": "b",
+                          "node": "variable"
+                        },
+                        "exponent": {
+                          "node": "integer",
+                          "value": 2
+                        },
+                        "node": "power"
+                      },
+                      {
+                        "name": "c",
+                        "node": "variable"
+                      }
+                    ],
+                    "node": "multiply"
+                  }
+                },
+                {
+                  "left": {
+                    "name": "c",
+                    "node": "variable"
+                  },
+                  "node": "greater_equal",
+                  "right": {
+                    "arguments": [
+                      {
+                        "base": {
+                          "name": "a",
+                          "node": "variable"
+                        },
+                        "exponent": {
+                          "node": "integer",
+                          "value": 2
+                        },
+                        "node": "power"
+                      },
+                      {
+                        "name": "d",
+                        "node": "variable"
+                      }
+                    ],
+                    "node": "multiply"
+                  }
+                }
+              ],
+              "node": "and"
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G6.CONE.02",
+      "proof_methods": [
+        "MaxEntSemanticClosureProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "entries": [
+              [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  2
+                ],
+                [
+                  1,
+                  1,
+                  0,
+                  1
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  2,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  1,
+                  1,
+                  0
+                ]
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ]
+              ]
+            ],
+            "node": "tensor"
+          }
+        ],
+        "name": "exact_source_convention_separation",
+        "node": "predicate_application"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G6.PROVENANCE.03",
+      "proof_methods": [
+        "MaxEntSemanticClosureProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "entries": [
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      2,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "node": "tensor"
+              }
+            ],
+            "name": "two_facets_necessary_and_sufficient",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "entries": [
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      2,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "node": "tensor"
+              },
+              {
+                "entries": [
+                  {
+                    "denominator": 2,
+                    "node": "rational",
+                    "numerator": 1
+                  },
+                  {
+                    "denominator": 2,
+                    "node": "rational",
+                    "numerator": 1
+                  },
+                  {
+                    "denominator": 2,
+                    "node": "rational",
+                    "numerator": 1
+                  },
+                  {
+                    "denominator": 2,
+                    "node": "rational",
+                    "numerator": 1
+                  }
+                ],
+                "node": "vector"
+              }
+            ],
+            "name": "two_facet_activity_region_has_strict_interior",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "entries": [
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      2,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "node": "tensor"
+              }
+            ],
+            "name": "all_121_transported_orders_collapse_exactly_to_zero_weight",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "entries": [
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      2
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      2,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      0
+                    ],
+                    [
+                      1,
+                      1,
+                      1,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      0,
+                      1,
+                      1
+                    ],
+                    [
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    [
+                      1,
+                      0,
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      1,
+                      0,
+                      0
+                    ]
+                  ]
+                ],
+                "node": "tensor"
+              }
+            ],
+            "name": "sixteen_live_orders_do_not_collapse_to_zero_weight",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "mandatory": true,
+      "proof_goal_id": "MAX-G6.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "sort": "finite sequence",
+      "variable": "source_tensor"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "positive real",
+      "variable": "a"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "positive real",
+      "variable": "b"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "positive real",
+      "variable": "c"
+    },
+    {
+      "quantifier": "forall",
+      "sort": "positive real",
+      "variable": "d"
+    }
+  ],
+  "registered_query_type": "Basic Syllable strict-ranking implication inventory and MaxEnt transport",
+  "result_dependencies": [
+    "MAX-G5"
+  ],
+  "result_id": "MAX-G6",
+  "schema_version": "1.0.0",
+  "scope": "Basic Syllable categorical implication and MaxEnt lift.",
+  "sorts": [
+    "finite sequence",
+    "positive real"
+  ],
+  "source_transcription_dependencies": [
+    "formal/source_transcriptions/basic_syllable_system.json"
+  ],
+  "title_en": "Basic Syllable implication decomposition",
+  "title_pt_BR": "Decomposição das implicações de Sílaba Básica",
+  "variables": [
+    {
+      "name": "source_tensor",
+      "sort": "finite sequence"
+    },
+    {
+      "name": "a",
+      "sort": "positive real"
+    },
+    {
+      "name": "b",
+      "sort": "positive real"
+    },
+    {
+      "name": "c",
+      "sort": "positive real"
+    },
+    {
+      "name": "d",
+      "sort": "positive real"
+    }
+  ],
+  "withdrawal_condition": "Withdraw if the source ledger, strict-event semantics, implication inventory, or exact cone factorization changes.  This neither refutes MaxEnt nor proves categorical phonology."
+}

@@ -1,0 +1,695 @@
+{
+  "assumptions_used": [
+    "MAX-G3.DOMAIN"
+  ],
+  "claim": {
+    "bindings": [
+      {
+        "sort": "BoundedETRINVInstance",
+        "variable": "Phi"
+      },
+      {
+        "sort": "vector",
+        "variable": "r"
+      }
+    ],
+    "body": {
+      "antecedent": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "Phi",
+                "node": "variable"
+              }
+            ],
+            "name": "well_formed_bounded_etr_inv",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "Phi",
+                "node": "variable"
+              },
+              {
+                "name": "r",
+                "node": "variable"
+              }
+            ],
+            "name": "contraction_chain_cube_point",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "consequent": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "Phi",
+                    "node": "variable"
+                  }
+                ],
+                "name": "exact_chain",
+                "node": "function_application"
+              }
+            ],
+            "name": "exact_contraction_recurrence",
+            "node": "predicate_application"
+          },
+          {
+            "left": {
+              "arguments": [
+                {
+                  "node": "integer",
+                  "value": 2
+                },
+                {
+                  "base": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "Phi",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "exact_chain",
+                        "node": "function_application"
+                      }
+                    ],
+                    "name": "last",
+                    "node": "function_application"
+                  },
+                  "exponent": {
+                    "node": "integer",
+                    "value": 2
+                  },
+                  "node": "power"
+                }
+              ],
+              "node": "multiply"
+            },
+            "node": "less",
+            "right": {
+              "arguments": [
+                {
+                  "name": "Phi",
+                  "node": "variable"
+                }
+              ],
+              "name": "compact_gap_bound",
+              "node": "function_application"
+            }
+          },
+          {
+            "left": {
+              "base": {
+                "arguments": [
+                  {
+                    "name": "r",
+                    "node": "variable"
+                  }
+                ],
+                "name": "last",
+                "node": "function_application"
+              },
+              "exponent": {
+                "node": "integer",
+                "value": 2
+              },
+              "node": "power"
+            },
+            "node": "less_equal",
+            "right": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "node": "integer",
+                      "value": 2
+                    },
+                    {
+                      "base": {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "name": "Phi",
+                                "node": "variable"
+                              }
+                            ],
+                            "name": "exact_chain",
+                            "node": "function_application"
+                          }
+                        ],
+                        "name": "last",
+                        "node": "function_application"
+                      },
+                      "exponent": {
+                        "node": "integer",
+                        "value": 2
+                      },
+                      "node": "power"
+                    }
+                  ],
+                  "node": "multiply"
+                },
+                {
+                  "arguments": [
+                    {
+                      "denominator": {
+                        "node": "integer",
+                        "value": 2
+                      },
+                      "node": "divide",
+                      "numerator": {
+                        "arguments": [
+                          {
+                            "name": "Phi",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "chain_length",
+                        "node": "function_application"
+                      }
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "name": "Phi",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "r",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "residual_square_sum",
+                      "node": "function_application"
+                    }
+                  ],
+                  "node": "multiply"
+                }
+              ],
+              "node": "add"
+            }
+          },
+          {
+            "left": {
+              "arguments": [
+                {
+                  "name": "Phi",
+                  "node": "variable"
+                }
+              ],
+              "name": "bounded_etr_inv_satisfiable",
+              "node": "function_application"
+            },
+            "node": "iff",
+            "right": {
+              "bindings": [
+                {
+                  "sort": "vector",
+                  "variable": "u"
+                },
+                {
+                  "sort": "vector",
+                  "variable": "r"
+                }
+              ],
+              "body": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "Phi",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "u",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "r",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "strictifier_domain_point",
+                    "node": "predicate_application"
+                  },
+                  {
+                    "left": {
+                      "arguments": [
+                        {
+                          "name": "Phi",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "u",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "r",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "strictifier_polynomial_value",
+                      "node": "function_application"
+                    },
+                    "node": "less",
+                    "right": {
+                      "denominator": 1,
+                      "node": "rational",
+                      "numerator": 0
+                    }
+                  }
+                ],
+                "node": "and"
+              },
+              "node": "exists"
+            }
+          }
+        ],
+        "node": "and"
+      },
+      "node": "implies"
+    },
+    "node": "forall"
+  },
+  "claim_sha256": "5cbe049b5009df7c28ada909dcd211e46a6bddddce8eb17773e49688917db425",
+  "formal_statement_sha256": "b79e41c1d08606c90d18fcc398edaf4ea4eed44f811da37dd8a38e5b2b16092f",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-POLYNOMIAL-001",
+    "FOUND-COMPACT-POLY-MIN-001"
+  ],
+  "payload": {
+    "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+    "checker_module_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+    "claim_sha256": "5cbe049b5009df7c28ada909dcd211e46a6bddddce8eb17773e49688917db425",
+    "closure_proof": {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "BoundedETRINVInstance",
+            "variable": "Phi"
+          },
+          {
+            "sort": "vector",
+            "variable": "r"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "Phi",
+                    "node": "variable"
+                  }
+                ],
+                "name": "well_formed_bounded_etr_inv",
+                "node": "predicate_application"
+              },
+              {
+                "arguments": [
+                  {
+                    "name": "Phi",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "r",
+                    "node": "variable"
+                  }
+                ],
+                "name": "contraction_chain_cube_point",
+                "node": "predicate_application"
+              }
+            ],
+            "node": "and"
+          },
+          "consequent": {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "Phi",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "exact_chain",
+                    "node": "function_application"
+                  }
+                ],
+                "name": "exact_contraction_recurrence",
+                "node": "predicate_application"
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "node": "integer",
+                      "value": 2
+                    },
+                    {
+                      "base": {
+                        "arguments": [
+                          {
+                            "arguments": [
+                              {
+                                "name": "Phi",
+                                "node": "variable"
+                              }
+                            ],
+                            "name": "exact_chain",
+                            "node": "function_application"
+                          }
+                        ],
+                        "name": "last",
+                        "node": "function_application"
+                      },
+                      "exponent": {
+                        "node": "integer",
+                        "value": 2
+                      },
+                      "node": "power"
+                    }
+                  ],
+                  "node": "multiply"
+                },
+                "node": "less",
+                "right": {
+                  "arguments": [
+                    {
+                      "name": "Phi",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "compact_gap_bound",
+                  "node": "function_application"
+                }
+              },
+              {
+                "left": {
+                  "base": {
+                    "arguments": [
+                      {
+                        "name": "r",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "last",
+                    "node": "function_application"
+                  },
+                  "exponent": {
+                    "node": "integer",
+                    "value": 2
+                  },
+                  "node": "power"
+                },
+                "node": "less_equal",
+                "right": {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "node": "integer",
+                          "value": 2
+                        },
+                        {
+                          "base": {
+                            "arguments": [
+                              {
+                                "arguments": [
+                                  {
+                                    "name": "Phi",
+                                    "node": "variable"
+                                  }
+                                ],
+                                "name": "exact_chain",
+                                "node": "function_application"
+                              }
+                            ],
+                            "name": "last",
+                            "node": "function_application"
+                          },
+                          "exponent": {
+                            "node": "integer",
+                            "value": 2
+                          },
+                          "node": "power"
+                        }
+                      ],
+                      "node": "multiply"
+                    },
+                    {
+                      "arguments": [
+                        {
+                          "denominator": {
+                            "node": "integer",
+                            "value": 2
+                          },
+                          "node": "divide",
+                          "numerator": {
+                            "arguments": [
+                              {
+                                "name": "Phi",
+                                "node": "variable"
+                              }
+                            ],
+                            "name": "chain_length",
+                            "node": "function_application"
+                          }
+                        },
+                        {
+                          "arguments": [
+                            {
+                              "name": "Phi",
+                              "node": "variable"
+                            },
+                            {
+                              "name": "r",
+                              "node": "variable"
+                            }
+                          ],
+                          "name": "residual_square_sum",
+                          "node": "function_application"
+                        }
+                      ],
+                      "node": "multiply"
+                    }
+                  ],
+                  "node": "add"
+                }
+              },
+              {
+                "left": {
+                  "arguments": [
+                    {
+                      "name": "Phi",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "bounded_etr_inv_satisfiable",
+                  "node": "function_application"
+                },
+                "node": "iff",
+                "right": {
+                  "bindings": [
+                    {
+                      "sort": "vector",
+                      "variable": "u"
+                    },
+                    {
+                      "sort": "vector",
+                      "variable": "r"
+                    }
+                  ],
+                  "body": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "Phi",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "u",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "r",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "strictifier_domain_point",
+                        "node": "predicate_application"
+                      },
+                      {
+                        "left": {
+                          "arguments": [
+                            {
+                              "name": "Phi",
+                              "node": "variable"
+                            },
+                            {
+                              "name": "u",
+                              "node": "variable"
+                            },
+                            {
+                              "name": "r",
+                              "node": "variable"
+                            }
+                          ],
+                          "name": "strictifier_polynomial_value",
+                          "node": "function_application"
+                        },
+                        "node": "less",
+                        "right": {
+                          "denominator": 1,
+                          "node": "rational",
+                          "numerator": 0
+                        }
+                      }
+                    ],
+                    "node": "and"
+                  },
+                  "node": "exists"
+                }
+              }
+            ],
+            "node": "and"
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "claim_sha256": "5cbe049b5009df7c28ada909dcd211e46a6bddddce8eb17773e49688917db425",
+      "formal_statement_sha256": "9e4fc91b3e296044672590b7cc98440446e53b820798588ce5286919d60d11ab",
+      "payload": {
+        "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g1_g5.py",
+        "checker_module_sha256": "7fb40a3804f11ef8196605b38fcd87ed7619faaddca172974ff853fb204691a1",
+        "claim_sha256": "5cbe049b5009df7c28ada909dcd211e46a6bddddce8eb17773e49688917db425",
+        "closure_record": {
+          "claim_sha256": "5cbe049b5009df7c28ada909dcd211e46a6bddddce8eb17773e49688917db425",
+          "closure_scope": "REGISTERED_UNIVERSAL_PROOF_GOAL_RELATIVE_TO_EXACT_FOUNDATIONS",
+          "definition_dependencies": [
+            "MAXENT-SHARED-1"
+          ],
+          "formal_statement_sha256": "9e4fc91b3e296044672590b7cc98440446e53b820798588ce5286919d60d11ab",
+          "foundation_dependencies": [
+            "FOUND-REAL-001",
+            "FOUND-POLYNOMIAL-001",
+            "FOUND-COMPACT-POLY-MIN-001"
+          ],
+          "mutant_ids": [
+            "MAX-G3.CHAIN.MUTANT.USE_NONINTEGER_BPHI",
+            "MAX-G3.CHAIN.MUTANT.SHORTEN_M",
+            "MAX-G3.CHAIN.MUTANT.ASSUME_EXACT_CHAIN_MINIMIZES_PENALTY"
+          ],
+          "proof_goal_dependencies": [
+            "MAX-G3.RESIDUAL.01"
+          ],
+          "proof_goal_id": "MAX-G3.CHAIN.02",
+          "proof_methods": [
+            "InductionProof",
+            "PolynomialIdentityProof",
+            "FirstOrderProof"
+          ],
+          "proof_schema": "dyadic_gap_contraction_strictifier_v1",
+          "proof_steps": [
+            "instantiate_the_compact_cube_minimum_bound_for_degree_four_integer_S",
+            "upper_bound_the_imported_exponent_by_integer_Bbar",
+            "serialize_bbar_as_two_to_the_negative_Bbar",
+            "choose_m_as_ceiling_log2_of_Bbar_plus_three",
+            "prove_two_a_m_squared_is_strictly_below_bbar",
+            "prove_the_exact_recurrence_two_a_i_plus_one_equals_a_i_squared",
+            "telescope_the_one_Lipschitz_half_square_recurrence",
+            "apply_finite_Cauchy_Schwarz_to_the_residuals",
+            "derive_abs_r_m_minus_a_m_at_most_one_half_sqrt_m_sum_rho_squared",
+            "complete_the_square_to_bound_the_chain_penalty_below_by_minus_four_a_m_squared",
+            "prove_strictifier_negativity_from_a_source_zero",
+            "combine_two_a_m_squared_below_bbar_with_the_unsatisfiable_gap",
+            "prove_strictifier_positivity_without_assuming_the_exact_chain_minimizes_the_penalty"
+          ],
+          "result_dependencies": [
+            "MAX-G1",
+            "MAX-G2"
+          ],
+          "result_id": "MAX-G3",
+          "schema_payload": {
+            "chain": "a_0=1 and 2*a_(i+1)=a_i^2",
+            "exact_chain_minimizer_claim": "forbidden",
+            "gap_bound": "bbar=2^-Bbar",
+            "gap_exponent": "Bbar=N*8^N*(4+2N+ceil_log2(max(1,400q,6N)))",
+            "penalty_bound": "m*sum_i(rho_i^2)-2*r_m^2>=-4*a_m^2",
+            "residual": "rho_i=2*r_(i+1)-r_i^2",
+            "reverse_kind": "logical gap implication",
+            "stability_bound": "abs(r_m-a_m)<=sqrt(m*sum_i(rho_i^2))/2",
+            "strictification_condition": "2*a_m^2<bbar"
+          },
+          "source_transcription_dependencies": []
+        },
+        "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+        "proof": "formal/proofs/maxent/semantic/closures/MAX-G1-G5.semantic-proof.json",
+        "proof_goal_id": "MAX-G3.CHAIN.02",
+        "proof_sha256": "87252dd8f550aa6909accd1f7cc40978786a3050cf8dda816c81f3eb1bd8726e",
+        "semantic_kernel_version": "maxent-semantic-g1-g5-1.0.0",
+        "verification": {
+          "claim_sha256": "5cbe049b5009df7c28ada909dcd211e46a6bddddce8eb17773e49688917db425",
+          "closure_kind": "UNIVERSAL_PROOF_SCHEMA_RELATIVE_TO_EXACT_FOUNDATIONS",
+          "evidence": {
+            "chain_length": 12,
+            "completed_square": "(sqrt(m*sum_i(rho_i^2))-2*a_m)^2/2",
+            "dyadic_gap_exponent": 2176,
+            "exact_chain_minimizer_used": false,
+            "penalty_lower_bound": "m*sum_i(rho_i^2)-2*r_m^2>=-4*a_m^2",
+            "reverse_kind": "logical_implication_via_compact_gap",
+            "stability_bound": "abs(r_m-a_m)<=sqrt(m*sum_i(rho_i^2))/2",
+            "strict_gap": true
+          },
+          "foundation_statement_sha256": {
+            "FOUND-COMPACT-POLY-MIN-001": "b4194eb72237f5f1be049bf1206c623baae21935c94b7dbc04505a40df80fb8c",
+            "FOUND-POLYNOMIAL-001": "c017a0589acfbe5ffac8e1d4001773b32254c7d569e7faedb3980c17b15ffb86",
+            "FOUND-REAL-001": "e6438e754fe5803277d6687707d8be61815ee990e48e0f631525243ef5d609f3"
+          },
+          "mutant_count": 3,
+          "proof_goal_id": "MAX-G3.CHAIN.02",
+          "proof_schema": "dyadic_gap_contraction_strictifier_v1",
+          "proof_step_count": 13,
+          "result_id": "MAX-G3",
+          "status": "PASS"
+        },
+        "verification_sha256": "f3c0947dea1dfab5cb9f288f7bcffc2b6a85462374f0a35023f419ef3b166577"
+      },
+      "proof_goal_id": "MAX-G3.CHAIN.02",
+      "proof_id": "MAX-G3.CHAIN.02.MAXENT-SEMANTIC-CLOSURE.PROOF",
+      "proof_method": "MaxEntSemanticClosureProof",
+      "result_id": "MAX-G3",
+      "schema_version": "1.0.0"
+    },
+    "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+    "proof_goal_id": "MAX-G3.CHAIN.02",
+    "proof_method": "MaxEntSemanticClosureProof",
+    "replayed_universal": true,
+    "semantic_kernel_version": "maxent-semantics-1.0.0",
+    "supports_whole_result_closure": true
+  },
+  "proof_goal_id": "MAX-G3.CHAIN.02",
+  "proof_id": "MAX-G3.CHAIN.02.MAXENT-SEMANTIC-CLOSURE.PROOF",
+  "proof_method": "MaxEntSemanticClosureProof",
+  "result_dependencies": [
+    "MAX-G1",
+    "MAX-G2"
+  ],
+  "result_id": "MAX-G3",
+  "schema_version": "1.1.0"
+}

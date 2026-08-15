@@ -1,0 +1,138 @@
+{
+  "assumptions_used": [
+    "CHG-B10.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "N>=1",
+        "p>1",
+        "0<rho_1<=rho_2"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "coordinates": "aligned_grammar_internal_profile",
+        "domain": [
+          "N>=1",
+          "p>1",
+          "0<rho_1<=rho_2"
+        ],
+        "imports": [
+          "CHG-B2",
+          "CHG-B9"
+        ]
+      }
+    },
+    "component": "ratio_monotonicity",
+    "expected": true,
+    "inputs": {},
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B10"
+  },
+  "claim_sha256": "210be2d4bd8e79fe8d9201c11d66b9ed58e25ded7d3afabf18d67716687d94f0",
+  "formal_statement_sha256": "3d7417072909554aa90bf8c65822d4435b02419ae2b38bae7d042e198708ff98",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "N>=1",
+        "p>1",
+        "0<rho_1<=rho_2"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "coordinates": "aligned_grammar_internal_profile",
+        "domain": [
+          "N>=1",
+          "p>1",
+          "0<rho_1<=rho_2"
+        ],
+        "imports": [
+          "CHG-B2",
+          "CHG-B9"
+        ]
+      }
+    },
+    "assumption_model": {
+      "N": 4,
+      "p": 2,
+      "rho_1": 5,
+      "rho_2": 6
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "p>1",
+          "0<rho_1<=rho_2"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "coordinates": "aligned_grammar_internal_profile",
+          "domain": [
+            "N>=1",
+            "p>1",
+            "0<rho_1<=rho_2"
+          ],
+          "imports": [
+            "CHG-B2",
+            "CHG-B9"
+          ]
+        }
+      },
+      "component": "ratio_monotonicity",
+      "expected": true,
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B10"
+    },
+    "derivation": {
+      "component": "ratio_monotonicity",
+      "lower": [
+        1,
+        "3/5",
+        "3/10",
+        "1/10",
+        0
+      ],
+      "result_id": "CHG-B10",
+      "upper": [
+        1,
+        "2/3",
+        "5/12",
+        "1/4",
+        "1/6"
+      ]
+    },
+    "mutant_ids": [
+      "CHG-B10.MUTANT.CONCLUSION",
+      "CHG-B10.MUTANT.ASSUMPTION",
+      "CHG-B10.MUTANT.COMPONENT",
+      "CHG-B10.MUT.REVERSED-CUMULATIVE-ORDER"
+    ],
+    "observed": true,
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B10.MONOTONE.01",
+  "proof_id": "CHG-B10.MONOTONE.01.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "CHG-B2"
+  ],
+  "result_id": "CHG-B10",
+  "schema_version": "1.1.0"
+}

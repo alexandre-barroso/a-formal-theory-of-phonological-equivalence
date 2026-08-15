@@ -1,0 +1,21 @@
+{
+  "conclusion": {
+    "domain": "finite rational matrices",
+    "node": "rank_nullity"
+  },
+  "formal_statement_sha256": "89ee460d08d8bae60855e2d26116f6e7077e4abd3cc1dca5d58ec151c9b48694",
+  "foundation_id": "FOUND-LINEAR-001",
+  "proof_id": "FOUND-LINEAR-001.PROOF",
+  "proof_method": "LocalStructuralDerivationProof",
+  "schema_version": "1.0.0",
+  "steps": [
+    {
+      "domain": "finite rational matrices",
+      "rule": "basis_extension"
+    },
+    {
+      "conclusion": "rank_nullity",
+      "rule": "dimension_additivity"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "candidate_decimal": {
+        "type": "string"
+      },
+      "candidate_exact": {
+        "type": "string"
+      },
+      "domain": {
+        "type": "string"
+      },
+      "objective_exact": {
+        "type": "string"
+      },
+      "winner": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "domain",
+      "candidate_exact",
+      "candidate_decimal",
+      "objective_exact",
+      "winner"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/applications/mccollum_grid_continuum.tsv",
+  "type": "array"
+}

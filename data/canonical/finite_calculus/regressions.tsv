@@ -1,0 +1,16 @@
+id	title	status	exact_result	scope
+CALC-R01	Direct and contextual carriers split	MachineClosed	"[[[[""c""],[""a"",""b""]],[[""a""],[""b""],[""c""]]],[true,false],[[[""c""],[""a"",""b""]],[[""a"",""b"",""c""]],false]]"	Fixed finite carrier and retained operation.
+CALC-R02	Optimizer coimage specialization	MachineClosed	[[3,3,[[1,1],[1,2],[2,1],[2,2],[3,3],[4,4]]],[[[1,2],[3,4]],2,2]]	Direct-answer carrier only.
+CALC-R03	Feasible world with no licensed pair	MachineClosed	"[{""Class"":""NOT EVALUATED"",""Dependencies"":[{""Status"":""FAIL"",""Witness"":""QUERY SEMANTICS NOT COMPARABLE""}]}]"	Pair-totality admission.
+CALC-R04	Pair-orbit surjectivity is load-bearing	MachineClosed	"[[""B2""],[[""B1"",""B2""],[""B2""]]]"	Fixed-index reduct admission.
+CALC-R05	Gauge-swapped shortest witnesses	MachineClosed	[[true,false,false]]	Complete witness sets and orbits.
+CALC-R06	Raw collapse without semantic loss	MachineClosed	"[[[],[[""a"",""b""]],""SEMANTIC RECOVERY: PASS"",""REPRESENTATIVE RECOVERY: FAIL""]]"	Semantic orbit and representative recovery coordinates.
+CALC-R07	Target-action escape before restriction	MachineClosed	"[[[""k"",""c"",""d""]]]"	Representative recovery admission.
+CALC-R08	Distinct empty-image statuses	MachineClosed	"[[""EMPTY LICENSED SOURCE IMAGE: SEMANTIC INVERSE VACUOUS"",""REPRESENTATIVE INVERSE VACUOUS: EMPTY LICENSED SOURCE IMAGE""]]"	Recovery-status product.
+CALC-R09	Positive initial stop mass with empty stopping disabled	MachineClosed	"[{""ObservedStoppedMass"":""2/3"",""Status"":""NOT EVALUATED"",""TotalWithNoFailureRoute"":""2/3"",""UnroutedInitialStopMass"":""1/3""}]"	Exact stochastic stopped semantics.
+CALC-R10	Zero-probability cycle is not stochastic nontermination	MachineClosed	[[true,false,0]]	Set and exact stochastic serial types.
+CALC-R11	Two paths bearing one word are summed	MachineClosed	"[{""a"":1}]"	Exact stopped-word probability law.
+CALC-R12	Infinite stopped support with finite exact presentation	MachineClosed	"[[2,[""1 - SecondOrderPhonologyVerification`Private`p"",""(1 - SecondOrderPhonologyVerification`Private`p)*SecondOrderPhonologyVerification`Private`p"",""(1 - SecondOrderPhonologyVerification`Private`p)*SecondOrderPhonologyVerification`Private`p^2"",""(1 - SecondOrderPhonologyVerification`Private`p)*SecondOrderPhonologyVerification`Private`p^3""],1,0]]"	Rational stochastic stopped series.
+CALC-R13	Complete property-mismatch enumeration	MachineClosed	[[1]]	Finite property transport.
+CALC-R14	Many-sorted Bell accounting	MachineClosed	[[10,5]]	Many-sorted partition enumeration.
+CALC-R15	Formal success does not repair external incompleteness	MachineClosed	"[[""Q-CONSERVATIVE"",""INCOMPLETE""]]"	Formal/scientific product result.

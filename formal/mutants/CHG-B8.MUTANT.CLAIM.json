@@ -1,0 +1,492 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "delta>0",
+        "p>1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B8.ASSUMPTION-MANIFEST",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "boundary": "weak iff R<=1; unique iff R<1",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "delta>0",
+          "p>1"
+        ],
+        "ratio": "R=N*m/(h*delta^(p-1))"
+      }
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "boundary": "weak iff R<=1; unique iff R<1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "delta>0",
+              "p>1"
+            ],
+            "ratio": "R=N*m/(h*delta^(p-1))"
+          }
+        },
+        "component": "ratio_classification",
+        "expected": [
+          "3/2__MUTANT__",
+          true,
+          "NotWinner"
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B8"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "boundary": "weak iff R<=1; unique iff R<1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "delta>0",
+              "p>1"
+            ],
+            "ratio": "R=N*m/(h*delta^(p-1))"
+          }
+        },
+        "component": "horizon_bounds",
+        "expected": [
+          0,
+          0
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B8"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "boundary": "weak iff R<=1; unique iff R<1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "delta>0",
+              "p>1"
+            ],
+            "ratio": "R=N*m/(h*delta^(p-1))"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "critical_mesh": "(N*m/h)^(1/(p-1))",
+          "strict_horizon": "ceil(h*delta^(p-1)/m)-1",
+          "unique_all_back_iff": "R<1",
+          "weak_all_back_iff": "R<=1",
+          "weak_horizon": "floor(h*delta^(p-1)/m)"
+        },
+        "inputs": {
+          "boundary": "weak iff R<=1; unique iff R<1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "ratio": "R=N*m/(h*delta^(p-1))"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B8"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "066785cf51cb698d0e7f38b7e8ef5ab1c85ca26c5b0e10714ed328f6447bfe7b",
+      "id": "CHG-B8.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "c5a999da3db532a8b718ee4e46c7c221fabe00b59cc1770cdde3620e36f6c77e"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "delta>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "boundary": "weak iff R<=1; unique iff R<1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "ratio": "R=N*m/(h*delta^(p-1))"
+        }
+      },
+      "component": "ratio_classification",
+      "expected": [
+        "3/2",
+        true,
+        "NotWinner"
+      ],
+      "id": "CHG-B8.CLAIM.01",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B8"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "delta>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "boundary": "weak iff R<=1; unique iff R<1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "ratio": "R=N*m/(h*delta^(p-1))"
+        }
+      },
+      "component": "horizon_bounds",
+      "expected": [
+        0,
+        0
+      ],
+      "id": "CHG-B8.CLAIM.02",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B8"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "delta>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "boundary": "weak iff R<=1; unique iff R<1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "ratio": "R=N*m/(h*delta^(p-1))"
+        }
+      },
+      "component": "universal_result",
+      "expected": {
+        "critical_mesh": "(N*m/h)^(1/(p-1))",
+        "strict_horizon": "ceil(h*delta^(p-1)/m)-1",
+        "unique_all_back_iff": "R<1",
+        "weak_all_back_iff": "R<=1",
+        "weak_horizon": "floor(h*delta^(p-1)/m)"
+      },
+      "id": "CHG-B8.CLAIM.03",
+      "inputs": {
+        "boundary": "weak iff R<=1; unique iff R<1",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "delta>0",
+          "p>1"
+        ],
+        "ratio": "R=N*m/(h*delta^(p-1))"
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B8"
+    }
+  ],
+  "domains": [
+    {
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B8.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "CHG-B8",
+      "variables": [
+        {
+          "name": "N",
+          "node": "variable"
+        },
+        {
+          "name": "h",
+          "node": "variable"
+        },
+        {
+          "name": "m",
+          "node": "variable"
+        },
+        {
+          "name": "delta",
+          "node": "variable"
+        },
+        {
+          "name": "p",
+          "node": "variable"
+        }
+      ]
+    }
+  ],
+  "english_statement_sha256": "066785cf51cb698d0e7f38b7e8ef5ab1c85ca26c5b0e10714ed328f6447bfe7b",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "e70ddf039ec18a6c6d8c6415ab14418fc0f9a211ad70cd08e9147dbfc8aa9971",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001"
+  ],
+  "group": "CHG",
+  "kind": "result",
+  "nonclaims": "No categorical ontology or irregular-grid theorem.",
+  "portuguese_statement_sha256": "c5a999da3db532a8b718ee4e46c7c221fabe00b59cc1770cdde3620e36f6c77e",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "boundary": "weak iff R<=1; unique iff R<1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "delta>0",
+              "p>1"
+            ],
+            "ratio": "R=N*m/(h*delta^(p-1))"
+          }
+        },
+        "component": "ratio_classification",
+        "expected": [
+          "3/2__MUTANT__",
+          true,
+          "NotWinner"
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B8"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B8.RATIO.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "boundary": "weak iff R<=1; unique iff R<1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "delta>0",
+              "p>1"
+            ],
+            "ratio": "R=N*m/(h*delta^(p-1))"
+          }
+        },
+        "component": "horizon_bounds",
+        "expected": [
+          0,
+          0
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B8"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B8.HORIZON.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "boundary": "weak iff R<=1; unique iff R<1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "delta>0",
+              "p>1"
+            ],
+            "ratio": "R=N*m/(h*delta^(p-1))"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "critical_mesh": "(N*m/h)^(1/(p-1))",
+          "strict_horizon": "ceil(h*delta^(p-1)/m)-1",
+          "unique_all_back_iff": "R<1",
+          "weak_all_back_iff": "R<=1",
+          "weak_horizon": "floor(h*delta^(p-1)/m)"
+        },
+        "inputs": {
+          "boundary": "weak iff R<=1; unique iff R<1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "delta>0",
+            "p>1"
+          ],
+          "ratio": "R=N*m/(h*delta^(p-1))"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B8"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B8.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "N",
+        "h",
+        "m",
+        "delta",
+        "p"
+      ]
+    }
+  ],
+  "registered_query_type": "exact directional_positive_part_power_hg result consequence",
+  "result_dependencies": [
+    "CHG-B6"
+  ],
+  "result_id": "CHG-B8",
+  "schema_version": "1.0.0",
+  "scope": "Uniform-lattice support query.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "nonnegative real",
+    "positive real",
+    "real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Support-resolution duality",
+  "title_pt_BR": "Dualidade entre suporte e resolução",
+  "variables": [
+    {
+      "name": "N",
+      "sort": "natural number"
+    },
+    {
+      "name": "h",
+      "sort": "positive real"
+    },
+    {
+      "name": "m",
+      "sort": "positive real"
+    },
+    {
+      "name": "delta",
+      "sort": "positive real"
+    },
+    {
+      "name": "p",
+      "sort": "real"
+    }
+  ],
+  "withdrawal_condition": "Restricted to uniform lattice, \\(p>1\\), fixed weights, and the declared path; it is not an empirical word-length law."
+}

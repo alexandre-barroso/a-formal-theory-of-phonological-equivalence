@@ -1,0 +1,228 @@
+{
+  "assumptions_used": [
+    "MAX-G8.DOMAIN"
+  ],
+  "claim": {
+    "bindings": [
+      {
+        "sort": "finite exponential sum",
+        "variable": "response"
+      },
+      {
+        "sort": "finite sequence",
+        "variable": "contacts"
+      },
+      {
+        "sort": "natural number",
+        "variable": "r"
+      }
+    ],
+    "body": {
+      "antecedent": {
+        "arguments": [
+          {
+            "name": "response",
+            "node": "variable"
+          },
+          {
+            "name": "contacts",
+            "node": "variable"
+          },
+          {
+            "name": "r",
+            "node": "variable"
+          }
+        ],
+        "name": "registered_contacts_and_additional_reversals",
+        "node": "predicate_application"
+      },
+      "consequent": {
+        "left": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "contacts",
+                  "node": "variable"
+                }
+              ],
+              "name": "sum_contact_multiplicities",
+              "node": "function_application"
+            },
+            {
+              "name": "r",
+              "node": "variable"
+            }
+          ],
+          "node": "add"
+        },
+        "node": "less_equal",
+        "right": {
+          "left": {
+            "arguments": [
+              {
+                "name": "response",
+                "node": "variable"
+              }
+            ],
+            "name": "slice_count",
+            "node": "function_application"
+          },
+          "node": "subtract",
+          "right": {
+            "node": "integer",
+            "value": 1
+          }
+        }
+      },
+      "node": "implies"
+    },
+    "node": "forall"
+  },
+  "claim_sha256": "5d7491b664eb8829dc805a3f7945be2c7a3d86d5b0e48f9dd5eb120ca4219353",
+  "formal_statement_sha256": "8d0429043e1a1606b2781cad0076ab6df1ff44b6dd9eb765fb6cad2199c7cd0f",
+  "foundation_dependencies": [
+    "FOUND-ANALYTIC-ROLLE-MULTIPLICITY-001"
+  ],
+  "payload": {
+    "checker_module": "formal/kernel/python/second_order_proof_kernel/maxent_semantic_g6_g9.py",
+    "checker_module_sha256": "1920742e3ffffbf6a2ca650eaf9ce1f0479bba191a21a72eccfdd8ce1a33fab4",
+    "claim_sha256": "5d7491b664eb8829dc805a3f7945be2c7a3d86d5b0e48f9dd5eb120ca4219353",
+    "closure_proof": {
+      "claim": {
+        "bindings": [
+          {
+            "sort": "finite exponential sum",
+            "variable": "response"
+          },
+          {
+            "sort": "finite sequence",
+            "variable": "contacts"
+          },
+          {
+            "sort": "natural number",
+            "variable": "r"
+          }
+        ],
+        "body": {
+          "antecedent": {
+            "arguments": [
+              {
+                "name": "response",
+                "node": "variable"
+              },
+              {
+                "name": "contacts",
+                "node": "variable"
+              },
+              {
+                "name": "r",
+                "node": "variable"
+              }
+            ],
+            "name": "registered_contacts_and_additional_reversals",
+            "node": "predicate_application"
+          },
+          "consequent": {
+            "left": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "contacts",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "sum_contact_multiplicities",
+                  "node": "function_application"
+                },
+                {
+                  "name": "r",
+                  "node": "variable"
+                }
+              ],
+              "node": "add"
+            },
+            "node": "less_equal",
+            "right": {
+              "left": {
+                "arguments": [
+                  {
+                    "name": "response",
+                    "node": "variable"
+                  }
+                ],
+                "name": "slice_count",
+                "node": "function_application"
+              },
+              "node": "subtract",
+              "right": {
+                "node": "integer",
+                "value": 1
+              }
+            }
+          },
+          "node": "implies"
+        },
+        "node": "forall"
+      },
+      "claim_sha256": "5d7491b664eb8829dc805a3f7945be2c7a3d86d5b0e48f9dd5eb120ca4219353",
+      "formal_statement_sha256": "ddebe77714c75e28fa91b6cdbf846c32de35394ec3f73b8e3577058961f98662",
+      "payload": {
+        "claim_sha256": "5d7491b664eb8829dc805a3f7945be2c7a3d86d5b0e48f9dd5eb120ca4219353",
+        "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+        "foundation_dependencies": [
+          "FOUND-ANALYTIC-ROLLE-MULTIPLICITY-001"
+        ],
+        "mutant_ids": [
+          "double_count_odd_contact_as_reversal",
+          "use_raw_candidate_count",
+          "drop_nonidentity"
+        ],
+        "proof": "formal/proofs/maxent/semantic/closures/MAX-G6-G9.semantic-proof.json",
+        "proof_goal_dependencies": [
+          "MAX-G8.CHEBYSHEV.04"
+        ],
+        "proof_goal_id": "MAX-G8.CAPACITY.02",
+        "proof_schema": "contact_capacity_from_multiplicity_bound_v1",
+        "proof_sha256": "a7190a45c1d38e26a2e1f4d4188e6dc55d9a8e5d014a2578429bd070a4ec96a8",
+        "replay_result": {
+          "conclusion": "sum(c_j)+r<=q-1",
+          "no_double_count": "an odd registered contact is not charged again as an additional reversal",
+          "zero_bound": {
+            "base": "one nonzero exponential has no real zero",
+            "derivative": "g' has q-1 distinct exponential slices with nonzero coefficients",
+            "foundation_step": "Z(g)<=Z(g')+1 with multiplicity on the declared interval",
+            "normalization": "g=exp(lambda_1 t)f preserves every zero and multiplicity",
+            "recurrence": "Z_q<=Z_(q-1)+1",
+            "solution": "Z_q<=q-1"
+          },
+          "zero_budget": "registered disjoint contacts contribute sum(c_j); additional strict reversals contribute at least r"
+        },
+        "replay_result_sha256": "4c93361665683033b514e4b202e74fbb2609c7a0ac80af9e645dafcdf895aa52",
+        "result_dependencies": [],
+        "semantic_kernel_version": "maxent-g6-g9-semantic-closure-1.0.0",
+        "source_transcription_dependencies": []
+      },
+      "proof_goal_id": "MAX-G8.CAPACITY.02",
+      "proof_id": "MAX-G8.CAPACITY.02.MAXENT-SEMANTIC-CLOSURE.PROOF",
+      "proof_method": "MaxEntSemanticClosureProof",
+      "result_id": "MAX-G8",
+      "schema_version": "1.0.0"
+    },
+    "closure_status": "MACHINE_CLOSED_RELATIVE_TO_FOUNDATION",
+    "proof_goal_id": "MAX-G8.CAPACITY.02",
+    "proof_method": "MaxEntSemanticClosureProof",
+    "replayed_universal": true,
+    "semantic_kernel_version": "maxent-semantics-1.0.0",
+    "supports_whole_result_closure": true
+  },
+  "proof_goal_id": "MAX-G8.CAPACITY.02",
+  "proof_id": "MAX-G8.CAPACITY.02.MAXENT-SEMANTIC-CLOSURE.PROOF",
+  "proof_method": "MaxEntSemanticClosureProof",
+  "result_dependencies": [
+    "MAX-G7"
+  ],
+  "result_id": "MAX-G8",
+  "schema_version": "1.1.0"
+}

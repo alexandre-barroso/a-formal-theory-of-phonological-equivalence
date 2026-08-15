@@ -1,0 +1,160 @@
+{
+  "assumptions": [
+    {
+      "id": "CALC-R14.EXACT-FINITE-MODEL",
+      "node": "boolean",
+      "value": true
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "left": {
+          "node": "list",
+          "values": [
+            {
+              "arguments": [
+                {
+                  "node": "bell_number",
+                  "size": 2
+                },
+                {
+                  "node": "bell_number",
+                  "size": 3
+                }
+              ],
+              "node": "multiply"
+            },
+            {
+              "node": "bell_number",
+              "size": 3
+            }
+          ]
+        },
+        "node": "equal",
+        "right": {
+          "node": "list",
+          "values": [
+            10,
+            5
+          ]
+        }
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "04ac2b7056203de6fa492a3b0abb10c31568e071b09dd5ebddc936befa149389",
+      "id": "CALC-R14.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "b15a7d5dee0af50a6714f986f7bd79a024729a6d788cd8b96a26b2e8e984d70f"
+    },
+    {
+      "id": "CALC-R14.COMPUTATION.01",
+      "node": "list",
+      "values": [
+        {
+          "arguments": [
+            {
+              "node": "bell_number",
+              "size": 2
+            },
+            {
+              "node": "bell_number",
+              "size": 3
+            }
+          ],
+          "node": "multiply"
+        },
+        {
+          "node": "bell_number",
+          "size": 3
+        }
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "CALC-R14.FINITE-DOMAIN",
+      "node": "finite_set",
+      "values": [
+        "CALC-R14.BELL.01"
+      ]
+    }
+  ],
+  "english_statement_sha256": "04ac2b7056203de6fa492a3b0abb10c31568e071b09dd5ebddc936befa149389",
+  "expected_proof_methods": [
+    "ExactFiniteComputationProof"
+  ],
+  "formal_statement_sha256": "433ee8da5c7a3c371ca8470c1ec307248d4387ec6512986a45ceb6297bd28382",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001"
+  ],
+  "group": "CALC",
+  "kind": "regression",
+  "nonclaims": "No Bell bound is assigned to cross-signature translations.",
+  "portuguese_statement_sha256": "b15a7d5dee0af50a6714f986f7bd79a024729a6d788cd8b96a26b2e8e984d70f",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "node": "list",
+          "values": [
+            {
+              "arguments": [
+                {
+                  "node": "bell_number",
+                  "size": 2
+                },
+                {
+                  "node": "bell_number",
+                  "size": 3
+                }
+              ],
+              "node": "multiply"
+            },
+            {
+              "node": "bell_number",
+              "size": 3
+            }
+          ]
+        },
+        "node": "equal",
+        "right": {
+          "node": "list",
+          "values": [
+            10,
+            5
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-R14.BELL.01",
+      "proof_methods": [
+        "ExactFiniteComputationProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact finite regression construction",
+  "result_dependencies": [],
+  "result_id": "CALC-R14",
+  "schema_version": "1.0.0",
+  "scope": "Many-sorted partition enumeration.",
+  "sorts": [
+    "Boolean",
+    "rational",
+    "finite set",
+    "finite map",
+    "partition",
+    "relation",
+    "typed answer object"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Many-sorted Bell accounting",
+  "title_pt_BR": "Contagem de Bell em múltiplos tipos",
+  "variables": [],
+  "withdrawal_condition": "The regression result is withdrawn if its exact construction, assumptions, expected result, or the parent finite-specification clause no longer matches normative Regression 14; any changed expectation requires documented reverification."
+}

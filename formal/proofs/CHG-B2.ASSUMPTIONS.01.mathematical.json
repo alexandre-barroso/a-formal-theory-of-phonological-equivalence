@@ -1,0 +1,142 @@
+{
+  "assumptions_used": [
+    "CHG-B2.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "a": "(m/(p*h))^q",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "q": "1/(p-1)",
+        "routes": [
+          "KKT",
+          "supporting_hyperplane"
+        ],
+        "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+      }
+    },
+    "component": "assumption_model",
+    "expected": true,
+    "inputs": {},
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B2"
+  },
+  "claim_sha256": "b0de1bb12d05fd7e7bcbad48c85756cd898b8ef9c8bc42b2d0ff3990dc990858",
+  "formal_statement_sha256": "b9a1447bb0746758acbbb8a55037874e1ead236997da2c4f0a5360a89f7faafe",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "a": "(m/(p*h))^q",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "q": "1/(p-1)",
+        "routes": [
+          "KKT",
+          "supporting_hyperplane"
+        ],
+        "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+      }
+    },
+    "assumption_model": {
+      "N": 2,
+      "h": 5,
+      "m": 1,
+      "p": 2
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "a": "(m/(p*h))^q",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1"
+          ],
+          "q": "1/(p-1)",
+          "routes": [
+            "KKT",
+            "supporting_hyperplane"
+          ],
+          "threshold": "least K>=1 with a*sum_(r=1)^K r^q>=1"
+        }
+      },
+      "component": "assumption_model",
+      "expected": true,
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B2"
+    },
+    "derivation": {
+      "component": "assumption_model",
+      "model": {
+        "N": 1,
+        "h": 1,
+        "m": 1,
+        "p": 2
+      },
+      "result_id": "CHG-B2"
+    },
+    "mutant_ids": [
+      "CHG-B2.MUTANT.CONCLUSION",
+      "CHG-B2.MUTANT.ASSUMPTION",
+      "CHG-B2.MUTANT.COMPONENT",
+      "CHG-B2.MUT.REVERSED-TAIL-MULTIPLIER"
+    ],
+    "observed": true,
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B2.ASSUMPTIONS.01",
+  "proof_id": "CHG-B2.ASSUMPTIONS.01.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "CHG-B1"
+  ],
+  "result_id": "CHG-B2",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,1100 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        {
+          "name": "contract",
+          "node": "variable"
+        },
+        {
+          "name": "rows",
+          "node": "variable"
+        },
+        {
+          "name": "source_answers",
+          "node": "variable"
+        },
+        {
+          "name": "target_answers",
+          "node": "variable"
+        },
+        {
+          "name": "transport",
+          "node": "variable"
+        }
+      ],
+      "id": "CALC-F1.A1",
+      "name": "builtin:well_formed_finite_contract",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "contract",
+          "node": "variable"
+        },
+        {
+          "name": "rows",
+          "node": "variable"
+        }
+      ],
+      "id": "CALC-F1.A2",
+      "name": "builtin:complete_matched_rows",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "contract",
+          "node": "variable"
+        },
+        {
+          "name": "subprocedures",
+          "node": "variable"
+        }
+      ],
+      "id": "CALC-F1.A3",
+      "name": "builtin:exact_terminating_subprocedures",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "row_order",
+          "node": "variable"
+        },
+        {
+          "name": "rows",
+          "node": "variable"
+        }
+      ],
+      "id": "CALC-F1.A4",
+      "name": "builtin:strict_total_order",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "arguments": [
+          {
+            "name": "contract",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:admission_precedes_answer_comparison",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "contract",
+            "node": "variable"
+          },
+          [
+            "NOT EVALUATED",
+            "Q-CONSERVATIVE",
+            "Q-NONCONSERVATIVE"
+          ]
+        ],
+        "name": "builtin:classifier_has_exactly_three_disjoint_branches",
+        "node": "predicate_application"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "contract",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:contract_admitted",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "antecedent": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "rows",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "source_answers",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "target_answers",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "transport",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "builtin:complete_mismatch_set",
+                    "node": "function_application"
+                  }
+                ],
+                "name": "builtin:mismatch_set_empty",
+                "node": "predicate_application"
+              },
+              "consequent": {
+                "arguments": [
+                  {
+                    "name": "rows",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "source_answers",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "target_answers",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "transport",
+                    "node": "variable"
+                  }
+                ],
+                "name": "builtin:transported_answers_equal_on_all_rows",
+                "node": "predicate_application"
+              },
+              "node": "implies"
+            },
+            {
+              "antecedent": {
+                "arguments": [
+                  {
+                    "name": "rows",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "source_answers",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "target_answers",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "transport",
+                    "node": "variable"
+                  }
+                ],
+                "name": "builtin:transported_answers_equal_on_all_rows",
+                "node": "predicate_application"
+              },
+              "consequent": {
+                "arguments": [
+                  {
+                    "arguments": [
+                      {
+                        "name": "rows",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "source_answers",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "target_answers",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "transport",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "builtin:complete_mismatch_set",
+                    "node": "function_application"
+                  }
+                ],
+                "name": "builtin:mismatch_set_empty",
+                "node": "predicate_application"
+              },
+              "node": "implies"
+            }
+          ],
+          "node": "and"
+        },
+        "node": "implies"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "contract",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:contract_admitted",
+              "node": "predicate_application"
+            },
+            {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "rows",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_answers",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "target_answers",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "transport",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:complete_mismatch_set",
+                  "node": "function_application"
+                }
+              ],
+              "name": "builtin:mismatch_set_nonempty",
+              "node": "predicate_application"
+            }
+          ],
+          "node": "and"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "arguments": [
+                {
+                  "name": "rows",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_answers",
+                  "node": "variable"
+                },
+                {
+                  "name": "target_answers",
+                  "node": "variable"
+                },
+                {
+                  "name": "transport",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:complete_mismatch_set",
+              "node": "function_application"
+            },
+            {
+              "name": "row_order",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:returns_one_arbitrary_mismatch",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "arguments": [
+          {
+            "name": "contract",
+            "node": "variable"
+          },
+          {
+            "name": "rows",
+            "node": "variable"
+          },
+          {
+            "name": "subprocedures",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:terminates_by_finite_structural_measure",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "40ed87906fadfd4a9856769c8542d07475512f9800ea38618457edb8b7bb1ec5",
+      "id": "CALC-F1.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "f71f1574d6fbf1e5804a67164c5a26343ecf760a37fab8c09d1fd1240001b9a7"
+    },
+    {
+      "arguments": [
+        {
+          "name": "contract",
+          "node": "variable"
+        }
+      ],
+      "id": "CALC-F1.C1",
+      "name": "builtin:admission_precedes_answer_comparison",
+      "node": "predicate_application"
+    },
+    {
+      "arguments": [
+        {
+          "name": "contract",
+          "node": "variable"
+        },
+        [
+          "NOT EVALUATED",
+          "Q-CONSERVATIVE",
+          "Q-NONCONSERVATIVE"
+        ]
+      ],
+      "id": "CALC-F1.C2",
+      "name": "builtin:classifier_has_exactly_three_disjoint_branches",
+      "node": "predicate_application"
+    },
+    {
+      "antecedent": {
+        "arguments": [
+          {
+            "name": "contract",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:contract_admitted",
+        "node": "predicate_application"
+      },
+      "consequent": {
+        "arguments": [
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "rows",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_answers",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "target_answers",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "transport",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:complete_mismatch_set",
+                  "node": "function_application"
+                }
+              ],
+              "name": "builtin:mismatch_set_empty",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "name": "rows",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_answers",
+                  "node": "variable"
+                },
+                {
+                  "name": "target_answers",
+                  "node": "variable"
+                },
+                {
+                  "name": "transport",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:transported_answers_equal_on_all_rows",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "rows",
+                  "node": "variable"
+                },
+                {
+                  "name": "source_answers",
+                  "node": "variable"
+                },
+                {
+                  "name": "target_answers",
+                  "node": "variable"
+                },
+                {
+                  "name": "transport",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:transported_answers_equal_on_all_rows",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "rows",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_answers",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "target_answers",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "transport",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:complete_mismatch_set",
+                  "node": "function_application"
+                }
+              ],
+              "name": "builtin:mismatch_set_empty",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          }
+        ],
+        "node": "and"
+      },
+      "id": "CALC-F1.C3",
+      "node": "implies"
+    },
+    {
+      "antecedent": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "contract",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:contract_admitted",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "arguments": [
+                  {
+                    "name": "rows",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "source_answers",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "target_answers",
+                    "node": "variable"
+                  },
+                  {
+                    "name": "transport",
+                    "node": "variable"
+                  }
+                ],
+                "name": "builtin:complete_mismatch_set",
+                "node": "function_application"
+              }
+            ],
+            "name": "builtin:mismatch_set_nonempty",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "consequent": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "rows",
+                "node": "variable"
+              },
+              {
+                "name": "source_answers",
+                "node": "variable"
+              },
+              {
+                "name": "target_answers",
+                "node": "variable"
+              },
+              {
+                "name": "transport",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:complete_mismatch_set",
+            "node": "function_application"
+          },
+          {
+            "name": "row_order",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:returns_complete_set_and_least_mismatch",
+        "node": "predicate_application"
+      },
+      "id": "CALC-F1.C4",
+      "node": "implies"
+    },
+    {
+      "arguments": [
+        {
+          "name": "contract",
+          "node": "variable"
+        },
+        {
+          "name": "rows",
+          "node": "variable"
+        },
+        {
+          "name": "subprocedures",
+          "node": "variable"
+        }
+      ],
+      "id": "CALC-F1.C5",
+      "name": "builtin:terminates_by_finite_structural_measure",
+      "node": "predicate_application"
+    }
+  ],
+  "domains": [
+    {
+      "id": "CALC-F1.DOMAIN",
+      "node": "domain",
+      "predicate": {
+        "arguments": [
+          {
+            "name": "contract",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:finite_contract_code",
+        "node": "predicate_application"
+      },
+      "variable": {
+        "name": "contract",
+        "node": "variable"
+      }
+    }
+  ],
+  "english_statement_sha256": "40ed87906fadfd4a9856769c8542d07475512f9800ea38618457edb8b7bb1ec5",
+  "expected_proof_methods": [
+    "FiniteSemanticProof",
+    "LeanKernelProof"
+  ],
+  "formal_statement_sha256": "1f4599f907a5ef6174a2c7321627fb1fa4b52f04e5c0297a7aa0255242508776",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001",
+    "FOUND-TERMINATION-001"
+  ],
+  "group": "CALC",
+  "kind": "result",
+  "nonclaims": "No external scientific completeness, tractability, continuum decision, or cognitive ontology claim.",
+  "portuguese_statement_sha256": "f71f1574d6fbf1e5804a67164c5a26343ecf760a37fab8c09d1fd1240001b9a7",
+  "proof_goals": [
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "CALC-F1.ADMISSION.01"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": true
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-F1.ADMISSION.01",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "CALC-F1.PROGRESS.02"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            "Q-CONSERVATIVE",
+            "Q-NONCONSERVATIVE",
+            "NOT EVALUATED"
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-F1.PROGRESS.02",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "CALC-F1.WITNESS.03"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            "Q-NONCONSERVATIVE",
+            [
+              "s2",
+              "t2"
+            ],
+            false
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-F1.WITNESS.03",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "CALC-F1.TERMINATION.04"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": {
+            "DomainSize": 2,
+            "MatchedRowCount": 2,
+            "SourceTableSize": 2,
+            "TargetTableSize": 2
+          }
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-F1.TERMINATION.04",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "left": {
+          "arguments": [
+            "CALC-F1.REFUSALS.05"
+          ],
+          "name": "builtin:finite_regression_observed",
+          "node": "function_application"
+        },
+        "node": "equal",
+        "right": {
+          "answer_type": "registered_exact_result",
+          "node": "typed_answer",
+          "value": [
+            [
+              "NOT EVALUATED",
+              "NOT EVALUATED",
+              "NOT EVALUATED",
+              "NOT EVALUATED",
+              "NOT EVALUATED",
+              "NOT EVALUATED",
+              "NOT EVALUATED"
+            ],
+            [
+              "MalformedContract",
+              "MalformedContract",
+              "MalformedContract",
+              "MalformedContract",
+              "MalformedContract",
+              "MalformedContract",
+              "MalformedContract"
+            ]
+          ]
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-F1.REFUSALS.05",
+      "proof_methods": [
+        "FiniteSemanticProof"
+      ]
+    },
+    {
+      "claim": {
+        "arguments": [
+          {
+            "arguments": [
+              {
+                "name": "contract",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:admission_precedes_answer_comparison",
+            "node": "predicate_application"
+          },
+          {
+            "arguments": [
+              {
+                "name": "contract",
+                "node": "variable"
+              },
+              [
+                "NOT EVALUATED",
+                "Q-CONSERVATIVE",
+                "Q-NONCONSERVATIVE"
+              ]
+            ],
+            "name": "builtin:classifier_has_exactly_three_disjoint_branches",
+            "node": "predicate_application"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "name": "contract",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:contract_admitted",
+              "node": "predicate_application"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "antecedent": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "rows",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "source_answers",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "target_answers",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "transport",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "builtin:complete_mismatch_set",
+                        "node": "function_application"
+                      }
+                    ],
+                    "name": "builtin:mismatch_set_empty",
+                    "node": "predicate_application"
+                  },
+                  "consequent": {
+                    "arguments": [
+                      {
+                        "name": "rows",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "source_answers",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "target_answers",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "transport",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "builtin:transported_answers_equal_on_all_rows",
+                    "node": "predicate_application"
+                  },
+                  "node": "implies"
+                },
+                {
+                  "antecedent": {
+                    "arguments": [
+                      {
+                        "name": "rows",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "source_answers",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "target_answers",
+                        "node": "variable"
+                      },
+                      {
+                        "name": "transport",
+                        "node": "variable"
+                      }
+                    ],
+                    "name": "builtin:transported_answers_equal_on_all_rows",
+                    "node": "predicate_application"
+                  },
+                  "consequent": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "name": "rows",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "source_answers",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "target_answers",
+                            "node": "variable"
+                          },
+                          {
+                            "name": "transport",
+                            "node": "variable"
+                          }
+                        ],
+                        "name": "builtin:complete_mismatch_set",
+                        "node": "function_application"
+                      }
+                    ],
+                    "name": "builtin:mismatch_set_empty",
+                    "node": "predicate_application"
+                  },
+                  "node": "implies"
+                }
+              ],
+              "node": "and"
+            },
+            "node": "implies"
+          },
+          {
+            "antecedent": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "contract",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:contract_admitted",
+                  "node": "predicate_application"
+                },
+                {
+                  "arguments": [
+                    {
+                      "arguments": [
+                        {
+                          "name": "rows",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "source_answers",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "target_answers",
+                          "node": "variable"
+                        },
+                        {
+                          "name": "transport",
+                          "node": "variable"
+                        }
+                      ],
+                      "name": "builtin:complete_mismatch_set",
+                      "node": "function_application"
+                    }
+                  ],
+                  "name": "builtin:mismatch_set_nonempty",
+                  "node": "predicate_application"
+                }
+              ],
+              "node": "and"
+            },
+            "consequent": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "name": "rows",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "source_answers",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "target_answers",
+                      "node": "variable"
+                    },
+                    {
+                      "name": "transport",
+                      "node": "variable"
+                    }
+                  ],
+                  "name": "builtin:complete_mismatch_set",
+                  "node": "function_application"
+                },
+                {
+                  "name": "row_order",
+                  "node": "variable"
+                }
+              ],
+              "name": "builtin:returns_complete_set_and_least_mismatch",
+              "node": "predicate_application"
+            },
+            "node": "implies"
+          },
+          {
+            "arguments": [
+              {
+                "name": "contract",
+                "node": "variable"
+              },
+              {
+                "name": "rows",
+                "node": "variable"
+              },
+              {
+                "name": "subprocedures",
+                "node": "variable"
+              }
+            ],
+            "name": "builtin:terminates_by_finite_structural_measure",
+            "node": "predicate_application"
+          }
+        ],
+        "node": "and"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CALC-F1.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "contract",
+        "rows",
+        "source_answers",
+        "target_answers",
+        "transport",
+        "row_order",
+        "subprocedures"
+      ]
+    }
+  ],
+  "registered_query_type": "exact finite contract-relative preservation classification",
+  "result_dependencies": [
+    "CALC-R01",
+    "CALC-R02",
+    "CALC-R03",
+    "CALC-R04",
+    "CALC-R05",
+    "CALC-R06",
+    "CALC-R07",
+    "CALC-R08",
+    "CALC-R09",
+    "CALC-R10",
+    "CALC-R11",
+    "CALC-R12",
+    "CALC-R13",
+    "CALC-R14",
+    "CALC-R15"
+  ],
+  "result_id": "CALC-F1",
+  "schema_version": "1.0.0",
+  "scope": "Fully specified finite analysis contracts and decidable registered queries.",
+  "sorts": [
+    "Boolean",
+    "finite map",
+    "finite proof code",
+    "finite sequence",
+    "relation"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Qualified finite decision theorem",
+  "title_pt_BR": "Teorema qualificado de decisão finita",
+  "variables": [
+    {
+      "name": "contract",
+      "sort": "finite proof code"
+    },
+    {
+      "name": "rows",
+      "sort": "finite sequence"
+    },
+    {
+      "name": "source_answers",
+      "sort": "finite map"
+    },
+    {
+      "name": "target_answers",
+      "sort": "finite map"
+    },
+    {
+      "name": "transport",
+      "sort": "finite map"
+    },
+    {
+      "name": "row_order",
+      "sort": "relation"
+    },
+    {
+      "name": "subprocedures",
+      "sort": "finite sequence"
+    }
+  ],
+  "withdrawal_condition": "Any admitted false status, omitted mismatch, incomplete witness set, non-natural selected witness, type coercion, unlicensed scientific upcast, or nontermination defeats or narrows the theorem. Discovery of same-scope prior art narrows ownership, not correctness by itself."
+}

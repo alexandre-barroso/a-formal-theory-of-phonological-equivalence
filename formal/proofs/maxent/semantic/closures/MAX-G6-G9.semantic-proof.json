@@ -1,0 +1,215 @@
+{
+  "proof_id": "MAX-G6-G9-SEMANTIC-CLOSURE-1",
+  "records": [
+    {
+      "claim_sha256": "79ff26d06194fd3d9cda17de5ce15791c4c311e42ed052ef38eb87bdc55099e6",
+      "foundation_dependencies": [
+        "FOUND-FINITE-001",
+        "FOUND-POLYNOMIAL-001"
+      ],
+      "mutant_ids": [
+        "omit_one_ranking",
+        "change_tensor_cell",
+        "retain_only_distinct_maps"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G6.ENUM.01",
+      "proof_schema": "basic_syllable_exhaustive_inventory_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G6",
+      "source_transcription_dependencies": [
+        "formal/source_transcriptions/basic_syllable_system.json"
+      ]
+    },
+    {
+      "claim_sha256": "8269ca89b9c5e3e0b5fd7ac94359dd7ffb81b448b120a3f4209ffb24f2ab26f0",
+      "foundation_dependencies": [
+        "FOUND-FINITE-001",
+        "FOUND-POLYNOMIAL-001"
+      ],
+      "mutant_ids": [
+        "drop_necessity_row",
+        "reverse_facet",
+        "accept_boundary_as_strict_interior"
+      ],
+      "proof_goal_dependencies": [
+        "MAX-G6.ENUM.01"
+      ],
+      "proof_goal_id": "MAX-G6.CONE.02",
+      "proof_schema": "basic_syllable_live_cone_factorization_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G6",
+      "source_transcription_dependencies": [
+        "formal/source_transcriptions/basic_syllable_system.json"
+      ]
+    },
+    {
+      "claim_sha256": "4dad5e516ed8aa9114de4391cf527dc0720959896a6194a1dd08498b2b35591a",
+      "foundation_dependencies": [
+        "FOUND-FINITE-001",
+        "FOUND-POLYNOMIAL-001"
+      ],
+      "mutant_ids": [
+        "merge_2018_and_2026_counts",
+        "ignore_source_digest",
+        "transpose_tensor_axes"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G6.PROVENANCE.03",
+      "proof_schema": "basic_syllable_source_identity_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G6",
+      "source_transcription_dependencies": [
+        "formal/source_transcriptions/basic_syllable_system.json"
+      ]
+    },
+    {
+      "claim_sha256": "9251da633e4390bf68bc6b2cb2baa3be8d1c396d63818cb2226c460da9640d9c",
+      "foundation_dependencies": [
+        "FOUND-POLYNOMIAL-001",
+        "FOUND-LINEAR-001"
+      ],
+      "mutant_ids": [
+        "reverse_mixed_radix",
+        "omit_distinct_support",
+        "replace_n_minus_one_by_n_minus_two"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G7.RANK.01",
+      "proof_schema": "mixed_radix_vandermonde_completion_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G7",
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "8aac46fece3d8a1b6541b55989eebe7f2917b1d2f79f0f28d38a982cdb7f0707",
+      "foundation_dependencies": [
+        "FOUND-POLYNOMIAL-001",
+        "FOUND-LINEAR-001"
+      ],
+      "mutant_ids": [
+        "allow_zero_denominator",
+        "drop_lower_jet_induction",
+        "differentiate_quotient_without_cross_numerator"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G7.CONTACT.02",
+      "proof_schema": "positive_denominator_quotient_jet_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G7",
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "c5d655ff87339dab01fd816cffe081eaa9b7404ddd8ca8c36e829949622dbb26",
+      "foundation_dependencies": [
+        "FOUND-POLYNOMIAL-001",
+        "FOUND-LINEAR-001"
+      ],
+      "mutant_ids": [
+        "drop_ray_separation",
+        "erase_hidden_direction_counterexample",
+        "shorten_vandermonde_jet"
+      ],
+      "proof_goal_dependencies": [
+        "MAX-G7.RANK.01"
+      ],
+      "proof_goal_id": "MAX-G7.RAY.03",
+      "proof_schema": "separating_ray_vandermonde_and_hidden_ray_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G7",
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "2739b0e4f702ed26756230c60dd6becfe7e033971d1b5765b3f121708ece1b24",
+      "foundation_dependencies": [
+        "FOUND-ANALYTIC-ROLLE-MULTIPLICITY-001"
+      ],
+      "mutant_ids": [
+        "allow_coincident_reversal_root",
+        "count_zero_coefficient_as_slice",
+        "omit_positive_exponent_shift"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G8.SHARP.01",
+      "proof_schema": "positive_root_product_sharp_constructor_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G8",
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "5d7491b664eb8829dc805a3f7945be2c7a3d86d5b0e48f9dd5eb120ca4219353",
+      "foundation_dependencies": [
+        "FOUND-ANALYTIC-ROLLE-MULTIPLICITY-001"
+      ],
+      "mutant_ids": [
+        "double_count_odd_contact_as_reversal",
+        "use_raw_candidate_count",
+        "drop_nonidentity"
+      ],
+      "proof_goal_dependencies": [
+        "MAX-G8.CHEBYSHEV.04"
+      ],
+      "proof_goal_id": "MAX-G8.CAPACITY.02",
+      "proof_schema": "contact_capacity_from_multiplicity_bound_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G8",
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "a00ee2f2e67050eb8543f88e55eb3a1f937b82fb437bdfa424a7da4092e7c2b6",
+      "foundation_dependencies": [
+        "FOUND-ANALYTIC-ROLLE-MULTIPLICITY-001"
+      ],
+      "mutant_ids": [
+        "remove_equal_mass_boundary_factor",
+        "miscount_slices",
+        "move_later_reversal_before_contact"
+      ],
+      "proof_goal_dependencies": [
+        "MAX-G8.SHARP.01"
+      ],
+      "proof_goal_id": "MAX-G8.BOUNDARY.03",
+      "proof_schema": "balanced_interior_contact_constructor_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G8",
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "e09723bc1dabbb4b4a3bfa708261c169f449c391a812eeadf7e3167cf2f32669",
+      "foundation_dependencies": [
+        "FOUND-CONVEX-HULL-001",
+        "FOUND-RELATIVE-INTERIOR-SUM-001"
+      ],
+      "mutant_ids": [
+        "cancel_common_factor_in_envelope",
+        "accept_equal_envelopes",
+        "alter_common_factor_rows"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G9.LAWTOENV.01",
+      "proof_schema": "fixed_law_to_envelope_counterexample_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G9",
+      "source_transcription_dependencies": []
+    },
+    {
+      "claim_sha256": "a21ceaaffcac085876a56a1a5ab95e360e057b18aa4c3f84e6de693032f24f38",
+      "foundation_dependencies": [
+        "FOUND-CONVEX-HULL-001",
+        "FOUND-RELATIVE-INTERIOR-SUM-001"
+      ],
+      "mutant_ids": [
+        "erase_interior_row_law_effect",
+        "accept_zero_numerator",
+        "alter_positive_denominator"
+      ],
+      "proof_goal_dependencies": [],
+      "proof_goal_id": "MAX-G9.ENVTOLAW.02",
+      "proof_schema": "envelope_to_fixed_law_counterexample_v1",
+      "result_dependencies": [],
+      "result_id": "MAX-G9",
+      "source_transcription_dependencies": []
+    }
+  ],
+  "schema_version": "1.0.0"
+}

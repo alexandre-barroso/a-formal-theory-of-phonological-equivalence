@@ -1,0 +1,128 @@
+{
+  "assumptions_used": [
+    "SUP-E2.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "finite_horizon",
+        "same_local_objective_under_extension",
+        "unique_winners",
+        "positive_site_derivative_on_positive_coordinates"
+      ],
+      "family": "free_endpoint_projectivity",
+      "node": "support_selection_assumptions"
+    },
+    "component": "quadratic_prefix_change",
+    "expected": [
+      [
+        1,
+        "1/2"
+      ],
+      [
+        1,
+        "2/5",
+        "1/5"
+      ]
+    ],
+    "node": "support_selection_result",
+    "result_id": "SUP-E2"
+  },
+  "claim_sha256": "14d0d5639bb314147b8d3ce189518235af0cce573976dcc17ecbb10b8fb4cd42",
+  "formal_statement_sha256": "ee3a23e2e3952420f4e1a7a4a417ff0bfbda1167f99363b3b36f399675de765e",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "finite_horizon",
+        "same_local_objective_under_extension",
+        "unique_winners",
+        "positive_site_derivative_on_positive_coordinates"
+      ],
+      "family": "free_endpoint_projectivity",
+      "node": "support_selection_assumptions"
+    },
+    "assumption_model": {
+      "edge": "quadratic",
+      "edge_weight": 5,
+      "horizon": 5,
+      "site": "linear",
+      "site_weight": 1
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "finite_horizon",
+          "same_local_objective_under_extension",
+          "unique_winners",
+          "positive_site_derivative_on_positive_coordinates"
+        ],
+        "family": "free_endpoint_projectivity",
+        "node": "support_selection_assumptions"
+      },
+      "component": "quadratic_prefix_change",
+      "expected": [
+        [
+          1,
+          "1/2"
+        ],
+        [
+          1,
+          "2/5",
+          "1/5"
+        ]
+      ],
+      "node": "support_selection_result",
+      "result_id": "SUP-E2"
+    },
+    "derivation": {
+      "component": "quadratic_prefix_change",
+      "hessian_leading_minors": [
+        [
+          4
+        ],
+        [
+          6,
+          20
+        ]
+      ],
+      "prefix_changed": true,
+      "result_id": "SUP-E2"
+    },
+    "mutant_ids": [
+      "SUP-E2.MUTANT.CONCLUSION",
+      "SUP-E2.MUTANT.ASSUMPTION",
+      "SUP-E2.MUTANT.COMPONENT"
+    ],
+    "observed": [
+      [
+        1,
+        "1/2"
+      ],
+      [
+        1,
+        "2/5",
+        "1/5"
+      ]
+    ],
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "SUP-E2.QUADRATIC.02",
+  "proof_id": "SUP-E2.QUADRATIC.02.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "SUP-E1"
+  ],
+  "result_id": "SUP-E2",
+  "schema_version": "1.1.0"
+}

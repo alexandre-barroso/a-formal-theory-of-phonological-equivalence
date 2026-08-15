@@ -1,0 +1,634 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "h>0",
+        "m>0",
+        "lambda>0",
+        "p>1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B7.ASSUMPTION-MANIFEST",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+        "rho": "h/m"
+      }
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "lambda>0",
+              "p>1"
+            ],
+            "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+            "rho": "h/m"
+          }
+        },
+        "component": "scale_gauge",
+        "expected": false,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B7"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "lambda>0",
+              "p>1"
+            ],
+            "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+            "rho": "h/m"
+          }
+        },
+        "component": "quadratic_phase_cells",
+        "expected": [
+          [
+            1,
+            [
+              0,
+              "1/2"
+            ]
+          ],
+          [
+            2,
+            [
+              "1/2",
+              "3/2"
+            ]
+          ],
+          [
+            3,
+            [
+              "3/2",
+              3
+            ]
+          ],
+          [
+            4,
+            [
+              3,
+              5
+            ]
+          ],
+          [
+            5,
+            [
+              5,
+              "15/2"
+            ]
+          ]
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B7"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "lambda>0",
+              "p>1"
+            ],
+            "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+            "rho": "h/m"
+          }
+        },
+        "component": "quadratic_reach_constant",
+        "expected": 2,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B7"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "lambda>0",
+              "p>1"
+            ],
+            "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+            "rho": "h/m"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "common_positive_scale_preserves_preorder": true,
+          "identified_weight_object": "h/m",
+          "reach_asymptotic": "K_p~p*(p-1)^(-(p-1)/p)*rho^(1/p)",
+          "support_staircase": true
+        },
+        "inputs": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+          "rho": "h/m"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B7"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "59184c38d677fb2f3f604173d619941306f747ba5cf4ff117c3be2d057212e2f",
+      "id": "CHG-B7.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "f96d15a744a02ff36944f7af57715f4c019204eb9d02921a9981b296109b33f3"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+          "rho": "h/m"
+        }
+      },
+      "component": "scale_gauge",
+      "expected": true,
+      "id": "CHG-B7.CLAIM.01",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B7"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+          "rho": "h/m"
+        }
+      },
+      "component": "quadratic_phase_cells",
+      "expected": [
+        [
+          1,
+          [
+            0,
+            "1/2"
+          ]
+        ],
+        [
+          2,
+          [
+            "1/2",
+            "3/2"
+          ]
+        ],
+        [
+          3,
+          [
+            "3/2",
+            3
+          ]
+        ],
+        [
+          4,
+          [
+            3,
+            5
+          ]
+        ],
+        [
+          5,
+          [
+            5,
+            "15/2"
+          ]
+        ]
+      ],
+      "id": "CHG-B7.CLAIM.02",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B7"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+          "rho": "h/m"
+        }
+      },
+      "component": "quadratic_reach_constant",
+      "expected": 2,
+      "id": "CHG-B7.CLAIM.03",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B7"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+          "rho": "h/m"
+        }
+      },
+      "component": "universal_result",
+      "expected": {
+        "common_positive_scale_preserves_preorder": true,
+        "identified_weight_object": "h/m",
+        "reach_asymptotic": "K_p~p*(p-1)^(-(p-1)/p)*rho^(1/p)",
+        "support_staircase": true
+      },
+      "id": "CHG-B7.CLAIM.04",
+      "inputs": {
+        "domain": [
+          "h>0",
+          "m>0",
+          "lambda>0",
+          "p>1"
+        ],
+        "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+        "rho": "h/m"
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B7"
+    }
+  ],
+  "domains": [
+    {
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B7.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "CHG-B7",
+      "variables": [
+        {
+          "name": "h",
+          "node": "variable"
+        },
+        {
+          "name": "m",
+          "node": "variable"
+        },
+        {
+          "name": "lambda",
+          "node": "variable"
+        },
+        {
+          "name": "p",
+          "node": "variable"
+        }
+      ]
+    }
+  ],
+  "english_statement_sha256": "59184c38d677fb2f3f604173d619941306f747ba5cf4ff117c3be2d057212e2f",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "6e02b7e2506785d6bde9e60fa17e35abc060478ec4cd13f02c78257e73fecc4b",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-LIMIT-001"
+  ],
+  "group": "CHG",
+  "kind": "result",
+  "nonclaims": "Absolute weights are not identified and the phase law is not a learning curve.",
+  "portuguese_statement_sha256": "f96d15a744a02ff36944f7af57715f4c019204eb9d02921a9981b296109b33f3",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "lambda>0",
+              "p>1"
+            ],
+            "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+            "rho": "h/m"
+          }
+        },
+        "component": "scale_gauge",
+        "expected": false,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B7"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B7.GAUGE.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "lambda>0",
+              "p>1"
+            ],
+            "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+            "rho": "h/m"
+          }
+        },
+        "component": "quadratic_phase_cells",
+        "expected": [
+          [
+            1,
+            [
+              0,
+              "1/2"
+            ]
+          ],
+          [
+            2,
+            [
+              "1/2",
+              "3/2"
+            ]
+          ],
+          [
+            3,
+            [
+              "3/2",
+              3
+            ]
+          ],
+          [
+            4,
+            [
+              3,
+              5
+            ]
+          ],
+          [
+            5,
+            [
+              5,
+              "15/2"
+            ]
+          ]
+        ],
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B7"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B7.PHASE.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "lambda>0",
+              "p>1"
+            ],
+            "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+            "rho": "h/m"
+          }
+        },
+        "component": "quadratic_reach_constant",
+        "expected": 2,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B7"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B7.ASYMPTOTIC.03",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "domain": [
+              "h>0",
+              "m>0",
+              "lambda>0",
+              "p>1"
+            ],
+            "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+            "rho": "h/m"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "common_positive_scale_preserves_preorder": true,
+          "identified_weight_object": "h/m",
+          "reach_asymptotic": "K_p~p*(p-1)^(-(p-1)/p)*rho^(1/p)",
+          "support_staircase": true
+        },
+        "inputs": {
+          "domain": [
+            "h>0",
+            "m>0",
+            "lambda>0",
+            "p>1"
+          ],
+          "phase": "S_(k-1)^(p-1)<p*rho<=S_k^(p-1)",
+          "rho": "h/m"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B7"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B7.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "h",
+        "m",
+        "lambda",
+        "p"
+      ]
+    }
+  ],
+  "registered_query_type": "exact directional_positive_part_power_hg result consequence",
+  "result_dependencies": [
+    "CHG-B2"
+  ],
+  "result_id": "CHG-B7",
+  "schema_version": "1.0.0",
+  "scope": "Deterministic winner behavior of the declared path family.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "nonnegative real",
+    "positive real",
+    "real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Weight gauge and persistence phases",
+  "title_pt_BR": "Gauge dos pesos e fases de persistência",
+  "variables": [
+    {
+      "name": "h",
+      "sort": "positive real"
+    },
+    {
+      "name": "m",
+      "sort": "positive real"
+    },
+    {
+      "name": "lambda",
+      "sort": "positive real"
+    },
+    {
+      "name": "p",
+      "sort": "real"
+    }
+  ],
+  "withdrawal_condition": "It does not carry into MaxEnt/noisy HG without temperature/noise scaling and does not identify raw weights. || Do not interpret the phase as a speaker distribution or estimator; withdraw if \\(p\\), weights, or path structure vary."
+}

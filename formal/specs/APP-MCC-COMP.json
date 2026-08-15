@@ -1,0 +1,367 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        "formal/source_transcriptions/mccollum2019_directional_hg.json",
+        "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304"
+      ],
+      "id": "APP-MCC-COMP.SOURCE.01",
+      "name": "builtin:source_transcription_matches",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "algorithm": "quadratic_all_horizon_carrier_and_label_counts_v2",
+        "expected": {
+          "all_horizon_phase_carrier": {
+            "decode_encode_exact_for_every_natural_horizon": true,
+            "exists_first_zero_phase": true,
+            "optimizer_proof_for_every_natural_horizon": true,
+            "phase_carrier_cardinality": "K+1",
+            "profile_proof_for_every_natural_horizon": true
+          },
+          "registered_label_counts": [
+            16,
+            11,
+            46
+          ]
+        },
+        "inputs": {
+          "all_horizon_domain": {
+            "h": "positive_real",
+            "horizon": "natural_number",
+            "m": "positive_real"
+          },
+          "registered_label_cases": [
+            {
+              "h": "20",
+              "m": "3"
+            },
+            {
+              "h": "5",
+              "m": "1"
+            },
+            {
+              "h": "21",
+              "m": "1"
+            }
+          ]
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      },
+      {
+        "algorithm": "quadratic_parameter_change_v1",
+        "expected": [
+          "9/10",
+          "11/12",
+          "1/60"
+        ],
+        "inputs": {
+          "first": {
+            "h": "5",
+            "horizon": 1,
+            "m": "1"
+          },
+          "second": {
+            "h": "6",
+            "horizon": 1,
+            "m": "1"
+          }
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      },
+      {
+        "algorithm": "lattice_interval_type_guard_v1",
+        "expected": [
+          11,
+          "Interval"
+        ],
+        "inputs": {
+          "continuum_type": "Interval",
+          "lower": "0",
+          "step": "1/10",
+          "upper": "1"
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "b3ebff85741d8850f3c9f6761954d58afba0b9afcaaa1e6283a1565fbc21d666",
+      "id": "APP-MCC-COMP.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "b97ded68851ff9ce3ac824f72fb1d7597ce56df8189ccef3c10afbd008c9ac32"
+    },
+    {
+      "algorithm": "quadratic_all_horizon_carrier_and_label_counts_v2",
+      "expected": {
+        "all_horizon_phase_carrier": {
+          "decode_encode_exact_for_every_natural_horizon": true,
+          "exists_first_zero_phase": true,
+          "optimizer_proof_for_every_natural_horizon": true,
+          "phase_carrier_cardinality": "K+1",
+          "profile_proof_for_every_natural_horizon": true
+        },
+        "registered_label_counts": [
+          16,
+          11,
+          46
+        ]
+      },
+      "id": "APP-MCC-COMP.APPLICATION.01",
+      "inputs": {
+        "all_horizon_domain": {
+          "h": "positive_real",
+          "horizon": "natural_number",
+          "m": "positive_real"
+        },
+        "registered_label_cases": [
+          {
+            "h": "20",
+            "m": "3"
+          },
+          {
+            "h": "5",
+            "m": "1"
+          },
+          {
+            "h": "21",
+            "m": "1"
+          }
+        ]
+      },
+      "node": "exact_application_result",
+      "source": {
+        "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+        "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+        "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+      }
+    },
+    {
+      "algorithm": "quadratic_parameter_change_v1",
+      "expected": [
+        "9/10",
+        "11/12",
+        "1/60"
+      ],
+      "id": "APP-MCC-COMP.APPLICATION.02",
+      "inputs": {
+        "first": {
+          "h": "5",
+          "horizon": 1,
+          "m": "1"
+        },
+        "second": {
+          "h": "6",
+          "horizon": 1,
+          "m": "1"
+        }
+      },
+      "node": "exact_application_result",
+      "source": {
+        "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+        "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+        "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+      }
+    },
+    {
+      "algorithm": "lattice_interval_type_guard_v1",
+      "expected": [
+        11,
+        "Interval"
+      ],
+      "id": "APP-MCC-COMP.APPLICATION.03",
+      "inputs": {
+        "continuum_type": "Interval",
+        "lower": "0",
+        "step": "1/10",
+        "upper": "1"
+      },
+      "node": "exact_application_result",
+      "source": {
+        "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+        "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+        "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+      }
+    }
+  ],
+  "domains": [
+    {
+      "id": "APP-MCC-COMP.APPLICATION-DOMAIN",
+      "node": "finite_set",
+      "values": [
+        "APP-MCC-COMP.COUNTS.01",
+        "APP-MCC-COMP.PARAMETER.02",
+        "APP-MCC-COMP.TYPE.03"
+      ]
+    }
+  ],
+  "english_statement_sha256": "b3ebff85741d8850f3c9f6761954d58afba0b9afcaaa1e6283a1565fbc21d666",
+  "expected_proof_methods": [
+    "ExactApplicationProof"
+  ],
+  "formal_statement_sha256": "f796d0bb669392ebfeca06ca2fd90c4974d048417fb9154e496855eece25d87e",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001"
+  ],
+  "group": "APP",
+  "kind": "application",
+  "nonclaims": "The code omits raw GEN, losing candidates, full preorder, topology, locus, and arbitrary parameter changes.",
+  "portuguese_statement_sha256": "b97ded68851ff9ce3ac824f72fb1d7597ce56df8189ccef3c10afbd008c9ac32",
+  "proof_goals": [
+    {
+      "claim": {
+        "algorithm": "quadratic_all_horizon_carrier_and_label_counts_v2",
+        "expected": {
+          "all_horizon_phase_carrier": {
+            "decode_encode_exact_for_every_natural_horizon": true,
+            "exists_first_zero_phase": true,
+            "optimizer_proof_for_every_natural_horizon": true,
+            "phase_carrier_cardinality": "K+1",
+            "profile_proof_for_every_natural_horizon": true
+          },
+          "registered_label_counts": [
+            16,
+            11,
+            46
+          ]
+        },
+        "inputs": {
+          "all_horizon_domain": {
+            "h": "positive_real",
+            "horizon": "natural_number",
+            "m": "positive_real"
+          },
+          "registered_label_cases": [
+            {
+              "h": "20",
+              "m": "3"
+            },
+            {
+              "h": "5",
+              "m": "1"
+            },
+            {
+              "h": "21",
+              "m": "1"
+            }
+          ]
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "APP-MCC-COMP.COUNTS.01",
+      "proof_methods": [
+        "ExactApplicationProof"
+      ]
+    },
+    {
+      "claim": {
+        "algorithm": "quadratic_parameter_change_v1",
+        "expected": [
+          "9/10",
+          "11/12",
+          "1/60"
+        ],
+        "inputs": {
+          "first": {
+            "h": "5",
+            "horizon": 1,
+            "m": "1"
+          },
+          "second": {
+            "h": "6",
+            "horizon": 1,
+            "m": "1"
+          }
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "APP-MCC-COMP.PARAMETER.02",
+      "proof_methods": [
+        "ExactApplicationProof"
+      ]
+    },
+    {
+      "claim": {
+        "algorithm": "lattice_interval_type_guard_v1",
+        "expected": [
+          11,
+          "Interval"
+        ],
+        "inputs": {
+          "continuum_type": "Interval",
+          "lower": "0",
+          "step": "1/10",
+          "upper": "1"
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/mccollum2019_directional_hg.json",
+          "sha256": "7492cdbc957d7a2cfe216bd3da77f7586ff4def3dc501f2abc0a182502999304",
+          "transcription_id": "SOURCE-MCCOLLUM-2019-DIRECTIONAL-HG"
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "APP-MCC-COMP.TYPE.03",
+      "proof_methods": [
+        "ExactApplicationProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact source-transcribed application consequence",
+  "result_dependencies": [
+    "CHG-B2",
+    "FIN-A7"
+  ],
+  "result_id": "APP-MCC-COMP",
+  "schema_version": "1.0.0",
+  "scope": "A7 finite analytic response code.",
+  "sorts": [
+    "Boolean",
+    "natural number",
+    "rational",
+    "real",
+    "finite sequence",
+    "typed answer object"
+  ],
+  "source_transcription_dependencies": [
+    "formal/source_transcriptions/mccollum2019_directional_hg.json"
+  ],
+  "title_en": "Finite fixed-parameter profile compiler",
+  "title_pt_BR": "Compilador finito de perfis com parâmetros fixos",
+  "variables": [],
+  "withdrawal_condition": "Withdraw or expand the compiler if losers, full Harmony preorder, arbitrary parameters, topology, operation closure, or cognitive locus are registered."
+}

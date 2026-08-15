@@ -1,0 +1,240 @@
+{
+  "assumptions_used": [
+    "FIN-A7.A1",
+    "FIN-A7.A2",
+    "FIN-A7.A3",
+    "FIN-A7.A4",
+    "FIN-A7.A5",
+    "FIN-A7.A6"
+  ],
+  "claim": {
+    "arguments": [
+      {
+        "arguments": [
+          {
+            "name": "reachable_codes",
+            "node": "variable"
+          },
+          {
+            "name": "reader",
+            "node": "variable"
+          },
+          {
+            "name": "descent",
+            "node": "variable"
+          },
+          {
+            "name": "semantic_equality",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:carrier_answers_decidable_from_reachable_codes",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "reachable_codes",
+            "node": "variable"
+          },
+          {
+            "name": "reader",
+            "node": "variable"
+          },
+          {
+            "name": "descent",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:carrier_verdict_independent_of_source_section",
+        "node": "predicate_application"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "source_section",
+              "node": "variable"
+            },
+            {
+              "name": "code_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:proved_preimage_for_one_mismatch",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "name": "source_section",
+              "node": "variable"
+            },
+            {
+              "name": "code_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:one_source_witness_lifts",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "source_section",
+              "node": "variable"
+            },
+            {
+              "name": "code_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:section_on_current_mismatch_codes",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "name": "source_section",
+              "node": "variable"
+            },
+            {
+              "name": "code_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:all_current_mismatch_witnesses_lift",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "source_section",
+              "node": "variable"
+            },
+            {
+              "name": "code_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:global_section_on_reachable_codes",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "name": "source_section",
+              "node": "variable"
+            },
+            {
+              "name": "code_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:all_reachable_code_witnesses_lift",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "code_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:injective_code_map",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "name": "code_map",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:unique_set_theoretic_section_on_image",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      },
+      {
+        "antecedent": {
+          "arguments": [
+            {
+              "name": "external_response",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:explicit_finite_ordered_source",
+          "node": "predicate_application"
+        },
+        "consequent": {
+          "arguments": [
+            {
+              "name": "code_map",
+              "node": "variable"
+            },
+            {
+              "name": "external_response",
+              "node": "variable"
+            }
+          ],
+          "name": "builtin:effective_least_preimage_section_exists",
+          "node": "predicate_application"
+        },
+        "node": "implies"
+      }
+    ],
+    "node": "and"
+  },
+  "claim_sha256": "2c8a9dd7c41918558da4d7980beccc70f67fced249c3dc5b35d8a62ee8ac62fe",
+  "formal_statement_sha256": "4d5a2cde4a89ef62f553a841b2c2e737d57c2bb5e13919fc022c9edb20aad6e7",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.fin_a7_responseImport",
+      "section_lifts_every_code",
+      "finiteLeastSection_is_section"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "FIN-A7.METAPROOF"
+  },
+  "proof_goal_id": "FIN-A7.METAPROOF",
+  "proof_id": "FIN-A7.METAPROOF.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [
+    "CALC-F1",
+    "FIN-A4",
+    "FIN-A5",
+    "FIN-A6"
+  ],
+  "result_id": "FIN-A7",
+  "schema_version": "1.1.0"
+}

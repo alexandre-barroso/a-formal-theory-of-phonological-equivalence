@@ -1,0 +1,144 @@
+{
+  "assumptions": [
+    {
+      "arguments": [
+        "formal/source_transcriptions/basic_syllable_system.json",
+        "344ee31c184c56b375af75daf31f89bff4bbed93011d66785c36f5feb09e8cbd"
+      ],
+      "id": "APP-BASIC.SOURCE.01",
+      "name": "builtin:source_transcription_matches",
+      "node": "predicate_application"
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "algorithm": "basic_syllable_inventory_v1",
+        "expected": {
+          "Inventory": [
+            121,
+            105,
+            16
+          ],
+          "ReusedFrom": "MAX-G6"
+        },
+        "inputs": {
+          "exclude_reflexive": true,
+          "ranking_count": 24
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/basic_syllable_system.json",
+          "sha256": "344ee31c184c56b375af75daf31f89bff4bbed93011d66785c36f5feb09e8cbd",
+          "transcription_id": "SOURCE-BASIC-SYLLABLE-SYSTEM"
+        }
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "87d051da4f811e494371d321a7e84fe9a2268dd4b8e596528687a11c33466a50",
+      "id": "APP-BASIC.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "e2a335feb291cd4f30809651c0f2b3ebbfc0cc389f15ea32420433ba4a5ffe10"
+    },
+    {
+      "algorithm": "basic_syllable_inventory_v1",
+      "expected": {
+        "Inventory": [
+          121,
+          105,
+          16
+        ],
+        "ReusedFrom": "MAX-G6"
+      },
+      "id": "APP-BASIC.APPLICATION.01",
+      "inputs": {
+        "exclude_reflexive": true,
+        "ranking_count": 24
+      },
+      "node": "exact_application_result",
+      "source": {
+        "path": "formal/source_transcriptions/basic_syllable_system.json",
+        "sha256": "344ee31c184c56b375af75daf31f89bff4bbed93011d66785c36f5feb09e8cbd",
+        "transcription_id": "SOURCE-BASIC-SYLLABLE-SYSTEM"
+      }
+    }
+  ],
+  "domains": [
+    {
+      "id": "APP-BASIC.APPLICATION-DOMAIN",
+      "node": "finite_set",
+      "values": [
+        "APP-BASIC.REUSE.01"
+      ]
+    }
+  ],
+  "english_statement_sha256": "87d051da4f811e494371d321a7e84fe9a2268dd4b8e596528687a11c33466a50",
+  "expected_proof_methods": [
+    "ExactApplicationProof"
+  ],
+  "formal_statement_sha256": "14c3f3c79200ded31c7f33dd7dec214994a854463aedb67ba01d12fc8dfa912f",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001"
+  ],
+  "group": "APP",
+  "kind": "application",
+  "nonclaims": "No independent reconstruction or additional contribution is claimed.",
+  "portuguese_statement_sha256": "e2a335feb291cd4f30809651c0f2b3ebbfc0cc389f15ea32420433ba4a5ffe10",
+  "proof_goals": [
+    {
+      "claim": {
+        "algorithm": "basic_syllable_inventory_v1",
+        "expected": {
+          "Inventory": [
+            121,
+            105,
+            16
+          ],
+          "ReusedFrom": "MAX-G6"
+        },
+        "inputs": {
+          "exclude_reflexive": true,
+          "ranking_count": 24
+        },
+        "node": "exact_application_result",
+        "source": {
+          "path": "formal/source_transcriptions/basic_syllable_system.json",
+          "sha256": "344ee31c184c56b375af75daf31f89bff4bbed93011d66785c36f5feb09e8cbd",
+          "transcription_id": "SOURCE-BASIC-SYLLABLE-SYSTEM"
+        }
+      },
+      "mandatory": true,
+      "proof_goal_id": "APP-BASIC.REUSE.01",
+      "proof_methods": [
+        "ExactApplicationProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [],
+  "registered_query_type": "exact source-transcribed application consequence",
+  "result_dependencies": [
+    "MAX-G6"
+  ],
+  "result_id": "APP-BASIC",
+  "schema_version": "1.0.0",
+  "scope": "Application-facing reuse of the finite-MaxEnt transport result.",
+  "sorts": [
+    "Boolean",
+    "natural number",
+    "rational",
+    "real",
+    "finite sequence",
+    "typed answer object"
+  ],
+  "source_transcription_dependencies": [
+    "formal/source_transcriptions/basic_syllable_system.json"
+  ],
+  "title_en": "Basic Syllable application reuse",
+  "title_pt_BR": "Reutilização da aplicação de Sílaba Básica",
+  "variables": [],
+  "withdrawal_condition": "Withdraw if the source ledger, strict-event semantics, implication inventory, or exact cone factorization changes.  This neither refutes MaxEnt nor proves categorical phonology."
+}

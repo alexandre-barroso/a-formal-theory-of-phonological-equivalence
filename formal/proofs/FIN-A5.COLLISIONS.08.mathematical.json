@@ -1,0 +1,131 @@
+{
+  "assumptions_used": [
+    "FIN-A5.A1",
+    "FIN-A5.A2",
+    "FIN-A5.A3",
+    "FIN-A5.A4",
+    "FIN-A5.A5",
+    "FIN-A5.A6",
+    "FIN-A5.A7"
+  ],
+  "claim": {
+    "left": {
+      "arguments": [
+        "FIN-A5.COLLISIONS.08"
+      ],
+      "name": "builtin:finite_regression_observed",
+      "node": "function_application"
+    },
+    "node": "equal",
+    "right": {
+      "answer_type": "registered_exact_result",
+      "node": "typed_answer",
+      "value": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        true
+      ]
+    }
+  },
+  "claim_sha256": "25cf871eb3a0436b16ddbf8f3023fd3c0e9f951a266006991e0b133039864bfa",
+  "formal_statement_sha256": "c6f4b3f4fba8a4884f7f0364befbe7f79100dd5ba394f77d3740b7287eef771e",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001",
+    "FOUND-MARKOV-001",
+    "FOUND-TERMINATION-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 7,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_model": {
+      "added_query": {
+        "a": 0
+      },
+      "carrier": [
+        "a"
+      ],
+      "chain_maps": [
+        {
+          "a": "x"
+        }
+      ],
+      "deterministic_suffix": {
+        "x": "y"
+      },
+      "markov_suffix": {
+        "x": {
+          "y": "1"
+        }
+      },
+      "product_query": {
+        "a": [
+          0
+        ]
+      },
+      "queries": [
+        {
+          "a": 0
+        }
+      ],
+      "reduction": {
+        "a": "x"
+      }
+    },
+    "assumption_model_result": true,
+    "derivation": [],
+    "derivation_method": "exact_finite_replay",
+    "mutant_ids": [
+      "reverse_factorization_kernel_inclusion",
+      "allow_suffix_side_channel",
+      "replace_price_image_count_by_block_size"
+    ],
+    "regression_algorithm": "FIN-A5.COLLISIONS.08",
+    "regression_expected": [
+      [
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      true
+    ],
+    "result_schema_id": "FIN-A5.FINITE-SCHEMA.1",
+    "semantic_kernel_version": "finite-semantics-1.0.0"
+  },
+  "proof_goal_id": "FIN-A5.COLLISIONS.08",
+  "proof_id": "FIN-A5.COLLISIONS.08.FINITE-SEMANTIC.PROOF",
+  "proof_method": "FiniteSemanticProof",
+  "result_dependencies": [
+    "FIN-A4"
+  ],
+  "result_id": "FIN-A5",
+  "schema_version": "1.1.0"
+}

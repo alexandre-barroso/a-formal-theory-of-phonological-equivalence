@@ -1,0 +1,24 @@
+import PhonologicalCalculus.ContinuousHG.Quadratic
+
+/-!
+Kernel-axiom audit for the continuous-HG formalization.  Each command below
+prints the trusted axioms of a principal public theorem after elaboration.
+-/
+
+open PhonologicalCalculus.ContinuousHG
+
+#print axioms pathHarmony_runningMinimum_le
+#print axioms pathHarmony_runningMinimum_lt_of_changed
+#print axioms quadraticPathHarmony_runningMinimum_le
+#print axioms quadraticPathHarmony_runningMinimum_lt_of_changed
+#print axioms solidSimplex_profile_equivalence
+#print axioms quadratic_unique_minimizer_of_simplex_kkt
+#print axioms quadratic_unconstrained_unique_minimizer
+#print axioms quadraticUnsaturatedDecrease_unique_minimizer
+#print axioms quadraticSaturatedDecrease_unique_minimizer
+#print axioms quadraticExtension_stable_unique_minimizer
+#print axioms quadraticSaturatedProfile_support_iff
+#print axioms quadraticPhaseCell_least_threshold
+#print axioms quadraticProfile_exact_first_zero
+#print axioms quadratic_all_horizon_registered_anchors
+#print axioms quadratic_registered_support_cells

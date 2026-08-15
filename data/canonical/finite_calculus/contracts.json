@@ -1,0 +1,26 @@
+{
+  "contracts": [
+    {
+      "admitted_outcomes": [
+        "Q-CONSERVATIVE",
+        "Q-NONCONSERVATIVE",
+        "NOT EVALUATED"
+      ],
+      "contract_id": "CALC-F1-DEMONSTRATION",
+      "domain": [
+        "s1",
+        "s2"
+      ],
+      "registered_query": "exact transported answer identity",
+      "scope": "finite duplicate-free complete contract",
+      "source_answers": {
+        "s1": "t1",
+        "s2": "t2"
+      },
+      "target_answers": {
+        "s1": "t1",
+        "s2": "t3"
+      }
+    }
+  ]
+}

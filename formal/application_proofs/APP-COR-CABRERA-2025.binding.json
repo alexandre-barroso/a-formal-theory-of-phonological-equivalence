@@ -1,0 +1,70 @@
+{
+  "application_id": "APP-COR-CABRERA-2025",
+  "application_spec": {
+    "path": "formal/application_specs/APP-COR-CABRERA-2025.json",
+    "sha256": "51facf40cd0aaa5bcd643dae2da63a225109dda173aa26d28d154c7a0a41e245"
+  },
+  "proof_id": "APP-COR-CABRERA-2025-BINDING",
+  "proof_type": "source_application_binding",
+  "classification": "generated_corollary",
+  "data_evidence": {
+    "path": "data/canonical/applications/cabrera_identifiability.tsv",
+    "sha256": "49b0a6b0ba35e3cc61784746a9bd82828c5d5a0231e732f9b9355cc841febf26"
+  },
+  "exact_consequences": [
+    "The encoded complete one-shot lexical distribution is exactly independent of MPARSE and has zero derivative in that parameter.",
+    "Its supported adjacent ratio identifies markedness as -log(P(n+1)/P(n)).",
+    "The binary structural-versus-null response has an exact second-difference sign boundary at p=m(n+1).",
+    "Once markedness and one warranted binary response are available, MPARSE is recovered by p=mn+logit(r_n)."
+  ],
+  "lean_verification": {
+    "build_command": "lake build PhonologicalCalculus.Application.SourceFacing",
+    "build_exit_code": 0,
+    "declarations": [
+      "PhonologicalCalculus.Application.cabrera_one_shot_deletes_mparse",
+      "PhonologicalCalculus.Application.cabrera_one_shot_derivative_mparse_zero",
+      "PhonologicalCalculus.Application.cabrera_one_shot_normalizer_pos",
+      "PhonologicalCalculus.Application.cabrera_one_shot_adjacent_ratio",
+      "PhonologicalCalculus.Application.cabrera_one_shot_supported_adjacent_ratio",
+      "PhonologicalCalculus.Application.cabrera_one_shot_markedness_recovery",
+      "PhonologicalCalculus.Application.cabrera_binary_second_difference_factorization",
+      "PhonologicalCalculus.Application.cabrera_binary_curvature_positive",
+      "PhonologicalCalculus.Application.cabrera_binary_curvature_zero",
+      "PhonologicalCalculus.Application.cabrera_binary_curvature_negative",
+      "PhonologicalCalculus.Application.cabrera_binary_logit",
+      "PhonologicalCalculus.Application.cabrera_mparse_recovery"
+    ],
+    "direct_command": "lake env lean PhonologicalCalculus/Application/SourceFacing.lean",
+    "direct_exit_code": 0,
+    "lean_version": "4.32.2",
+    "mathlib_revision": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "module": "lean/PhonologicalCalculus/Application/SourceFacing.lean",
+    "module_sha256": "c3c6d18f21ce684595568588c887f84b626d48d162ba2cd3a0e77eab7672e5bc"
+  },
+  "no_conclusion_if": [
+    "the binary response task or a warranted grammar-to-response bridge is absent",
+    "the one-shot consumer includes an observed null candidate",
+    "separate binary responses are treated as one normalized lexical distribution",
+    "candidate support is incomplete"
+  ],
+  "registered_parent_results": [
+    "MAX-G7",
+    "MAX-G9"
+  ],
+  "result": "PASS",
+  "schema_version": "1.0.0",
+  "source_artifact": {
+    "filename": "cabrera2025oneShotCompetitionsPhonotactics.pdf",
+    "included_in_release": false,
+    "page_anchors": [1, 2, 4, 5, 6, 8],
+    "sha256": "4df8fb41b36f537b04c3dac8d7f23de9bba1d06db98fe3a48e28859087dc32cf"
+  },
+  "source_correspondence_boundary": "The source supplies the separate one-shot and multiple-competition MaxEnt architectures, their formulas, and the stated MPARSE-learning gap. Exact deletion, adjacent-ratio recovery, curvature factorization, sign boundary, and binary-channel recovery are project derivations for the transcribed consumers.",
+  "source_transcription": {
+    "path": "formal/source_transcriptions/cabrera2025_competition_phonotactics.json",
+    "sha256": "e6b28026c7fa8a62fd22aacc97df511188aa90360787f3876bc010f20ce699c6",
+    "transcription_id": "SOURCE-CABRERA-2025-COMPETITION-PHONOTACTICS"
+  },
+  "verification_boundary": "Lean proves the encoded normalization, derivatives, ratios, logistic factorization, curvature signs, and recovery equations. It does not prove the transcription, experimental response bridge, empirical adequacy, universal architecture, or literature priority.",
+  "withdrawal_condition": "Withdraw or narrow the source application if MPARSE enters the authoritative one-shot normalizer or if the requested observations lack the separately warranted binary channel required by the recovery equation."
+}

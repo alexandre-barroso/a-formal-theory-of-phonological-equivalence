@@ -1,0 +1,118 @@
+{
+  "assumptions_used": [
+    "FIN-A3.A1",
+    "FIN-A3.A2",
+    "FIN-A3.A3",
+    "FIN-A3.A4",
+    "FIN-A3.A5"
+  ],
+  "claim": {
+    "arguments": [
+      {
+        "arguments": [
+          [
+            "StoppedSet",
+            "StoppedProbability",
+            "WeightedSeries",
+            "AllPrefixes"
+          ]
+        ],
+        "name": "builtin:answer_tags_pairwise_disjoint",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          [
+            "StoppedSet",
+            "StoppedProbability",
+            "WeightedSeries",
+            "AllPrefixes"
+          ],
+          {
+            "name": "cast_registry",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:cross_tag_comparison_requires_registered_cast",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "state_graph",
+            "node": "variable"
+          },
+          {
+            "name": "stop_policy",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:stopped_probability_retains_nontermination_mass",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "coefficient_domain",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:weighted_series_has_no_probability_semantics_without_normalization",
+        "node": "predicate_application"
+      },
+      {
+        "arguments": [
+          {
+            "name": "readout",
+            "node": "variable"
+          },
+          {
+            "name": "cast_registry",
+            "node": "variable"
+          }
+        ],
+        "name": "builtin:prefix_and_stopped_answers_require_registered_projection",
+        "node": "predicate_application"
+      }
+    ],
+    "node": "and"
+  },
+  "claim_sha256": "a07c15035ef353ff3b5d25d6ad0af5f0d6d486c91686e3611905a20f8d48af95",
+  "formal_statement_sha256": "f4f04fb4212c1c46f0120b7db40386b0b12bac1b4a2ad4c6f9edd622099c85cb",
+  "foundation_dependencies": [
+    "FOUND-LOGIC-001",
+    "FOUND-FINITE-001",
+    "FOUND-PARTITION-001",
+    "FOUND-MARKOV-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.weightedSeries_admitsProbability_iff_normalized",
+      "prefixStoppedProjection_refused",
+      "fin_a3_typedSerialDecisions"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "FIN-A3.METAPROOF"
+  },
+  "proof_goal_id": "FIN-A3.METAPROOF",
+  "proof_id": "FIN-A3.METAPROOF.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [],
+  "result_id": "FIN-A3",
+  "schema_version": "1.1.0"
+}

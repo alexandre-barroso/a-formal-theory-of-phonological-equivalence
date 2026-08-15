@@ -1,0 +1,639 @@
+{
+  "assumptions": [
+    {
+      "conditions": [
+        "N>=1",
+        "h>0",
+        "m>0",
+        "p>1",
+        "x_0=1",
+        "0<=x_i<=1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B1.ASSUMPTION-MANIFEST",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "carrier": "solid_simplex_sum_d_i<=1",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1",
+          "x_0=1",
+          "0<=x_i<=1"
+        ],
+        "normalization": "y_i=min(x_0,...,x_i)"
+      }
+    }
+  ],
+  "conclusion": {
+    "arguments": [
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "carrier": "solid_simplex_sum_d_i<=1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1",
+              "x_0=1",
+              "0<=x_i<=1"
+            ],
+            "normalization": "y_i=min(x_0,...,x_i)"
+          }
+        },
+        "component": "running_minimum_fixture",
+        "expected": [
+          [
+            "4/5__MUTANT__",
+            "4/5",
+            "1/2"
+          ],
+          true
+        ],
+        "inputs": {
+          "h": "7/3",
+          "m": "5/4",
+          "p": 2,
+          "profile": [
+            "4/5",
+            "9/10",
+            "1/2"
+          ]
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B1"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "carrier": "solid_simplex_sum_d_i<=1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1",
+              "x_0=1",
+              "0<=x_i<=1"
+            ],
+            "normalization": "y_i=min(x_0,...,x_i)"
+          }
+        },
+        "component": "solid_simplex_identity",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B1"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "carrier": "solid_simplex_sum_d_i<=1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1",
+              "x_0=1",
+              "0<=x_i<=1"
+            ],
+            "normalization": "y_i=min(x_0,...,x_i)"
+          }
+        },
+        "component": "strict_convexity",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B1"
+      },
+      {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "carrier": "solid_simplex_sum_d_i<=1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1",
+              "x_0=1",
+              "0<=x_i<=1"
+            ],
+            "normalization": "y_i=min(x_0,...,x_i)"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "reduced_objective_strictly_convex": true,
+          "running_minimum_energy_nonincrease": true,
+          "solid_simplex_bijection": true,
+          "strict_on_nonmonotone_profile": true
+        },
+        "inputs": {
+          "carrier": "solid_simplex_sum_d_i<=1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "normalization": "y_i=min(x_0,...,x_i)"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B1"
+      }
+    ],
+    "node": "and"
+  },
+  "definitions": [
+    {
+      "english_statement_sha256": "428035edd9f9baddb50aff0a2a26cb6f6f3442d0e755d5e49d813f8b1ce8ac14",
+      "id": "CHG-B1.STATEMENT",
+      "node": "statement_correspondence",
+      "portuguese_statement_sha256": "7ac4219b2f24ae65f5863b044fd5aa10a585cb527bd33ce4397bc906a6255ae6"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1",
+          "x_0=1",
+          "0<=x_i<=1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "carrier": "solid_simplex_sum_d_i<=1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "normalization": "y_i=min(x_0,...,x_i)"
+        }
+      },
+      "component": "running_minimum_fixture",
+      "expected": [
+        [
+          "4/5",
+          "4/5",
+          "1/2"
+        ],
+        true
+      ],
+      "id": "CHG-B1.CLAIM.01",
+      "inputs": {
+        "h": "7/3",
+        "m": "5/4",
+        "p": 2,
+        "profile": [
+          "4/5",
+          "9/10",
+          "1/2"
+        ]
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1",
+          "x_0=1",
+          "0<=x_i<=1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "carrier": "solid_simplex_sum_d_i<=1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "normalization": "y_i=min(x_0,...,x_i)"
+        }
+      },
+      "component": "solid_simplex_identity",
+      "expected": true,
+      "id": "CHG-B1.CLAIM.02",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1",
+          "x_0=1",
+          "0<=x_i<=1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "carrier": "solid_simplex_sum_d_i<=1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "normalization": "y_i=min(x_0,...,x_i)"
+        }
+      },
+      "component": "strict_convexity",
+      "expected": true,
+      "id": "CHG-B1.CLAIM.03",
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B1"
+    },
+    {
+      "assumption_manifest": {
+        "conditions": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1",
+          "x_0=1",
+          "0<=x_i<=1"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "carrier": "solid_simplex_sum_d_i<=1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "normalization": "y_i=min(x_0,...,x_i)"
+        }
+      },
+      "component": "universal_result",
+      "expected": {
+        "reduced_objective_strictly_convex": true,
+        "running_minimum_energy_nonincrease": true,
+        "solid_simplex_bijection": true,
+        "strict_on_nonmonotone_profile": true
+      },
+      "id": "CHG-B1.CLAIM.04",
+      "inputs": {
+        "carrier": "solid_simplex_sum_d_i<=1",
+        "domain": [
+          "N>=1",
+          "h>0",
+          "m>0",
+          "p>1",
+          "x_0=1",
+          "0<=x_i<=1"
+        ],
+        "normalization": "y_i=min(x_0,...,x_i)"
+      },
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B1"
+    }
+  ],
+  "domains": [
+    {
+      "family": "directional_positive_part_power_hg",
+      "id": "CHG-B1.SEMANTIC-DOMAIN",
+      "node": "semantic_domain",
+      "result_id": "CHG-B1",
+      "variables": [
+        {
+          "name": "N",
+          "node": "variable"
+        },
+        {
+          "name": "h",
+          "node": "variable"
+        },
+        {
+          "name": "m",
+          "node": "variable"
+        },
+        {
+          "name": "p",
+          "node": "variable"
+        },
+        {
+          "name": "x",
+          "node": "variable"
+        }
+      ]
+    }
+  ],
+  "english_statement_sha256": "428035edd9f9baddb50aff0a2a26cb6f6f3442d0e755d5e49d813f8b1ce8ac14",
+  "expected_proof_methods": [
+    "LeanKernelProof",
+    "SemanticDerivationProof"
+  ],
+  "formal_statement_sha256": "769bcb6da90774b8013eb13781f39edafe854ce662aa430f09ee871c76a46e75",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001"
+  ],
+  "group": "CHG",
+  "kind": "result",
+  "nonclaims": "Terminal zero is not assumed and no raw phonetic interpretation is licensed.",
+  "portuguese_statement_sha256": "7ac4219b2f24ae65f5863b044fd5aa10a585cb527bd33ce4397bc906a6255ae6",
+  "proof_goals": [
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "carrier": "solid_simplex_sum_d_i<=1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1",
+              "x_0=1",
+              "0<=x_i<=1"
+            ],
+            "normalization": "y_i=min(x_0,...,x_i)"
+          }
+        },
+        "component": "running_minimum_fixture",
+        "expected": [
+          [
+            "4/5__MUTANT__",
+            "4/5",
+            "1/2"
+          ],
+          true
+        ],
+        "inputs": {
+          "h": "7/3",
+          "m": "5/4",
+          "p": 2,
+          "profile": [
+            "4/5",
+            "9/10",
+            "1/2"
+          ]
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B1.RUNMIN.01",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "carrier": "solid_simplex_sum_d_i<=1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1",
+              "x_0=1",
+              "0<=x_i<=1"
+            ],
+            "normalization": "y_i=min(x_0,...,x_i)"
+          }
+        },
+        "component": "solid_simplex_identity",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B1.SIMPLEX.02",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "carrier": "solid_simplex_sum_d_i<=1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1",
+              "x_0=1",
+              "0<=x_i<=1"
+            ],
+            "normalization": "y_i=min(x_0,...,x_i)"
+          }
+        },
+        "component": "strict_convexity",
+        "expected": true,
+        "inputs": {},
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B1.CONVEX.03",
+      "proof_methods": [
+        "SemanticDerivationProof"
+      ]
+    },
+    {
+      "claim": {
+        "assumption_manifest": {
+          "conditions": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "family": "directional_positive_part_power_hg",
+          "node": "continuous_hg_assumptions",
+          "semantic_manifest": {
+            "carrier": "solid_simplex_sum_d_i<=1",
+            "domain": [
+              "N>=1",
+              "h>0",
+              "m>0",
+              "p>1",
+              "x_0=1",
+              "0<=x_i<=1"
+            ],
+            "normalization": "y_i=min(x_0,...,x_i)"
+          }
+        },
+        "component": "universal_result",
+        "expected": {
+          "reduced_objective_strictly_convex": true,
+          "running_minimum_energy_nonincrease": true,
+          "solid_simplex_bijection": true,
+          "strict_on_nonmonotone_profile": true
+        },
+        "inputs": {
+          "carrier": "solid_simplex_sum_d_i<=1",
+          "domain": [
+            "N>=1",
+            "h>0",
+            "m>0",
+            "p>1",
+            "x_0=1",
+            "0<=x_i<=1"
+          ],
+          "normalization": "y_i=min(x_0,...,x_i)"
+        },
+        "node": "continuous_hg_result",
+        "result_id": "CHG-B1"
+      },
+      "mandatory": true,
+      "proof_goal_id": "CHG-B1.METAPROOF",
+      "proof_methods": [
+        "LeanKernelProof"
+      ]
+    }
+  ],
+  "quantifier_prefix": [
+    {
+      "quantifier": "forall",
+      "variables": [
+        "N",
+        "h",
+        "m",
+        "p",
+        "x"
+      ]
+    }
+  ],
+  "registered_query_type": "exact directional_positive_part_power_hg result consequence",
+  "result_dependencies": [],
+  "result_id": "CHG-B1",
+  "schema_version": "1.0.0",
+  "scope": "Declared directional positive-part power-HG path.",
+  "sorts": [
+    "finite sequence",
+    "natural number",
+    "nonnegative real",
+    "positive real",
+    "real"
+  ],
+  "source_transcription_dependencies": [],
+  "title_en": "Monotone normal form",
+  "title_pt_BR": "Forma normal monótona",
+  "variables": [
+    {
+      "name": "N",
+      "sort": "natural number"
+    },
+    {
+      "name": "h",
+      "sort": "positive real"
+    },
+    {
+      "name": "m",
+      "sort": "positive real"
+    },
+    {
+      "name": "p",
+      "sort": "real"
+    },
+    {
+      "name": "x",
+      "sort": "finite sequence"
+    }
+  ],
+  "withdrawal_condition": "Withdraw if a varying follower constraint, protection term, nonpositive weight, different boundary condition, or non-directional cost invalidates the running-min comparison."
+}

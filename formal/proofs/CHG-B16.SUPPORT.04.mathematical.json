@@ -1,0 +1,134 @@
+{
+  "assumptions_used": [
+    "CHG-B16.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "fixed_N>=1",
+        "fixed_rho>0",
+        "p->infinity"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "fixed_N>=1",
+          "fixed_rho>0",
+          "p->infinity"
+        ],
+        "phase_two": "1<p*rho<=(1+2^q)^(1/q)",
+        "q": "1/(p-1)"
+      }
+    },
+    "component": "eventual_support_anchors",
+    "expected": [
+      2,
+      2,
+      2
+    ],
+    "inputs": {},
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B16"
+  },
+  "claim_sha256": "3b022290868af01bf979babb260fefe73a06e8e3a4ab5c1a06156214f4d9cf87",
+  "formal_statement_sha256": "a9c1e346317641d96510e1553d7e95cc0300a82b91d1ce7b9d33e77ce0276568",
+  "foundation_dependencies": [
+    "FOUND-REAL-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "anti_vacuity": {
+      "assumption_count": 1,
+      "conclusion_is_not_assumption": true
+    },
+    "assumption_manifest": {
+      "conditions": [
+        "fixed_N>=1",
+        "fixed_rho>0",
+        "p->infinity"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "fixed_N>=1",
+          "fixed_rho>0",
+          "p->infinity"
+        ],
+        "phase_two": "1<p*rho<=(1+2^q)^(1/q)",
+        "q": "1/(p-1)"
+      }
+    },
+    "assumption_model": {
+      "N": 2,
+      "n": "positive_integer_to_infinity",
+      "p_path": "n+2",
+      "rho": 1
+    },
+    "assumption_model_result": true,
+    "claim": {
+      "assumption_manifest": {
+        "conditions": [
+          "fixed_N>=1",
+          "fixed_rho>0",
+          "p->infinity"
+        ],
+        "family": "directional_positive_part_power_hg",
+        "node": "continuous_hg_assumptions",
+        "semantic_manifest": {
+          "domain": [
+            "fixed_N>=1",
+            "fixed_rho>0",
+            "p->infinity"
+          ],
+          "phase_two": "1<p*rho<=(1+2^q)^(1/q)",
+          "q": "1/(p-1)"
+        }
+      },
+      "component": "eventual_support_anchors",
+      "expected": [
+        2,
+        2,
+        2
+      ],
+      "inputs": {},
+      "node": "continuous_hg_result",
+      "result_id": "CHG-B16"
+    },
+    "derivation": {
+      "component": "eventual_support_anchors",
+      "exponents": [
+        10,
+        20,
+        50
+      ],
+      "result_id": "CHG-B16",
+      "sufficient_upper_bounds": [
+        "5*10<2^9",
+        "5*20<2^19",
+        "5*50<2^49"
+      ]
+    },
+    "mutant_ids": [
+      "CHG-B16.MUTANT.CONCLUSION",
+      "CHG-B16.MUTANT.ASSUMPTION",
+      "CHG-B16.MUTANT.COMPONENT",
+      "CHG-B16.MUT.POSITIVITY-IMPLIES-K2"
+    ],
+    "observed": [
+      2,
+      2,
+      2
+    ],
+    "semantic_kernel_version": "analytic-semantics-1.0.0"
+  },
+  "proof_goal_id": "CHG-B16.SUPPORT.04",
+  "proof_id": "CHG-B16.SUPPORT.04.SEMANTIC.PROOF",
+  "proof_method": "SemanticDerivationProof",
+  "result_dependencies": [
+    "CHG-B2"
+  ],
+  "result_id": "CHG-B16",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "application_id": "APP-COR-PATER-2012",
+  "classification": "generated_corollary",
+  "data_evidence": {
+    "path": "data/canonical/applications/pater_scaling.tsv",
+    "role": "exact finite hidden-support scaling examples and counterwitnesses"
+  },
+  "exact_consequences": [
+    "A symmetric four-hidden-parse configuration has target overt probability 1/2 at every scale.",
+    "A three-correct-versus-one-better-wrong multiplicity configuration has probability 3/(3+exp(t)): it is a strict 3/5 success at the positive scale log(2), crosses 1/2 at log(3), and tends to zero under further common scaling.",
+    "For fixed finite positive masses and a strict target-versus-wrong Harmony gap, the wrong probability obeys the stated exponential envelope.",
+    "The complete fixed-support theorem licenses convergence to one only when every global hidden maximizer lies in the target overt fibre."
+  ],
+  "lean_binding": {
+    "declarations": [
+      "PhonologicalCalculus.Application.pater_common_scaling_tendsto_best_mass_ratio",
+      "PhonologicalCalculus.Application.pater_best_mass_ratio_eq_one_iff",
+      "PhonologicalCalculus.Application.pater_common_scaling_tendsto_one_iff",
+      "PhonologicalCalculus.Application.pater_symmetric_four_parse_probability_eq_half",
+      "PhonologicalCalculus.Application.pater_multiplicity_reversal_at_log_two",
+      "PhonologicalCalculus.Application.pater_multiplicity_reversal_at_log_three",
+      "PhonologicalCalculus.Application.pater_multiplicity_reversal_above_half_iff",
+      "PhonologicalCalculus.Application.pater_multiplicity_reversal_tendsto_zero",
+      "PhonologicalCalculus.Application.pater_finite_exponential_error_envelope"
+    ],
+    "module": "PhonologicalCalculus/Application/SourceFacing.lean"
+  },
+  "no_conclusion_if": [
+    "candidate support is infinite without an attained maximum",
+    "base masses, support, weight direction, or the hidden-to-overt map change under scaling",
+    "the displayed rounded table is treated as a complete exact ledger",
+    "a learning-algorithm convergence claim is requested"
+  ],
+  "nonclaims": [
+    "The source's displayed Table 7 results are not reclassified from an incomplete rounded ledger.",
+    "The application concerns fixed-parameter evaluation, not learning convergence."
+  ],
+  "registered_parent_results": [
+    "MAX-G7"
+  ],
+  "registered_query": "large-scale overt-fibre probability under a fixed finite hidden-candidate support",
+  "schema_version": "1.0.0",
+  "scope": "Finite hidden-candidate MaxEnt with fixed positive base masses, fixed support, and a fixed hidden-to-overt consequence map.",
+  "source_artifact": {
+    "filename": "paterStaubsJesneySmith2012learningProbabilitiesUR.pdf",
+    "page_anchors": [4, 5, 6, 7],
+    "sha256": "da554078a4a9626b5f017c7efe467a4d81b89d71c8f65878890185818b4457d1"
+  },
+  "source_transcription": {
+    "path": "formal/source_transcriptions/pater_staubs_jesney_smith2012_hidden_ur_maxent.json",
+    "sha256": "0f7cfc00bc61bd9d876948411dac8d56a21a564774cba8f01bab09c9c5a30273",
+    "transcription_id": "SOURCE-PATER-STAUBS-JESNEY-SMITH-2012-HIDDEN-UR-MAXENT"
+  },
+  "title_en": "Hidden-fibre consequences of common MaxEnt weight scaling",
+  "title_pt_BR": "Consequências em fibras ocultas do escalonamento comum de pesos MaxEnt",
+  "withdrawal_condition": "Withdraw the source-level instantiation if the authoritative model scales support, base masses, or the consequence map together with weights; the abstract fixed-support corollaries remain valid."
+}

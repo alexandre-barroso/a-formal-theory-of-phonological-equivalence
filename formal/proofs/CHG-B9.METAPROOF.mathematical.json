@@ -1,0 +1,90 @@
+{
+  "assumptions_used": [
+    "CHG-B9.ASSUMPTION-MANIFEST"
+  ],
+  "claim": {
+    "assumption_manifest": {
+      "conditions": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "0<=tau<1"
+      ],
+      "family": "directional_positive_part_power_hg",
+      "node": "continuous_hg_assumptions",
+      "semantic_manifest": {
+        "domain": [
+          "K>=1",
+          "p>1",
+          "rho>0",
+          "0<=tau<1"
+        ],
+        "phase_equation": "B_K(tau)=(p*rho)^q",
+        "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+      }
+    },
+    "component": "universal_result",
+    "expected": {
+      "normalized_profile": "B_(K-i)(tau)/B_K(tau)",
+      "powered_gap_step": "-1/(p*rho)",
+      "profile_discretely_convex": true,
+      "scalar_dual_condition": true,
+      "unique_phase_parameter": true
+    },
+    "inputs": {
+      "domain": [
+        "K>=1",
+        "p>1",
+        "rho>0",
+        "0<=tau<1"
+      ],
+      "phase_equation": "B_K(tau)=(p*rho)^q",
+      "profile": "x_i=B_(K-i)(tau)/B_K(tau)"
+    },
+    "node": "continuous_hg_result",
+    "result_id": "CHG-B9"
+  },
+  "claim_sha256": "df95c18930c22bf0f31fa962afeec65f9abf8fc5da901056379983e33ed16c30",
+  "formal_statement_sha256": "2769fde9cc1611d9012420a3fb879f727123909502ad7bfc8c7e941d7ac108a4",
+  "foundation_dependencies": [
+    "FOUND-FINITE-001",
+    "FOUND-REAL-001",
+    "FOUND-CONVEX-001",
+    "FOUND-KKT-001",
+    "FOUND-LIMIT-001"
+  ],
+  "payload": {
+    "axiom_audit_log_path": "lean/logs/axiom_audit.txt",
+    "axiom_audit_log_sha256": "5393133f6a77cb1f0c157ffe15a5329e8cee90966c089a12c00285d4be62899e",
+    "axiom_policy_log_path": "lean/logs/axiom_policy.txt",
+    "axiom_policy_log_sha256": "65ddf15884fc73269b16d60d6b655fca8eb55daf4741fd23aaafb0623a85ef5d",
+    "build_log_path": "lean/logs/build.txt",
+    "build_log_sha256": "76ebc9ae3afcb1546a4ad4cb4c58347bf198823beb6a7857e9b9919017f3026b",
+    "forbidden_token_log_path": "lean/logs/forbidden_tokens.txt",
+    "forbidden_token_log_sha256": "32342b640282796ed8063336409bddd8a1152be7e7d6e9fe0047a936c530ff06",
+    "lake_manifest_path": "lean/lake-manifest.json",
+    "lake_manifest_sha256": "c92cecb441fe76f276e6b5269c04e423e0664c5bc55f733dab6d4572e44ad4f5",
+    "lean_declarations": [
+      "PhonologicalCalculus.ContinuousHG.chg_b9_complete_optimizer_phase_profile",
+      "exists_unique_phaseOffset_of_firstZeroCell",
+      "powerPathMass_one_iff_phaseEquation",
+      "powerProfileFromDecreases_eq_normalizedPhaseProfile",
+      "normalizedPhaseProfile_strict_secondDifference_pos"
+    ],
+    "lean_toolchain_path": "lean/lean-toolchain",
+    "lean_toolchain_sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "leanchecker_fresh_log_path": "lean/logs/leanchecker.txt",
+    "leanchecker_fresh_log_sha256": "57b812b9b1d4cdf0e5f99d3943bc6827d79268ef4083dc140be2a8f23b76e89c",
+    "proof_goal_coverage_path": "lean/reports/proof_goal_coverage.tsv",
+    "proof_goal_coverage_sha256": "08353bcf69a091419e74577cc5aeea0135d6a1cc8e131ed503afd385442aa118",
+    "proof_goal_id": "CHG-B9.METAPROOF"
+  },
+  "proof_goal_id": "CHG-B9.METAPROOF",
+  "proof_id": "CHG-B9.METAPROOF.LEAN.PROOF",
+  "proof_method": "LeanKernelProof",
+  "result_dependencies": [
+    "CHG-B2"
+  ],
+  "result_id": "CHG-B9",
+  "schema_version": "1.1.0"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "additionalProperties": false,
+    "properties": {
+      "changed_decisions_from_full": {
+        "type": "integer"
+      },
+      "reader": {
+        "type": "string"
+      },
+      "strong_pass_cells": {
+        "type": "string"
+      },
+      "strong_total_cells": {
+        "type": "integer"
+      },
+      "weak_positive_cells": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "reader",
+      "weak_positive_cells",
+      "strong_pass_cells",
+      "strong_total_cells",
+      "changed_decisions_from_full"
+    ],
+    "type": "object"
+  },
+  "title": "data/canonical/demonstrations/portuguese_decision_summary.tsv",
+  "type": "array"
+}
