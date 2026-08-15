@@ -1,2 +1,0 @@
-$ sh scripts/check_axiom_audit_coverage.sh
-PASS: all 1881 exported theorem and lemma declarations have one axiom-audit target.

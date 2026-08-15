@@ -1,2 +1,0 @@
-$ sh scripts/check_public_hygiene.sh
-PASS: no workstation-specific paths, log control characters, or leanchecker failure diagnostics found.

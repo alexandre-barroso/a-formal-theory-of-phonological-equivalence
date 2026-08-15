@@ -3,10 +3,10 @@ import PhonologicalCalculus.MaxEnt.ExactCore
 /-!
 Exact ordered-field reconstruction of the Basic Syllable live MaxEnt cone.
 
-The sixteen entries below are the registered factorized cross-product margins
-in `formal/proofs/maxent/MAX-G6.exact-witness.json`, in witness order.
-Keeping the full list makes the finite left side of MAX-G6.CONE.02 inspectable
-rather than defining it to be the two-facet right side.
+The sixteen entries below are the factorized cross-product margins in the
+order used in the dissertation. Keeping the full list makes the finite left
+side of MAX-G6.CONE.02 inspectable rather than defining it to be the two-facet
+right side.
 -/
 
 namespace PhonologicalCalculus.MaxEnt

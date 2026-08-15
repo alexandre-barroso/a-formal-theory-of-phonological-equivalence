@@ -1,4 +1,0 @@
-Pinned dependency resolution
-lake-manifest.json is the authoritative resolved dependency lock.
-No dependency update is performed during verification.
-Pinned mathlib revision verified from the local lock file.

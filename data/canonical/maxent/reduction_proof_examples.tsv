@@ -1,3 +1,0 @@
-proof_id	restriction	forward_check	reverse_check	sign_preserved	classification
-MAX-G3-SMALL	globally_duplicate_free_rows_1_to_5	true	true	true	exact_compiler_relative_to_explicit_compact_minimum_foundation
-MAX-G4-BINARY	globally_duplicate_free_rows_1_or_2	true	true	true	exact_selector_bridge_with_conditional_conventional_coNP_boundary

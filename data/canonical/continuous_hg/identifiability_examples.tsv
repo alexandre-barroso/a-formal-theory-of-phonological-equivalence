@@ -1,5 +1,0 @@
-audit	identified	not_identified	required_bridge	anchor
-persistence_only	phase_cell_for_h_over_m	exact_ratio;common_scale	none	CHG-B11
-two_powered_gaps_known_p	h_over_m	common_scale	grammar_internal_profile	CHG-B11
-admissible_log_concave_triple	p;h_over_m	common_scale	grammar_internal_profile	CHG-B11
-finite_constitutive_ledger	registered_scores_only	constitutive_law	accumulating_exact_response	FLUX-D5

@@ -1,2 +1,0 @@
-$ sh scripts/check_coverage_consistency.sh
-PASS: Lean registry lists, row-level coverage, and 68/218 totals agree.

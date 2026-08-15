@@ -1,7 +1,0 @@
-result_id	proof_goal_id	title	status	exact_result
-CALC-F1	CALC-F1.WITNESS.03	Complete mismatch witness	MachineClosed	"[""Q-NONCONSERVATIVE"",[""s2"",""t2""],false]"
-CALC-R04	CALC-R04.SURJECTIVITY.01	Missing lower orbit	MachineClosed	"[""B2""]"
-CALC-R04	CALC-R04.FRONTIER.02	Preorder frontier is not image-complete	MachineClosed	"[[""B1"",""B2""],[""B2""]]"
-CALC-R05	CALC-R05.ORBIT.01	Complete set versus singleton	MachineClosed	[true,false,false]
-CALC-R07	CALC-R07.OUTBOUND.01	Complete outbound set	MachineClosed	"[[""k"",""c"",""d""]]"
-SEL-F1	SEL-F1.WITNESS.03	Pairwise overcount witness	MachineClosed	[4,true,true]

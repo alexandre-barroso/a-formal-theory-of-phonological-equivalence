@@ -1,2 +1,0 @@
-$ lake env leanchecker --fresh PhonologicalCalculus.All
-Independent kernel check completed successfully.

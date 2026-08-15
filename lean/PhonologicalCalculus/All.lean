@@ -75,7 +75,6 @@ import PhonologicalCalculus.MaxEnt.ExecutableComplexity
 import PhonologicalCalculus.MaxEnt.ExecutableQuarticCompiler
 import PhonologicalCalculus.MaxEnt.ExecutableOneHotTagCompiler
 import PhonologicalCalculus.MaxEnt.ExecutableCNFComplexity
-import PhonologicalCalculus.Demonstration.EmpiricalReplay
 import PhonologicalCalculus.MaxEnt.FiniteLaw
 import PhonologicalCalculus.MaxEnt.SparseCompiler
 import PhonologicalCalculus.MaxEnt.SparseLaurentCarrier
@@ -102,6 +101,5 @@ import PhonologicalCalculus.Support.MatchedPowerInfinite
 import PhonologicalCalculus.Support.EndpointSlope
 import PhonologicalCalculus.Support.EndpointSlopeComplete
 import PhonologicalCalculus.Support.EndpointWinnerComplete
-import PhonologicalCalculus.Registry
 
 /-! Aggregate import for every checked declaration in the bounded package. -/
