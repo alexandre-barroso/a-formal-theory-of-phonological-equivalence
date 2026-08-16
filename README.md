@@ -6,7 +6,7 @@ proofs, worked examples, and reduced empirical tables used in the dissertation. 
 ## Contents
 
 - `data/` contains the distributed research data:
-  - `corpora.tar.xz` is the compressed folder containing the text transcriptions (.txt files) and TextGrids (.TextGrid files) of the data utilized (40 hours of British English, 40 hours Northern/Southern of Mandarin, and 160 hours of Brazilian Portuguese). Raw speech corpora and audio are not redistributed here, due to licensing and storage reasons;
+  - `corpora.tar.xz` is the compressed folder containing the text transcriptions (.txt files) and TextGrids (.TextGrid files) of the data utilized (40 hours of (diverse) British English, 40 hours of Northern/Southern Mandarin, and 160 hours of Paulista Brazilian Portuguese). Raw speech corpora and audio are not redistributed here, due to licensing and storage reasons;
   - `applications/` gives the Basic Syllable, McCollum, Goldrick-Daland,
     Walker, Pater, and Cabrera examples;
   - `continuous_hg/` gives exact profiles, support boundaries, continuation
