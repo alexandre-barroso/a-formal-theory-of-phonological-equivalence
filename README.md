@@ -68,4 +68,4 @@ dissertation's declared readers.
 
 The dissertation remains the source for theorem statements, proofs in prose,
 linguistic interpretation, empirical premises, and scope limitations. These
-files supply the corresponding public calculations and data.
+files supply the corresponding public calculations and data annotations.
