@@ -1,5 +1,7 @@
 # A Formal Theory of Phonological Equivalence
 
+[![DOI](https://zenodo.org/badge/1334718126.svg)](https://doi.org/10.5281/zenodo.21941367)
+
 This repository contains the public code and data accompanying my doctoral dissertation. It collects the exact calculations, formal
 proofs, worked examples, and reduced empirical tables used in the dissertation. The formal aspects of this research were developed between 2024 and 2026. See also [PhonoScript Project](https://github.com/alexandre-barroso/phonoscript_project).
 
