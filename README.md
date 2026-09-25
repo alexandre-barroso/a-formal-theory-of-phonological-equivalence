@@ -1,6 +1,6 @@
 # A Formal Theory of Phonological Equivalence
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22960540.svg)](https://doi.org/10.5281/zenodo.22960540)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22967347.svg)](https://doi.org/10.5281/zenodo.22967347)
 
 Full download also on <https://osf.io/6nd8s>. DOI: 10.17605/OSF.IO/6ND8S
 
