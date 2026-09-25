@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use ay files from this repo, please cite it as below."
+authors:
+- family-names: Barroso
+  given-names: Alexandre
+orcid: https://orcid.org/0009-0005-2794-767X
+title: A Formal Theory of Phonological Equivalence
+version: 1.1.0
+date-released: 2026-09-25
