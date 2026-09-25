@@ -6,6 +6,8 @@ This repository contains the public code and data accompanying my doctoral disse
 
 The dissertation remains the source for theorem statements, proofs in prose, linguistic interpretation, empirical premises and scope limitations. These files supply the corresponding calculations, proofs and data. `results/` is a Python-generated machine-readable index for parsing purposes.
 
+Supervised by Dr. Maria Filomena Spatti Sandalo @ IEL/UNICAMP.
+
 ## Overview
 
 The dissertation has four formal themes, and the repository keeps the same four throughout `python/`, `wolfram/` and `lean/`:
