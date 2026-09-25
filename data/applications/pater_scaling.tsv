@@ -1,0 +1,9 @@
+scenario	row_origin	scale	best_hidden_output_a_count	best_hidden_output_b_count	probability_a_exact	probability_b_exact	source_strict_success_at_scale	converges_to_intended_output	criterion
+symmetric_four_parse	project_derived_counterwitness	0	1	1	1/2	1/2	false	false	all_global_best_hidden_parses_must_share_overt_fibre
+symmetric_four_parse	project_derived_counterwitness	1	1	1	1/2	1/2	false	false	all_global_best_hidden_parses_must_share_overt_fibre
+symmetric_four_parse	project_derived_counterwitness	2	1	1	1/2	1/2	false	false	all_global_best_hidden_parses_must_share_overt_fibre
+symmetric_four_parse	project_derived_counterwitness	5	1	1	1/2	1/2	false	false	all_global_best_hidden_parses_must_share_overt_fibre
+symmetric_four_parse	project_derived_counterwitness	10	1	1	1/2	1/2	false	false	all_global_best_hidden_parses_must_share_overt_fibre
+three_target_one_better_wrong	project_derived_counterwitness	log(2)	0	1	3/5	2/5	true	false	strict_success_but_common_scaling_limit_zero
+three_target_one_better_wrong	project_derived_counterwitness	log(3)	0	1	1/2	1/2	false	false	strict_success_boundary
+three_target_one_better_wrong	project_derived_counterwitness	t_to_infinity	0	1	0	1	false	false	fixed_support_best_fibre_limit

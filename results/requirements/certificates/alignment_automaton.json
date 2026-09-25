@@ -1,0 +1,1384 @@
+{
+ "a_b": {
+  "checks": 2976,
+  "max_residual_over_bound": "1/6",
+  "mismatches": [],
+  "patterns": {
+   "bleeding": {
+    "checks": 144,
+    "inputs": 15,
+    "max_states": 9
+   },
+   "changtin": {
+    "checks": 168,
+    "inputs": 16,
+    "max_states": 8
+   },
+   "circular_chain_shift": {
+    "checks": 144,
+    "inputs": 15,
+    "max_states": 81
+   },
+   "counterbleeding": {
+    "checks": 144,
+    "inputs": 15,
+    "max_states": 12
+   },
+   "counterfeeding": {
+    "checks": 144,
+    "inputs": 15,
+    "max_states": 45
+   },
+   "fed_counterfeeding": {
+    "checks": 144,
+    "inputs": 15,
+    "max_states": 111
+   },
+   "feeding": {
+    "checks": 144,
+    "inputs": 15,
+    "max_states": 53
+   },
+   "mutual_bleeding_h_first": {
+    "checks": 192,
+    "inputs": 17,
+    "max_states": 8
+   },
+   "mutual_bleeding_voc_first": {
+    "checks": 192,
+    "inputs": 17,
+    "max_states": 5
+   },
+   "mutual_counterbleeding": {
+    "checks": 192,
+    "inputs": 17,
+    "max_states": 4
+   },
+   "mutual_counterfeeding": {
+    "checks": 288,
+    "inputs": 21,
+    "max_states": 8
+   },
+   "mutual_counterfeeding_deletions": {
+    "checks": 120,
+    "inputs": 14,
+    "max_states": 119
+   },
+   "noniterative_left_to_right": {
+    "checks": 96,
+    "inputs": 13,
+    "max_states": 48
+   },
+   "noniterative_right_to_left": {
+    "checks": 96,
+    "inputs": 13,
+    "max_states": 8
+   },
+   "noniterative_simultaneous": {
+    "checks": 96,
+    "inputs": 13,
+    "max_states": 6
+   },
+   "self_bleeding": {
+    "checks": 96,
+    "inputs": 13,
+    "max_states": 4
+   },
+   "self_counterbleeding": {
+    "checks": 96,
+    "inputs": 13,
+    "max_states": 4
+   },
+   "self_counterfeeding": {
+    "checks": 96,
+    "inputs": 13,
+    "max_states": 8
+   },
+   "self_feeding": {
+    "checks": 96,
+    "inputs": 13,
+    "max_states": 8
+   },
+   "vipratisedha_blocking": {
+    "checks": 144,
+    "inputs": 15,
+    "max_states": 9
+   },
+   "vipratisedha_first_wins": {
+    "checks": 144,
+    "inputs": 15,
+    "max_states": 81
+   }
+  },
+  "residual_checks": 18945
+ },
+ "all_pass": true,
+ "c": {
+  "note": "timings are measurements on this machine; the bound on states per layer is the theorem's constant; tie enumeration is output-sensitive and excluded here",
+  "state_bound_per_layer": 152587890625,
+  "timings": [
+   {
+    "best": "1",
+    "length": 8,
+    "seconds": 0.0094,
+    "states_last_layer": 5
+   },
+   {
+    "best": "0",
+    "length": 16,
+    "seconds": 0.0218,
+    "states_last_layer": 6
+   },
+   {
+    "best": "0",
+    "length": 32,
+    "seconds": 0.0411,
+    "states_last_layer": 1
+   },
+   {
+    "best": "4",
+    "length": 64,
+    "seconds": 0.1,
+    "states_last_layer": 5
+   },
+   {
+    "best": "3",
+    "length": 128,
+    "seconds": 0.1127,
+    "states_last_layer": 1
+   }
+  ]
+ },
+ "d": {
+  "declarations": [
+   "R1",
+   "R2",
+   "IDENT_VB_a",
+   "IDENT_VA_b"
+  ],
+  "hg": {
+   "a^1b^1": {
+    "1": [
+     "aa",
+     "ab",
+     "bb"
+    ],
+    "2": [
+     "aa",
+     "bb"
+    ],
+    "3": [
+     "aa",
+     "bb"
+    ],
+    "5": [
+     "aa",
+     "bb"
+    ],
+    "8": [
+     "aa",
+     "bb"
+    ]
+   },
+   "a^1b^2": {
+    "1": [
+     "abb",
+     "bbb"
+    ],
+    "2": [
+     "bbb"
+    ],
+    "3": [
+     "bbb"
+    ],
+    "5": [
+     "bbb"
+    ],
+    "8": [
+     "bbb"
+    ]
+   },
+   "a^1b^3": {
+    "1": [
+     "abbb",
+     "bbbb"
+    ],
+    "2": [
+     "bbbb"
+    ],
+    "3": [
+     "bbbb"
+    ],
+    "5": [
+     "bbbb"
+    ],
+    "8": [
+     "bbbb"
+    ]
+   },
+   "a^1b^4": {
+    "1": [
+     "abbbb",
+     "bbbbb"
+    ],
+    "2": [
+     "bbbbb"
+    ],
+    "3": [
+     "bbbbb"
+    ],
+    "5": [
+     "bbbbb"
+    ],
+    "8": [
+     "bbbbb"
+    ]
+   },
+   "a^1b^5": {
+    "1": [
+     "abbbbb",
+     "bbbbbb"
+    ],
+    "2": [
+     "bbbbbb"
+    ],
+    "3": [
+     "bbbbbb"
+    ],
+    "5": [
+     "bbbbbb"
+    ],
+    "8": [
+     "bbbbbb"
+    ]
+   },
+   "a^1b^6": {
+    "1": [
+     "abbbbbb",
+     "bbbbbbb"
+    ],
+    "2": [
+     "bbbbbbb"
+    ],
+    "3": [
+     "bbbbbbb"
+    ],
+    "5": [
+     "bbbbbbb"
+    ],
+    "8": [
+     "bbbbbbb"
+    ]
+   },
+   "a^2b^1": {
+    "1": [
+     "aaa",
+     "aab"
+    ],
+    "2": [
+     "aaa"
+    ],
+    "3": [
+     "aaa"
+    ],
+    "5": [
+     "aaa"
+    ],
+    "8": [
+     "aaa"
+    ]
+   },
+   "a^2b^2": {
+    "1": [
+     "aabb"
+    ],
+    "2": [
+     "aaab",
+     "abbb"
+    ],
+    "3": [
+     "aaab",
+     "abbb"
+    ],
+    "5": [
+     "aaab",
+     "abbb"
+    ],
+    "8": [
+     "aaaa",
+     "aaab",
+     "abbb",
+     "bbbb"
+    ]
+   },
+   "a^2b^3": {
+    "1": [
+     "aabbb"
+    ],
+    "2": [
+     "aaabb",
+     "abbbb"
+    ],
+    "3": [
+     "aaabb",
+     "abbbb"
+    ],
+    "5": [
+     "aaabb",
+     "abbbb"
+    ],
+    "8": [
+     "aaabb",
+     "abbbb",
+     "bbbbb"
+    ]
+   },
+   "a^2b^4": {
+    "1": [
+     "aabbbb"
+    ],
+    "2": [
+     "aaabbb",
+     "abbbbb"
+    ],
+    "3": [
+     "aaabbb",
+     "abbbbb"
+    ],
+    "5": [
+     "aaabbb",
+     "abbbbb"
+    ],
+    "8": [
+     "aaabbb",
+     "abbbbb",
+     "bbbbbb"
+    ]
+   },
+   "a^2b^5": {
+    "1": [
+     "aabbbbb"
+    ],
+    "2": [
+     "aaabbbb",
+     "abbbbbb"
+    ],
+    "3": [
+     "aaabbbb",
+     "abbbbbb"
+    ],
+    "5": [
+     "aaabbbb",
+     "abbbbbb"
+    ],
+    "8": [
+     "aaabbbb",
+     "abbbbbb",
+     "bbbbbbb"
+    ]
+   },
+   "a^2b^6": {
+    "1": [
+     "aabbbbbb"
+    ],
+    "2": [
+     "aaabbbbb",
+     "abbbbbbb"
+    ],
+    "3": [
+     "aaabbbbb",
+     "abbbbbbb"
+    ],
+    "5": [
+     "aaabbbbb",
+     "abbbbbbb"
+    ],
+    "8": [
+     "aaabbbbb",
+     "abbbbbbb",
+     "bbbbbbbb"
+    ]
+   },
+   "a^3b^1": {
+    "1": [
+     "aaaa",
+     "aaab"
+    ],
+    "2": [
+     "aaaa"
+    ],
+    "3": [
+     "aaaa"
+    ],
+    "5": [
+     "aaaa"
+    ],
+    "8": [
+     "aaaa"
+    ]
+   },
+   "a^3b^2": {
+    "1": [
+     "aaabb"
+    ],
+    "2": [
+     "aaaab",
+     "aabbb"
+    ],
+    "3": [
+     "aaaab",
+     "aabbb"
+    ],
+    "5": [
+     "aaaab",
+     "aabbb"
+    ],
+    "8": [
+     "aaaaa",
+     "aaaab",
+     "aabbb"
+    ]
+   },
+   "a^3b^3": {
+    "1": [
+     "aaabbb"
+    ],
+    "2": [
+     "aaaabb",
+     "aabbbb"
+    ],
+    "3": [
+     "aaaabb",
+     "aabbbb"
+    ],
+    "5": [
+     "aaaabb",
+     "aabbbb"
+    ],
+    "8": [
+     "aaaabb",
+     "aabbbb"
+    ]
+   },
+   "a^3b^4": {
+    "1": [
+     "aaabbbb"
+    ],
+    "2": [
+     "aaaabbb",
+     "aabbbbb"
+    ],
+    "3": [
+     "aaaabbb",
+     "aabbbbb"
+    ],
+    "5": [
+     "aaaabbb",
+     "aabbbbb"
+    ],
+    "8": [
+     "aaaabbb",
+     "aabbbbb"
+    ]
+   },
+   "a^3b^5": {
+    "1": [
+     "aaabbbbb"
+    ],
+    "2": [
+     "aaaabbbb",
+     "aabbbbbb"
+    ],
+    "3": [
+     "aaaabbbb",
+     "aabbbbbb"
+    ],
+    "5": [
+     "aaaabbbb",
+     "aabbbbbb"
+    ],
+    "8": [
+     "aaaabbbb",
+     "aabbbbbb"
+    ]
+   },
+   "a^3b^6": {
+    "1": [
+     "aaabbbbbb"
+    ],
+    "2": [
+     "aaaabbbbb",
+     "aabbbbbbb"
+    ],
+    "3": [
+     "aaaabbbbb",
+     "aabbbbbbb"
+    ],
+    "5": [
+     "aaaabbbbb",
+     "aabbbbbbb"
+    ],
+    "8": [
+     "aaaabbbbb",
+     "aabbbbbbb"
+    ]
+   },
+   "a^4b^1": {
+    "1": [
+     "aaaaa",
+     "aaaab"
+    ],
+    "2": [
+     "aaaaa"
+    ],
+    "3": [
+     "aaaaa"
+    ],
+    "5": [
+     "aaaaa"
+    ],
+    "8": [
+     "aaaaa"
+    ]
+   },
+   "a^4b^2": {
+    "1": [
+     "aaaabb"
+    ],
+    "2": [
+     "aaaaab",
+     "aaabbb"
+    ],
+    "3": [
+     "aaaaab",
+     "aaabbb"
+    ],
+    "5": [
+     "aaaaab",
+     "aaabbb"
+    ],
+    "8": [
+     "aaaaaa",
+     "aaaaab",
+     "aaabbb"
+    ]
+   },
+   "a^4b^3": {
+    "1": [
+     "aaaabbb"
+    ],
+    "2": [
+     "aaaaabb",
+     "aaabbbb"
+    ],
+    "3": [
+     "aaaaabb",
+     "aaabbbb"
+    ],
+    "5": [
+     "aaaaabb",
+     "aaabbbb"
+    ],
+    "8": [
+     "aaaaabb",
+     "aaabbbb"
+    ]
+   },
+   "a^4b^4": {
+    "1": [
+     "aaaabbbb"
+    ],
+    "2": [
+     "aaaaabbb",
+     "aaabbbbb"
+    ],
+    "3": [
+     "aaaaabbb",
+     "aaabbbbb"
+    ],
+    "5": [
+     "aaaaabbb",
+     "aaabbbbb"
+    ],
+    "8": [
+     "aaaaabbb",
+     "aaabbbbb"
+    ]
+   },
+   "a^4b^5": {
+    "1": [
+     "aaaabbbbb"
+    ],
+    "2": [
+     "aaaaabbbb",
+     "aaabbbbbb"
+    ],
+    "3": [
+     "aaaaabbbb",
+     "aaabbbbbb"
+    ],
+    "5": [
+     "aaaaabbbb",
+     "aaabbbbbb"
+    ],
+    "8": [
+     "aaaaabbbb",
+     "aaabbbbbb"
+    ]
+   },
+   "a^4b^6": {
+    "1": [
+     "aaaabbbbbb"
+    ],
+    "2": [
+     "aaaaabbbbb",
+     "aaabbbbbbb"
+    ],
+    "3": [
+     "aaaaabbbbb",
+     "aaabbbbbbb"
+    ],
+    "5": [
+     "aaaaabbbbb",
+     "aaabbbbbbb"
+    ],
+    "8": [
+     "aaaaabbbbb",
+     "aaabbbbbbb"
+    ]
+   },
+   "a^5b^1": {
+    "1": [
+     "aaaaaa",
+     "aaaaab"
+    ],
+    "2": [
+     "aaaaaa"
+    ],
+    "3": [
+     "aaaaaa"
+    ],
+    "5": [
+     "aaaaaa"
+    ],
+    "8": [
+     "aaaaaa"
+    ]
+   },
+   "a^5b^2": {
+    "1": [
+     "aaaaabb"
+    ],
+    "2": [
+     "aaaaaab",
+     "aaaabbb"
+    ],
+    "3": [
+     "aaaaaab",
+     "aaaabbb"
+    ],
+    "5": [
+     "aaaaaab",
+     "aaaabbb"
+    ],
+    "8": [
+     "aaaaaaa",
+     "aaaaaab",
+     "aaaabbb"
+    ]
+   },
+   "a^5b^3": {
+    "1": [
+     "aaaaabbb"
+    ],
+    "2": [
+     "aaaaaabb",
+     "aaaabbbb"
+    ],
+    "3": [
+     "aaaaaabb",
+     "aaaabbbb"
+    ],
+    "5": [
+     "aaaaaabb",
+     "aaaabbbb"
+    ],
+    "8": [
+     "aaaaaabb",
+     "aaaabbbb"
+    ]
+   },
+   "a^5b^4": {
+    "1": [
+     "aaaaabbbb"
+    ],
+    "2": [
+     "aaaaaabbb",
+     "aaaabbbbb"
+    ],
+    "3": [
+     "aaaaaabbb",
+     "aaaabbbbb"
+    ],
+    "5": [
+     "aaaaaabbb",
+     "aaaabbbbb"
+    ],
+    "8": [
+     "aaaaaabbb",
+     "aaaabbbbb"
+    ]
+   },
+   "a^5b^5": {
+    "1": [
+     "aaaaabbbbb"
+    ],
+    "2": [
+     "aaaaaabbbb",
+     "aaaabbbbbb"
+    ],
+    "3": [
+     "aaaaaabbbb",
+     "aaaabbbbbb"
+    ],
+    "5": [
+     "aaaaaabbbb",
+     "aaaabbbbbb"
+    ],
+    "8": [
+     "aaaaaabbbb",
+     "aaaabbbbbb"
+    ]
+   },
+   "a^5b^6": {
+    "1": [
+     "aaaaabbbbbb"
+    ],
+    "2": [
+     "aaaaaabbbbb",
+     "aaaabbbbbbb"
+    ],
+    "3": [
+     "aaaaaabbbbb",
+     "aaaabbbbbbb"
+    ],
+    "5": [
+     "aaaaaabbbbb",
+     "aaaabbbbbbb"
+    ],
+    "8": [
+     "aaaaaabbbbb",
+     "aaaabbbbbbb"
+    ]
+   },
+   "a^6b^1": {
+    "1": [
+     "aaaaaaa",
+     "aaaaaab"
+    ],
+    "2": [
+     "aaaaaaa"
+    ],
+    "3": [
+     "aaaaaaa"
+    ],
+    "5": [
+     "aaaaaaa"
+    ],
+    "8": [
+     "aaaaaaa"
+    ]
+   },
+   "a^6b^2": {
+    "1": [
+     "aaaaaabb"
+    ],
+    "2": [
+     "aaaaaaab",
+     "aaaaabbb"
+    ],
+    "3": [
+     "aaaaaaab",
+     "aaaaabbb"
+    ],
+    "5": [
+     "aaaaaaab",
+     "aaaaabbb"
+    ],
+    "8": [
+     "aaaaaaaa",
+     "aaaaaaab",
+     "aaaaabbb"
+    ]
+   },
+   "a^6b^3": {
+    "1": [
+     "aaaaaabbb"
+    ],
+    "2": [
+     "aaaaaaabb",
+     "aaaaabbbb"
+    ],
+    "3": [
+     "aaaaaaabb",
+     "aaaaabbbb"
+    ],
+    "5": [
+     "aaaaaaabb",
+     "aaaaabbbb"
+    ],
+    "8": [
+     "aaaaaaabb",
+     "aaaaabbbb"
+    ]
+   },
+   "a^6b^4": {
+    "1": [
+     "aaaaaabbbb"
+    ],
+    "2": [
+     "aaaaaaabbb",
+     "aaaaabbbbb"
+    ],
+    "3": [
+     "aaaaaaabbb",
+     "aaaaabbbbb"
+    ],
+    "5": [
+     "aaaaaaabbb",
+     "aaaaabbbbb"
+    ],
+    "8": [
+     "aaaaaaabbb",
+     "aaaaabbbbb"
+    ]
+   },
+   "a^6b^5": {
+    "1": [
+     "aaaaaabbbbb"
+    ],
+    "2": [
+     "aaaaaaabbbb",
+     "aaaaabbbbbb"
+    ],
+    "3": [
+     "aaaaaaabbbb",
+     "aaaaabbbbbb"
+    ],
+    "5": [
+     "aaaaaaabbbb",
+     "aaaaabbbbbb"
+    ],
+    "8": [
+     "aaaaaaabbbb",
+     "aaaaabbbbbb"
+    ]
+   },
+   "a^6b^6": {
+    "1": [
+     "aaaaaabbbbbb"
+    ],
+    "2": [
+     "aaaaaaabbbbb",
+     "aaaaabbbbbbb"
+    ],
+    "3": [
+     "aaaaaaabbbbb",
+     "aaaaabbbbbbb"
+    ],
+    "5": [
+     "aaaaaaabbbbb",
+     "aaaaabbbbbbb"
+    ],
+    "8": [
+     "aaaaaaabbbbb",
+     "aaaaabbbbbbb"
+    ]
+   }
+  },
+  "ot": {
+   "a^1b^1": [
+    "aa",
+    "bb"
+   ],
+   "a^1b^2": [
+    "bbb"
+   ],
+   "a^1b^3": [
+    "bbbb"
+   ],
+   "a^1b^4": [
+    "bbbbb"
+   ],
+   "a^1b^5": [
+    "bbbbbb"
+   ],
+   "a^1b^6": [
+    "bbbbbbb"
+   ],
+   "a^2b^1": [
+    "aaa"
+   ],
+   "a^2b^2": [
+    "aaaa",
+    "bbbb"
+   ],
+   "a^2b^3": [
+    "bbbbb"
+   ],
+   "a^2b^4": [
+    "bbbbbb"
+   ],
+   "a^2b^5": [
+    "bbbbbbb"
+   ],
+   "a^2b^6": [
+    "bbbbbbbb"
+   ],
+   "a^3b^1": [
+    "aaaa"
+   ],
+   "a^3b^2": [
+    "aaaaa"
+   ],
+   "a^3b^3": [
+    "aaaaaa",
+    "bbbbbb"
+   ],
+   "a^3b^4": [
+    "bbbbbbb"
+   ],
+   "a^3b^5": [
+    "bbbbbbbb"
+   ],
+   "a^3b^6": [
+    "bbbbbbbbb"
+   ],
+   "a^4b^1": [
+    "aaaaa"
+   ],
+   "a^4b^2": [
+    "aaaaaa"
+   ],
+   "a^4b^3": [
+    "aaaaaaa"
+   ],
+   "a^4b^4": [
+    "aaaaaaaa",
+    "bbbbbbbb"
+   ],
+   "a^4b^5": [
+    "bbbbbbbbb"
+   ],
+   "a^4b^6": [
+    "bbbbbbbbbb"
+   ],
+   "a^5b^1": [
+    "aaaaaa"
+   ],
+   "a^5b^2": [
+    "aaaaaaa"
+   ],
+   "a^5b^3": [
+    "aaaaaaaa"
+   ],
+   "a^5b^4": [
+    "aaaaaaaaa"
+   ],
+   "a^5b^5": [
+    "aaaaaaaaaa",
+    "bbbbbbbbbb"
+   ],
+   "a^5b^6": [
+    "bbbbbbbbbbb"
+   ],
+   "a^6b^1": [
+    "aaaaaaa"
+   ],
+   "a^6b^2": [
+    "aaaaaaaa"
+   ],
+   "a^6b^3": [
+    "aaaaaaaaa"
+   ],
+   "a^6b^4": [
+    "aaaaaaaaaa"
+   ],
+   "a^6b^5": [
+    "aaaaaaaaaaa"
+   ],
+   "a^6b^6": [
+    "aaaaaaaaaaaa",
+    "bbbbbbbbbbbb"
+   ]
+  },
+  "summary": {
+   "argument": "the faithful candidate costs w_R (one activated locus) whatever p and q, and changing the segment next to the boundary costs w_I + lambda w_R (a created locus) or w_I at an edge; every harmonic candidate changes min(p, q) segments.  Under strict ranking (markedness over faithfulness) the faithful candidate loses to any harmonic one and the winner is the majority value, a map whose range distinguishes p < q from p > q --- not a regular relation (Heinz and Lai 2013 as reported by Chandlee, Heinz and Jardine 2018 p. 26; Lamont 2021 pp. 729-731).  Under fixed weights every winner costs at most the incumbent min(w_R, w_I + lambda w_R), so it changes at most that many segments divided by w_I: a bounded edit, so the weighted map on a^p b^q is a regular relation and no weight vector reproduces the ranked map on unbounded inputs.",
+   "max_edits_of_a_weighted_winner": 2,
+   "ranked_map_is_majority_rules_on_all_36_inputs": true,
+   "weighted_map_faithful_when_w_R(1-lambda)<=w_I_and_min_pq>=2": true,
+   "weighted_winners_edit_at_most_incumbent_over_w_I": true
+  }
+ },
+ "e": {
+  "e1_feeding_chain": {
+   "automaton_equals_evaluator": true,
+   "inputs": {
+    "1": {
+     "cost": "1",
+     "minimisers": [
+      "NWCV"
+     ]
+    },
+    "10": {
+     "cost": "5",
+     "minimisers": [
+      "NWVVVVVVVVVCV"
+     ]
+    },
+    "2": {
+     "cost": "2",
+     "minimisers": [
+      "NWWCV"
+     ]
+    },
+    "3": {
+     "cost": "3",
+     "minimisers": [
+      "NWWWCV"
+     ]
+    },
+    "4": {
+     "cost": "4",
+     "minimisers": [
+      "NWWWWCV"
+     ]
+    },
+    "5": {
+     "cost": "5",
+     "minimisers": [
+      "NWVVVVCV",
+      "NWWWWWCV"
+     ]
+    },
+    "6": {
+     "cost": "5",
+     "minimisers": [
+      "NWVVVVVCV"
+     ]
+    },
+    "7": {
+     "cost": "5",
+     "minimisers": [
+      "NWVVVVVVCV"
+     ]
+    },
+    "8": {
+     "cost": "5",
+     "minimisers": [
+      "NWVVVVVVVCV"
+     ]
+    },
+    "9": {
+     "cost": "5",
+     "minimisers": [
+      "NWVVVVVVVVCV"
+     ]
+    }
+   },
+   "length_bounded_as_predicted": true,
+   "rule": "V -> W (nasal) / N _ ; discharge mode; w = 8, w_I = 1, lambda = 1/2: threshold n <= 1 + lambda w / w_I = 5",
+   "statement": "along a feeding chain of k repairs the only violated created locus is the frontier, so the cost of nasalising the first k of n vowels is k w_I + [k < n] lambda w; the chain runs to the end iff n w_I <= w_I + lambda w and otherwise stops after the first vowel: iterative feeding is length-bounded at fixed weights (here as an exact threshold), and unbounded spreading needs a trigger reached by a search over a class (outside the rule-shaped fragment)"
+  },
+  "e2_directional_deletion": {
+   "automaton_equals_evaluator": true,
+   "inputs": {
+    "1": {
+     "cost": "1",
+     "deleted_sets": [
+      [
+       1
+      ]
+     ],
+     "n_minimisers": 1
+    },
+    "10": {
+     "cost": "5",
+     "deleted_sets": [
+      [
+       1,
+       3,
+       5,
+       7,
+       9
+      ]
+     ],
+     "n_minimisers": 1
+    },
+    "2": {
+     "cost": "1",
+     "deleted_sets": [
+      [
+       1
+      ]
+     ],
+     "n_minimisers": 1
+    },
+    "3": {
+     "cost": "2",
+     "deleted_sets": [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       3
+      ]
+     ],
+     "n_minimisers": 2
+    },
+    "4": {
+     "cost": "2",
+     "deleted_sets": [
+      [
+       1,
+       3
+      ]
+     ],
+     "n_minimisers": 1
+    },
+    "5": {
+     "cost": "3",
+     "deleted_sets": [
+      [
+       1,
+       2,
+       4
+      ],
+      [
+       1,
+       3,
+       4
+      ],
+      [
+       1,
+       3,
+       5
+      ]
+     ],
+     "n_minimisers": 3
+    },
+    "6": {
+     "cost": "3",
+     "deleted_sets": [
+      [
+       1,
+       3,
+       5
+      ]
+     ],
+     "n_minimisers": 1
+    },
+    "7": {
+     "cost": "4",
+     "deleted_sets": [
+      [
+       1,
+       2,
+       4,
+       6
+      ],
+      [
+       1,
+       3,
+       4,
+       6
+      ],
+      [
+       1,
+       3,
+       5,
+       6
+      ],
+      [
+       1,
+       3,
+       5,
+       7
+      ]
+     ],
+     "n_minimisers": 4
+    },
+    "8": {
+     "cost": "4",
+     "deleted_sets": [
+      [
+       1,
+       3,
+       5,
+       7
+      ]
+     ],
+     "n_minimisers": 1
+    },
+    "9": {
+     "cost": "5",
+     "deleted_sets": [
+      [
+       1,
+       2,
+       4,
+       6,
+       8
+      ],
+      [
+       1,
+       3,
+       4,
+       6,
+       8
+      ],
+      [
+       1,
+       3,
+       5,
+       6,
+       8
+      ],
+      [
+       1,
+       3,
+       5,
+       7,
+       8
+      ],
+      [
+       1,
+       3,
+       5,
+       7,
+       9
+      ]
+     ],
+     "n_minimisers": 5
+    }
+   },
+   "minimisers_are_minimum_left_covering_sets": true,
+   "rule": "e -> 0 / VC _ CV, left-to-right mode",
+   "statement": "the first schwa is activated with its left context intact and must delete; a later schwa keeps its charge unless the schwa to its left is deleted (the left side is carried); so the minimisers are the minimum sets containing 1 in which no two consecutive schwas are both kept --- ceil(n/2) deletions, unique for even n and tied for odd n (the path analogue of T08's cycle covering)"
+  },
+  "e3_parity_function": {
+   "argument": "the k-th schwa is deleted iff k is odd, for every n; inputs V(Ce)^{2m} C and V(Ce)^{2m+1} C share every suffix of bounded length once m is large, yet the next schwa is deleted after the one and kept after the other: their tails differ, so this function is not k-ISL for any k (Chandlee and Heinz 2018, Definition 1 and their argument for iterative rules); by (a) it is realised by the alignment automaton, hence a regular function",
+   "automaton_equals_evaluator": true,
+   "inputs": {
+    "1": {
+     "cost": "1",
+     "deleted": [
+      [
+       1
+      ]
+     ]
+    },
+    "10": {
+     "cost": "5",
+     "deleted": [
+      [
+       1,
+       3,
+       5,
+       7,
+       9
+      ]
+     ]
+    },
+    "2": {
+     "cost": "1",
+     "deleted": [
+      [
+       1
+      ]
+     ]
+    },
+    "3": {
+     "cost": "2",
+     "deleted": [
+      [
+       1,
+       3
+      ]
+     ]
+    },
+    "4": {
+     "cost": "2",
+     "deleted": [
+      [
+       1,
+       3
+      ]
+     ]
+    },
+    "5": {
+     "cost": "3",
+     "deleted": [
+      [
+       1,
+       3,
+       5
+      ]
+     ]
+    },
+    "6": {
+     "cost": "3",
+     "deleted": [
+      [
+       1,
+       3,
+       5
+      ]
+     ]
+    },
+    "7": {
+     "cost": "4",
+     "deleted": [
+      [
+       1,
+       3,
+       5,
+       7
+      ]
+     ]
+    },
+    "8": {
+     "cost": "4",
+     "deleted": [
+      [
+       1,
+       3,
+       5,
+       7
+      ]
+     ]
+    },
+    "9": {
+     "cost": "5",
+     "deleted": [
+      [
+       1,
+       3,
+       5,
+       7,
+       9
+      ]
+     ]
+    }
+   },
+   "odd_schwas_deleted_uniquely": true,
+   "rules": [
+    "e -> 0 / VC _ CV (left-to-right)",
+    "C -> X / CC _ with X not among C's realisations: an unrepairable requirement, a created locus charged lambda*w"
+   ]
+  }
+ },
+ "status": "FINITE_EXHAUSTIVE_CERTIFIED"
+}

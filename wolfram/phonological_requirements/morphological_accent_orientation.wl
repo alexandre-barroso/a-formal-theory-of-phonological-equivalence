@@ -1,0 +1,15 @@
+vars = {wR, wA, wE, wD};
+nonneg = And @@ (# >= 0 & /@ vars);
+intrinsic = wR > wA;
+rootcontrast = And[(0*wR + 0*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 0*wE + 1*wD), (0*wR + 0*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 1*wE + 1*wD)];
+affixcontrast = And[(0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 0*wE + 1*wD), (0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 1*wD), (0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 2*wE + 1*wD)];
+prefixoverridesroot = And[(1*wR + 0*wA + 0*wE + 0*wD) < (1*wR + 1*wA + 0*wE + 1*wD), (1*wR + 0*wA + 0*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 0*wD), (1*wR + 0*wA + 0*wE + 0*wD) < (1*wR + 1*wA + 1*wE + 1*wD)];
+leftmostamongaffixes = And[(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 0*wE + 1*wD), (0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 0*wD), (0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 1*wE + 1*wD), (0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 2*wE + 1*wD)];
+rootoverprefix = And[(0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 0*wE + 0*wD), (0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 1*wA + 0*wE + 1*wD), (0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 1*wA + 1*wE + 1*wD)];
+excluded = And[rootcontrast, affixcontrast, prefixoverridesroot];
+root = NestWhile[ParentDirectory, DirectoryName[$InputFileName], !(DirectoryQ[FileNameJoin[{#, "python"}]] && DirectoryQ[FileNameJoin[{#, "wolfram"}]]) &, 1, 8];
+outdir = FileNameJoin[{root, "results", "requirements", "wolfram"}];
+If[!DirectoryQ[outdir], CreateDirectory[outdir, CreateIntermediateDirectories -> True]];
+res = <|"excluded_region" -> ToString[Reduce[nonneg && intrinsic && excluded, {wE, wR, wA, wD}, Reals], InputForm], "exists_wE" -> ToString[Reduce[Exists[wE, nonneg && intrinsic && excluded], {wR, wA, wD}, Reals], InputForm], "witness" -> ToString[FindInstance[nonneg && intrinsic && excluded, vars, Reals], InputForm], "no_strict_ranking_with_wR_gt_wA" -> ToString[Reduce[Exists[{wR, wA, wE, wD}, nonneg && intrinsic && excluded && wR >= 10 wA && (wE >= 10 wR || wA >= 10 wE) && wD <= wE/10], Reals], InputForm], "root_contrast_at_distance" -> ToString[Reduce[d*wE < wR + wD && d > 0 && wE > 0, d, Reals], InputForm], "rca_root_wins_for_every_n" -> ToString[Reduce[ForAll[n, n >= 1, n*wA + d*wE < wR + (n - 1)*wA], {wR, wA, wE, d}, Reals], InputForm]|>;
+Export[FileNameJoin[{outdir, "morphological_accent_orientation.json"}], res, "JSON"];
+Print[res];

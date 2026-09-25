@@ -1,0 +1,765 @@
+{
+ "compensatory_lengthening": {
+  "derived": {
+   "all": [
+    {
+     "V1_deleted": false,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       1,
+       0
+      ],
+      "MAX": [
+       0,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": 1,
+     "score8": "240"
+    },
+    {
+     "V1_deleted": false,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       1,
+       0
+      ],
+      "MAX": [
+       0,
+       0
+      ],
+      "MAXLINK-M": [
+       1,
+       0
+      ]
+     },
+     "moras_on_V2": 2,
+     "mu0_host": 2,
+     "score8": "248"
+    },
+    {
+     "V1_deleted": false,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       1
+      ],
+      "HIATUS": [
+       1,
+       0
+      ],
+      "MAX": [
+       0,
+       0
+      ],
+      "MAXLINK-M": [
+       1,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": null,
+     "score8": "272"
+    },
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": 1,
+     "score8": "48"
+    },
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": 2,
+     "score8": "48"
+    },
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": null,
+     "score8": "48"
+    }
+   ],
+   "compensatory_lengthening": false,
+   "minimisers": [
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": 1,
+     "score8": "48"
+    },
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": 2,
+     "score8": "48"
+    },
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": null,
+     "score8": "48"
+    }
+   ]
+  },
+  "total": {
+   "all": [
+    {
+     "V1_deleted": false,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       1,
+       0
+      ],
+      "MAX": [
+       0,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": 1,
+     "score8": "240"
+    },
+    {
+     "V1_deleted": false,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       1,
+       0
+      ],
+      "MAX": [
+       0,
+       0
+      ],
+      "MAXLINK-M": [
+       1,
+       0
+      ]
+     },
+     "moras_on_V2": 2,
+     "mu0_host": 2,
+     "score8": "248"
+    },
+    {
+     "V1_deleted": false,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       1
+      ],
+      "HIATUS": [
+       1,
+       0
+      ],
+      "MAX": [
+       0,
+       0
+      ],
+      "MAXLINK-M": [
+       1,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": null,
+     "score8": "272"
+    },
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       1
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       0,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": 1,
+     "score8": "72"
+    },
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       1,
+       0
+      ]
+     },
+     "moras_on_V2": 2,
+     "mu0_host": 2,
+     "score8": "56"
+    },
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       1
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       1,
+       0
+      ]
+     },
+     "moras_on_V2": 1,
+     "mu0_host": null,
+     "score8": "80"
+    }
+   ],
+   "compensatory_lengthening": true,
+   "minimisers": [
+    {
+     "V1_deleted": true,
+     "coefficients": {
+      "FLOAT-M": [
+       0,
+       0
+      ],
+      "HIATUS": [
+       0,
+       0
+      ],
+      "MAX": [
+       1,
+       0
+      ],
+      "MAXLINK-M": [
+       1,
+       0
+      ]
+     },
+     "moras_on_V2": 2,
+     "mu0_host": 2,
+     "score8": "56"
+    }
+   ]
+  }
+ },
+ "third_party_discharge": {
+  "gua_A_relational": {
+   "candidates": 2197,
+   "discharged": 0,
+   "satisfied": 325,
+   "third_party_discharged": 0,
+   "witnesses": []
+  },
+  "gua_H_total_anchor": {
+   "candidates": 2197,
+   "discharged": 507,
+   "satisfied": 845,
+   "third_party_discharged": 0,
+   "witnesses": []
+  },
+  "lithuanian_AGREE_relational": {
+   "candidates": 8,
+   "discharged": 4,
+   "satisfied": 2,
+   "third_party_discharged": 1,
+   "witnesses": [
+    "(0, 1, 1)"
+   ]
+  }
+ },
+ "tone_stability": {
+  "existence_form_FLOAT": {
+   "all": [
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "FLOAT-T": [
+       0,
+       1
+      ],
+      "IDENT": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "32",
+     "seg1": "a",
+     "tone_host": null
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "FLOAT-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       0,
+       0
+      ]
+     },
+     "score8": "0",
+     "seg1": "a",
+     "tone_host": 1
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       1,
+       0
+      ],
+      "FLOAT-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "16",
+     "seg1": "a",
+     "tone_host": 2
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "FLOAT-T": [
+       0,
+       1
+      ],
+      "IDENT": [
+       1,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "64",
+     "seg1": "i",
+     "tone_host": null
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "FLOAT-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       1,
+       0
+      ],
+      "MAXLINK-T": [
+       0,
+       0
+      ]
+     },
+     "score8": "32",
+     "seg1": "i",
+     "tone_host": 1
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       1,
+       0
+      ],
+      "FLOAT-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       1,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "48",
+     "seg1": "i",
+     "tone_host": 2
+    }
+   ],
+   "minimisers": [
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "FLOAT-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       0,
+       0
+      ]
+     },
+     "score8": "0",
+     "seg1": "a",
+     "tone_host": 1
+    }
+   ],
+   "subject_strict_in_h": false
+  },
+  "property_form_LINKHI": {
+   "all": [
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       0,
+       0
+      ],
+      "LINKHI": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "8",
+     "seg1": "a",
+     "tone_host": null
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       0,
+       0
+      ],
+      "LINKHI": [
+       1,
+       0
+      ],
+      "MAXLINK-T": [
+       0,
+       0
+      ]
+     },
+     "score8": "192",
+     "seg1": "a",
+     "tone_host": 1
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       1,
+       0
+      ],
+      "IDENT": [
+       0,
+       0
+      ],
+      "LINKHI": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "16",
+     "seg1": "a",
+     "tone_host": 2
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       1,
+       0
+      ],
+      "LINKHI": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "40",
+     "seg1": "i",
+     "tone_host": null
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       1,
+       0
+      ],
+      "LINKHI": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       0,
+       0
+      ]
+     },
+     "score8": "32",
+     "seg1": "i",
+     "tone_host": 1
+    },
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       1,
+       0
+      ],
+      "IDENT": [
+       1,
+       0
+      ],
+      "LINKHI": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "48",
+     "seg1": "i",
+     "tone_host": 2
+    }
+   ],
+   "minimisers": [
+    {
+     "coefficients": {
+      "DEPLINK-T": [
+       0,
+       0
+      ],
+      "IDENT": [
+       0,
+       0
+      ],
+      "LINKHI": [
+       0,
+       0
+      ],
+      "MAXLINK-T": [
+       1,
+       0
+      ]
+     },
+     "score8": "8",
+     "seg1": "a",
+     "tone_host": null
+    }
+   ],
+   "subject_strict_in_h": true
+  }
+ }
+}

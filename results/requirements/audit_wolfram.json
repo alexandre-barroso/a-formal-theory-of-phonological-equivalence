@@ -1,0 +1,18 @@
+{
+ "phase": "wolfram",
+ "results": [
+  {
+   "detail": "5 emitted scripts identical",
+   "ok": true,
+   "required": true,
+   "step": "wolfram scripts regenerated identically"
+  },
+  {
+   "detail": "39 fresh, resolved script outputs",
+   "ok": true,
+   "required": true,
+   "step": "wolfram scripts"
+  }
+ ],
+ "shard": "1/1"
+}

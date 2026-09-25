@@ -1,0 +1,785 @@
+{
+ "aic": {
+  "core lambda free (5)": 11.311180405426285,
+  "free-ratio (6)": 13.266876211198152,
+  "normal NHG (4)": 34.04810154061997,
+  "normal NHG augmented (5)": 16.71024266315463,
+  "source augmented (5)": 12.236260461012392,
+  "source_maxent (4)": 22.640296314312764
+ },
+ "at_source_weights": {
+  "maxent": [
+   14.642132921690106,
+   {
+    "1": 0.111,
+    "2": 0.168,
+    "3": 0.681,
+    "4": 0.776,
+    "5": 0.515,
+    "6": 0.632,
+    "7": 0.948,
+    "8": 0.967
+   }
+  ],
+  "nhg": [
+   26.052367517361006,
+   {
+    "1": 0.102,
+    "2": 0.208,
+    "3": 0.674,
+    "4": 0.75,
+    "5": 0.502,
+    "6": 0.614,
+    "7": 0.958,
+    "8": 0.962
+   }
+  ]
+ },
+ "cells": {
+  "1": {
+   "label": "word C -ss",
+   "schwa": {
+    "DEP": [
+     1,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     0,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     1
+    ]
+   },
+   "zero": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     0
+    ]
+   }
+  },
+  "2": {
+   "label": "word C -s",
+   "schwa": {
+    "DEP": [
+     1,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     0,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     1
+    ]
+   },
+   "zero": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     1,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     0
+    ]
+   }
+  },
+  "3": {
+   "label": "word CC -ss",
+   "schwa": {
+    "DEP": [
+     1,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     1
+    ]
+   },
+   "zero": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     1,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     0
+    ]
+   }
+  },
+  "4": {
+   "label": "word CC -s",
+   "schwa": {
+    "DEP": [
+     1,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     1
+    ]
+   },
+   "zero": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     1,
+     0
+    ],
+    "NOCLASH": [
+     1,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     0
+    ]
+   }
+  },
+  "5": {
+   "label": "clitic C -ss",
+   "schwa": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     0,
+     0
+    ],
+    "NOSCHWA": [
+     1,
+     0
+    ]
+   },
+   "zero": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     0,
+     1
+    ],
+    "NOSCHWA": [
+     0,
+     0
+    ]
+   }
+  },
+  "6": {
+   "label": "clitic C -s",
+   "schwa": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     0,
+     0
+    ],
+    "NOSCHWA": [
+     1,
+     0
+    ]
+   },
+   "zero": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     1
+    ],
+    "NOCLUSTER": [
+     0,
+     1
+    ],
+    "NOSCHWA": [
+     0,
+     0
+    ]
+   }
+  },
+  "7": {
+   "label": "clitic CC -ss",
+   "schwa": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     1,
+     0
+    ]
+   },
+   "zero": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "NOCCC": [
+     0,
+     1
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     0
+    ]
+   }
+  },
+  "8": {
+   "label": "clitic CC -s",
+   "schwa": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     0,
+     0
+    ],
+    "NOCCC": [
+     0,
+     0
+    ],
+    "NOCLASH": [
+     0,
+     0
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     1,
+     0
+    ]
+   },
+   "zero": {
+    "DEP": [
+     0,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "NOCCC": [
+     0,
+     1
+    ],
+    "NOCLASH": [
+     0,
+     1
+    ],
+    "NOCLUSTER": [
+     1,
+     0
+    ],
+    "NOSCHWA": [
+     0,
+     0
+    ]
+   }
+  }
+ },
+ "closed_form": {
+  "CCC_effect_clitic": 2.1101808301012888,
+  "CCC_effect_word": 3.3148098253729525,
+  "Clash_effect_clitic": 0.36293496827540606,
+  "Clash_effect_word": 0.5770104727376744,
+  "lambda_from_CCC": 0.6365918231414287,
+  "lambda_from_Clash": 0.6289919948132497,
+  "logits": {
+   "1": -2.2823823856765264,
+   "2": -1.9600947840472698,
+   "3": 0.7777045685880085,
+   "4": 1.6094379124341007,
+   "5": 0.24817962947553485,
+   "6": 0.6109090823229731,
+   "7": 2.358154944148856,
+   "8": 2.7212954278522297
+  }
+ },
+ "core_lambda_1_8": {
+  "deviance": 63.6551867506696,
+  "fixed_zero_weights": [],
+  "lambda": 0.125,
+  "optimization": {
+   "converged_starts": 3,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "method": "bounded L-BFGS-B, analytic gradient",
+   "starts": 3
+  },
+  "pred": {
+   "1": 0.06251183687775878,
+   "2": 0.12344572044632833,
+   "3": 0.7103994597034795,
+   "4": 0.838210889486102,
+   "5": 0.7159983009321399,
+   "6": 0.7346128579732187,
+   "7": 0.7982422192624354,
+   "8": 0.812875014972521
+  },
+  "weights": {
+   "DEP": 2.501067461897427,
+   "MAX": 2.5790720970799317,
+   "NOCCC": 3.605189437485711,
+   "NOCLASH": 0.7476511217485061,
+   "NOCLUSTER": 1.6329627727883524e-05,
+   "NOSCHWA": 1.654376565101993
+  }
+ },
+ "core_lambda_free": {
+  "deviance": 1.3111804054262848,
+  "fixed_zero_weights": [],
+  "lambda": 0.6316579569349519,
+  "optimization": {
+   "converged_starts": 3,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "method": "bounded L-BFGS-B, analytic gradient",
+   "starts": 3
+  },
+  "pred": {
+   "1": 0.0781649652326048,
+   "2": 0.13724998886755652,
+   "3": 0.7029693595332641,
+   "4": 0.8161835831766414,
+   "5": 0.5581445180850718,
+   "6": 0.6527364083825768,
+   "7": 0.9118502554631728,
+   "8": 0.9389972140999139
+  },
+  "weights": {
+   "DEP": 1.873095810021646,
+   "MAX": 1.549853862667521,
+   "NOCCC": 3.7232788236335224,
+   "NOCLASH": 0.6292237786348497,
+   "NOCLUSTER": 0.3942560638725105,
+   "NOSCHWA": 1.5652537852699717
+  }
+ },
+ "core_lambda_zero": {
+  "deviance": 104.61767911374,
+  "fixed_zero_weights": [],
+  "lambda": 0.0,
+  "optimization": {
+   "converged_starts": 3,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "method": "bounded L-BFGS-B, analytic gradient",
+   "starts": 3
+  },
+  "pred": {
+   "1": 0.07730999831335984,
+   "2": 0.1387393849532881,
+   "3": 0.7004677790837279,
+   "4": 0.818050738670715,
+   "5": 0.7654320987506534,
+   "6": 0.7654320987506534,
+   "7": 0.7654320987506534,
+   "8": 0.7654320987506534
+  },
+  "weights": {
+   "DEP": 2.479470027079191,
+   "MAX": 2.6563828738889357,
+   "NOCCC": 3.3289964006458788,
+   "NOCLASH": 0.6536701245229185,
+   "NOCLUSTER": 0.0,
+   "NOSCHWA": 1.4736874680925962
+  }
+ },
+ "data": {
+  "counts": {
+   "1": 15,
+   "2": 20,
+   "3": 111,
+   "4": 135,
+   "5": 91,
+   "6": 105,
+   "7": 148,
+   "8": 152
+  },
+  "lineage": "Counts reconstructed as round(162*p) in Flemming2021 supplementary schwa_models.R from Smith and Pater2020 Table14p24; not individual trial data.",
+  "n": 162,
+  "note": "Smith & Pater 2020 Table 14 p. 24 (three decimals; the values used for their fits were more precise); Table 3 p. 14 gives two decimals with Wilson 95% intervals; Flemming 2021 Table 2 p. 23 repeats the two-decimal values; n = 27 x 6 = 162 per context assumed complete"
+ },
+ "equal_ratio_test": {
+  "deviance_core_minus_free_ratio": 0.04430419422813259,
+  "df": 1,
+  "p": 0.8332886775595123
+ },
+ "free_ratio_model": {
+  "coef": [
+   -2.4794700210031033,
+   0.24813612979165695,
+   3.3289964058966905,
+   2.1101544584191387,
+   0.6536701147305579,
+   0.36281991930944985
+  ],
+  "deviance": 1.2668762111981522,
+  "pred": {
+   "1": 0.07730999874678639,
+   "2": 0.1387393845092278,
+   "3": 0.700467781460255,
+   "4": 0.8180507388991213,
+   "5": 0.5617176858629721,
+   "6": 0.6481588589472341,
+   "7": 0.9135909555986023,
+   "8": 0.9382608938543745
+  },
+  "ratios": {
+   "CCC clitic/word": 0.6338710533545177,
+   "Clash clitic/word": 0.5550504927994204
+  }
+ },
+ "lack_of_fit": {
+  "core lambda 1/8 (4 params)": {
+   "deviance": 63.6551867506696,
+   "p": 4.93958962930796e-13
+  },
+  "core lambda free (5 params)": {
+   "deviance": 1.3111804054262848,
+   "p": 0.7264799060360185
+  },
+  "source augmented (5 params)": {
+   "deviance": 2.2362604610123924,
+   "p": 0.5248415494431011
+  },
+  "source_maxent (4 params)": {
+   "deviance": 14.640296314312764,
+   "p": 0.005508471521419839
+  }
+ },
+ "lambda_profile_interval_95": [
+  0.48092567470921993,
+  0.8120472924701634
+ ],
+ "nhg_normal": {
+  "deviance": 26.048101540619967,
+  "weights": {
+   "MAX": 2.2085071065552486,
+   "NOCCC": 2.975188010871312,
+   "NOCLASH": 0.5671610282864681,
+   "NOSCHWA": 2.20030376102873
+  }
+ },
+ "nhg_normal_augmented": {
+  "deviance": 6.710242663154631,
+  "weights": {
+   "CCC_iP": 1.6197420080326854,
+   "MAX": 2.8267671467121147,
+   "NOCCC": 2.1831599199119998,
+   "NOCLASH": 0.5904920504967156,
+   "NOSCHWA": 2.5989386006557607
+  }
+ },
+ "profile": {
+  "0.05": 87.23653153028454,
+  "0.125": 63.6551867506696,
+  "0.25": 33.03810666053096,
+  "0.4": 11.254919815891526,
+  "0.5": 4.179329301712187,
+  "0.6": 1.4594430476217894,
+  "0.65": 1.358293226207934,
+  "0.7": 1.9309308373531167,
+  "0.8": 4.698085668135491,
+  "0.9": 9.096712498741226,
+  "1.0": 14.640296314312764
+ },
+ "restricted_zero_DEP_CLUSTER": {
+  "deviance": 1.3111804054265122,
+  "fixed_zero_weights": [
+   "DEP",
+   "NOCLUSTER"
+  ],
+  "lambda": 0.6316579622137977,
+  "optimization": {
+   "converged_starts": 3,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "method": "bounded L-BFGS-B, analytic gradient",
+   "starts": 3
+  },
+  "pred": {
+   "1": 0.07816496781553627,
+   "2": 0.13724999362698326,
+   "3": 0.7029693588892025,
+   "4": 0.8161835833660579,
+   "5": 0.5581445172305507,
+   "6": 0.6527364089724896,
+   "7": 0.9118502546205817,
+   "8": 0.9389972138470024
+  },
+  "weights": {
+   "MAX": 4.140092133371444,
+   "NOCCC": 3.329022720829913,
+   "NOCLASH": 0.629223782981927,
+   "NOSCHWA": 3.9064570796239098
+  }
+ },
+ "seconds": 0.5,
+ "source_maxent_augmented": {
+  "coef": [
+   -2.38503060914782,
+   2.1194562292862624,
+   1.1807361691307818,
+   0.4992651976847373,
+   2.5680512408622285
+  ],
+  "deviance": 2.2362604610123924,
+  "pred": {
+   "1": 0.08432133302096716,
+   "2": 0.13172804890801354,
+   "3": 0.7140552621100733,
+   "4": 0.804463256828636,
+   "5": 0.5456278643005273,
+   "6": 0.6642486797451028,
+   "7": 0.9090819639020133,
+   "8": 0.9427698891046454
+  }
+ },
+ "source_maxent_lambda1": {
+  "deviance": 14.640296314312764,
+  "fixed_zero_weights": [],
+  "lambda": 1.0,
+  "optimization": {
+   "converged_starts": 3,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "method": "bounded L-BFGS-B, analytic gradient",
+   "starts": 3
+  },
+  "pred": {
+   "1": 0.11074005738000936,
+   "2": 0.16819550416050408,
+   "3": 0.6801825015449106,
+   "4": 0.7754498384922384,
+   "5": 0.5145199426583533,
+   "6": 0.6324704213584534,
+   "7": 0.9476439175489874,
+   "8": 0.9670941132859079
+  },
+  "weights": {
+   "DEP": 1.1683043273915668,
+   "MAX": 0.972995740146519,
+   "NOCCC": 6.853815898180061,
+   "NOCLASH": 0.48473354793182855,
+   "NOCLUSTER": 4.016001305040978,
+   "NOSCHWA": 4.930900939775323
+  }
+ },
+ "statistical_scope": "Aggregate independent-binomial reference over reconstructed counts; repeated speaker/item dependence and pooling are not modeled. Profile intervals and chi-square values are conditional reference calculations, not calibrated population inference."
+}

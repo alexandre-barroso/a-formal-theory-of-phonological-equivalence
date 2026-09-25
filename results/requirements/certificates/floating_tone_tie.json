@@ -1,0 +1,66 @@
+{
+ "consequence": "The two count constraints cannot distinguish these three single deletions at any weights. This model omits M tones, docking and serial derivations. The source permits a nonlocal ALIGN-R alternative; no exclusion of all global evaluators follows.",
+ "exactly_tied_for_every_nonnegative_weight_vector": true,
+ "input": "Three floating H tones: deletion-only abstraction of the Poko comparison",
+ "one_deletion_candidates": [
+  "HH-",
+  "H-H",
+  "-HH"
+ ],
+ "rows": [
+  {
+   "FLOAT": 3,
+   "MAX_H": 0,
+   "candidate": "HHH",
+   "score": "3*f"
+  },
+  {
+   "FLOAT": 2,
+   "MAX_H": 1,
+   "candidate": "HH-",
+   "score": "2*f + mx"
+  },
+  {
+   "FLOAT": 2,
+   "MAX_H": 1,
+   "candidate": "H-H",
+   "score": "2*f + mx"
+  },
+  {
+   "FLOAT": 1,
+   "MAX_H": 2,
+   "candidate": "H--",
+   "score": "f + 2*mx"
+  },
+  {
+   "FLOAT": 2,
+   "MAX_H": 1,
+   "candidate": "-HH",
+   "score": "2*f + mx"
+  },
+  {
+   "FLOAT": 1,
+   "MAX_H": 2,
+   "candidate": "-H-",
+   "score": "f + 2*mx"
+  },
+  {
+   "FLOAT": 1,
+   "MAX_H": 2,
+   "candidate": "--H",
+   "score": "f + 2*mx"
+  },
+  {
+   "FLOAT": 0,
+   "MAX_H": 3,
+   "candidate": "---",
+   "score": "3*mx"
+  }
+ ],
+ "source": "mcphersonLamont2026pokoPostlexicalTone: draft2024(63), published2026(62), counting floating tones gives tied single deletions",
+ "their_scores": [
+  "2*f + mx",
+  "2*f + mx",
+  "2*f + mx"
+ ]
+}

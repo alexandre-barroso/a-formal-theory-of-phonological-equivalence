@@ -1,0 +1,18 @@
+{
+	"checks":{
+		"running_minimum_local":true,
+		"positive_power_derivative":true,
+		"positive_power_zero_endpoint":true,
+		"profile_cumulative_identity":true,
+		"component_gap_fiber":true,
+		"reduced_directional_derivative":true,
+		"power_derivative_zero_boundary":true,
+		"zero_interior_does_not_force_nonuniqueness":true,
+		"zero_suffix_complete_tie_fiber":true
+	},
+	"expected_checks":9,
+	"passed_checks":9,
+	"interior_zero_fiber":"x == 0 && y == 0 && z == 0",
+	"terminal_zero_fiber":"x == 0 && y == 0 && Inequality[0, LessEqual, z, LessEqual, 1]",
+	"scope":"Independent local and symbolic certificates; universal finite-horizon transport and optimizer statement checked in Lean."
+}

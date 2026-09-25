@@ -1,0 +1,371 @@
+{
+ "declared_products": {
+  "G34a": {
+   "none": {
+    "min8": "24",
+    "outputs": [
+     "ahetɔɔkpʊkɔ"
+    ]
+   },
+   "A": {
+    "min8": "24",
+    "outputs": [
+     "ahetɔɔkpʊkɔ"
+    ]
+   },
+   "B": {
+    "min8": "768",
+    "outputs": [
+     "aheteekpʊkɔ",
+     "ahetookpʊkɔ"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  },
+  "G34b": {
+   "none": {
+    "min8": "20",
+    "outputs": [
+     "afɪsoohili"
+    ]
+   },
+   "A": {
+    "min8": "20",
+    "outputs": [
+     "afɪsoohili"
+    ]
+   },
+   "B": {
+    "min8": "632",
+    "outputs": [
+     "afisoohili"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  },
+  "N7": {
+   "none": {
+    "min8": "8",
+    "outputs": [
+     "atʃijeli"
+    ]
+   },
+   "A": {
+    "min8": "8",
+    "outputs": [
+     "atʃijeli"
+    ]
+   },
+   "B": {
+    "min8": "40",
+    "outputs": [
+     "atʃijeli"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": true
+  },
+  "G37c": {
+   "none": {
+    "min8": "28",
+    "outputs": [
+     "ɔtʃʊsejbie"
+    ]
+   },
+   "A": {
+    "min8": "28",
+    "outputs": [
+     "ɔtʃʊsejbie"
+    ]
+   },
+   "B": {
+    "min8": "280",
+    "outputs": [
+     "ɔtʃwsjjbie",
+     "ɔtʃwswjbie"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  },
+  "C24ei": {
+   "none": {
+    "min8": "16",
+    "outputs": [
+     "kpejsi"
+    ]
+   },
+   "A": {
+    "min8": "16",
+    "outputs": [
+     "kpejsi"
+    ]
+   },
+   "B": {
+    "min8": "104",
+    "outputs": [
+     "kpjjsi",
+     "kpwjsi"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  },
+  "OR38": {
+   "none": {
+    "min8": "172",
+    "outputs": [
+     "atʃɔsiku"
+    ]
+   },
+   "A": {
+    "min8": "172",
+    "outputs": [
+     "atʃɔsiku"
+    ]
+   },
+   "B": {
+    "min8": "1472",
+    "outputs": [
+     "atʃsku"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  },
+  "C21b": {
+   "none": {
+    "min8": "160",
+    "outputs": [
+     "wʊsʊsɛ"
+    ]
+   },
+   "A": {
+    "min8": "160",
+    "outputs": [
+     "wʊsʊsɛ"
+    ]
+   },
+   "B": {
+    "min8": "1280",
+    "outputs": [
+     "wʊssɛ"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  },
+  "C23UE": {
+   "none": {
+    "min8": "16",
+    "outputs": [
+     "wʊswɛbɪ"
+    ]
+   },
+   "A": {
+    "min8": "16",
+    "outputs": [
+     "wʊswɛbɪ"
+    ]
+   },
+   "B": {
+    "min8": "176",
+    "outputs": [
+     "wʊswjbɪ",
+     "wʊswwbɪ"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  }
+ },
+ "constructed_products": {
+  "H2viol": {
+   "reference": "tɛtetɛte",
+   "none": {
+    "min8": "16",
+    "outputs": [
+     "tetetete"
+    ]
+   },
+   "A": {
+    "min8": "16",
+    "outputs": [
+     "tetetete"
+    ]
+   },
+   "B": {
+    "min8": "16",
+    "outputs": [
+     "tetetete"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": true
+  },
+  "Hmixed": {
+   "reference": "tɛtete",
+   "none": {
+    "min8": "8",
+    "outputs": [
+     "tetete"
+    ]
+   },
+   "A": {
+    "min8": "8",
+    "outputs": [
+     "tetete"
+    ]
+   },
+   "B": {
+    "min8": "8",
+    "outputs": [
+     "tetete"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": true
+  },
+  "H3viol": {
+   "skipped": 4826809
+  },
+  "A2viol": {
+   "reference": "tɛatɔet",
+   "none": {
+    "min8": "24",
+    "outputs": [
+     "taateet"
+    ]
+   },
+   "A": {
+    "min8": "24",
+    "outputs": [
+     "taateet"
+    ]
+   },
+   "B": {
+    "min8": "368",
+    "outputs": [
+     "teeteet",
+     "tɜɜteet"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  },
+  "Amixed": {
+   "reference": "tɛatɔɔt",
+   "none": {
+    "min8": "8",
+    "outputs": [
+     "taatɔɔt"
+    ]
+   },
+   "A": {
+    "min8": "8",
+    "outputs": [
+     "taatɔɔt"
+    ]
+   },
+   "B": {
+    "min8": "328",
+    "outputs": [
+     "taatɔɔt"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": true
+  },
+  "GL2viol": {
+   "reference": "tɪetʊot",
+   "none": {
+    "min8": "32",
+    "outputs": [
+     "tjetwot"
+    ]
+   },
+   "A": {
+    "min8": "32",
+    "outputs": [
+     "tjetwot"
+    ]
+   },
+   "B": {
+    "min8": "96",
+    "outputs": [
+     "tjjtwjt",
+     "tjjtwwt",
+     "tjwtwjt",
+     "tjwtwwt"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  },
+  "D2viol": {
+   "reference": "tɪʊtɪʊt",
+   "none": {
+    "min8": "320",
+    "outputs": [
+     "tɪtɪt"
+    ]
+   },
+   "A": {
+    "min8": "192",
+    "outputs": [
+     "tɪʊtɪʊt"
+    ]
+   },
+   "B": {
+    "min8": "1216",
+    "outputs": [
+     "ttt"
+    ]
+   },
+   "A_inert": false,
+   "B_inert": false
+  },
+  "A2phrase": {
+   "reference": "tɛattɔet",
+   "none": {
+    "min8": "24",
+    "outputs": [
+     "taatteet"
+    ]
+   },
+   "A": {
+    "min8": "24",
+    "outputs": [
+     "taatteet"
+    ]
+   },
+   "B": {
+    "min8": "368",
+    "outputs": [
+     "teetteet",
+     "tɜɜtteet"
+    ]
+   },
+   "A_inert": true,
+   "B_inert": false
+  }
+ },
+ "summary": {
+  "A_inert_in_all_declared": true,
+  "B_inert_in_all_declared": false,
+  "A_refuted_by": [
+   "D2viol"
+  ],
+  "B_refuted_by_declared": [
+   "G34a",
+   "G34b",
+   "G37c",
+   "C24ei",
+   "OR38",
+   "C21b",
+   "C23UE"
+  ]
+ }
+}

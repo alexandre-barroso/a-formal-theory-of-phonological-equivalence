@@ -1,0 +1,770 @@
+{
+  "artifact": "t5_model_kernel_enlarged",
+  "M_sources": [
+    "p1 the first pass (dissertation baseline, declared comparator, attenuation boundaries, per-schema ablations)",
+    "data/declaration_language/spec/resolver_semantics.v1.json",
+    "data/predictions/registry/rival_registry.v1.json"
+  ],
+  "M_is_partial": true,
+  "instances": [
+    {
+      "id": "RET",
+      "provenance": "DISSERTATION_BASELINE",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "CUR",
+      "provenance": "DISSERTATION_COMPARATOR",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "RET_lam0",
+      "provenance": "DISSERTATION_BOUNDARY",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "0"
+      }
+    },
+    {
+      "id": "RET_lam1",
+      "provenance": "DISSERTATION_BOUNDARY",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1"
+      }
+    },
+    {
+      "id": "CUR_H",
+      "provenance": "ABLATION",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "OFF_H",
+      "provenance": "ABLATION",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "CUR_A",
+      "provenance": "ABLATION",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "OFF_A",
+      "provenance": "ABLATION",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "CUR_GL",
+      "provenance": "ABLATION",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "OFF_GL",
+      "provenance": "ABLATION",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "CUR_D",
+      "provenance": "ABLATION",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "OFF_D",
+      "provenance": "ABLATION",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:baseline",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:def_eq_context",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:def_eq_context_A",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:dynamic_next_word",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:dynamic_phrase",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:dynamic_nucleus",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:dynamic_stop_nucleus",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:origin_bound",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:witness",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P2:witness_phrase",
+      "provenance": "P2_RESOLVER_SEMANTICS_v1",
+      "parameterisation": "shared_weight_vector",
+      "parameters": {
+        "MAX": "20",
+        "IDENT_ATR": "1",
+        "IDENT_QUAL": "1",
+        "IDENT_NUC": "2",
+        "H": "4",
+        "A": "8",
+        "GL": "8",
+        "D": "24",
+        "INITIAL_FEATURE": "1",
+        "lambda": "1/8"
+      }
+    },
+    {
+      "id": "P3:RULE-SERIAL",
+      "provenance": "P3_RIVAL_REGISTRY_v1",
+      "parameterisation": "parameter_free",
+      "parameters": null
+    }
+  ],
+  "excluded": [
+    {
+      "id": "CURRENT-MARKEDNESS (appendix J's reconstruction)",
+      "registry_status": "reconstructed, parameters free"
+    },
+    {
+      "id": "SHARED-ACTIVITY (repaired)",
+      "registry_status": "reconstructed and repaired; parameters of the repair free"
+    },
+    {
+      "id": "LOCAL-EVALUATOR",
+      "registry_status": "reconstructed, not implemented"
+    },
+    {
+      "id": "STRATAL-CLASSICAL, STRATAL-WEAK",
+      "registry_status": "reconstructed, parameters free"
+    },
+    {
+      "id": "RETAINED-DOMAIN-BOUNDED, RETAINED-ORIGIN-BOUND, RETAINED-WITNESS-PRESERVING",
+      "registry_status": "UNRESOLVED"
+    },
+    {
+      "id": "GRAPH-35, GRAPH-36-UNIFORM, LINK-POTENTIAL, DIRECTIONAL-LINEAR-SITE",
+      "registry_status": "out of domain for the Gua battery"
+    }
+  ],
+  "protocols": 32,
+  "classes": 13,
+  "class_members": [
+    [
+      "RET",
+      "RET_lam0",
+      "P2:baseline",
+      "P2:dynamic_next_word",
+      "P2:dynamic_phrase",
+      "P2:dynamic_stop_nucleus",
+      "P2:origin_bound",
+      "P2:witness",
+      "P2:witness_phrase",
+      "P3:RULE-SERIAL"
+    ],
+    [
+      "CUR"
+    ],
+    [
+      "RET_lam1"
+    ],
+    [
+      "CUR_H"
+    ],
+    [
+      "OFF_H"
+    ],
+    [
+      "CUR_A",
+      "P2:def_eq_context_A"
+    ],
+    [
+      "OFF_A"
+    ],
+    [
+      "CUR_GL"
+    ],
+    [
+      "OFF_GL"
+    ],
+    [
+      "CUR_D"
+    ],
+    [
+      "OFF_D"
+    ],
+    [
+      "P2:def_eq_context"
+    ],
+    [
+      "P2:dynamic_nucleus"
+    ]
+  ],
+  "a_priori_query_space": {
+    "carrier": 23,
+    "boolean_kernels_log2": 22,
+    "nominal_kernels_bits": 56
+  },
+  "licensed_query_space": {
+    "carrier": 13,
+    "boolean_kernels_log2": 12,
+    "nominal_kernels_bits": 25
+  },
+  "collapse_boolean_bits": 10,
+  "undefined_predictions": {},
+  "minimum_cost_battery": {
+    "status": "EXACT",
+    "minimum_cost": "8",
+    "optima_count": 14,
+    "optima": [
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 0
+        },
+        {
+          "input": "G37c",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 12
+        },
+        {
+          "input": "C21b",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 24
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 0
+        },
+        {
+          "input": "G37c",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 12
+        },
+        {
+          "input": "C21b",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 26
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 0
+        },
+        {
+          "input": "G37c",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 14
+        },
+        {
+          "input": "C21b",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 24
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 0
+        },
+        {
+          "input": "G37c",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 14
+        },
+        {
+          "input": "C21b",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 26
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 0
+        },
+        {
+          "input": "C24ei",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 16
+        },
+        {
+          "input": "OR38",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 20
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 0
+        },
+        {
+          "input": "C24ei",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 18
+        },
+        {
+          "input": "OR38",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 20
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 0
+        },
+        {
+          "input": "OR38",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 20
+        },
+        {
+          "input": "C23UE",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 28
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 2
+        },
+        {
+          "input": "G37c",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 12
+        },
+        {
+          "input": "C21b",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 24
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 2
+        },
+        {
+          "input": "G37c",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 12
+        },
+        {
+          "input": "C21b",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 26
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 2
+        },
+        {
+          "input": "G37c",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 14
+        },
+        {
+          "input": "C21b",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 24
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 2
+        },
+        {
+          "input": "G37c",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 14
+        },
+        {
+          "input": "C21b",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 26
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 2
+        },
+        {
+          "input": "C24ei",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 16
+        },
+        {
+          "input": "OR38",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 20
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 2
+        },
+        {
+          "input": "C24ei",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 18
+        },
+        {
+          "input": "OR38",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 20
+        }
+      ],
+      [
+        {
+          "input": "G34a",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "index": 2
+        },
+        {
+          "input": "OR38",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 20
+        },
+        {
+          "input": "C23UE",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "index": 28
+        }
+      ]
+    ],
+    "explored": 129
+  }
+}

@@ -1,0 +1,614 @@
+{
+ "categorical": {
+  "T2T1T1": [
+   "T2T1T1",
+   "T2T3T1"
+  ],
+  "T2T3T1": [
+   "T2T3T1"
+  ],
+  "T2T3T4": [
+   "T2T3T4"
+  ],
+  "T2T4T4": [
+   "T2T3T4",
+   "T2T4T4"
+  ],
+  "T3T1T1": [
+   "T3T1T1"
+  ],
+  "T3T3T1": [
+   "T2T3T1"
+  ],
+  "T3T3T4": [
+   "T2T3T4"
+  ],
+  "T3T4T4": [
+   "T3T4T4"
+  ]
+ },
+ "closed_form": {
+  "experiment_1": {
+   "lambda_as_function_of_wI": {
+    "0": 0.295,
+    "1": 0.45,
+    "2": 0.549,
+    "3": 0.618,
+    "5": 0.707,
+    "8": 0.783
+   },
+   "lambda_lower_bound_at_wI_0": 0.295,
+   "logit_derived": 1.046,
+   "logit_underlying": 3.547,
+   "wI_needed_for_lambda_1_8": -0.689
+  },
+  "experiment_2": {
+   "lambda_as_function_of_wI": {
+    "0": -0.393,
+    "1": -0.036,
+    "2": 0.175,
+    "3": 0.315,
+    "5": 0.488,
+    "8": 0.629
+   },
+   "lambda_lower_bound_at_wI_0": 0.0,
+   "logit_derived": -1.142,
+   "logit_underlying": 2.903,
+   "wI_needed_for_lambda_1_8": 1.72
+  }
+ },
+ "continuous_separate": {
+  "candidate_counts": [
+   [
+    64,
+    64,
+    64,
+    64
+   ],
+   [
+    64,
+    64,
+    64,
+    64
+   ]
+  ],
+  "fixed_weights": {
+   "IDENT_FINAL": 60,
+   "IDENT_R": 60
+  },
+  "free_weight_bounds": [
+   0,
+   60
+  ],
+  "lambda": [
+   0.5135887689593714,
+   0.13200754447084342
+  ],
+  "loglik": -1351.4441406668193,
+  "optimization": {
+   "converged_starts": 3,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "starts": 3
+  },
+  "scope": "Numerical minimum found on [0,1], full candidate laws; aggregate likelihood, not an identified process/task/speaker partition.",
+  "shared_attenuation": false,
+  "weights": {
+   "experiment_1": {
+    "IDENT_CONT": 2.4334945321283525,
+    "IDENT_REG": 46.705149257642766,
+    "S11": 51.47813633726827,
+    "S33": 5.976522119038697
+   },
+   "experiment_2": {
+    "IDENT_CONT": 3.166172513369206,
+    "IDENT_REG": 30.17859067970345,
+    "S33": 6.078523206942006,
+    "S44": 34.464439771489864
+   }
+  }
+ },
+ "control_third_syllable": {
+  "T3T1T1": {
+   "T2T1T1": 0.037,
+   "T2T3T1": 0.222,
+   "T3T1T1": 0.312,
+   "T3T3T1": 0.388,
+   "T3T4T1": 0.037
+  },
+  "T3T1T2": {
+   "T2T1T2": 0.095,
+   "T2T4T2": 0.011,
+   "T3T1T2": 0.799,
+   "T3T4T2": 0.095
+  },
+  "T3T1T3": {
+   "T2T1T3": 0.095,
+   "T2T4T3": 0.011,
+   "T3T1T3": 0.799,
+   "T3T4T3": 0.095
+  },
+  "T3T1T4": {
+   "T2T1T4": 0.095,
+   "T2T4T4": 0.011,
+   "T3T1T4": 0.799,
+   "T3T4T4": 0.095
+  }
+ },
+ "fits": {
+  "experiment_1": {
+   "at_lambda_1_8": {
+    "loglik": -603.653,
+    "predicted": {
+     "T2T1T1": {
+      "T2T1T1": {
+       "observed": 74,
+       "observed_rate": 0.307,
+       "predicted_rate": 0.136
+      },
+      "T2T3T1": {
+       "observed": 167,
+       "observed_rate": 0.693,
+       "predicted_rate": 0.81
+      },
+      "_other_mass": 0.0543
+     },
+     "T2T3T1": {
+      "T2T3T1": {
+       "observed": 259,
+       "observed_rate": 1.0,
+       "predicted_rate": 0.864
+      },
+      "_other_mass": 0.1365
+     },
+     "T3T1T1": {
+      "T2T3T1": {
+       "observed": 131,
+       "observed_rate": 0.555,
+       "predicted_rate": 0.222
+      },
+      "T3T1T1": {
+       "observed": 59,
+       "observed_rate": 0.25,
+       "predicted_rate": 0.312
+      },
+      "T3T3T1": {
+       "observed": 46,
+       "observed_rate": 0.195,
+       "predicted_rate": 0.388
+      },
+      "_other_mass": 0.0786
+     },
+     "T3T3T1": {
+      "T2T3T1": {
+       "observed": 242,
+       "observed_rate": 0.972,
+       "predicted_rate": 1.0
+      },
+      "T3T3T1": {
+       "observed": 7,
+       "observed_rate": 0.028,
+       "predicted_rate": 0.0
+      },
+      "_other_mass": 0.0
+     }
+    },
+    "rates": {
+     "derived": 0.3638,
+     "underlying": 1.0
+    },
+    "weights": {
+     "IDENT_CONT": 2.128,
+     "IDENT_REG": 16.824,
+     "S11": 20.74,
+     "S33": 12.552
+    }
+   },
+   "lambda_grid_best": {
+    "lambda": 0.525,
+    "loglik": -525.675,
+    "rates": {
+     "derived": 0.6604,
+     "underlying": 0.9699
+    },
+    "weights": {
+     "IDENT_CONT": 2.436,
+     "IDENT_REG": 17.409,
+     "S11": 22.194,
+     "S33": 5.907
+    }
+   },
+   "n_tokens": 985,
+   "observed_rates": {
+    "derived": 0.74,
+    "underlying": 0.972
+   },
+   "profile_over_lambda": {
+    "0": {
+     "loglik": -719.334,
+     "rates": {
+      "derived": 0.1161,
+      "underlying": 0.9719
+     },
+     "weights": {
+      "IDENT_CONT": 2.03,
+      "IDENT_REG": 16.116,
+      "S11": 19.22,
+      "S33": 5.573
+     }
+    },
+    "1": {
+     "loglik": -562.24,
+     "rates": {
+      "derived": 0.8601,
+      "underlying": 0.8601
+     },
+     "weights": {
+      "IDENT_CONT": 2.332,
+      "IDENT_REG": 17.746,
+      "S11": 22.562,
+      "S33": 4.148
+     }
+    },
+    "1/16": {
+     "loglik": -662.393,
+     "rates": {
+      "derived": 0.1932,
+      "underlying": 0.9995
+     },
+     "weights": {
+      "IDENT_CONT": 2.033,
+      "IDENT_REG": 18.106,
+      "S11": 21.504,
+      "S33": 9.661
+     }
+    },
+    "1/2": {
+     "loglik": -525.691,
+     "rates": {
+      "derived": 0.646,
+      "underlying": 0.9742
+     },
+     "weights": {
+      "IDENT_CONT": 2.43,
+      "IDENT_REG": 12.444,
+      "S11": 17.202,
+      "S33": 6.063
+     }
+    },
+    "1/4": {
+     "loglik": -551.154,
+     "rates": {
+      "derived": 0.4946,
+      "underlying": 0.9988
+     },
+     "weights": {
+      "IDENT_CONT": 2.283,
+      "IDENT_REG": 17.785,
+      "S11": 22.131,
+      "S33": 9.046
+     }
+    },
+    "1/8": {
+     "loglik": -603.653,
+     "rates": {
+      "derived": 0.3638,
+      "underlying": 1.0
+     },
+     "weights": {
+      "IDENT_CONT": 2.128,
+      "IDENT_REG": 16.824,
+      "S11": 20.74,
+      "S33": 12.552
+     }
+    },
+    "2/5": {
+     "loglik": -529.406,
+     "rates": {
+      "derived": 0.587,
+      "underlying": 0.9886
+     },
+     "weights": {
+      "IDENT_CONT": 2.388,
+      "IDENT_REG": 17.243,
+      "S11": 21.868,
+      "S33": 6.848
+     }
+    },
+    "3/10": {
+     "loglik": -540.984,
+     "rates": {
+      "derived": 0.5267,
+      "underlying": 0.9969
+     },
+     "weights": {
+      "IDENT_CONT": 2.324,
+      "IDENT_REG": 18.68,
+      "S11": 23.13,
+      "S33": 8.102
+     }
+    },
+    "3/4": {
+     "loglik": -536.71,
+     "rates": {
+      "derived": 0.7747,
+      "underlying": 0.9212
+     },
+     "weights": {
+      "IDENT_CONT": 2.434,
+      "IDENT_REG": 16.133,
+      "S11": 21.032,
+      "S33": 4.892
+     }
+    }
+   }
+  },
+  "experiment_2": {
+   "at_lambda_1_8": {
+    "loglik": -825.855,
+    "predicted": {
+     "T2T3T4": {
+      "T2T3T4": {
+       "observed": 386,
+       "observed_rate": 1.0,
+       "predicted_rate": 0.94
+      },
+      "_other_mass": 0.0596
+     },
+     "T2T4T4": {
+      "T2T3T4": {
+       "observed": 212,
+       "observed_rate": 0.576,
+       "predicted_rate": 0.724
+      },
+      "T2T4T4": {
+       "observed": 156,
+       "observed_rate": 0.424,
+       "predicted_rate": 0.241
+      },
+      "_other_mass": 0.0349
+     },
+     "T3T3T4": {
+      "T2T3T4": {
+       "observed": 368,
+       "observed_rate": 0.948,
+       "predicted_rate": 0.949
+      },
+      "T3T3T4": {
+       "observed": 20,
+       "observed_rate": 0.052,
+       "predicted_rate": 0.051
+      },
+      "_other_mass": 0.0
+     },
+     "T3T4T4": {
+      "T2T3T4": {
+       "observed": 68,
+       "observed_rate": 0.179,
+       "predicted_rate": 0.048
+      },
+      "T3T3T4": {
+       "observed": 213,
+       "observed_rate": 0.562,
+       "predicted_rate": 0.536
+      },
+      "T3T4T4": {
+       "observed": 98,
+       "observed_rate": 0.259,
+       "predicted_rate": 0.383
+      },
+      "_other_mass": 0.0329
+     }
+    },
+    "rates": {
+     "derived": 0.0826,
+     "underlying": 0.9492
+    },
+    "weights": {
+     "IDENT_CONT": 3.169,
+     "IDENT_REG": 15.92,
+     "S33": 6.098,
+     "S44": 20.188
+    }
+   },
+   "lambda_grid_best": {
+    "lambda": 0.125,
+    "loglik": -825.855,
+    "rates": {
+     "derived": 0.0826,
+     "underlying": 0.9492
+    },
+    "weights": {
+     "IDENT_CONT": 3.169,
+     "IDENT_REG": 15.92,
+     "S33": 6.098,
+     "S44": 20.188
+    }
+   },
+   "n_tokens": 1521,
+   "observed_rates": {
+    "derived": 0.242,
+    "underlying": 0.948
+   },
+   "profile_over_lambda": {
+    "0": {
+     "loglik": -846.069,
+     "rates": {
+      "derived": 0.0383,
+      "underlying": 0.9485
+     },
+     "weights": {
+      "IDENT_CONT": 3.222,
+      "IDENT_REG": 16.053,
+      "S33": 6.135,
+      "S44": 19.978
+     }
+    },
+    "1": {
+     "loglik": -1127.696,
+     "rates": {
+      "derived": 0.5993,
+      "underlying": 0.5993
+     },
+     "weights": {
+      "IDENT_CONT": 2.278,
+      "IDENT_REG": 17.193,
+      "S33": 2.681,
+      "S44": 21.355
+     }
+    },
+    "1/16": {
+     "loglik": -831.247,
+     "rates": {
+      "derived": 0.0569,
+      "underlying": 0.9526
+     },
+     "weights": {
+      "IDENT_CONT": 3.195,
+      "IDENT_REG": 17.062,
+      "S33": 6.196,
+      "S44": 21.159
+     }
+    },
+    "1/2": {
+     "loglik": -920.755,
+     "rates": {
+      "derived": 0.3413,
+      "underlying": 0.8316
+     },
+     "weights": {
+      "IDENT_CONT": 2.912,
+      "IDENT_REG": 17.619,
+      "S33": 4.509,
+      "S44": 22.372
+     }
+    },
+    "1/4": {
+     "loglik": -838.806,
+     "rates": {
+      "derived": 0.1535,
+      "underlying": 0.9249
+     },
+     "weights": {
+      "IDENT_CONT": 3.113,
+      "IDENT_REG": 13.363,
+      "S33": 5.624,
+      "S44": 17.914
+     }
+    },
+    "1/8": {
+     "loglik": -825.855,
+     "rates": {
+      "derived": 0.0826,
+      "underlying": 0.9492
+     },
+     "weights": {
+      "IDENT_CONT": 3.169,
+      "IDENT_REG": 15.92,
+      "S33": 6.098,
+      "S44": 20.188
+     }
+    },
+    "2/5": {
+     "loglik": -882.22,
+     "rates": {
+      "derived": 0.2629,
+      "underlying": 0.8742
+     },
+     "weights": {
+      "IDENT_CONT": 3.01,
+      "IDENT_REG": 17.821,
+      "S33": 4.949,
+      "S44": 22.555
+     }
+    },
+    "3/10": {
+     "loglik": -850.68,
+     "rates": {
+      "derived": 0.1878,
+      "underlying": 0.9102
+     },
+     "weights": {
+      "IDENT_CONT": 3.085,
+      "IDENT_REG": 15.788,
+      "S33": 5.401,
+      "S44": 20.421
+     }
+    },
+    "3/4": {
+     "loglik": -1027.994,
+     "rates": {
+      "derived": 0.508,
+      "underlying": 0.7125
+     },
+     "weights": {
+      "IDENT_CONT": 2.595,
+      "IDENT_REG": 16.964,
+      "S33": 3.502,
+      "S44": 21.492
+     }
+    }
+   }
+  }
+ },
+ "joint_fit": {
+  "deviance_shared_vs_separate_at_1_8": 108.668,
+  "separate_fits_loglik_at_1_8": -1429.508,
+  "shared_S33_IDENT": {
+   "1": {
+    "loglik": -1731.24,
+    "weights": {
+     "IDENT_CONT": 2.284,
+     "IDENT_REG": 16.826,
+     "S11": 21.419,
+     "S33": 3.14,
+     "S44": 21.103
+    }
+   },
+   "1/2": {
+    "loglik": -1483.053,
+    "weights": {
+     "IDENT_CONT": 2.682,
+     "IDENT_REG": 16.661,
+     "S11": 21.533,
+     "S33": 4.845,
+     "S44": 21.22
+    }
+   },
+   "1/4": {
+    "loglik": -1439.841,
+    "weights": {
+     "IDENT_CONT": 2.671,
+     "IDENT_REG": 19.156,
+     "S11": 23.597,
+     "S33": 5.989,
+     "S44": 23.303
+    }
+   },
+   "1/8": {
+    "loglik": -1483.842,
+    "weights": {
+     "IDENT_CONT": 2.622,
+     "IDENT_REG": 15.52,
+     "S11": 19.562,
+     "S33": 6.37,
+     "S44": 19.276
+    }
+   }
+  }
+ },
+ "lambda": "1/8",
+ "seconds": 103.0,
+ "weights_categorical": {
+  "IDENT_CONT": 3,
+  "IDENT_FINAL": 60,
+  "IDENT_R": 60,
+  "IDENT_REG": 3,
+  "S11": 6,
+  "S33": 40,
+  "S44": 6
+ }
+}

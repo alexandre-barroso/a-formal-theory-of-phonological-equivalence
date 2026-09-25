@@ -1,0 +1,8 @@
+{
+	"excluded_region":"wE > 0 && ((Inequality[0, Less, wR, Less, wE] && Inequality[0, LessEqual, wA, Less, wR] && wD > -wA + wE) || (wR == wE && Inequality[0, Less, wA, Less, wR] && wD > -wA + wE) || (Inequality[wE, Less, wR, Less, 2*wE] && ((Inequality[-wE + wR, Less, wA, Less, wE] && wD > -wA + wE) || (wA == wE && wD > 0) || (Inequality[wE, Less, wA, Less, wR] && wD >= 0))) || (wR >= 2*wE && Inequality[-wE + wR, Less, wA, Less, wR] && wD >= 0))",
+	"exists_wE":"wR > 0 && ((Inequality[0, LessEqual, wA, LessEqual, wR\/2] && wD > -2*wA + wR) || (Inequality[wR\/2, Less, wA, Less, wR] && wD >= 0))",
+	"witness":"{{wR -> 1, wA -> 1\/2, wE -> 3\/2, wD -> 2}}",
+	"no_strict_ranking_with_wR_gt_wA":"False",
+	"root_contrast_at_distance":"wD > -wR && wE > 0 && Inequality[0, Less, d, Less, (wD + wR)\/wE]",
+	"rca_root_wins_for_every_n":"(wA < wR && ((wE < 0 && d > (-wA + wR)\/wE) || wE == 0 || (wE > 0 && d < (-wA + wR)\/wE))) || (wA >= wR && ((wE < 0 && d > (-wA + wR)\/wE) || (wE > 0 && d < (-wA + wR)\/wE)))"
+}

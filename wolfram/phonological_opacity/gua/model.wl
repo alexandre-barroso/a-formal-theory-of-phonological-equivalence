@@ -1,0 +1,31 @@
+ClearAll[ft,readState,expandState,coefficientsState,realizeState,lexicalView,unaryEdges,chooseStep,walkPaths];
+defaultFT=<|"nuclear"->False,"present"->True,"atr"->Null,"quality"->Null,"high"->False|>;
+ft[p_]:=Lookup[inv,p,defaultFT];
+expandState[co_]:=Module[{s=origin},Do[s[[focal[[k]]]]=alpha[[co[[k]]+1]],{k,Length[focal]}];s];
+readState[s_]:=Module[{fs=ft/@s,live,nuc,cn,df,gd,srcs,n,v,w,src,last,cross,neighbor,q,k},
+ live=Select[Range[Length[s]],TrueQ[fs[[#]]["present"]]&];nuc=Select[live,TrueQ[fs[[#]]["nuclear"]]&];
+ cn=ConstantArray[False,{9,Length[s]}];df=ConstantArray[True,{9,Length[s]}];gd=ConstantArray[True,{9,Length[s]}];srcs=ConstantArray[-1,Length[s]];
+ Do[
+ w=words[[q]];n=SelectFirst[live,#>q&,0];v=SelectFirst[Reverse[live],#<q&,0];
+ If[!TrueQ[fs[[q]]["present"]],n=0;v=0];
+ Do[cn[[k,q]]=True,{k,4}];gd[[1,q]]=fs[[q]]["present"];
+ df[[2,q]]=TrueQ[fs[[q]]["nuclear"]]&&TrueQ[origft[[q]]["nuclear"]];gd[[2,q]]=fs[[q]]["atr"]===origft[[q]]["atr"];
+ df[[3,q]]=TrueQ[fs[[q]]["present"]]&&fs[[q]]["quality"]=!=Null&&origft[[q]]["quality"]=!=Null;gd[[3,q]]=fs[[q]]["quality"]===origft[[q]]["quality"];
+ df[[4,q]]=fs[[q]]["present"];gd[[4,q]]=fs[[q]]["nuclear"]===origft[[q]]["nuclear"];
+ src=SelectFirst[nuc,#>q&&words[[#]]>w&&phrases[[words[[#]]+1]]==phrases[[w+1]]&,0];srcs[[q]]=src-1;
+ last=SelectFirst[Reverse[nuc],words[[#]]==w&,0];
+ cn[[5,q]]=TrueQ[fs[[q]]["nuclear"]]&&last==q&&src>0&&TrueQ[fs[[src]]["atr"]];df[[5,q]]=fs[[q]]["nuclear"];gd[[5,q]]=TrueQ[fs[[q]]["atr"]];
+ cross=n>0&&words[[n]]==w+1&&phrases[[words[[n]]+1]]==phrases[[w+1]];
+ cn[[6,q]]=TrueQ[fs[[q]]["nuclear"]]&&!TrueQ[fs[[q]]["high"]]&&cross&&TrueQ[fs[[n]]["nuclear"]]&&!TrueQ[fs[[n]]["high"]];gd[[6,q]]=!TrueQ[fs[[q]]["present"]]||(n>0&&s[[q]]===s[[n]]);
+ neighbor=AnyTrue[{v,n},Function[j,j>0&&Abs[words[[j]]-w]==1&&phrases[[words[[j]]+1]]==phrases[[w+1]]&&TrueQ[fs[[j]]["nuclear"]]&&!TrueQ[fs[[j]]["high"]]]];
+ cn[[7,q]]=TrueQ[fs[[q]]["nuclear"]]&&TrueQ[fs[[q]]["high"]]&&neighbor;gd[[7,q]]=!TrueQ[fs[[q]]["nuclear"]];
+ cn[[8,q]]=TrueQ[fs[[q]]["nuclear"]]&&TrueQ[fs[[q]]["high"]]&&v>0&&words[[v]]+1==w&&phrases[[words[[v]]+1]]==phrases[[w+1]]&&TrueQ[fs[[v]]["nuclear"]]&&TrueQ[fs[[v]]["high"]];gd[[8,q]]=!TrueQ[fs[[q]]["present"]];
+ cn[[9,q]]=TrueQ[origft[[q]]["nuclear"]]&&(q==1||words[[q-1]]!=w);df[[9,q]]=TrueQ[fs[[q]]["present"]]&&fs[[q]]["quality"]=!=Null;gd[[9,q]]=fs[[q]]["quality"]===origft[[q]]["quality"]&&(!TrueQ[fs[[q]]["nuclear"]]||fs[[q]]["atr"]===origft[[q]]["atr"]),{q,Length[s]}];
+ {cn,df,gd,srcs}];
+coefficientsState[s_]:=Module[{r=readState[s],pend},Table[pend=MapThread[And[#1,Not[#2]]&,{r[[2,k]],r[[3,k]]}];
+ {Total[MapThread[Boole[#1&&#2]&,{pend,prior[[k]]}]],Total[MapThread[Boole[#1&&!#2&&#3]&,{pend,prior[[k]],r[[1,k]]}]],Total[MapThread[Boole[#1&&#2]&,{pend,r[[1,k]]}]]},{k,9}]];
+realizeState[s_]:=StringJoin[DeleteCases[s,"∅"]];
+lexicalView[s_]:=Table[StringJoin[Table[If[words[[q]]==w&&s[[q]]=!="∅",s[[q]],""],{q,Length[s]}]],{w,0,Length[phrases]-1}];
+unaryEdges[i_]:=Flatten[Table[Table[If[v==tuples[[i+1,k]],Nothing,i+(v-tuples[[i+1,k]])powers[[k]]],{v,0,Length[alpha]-1}],{k,Length[focal]}]];
+chooseStep[row_]:=If[First[row]==Min[row],{0},Flatten[Position[row,Min[row]]]-1];
+walkPaths[i_,path_]:=Module[{cs=chooseStep[rows[[i+1]]],t},If[cs=={0},AppendTo[traces,path],Do[t=edges[[i+1,j]];If[MemberQ[path,t]||rows[[t+1,1]]>=rows[[i+1,1]],Print["FAILED descent"];Exit[1]];walkPaths[t,Append[path,t]],{j,cs}]]];

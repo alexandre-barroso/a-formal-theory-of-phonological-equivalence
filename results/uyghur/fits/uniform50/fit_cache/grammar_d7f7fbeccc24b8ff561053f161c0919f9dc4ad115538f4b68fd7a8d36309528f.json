@@ -1,0 +1,74 @@
+{
+  "kind": "grammar",
+  "cache_key": "d7f7fbeccc24b8ff561053f161c0919f9dc4ad115538f4b68fd7a8d36309528f",
+  "block_key": "3621dc2abef477b0c382bff9ca4f0e425eef9e24668b0f7e0a7276ea3ebab3ba",
+  "variant": "unrounded_strict",
+  "model": "input_plus_surface",
+  "approximation": "not_applicable",
+  "alpha": 0.0001,
+  "beta_key": "c81d360667d87b7d1521b1e0d5c331c0bccdc74cb171e35fb8bdc7cefb319890",
+  "hu_key": null,
+  "offset_key": null,
+  "fit": {
+    "model": "input_surface",
+    "parameters": {
+      "input": 4.855495696852387,
+      "surface": 1.0843182452449907
+    },
+    "objective": 0.080972764853609,
+    "regularization_alpha": 0.0001,
+    "converged": true,
+    "iterations": 13,
+    "internal_coordinates": [
+      4.855495696852387,
+      1.0843182452449907
+    ],
+    "gradient": [
+      6.8875013656787e-12,
+      -9.374359876681768e-13
+    ],
+    "projected_gradient_max_abs": 6.8875013656787e-12,
+    "finite_difference_max_abs_error": 2.314443972816145e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 13,
+        "objective": 0.080972764853609,
+        "projected_gradient_max": 6.8875013656787e-12,
+        "finite_difference_error": 2.314443972816145e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      2212.0,
+      4.0,
+      13402.0,
+      82.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 11,
+      "0010": 209,
+      "0011": 21,
+      "1000": 34,
+      "1010": 12,
+      "1100": 4
+    },
+    "training_rows": 291,
+    "feature_difference_rows": 873,
+    "feature_difference_columns": 2,
+    "feature_difference_rank": 2,
+    "feature_difference_sha256": "b8e38ac83bf7bf0cffedbbee60030d11abd2a39e3be657f2f8dfeadcfdcf48d0",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

@@ -1,0 +1,29 @@
+label	source	title	number	page_pt
+sec:appg-region	appendices/app_e_opacity.tex	Free-weight attenuation and the enlarged Gua generator	E.7	383
+sec:appk-identification	appendices/app_f_computation.tex	Identification of four resolution policies	F.2	397
+sec:calc-regressions	appendices/sections/app_b_comparison_cases.tex	Boundary cases for the theorem's assumptions	B.25	337
+sec:chg-endpoint-exponent	appendices/app_h_continuous_hg.tex	Endpoint and exponent boundaries	H.9	443
+sec:chg-grid	chapters/ch06_continuous_hg.tex	A finite grid is a different candidate support	6.4	181
+sec:chg-phases	chapters/ch06_continuous_hg.tex	Weight gauge and exact support phases	6.5	186
+sec:chg-profile-inverse	chapters/ch06_continuous_hg.tex	Profiles, comparative statics, and inverse questions	6.5.1	188
+sec:chg-convergence	chapters/ch06_continuous_hg.tex	Convergence without identity	6.4.2	184
+sec:chg-scaling	appendices/app_h_continuous_hg.tex	Long-support scaling and support birth	H.13	447
+sec:chg-exponent-limits	appendices/app_h_continuous_hg.tex	The two singular exponent limits	H.14	452
+sec:chg-context	chapters/ch06_continuous_hg.tex	Why one-trigger winners do not exhaust the grammar	6.6	191
+sec:flux-ledger	appendices/app_i_context_flux_support.tex	Why a finite score ledger does not identify the law	I.4	462
+sec:flux-tomography	appendices/app_i_context_flux_support.tex	Finite fibres and identification by response on a set with an accumulation point	I.6	466
+sec:support-endpoint	chapters/ch06_continuous_hg.tex	The endpoint-slope dichotomy	6.8	194
+sec:support-projectivity	chapters/ch06_continuous_hg.tex	Free-end extension and exact projectivity	6.9	195
+sec:support-matched	chapters/ch06_continuous_hg.tex	A different infinite family with geometric persistence	6.10	196
+sec:applications-mccollum-grid	chapters/ch06_continuous_hg.tex	McCollum: a continuum is not its display grid	6.4	181
+sec:applications-mccollum-length	chapters/ch06_continuous_hg.tex	McCollum: fixed weights have an all-horizon consequence	6.3	179
+sec:applications-basic-syllable	appendices/app_g_maxent_algebra.tex	Basic Syllable	G.7.1	416
+sec:applications-walker	appendices/app_j_selected_output.tex	Walker	J.10	503
+sec:applications-cabrera	appendices/app_g_maxent_algebra.tex	Cabrera	G.9	422
+sec:demo-corpus	chapters/ch07_applications.tex	The extended corpus: twenty-four dossiers across twelve families	7.4	209
+sec:app-maxent-g3	appendices/app_g_maxent_algebra.tex	The bounded inverse-equation fragment of the existential theory of the reals	G.4	409
+sec:app-maxent-g4	appendices/app_g_maxent_algebra.tex	The proper conjunctive-normal-form selector reduction	G.5	413
+sec:uyghur-grammar	chapters/ch08_uyghur.tex	Typed reference and four-state Uyghur score	8.2	233
+sec:uyghur-joint-restriction	chapters/ch08_uyghur.tex	Conditional agreement, joint distinction and lexical adjustment	8.3	235
+sec:uyghur-results	chapters/ch08_uyghur.tex	Withheld-root joint predictions	8.6	239
+sec:uyghur-sharing	chapters/ch08_uyghur.tex	Sharing, regularization and lexical information	8.7	241

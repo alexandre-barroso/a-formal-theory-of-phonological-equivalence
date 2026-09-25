@@ -1,0 +1,74 @@
+{
+  "kind": "grammar",
+  "cache_key": "8de68fc26ce77f99d12b547c0b5b2a36cc471076028732239fea37229c7a08ed",
+  "block_key": "83e7d988bb1f3d1b55c2ee260f4982106f1cca34f9196a19a0d4434f968f2336",
+  "variant": "unrounded_strict",
+  "model": "input_plus_surface",
+  "approximation": "not_applicable",
+  "alpha": 0.001,
+  "beta_key": "a0ddea6cee653e8743003cb5dedd8be777b43e1c9b683c0c696eea0d212f87b7",
+  "hu_key": null,
+  "offset_key": null,
+  "fit": {
+    "model": "input_surface",
+    "parameters": {
+      "input": 3.3162555473272537,
+      "surface": 1.5029499163400366
+    },
+    "objective": 0.16516655193636595,
+    "regularization_alpha": 0.001,
+    "converged": true,
+    "iterations": 11,
+    "internal_coordinates": [
+      3.3162555473272537,
+      1.5029499163400366
+    ],
+    "gradient": [
+      1.7571465203009007e-10,
+      6.323232688322522e-10
+    ],
+    "projected_gradient_max_abs": 6.323232688322522e-10,
+    "finite_difference_max_abs_error": 4.1388213981680756e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 11,
+        "objective": 0.16516655193636595,
+        "projected_gradient_max": 6.323232688322522e-10,
+        "finite_difference_error": 4.1388213981680756e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      2078.0,
+      2.0,
+      11433.0,
+      375.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 14,
+      "0010": 198,
+      "0011": 21,
+      "1000": 36,
+      "1010": 9,
+      "1100": 2
+    },
+    "training_rows": 280,
+    "feature_difference_rows": 840,
+    "feature_difference_columns": 2,
+    "feature_difference_rank": 2,
+    "feature_difference_sha256": "07042e6d7be654d4c18ef0953883eb4efbf8ff8b554cd4ea7d0a2e988af8c152",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

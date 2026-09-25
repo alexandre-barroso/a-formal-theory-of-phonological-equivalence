@@ -1,0 +1,69 @@
+{
+ "exact_region": {
+  "lower": "0",
+  "upper": "1/2",
+  "upper_included": false
+ },
+ "points": {
+  "1/2": {
+   "feasible": false,
+   "witness": null
+  },
+  "199/400": {
+   "feasible": true,
+   "witness": {
+    "A": "4",
+    "D": "4",
+    "GL": "4",
+    "H": "2",
+    "IDENT_ATR": "1",
+    "IDENT_NUC": "201/200",
+    "IDENT_QUAL": "1/200",
+    "INITIAL_FEATURE": "4",
+    "MAX": "101/100"
+   }
+  },
+  "49/100": {
+   "feasible": true,
+   "witness": {
+    "A": "4",
+    "D": "4",
+    "GL": "4",
+    "H": "2",
+    "IDENT_ATR": "1",
+    "IDENT_NUC": "51/50",
+    "IDENT_QUAL": "1/50",
+    "INITIAL_FEATURE": "4",
+    "MAX": "26/25"
+   }
+  },
+  "499/1000": {
+   "feasible": true,
+   "witness": {
+    "A": "4",
+    "D": "4",
+    "GL": "4",
+    "H": "2",
+    "IDENT_ATR": "1",
+    "IDENT_NUC": "501/500",
+    "IDENT_QUAL": "1/500",
+    "INITIAL_FEATURE": "4",
+    "MAX": "251/250"
+   }
+  },
+  "4999/10000": {
+   "feasible": true,
+   "witness": {
+    "A": "4",
+    "D": "4",
+    "GL": "4",
+    "H": "2",
+    "IDENT_ATR": "1",
+    "IDENT_NUC": "5001/5000",
+    "IDENT_QUAL": "1/5000",
+    "INITIAL_FEATURE": "4",
+    "MAX": "2501/2500"
+   }
+  }
+ }
+}

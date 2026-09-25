@@ -1,0 +1,71 @@
+{
+  "kind": "grammar",
+  "cache_key": "b4a35ad1a80628172c1682f6ecebe975995892c61c4a7c9c4670401fdd7e96be",
+  "block_key": "c4eb3f123e007e47a54532da89e89ea0c8c912c499aa99c7e3e7b9b25f6d2546",
+  "variant": "unrounded_strict",
+  "model": "current_only",
+  "approximation": "not_applicable",
+  "alpha": 0.0,
+  "beta_key": "9ad446568c37dd7a1340f87fe1317a9f839725268d500b8ffdc32ce7b09d0159",
+  "hu_key": null,
+  "offset_key": null,
+  "fit": {
+    "model": "current_only",
+    "parameters": {
+      "C": 2.5970855816162963
+    },
+    "objective": 0.29328185489428893,
+    "regularization_alpha": 0.0,
+    "converged": true,
+    "iterations": 8,
+    "internal_coordinates": [
+      2.5970855816162963
+    ],
+    "gradient": [
+      -9.508911212185615e-11
+    ],
+    "projected_gradient_max_abs": 9.508911212185615e-11,
+    "finite_difference_max_abs_error": 5.3705772444600535e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 8,
+        "objective": 0.29328185489428893,
+        "projected_gradient_max": 9.508911212185615e-11,
+        "finite_difference_error": 5.3705772444600535e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      2210.0,
+      3.0,
+      16847.0,
+      442.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 15,
+      "0010": 215,
+      "0011": 24,
+      "1000": 34,
+      "1010": 8,
+      "1100": 3
+    },
+    "training_rows": 299,
+    "feature_difference_rows": 897,
+    "feature_difference_columns": 1,
+    "feature_difference_rank": 1,
+    "feature_difference_sha256": "2eaf47f9a07395c612cfd735982be51c66c95c40786a9aaeab3f235e37b48b10",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "NUMERIC_CANDIDATE_PENDING_SEPARABILITY_AND_COERCIVITY_REVIEW"
+}

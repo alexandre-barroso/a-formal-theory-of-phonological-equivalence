@@ -1,0 +1,5 @@
+{
+	"checks":512,
+	"failures":[],
+	"scope":"All Boolean local patterns, real symbolic weights, both permitted boundary cases; common tail contribution cancels. Arbitrary tail recursion and observer are Lean obligations, not inferred from this finite enumeration."
+}

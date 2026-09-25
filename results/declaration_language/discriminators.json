@@ -1,0 +1,750 @@
+{
+ "gua_weight_axis": {
+  "grid": [
+   {
+    "any_winner_difference": false,
+    "per_input": {
+     "C21b": {
+      "differ": false,
+      "dynamic_minima": [
+       117
+      ],
+      "dynamic_output": [
+       "wʊsʊsɛ"
+      ],
+      "witness_minima": [
+       117
+      ],
+      "witness_output": [
+       "wʊsʊsɛ"
+      ]
+     },
+     "C23UE": {
+      "differ": false,
+      "dynamic_minima": [
+       159
+      ],
+      "dynamic_output": [
+       "wʊswɛbɪ"
+      ],
+      "witness_minima": [
+       159
+      ],
+      "witness_output": [
+       "wʊswɛbɪ"
+      ]
+     },
+     "C24ei": {
+      "differ": false,
+      "dynamic_minima": [
+       63
+      ],
+      "dynamic_output": [
+       "kpejsi"
+      ],
+      "witness_minima": [
+       63
+      ],
+      "witness_output": [
+       "kpejsi"
+      ]
+     },
+     "G34a": {
+      "differ": false,
+      "dynamic_minima": [
+       774
+      ],
+      "dynamic_output": [
+       "ahetɔɔkpʊkɔ"
+      ],
+      "witness_minima": [
+       774
+      ],
+      "witness_output": [
+       "ahetɔɔkpʊkɔ"
+      ]
+     },
+     "G34b": {
+      "differ": false,
+      "dynamic_minima": [
+       957
+      ],
+      "dynamic_output": [
+       "afɪsoohili"
+      ],
+      "witness_minima": [
+       957
+      ],
+      "witness_output": [
+       "afɪsoohili"
+      ]
+     },
+     "G37c": {
+      "differ": false,
+      "dynamic_minima": [
+       1584
+      ],
+      "dynamic_output": [
+       "ɔtʃʊsejbie"
+      ],
+      "witness_minima": [
+       1584
+      ],
+      "witness_output": [
+       "ɔtʃʊsejbie"
+      ]
+     },
+     "N7": {
+      "differ": false,
+      "dynamic_minima": [
+       82
+      ],
+      "dynamic_output": [
+       "atʃijeli"
+      ],
+      "witness_minima": [
+       82
+      ],
+      "witness_output": [
+       "atʃijeli"
+      ]
+     },
+     "OR38": {
+      "differ": false,
+      "dynamic_minima": [
+       1261
+      ],
+      "dynamic_output": [
+       "atʃɔsiku"
+      ],
+      "witness_minima": [
+       1261
+      ],
+      "witness_output": [
+       "atʃɔsiku"
+      ]
+     }
+    },
+    "w_A": "8",
+    "w_Max": "20"
+   },
+   {
+    "any_winner_difference": false,
+    "per_input": {
+     "C21b": {
+      "differ": false,
+      "dynamic_minima": [
+       117
+      ],
+      "dynamic_output": [
+       "wʊsʊsɛ"
+      ],
+      "witness_minima": [
+       117
+      ],
+      "witness_output": [
+       "wʊsʊsɛ"
+      ]
+     },
+     "C23UE": {
+      "differ": false,
+      "dynamic_minima": [
+       159
+      ],
+      "dynamic_output": [
+       "wʊswɛbɪ"
+      ],
+      "witness_minima": [
+       159
+      ],
+      "witness_output": [
+       "wʊswɛbɪ"
+      ]
+     },
+     "C24ei": {
+      "differ": false,
+      "dynamic_minima": [
+       63
+      ],
+      "dynamic_output": [
+       "kpejsi"
+      ],
+      "witness_minima": [
+       63
+      ],
+      "witness_output": [
+       "kpejsi"
+      ]
+     },
+     "G34a": {
+      "differ": false,
+      "dynamic_minima": [
+       774
+      ],
+      "dynamic_output": [
+       "ahetɔɔkpʊkɔ"
+      ],
+      "witness_minima": [
+       774
+      ],
+      "witness_output": [
+       "ahetɔɔkpʊkɔ"
+      ]
+     },
+     "G34b": {
+      "differ": false,
+      "dynamic_minima": [
+       957
+      ],
+      "dynamic_output": [
+       "afɪsoohili"
+      ],
+      "witness_minima": [
+       957
+      ],
+      "witness_output": [
+       "afɪsoohili"
+      ]
+     },
+     "G37c": {
+      "differ": false,
+      "dynamic_minima": [
+       1584
+      ],
+      "dynamic_output": [
+       "ɔtʃʊsejbie"
+      ],
+      "witness_minima": [
+       1584
+      ],
+      "witness_output": [
+       "ɔtʃʊsejbie"
+      ]
+     },
+     "N7": {
+      "differ": false,
+      "dynamic_minima": [
+       82
+      ],
+      "dynamic_output": [
+       "atʃijeli"
+      ],
+      "witness_minima": [
+       82
+      ],
+      "witness_output": [
+       "atʃijeli"
+      ]
+     },
+     "OR38": {
+      "differ": false,
+      "dynamic_minima": [
+       1261
+      ],
+      "dynamic_output": [
+       "atʃɔsiku"
+      ],
+      "witness_minima": [
+       1261
+      ],
+      "witness_output": [
+       "atʃɔsiku"
+      ]
+     }
+    },
+    "w_A": "20",
+    "w_Max": "20"
+   },
+   {
+    "any_winner_difference": false,
+    "per_input": {
+     "C21b": {
+      "differ": false,
+      "dynamic_minima": [
+       117
+      ],
+      "dynamic_output": [
+       "wʊsʊsɛ"
+      ],
+      "witness_minima": [
+       117
+      ],
+      "witness_output": [
+       "wʊsʊsɛ"
+      ]
+     },
+     "C23UE": {
+      "differ": false,
+      "dynamic_minima": [
+       159
+      ],
+      "dynamic_output": [
+       "wʊswɛbɪ"
+      ],
+      "witness_minima": [
+       159
+      ],
+      "witness_output": [
+       "wʊswɛbɪ"
+      ]
+     },
+     "C24ei": {
+      "differ": false,
+      "dynamic_minima": [
+       63
+      ],
+      "dynamic_output": [
+       "kpejsi"
+      ],
+      "witness_minima": [
+       63
+      ],
+      "witness_output": [
+       "kpejsi"
+      ]
+     },
+     "G34a": {
+      "differ": false,
+      "dynamic_minima": [
+       774
+      ],
+      "dynamic_output": [
+       "ahetɔɔkpʊkɔ"
+      ],
+      "witness_minima": [
+       774
+      ],
+      "witness_output": [
+       "ahetɔɔkpʊkɔ"
+      ]
+     },
+     "G34b": {
+      "differ": false,
+      "dynamic_minima": [
+       957
+      ],
+      "dynamic_output": [
+       "afɪsoohili"
+      ],
+      "witness_minima": [
+       957
+      ],
+      "witness_output": [
+       "afɪsoohili"
+      ]
+     },
+     "G37c": {
+      "differ": false,
+      "dynamic_minima": [
+       1584
+      ],
+      "dynamic_output": [
+       "ɔtʃʊsejbie"
+      ],
+      "witness_minima": [
+       1584
+      ],
+      "witness_output": [
+       "ɔtʃʊsejbie"
+      ]
+     },
+     "N7": {
+      "differ": false,
+      "dynamic_minima": [
+       82
+      ],
+      "dynamic_output": [
+       "atʃijeli"
+      ],
+      "witness_minima": [
+       82
+      ],
+      "witness_output": [
+       "atʃijeli"
+      ]
+     },
+     "OR38": {
+      "differ": false,
+      "dynamic_minima": [
+       1261
+      ],
+      "dynamic_output": [
+       "atʃɔsiku"
+      ],
+      "witness_minima": [
+       1261
+      ],
+      "witness_output": [
+       "atʃɔsiku"
+      ]
+     }
+    },
+    "w_A": "21",
+    "w_Max": "20"
+   },
+   {
+    "any_winner_difference": false,
+    "per_input": {
+     "C21b": {
+      "differ": false,
+      "dynamic_minima": [
+       117
+      ],
+      "dynamic_output": [
+       "wʊsʊsɛ"
+      ],
+      "witness_minima": [
+       117
+      ],
+      "witness_output": [
+       "wʊsʊsɛ"
+      ]
+     },
+     "C23UE": {
+      "differ": false,
+      "dynamic_minima": [
+       159
+      ],
+      "dynamic_output": [
+       "wʊswɛbɪ"
+      ],
+      "witness_minima": [
+       159
+      ],
+      "witness_output": [
+       "wʊswɛbɪ"
+      ]
+     },
+     "C24ei": {
+      "differ": false,
+      "dynamic_minima": [
+       63
+      ],
+      "dynamic_output": [
+       "kpejsi"
+      ],
+      "witness_minima": [
+       63
+      ],
+      "witness_output": [
+       "kpejsi"
+      ]
+     },
+     "G34a": {
+      "differ": false,
+      "dynamic_minima": [
+       774
+      ],
+      "dynamic_output": [
+       "ahetɔɔkpʊkɔ"
+      ],
+      "witness_minima": [
+       774
+      ],
+      "witness_output": [
+       "ahetɔɔkpʊkɔ"
+      ]
+     },
+     "G34b": {
+      "differ": false,
+      "dynamic_minima": [
+       957
+      ],
+      "dynamic_output": [
+       "afɪsoohili"
+      ],
+      "witness_minima": [
+       957
+      ],
+      "witness_output": [
+       "afɪsoohili"
+      ]
+     },
+     "G37c": {
+      "differ": false,
+      "dynamic_minima": [
+       1584
+      ],
+      "dynamic_output": [
+       "ɔtʃʊsejbie"
+      ],
+      "witness_minima": [
+       1584
+      ],
+      "witness_output": [
+       "ɔtʃʊsejbie"
+      ]
+     },
+     "N7": {
+      "differ": false,
+      "dynamic_minima": [
+       82
+      ],
+      "dynamic_output": [
+       "atʃijeli"
+      ],
+      "witness_minima": [
+       82
+      ],
+      "witness_output": [
+       "atʃijeli"
+      ]
+     },
+     "OR38": {
+      "differ": false,
+      "dynamic_minima": [
+       1261
+      ],
+      "dynamic_output": [
+       "atʃɔsiku"
+      ],
+      "witness_minima": [
+       1261
+      ],
+      "witness_output": [
+       "atʃɔsiku"
+      ]
+     }
+    },
+    "w_A": "40",
+    "w_Max": "20"
+   },
+   {
+    "any_winner_difference": false,
+    "per_input": {
+     "C21b": {
+      "differ": false,
+      "dynamic_minima": [
+       117
+      ],
+      "dynamic_output": [
+       "wʊsʊsɛ"
+      ],
+      "witness_minima": [
+       117
+      ],
+      "witness_output": [
+       "wʊsʊsɛ"
+      ]
+     },
+     "C23UE": {
+      "differ": false,
+      "dynamic_minima": [
+       159
+      ],
+      "dynamic_output": [
+       "wʊswɛbɪ"
+      ],
+      "witness_minima": [
+       159
+      ],
+      "witness_output": [
+       "wʊswɛbɪ"
+      ]
+     },
+     "C24ei": {
+      "differ": false,
+      "dynamic_minima": [
+       63
+      ],
+      "dynamic_output": [
+       "kpejsi"
+      ],
+      "witness_minima": [
+       63
+      ],
+      "witness_output": [
+       "kpejsi"
+      ]
+     },
+     "G34a": {
+      "differ": false,
+      "dynamic_minima": [
+       774
+      ],
+      "dynamic_output": [
+       "ahetɔɔkpʊkɔ"
+      ],
+      "witness_minima": [
+       774
+      ],
+      "witness_output": [
+       "ahetɔɔkpʊkɔ"
+      ]
+     },
+     "G34b": {
+      "differ": false,
+      "dynamic_minima": [
+       957
+      ],
+      "dynamic_output": [
+       "afɪsoohili"
+      ],
+      "witness_minima": [
+       957
+      ],
+      "witness_output": [
+       "afɪsoohili"
+      ]
+     },
+     "G37c": {
+      "differ": false,
+      "dynamic_minima": [
+       1584
+      ],
+      "dynamic_output": [
+       "ɔtʃʊsejbie"
+      ],
+      "witness_minima": [
+       1584
+      ],
+      "witness_output": [
+       "ɔtʃʊsejbie"
+      ]
+     },
+     "N7": {
+      "differ": false,
+      "dynamic_minima": [
+       82
+      ],
+      "dynamic_output": [
+       "atʃijeli"
+      ],
+      "witness_minima": [
+       82
+      ],
+      "witness_output": [
+       "atʃijeli"
+      ]
+     },
+     "OR38": {
+      "differ": false,
+      "dynamic_minima": [
+       1261
+      ],
+      "dynamic_output": [
+       "atʃɔsiku"
+      ],
+      "witness_minima": [
+       1261
+      ],
+      "witness_output": [
+       "atʃɔsiku"
+      ]
+     }
+    },
+    "w_A": "200",
+    "w_Max": "20"
+   }
+  ]
+ },
+ "lithuanian_consonant_epenthesis": {
+  "identical_on_all_three_states": false,
+  "readers": {
+   "dynamic_stop": {
+    "disagreeing_obstruent_in_the_gap": {
+     "context": true,
+     "defined": true,
+     "good": false,
+     "marked": 1,
+     "pressure": 1,
+     "state": [
+      "p",
+      "d",
+      "b"
+     ]
+    },
+    "obstruent_in_the_gap": {
+     "context": true,
+     "defined": true,
+     "good": true,
+     "marked": 0,
+     "pressure": 0,
+     "state": [
+      "p",
+      "t",
+      "b"
+     ]
+    },
+    "reference": {
+     "context": true,
+     "defined": true,
+     "good": false,
+     "marked": 1,
+     "pressure": 1,
+     "state": [
+      "p",
+      "∅",
+      "b"
+     ]
+    },
+    "vowel_in_the_gap": {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "marked": 0,
+     "pressure": 0,
+     "state": [
+      "p",
+      "i",
+      "b"
+     ]
+    }
+   },
+   "witness": {
+    "disagreeing_obstruent_in_the_gap": {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "marked": 0,
+     "pressure": 0,
+     "state": [
+      "p",
+      "d",
+      "b"
+     ]
+    },
+    "obstruent_in_the_gap": {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "marked": 0,
+     "pressure": 0,
+     "state": [
+      "p",
+      "t",
+      "b"
+     ]
+    },
+    "reference": {
+     "context": true,
+     "defined": true,
+     "good": false,
+     "marked": 1,
+     "pressure": 1,
+     "state": [
+      "p",
+      "∅",
+      "b"
+     ]
+    },
+    "vowel_in_the_gap": {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "marked": 0,
+     "pressure": 0,
+     "state": [
+      "p",
+      "i",
+      "b"
+     ]
+    }
+   }
+  },
+  "separating_states": [
+   "obstruent_in_the_gap",
+   "disagreeing_obstruent_in_the_gap"
+  ]
+ }
+}

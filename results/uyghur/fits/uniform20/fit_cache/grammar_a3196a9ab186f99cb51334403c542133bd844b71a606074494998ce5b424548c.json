@@ -1,0 +1,75 @@
+{
+  "kind": "grammar",
+  "cache_key": "a3196a9ab186f99cb51334403c542133bd844b71a606074494998ce5b424548c",
+  "block_key": "ea2a01c7ebcf95c320336f26b2b7d7ff133eac0910f84eeb63c63859a6fb024d",
+  "variant": "all_strict",
+  "model": "retention_bounded",
+  "approximation": "not_applicable",
+  "alpha": 0.1,
+  "beta_key": "97398f910f8f52c5d978feba9b55e09203062153ea21584936dea90b38daf0fd",
+  "hu_key": null,
+  "offset_key": null,
+  "fit": {
+    "model": "retention",
+    "parameters": {
+      "A": 2.079084815474403,
+      "B": 1.00207801723619
+    },
+    "objective": 0.28075045436180945,
+    "regularization_alpha": 0.1,
+    "converged": true,
+    "iterations": 9,
+    "internal_coordinates": [
+      1.00207801723619,
+      1.077006798238213
+    ],
+    "gradient": [
+      -1.299276006228034e-09,
+      2.0577645976072034e-09
+    ],
+    "projected_gradient_max_abs": 2.0577645976072034e-09,
+    "finite_difference_max_abs_error": 3.813424611593276e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "objective": 0.28075045436180945,
+        "projected_gradient_max": 2.0577645976072034e-09,
+        "finite_difference_error": 3.813424611593276e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      10577.0,
+      4.0,
+      23485.0,
+      434.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 15,
+      "0010": 308,
+      "0011": 36,
+      "0100": 1,
+      "1000": 50,
+      "1010": 11,
+      "1100": 3
+    },
+    "training_rows": 424,
+    "feature_difference_rows": 1272,
+    "feature_difference_columns": 2,
+    "feature_difference_rank": 2,
+    "feature_difference_sha256": "486e0bd1213d17bc718e3ed4e4057c717e856776a3688f801295785612545220",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

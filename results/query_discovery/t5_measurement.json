@@ -1,0 +1,789 @@
+{
+  "artifact": "t5_arbitrariness_measurement",
+  "max_depth": 1,
+  "bridge_depth_limit": {
+    "B_score8": 0
+  },
+  "per_input": {
+    "G34a": {
+      "input": "G34a",
+      "states": 2197,
+      "words": 3,
+      "focal": [
+        2,
+        4,
+        5
+      ],
+      "max_depth": 1,
+      "a_priori": {
+        "carrier": 2197,
+        "boolean_kernels_log2": 2196,
+        "nominal_kernels_bits": 16118
+      },
+      "by_licence": {
+        "ATTESTED": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 2041,
+            "licensed_query_space": {
+              "carrier": 2041,
+              "boolean_kernels_log2": 2040,
+              "nominal_kernels_bits": 14794
+            },
+            "collapse_boolean_bits": 156
+          },
+          "depth<=1": {
+            "protocols": 192,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 2041
+          }
+        },
+        "PROPOSED_ELICITATION": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 2041,
+            "licensed_query_space": {
+              "carrier": 2041,
+              "boolean_kernels_log2": 2040,
+              "nominal_kernels_bits": 14794
+            },
+            "collapse_boolean_bits": 156
+          },
+          "depth<=1": {
+            "protocols": 320,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 2041
+          }
+        },
+        "MODEL_INTERNAL": {
+          "depth<=0": {
+            "protocols": 5,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "depth<=1": {
+            "protocols": 325,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 5,
+            "classes_exp": 2197
+          }
+        }
+      },
+      "image_B_seg": 2041,
+      "merged_pairs_B_seg": 156
+    },
+    "G34b": {
+      "input": "G34b",
+      "states": 2197,
+      "words": 3,
+      "focal": [
+        2,
+        4,
+        5
+      ],
+      "max_depth": 1,
+      "a_priori": {
+        "carrier": 2197,
+        "boolean_kernels_log2": 2196,
+        "nominal_kernels_bits": 16118
+      },
+      "by_licence": {
+        "ATTESTED": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 2041,
+            "licensed_query_space": {
+              "carrier": 2041,
+              "boolean_kernels_log2": 2040,
+              "nominal_kernels_bits": 14794
+            },
+            "collapse_boolean_bits": 156
+          },
+          "depth<=1": {
+            "protocols": 192,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 2041
+          }
+        },
+        "PROPOSED_ELICITATION": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 2041,
+            "licensed_query_space": {
+              "carrier": 2041,
+              "boolean_kernels_log2": 2040,
+              "nominal_kernels_bits": 14794
+            },
+            "collapse_boolean_bits": 156
+          },
+          "depth<=1": {
+            "protocols": 320,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 2041
+          }
+        },
+        "MODEL_INTERNAL": {
+          "depth<=0": {
+            "protocols": 5,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "depth<=1": {
+            "protocols": 325,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 5,
+            "classes_exp": 2197
+          }
+        }
+      },
+      "image_B_seg": 2041,
+      "merged_pairs_B_seg": 156
+    },
+    "N7": {
+      "input": "N7",
+      "states": 169,
+      "words": 2,
+      "focal": [
+        2,
+        4
+      ],
+      "max_depth": 1,
+      "a_priori": {
+        "carrier": 169,
+        "boolean_kernels_log2": 168,
+        "nominal_kernels_bits": 744
+      },
+      "by_licence": {
+        "ATTESTED": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 168,
+            "licensed_query_space": {
+              "carrier": 168,
+              "boolean_kernels_log2": 167,
+              "nominal_kernels_bits": 738
+            },
+            "collapse_boolean_bits": 1
+          },
+          "depth<=1": {
+            "protocols": 152,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 168
+          }
+        },
+        "PROPOSED_ELICITATION": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 168,
+            "licensed_query_space": {
+              "carrier": 168,
+              "boolean_kernels_log2": 167,
+              "nominal_kernels_bits": 738
+            },
+            "collapse_boolean_bits": 1
+          },
+          "depth<=1": {
+            "protocols": 248,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 168
+          }
+        },
+        "MODEL_INTERNAL": {
+          "depth<=0": {
+            "protocols": 5,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "depth<=1": {
+            "protocols": 253,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 5,
+            "classes_exp": 169
+          }
+        }
+      },
+      "image_B_seg": 168,
+      "merged_pairs_B_seg": 1
+    },
+    "G37c": {
+      "input": "G37c",
+      "states": 2197,
+      "words": 3,
+      "focal": [
+        2,
+        4,
+        5
+      ],
+      "max_depth": 1,
+      "a_priori": {
+        "carrier": 2197,
+        "boolean_kernels_log2": 2196,
+        "nominal_kernels_bits": 16118
+      },
+      "by_licence": {
+        "ATTESTED": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 2171,
+            "licensed_query_space": {
+              "carrier": 2171,
+              "boolean_kernels_log2": 2170,
+              "nominal_kernels_bits": 15897
+            },
+            "collapse_boolean_bits": 26
+          },
+          "depth<=1": {
+            "protocols": 192,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 2171
+          }
+        },
+        "PROPOSED_ELICITATION": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 2171,
+            "licensed_query_space": {
+              "carrier": 2171,
+              "boolean_kernels_log2": 2170,
+              "nominal_kernels_bits": 15897
+            },
+            "collapse_boolean_bits": 26
+          },
+          "depth<=1": {
+            "protocols": 320,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 2171
+          }
+        },
+        "MODEL_INTERNAL": {
+          "depth<=0": {
+            "protocols": 5,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "depth<=1": {
+            "protocols": 325,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 5,
+            "classes_exp": 2197
+          }
+        }
+      },
+      "image_B_seg": 2041,
+      "merged_pairs_B_seg": 156
+    },
+    "C24ei": {
+      "input": "C24ei",
+      "states": 169,
+      "words": 2,
+      "focal": [
+        2,
+        3
+      ],
+      "max_depth": 1,
+      "a_priori": {
+        "carrier": 169,
+        "boolean_kernels_log2": 168,
+        "nominal_kernels_bits": 744
+      },
+      "by_licence": {
+        "ATTESTED": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 167,
+            "licensed_query_space": {
+              "carrier": 167,
+              "boolean_kernels_log2": 166,
+              "nominal_kernels_bits": 733
+            },
+            "collapse_boolean_bits": 2
+          },
+          "depth<=1": {
+            "protocols": 152,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 167
+          }
+        },
+        "PROPOSED_ELICITATION": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 167,
+            "licensed_query_space": {
+              "carrier": 167,
+              "boolean_kernels_log2": 166,
+              "nominal_kernels_bits": 733
+            },
+            "collapse_boolean_bits": 2
+          },
+          "depth<=1": {
+            "protocols": 248,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 167
+          }
+        },
+        "MODEL_INTERNAL": {
+          "depth<=0": {
+            "protocols": 5,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "depth<=1": {
+            "protocols": 253,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 5,
+            "classes_exp": 169
+          }
+        }
+      },
+      "image_B_seg": 157,
+      "merged_pairs_B_seg": 12
+    },
+    "OR38": {
+      "input": "OR38",
+      "states": 2197,
+      "words": 3,
+      "focal": [
+        2,
+        4,
+        5
+      ],
+      "max_depth": 1,
+      "a_priori": {
+        "carrier": 2197,
+        "boolean_kernels_log2": 2196,
+        "nominal_kernels_bits": 16118
+      },
+      "by_licence": {
+        "ATTESTED": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 2171,
+            "licensed_query_space": {
+              "carrier": 2171,
+              "boolean_kernels_log2": 2170,
+              "nominal_kernels_bits": 15897
+            },
+            "collapse_boolean_bits": 26
+          },
+          "depth<=1": {
+            "protocols": 192,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 2171
+          }
+        },
+        "PROPOSED_ELICITATION": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 2171,
+            "licensed_query_space": {
+              "carrier": 2171,
+              "boolean_kernels_log2": 2170,
+              "nominal_kernels_bits": 15897
+            },
+            "collapse_boolean_bits": 26
+          },
+          "depth<=1": {
+            "protocols": 320,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 2171
+          }
+        },
+        "MODEL_INTERNAL": {
+          "depth<=0": {
+            "protocols": 5,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "depth<=1": {
+            "protocols": 325,
+            "classes_rep": 2197,
+            "licensed_query_space": {
+              "carrier": 2197,
+              "boolean_kernels_log2": 2196,
+              "nominal_kernels_bits": 16118
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 5,
+            "classes_exp": 2197
+          }
+        }
+      },
+      "image_B_seg": 2041,
+      "merged_pairs_B_seg": 156
+    },
+    "C21b": {
+      "input": "C21b",
+      "states": 169,
+      "words": 2,
+      "focal": [
+        3,
+        4
+      ],
+      "max_depth": 1,
+      "a_priori": {
+        "carrier": 169,
+        "boolean_kernels_log2": 168,
+        "nominal_kernels_bits": 744
+      },
+      "by_licence": {
+        "ATTESTED": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 157,
+            "licensed_query_space": {
+              "carrier": 157,
+              "boolean_kernels_log2": 156,
+              "nominal_kernels_bits": 679
+            },
+            "collapse_boolean_bits": 12
+          },
+          "depth<=1": {
+            "protocols": 152,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 157
+          }
+        },
+        "PROPOSED_ELICITATION": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 157,
+            "licensed_query_space": {
+              "carrier": 157,
+              "boolean_kernels_log2": 156,
+              "nominal_kernels_bits": 679
+            },
+            "collapse_boolean_bits": 12
+          },
+          "depth<=1": {
+            "protocols": 248,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 157
+          }
+        },
+        "MODEL_INTERNAL": {
+          "depth<=0": {
+            "protocols": 5,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "depth<=1": {
+            "protocols": 253,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 5,
+            "classes_exp": 169
+          }
+        }
+      },
+      "image_B_seg": 157,
+      "merged_pairs_B_seg": 12
+    },
+    "C23UE": {
+      "input": "C23UE",
+      "states": 169,
+      "words": 2,
+      "focal": [
+        3,
+        4
+      ],
+      "max_depth": 1,
+      "a_priori": {
+        "carrier": 169,
+        "boolean_kernels_log2": 168,
+        "nominal_kernels_bits": 744
+      },
+      "by_licence": {
+        "ATTESTED": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 157,
+            "licensed_query_space": {
+              "carrier": 157,
+              "boolean_kernels_log2": 156,
+              "nominal_kernels_bits": 679
+            },
+            "collapse_boolean_bits": 12
+          },
+          "depth<=1": {
+            "protocols": 152,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 157
+          }
+        },
+        "PROPOSED_ELICITATION": {
+          "depth<=0": {
+            "protocols": 4,
+            "classes_rep": 157,
+            "licensed_query_space": {
+              "carrier": 157,
+              "boolean_kernels_log2": 156,
+              "nominal_kernels_bits": 679
+            },
+            "collapse_boolean_bits": 12
+          },
+          "depth<=1": {
+            "protocols": 248,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 4,
+            "classes_exp": 157
+          }
+        },
+        "MODEL_INTERNAL": {
+          "depth<=0": {
+            "protocols": 5,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "depth<=1": {
+            "protocols": 253,
+            "classes_rep": 169,
+            "licensed_query_space": {
+              "carrier": 169,
+              "boolean_kernels_log2": 168,
+              "nominal_kernels_bits": 744
+            },
+            "collapse_boolean_bits": 0
+          },
+          "experimental": {
+            "protocols": 5,
+            "classes_exp": 169
+          }
+        }
+      },
+      "image_B_seg": 157,
+      "merged_pairs_B_seg": 12
+    }
+  }
+}

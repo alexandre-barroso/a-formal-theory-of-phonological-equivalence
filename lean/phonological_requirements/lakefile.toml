@@ -1,0 +1,6 @@
+name = "PhonologicalRequirements"
+version = "0.1.0"
+defaultTargets = ["PhonologicalRequirements"]
+
+[[lean_lib]]
+name = "PhonologicalRequirements"

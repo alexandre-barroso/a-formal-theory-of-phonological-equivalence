@@ -1,0 +1,10540 @@
+{
+ "cumulative": {
+  "cumulative": true,
+  "weights": {
+   "ANTI_DEL": 8,
+   "ANTI_PRE_A": 6,
+   "CULM": 200,
+   "DEP": 2,
+   "LOCAL": 5,
+   "MAXLINK_R": 20,
+   "MAX_R": 10
+  },
+  "winners": {
+   "dele+prea|r0": [
+    "tatá-ka"
+   ],
+   "dele+prea|r1": [
+    "tatá-ka"
+   ],
+   "dele|r0": [
+    "tata-ka"
+   ],
+   "dele|r1": [
+    "táta-ka"
+   ],
+   "prea|r0": [
+    "tatá-ka"
+   ],
+   "prea|r1": [
+    "táta-ka"
+   ]
+  }
+ },
+ "exchange": {
+  "jp": {
+   "examples": [
+    [
+     "r1+prea+dom1",
+     "tátá-ká-ka",
+     "761/2",
+     "1621/4",
+     false
+    ],
+    [
+     "r1+prea+dom1",
+     "tátá-ka-ká",
+     "2233/4",
+     "583",
+     false
+    ],
+    [
+     "r1+prea+dom1",
+     "tátá-ká-ka",
+     "761/2",
+     "1621/4",
+     false
+    ],
+    [
+     "r1+prea+dom1",
+     "tatá-ká-ká",
+     "765/2",
+     "1629/4",
+     false
+    ],
+    [
+     "r1+prea+dom1",
+     "tátá-ka-ká",
+     "2177/4",
+     "569",
+     false
+    ],
+    [
+     "r1+prea+dom1",
+     "tatá-ká-ká",
+     "737/2",
+     "1573/4",
+     false
+    ]
+   ],
+   "exchanges": 3028,
+   "failures_under_premise": 0,
+   "failures_without_premise": 6,
+   "with_premise": 1958
+  },
+  "premise_boundary_jp": {
+   "r1+prea+dom0": {
+    "best": "341/4",
+    "winners": [
+     "tatá-ka-ka"
+    ]
+   },
+   "ta1+dom0": {
+    "best": "75",
+    "winners": [
+     "ta-ka"
+    ]
+   },
+   "ta1+prea+dom0": {
+    "best": "81",
+    "winners": [
+     "tá-ka-ka"
+    ]
+   }
+  },
+  "ru": {
+   "examples": [],
+   "exchanges": 3028,
+   "failures_under_premise": 0,
+   "failures_without_premise": 0,
+   "with_premise": 3028
+  }
+ },
+ "family": {
+  "jp": {
+   "L1_failures": [],
+   "L3_failures": [
+    "r2+prea+dom0",
+    "r2+prea+dom1",
+    "r2+preb+dom0",
+    "r2+preb+dom1"
+   ],
+   "items": 129,
+   "rows": {
+    "r0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata"
+     ]
+    },
+    "r0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka"
+     ],
+     "winners": [
+      "tata-ka"
+     ]
+    },
+    "r0+dom0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+dom0+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom0+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r0+dom1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+dom1+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r0+prea+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+prea": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0,
+      1
+     ],
+     "winners": [
+      "tata-ká-ka",
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+preb": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+rec0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+rec1": {
+     "k": null,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r0+preb+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+prea": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+preb+preb": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0,
+      1
+     ],
+     "winners": [
+      "tata-ká-ka",
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+rec0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+rec1": {
+     "k": null,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+rec0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ka"
+     ]
+    },
+    "r0+rec0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec0+prea": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+preb": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+rec0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec0+rec1": {
+     "k": null,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec1": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r0+rec1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec1+prea": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+preb": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+rec0": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+rec1": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta"
+     ]
+    },
+    "r1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka"
+     ],
+     "winners": [
+      "tata-ka"
+     ]
+    },
+    "r1+dom0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+dom0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom0+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+dom0+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r1+dom1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+dom1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom1+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r1+prea+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tatá-ká-ka"
+     ]
+    },
+    "r1+prea+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka"
+     ]
+    },
+    "r1+preb+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+preb+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka"
+     ]
+    },
+    "r1+rec0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+rec0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+rec0+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+rec0+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka"
+     ]
+    },
+    "r1+rec1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+rec1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+rec1+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r2": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá"
+     ]
+    },
+    "r2+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka"
+     ],
+     "winners": [
+      "tata-ka"
+     ]
+    },
+    "r2+dom0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+dom0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom0+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+dom0+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r2+dom1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+dom1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom1+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r2+prea+dom0": {
+     "L1": true,
+     "L3": false,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+prea+dom1": {
+     "L1": true,
+     "L3": false,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+prea+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+prea+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r2+preb+dom0": {
+     "L1": true,
+     "L3": false,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+preb+dom1": {
+     "L1": true,
+     "L3": false,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+preb+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+preb+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r2+rec0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+rec0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec0+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+rec0+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r2+rec1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+rec1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec1+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    }
+   },
+   "with_dominant": 66
+  },
+  "ru": {
+   "L1_failures": [],
+   "L3_failures": [
+    "r2+preb+dom0",
+    "r2+preb+dom1"
+   ],
+   "items": 129,
+   "rows": {
+    "r0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá"
+     ]
+    },
+    "r0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r0+dom0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+dom0+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r0+dom1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+dom1+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r0+prea+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+prea+prea": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+preb": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+rec0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+rec1": {
+     "k": null,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+preb": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r0+preb+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+prea": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+preb": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+preb+rec0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+rec1": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+rec0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r0+rec0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec0+prea": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+preb": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+rec0": {
+     "k": null,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+rec1": {
+     "k": null,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec1": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r0+rec1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec1+prea": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+preb": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+rec0": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+rec1": {
+     "k": null,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta"
+     ]
+    },
+    "r1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r1+dom0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom0+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r1+dom1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom1+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka"
+     ]
+    },
+    "r1+prea+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+prea+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+prea+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+prea+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+prea+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+prea+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka"
+     ]
+    },
+    "r1+preb+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      0
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka"
+     ]
+    },
+    "r1+rec0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+rec0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+rec0+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka"
+     ]
+    },
+    "r1+rec1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+rec1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+rec1+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "táta-ka-ka"
+     ]
+    },
+    "r2": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá"
+     ]
+    },
+    "r2+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r2+dom0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom0+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká"
+     ],
+     "winners": [
+      "tata-ká"
+     ]
+    },
+    "r2+dom1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom1+prea": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+preb": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+rec0": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+rec1": {
+     "L1": true,
+     "L3": true,
+     "k": 1,
+     "kept": [
+      [
+       1
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r2+prea+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+prea+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+prea+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r2+preb+dom0": {
+     "L1": true,
+     "L3": false,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+preb+dom1": {
+     "L1": true,
+     "L3": false,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tatá-ka-ka"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+preb+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r2+rec0+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+rec0+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec0+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka"
+     ]
+    },
+    "r2+rec1+dom0": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      []
+     ],
+     "made": [
+      1
+     ],
+     "reduced_winners": [
+      "tata-ká-ka"
+     ],
+     "winners": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+rec1+dom1": {
+     "L1": true,
+     "L3": true,
+     "k": 2,
+     "kept": [
+      [
+       2
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "reduced_winners": [
+      "tata-ka-ká"
+     ],
+     "winners": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec1+prea": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1+preb": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1+rec0": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1+rec1": {
+     "k": null,
+     "kept": [
+      [
+       0
+      ]
+     ],
+     "made": [
+      null
+     ],
+     "winners": [
+      "tatá-ka-ka"
+     ]
+    }
+   },
+   "with_dominant": 66
+  }
+ },
+ "lambda": "1/8",
+ "languages": {
+  "cu": {
+   "ayu_qa": {
+    "agrees": true,
+    "candidates": 34,
+    "expected": "ʔáyu-qa",
+    "input": "ʔáyu-qá",
+    "locator": "(2.30b)",
+    "winners": [
+     "ʔáyu-qa"
+    ]
+   },
+   "kwa_i_qa_te": {
+    "agrees": true,
+    "candidates": 73,
+    "expected": "kwa-í-qa-te",
+    "input": "kwa-í-qá-te",
+    "locator": "(2.48b)",
+    "winners": [
+     "kwa-í-qa-te"
+    ]
+   },
+   "max_em": {
+    "agrees": true,
+    "candidates": 3,
+    "expected": "máx-em",
+    "input": "max-em",
+    "locator": "(2.28b)",
+    "winners": [
+     "máx-em"
+    ]
+   },
+   "meme_yke": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "méme-yke",
+    "input": "méme-yke",
+    "locator": "(2.43a)",
+    "winners": [
+     "méme-yke"
+    ]
+   },
+   "mi_ne_tew": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "mi-né-tew",
+    "input": "mi-né-tew",
+    "locator": "(2.29a)",
+    "winners": [
+     "mi-né-tew"
+    ]
+   },
+   "ne_ma_ci": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "ne-má-či",
+    "input": "né-ma-či",
+    "locator": "(2.40)",
+    "winners": [
+     "ne-má-či"
+    ]
+   },
+   "ne_max_i_ve_ngax": {
+    "agrees": true,
+    "candidates": 136,
+    "expected": "ne-max-í-ve-ŋax",
+    "input": "né-max-í-ve-ŋax",
+    "locator": "(2.48c)",
+    "winners": [
+     "ne-max-í-ve-ŋax"
+    ]
+   },
+   "ne_ngiy_qal_i_pe": {
+    "agrees": true,
+    "candidates": 1546,
+    "expected": "ne-ŋíy-qal-i-pe",
+    "input": "né-ŋíy-qál-í-pe",
+    "locator": "(2.31)",
+    "winners": [
+     "ne-ŋíy-qal-i-pe"
+    ]
+   },
+   "ne_wen_qal": {
+    "agrees": true,
+    "candidates": 34,
+    "expected": "ne-wen-qál",
+    "input": "né-wen-qál",
+    "locator": "(2.26b)",
+    "winners": [
+     "ne-wen-qál"
+    ]
+   },
+   "ne_yax": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "né-yax",
+    "input": "né-yax",
+    "locator": "(2.24a)",
+    "winners": [
+     "né-yax"
+    ]
+   },
+   "pacike_i_ce": {
+    "agrees": true,
+    "candidates": 136,
+    "expected": "páčike-i-če",
+    "input": "páčike-í-če",
+    "locator": "(2.47)",
+    "winners": [
+     "páčike-i-če"
+    ]
+   },
+   "pe_miaw_lu": {
+    "agrees": true,
+    "candidates": 73,
+    "expected": "pe-míʔaw-lu",
+    "input": "pé-míʔaw-lu",
+    "locator": "(2.30a)",
+    "winners": [
+     "pe-míʔaw-lu"
+    ]
+   },
+   "pe_pulin_qal": {
+    "agrees": true,
+    "candidates": 209,
+    "expected": "pe-pulín-qal",
+    "input": "pé-pulín-qál",
+    "locator": "(2.31)",
+    "winners": [
+     "pe-pulín-qal"
+    ]
+   },
+   "pe_tama_nga": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "pe-tamá-ŋa",
+    "input": "pé-tama-ŋa",
+    "locator": "(2.42)",
+    "winners": [
+     "pe-tamá-ŋa"
+    ]
+   },
+   "pe_tul_qa": {
+    "agrees": true,
+    "candidates": 73,
+    "expected": "pe-túl-qa",
+    "input": "pé-túl-qá",
+    "locator": "(2.31)",
+    "winners": [
+     "pe-túl-qa"
+    ]
+   },
+   "pe_yax": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "pé-yax",
+    "input": "pé-yax",
+    "locator": "(2.24a)",
+    "winners": [
+     "pé-yax"
+    ]
+   },
+   "pe_yax_qal": {
+    "agrees": true,
+    "candidates": 34,
+    "expected": "pe-yax-qál",
+    "input": "pé-yax-qál",
+    "locator": "(2.24b)",
+    "winners": [
+     "pe-yax-qál"
+    ]
+   },
+   "tivie_maa_le": {
+    "agrees": true,
+    "candidates": 31,
+    "expected": "tíviʔe-maa-le",
+    "input": "tíviʔe-maa-le",
+    "locator": "(2.43b)",
+    "winners": [
+     "tíviʔe-maa-le"
+    ]
+   },
+   "wena_nuk": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "wená-nuk",
+    "input": "wena-nuk",
+    "locator": "§2.4.3, paragraph before (2.40); (5.61a)",
+    "winners": [
+     "wená-nuk"
+    ]
+   },
+   "wiwe_i_ce": {
+    "agrees": true,
+    "candidates": 73,
+    "expected": "wíwe-i-če",
+    "input": "wíwe-í-če",
+    "locator": "(2.47)",
+    "winners": [
+     "wíwe-i-če"
+    ]
+   },
+   "yax_em": {
+    "agrees": true,
+    "candidates": 3,
+    "expected": "yáx-em",
+    "input": "yax-em",
+    "locator": "(2.28a)",
+    "winners": [
+     "yáx-em"
+    ]
+   },
+   "yax_i_qa_te": {
+    "agrees": true,
+    "candidates": 73,
+    "expected": "yax-í-qa-te",
+    "input": "yax-í-qá-te",
+    "locator": "(2.48a)",
+    "winners": [
+     "yax-í-qa-te"
+    ]
+   },
+   "yax_qal_i": {
+    "agrees": true,
+    "candidates": 34,
+    "expected": "yax-qal-í",
+    "input": "yax-qál-í",
+    "locator": "(2.27)",
+    "winners": [
+     "yax-qal-í"
+    ]
+   }
+  },
+  "jp": {
+   "abura_ppo": {
+    "agrees": true,
+    "candidates": 31,
+    "expected": "abura-ppó-i",
+    "input": "abura-ppó-i",
+    "locator": "(5.8a)",
+    "winners": [
+     "abura-ppó-i"
+    ]
+   },
+   "ada_ppo": {
+    "agrees": true,
+    "candidates": 73,
+    "expected": "ada-ppó-i",
+    "input": "adá-ppó-i",
+    "locator": "(5.8b)",
+    "winners": [
+     "ada-ppó-i"
+    ]
+   },
+   "andoo_ke": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "andóo-ke",
+    "input": "ándoo-ke",
+    "locator": "(5.77b)",
+    "winners": [
+     "andóo-ke"
+    ]
+   },
+   "atama": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "atamá",
+    "input": "atamá",
+    "locator": "(3.35)",
+    "winners": [
+     "atamá"
+    ]
+   },
+   "atama_no": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "atama-no",
+    "input": "atamá-no",
+    "locator": "(5.41a)",
+    "winners": [
+     "atama-no"
+    ]
+   },
+   "edo_kko": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "edo-kko",
+    "input": "edo-kko",
+    "locator": "(5.9a)",
+    "winners": [
+     "edo-kko"
+    ]
+   },
+   "ehon_no": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "ehóN-no",
+    "input": "ehóN-no",
+    "locator": "(5.41c): /ehóN + no/ → ehón no; N the moraic nasal",
+    "winners": [
+     "ehóN-no"
+    ]
+   },
+   "ha_no": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "há-no",
+    "input": "há-no",
+    "locator": "(5.41d)",
+    "winners": [
+     "há-no"
+    ]
+   },
+   "hasi_0": {
+    "agrees": true,
+    "candidates": 3,
+    "expected": "hasi",
+    "input": "hasi",
+    "locator": "(3.33)",
+    "winners": [
+     "hasi"
+    ]
+   },
+   "hasi_1": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "hási",
+    "input": "hási",
+    "locator": "(3.33)",
+    "winners": [
+     "hási"
+    ]
+   },
+   "hasi_2": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "hasí",
+    "input": "hasí",
+    "locator": "(3.33)",
+    "winners": [
+     "hasí"
+    ]
+   },
+   "hon_no": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "hóN-no",
+    "input": "hóN-no",
+    "locator": "(5.41d): /hón + no/ → hón no",
+    "winners": [
+     "hóN-no"
+    ]
+   },
+   "hukoo_no": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "hukóo-no",
+    "input": "hukóo-no",
+    "locator": "(5.41c)",
+    "winners": [
+     "hukóo-no"
+    ]
+   },
+   "inoti": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "ínoti",
+    "input": "ínoti",
+    "locator": "(3.35)",
+    "winners": [
+     "ínoti"
+    ]
+   },
+   "inoti_nagara": {
+    "agrees": true,
+    "candidates": 43,
+    "expected": "inoti-nágara",
+    "input": "ínoti-nagara",
+    "locator": "§5.4.3",
+    "winners": [
+     "inoti-nágara"
+    ]
+   },
+   "kaki_mono": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "kakí-mono",
+    "input": "káki-mono",
+    "locator": "(5.114a)",
+    "winners": [
+     "kakí-mono"
+    ]
+   },
+   "kaki_te": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "kaki-té",
+    "input": "káki-te",
+    "locator": "(5.116a)",
+    "winners": [
+     "kaki-té"
+    ]
+   },
+   "katari_te": {
+    "agrees": true,
+    "candidates": 5,
+    "expected": "katari-te",
+    "input": "katari-te",
+    "locator": "(5.116b)",
+    "winners": [
+     "katari-te"
+    ]
+   },
+   "kawa_no": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "kawa-no",
+    "input": "kawá-no",
+    "locator": "(5.41a)",
+    "winners": [
+     "kawa-no"
+    ]
+   },
+   "kiza_ppo": {
+    "agrees": true,
+    "candidates": 73,
+    "expected": "kiza-ppó-i",
+    "input": "kíza-ppó-i",
+    "locator": "(5.8b)",
+    "winners": [
+     "kiza-ppó-i"
+    ]
+   },
+   "kokoro": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "kokóro",
+    "input": "kokóro",
+    "locator": "(3.35)",
+    "winners": [
+     "kokóro"
+    ]
+   },
+   "kona_ya": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "koná-ya",
+    "input": "koná-ya",
+    "locator": "(5.115a)",
+    "winners": [
+     "koná-ya"
+    ]
+   },
+   "koobe_kko": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "koobe-kko",
+    "input": "kóobe-kko",
+    "locator": "(5.9b)",
+    "winners": [
+     "koobe-kko"
+    ]
+   },
+   "kuzu_ya": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "kuzú-ya",
+    "input": "kúzu-ya",
+    "locator": "(5.115a)",
+    "winners": [
+     "kuzú-ya"
+    ]
+   },
+   "kyoo_no": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "kyóo-no",
+    "input": "kyóo-no",
+    "locator": "(5.41d)",
+    "winners": [
+     "kyóo-no"
+    ]
+   },
+   "ma_futatu": {
+    "agrees": true,
+    "candidates": 5,
+    "expected": "ma-fútatu",
+    "input": "ma-futatu",
+    "locator": "(5.72a)",
+    "winners": [
+     "ma-fútatu"
+    ]
+   },
+   "ma_yonaka": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "ma-yónaka",
+    "input": "ma-yonaká",
+    "locator": "(5.72a)",
+    "winners": [
+     "ma-yónaka"
+    ]
+   },
+   "miyako": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "miyako",
+    "input": "miyako",
+    "locator": "(3.35)",
+    "winners": [
+     "miyako"
+    ]
+   },
+   "miyako_nagara": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "miyako-nagara",
+    "input": "miyako-nagara",
+    "locator": "§5.4.3",
+    "winners": [
+     "miyako-nagara"
+    ]
+   },
+   "nisimura_ke": {
+    "agrees": true,
+    "candidates": 31,
+    "expected": "nisimurá-ke",
+    "input": "nisímura-ke",
+    "locator": "(5.77b)",
+    "winners": [
+     "nisimurá-ke"
+    ]
+   },
+   "nisimura_si": {
+    "agrees": true,
+    "candidates": 31,
+    "expected": "nisímura-si",
+    "input": "nisímura-si",
+    "locator": "(5.81b)",
+    "winners": [
+     "nisímura-si"
+    ]
+   },
+   "nori_mono": {
+    "agrees": true,
+    "candidates": 5,
+    "expected": "nori-mono",
+    "input": "nori-mono",
+    "locator": "(5.114b)",
+    "winners": [
+     "nori-mono"
+    ]
+   },
+   "nyuuyooku_kko": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "nyuuyooku-kko",
+    "input": "nyuuyóoku-kko",
+    "locator": "(5.9b)",
+    "winners": [
+     "nyuuyooku-kko"
+    ]
+   },
+   "satoo_si": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "sátoo-si",
+    "input": "sátoo-si",
+    "locator": "(5.81b)",
+    "winners": [
+     "sátoo-si"
+    ]
+   },
+   "toma_ya": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "toma-ya",
+    "input": "toma-ya",
+    "locator": "(5.115b)",
+    "winners": [
+     "toma-ya"
+    ]
+   },
+   "umi_no": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "úmi-no",
+    "input": "úmi-no",
+    "locator": "(5.41b)",
+    "winners": [
+     "úmi-no"
+    ]
+   },
+   "utiwa_no": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "utíwa-no",
+    "input": "utíwa-no",
+    "locator": "(5.41b)",
+    "winners": [
+     "utíwa-no"
+    ]
+   },
+   "wasure_mono": {
+    "agrees": true,
+    "candidates": 6,
+    "expected": "wasure-mono",
+    "input": "wasure-mono",
+    "locator": "(5.114b)",
+    "winners": [
+     "wasure-mono"
+    ]
+   },
+   "yob_tara": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "yob-tára",
+    "input": "yob-tára",
+    "locator": "(5.10b)",
+    "winners": [
+     "yob-tára"
+    ]
+   },
+   "yom_tara": {
+    "agrees": true,
+    "candidates": 34,
+    "expected": "yóm-tara",
+    "input": "yóm-tára",
+    "locator": "(5.10b)",
+    "winners": [
+     "yóm-tara"
+    ]
+   },
+   "yomi_mono": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "yomí-mono",
+    "input": "yómi-mono",
+    "locator": "(5.114a)",
+    "winners": [
+     "yomí-mono"
+    ]
+   },
+   "yosida_ke": {
+    "agrees": true,
+    "candidates": 5,
+    "expected": "yosidá-ke",
+    "input": "yosida-ke",
+    "locator": "(5.77a)",
+    "winners": [
+     "yosidá-ke"
+    ]
+   },
+   "yosida_si": {
+    "agrees": true,
+    "candidates": 5,
+    "expected": "yosidá-si",
+    "input": "yosida-si",
+    "locator": "(5.81a)",
+    "winners": [
+     "yosidá-si"
+    ]
+   }
+  },
+  "ru": {
+   "borod_ac_u": {
+    "agrees": true,
+    "candidates": 5,
+    "expected": "borod-ač-ú",
+    "input": "borod-ač-u",
+    "locator": "(5.24c)",
+    "winners": [
+     "borod-ač-ú"
+    ]
+   },
+   "cast_ic_a": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "čast-íc-a",
+    "input": "čast-íc-a",
+    "locator": "(5.21b)",
+    "winners": [
+     "čast-íc-a"
+    ]
+   },
+   "izb_ac_u": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "izb-ač-ú",
+    "input": "izb-ač-u",
+    "locator": "(5.24b)",
+    "winners": [
+     "izb-ač-ú"
+    ]
+   },
+   "kolbas_am": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "kolbás-am",
+    "input": "kolbas-am",
+    "locator": "(5.35b)",
+    "winners": [
+     "kolbás-am"
+    ]
+   },
+   "kolbas_e": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "kolbas-é",
+    "input": "kolbas-e",
+    "locator": "(5.35b)",
+    "winners": [
+     "kolbas-é"
+    ]
+   },
+   "kolokol_am": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "kolokol-ám",
+    "input": "kólokol-am",
+    "locator": "(5.35a)",
+    "winners": [
+     "kolokol-ám"
+    ]
+   },
+   "kolokol_u": {
+    "agrees": true,
+    "candidates": 21,
+    "expected": "kólokol-u",
+    "input": "kólokol-u",
+    "locator": "(5.35a)",
+    "winners": [
+     "kólokol-u"
+    ]
+   },
+   "komnat_i": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "kómnat-i",
+    "input": "kómnat-i",
+    "locator": "(3.19a)",
+    "winners": [
+     "kómnat-i"
+    ]
+   },
+   "luz_ic_a": {
+    "agrees": true,
+    "candidates": 34,
+    "expected": "lúž-ic-a",
+    "input": "lúž-íc-a",
+    "locator": "(5.21a)",
+    "winners": [
+     "lúž-ic-a"
+    ]
+   },
+   "master_a": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "master-á",
+    "input": "máster-a",
+    "locator": "(5.25)",
+    "winners": [
+     "master-á"
+    ]
+   },
+   "promysl_i": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "prómɨsl-i",
+    "input": "prómɨsl-i",
+    "locator": "§5.2.3, paragraph after (5.25): prómysl-i, y = ɨ",
+    "winners": [
+     "prómɨsl-i"
+    ]
+   },
+   "puz_ac_u": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "puz-ač-ú",
+    "input": "púz-ač-u",
+    "locator": "(5.24a)",
+    "winners": [
+     "puz-ač-ú"
+    ]
+   },
+   "rak_ami": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "rák-ami",
+    "input": "rák-ami",
+    "locator": "(3.11)",
+    "winners": [
+     "rák-ami"
+    ]
+   },
+   "rak_i_acc": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "rák-i",
+    "input": "rák-í",
+    "locator": "(3.17)",
+    "winners": [
+     "rák-i"
+    ]
+   },
+   "rak_u": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "rák-u",
+    "input": "rák-u",
+    "locator": "(3.11)",
+    "winners": [
+     "rák-u"
+    ]
+   },
+   "rukav_a": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "rukav-á",
+    "input": "rukáv-a",
+    "locator": "(5.25)",
+    "winners": [
+     "rukav-á"
+    ]
+   },
+   "siv_ux_a": {
+    "agrees": true,
+    "candidates": 34,
+    "expected": "siv-úx-a",
+    "input": "sív-úx-a",
+    "locator": "(5.23a)",
+    "winners": [
+     "siv-úx-a"
+    ]
+   },
+   "skak_ux_a": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "skak-úx-a",
+    "input": "skak-úx-a",
+    "locator": "(5.23b)",
+    "winners": [
+     "skak-úx-a"
+    ]
+   },
+   "stol_ami": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "stol-ámi",
+    "input": "stol-ami",
+    "locator": "(3.20b)",
+    "winners": [
+     "stol-ámi"
+    ]
+   },
+   "stol_i_acc": {
+    "agrees": true,
+    "candidates": 7,
+    "expected": "stol-í",
+    "input": "stol-í",
+    "locator": "(3.23b')",
+    "winners": [
+     "stol-í"
+    ]
+   },
+   "stol_u": {
+    "agrees": true,
+    "candidates": 3,
+    "expected": "stol-ú",
+    "input": "stol-u",
+    "locator": "(3.12)",
+    "winners": [
+     "stol-ú"
+    ]
+   },
+   "tetrad_i": {
+    "agrees": true,
+    "candidates": 13,
+    "expected": "tetrád-i",
+    "input": "tetrád-i",
+    "locator": "(3.19b)",
+    "winners": [
+     "tetrád-i"
+    ]
+   },
+   "topor_0": {
+    "agrees": true,
+    "candidates": 3,
+    "expected": "topór",
+    "input": "topor",
+    "locator": "(3.21)",
+    "winners": [
+     "topór"
+    ]
+   },
+   "topor_u": {
+    "agrees": true,
+    "candidates": 4,
+    "expected": "topor-ú",
+    "input": "topor-u",
+    "locator": "(3.21)",
+    "winners": [
+     "topor-ú"
+    ]
+   },
+   "vi_pisat": {
+    "agrees": true,
+    "candidates": 34,
+    "expected": "ví-p'isa-t'",
+    "input": "ví-p'isá-t'",
+    "locator": "(3.30): p'isát' → ví-p'isat'; analysed as a dominant prefix in §5.2.3",
+    "winners": [
+     "ví-p'isa-t'"
+    ]
+   }
+  }
+ },
+ "references": {
+  "jp": {
+   "items": 129,
+   "reset_differs": [
+    "r0+prea+dom0",
+    "r1+prea+dom0",
+    "r0+prea+dom1",
+    "r1+prea+dom1",
+    "r0+prea+prea",
+    "r1+prea+prea",
+    "r0+preb+dom0",
+    "r0+preb+dom1",
+    "r0+preb+preb",
+    "r1+rec1+prea",
+    "r2+rec1+prea"
+   ],
+   "rows": {
+    "r0": {
+     "base_changed": [],
+     "fixed": [
+      "tata"
+     ],
+     "reset": [
+      "tata"
+     ],
+     "two": [
+      "tata"
+     ]
+    },
+    "r0+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka"
+     ],
+     "reset": [
+      "tata-ka"
+     ],
+     "two": [
+      "tata-ka"
+     ]
+    },
+    "r0+dom0+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom0+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom0+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom0+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r0+dom1+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom1+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+dom1+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r0+prea+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka",
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+prea+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r0+preb+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+preb+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+preb+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+preb+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka",
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+preb+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+preb+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka"
+     ],
+     "reset": [
+      "tata-ka"
+     ],
+     "two": [
+      "tata-ka"
+     ]
+    },
+    "r0+rec0+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec0+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec0+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec0+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r0+rec1+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec1+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r0+rec1+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1": {
+     "base_changed": [],
+     "fixed": [
+      "táta"
+     ],
+     "reset": [
+      "táta"
+     ],
+     "two": [
+      "táta"
+     ]
+    },
+    "r1+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka"
+     ],
+     "reset": [
+      "tata-ka"
+     ],
+     "two": [
+      "tata-ka"
+     ]
+    },
+    "r1+dom0+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r1+dom1+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+dom1+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r1+prea+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+prea+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+prea+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka"
+     ],
+     "reset": [
+      "táta-ka"
+     ],
+     "two": [
+      "táta-ka"
+     ]
+    },
+    "r1+preb+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+preb+preb": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka"
+     ],
+     "reset": [
+      "táta-ka"
+     ],
+     "two": [
+      "táta-ka"
+     ]
+    },
+    "r1+rec0+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+rec0+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+rec0+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+rec0+preb": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka"
+     ],
+     "reset": [
+      "táta-ka"
+     ],
+     "two": [
+      "táta-ka"
+     ]
+    },
+    "r1+rec1+dom0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+rec1+dom1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r1+rec1+prea": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+rec1+preb": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+rec0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+rec1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r2": {
+     "base_changed": [],
+     "fixed": [
+      "tatá"
+     ],
+     "reset": [
+      "tatá"
+     ],
+     "two": [
+      "tatá"
+     ]
+    },
+    "r2+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka"
+     ],
+     "reset": [
+      "tata-ka"
+     ],
+     "two": [
+      "tata-ka"
+     ]
+    },
+    "r2+dom0+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r2+dom1+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r2+dom1+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r2+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r2+prea+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+prea+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+prea+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r2+preb+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+preb+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+preb+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+preb+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r2+rec0+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+rec0+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+rec0+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+rec0+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r2+rec1+dom0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+rec1+dom1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ka"
+     ]
+    },
+    "r2+rec1+prea": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+rec1+preb": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1+rec0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec1+rec1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    }
+   },
+   "two_differ": [
+    "r2+rec1",
+    "r1+dom0+dom0",
+    "r2+dom0+dom0",
+    "r0+dom0+dom1",
+    "r1+dom0+dom1",
+    "r2+dom0+dom1",
+    "r1+dom0+rec0",
+    "r2+dom0+rec0",
+    "r0+dom0+rec1",
+    "r1+dom0+rec1",
+    "r2+dom0+rec1",
+    "r1+dom1+dom0",
+    "r2+dom1+dom0",
+    "r0+dom1+dom1",
+    "r1+dom1+dom1",
+    "r2+dom1+dom1",
+    "r1+dom1+rec1",
+    "r2+dom1+rec1",
+    "r2+prea+dom0",
+    "r2+prea+dom1",
+    "r0+prea+prea",
+    "r1+prea+prea",
+    "r0+preb+dom0",
+    "r0+preb+dom1",
+    "r2+preb+dom1",
+    "r0+preb+preb",
+    "r0+preb+rec0",
+    "r0+rec0+dom1",
+    "r1+rec0+dom1",
+    "r2+rec0+dom1",
+    "r0+rec0+rec1",
+    "r0+rec1+dom1",
+    "r1+rec1+dom1",
+    "r2+rec1+dom1",
+    "r1+rec1+prea",
+    "r2+rec1+prea"
+   ],
+   "two_reference_witness": {
+    "ALIGN_L_PWD": "833333333333333/500000000000000",
+    "ANTI_DEL": "1000",
+    "ANTI_DEL_ADJ": "3",
+    "ANTI_EXPEL": "1000",
+    "ANTI_PRE_A": "1000",
+    "ANTI_PRE_B": "3",
+    "ANTI_SHIFT": "1000",
+    "CULM": "1000",
+    "MAXLINK_X": "1000",
+    "MAX_INIT": "9999999999999999/5000000000000000",
+    "MAX_R": "3666666666666667/1000000000000000",
+    "OO_DEP": "1",
+    "OO_MAX": "6333333333333333/1000000000000000",
+    "OO_MAXLINK": "11",
+    "PSP": "3166666666666667/500000000000000"
+   }
+  },
+  "printed_separations": {
+   "cu": {
+    "kwa_i_qa_te": {
+     "base_changed": [
+      0,
+      1,
+      2
+     ],
+     "fixed": [
+      "kwa-í-qa-te"
+     ],
+     "reset": [
+      "kwá-i-qa-te"
+     ],
+     "two": [
+      "kwa-í-qa-te"
+     ]
+    },
+    "wena_nuk": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "wená-nuk"
+     ],
+     "reset": [
+      "wéna-nuk"
+     ],
+     "two": [
+      "wená-nuk"
+     ]
+    },
+    "yax_i_qa_te": {
+     "base_changed": [
+      0,
+      1,
+      2
+     ],
+     "fixed": [
+      "yax-í-qa-te"
+     ],
+     "reset": [
+      "yáx-i-qa-te"
+     ],
+     "two": [
+      "yax-í-qa-te"
+     ]
+    },
+    "yax_qal_i": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "yax-qal-í"
+     ],
+     "reset": [
+      "yáx-qal-i"
+     ],
+     "two": [
+      "yax-qal-í"
+     ]
+    }
+   },
+   "jp": {},
+   "ru": {
+    "borod_ac_u": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "borod-ač-ú"
+     ],
+     "reset": [
+      "borod-áč-u"
+     ],
+     "two": [
+      "borod-ač-ú"
+     ]
+    },
+    "cast_ic_a": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "čast-íc-a"
+     ],
+     "reset": [
+      "část-ic-a"
+     ],
+     "two": [
+      "čast-íc-a"
+     ]
+    },
+    "izb_ac_u": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "izb-ač-ú"
+     ],
+     "reset": [
+      "izb-áč-u"
+     ],
+     "two": [
+      "izb-ač-ú"
+     ]
+    },
+    "kolbas_e": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "kolbas-é"
+     ],
+     "reset": [
+      "kolbás-e"
+     ],
+     "two": [
+      "kolbas-é"
+     ]
+    },
+    "puz_ac_u": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "puz-ač-ú"
+     ],
+     "reset": [
+      "puz-áč-u"
+     ],
+     "two": [
+      "puz-ač-ú"
+     ]
+    },
+    "stol_ami": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "stol-ámi"
+     ],
+     "reset": [
+      "stól-ami"
+     ],
+     "two": [
+      "stol-ámi"
+     ]
+    },
+    "stol_i_acc": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "stol-í"
+     ],
+     "reset": [
+      "stól-i"
+     ],
+     "two": [
+      "stol-í"
+     ]
+    },
+    "stol_u": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "stol-ú"
+     ],
+     "reset": [
+      "stól-u"
+     ],
+     "two": [
+      "stol-ú"
+     ]
+    },
+    "topor_u": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "topor-ú"
+     ],
+     "reset": [
+      "topór-u"
+     ],
+     "two": [
+      "topor-ú"
+     ]
+    }
+   }
+  },
+  "regions": {
+   "cu": {
+    "fixed": {
+     "choice": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1
+     ],
+     "feasible": true,
+     "items": 23,
+     "slack": 0.9999999999999996,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ALIGN_R_ALL": "2499999999999999/2500000000000000",
+      "ANTI_PRE_B": "5000000000000001/2500000000000000",
+      "CULM": "1000",
+      "DEP": "7/8",
+      "HEAD": "1000",
+      "INIT": "9",
+      "LOCAL": "1000",
+      "MAXLINK_R": "1000",
+      "MAXLINK_X": "1000",
+      "MAX_INIT": "1000",
+      "MAX_R": "1000",
+      "MAX_S": "2"
+     }
+    },
+    "reset": {
+     "conclusive": false,
+     "feasible": null,
+     "items": 23,
+     "note": "no polyhedron found by the alternating search",
+     "status": "UNRESOLVED_ALTERNATING_SEARCH",
+     "targets_absent_from_gen": []
+    },
+    "two_recursive_copies_ge_1": {
+     "choice": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      1,
+      0,
+      0,
+      1,
+      1,
+      3,
+      3,
+      2,
+      2,
+      1
+     ],
+     "feasible": true,
+     "items": 23,
+     "slack": 1.0,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ALIGN_R": "1/32",
+      "ALIGN_R_ALL": "1/2",
+      "ANTI_PRE_B": "319/128",
+      "CULM": "1000",
+      "HEAD": "1000",
+      "INIT": "7/16",
+      "LOCAL": "1000",
+      "MAXLINK_R": "1000",
+      "MAXLINK_X": "1000",
+      "MAX_INIT": "1000",
+      "MAX_R": "1000",
+      "MAX_S": "2",
+      "NONFINAL": "1/16",
+      "OO_DEP": "1",
+      "OO_MAX": "1",
+      "OO_MAXLINK": "1"
+     }
+    },
+    "two_recursive_copies_only_language_vector_fixed": {
+     "choice": [
+      1,
+      1,
+      1,
+      2,
+      1,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      1,
+      0,
+      0,
+      1,
+      1,
+      3,
+      3,
+      2,
+      2,
+      1
+     ],
+     "feasible": true,
+     "items": 23,
+     "slack": 1.0,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ALIGN_R": "1",
+      "ANTI_PRE_B": "20",
+      "CULM": "200",
+      "DEP": "4",
+      "HEAD": "200",
+      "INIT": "8",
+      "LOCAL": "12",
+      "MAXLINK_R": "60",
+      "MAXLINK_X": "12",
+      "MAX_A": "12",
+      "MAX_R": "60",
+      "MAX_S": "30"
+     }
+    },
+    "two_to_last_class_copies_ge_1": {
+     "conclusive": false,
+     "feasible": null,
+     "items": 23,
+     "note": "no polyhedron found by the alternating search",
+     "status": "UNRESOLVED_ALTERNATING_SEARCH",
+     "targets_absent_from_gen": []
+    }
+   },
+   "jp": {
+    "fixed": {
+     "choice": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "feasible": true,
+     "items": 43,
+     "slack": 1.0,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ANTI_DEL": "1000",
+      "ANTI_DEL_ADJ": "3",
+      "ANTI_EXPEL": "1000",
+      "ANTI_PRE_A": "1000",
+      "ANTI_PRE_B": "3",
+      "ANTI_SHIFT": "1000",
+      "CULM": "1000",
+      "INIT": "8",
+      "MAXLINK_R": "11",
+      "MAXLINK_X": "1000",
+      "MAX_A": "1",
+      "MAX_INIT": "2",
+      "MAX_R": "10",
+      "PSP": "8"
+     }
+    },
+    "reset": {
+     "choice": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "feasible": true,
+     "items": 43,
+     "slack": 1.0,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ANTI_DEL": "1000",
+      "ANTI_DEL_ADJ": "3",
+      "ANTI_EXPEL": "1000",
+      "ANTI_PRE_A": "1000",
+      "ANTI_PRE_B": "3",
+      "ANTI_SHIFT": "1000",
+      "CULM": "1000",
+      "INIT": "8",
+      "MAXLINK_R": "11",
+      "MAXLINK_X": "1000",
+      "MAX_A": "1",
+      "MAX_INIT": "2",
+      "MAX_R": "10",
+      "PSP": "8"
+     }
+    },
+    "two_recursive_copies_ge_1": {
+     "choice": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "feasible": true,
+     "items": 43,
+     "slack": 0.9999999999999988,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ALIGN_L_PWD": "833333333333333/500000000000000",
+      "ANTI_DEL": "1000",
+      "ANTI_DEL_ADJ": "3",
+      "ANTI_EXPEL": "1000",
+      "ANTI_PRE_A": "1000",
+      "ANTI_PRE_B": "3",
+      "ANTI_SHIFT": "1000",
+      "CULM": "1000",
+      "MAXLINK_X": "1000",
+      "MAX_INIT": "9999999999999999/5000000000000000",
+      "MAX_R": "3666666666666667/1000000000000000",
+      "OO_DEP": "1",
+      "OO_MAX": "6333333333333333/1000000000000000",
+      "OO_MAXLINK": "11",
+      "PSP": "3166666666666667/500000000000000"
+     }
+    },
+    "two_recursive_copies_only_language_vector_fixed": {
+     "conclusive": false,
+     "feasible": null,
+     "items": 43,
+     "note": "no polyhedron found by the alternating search",
+     "status": "UNRESOLVED_ALTERNATING_SEARCH",
+     "targets_absent_from_gen": []
+    },
+    "two_to_last_class_copies_ge_1": {
+     "choice": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ],
+     "feasible": true,
+     "items": 43,
+     "slack": 1.0,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ALIGN_L_PWD": "8",
+      "ANTI_DEL": "1000",
+      "ANTI_DEL_ADJ": "3",
+      "ANTI_EXPEL": "1000",
+      "ANTI_PRE_A": "1000",
+      "ANTI_PRE_B": "3",
+      "ANTI_SHIFT": "1000",
+      "CULM": "1000",
+      "MAXLINK_R": "10",
+      "MAXLINK_X": "1000",
+      "MAX_INIT": "2",
+      "OO_DEP": "1",
+      "OO_MAX": "10",
+      "OO_MAXLINK": "1"
+     }
+    }
+   },
+   "ru": {
+    "fixed": {
+     "choice": [
+      1,
+      1,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      2
+     ],
+     "feasible": true,
+     "items": 25,
+     "slack": 1.0,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ALIGN_R_PWD": "8",
+      "ANTI_DEL": "1000",
+      "ANTI_PRE_B": "1000",
+      "CULM": "1000",
+      "DEP": "25",
+      "HEAD": "1000",
+      "LOCAL": "1000",
+      "MAXLINK_R": "1000",
+      "MAXLINK_X": "1000",
+      "MAX_INIT": "25",
+      "PSP": "16"
+     }
+    },
+    "reset": {
+     "conclusive": false,
+     "feasible": null,
+     "items": 25,
+     "note": "no polyhedron found by the alternating search",
+     "status": "UNRESOLVED_ALTERNATING_SEARCH",
+     "targets_absent_from_gen": []
+    },
+    "reset_pair_rak_u_stol_u": [
+     {
+      "pair": [
+       "rak_u",
+       "stol_u"
+      ],
+      "status": "UNRESOLVED_NUMERICAL_BRANCH_SEARCH"
+     }
+    ],
+    "two_recursive_copies_ge_1": {
+     "choice": [
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      2
+     ],
+     "feasible": true,
+     "items": 25,
+     "slack": 0.9999999999999982,
+     "status": "EXACT_BRANCH_WITNESS",
+     "targets_absent_from_gen": [],
+     "witness": {
+      "ALIGN_R_ALL": "3428571428571429/500000000000000",
+      "ALIGN_R_PWD": "2857142857142857/2500000000000000",
+      "ANTI_DEL": "1000",
+      "ANTI_PRE_B": "1000",
+      "CULM": "1000",
+      "DEP": "2428571428571429/500000000000000",
+      "HEAD": "1000",
+      "LOCAL": "1000",
+      "MAXLINK_R": "1000",
+      "MAXLINK_X": "1000",
+      "MAX_INIT": "11428571428571429/500000000000000",
+      "MAX_R": "2142857142857143/1000000000000000",
+      "MAX_S": "10071428571428571/500000000000000",
+      "OO_DEP": "1",
+      "OO_MAX": "17",
+      "OO_MAXLINK": "1",
+      "PSP": "16"
+     }
+    },
+    "two_recursive_copies_only_language_vector_fixed": {
+     "conclusive": false,
+     "feasible": null,
+     "items": 25,
+     "note": "no polyhedron found by the alternating search",
+     "status": "UNRESOLVED_ALTERNATING_SEARCH",
+     "targets_absent_from_gen": []
+    },
+    "two_to_last_class_copies_ge_1": {
+     "conclusive": false,
+     "feasible": null,
+     "items": 25,
+     "note": "no polyhedron found by the alternating search",
+     "status": "UNRESOLVED_ALTERNATING_SEARCH",
+     "targets_absent_from_gen": []
+    }
+   }
+  },
+  "ru": {
+   "items": 129,
+   "reset_differs": [
+    "r0+prea",
+    "r0+rec0",
+    "r0+rec1",
+    "r0+dom0+rec1",
+    "r1+dom0+rec1",
+    "r2+dom0+rec1",
+    "r0+prea+prea",
+    "r0+prea+preb",
+    "r0+prea+rec0",
+    "r0+prea+rec1",
+    "r0+preb+dom0",
+    "r0+preb+dom1",
+    "r0+preb+preb",
+    "r0+rec0+prea",
+    "r0+rec0+preb",
+    "r0+rec0+rec0",
+    "r0+rec0+rec1",
+    "r0+rec1+prea",
+    "r0+rec1+preb",
+    "r0+rec1+rec0",
+    "r0+rec1+rec1"
+   ],
+   "rows": {
+    "r0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá"
+     ],
+     "reset": [
+      "tatá"
+     ],
+     "two": [
+      "tatá"
+     ]
+    },
+    "r0+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r0+dom0+dom0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+dom1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+prea": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+preb": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+rec0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom0+rec1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r0+dom1+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+dom1+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+dom1+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+dom1+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r0+prea+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+prea+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r0+preb+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+preb+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+preb+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r0+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r0+rec0+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec0+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r0+rec1+dom0": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec1+dom1": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec1+prea": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec1+preb": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r0+rec1+rec0": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r0+rec1+rec1": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1": {
+     "base_changed": [],
+     "fixed": [
+      "táta"
+     ],
+     "reset": [
+      "táta"
+     ],
+     "two": [
+      "táta"
+     ]
+    },
+    "r1+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r1+dom0+dom0": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom0+dom1": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom0+prea": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom0+preb": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom0+rec0": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom0+rec1": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r1+dom1+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+dom1+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+prea": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka"
+     ],
+     "reset": [
+      "táta-ka"
+     ],
+     "two": [
+      "táta-ka"
+     ]
+    },
+    "r1+prea+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+prea+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+prea+prea": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+prea+preb": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+prea+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+prea+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+preb": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka"
+     ],
+     "reset": [
+      "táta-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r1+preb+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+prea": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+preb": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+preb+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+preb+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r1+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka"
+     ],
+     "reset": [
+      "táta-ka"
+     ],
+     "two": [
+      "táta-ka"
+     ]
+    },
+    "r1+rec0+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+rec0+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+rec0+prea": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+preb": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+rec0+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec0+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "táta-ka"
+     ],
+     "reset": [
+      "táta-ka"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r1+rec1+dom0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+rec1+dom1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r1+rec1+prea": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+preb": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r1+rec1+rec0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r1+rec1+rec1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "táta-ka-ka"
+     ],
+     "reset": [
+      "táta-ka-ka"
+     ],
+     "two": [
+      "táta-ka-ka"
+     ]
+    },
+    "r2": {
+     "base_changed": [],
+     "fixed": [
+      "tatá"
+     ],
+     "reset": [
+      "tatá"
+     ],
+     "two": [
+      "tatá"
+     ]
+    },
+    "r2+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r2+dom0+dom0": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom0+dom1": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom0+prea": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom0+preb": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom0+rec0": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom0+rec1": {
+     "base_changed": [
+      0,
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká"
+     ],
+     "reset": [
+      "tata-ká"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r2+dom1+dom0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+dom1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+prea": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+preb": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+rec0": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+dom1+rec1": {
+     "base_changed": [
+      0
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r2+prea+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+prea+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+prea+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+prea+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+prea+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+prea+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r2+preb+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+preb+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+preb+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tatá-ka-ka"
+     ]
+    },
+    "r2+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tatá-ka"
+     ]
+    },
+    "r2+rec0+dom0": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec0+dom1": {
+     "base_changed": [],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec0+prea": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec0+preb": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+rec0+rec0": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec0+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec1": {
+     "base_changed": [],
+     "fixed": [
+      "tatá-ka"
+     ],
+     "reset": [
+      "tatá-ka"
+     ],
+     "two": [
+      "tata-ká"
+     ]
+    },
+    "r2+rec1+dom0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ká-ka"
+     ],
+     "reset": [
+      "tata-ká-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec1+dom1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tata-ka-ká"
+     ],
+     "reset": [
+      "tata-ka-ká"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec1+prea": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec1+preb": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ká-ka"
+     ]
+    },
+    "r2+rec1+rec0": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    },
+    "r2+rec1+rec1": {
+     "base_changed": [
+      1
+     ],
+     "fixed": [
+      "tatá-ka-ka"
+     ],
+     "reset": [
+      "tatá-ka-ka"
+     ],
+     "two": [
+      "tata-ka-ká"
+     ]
+    }
+   },
+   "two_differ": [
+    "r1+preb",
+    "r1+rec1",
+    "r2+rec1",
+    "r1+dom0+dom0",
+    "r2+dom0+dom0",
+    "r0+dom0+dom1",
+    "r1+dom0+prea",
+    "r2+dom0+prea",
+    "r1+dom0+rec0",
+    "r2+dom0+rec0",
+    "r0+dom0+rec1",
+    "r0+dom1+dom0",
+    "r1+dom1+dom1",
+    "r2+dom1+dom1",
+    "r1+prea+dom0",
+    "r2+prea+dom0",
+    "r0+prea+dom1",
+    "r2+prea+prea",
+    "r1+prea+preb",
+    "r2+prea+preb",
+    "r2+prea+rec0",
+    "r0+prea+rec1",
+    "r2+prea+rec1",
+    "r2+preb+dom0",
+    "r2+preb+dom1",
+    "r1+preb+prea",
+    "r1+preb+preb",
+    "r2+preb+preb",
+    "r1+preb+rec0",
+    "r1+preb+rec1",
+    "r1+rec0+dom0",
+    "r2+rec0+dom0",
+    "r0+rec0+dom1",
+    "r2+rec0+prea",
+    "r1+rec0+preb",
+    "r2+rec0+preb",
+    "r2+rec0+rec0",
+    "r0+rec0+rec1",
+    "r2+rec0+rec1",
+    "r0+rec1+dom0",
+    "r1+rec1+dom0",
+    "r2+rec1+dom0",
+    "r0+rec1+prea",
+    "r2+rec1+prea",
+    "r1+rec1+preb",
+    "r2+rec1+preb",
+    "r0+rec1+rec0",
+    "r2+rec1+rec0",
+    "r0+rec1+rec1",
+    "r2+rec1+rec1"
+   ],
+   "two_reference_witness": {
+    "ALIGN_R_ALL": "3428571428571429/500000000000000",
+    "ALIGN_R_PWD": "2857142857142857/2500000000000000",
+    "ANTI_DEL": "1000",
+    "ANTI_PRE_B": "1000",
+    "CULM": "1000",
+    "DEP": "2428571428571429/500000000000000",
+    "HEAD": "1000",
+    "LOCAL": "1000",
+    "MAXLINK_R": "1000",
+    "MAXLINK_X": "1000",
+    "MAX_INIT": "11428571428571429/500000000000000",
+    "MAX_R": "2142857142857143/1000000000000000",
+    "MAX_S": "10071428571428571/500000000000000",
+    "OO_DEP": "1",
+    "OO_MAX": "17",
+    "OO_MAXLINK": "1",
+    "PSP": "16"
+   }
+  }
+ },
+ "regions": {
+  "cu": {
+   "by_declaration": {
+    "ALIGN_R": "unresolved",
+    "ANTI_PRE_B": "unresolved",
+    "CULM": "unresolved",
+    "DEP": "dispensable",
+    "HEAD": "unresolved",
+    "INIT": "unresolved",
+    "LOCAL": "dispensable",
+    "MAXLINK_R": "unresolved",
+    "MAXLINK_X": "dispensable",
+    "MAX_A": "dispensable",
+    "MAX_R": "unresolved",
+    "MAX_S": "unresolved"
+   },
+   "region_of_used": {
+    "feasible": true,
+    "n_inequalities": 2583,
+    "slack": "1",
+    "status": "EXACT_FULL_FIBER_WITNESS",
+    "witness": {
+     "ALIGN_R": "1",
+     "ANTI_PRE_B": "2",
+     "CULM": "8",
+     "DEP": "2",
+     "HEAD": "16",
+     "INIT": "8",
+     "LOCAL": "4",
+     "MAXLINK_R": "5",
+     "MAX_R": "6",
+     "MAX_S": "2"
+    }
+   },
+   "used": [
+    "ALIGN_R",
+    "ANTI_PRE_B",
+    "CULM",
+    "DEP",
+    "HEAD",
+    "INIT",
+    "LOCAL",
+    "MAXLINK_R",
+    "MAXLINK_X",
+    "MAX_A",
+    "MAX_R",
+    "MAX_S"
+   ]
+  },
+  "jp": {
+   "by_declaration": {
+    "ALIGN_L_PWD": "unresolved",
+    "ALIGN_R_PWD": "dispensable",
+    "ANTI_DEL": "unresolved",
+    "ANTI_DEL_ADJ": "unresolved",
+    "ANTI_EXPEL": "unresolved",
+    "ANTI_PRE_A": "unresolved",
+    "ANTI_PRE_B": "unresolved",
+    "ANTI_SHIFT": "unresolved",
+    "CULM": "unresolved",
+    "DEP": "dispensable",
+    "LOCAL": "dispensable",
+    "MAXLINK_R": "unresolved",
+    "MAXLINK_X": "dispensable",
+    "MAX_A": "unresolved",
+    "MAX_INIT": "dispensable",
+    "MAX_R": "unresolved",
+    "NONFINAL": "dispensable"
+   },
+   "region_of_used": {
+    "feasible": true,
+    "n_inequalities": 638,
+    "slack": "1",
+    "status": "EXACT_FULL_FIBER_WITNESS",
+    "witness": {
+     "ALIGN_L_PWD": "8",
+     "ANTI_DEL": "13",
+     "ANTI_DEL_ADJ": "3",
+     "ANTI_EXPEL": "12",
+     "ANTI_PRE_A": "13",
+     "ANTI_PRE_B": "3",
+     "ANTI_SHIFT": "13",
+     "CULM": "44",
+     "DEP": "1",
+     "MAXLINK_R": "11",
+     "MAXLINK_X": "9",
+     "MAX_A": "9",
+     "MAX_INIT": "2",
+     "MAX_R": "10"
+    }
+   },
+   "used": [
+    "ALIGN_L_PWD",
+    "ALIGN_R_PWD",
+    "ANTI_DEL",
+    "ANTI_DEL_ADJ",
+    "ANTI_EXPEL",
+    "ANTI_PRE_A",
+    "ANTI_PRE_B",
+    "ANTI_SHIFT",
+    "CULM",
+    "DEP",
+    "LOCAL",
+    "MAXLINK_R",
+    "MAXLINK_X",
+    "MAX_A",
+    "MAX_INIT",
+    "MAX_R",
+    "NONFINAL"
+   ]
+  },
+  "ru": {
+   "by_declaration": {
+    "ALIGN_R_ALL": "unresolved",
+    "ANTI_DEL": "unresolved",
+    "ANTI_PRE_B": "unresolved",
+    "CULM": "unresolved",
+    "DEP": "dispensable",
+    "HEAD": "unresolved",
+    "LOCAL": "dispensable",
+    "MAXLINK_R": "unresolved",
+    "MAXLINK_X": "dispensable",
+    "MAX_A": "dispensable",
+    "MAX_R": "unresolved",
+    "MAX_S": "dispensable",
+    "PSP": "unresolved"
+   },
+   "region_of_used": {
+    "feasible": true,
+    "n_inequalities": 273,
+    "slack": "1",
+    "status": "EXACT_FULL_FIBER_WITNESS",
+    "witness": {
+     "ALIGN_R_ALL": "8",
+     "ANTI_DEL": "42",
+     "ANTI_PRE_B": "4",
+     "CULM": "1/2",
+     "DEP": "23",
+     "HEAD": "264",
+     "LOCAL": "25",
+     "MAXLINK_R": "31",
+     "MAX_R": "25",
+     "MAX_S": "2",
+     "PSP": "16"
+    }
+   },
+   "used": [
+    "ALIGN_R_ALL",
+    "ANTI_DEL",
+    "ANTI_PRE_B",
+    "CULM",
+    "DEP",
+    "HEAD",
+    "LOCAL",
+    "MAXLINK_R",
+    "MAXLINK_X",
+    "MAX_A",
+    "MAX_R",
+    "MAX_S",
+    "PSP"
+   ]
+  }
+ },
+ "reo": {
+  "hg_witness": {
+   "contrastive_with_prefix_override": true,
+   "weights": [
+    "3",
+    "2",
+    "2",
+    "10"
+   ],
+   "winners": {
+    "AF+AF+root": [
+     "keep0"
+    ],
+    "AF+ROOT": [
+     "keep0"
+    ],
+    "af+AF+root": [
+     "keep1"
+    ],
+    "af+ROOT": [
+     "keep1"
+    ]
+   }
+  },
+  "hg_witness_2": {
+   "contrastive_with_prefix_override": false,
+   "weights": [
+    "5",
+    "1",
+    "3",
+    "1"
+   ],
+   "winners": {
+    "AF+AF+root": [
+     "keep0"
+    ],
+    "AF+ROOT": [
+     "keep1"
+    ],
+    "af+AF+root": [
+     "ins0"
+    ],
+    "af+ROOT": [
+     "keep1"
+    ]
+   }
+  },
+  "ot_rankings": {
+   "wE >> wR >> wA": {
+    "contrastive_with_prefix_override": false,
+    "weights": [
+     "100",
+     "10",
+     "1000",
+     "1"
+    ],
+    "winners": {
+     "AF+AF+root": [
+      "keep0"
+     ],
+     "AF+ROOT": [
+      "keep0"
+     ],
+     "af+AF+root": [
+      "ins0"
+     ],
+     "af+ROOT": [
+      "ins0"
+     ]
+    }
+   },
+   "wR >> wA >> wE": {
+    "contrastive_with_prefix_override": false,
+    "weights": [
+     "1000",
+     "100",
+     "10",
+     "1"
+    ],
+    "winners": {
+     "AF+AF+root": [
+      "keep0"
+     ],
+     "AF+ROOT": [
+      "keep1"
+     ],
+     "af+AF+root": [
+      "keep1"
+     ],
+     "af+ROOT": [
+      "keep1"
+     ]
+    }
+   },
+   "wR >> wE >> wA": {
+    "contrastive_with_prefix_override": false,
+    "weights": [
+     "1000",
+     "10",
+     "100",
+     "1"
+    ],
+    "winners": {
+     "AF+AF+root": [
+      "keep0"
+     ],
+     "AF+ROOT": [
+      "keep1"
+     ],
+     "af+AF+root": [
+      "ins0"
+     ],
+     "af+ROOT": [
+      "keep1"
+     ]
+    }
+   }
+  },
+  "patterns": {
+   "affix_contrast": {
+    "iff": [
+     "(0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 0*wE + 1*wD)",
+     "(0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 1*wD)",
+     "(0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 2*wE + 1*wD)"
+    ],
+    "winner": "keep1",
+    "word": "af+AF+root"
+   },
+   "leftmost_among_affixes": {
+    "iff": [
+     "(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 0*wE + 1*wD)",
+     "(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 0*wD)",
+     "(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 1*wE + 1*wD)",
+     "(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 2*wE + 1*wD)"
+    ],
+    "winner": "keep0",
+    "word": "AF+AF+root"
+   },
+   "prefix_overrides_root": {
+    "iff": [
+     "(1*wR + 0*wA + 0*wE + 0*wD) < (1*wR + 1*wA + 0*wE + 1*wD)",
+     "(1*wR + 0*wA + 0*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 0*wD)",
+     "(1*wR + 0*wA + 0*wE + 0*wD) < (1*wR + 1*wA + 1*wE + 1*wD)"
+    ],
+    "winner": "keep0",
+    "word": "AF+ROOT"
+   },
+   "root_contrast": {
+    "iff": [
+     "(0*wR + 0*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 0*wE + 1*wD)",
+     "(0*wR + 0*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 1*wE + 1*wD)"
+    ],
+    "winner": "keep1",
+    "word": "af+ROOT"
+   },
+   "root_over_prefix": {
+    "iff": [
+     "(0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 0*wE + 0*wD)",
+     "(0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 1*wA + 0*wE + 1*wD)",
+     "(0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 1*wA + 1*wE + 1*wD)"
+    ],
+    "winner": "keep1",
+    "word": "AF+ROOT"
+   }
+  },
+  "words": {
+   "AF+AF+root": {
+    "ins0": {
+     "cost": "0*wR + 2*wA + 0*wE + 1*wD",
+     "wins_iff": [
+      "(0*wR + 2*wA + 0*wE + 1*wD) < (0*wR + 1*wA + 0*wE + 0*wD)",
+      "(0*wR + 2*wA + 0*wE + 1*wD) < (0*wR + 1*wA + 1*wE + 0*wD)",
+      "(0*wR + 2*wA + 0*wE + 1*wD) < (0*wR + 2*wA + 1*wE + 1*wD)",
+      "(0*wR + 2*wA + 0*wE + 1*wD) < (0*wR + 2*wA + 2*wE + 1*wD)"
+     ]
+    },
+    "ins1": {
+     "cost": "0*wR + 2*wA + 1*wE + 1*wD",
+     "wins_iff": [
+      "(0*wR + 2*wA + 1*wE + 1*wD) < (0*wR + 1*wA + 0*wE + 0*wD)",
+      "(0*wR + 2*wA + 1*wE + 1*wD) < (0*wR + 2*wA + 0*wE + 1*wD)",
+      "(0*wR + 2*wA + 1*wE + 1*wD) < (0*wR + 1*wA + 1*wE + 0*wD)",
+      "(0*wR + 2*wA + 1*wE + 1*wD) < (0*wR + 2*wA + 2*wE + 1*wD)"
+     ]
+    },
+    "ins2": {
+     "cost": "0*wR + 2*wA + 2*wE + 1*wD",
+     "wins_iff": [
+      "(0*wR + 2*wA + 2*wE + 1*wD) < (0*wR + 1*wA + 0*wE + 0*wD)",
+      "(0*wR + 2*wA + 2*wE + 1*wD) < (0*wR + 2*wA + 0*wE + 1*wD)",
+      "(0*wR + 2*wA + 2*wE + 1*wD) < (0*wR + 1*wA + 1*wE + 0*wD)",
+      "(0*wR + 2*wA + 2*wE + 1*wD) < (0*wR + 2*wA + 1*wE + 1*wD)"
+     ]
+    },
+    "keep0": {
+     "cost": "0*wR + 1*wA + 0*wE + 0*wD",
+     "wins_iff": [
+      "(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 0*wE + 1*wD)",
+      "(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 0*wD)",
+      "(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 1*wE + 1*wD)",
+      "(0*wR + 1*wA + 0*wE + 0*wD) < (0*wR + 2*wA + 2*wE + 1*wD)"
+     ]
+    },
+    "keep1": {
+     "cost": "0*wR + 1*wA + 1*wE + 0*wD",
+     "wins_iff": [
+      "(0*wR + 1*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 0*wE + 0*wD)",
+      "(0*wR + 1*wA + 1*wE + 0*wD) < (0*wR + 2*wA + 0*wE + 1*wD)",
+      "(0*wR + 1*wA + 1*wE + 0*wD) < (0*wR + 2*wA + 1*wE + 1*wD)",
+      "(0*wR + 1*wA + 1*wE + 0*wD) < (0*wR + 2*wA + 2*wE + 1*wD)"
+     ]
+    }
+   },
+   "AF+ROOT": {
+    "ins0": {
+     "cost": "1*wR + 1*wA + 0*wE + 1*wD",
+     "wins_iff": [
+      "(1*wR + 1*wA + 0*wE + 1*wD) < (1*wR + 0*wA + 0*wE + 0*wD)",
+      "(1*wR + 1*wA + 0*wE + 1*wD) < (0*wR + 1*wA + 1*wE + 0*wD)",
+      "(1*wR + 1*wA + 0*wE + 1*wD) < (1*wR + 1*wA + 1*wE + 1*wD)"
+     ]
+    },
+    "ins1": {
+     "cost": "1*wR + 1*wA + 1*wE + 1*wD",
+     "wins_iff": [
+      "(1*wR + 1*wA + 1*wE + 1*wD) < (1*wR + 0*wA + 0*wE + 0*wD)",
+      "(1*wR + 1*wA + 1*wE + 1*wD) < (1*wR + 1*wA + 0*wE + 1*wD)",
+      "(1*wR + 1*wA + 1*wE + 1*wD) < (0*wR + 1*wA + 1*wE + 0*wD)"
+     ]
+    },
+    "keep0": {
+     "cost": "1*wR + 0*wA + 0*wE + 0*wD",
+     "wins_iff": [
+      "(1*wR + 0*wA + 0*wE + 0*wD) < (1*wR + 1*wA + 0*wE + 1*wD)",
+      "(1*wR + 0*wA + 0*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 0*wD)",
+      "(1*wR + 0*wA + 0*wE + 0*wD) < (1*wR + 1*wA + 1*wE + 1*wD)"
+     ]
+    },
+    "keep1": {
+     "cost": "0*wR + 1*wA + 1*wE + 0*wD",
+     "wins_iff": [
+      "(0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 0*wE + 0*wD)",
+      "(0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 1*wA + 0*wE + 1*wD)",
+      "(0*wR + 1*wA + 1*wE + 0*wD) < (1*wR + 1*wA + 1*wE + 1*wD)"
+     ]
+    }
+   },
+   "ROOT+AF": {
+    "ins0": {
+     "cost": "1*wR + 1*wA + 0*wE + 1*wD",
+     "wins_iff": [
+      "(1*wR + 1*wA + 0*wE + 1*wD) < (0*wR + 1*wA + 0*wE + 0*wD)",
+      "(1*wR + 1*wA + 0*wE + 1*wD) < (1*wR + 0*wA + 1*wE + 0*wD)",
+      "(1*wR + 1*wA + 0*wE + 1*wD) < (1*wR + 1*wA + 1*wE + 1*wD)"
+     ]
+    },
+    "ins1": {
+     "cost": "1*wR + 1*wA + 1*wE + 1*wD",
+     "wins_iff": [
+      "(1*wR + 1*wA + 1*wE + 1*wD) < (0*wR + 1*wA + 0*wE + 0*wD)",
+      "(1*wR + 1*wA + 1*wE + 1*wD) < (1*wR + 1*wA + 0*wE + 1*wD)",
+      "(1*wR + 1*wA + 1*wE + 1*wD) < (1*wR + 0*wA + 1*wE + 0*wD)"
+     ]
+    },
+    "keep0": {
+     "cost": "0*wR + 1*wA + 0*wE + 0*wD",
+     "wins_iff": [
+      "(0*wR + 1*wA + 0*wE + 0*wD) < (1*wR + 1*wA + 0*wE + 1*wD)",
+      "(0*wR + 1*wA + 0*wE + 0*wD) < (1*wR + 0*wA + 1*wE + 0*wD)",
+      "(0*wR + 1*wA + 0*wE + 0*wD) < (1*wR + 1*wA + 1*wE + 1*wD)"
+     ]
+    },
+    "keep1": {
+     "cost": "1*wR + 0*wA + 1*wE + 0*wD",
+     "wins_iff": [
+      "(1*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 0*wE + 0*wD)",
+      "(1*wR + 0*wA + 1*wE + 0*wD) < (1*wR + 1*wA + 0*wE + 1*wD)",
+      "(1*wR + 0*wA + 1*wE + 0*wD) < (1*wR + 1*wA + 1*wE + 1*wD)"
+     ]
+    }
+   },
+   "af+AF+root": {
+    "ins0": {
+     "cost": "0*wR + 1*wA + 0*wE + 1*wD",
+     "wins_iff": [
+      "(0*wR + 1*wA + 0*wE + 1*wD) < (0*wR + 0*wA + 1*wE + 0*wD)",
+      "(0*wR + 1*wA + 0*wE + 1*wD) < (0*wR + 1*wA + 1*wE + 1*wD)",
+      "(0*wR + 1*wA + 0*wE + 1*wD) < (0*wR + 1*wA + 2*wE + 1*wD)"
+     ]
+    },
+    "ins1": {
+     "cost": "0*wR + 1*wA + 1*wE + 1*wD",
+     "wins_iff": [
+      "(0*wR + 1*wA + 1*wE + 1*wD) < (0*wR + 1*wA + 0*wE + 1*wD)",
+      "(0*wR + 1*wA + 1*wE + 1*wD) < (0*wR + 0*wA + 1*wE + 0*wD)",
+      "(0*wR + 1*wA + 1*wE + 1*wD) < (0*wR + 1*wA + 2*wE + 1*wD)"
+     ]
+    },
+    "ins2": {
+     "cost": "0*wR + 1*wA + 2*wE + 1*wD",
+     "wins_iff": [
+      "(0*wR + 1*wA + 2*wE + 1*wD) < (0*wR + 1*wA + 0*wE + 1*wD)",
+      "(0*wR + 1*wA + 2*wE + 1*wD) < (0*wR + 0*wA + 1*wE + 0*wD)",
+      "(0*wR + 1*wA + 2*wE + 1*wD) < (0*wR + 1*wA + 1*wE + 1*wD)"
+     ]
+    },
+    "keep1": {
+     "cost": "0*wR + 0*wA + 1*wE + 0*wD",
+     "wins_iff": [
+      "(0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 0*wE + 1*wD)",
+      "(0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 1*wE + 1*wD)",
+      "(0*wR + 0*wA + 1*wE + 0*wD) < (0*wR + 1*wA + 2*wE + 1*wD)"
+     ]
+    }
+   },
+   "af+ROOT": {
+    "ins0": {
+     "cost": "1*wR + 0*wA + 0*wE + 1*wD",
+     "wins_iff": [
+      "(1*wR + 0*wA + 0*wE + 1*wD) < (0*wR + 0*wA + 1*wE + 0*wD)",
+      "(1*wR + 0*wA + 0*wE + 1*wD) < (1*wR + 0*wA + 1*wE + 1*wD)"
+     ]
+    },
+    "ins1": {
+     "cost": "1*wR + 0*wA + 1*wE + 1*wD",
+     "wins_iff": [
+      "(1*wR + 0*wA + 1*wE + 1*wD) < (1*wR + 0*wA + 0*wE + 1*wD)",
+      "(1*wR + 0*wA + 1*wE + 1*wD) < (0*wR + 0*wA + 1*wE + 0*wD)"
+     ]
+    },
+    "keep1": {
+     "cost": "0*wR + 0*wA + 1*wE + 0*wD",
+     "wins_iff": [
+      "(0*wR + 0*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 0*wE + 1*wD)",
+      "(0*wR + 0*wA + 1*wE + 0*wD) < (1*wR + 0*wA + 1*wE + 1*wD)"
+     ]
+    }
+   },
+   "af+root": {
+    "ins0": {
+     "cost": "0*wR + 0*wA + 0*wE + 1*wD",
+     "wins_iff": [
+      "(0*wR + 0*wA + 0*wE + 1*wD) < (0*wR + 0*wA + 1*wE + 1*wD)"
+     ]
+    },
+    "ins1": {
+     "cost": "0*wR + 0*wA + 1*wE + 1*wD",
+     "wins_iff": [
+      "(0*wR + 0*wA + 1*wE + 1*wD) < (0*wR + 0*wA + 0*wE + 1*wD)"
+     ]
+    }
+   }
+  }
+ },
+ "seconds": 322.4,
+ "single_affix": {
+  "dele+prea|r0": [
+   {
+    "cost": "(1 + lam*0)*HEAD + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": null,
+    "surface": "tata-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*ALIGN_R_ALL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": 0,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [],
+    "made": 0,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": 1,
+    "surface": "tata-ká"
+   }
+  ],
+  "dele+prea|r1": [
+   {
+    "cost": "(0 + lam*1)*HEAD + (1 + lam*0)*MAX_R + (1 + lam*0)*MAX_INIT + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": null,
+    "surface": "tata-ka"
+   },
+   {
+    "cost": "(2 + lam*0)*ALIGN_R_ALL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": 0,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": 0,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": 1,
+    "surface": "tata-ká"
+   },
+   {
+    "cost": "(2 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (1 + lam*0)*ANTI_DEL + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (1 + lam*1)*PSP + (1 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tátá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (2 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_DEL + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [
+     0
+    ],
+    "made": 1,
+    "surface": "táta-ká"
+   },
+   {
+    "cost": "(1 + lam*0)*ALIGN_R + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (1 + lam*1)*PSP + (1 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tátá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*2)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 1,
+    "surface": "tatá-ká"
+   },
+   {
+    "cost": "(0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL + (1 + lam*0)*ANTI_DEL + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "tata-ká"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*NONFINAL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL + (1 + lam*0)*ANTI_DEL + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "táta-ká"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*2)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tatá-ká"
+   }
+  ],
+  "dele|r0": [
+   {
+    "cost": "(1 + lam*0)*HEAD",
+    "kept": [],
+    "made": null,
+    "surface": "tata-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*ALIGN_R_ALL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (1 + lam*0)*DEP",
+    "kept": [],
+    "made": 0,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [],
+    "made": 0,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [],
+    "made": 1,
+    "surface": "tata-ká"
+   }
+  ],
+  "dele|r1": [
+   {
+    "cost": "(0 + lam*1)*HEAD + (1 + lam*0)*MAX_R + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": null,
+    "surface": "tata-ka"
+   },
+   {
+    "cost": "(2 + lam*0)*ALIGN_R_ALL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": 0,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": 0,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": 1,
+    "surface": "tata-ká"
+   },
+   {
+    "cost": "(2 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (1 + lam*1)*PSP + (1 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tátá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (2 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 1,
+    "surface": "táta-ká"
+   },
+   {
+    "cost": "(1 + lam*0)*ALIGN_R + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (1 + lam*1)*PSP + (1 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tátá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*2)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 1,
+    "surface": "tatá-ká"
+   },
+   {
+    "cost": "(0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "tata-ká"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*NONFINAL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "táta-ká"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*2)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL + (1 + lam*0)*ANTI_DEL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tatá-ká"
+   }
+  ],
+  "none|r0": [
+   {
+    "cost": "(1 + lam*0)*HEAD",
+    "kept": [],
+    "made": null,
+    "surface": "tata-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*ALIGN_R_ALL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (1 + lam*0)*DEP",
+    "kept": [],
+    "made": 0,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [],
+    "made": 0,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [],
+    "made": 1,
+    "surface": "tata-ká"
+   }
+  ],
+  "none|r1": [
+   {
+    "cost": "(0 + lam*1)*HEAD + (1 + lam*0)*MAX_R + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": null,
+    "surface": "tata-ka"
+   },
+   {
+    "cost": "(2 + lam*0)*ALIGN_R_ALL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": 0,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": 0,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": 1,
+    "surface": "tata-ká"
+   },
+   {
+    "cost": "(2 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (1 + lam*1)*PSP + (1 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tátá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (2 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [
+     0
+    ],
+    "made": 1,
+    "surface": "táta-ká"
+   },
+   {
+    "cost": "(1 + lam*0)*ALIGN_R + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAXLINK_R",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (1 + lam*1)*PSP + (1 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tátá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*2)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R",
+    "kept": [
+     0
+    ],
+    "made": 1,
+    "surface": "tatá-ká"
+   },
+   {
+    "cost": "(0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "tata-ká"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*NONFINAL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "táta-ká"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*2)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tatá-ká"
+   }
+  ],
+  "prea|r0": [
+   {
+    "cost": "(1 + lam*0)*HEAD + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": null,
+    "surface": "tata-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*ALIGN_R_ALL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": 0,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [],
+    "made": 0,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": 1,
+    "surface": "tata-ká"
+   }
+  ],
+  "prea|r1": [
+   {
+    "cost": "(0 + lam*1)*HEAD + (1 + lam*0)*MAX_R + (1 + lam*0)*MAX_INIT + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": null,
+    "surface": "tata-ka"
+   },
+   {
+    "cost": "(2 + lam*0)*ALIGN_R_ALL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": 0,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT",
+    "kept": [],
+    "made": 0,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAX_R + (1 + lam*0)*DEP + (1 + lam*0)*MAX_INIT + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [],
+    "made": 1,
+    "surface": "tata-ká"
+   },
+   {
+    "cost": "(2 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "táta-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (1 + lam*1)*PSP + (1 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tátá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (2 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [
+     0
+    ],
+    "made": 1,
+    "surface": "táta-ká"
+   },
+   {
+    "cost": "(1 + lam*0)*ALIGN_R + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAXLINK_R",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "tatá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (2 + lam*0)*ALIGN_R_ALL + (1 + lam*1)*PSP + (1 + lam*1)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tátá-ka"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*2)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R",
+    "kept": [
+     0
+    ],
+    "made": 1,
+    "surface": "tatá-ká"
+   },
+   {
+    "cost": "(0 + lam*1)*NONFINAL + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [
+     0
+    ],
+    "made": null,
+    "surface": "tata-ká"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (2 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*NONFINAL + (1 + lam*0)*PSP + (1 + lam*0)*ALIGN_R_PWD + (0 + lam*1)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL + (1 + lam*0)*ANTI_PRE_A",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "táta-ká"
+   },
+   {
+    "cost": "(0 + lam*2)*CULM + (1 + lam*0)*ALIGN_R_ALL + (0 + lam*1)*INIT + (0 + lam*1)*NONFINAL + (0 + lam*1)*PSP + (0 + lam*1)*ALIGN_R_PWD + (0 + lam*2)*ALIGN_L_PWD + (1 + lam*0)*DEP + (1 + lam*0)*MAXLINK_R + (1 + lam*0)*LOCAL",
+    "kept": [
+     0
+    ],
+    "made": 0,
+    "surface": "tatá-ká"
+   }
+  ]
+ },
+ "weights": {
+  "cu": {
+   "ALIGN_R": 1,
+   "ANTI_PRE_B": 20,
+   "CULM": 200,
+   "DEP": 4,
+   "HEAD": 200,
+   "INIT": 8,
+   "LOCAL": 12,
+   "MAXLINK_R": 60,
+   "MAXLINK_X": 12,
+   "MAX_A": 12,
+   "MAX_R": 60,
+   "MAX_S": 30
+  },
+  "jp": {
+   "ALIGN_L_PWD": 1,
+   "ALIGN_R_PWD": 1,
+   "ANTI_DEL": 80,
+   "ANTI_DEL_ADJ": 60,
+   "ANTI_EXPEL": 60,
+   "ANTI_PRE_A": 80,
+   "ANTI_PRE_B": 20,
+   "ANTI_SHIFT": 60,
+   "CULM": 200,
+   "DEP": 10,
+   "LOCAL": 10,
+   "MAXLINK_R": 25,
+   "MAXLINK_X": 4,
+   "MAX_A": 10,
+   "MAX_INIT": 30,
+   "MAX_R": 45,
+   "NONFINAL": 2
+  },
+  "ru": {
+   "ALIGN_R_ALL": 1,
+   "ANTI_DEL": 100,
+   "ANTI_PRE_B": 20,
+   "CULM": 200,
+   "DEP": 4,
+   "HEAD": 200,
+   "LOCAL": 30,
+   "MAXLINK_R": 60,
+   "MAXLINK_X": 30,
+   "MAX_A": 20,
+   "MAX_R": 60,
+   "MAX_S": 30,
+   "PSP": 12
+  }
+ }
+}

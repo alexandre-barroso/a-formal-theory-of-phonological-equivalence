@@ -1,0 +1,12 @@
+{
+ "phase": "runners",
+ "results": [
+  {
+   "detail": "failed: [('russian_displayed', \"FileNotFoundError: [Errno 2] No such file or directory: 'REPOSITORY_ROOT/results/requirements/certificates/russian_displayed_matrices.json'\")]",
+   "ok": false,
+   "required": true,
+   "step": "runners"
+  }
+ ],
+ "shard": "1/1"
+}

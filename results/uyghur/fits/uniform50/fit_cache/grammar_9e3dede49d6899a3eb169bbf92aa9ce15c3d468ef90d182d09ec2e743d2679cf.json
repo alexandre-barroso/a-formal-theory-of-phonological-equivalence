@@ -1,0 +1,71 @@
+{
+  "kind": "grammar",
+  "cache_key": "9e3dede49d6899a3eb169bbf92aa9ce15c3d468ef90d182d09ec2e743d2679cf",
+  "block_key": "3621dc2abef477b0c382bff9ca4f0e425eef9e24668b0f7e0a7276ea3ebab3ba",
+  "variant": "unrounded_strict",
+  "model": "current_only",
+  "approximation": "not_applicable",
+  "alpha": 0.1,
+  "beta_key": "c81d360667d87b7d1521b1e0d5c331c0bccdc74cb171e35fb8bdc7cefb319890",
+  "hu_key": null,
+  "offset_key": null,
+  "fit": {
+    "model": "current_only",
+    "parameters": {
+      "C": 1.0093288076931914
+    },
+    "objective": 0.5840025492091431,
+    "regularization_alpha": 0.1,
+    "converged": true,
+    "iterations": 6,
+    "internal_coordinates": [
+      1.0093288076931914
+    ],
+    "gradient": [
+      -3.3584246494910985e-15
+    ],
+    "projected_gradient_max_abs": 3.3584246494910985e-15,
+    "finite_difference_max_abs_error": 3.3584246494910985e-15,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 6,
+        "objective": 0.5840025492091431,
+        "projected_gradient_max": 3.3584246494910985e-15,
+        "finite_difference_error": 3.3584246494910985e-15,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      2212.0,
+      4.0,
+      13402.0,
+      82.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 11,
+      "0010": 209,
+      "0011": 21,
+      "1000": 34,
+      "1010": 12,
+      "1100": 4
+    },
+    "training_rows": 291,
+    "feature_difference_rows": 873,
+    "feature_difference_columns": 1,
+    "feature_difference_rank": 1,
+    "feature_difference_sha256": "0bb85490b842f7744ef666c5e607540b3f6c2536c120f9d88dda613d40b7c695",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

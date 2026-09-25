@@ -1,0 +1,1476 @@
+{
+ "lambda": "1/8",
+ "languages": {
+  "faroese": {
+   "forms": {
+    "a:.ʰkwamarin <long input>": {
+     "agrees": true,
+     "distance": 7,
+     "expected": "aː.ʰkwamarin",
+     "winners": [
+      "aː.ʰkwamarin"
+     ]
+    },
+    "a:.ʰkwamarin <short input>": {
+     "agrees": true,
+     "distance": 7,
+     "expected": "aː.ʰkwamarin",
+     "winners": [
+      "aː.ʰkwamarin"
+     ]
+    },
+    "ai:.ʰtranti <long input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "aiː.ʰtranti",
+     "winners": [
+      "aiː.ʰtranti"
+     ]
+    },
+    "ai:.ʰtranti <short input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "aiː.ʰtranti",
+     "winners": [
+      "aiː.ʰtranti"
+     ]
+    },
+    "baʰt.na <long input>": {
+     "agrees": true,
+     "distance": 4,
+     "expected": "baʰt.na",
+     "winners": [
+      "baʰt.na"
+     ]
+    },
+    "baʰt.na <short input>": {
+     "agrees": true,
+     "distance": 4,
+     "expected": "baʰt.na",
+     "winners": [
+      "baʰt.na"
+     ]
+    },
+    "e:.ʰpli <long input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "eː.ʰpli",
+     "winners": [
+      "eː.ʰpli"
+     ]
+    },
+    "e:.ʰpli <short input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "eː.ʰpli",
+     "winners": [
+      "eː.ʰpli"
+     ]
+    },
+    "hen.dyr <long input>": {
+     "agrees": true,
+     "distance": -2,
+     "expected": "hen.dyr",
+     "winners": [
+      "hen.dyr"
+     ]
+    },
+    "hen.dyr <short input>": {
+     "agrees": true,
+     "distance": -2,
+     "expected": "hen.dyr",
+     "winners": [
+      "hen.dyr"
+     ]
+    },
+    "ig.la <long input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "ig.la",
+     "winners": [
+      "ig.la"
+     ]
+    },
+    "ig.la <short input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "ig.la",
+     "winners": [
+      "ig.la"
+     ]
+    },
+    "lyʰt.li <long input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "lyʰt.li",
+     "winners": [
+      "lyʰt.li"
+     ]
+    },
+    "lyʰt.li <short input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "lyʰt.li",
+     "winners": [
+      "lyʰt.li"
+     ]
+    },
+    "mi:.ʰklir <long input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "miː.ʰklir",
+     "winners": [
+      "miː.ʰklir"
+     ]
+    },
+    "mi:.ʰklir <short input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "miː.ʰklir",
+     "winners": [
+      "miː.ʰklir"
+     ]
+    },
+    "roʰk.ti <long input>": {
+     "agrees": true,
+     "distance": 0,
+     "expected": "roʰk.ti",
+     "winners": [
+      "roʰk.ti"
+     ]
+    },
+    "roʰk.ti <short input>": {
+     "agrees": true,
+     "distance": 0,
+     "expected": "roʰk.ti",
+     "winners": [
+      "roʰk.ti"
+     ]
+    },
+    "sig.ri <long input>": {
+     "agrees": true,
+     "distance": 4,
+     "expected": "sig.ri",
+     "winners": [
+      "sig.ri"
+     ]
+    },
+    "sig.ri <short input>": {
+     "agrees": true,
+     "distance": 4,
+     "expected": "sig.ri",
+     "winners": [
+      "sig.ri"
+     ]
+    },
+    "styʰt.lijyr <long input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "styʰt.lijyr",
+     "winners": [
+      "styʰt.lijyr"
+     ]
+    },
+    "styʰt.lijyr <short input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "styʰt.lijyr",
+     "winners": [
+      "styʰt.lijyr"
+     ]
+    },
+    "vea:.ʰkrir <long input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "veaː.ʰkrir",
+     "winners": [
+      "veaː.ʰkrir"
+     ]
+    },
+    "vea:.ʰkrir <short input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "veaː.ʰkrir",
+     "winners": [
+      "veaː.ʰkrir"
+     ]
+    },
+    "ves.na <long input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "ves.na",
+     "winners": [
+      "ves.na"
+     ]
+    },
+    "ves.na <short input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "ves.na",
+     "winners": [
+      "ves.na"
+     ]
+    },
+    "ves.tyr <long input>": {
+     "agrees": true,
+     "distance": -1,
+     "expected": "ves.tyr",
+     "winners": [
+      "ves.tyr"
+     ]
+    },
+    "ves.tyr <short input>": {
+     "agrees": true,
+     "distance": -1,
+     "expected": "ves.tyr",
+     "winners": [
+      "ves.tyr"
+     ]
+    },
+    "ðar.na <long input>": {
+     "agrees": true,
+     "distance": 2,
+     "expected": "ðar.na",
+     "winners": [
+      "ðar.na"
+     ]
+    },
+    "ðar.na <short input>": {
+     "agrees": true,
+     "distance": 2,
+     "expected": "ðar.na",
+     "winners": [
+      "ðar.na"
+     ]
+    },
+    "ðea:.ʰprir <long input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "ðeaː.ʰprir",
+     "winners": [
+      "ðeaː.ʰprir"
+     ]
+    },
+    "ðea:.ʰprir <short input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "ðeaː.ʰprir",
+     "winners": [
+      "ðeaː.ʰprir"
+     ]
+    },
+    "ðœr.di <long input>": {
+     "agrees": true,
+     "distance": -4,
+     "expected": "ðœr.di",
+     "winners": [
+      "ðœr.di"
+     ]
+    },
+    "ðœr.di <short input>": {
+     "agrees": true,
+     "distance": -4,
+     "expected": "ðœr.di",
+     "winners": [
+      "ðœr.di"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "1118481/2199023255552",
+    "-2": "69905/2199023255552",
+    "-3": "4369/2199023255552",
+    "-4": "273/2199023255552",
+    "-5": "17/2199023255552",
+    "-6": "1/2199023255552",
+    "-7": "0",
+    "0": "17895697/2199023255552",
+    "1": "286331153/2199023255552",
+    "2": "4581298449/2199023255552",
+    "3": "73300775185/2199023255552",
+    "4": "1172812402961/2199023255552",
+    "5": "18764998447377/2199023255552",
+    "6": "300239975158033/2199023255552",
+    "7": "4803839602528529/2199023255552"
+   },
+   "threshold": 4
+  },
+  "icelandic": {
+   "forms": {
+    "a:.krar <long input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "aː.krar",
+     "winners": [
+      "aː.krar"
+     ]
+    },
+    "a:.krar <short input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "aː.krar",
+     "winners": [
+      "aː.krar"
+     ]
+    },
+    "aw.laga <long input>": {
+     "agrees": true,
+     "distance": -2,
+     "expected": "aw.laga",
+     "winners": [
+      "aw.laga"
+     ]
+    },
+    "aw.laga <short input>": {
+     "agrees": true,
+     "distance": -2,
+     "expected": "aw.laga",
+     "winners": [
+      "aw.laga"
+     ]
+    },
+    "bið.ja <long input>": {
+     "agrees": true,
+     "distance": 4,
+     "expected": "bið.ja",
+     "winners": [
+      "bið.ja"
+     ]
+    },
+    "bið.ja <short input>": {
+     "agrees": true,
+     "distance": 4,
+     "expected": "bið.ja",
+     "winners": [
+      "bið.ja"
+     ]
+    },
+    "blað.ra <long input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "blað.ra",
+     "winners": [
+      "blað.ra"
+     ]
+    },
+    "blað.ra <short input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "blað.ra",
+     "winners": [
+      "blað.ra"
+     ]
+    },
+    "e:.sja <long input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "eː.sja",
+     "winners": [
+      "eː.sja"
+     ]
+    },
+    "e:.sja <short input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "eː.sja",
+     "winners": [
+      "eː.sja"
+     ]
+    },
+    "ew.ri <long input>": {
+     "agrees": true,
+     "distance": -1,
+     "expected": "ew.ri",
+     "winners": [
+      "ew.ri"
+     ]
+    },
+    "ew.ri <short input>": {
+     "agrees": true,
+     "distance": -1,
+     "expected": "ew.ri",
+     "winners": [
+      "ew.ri"
+     ]
+    },
+    "eʰk.la <long input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "eʰk.la",
+     "winners": [
+      "eʰk.la"
+     ]
+    },
+    "eʰk.la <short input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "eʰk.la",
+     "winners": [
+      "eʰk.la"
+     ]
+    },
+    "eʰp.li <long input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "eʰp.li",
+     "winners": [
+      "eʰp.li"
+     ]
+    },
+    "eʰp.li <short input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "eʰp.li",
+     "winners": [
+      "eʰp.li"
+     ]
+    },
+    "hes.tyr <long input>": {
+     "agrees": true,
+     "distance": -1,
+     "expected": "hes.tyr",
+     "winners": [
+      "hes.tyr"
+     ]
+    },
+    "hes.tyr <short input>": {
+     "agrees": true,
+     "distance": -1,
+     "expected": "hes.tyr",
+     "winners": [
+      "hes.tyr"
+     ]
+    },
+    "hœɣ.ri <long input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "hœɣ.ri",
+     "winners": [
+      "hœɣ.ri"
+     ]
+    },
+    "hœɣ.ri <short input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "hœɣ.ri",
+     "winners": [
+      "hœɣ.ri"
+     ]
+    },
+    "sig.la <long input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "sig.la",
+     "winners": [
+      "sig.la"
+     ]
+    },
+    "sig.la <short input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "sig.la",
+     "winners": [
+      "sig.la"
+     ]
+    },
+    "sko:.pra <long input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "skoː.pra",
+     "winners": [
+      "skoː.pra"
+     ]
+    },
+    "sko:.pra <short input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "skoː.pra",
+     "winners": [
+      "skoː.pra"
+     ]
+    },
+    "stœð.wa <long input>": {
+     "agrees": true,
+     "distance": 4,
+     "expected": "stœð.wa",
+     "winners": [
+      "stœð.wa"
+     ]
+    },
+    "stœð.wa <short input>": {
+     "agrees": true,
+     "distance": 4,
+     "expected": "stœð.wa",
+     "winners": [
+      "stœð.wa"
+     ]
+    },
+    "tem.ja <long input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "tem.ja",
+     "winners": [
+      "tem.ja"
+     ]
+    },
+    "tem.ja <short input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "tem.ja",
+     "winners": [
+      "tem.ja"
+     ]
+    },
+    "tew.ja <long input>": {
+     "agrees": true,
+     "distance": 0,
+     "expected": "tew.ja",
+     "winners": [
+      "tew.ja"
+     ]
+    },
+    "tew.ja <short input>": {
+     "agrees": true,
+     "distance": 0,
+     "expected": "tew.ja",
+     "winners": [
+      "tew.ja"
+     ]
+    },
+    "ti:.tra <long input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "tiː.tra",
+     "winners": [
+      "tiː.tra"
+     ]
+    },
+    "ti:.tra <short input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "tiː.tra",
+     "winners": [
+      "tiː.tra"
+     ]
+    },
+    "twi:.swar <long input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "twiː.swar",
+     "winners": [
+      "twiː.swar"
+     ]
+    },
+    "twi:.swar <short input>": {
+     "agrees": true,
+     "distance": 6,
+     "expected": "twiː.swar",
+     "winners": [
+      "twiː.swar"
+     ]
+    },
+    "vel.ja <long input>": {
+     "agrees": true,
+     "distance": 2,
+     "expected": "vel.ja",
+     "winners": [
+      "vel.ja"
+     ]
+    },
+    "vel.ja <short input>": {
+     "agrees": true,
+     "distance": 2,
+     "expected": "vel.ja",
+     "winners": [
+      "vel.ja"
+     ]
+    },
+    "ver.ja <long input>": {
+     "agrees": true,
+     "distance": 1,
+     "expected": "ver.ja",
+     "winners": [
+      "ver.ja"
+     ]
+    },
+    "ver.ja <short input>": {
+     "agrees": true,
+     "distance": 1,
+     "expected": "ver.ja",
+     "winners": [
+      "ver.ja"
+     ]
+    },
+    "vi:.tja <long input>": {
+     "agrees": true,
+     "distance": 7,
+     "expected": "viː.tja",
+     "winners": [
+      "viː.tja"
+     ]
+    },
+    "vi:.tja <short input>": {
+     "agrees": true,
+     "distance": 7,
+     "expected": "viː.tja",
+     "winners": [
+      "viː.tja"
+     ]
+    },
+    "vis.na <long input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "vis.na",
+     "winners": [
+      "vis.na"
+     ]
+    },
+    "vis.na <short input>": {
+     "agrees": true,
+     "distance": 3,
+     "expected": "vis.na",
+     "winners": [
+      "vis.na"
+     ]
+    },
+    "vœ:.kwa <long input>": {
+     "agrees": true,
+     "distance": 7,
+     "expected": "vœː.kwa",
+     "winners": [
+      "vœː.kwa"
+     ]
+    },
+    "vœ:.kwa <short input>": {
+     "agrees": true,
+     "distance": 7,
+     "expected": "vœː.kwa",
+     "winners": [
+      "vœː.kwa"
+     ]
+    },
+    "ðwer.gyr <long input>": {
+     "agrees": true,
+     "distance": -4,
+     "expected": "ðwer.gyr",
+     "winners": [
+      "ðwer.gyr"
+     ]
+    },
+    "ðwer.gyr <short input>": {
+     "agrees": true,
+     "distance": -4,
+     "expected": "ðwer.gyr",
+     "winners": [
+      "ðwer.gyr"
+     ]
+    },
+    "œʰt.la <long input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "œʰt.la",
+     "winners": [
+      "œʰt.la"
+     ]
+    },
+    "œʰt.la <short input>": {
+     "agrees": true,
+     "distance": 5,
+     "expected": "œʰt.la",
+     "winners": [
+      "œʰt.la"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "1118481/35184372088832",
+    "-2": "69905/35184372088832",
+    "-3": "4369/35184372088832",
+    "-4": "273/35184372088832",
+    "-5": "17/35184372088832",
+    "-6": "1/35184372088832",
+    "-7": "0",
+    "0": "17895697/35184372088832",
+    "1": "286331153/35184372088832",
+    "2": "4581298449/35184372088832",
+    "3": "73300775185/35184372088832",
+    "4": "1172812402961/35184372088832",
+    "5": "18764998447377/35184372088832",
+    "6": "300239975158033/35184372088832",
+    "7": "4803839602528529/35184372088832"
+   },
+   "threshold": 5
+  },
+  "kazakh": {
+   "forms": {
+    "alma-ga": {
+     "agrees": true,
+     "expected": "alma.ga",
+     "winners": [
+      "alma.ga"
+     ]
+    },
+    "alma-lar": {
+     "agrees": true,
+     "expected": "alma.lar",
+     "winners": [
+      "alma.lar"
+     ]
+    },
+    "alma-ma": {
+     "agrees": true,
+     "expected": "alma.ma",
+     "winners": [
+      "alma.ma"
+     ]
+    },
+    "kijar-ga": {
+     "agrees": true,
+     "expected": "kijar.ga",
+     "winners": [
+      "kijar.ga"
+     ]
+    },
+    "kijar-lar": {
+     "agrees": true,
+     "expected": "kijar.lar",
+     "winners": [
+      "kijar.lar"
+     ]
+    },
+    "kijar-ma": {
+     "agrees": true,
+     "expected": "kijar.ma",
+     "winners": [
+      "kijar.ma"
+     ]
+    },
+    "kol-ga": {
+     "agrees": true,
+     "expected": "kol.ga",
+     "winners": [
+      "kol.ga"
+     ]
+    },
+    "kol-lar": {
+     "agrees": true,
+     "expected": "kol.dar",
+     "winners": [
+      "kol.dar"
+     ]
+    },
+    "kol-ma": {
+     "agrees": true,
+     "expected": "kol.ma",
+     "winners": [
+      "kol.ma"
+     ]
+    },
+    "koŋɯz-ga": {
+     "agrees": true,
+     "expected": "koŋɯz.ga",
+     "winners": [
+      "koŋɯz.ga"
+     ]
+    },
+    "koŋɯz-lar": {
+     "agrees": true,
+     "expected": "koŋɯz.dar",
+     "winners": [
+      "koŋɯz.dar"
+     ]
+    },
+    "koŋɯz-ma": {
+     "agrees": true,
+     "expected": "koŋɯz.ba",
+     "winners": [
+      "koŋɯz.ba"
+     ]
+    },
+    "mandaj-ga": {
+     "agrees": true,
+     "expected": "mandaj.ga",
+     "winners": [
+      "mandaj.ga"
+     ]
+    },
+    "mandaj-lar": {
+     "agrees": true,
+     "expected": "mandaj.lar",
+     "winners": [
+      "mandaj.lar"
+     ]
+    },
+    "mandaj-ma": {
+     "agrees": true,
+     "expected": "mandaj.ma",
+     "winners": [
+      "mandaj.ma"
+     ]
+    },
+    "murin-ga": {
+     "agrees": true,
+     "expected": "murin.ga",
+     "winners": [
+      "murin.ga"
+     ]
+    },
+    "murin-lar": {
+     "agrees": true,
+     "expected": "murin.dar",
+     "winners": [
+      "murin.dar"
+     ]
+    },
+    "murin-ma": {
+     "agrees": true,
+     "expected": "murin.ba",
+     "winners": [
+      "murin.ba"
+     ]
+    },
+    "syjek-ga": {
+     "agrees": true,
+     "expected": "syjek.ke",
+     "winners": [
+      "syjek.ka"
+     ]
+    },
+    "syjek-lar": {
+     "agrees": true,
+     "expected": "syjek.ter",
+     "winners": [
+      "syjek.tar"
+     ]
+    },
+    "syjek-ma": {
+     "agrees": true,
+     "expected": "syjek.pe",
+     "winners": [
+      "syjek.pa"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "1365/2048",
+    "-2": "341/2048",
+    "-3": "85/2048",
+    "-4": "21/2048",
+    "-5": "5/2048",
+    "-6": "1/2048",
+    "-7": "0",
+    "0": "5461/2048",
+    "1": "21845/2048",
+    "2": "87381/2048",
+    "3": "349525/2048",
+    "4": "1398101/2048",
+    "5": "5592405/2048",
+    "6": "22369621/2048",
+    "7": "89478485/2048"
+   },
+   "threshold": -1
+  },
+  "kirghiz": {
+   "forms": {
+    "aj-lar": {
+     "agrees": true,
+     "expected": "aj.dar",
+     "winners": [
+      "aj.dar"
+     ]
+    },
+    "aj-nu": {
+     "agrees": true,
+     "expected": "aj.dɯ",
+     "winners": [
+      "aj.du"
+     ]
+    },
+    "atan-lar": {
+     "agrees": true,
+     "expected": "atan.dar",
+     "winners": [
+      "atan.dar"
+     ]
+    },
+    "atan-nu": {
+     "agrees": true,
+     "expected": "atan.dɯ",
+     "winners": [
+      "atan.du"
+     ]
+    },
+    "ber-ba": {
+     "agrees": true,
+     "expected": "ber.be",
+     "winners": [
+      "ber.ba"
+     ]
+    },
+    "kar-lar": {
+     "agrees": true,
+     "expected": "kar.dar",
+     "winners": [
+      "kar.dar"
+     ]
+    },
+    "kar-nu": {
+     "agrees": true,
+     "expected": "kar.dɯ",
+     "winners": [
+      "kar.du"
+     ]
+    },
+    "ket-ba": {
+     "agrees": true,
+     "expected": "ket.pe",
+     "winners": [
+      "ket.pa"
+     ]
+    },
+    "koldo-ba": {
+     "agrees": true,
+     "expected": "koldo.ba",
+     "winners": [
+      "koldo.ba"
+     ]
+    },
+    "konok-lar": {
+     "agrees": true,
+     "expected": "konok.tar",
+     "winners": [
+      "konok.tar"
+     ]
+    },
+    "konok-nu": {
+     "agrees": true,
+     "expected": "konok.tu",
+     "winners": [
+      "konok.tu"
+     ]
+    },
+    "rol-lar": {
+     "agrees": true,
+     "expected": "rol.dar",
+     "winners": [
+      "rol.dar"
+     ]
+    },
+    "rol-nu": {
+     "agrees": true,
+     "expected": "rol.du",
+     "winners": [
+      "rol.du"
+     ]
+    },
+    "taʃ-lar": {
+     "agrees": true,
+     "expected": "taʃ.tar",
+     "winners": [
+      "taʃ.tar"
+     ]
+    },
+    "taʃ-nu": {
+     "agrees": true,
+     "expected": "taʃ.tɯ",
+     "winners": [
+      "taʃ.tu"
+     ]
+    },
+    "too-lar": {
+     "agrees": true,
+     "expected": "too.lar",
+     "winners": [
+      "too.lar"
+     ]
+    },
+    "too-nu": {
+     "agrees": true,
+     "expected": "too.nu",
+     "winners": [
+      "too.nu"
+     ]
+    },
+    "ʒaz-ba": {
+     "agrees": true,
+     "expected": "ʒaz.ba",
+     "winners": [
+      "ʒaz.ba"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "1365/32",
+    "-2": "341/32",
+    "-3": "85/32",
+    "-4": "21/32",
+    "-5": "5/32",
+    "-6": "1/32",
+    "-7": "0",
+    "0": "5461/32",
+    "1": "21845/32",
+    "2": "87381/32",
+    "3": "349525/32",
+    "4": "1398101/32",
+    "5": "5592405/32",
+    "6": "22369621/32",
+    "7": "89478485/32"
+   },
+   "threshold": -4
+  },
+  "sidamo": {
+   "forms": {
+    "af-tinonni": {
+     "agrees": true,
+     "expected": "af.finonni",
+     "winners": [
+      "af.finonni"
+     ]
+    },
+    "ag-tu": {
+     "agrees": true,
+     "expected": "ag.gu",
+     "winners": [
+      "ag.gu"
+     ]
+    },
+    "amad-tino": {
+     "agrees": true,
+     "expected": "amad.dino",
+     "winners": [
+      "amad.dino"
+     ]
+    },
+    "duk-nanni": {
+     "agrees": true,
+     "expected": "duŋ.kanni",
+     "winners": [
+      "duŋ.kanni"
+     ]
+    },
+    "ful-nemmo": {
+     "agrees": true,
+     "expected": "ful.lemmo",
+     "winners": [
+      "ful.lemmo"
+     ]
+    },
+    "ful-te": {
+     "agrees": true,
+     "expected": "ful.te",
+     "winners": [
+      "ful.te"
+     ]
+    },
+    "hab-nemmo": {
+     "agrees": true,
+     "expected": "ham.bemmo",
+     "winners": [
+      "ham.bemmo"
+     ]
+    },
+    "hab-toti": {
+     "agrees": true,
+     "expected": "hab.boti",
+     "winners": [
+      "hab.boti"
+     ]
+    },
+    "has-nemmo": {
+     "agrees": true,
+     "expected": "han.semmo",
+     "winners": [
+      "han.semmo"
+     ]
+    },
+    "huʔ-nanni": {
+     "agrees": true,
+     "expected": "hun.ʔanni",
+     "winners": [
+      "hun.ʔanni"
+     ]
+    },
+    "lelliʃ-toti": {
+     "agrees": true,
+     "expected": "lelliʃ.ʃoti",
+     "winners": [
+      "lelliʃ.ʃoti"
+     ]
+    },
+    "mar-nonni": {
+     "agrees": true,
+     "expected": "mar.ronni",
+     "winners": [
+      "mar.ronni"
+     ]
+    },
+    "maʕ-toti": {
+     "agrees": true,
+     "expected": "maʕ.toti",
+     "winners": [
+      "maʕ.toti"
+     ]
+    },
+    "qaram-tino": {
+     "agrees": true,
+     "expected": "qaran.tino",
+     "winners": [
+      "qaran.tino"
+     ]
+    },
+    "um-nommo": {
+     "agrees": true,
+     "expected": "um.mommo",
+     "winners": [
+      "um.mommo"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "20475/256",
+    "-2": "5115/256",
+    "-3": "1275/256",
+    "-4": "315/256",
+    "-5": "75/256",
+    "-6": "15/256",
+    "-7": "0",
+    "0": "81915/256",
+    "1": "327675/256",
+    "2": "1310715/256",
+    "3": "5242875/256",
+    "4": "20971515/256",
+    "5": "83886075/256",
+    "6": "335544315/256",
+    "7": "1342177275/256"
+   },
+   "threshold": -2,
+   "weights": {
+    "AGREE_VOICE_OBS": "1000",
+    "IDENT": "3",
+    "IDENT_PLACE": "1",
+    "IDENT_PLACE_OBS": "5",
+    "IDENT_RT": "100",
+    "IDENT_SON": "40",
+    "LINEARITY": "2",
+    "MAX_C": "10",
+    "NASAL_PLACE": "50",
+    "NO_GEMINATE": "3",
+    "NO_RN": "1000"
+   }
+  }
+ },
+ "limiting_profiles": {
+  "concave: one step at -4": {
+   "all_agree": false,
+   "forms": {
+    "kijar-lar": {
+     "agrees": false,
+     "expected": "kijar.lar",
+     "winners": [
+      "kijar.dar"
+     ]
+    },
+    "kol-lar": {
+     "agrees": false,
+     "expected": "kol.dar",
+     "winners": [
+      "kol.lar"
+     ]
+    },
+    "murin-ma": {
+     "agrees": false,
+     "expected": "murin.ba",
+     "winners": [
+      "murin.ma"
+     ]
+    },
+    "syjek-lar": {
+     "agrees": false,
+     "expected": "syjek.ter",
+     "winners": [
+      "syjek.sar",
+      "syjek.tar"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "10",
+    "-2": "10",
+    "-3": "10",
+    "-4": "0",
+    "-5": "0",
+    "-6": "0",
+    "-7": "0",
+    "0": "10",
+    "1": "10",
+    "2": "10",
+    "3": "10",
+    "4": "10",
+    "5": "10",
+    "6": "10",
+    "7": "10"
+   }
+  },
+  "convex geometric at -1 (used above)": {
+   "all_agree": true,
+   "forms": {
+    "kijar-lar": {
+     "agrees": true,
+     "expected": "kijar.lar",
+     "winners": [
+      "kijar.lar"
+     ]
+    },
+    "kol-lar": {
+     "agrees": true,
+     "expected": "kol.dar",
+     "winners": [
+      "kol.dar"
+     ]
+    },
+    "murin-ma": {
+     "agrees": true,
+     "expected": "murin.ba",
+     "winners": [
+      "murin.ba"
+     ]
+    },
+    "syjek-lar": {
+     "agrees": true,
+     "expected": "syjek.ter",
+     "winners": [
+      "syjek.tar"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "1365/2048",
+    "-2": "341/2048",
+    "-3": "85/2048",
+    "-4": "21/2048",
+    "-5": "5/2048",
+    "-6": "1/2048",
+    "-7": "0",
+    "0": "5461/2048",
+    "1": "21845/2048",
+    "2": "87381/2048",
+    "3": "349525/2048",
+    "4": "1398101/2048",
+    "5": "5592405/2048",
+    "6": "22369621/2048",
+    "7": "89478485/2048"
+   }
+  },
+  "linear profile (constant increments)": {
+   "all_agree": false,
+   "forms": {
+    "kijar-lar": {
+     "agrees": false,
+     "expected": "kijar.lar",
+     "winners": [
+      "kijar.dar"
+     ]
+    },
+    "kol-lar": {
+     "agrees": true,
+     "expected": "kol.dar",
+     "winners": [
+      "kol.dar"
+     ]
+    },
+    "murin-ma": {
+     "agrees": true,
+     "expected": "murin.ba",
+     "winners": [
+      "murin.ba"
+     ]
+    },
+    "syjek-lar": {
+     "agrees": true,
+     "expected": "syjek.ter",
+     "winners": [
+      "syjek.tar"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "12",
+    "-2": "10",
+    "-3": "8",
+    "-4": "6",
+    "-5": "4",
+    "-6": "2",
+    "-7": "0",
+    "0": "14",
+    "1": "16",
+    "2": "18",
+    "3": "20",
+    "4": "22",
+    "5": "24",
+    "6": "26",
+    "7": "28"
+   }
+  },
+  "single threshold LE_-1 (step)": {
+   "all_agree": false,
+   "forms": {
+    "kijar-lar": {
+     "agrees": true,
+     "expected": "kijar.lar",
+     "winners": [
+      "kijar.lar"
+     ]
+    },
+    "kol-lar": {
+     "agrees": false,
+     "expected": "kol.dar",
+     "winners": [
+      "kol.dar",
+      "kol.nar",
+      "kol.zar"
+     ]
+    },
+    "murin-ma": {
+     "agrees": true,
+     "expected": "murin.ba",
+     "winners": [
+      "murin.ba"
+     ]
+    },
+    "syjek-lar": {
+     "agrees": false,
+     "expected": "syjek.ter",
+     "winners": [
+      "syjek.sar",
+      "syjek.tar"
+     ]
+    }
+   },
+   "profile": {
+    "-1": "0",
+    "-2": "0",
+    "-3": "0",
+    "-4": "0",
+    "-5": "0",
+    "-6": "0",
+    "-7": "0",
+    "0": "10",
+    "1": "10",
+    "2": "10",
+    "3": "10",
+    "4": "10",
+    "5": "10",
+    "6": "10",
+    "7": "10"
+   }
+  }
+ },
+ "regions": {
+  "kazakh": {
+   "convex_increments": {
+    "feasible": true,
+    "slack": 1.0,
+    "witness": {
+     "AGREE_VOICE": 1000.0,
+     "CONTACT_LE_+0": 1000.0,
+     "CONTACT_LE_+1": 1000.0,
+     "CONTACT_LE_+2": 1000.0,
+     "CONTACT_LE_+3": 1000.0,
+     "CONTACT_LE_+4": 1000.0,
+     "CONTACT_LE_+5": 1000.0,
+     "CONTACT_LE_+6": 1000.0,
+     "CONTACT_LE_-1": 3.0,
+     "CONTACT_LE_-2": 1.0,
+     "CONTACT_LE_-3": 1.0,
+     "CONTACT_LE_-4": 0.0,
+     "CONTACT_LE_-5": 0.0,
+     "CONTACT_LE_-6": 0.0,
+     "CONTACT_LE_-7": 0.0,
+     "IDENT": 3.0,
+     "IDENT_PLACE": 1000.0,
+     "IDENT_RT": 1000.0,
+     "NO_GEMINATE": 0.0
+    }
+   },
+   "free": {
+    "feasible": true,
+    "slack": 1.0,
+    "witness": {
+     "AGREE_VOICE": 1000.0,
+     "CONTACT_LE_+0": 1000.0,
+     "CONTACT_LE_+1": 1000.0,
+     "CONTACT_LE_+2": 1000.0,
+     "CONTACT_LE_+3": 1000.0,
+     "CONTACT_LE_+4": 1000.0,
+     "CONTACT_LE_+5": 1000.0,
+     "CONTACT_LE_+6": 1000.0,
+     "CONTACT_LE_-1": 3.0,
+     "CONTACT_LE_-2": 1.0,
+     "CONTACT_LE_-3": 1.0,
+     "CONTACT_LE_-4": 0.0,
+     "CONTACT_LE_-5": 0.0,
+     "CONTACT_LE_-6": 0.0,
+     "CONTACT_LE_-7": 0.0,
+     "IDENT": 3.0,
+     "IDENT_PLACE": 1000.0,
+     "IDENT_RT": 1000.0,
+     "NO_GEMINATE": 0.0
+    }
+   },
+   "n_inequalities": 5865
+  },
+  "kirghiz": {
+   "convex_increments": {
+    "feasible": true,
+    "slack": 1.0,
+    "witness": {
+     "AGREE_VOICE": 1000.0,
+     "CONTACT_LE_+0": 1000.0,
+     "CONTACT_LE_+1": 1000.0,
+     "CONTACT_LE_+2": 1000.0,
+     "CONTACT_LE_+3": 1000.0,
+     "CONTACT_LE_+4": 1000.0,
+     "CONTACT_LE_+5": 1000.0,
+     "CONTACT_LE_+6": 1000.0,
+     "CONTACT_LE_-1": 1.0,
+     "CONTACT_LE_-2": 1.0,
+     "CONTACT_LE_-3": 1.0,
+     "CONTACT_LE_-4": 1.0,
+     "CONTACT_LE_-5": 1.0,
+     "CONTACT_LE_-6": 0.0,
+     "CONTACT_LE_-7": 0.0,
+     "IDENT": 1.0,
+     "IDENT_PLACE": 1000.0,
+     "IDENT_RT": 1000.0,
+     "NO_GEMINATE": 0.0
+    }
+   },
+   "free": {
+    "feasible": true,
+    "slack": 1.0,
+    "witness": {
+     "AGREE_VOICE": 1000.0,
+     "CONTACT_LE_+0": 1000.0,
+     "CONTACT_LE_+1": 1000.0,
+     "CONTACT_LE_+2": 1000.0,
+     "CONTACT_LE_+3": 1000.0,
+     "CONTACT_LE_+4": 1000.0,
+     "CONTACT_LE_+5": 1000.0,
+     "CONTACT_LE_+6": 1000.0,
+     "CONTACT_LE_-1": 1.0,
+     "CONTACT_LE_-2": 1.0,
+     "CONTACT_LE_-3": 1.0,
+     "CONTACT_LE_-4": 1.0,
+     "CONTACT_LE_-5": 1.0,
+     "CONTACT_LE_-6": 0.0,
+     "CONTACT_LE_-7": 0.0,
+     "IDENT": 1.0,
+     "IDENT_PLACE": 1000.0,
+     "IDENT_RT": 1000.0,
+     "NO_GEMINATE": 0.0
+    }
+   },
+   "n_inequalities": 4896
+  }
+ }
+}

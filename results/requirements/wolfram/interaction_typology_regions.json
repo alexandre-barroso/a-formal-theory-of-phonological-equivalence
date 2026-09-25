@@ -1,0 +1,1507 @@
+{
+	"unique_systems":41,
+	"assignments":300,
+	"timeouts":0,
+	"regions":[
+		{
+			"pattern":"counterfeeding",
+			"modes":"D+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"D+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"D+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"D+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"L2R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"L2R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"R2L+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"R2L+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"counterfeeding",
+			"modes":"R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"D+D",
+			"region":"False"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"D+R",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"D+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"D+R2L",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"R+R",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"R+R2L",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"L2R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"L2R+R",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"L2R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"L2R+R2L",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"R2L+D",
+			"region":"False"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"R2L+R",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"R2L+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"feeding",
+			"modes":"R2L+R2L",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"D+D",
+			"region":"False"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"D+R",
+			"region":"False"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"D+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"D+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"R+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"R+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"R+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"R+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"L2R+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"L2R+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"R2L+D",
+			"region":"False"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"R2L+R",
+			"region":"False"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"R2L+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"counterbleeding",
+			"modes":"R2L+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"D+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"D+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"D+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"D+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"L2R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"L2R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"L2R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"L2R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"R2L+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"R2L+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"bleeding",
+			"modes":"R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"D+D",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"D+R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"D+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"D+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"R+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"R+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"L2R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"L2R+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"L2R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"R2L+D",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"R2L+R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"R2L+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_counterbleeding",
+			"modes":"R2L+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"D+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"D+R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"D+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"D+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"R+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"R+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"L2R+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"L2R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"L2R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"R2L+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"R2L+R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_h_first",
+			"modes":"R2L+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"D+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"D+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"D+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"D+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"L2R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"L2R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"L2R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"L2R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"R2L+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"R2L+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_bleeding_voc_first",
+			"modes":"R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"D+D",
+			"region":"Inequality[0, LessEqual, lam, Less, -1 + Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"D+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"D+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, -1 + Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"D+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, -1 + Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, -1 + Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"L2R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, -1 + Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"L2R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, -1 + Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"R2L+D",
+			"region":"Inequality[0, LessEqual, lam, Less, -1 + Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"R2L+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, -1 + Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding",
+			"modes":"R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"D+D",
+			"region":"False"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"D+R",
+			"region":"False"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"D+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"D+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"R+D",
+			"region":"Inequality[0, Less, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"R+R",
+			"region":"Inequality[0, Less, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"R+L2R",
+			"region":"Inequality[0, Less, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"R+R2L",
+			"region":"Inequality[0, Less, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"L2R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"L2R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"L2R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"L2R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"R2L+D",
+			"region":"Inequality[0, Less, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"R2L+R",
+			"region":"Inequality[0, Less, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"R2L+L2R",
+			"region":"Inequality[0, Less, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"fed_counterfeeding",
+			"modes":"R2L+R2L",
+			"region":"Inequality[0, Less, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"D+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"D+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"D+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"D+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"L2R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"L2R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"R2L+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"R2L+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"mutual_counterfeeding_deletions",
+			"modes":"R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/Sqrt[2]]"
+		},
+		{
+			"pattern":"noniterative_simultaneous",
+			"modes":"D",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_simultaneous",
+			"modes":"R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"noniterative_simultaneous",
+			"modes":"L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_simultaneous",
+			"modes":"R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_left_to_right",
+			"modes":"D",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_left_to_right",
+			"modes":"R",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_left_to_right",
+			"modes":"L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"noniterative_left_to_right",
+			"modes":"R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_right_to_left",
+			"modes":"D",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_right_to_left",
+			"modes":"R",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_right_to_left",
+			"modes":"L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"noniterative_right_to_left",
+			"modes":"R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_counterfeeding",
+			"modes":"D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"self_counterfeeding",
+			"modes":"R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"self_counterfeeding",
+			"modes":"L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"self_counterfeeding",
+			"modes":"R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1\/2]"
+		},
+		{
+			"pattern":"self_feeding",
+			"modes":"D",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_feeding",
+			"modes":"R",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_feeding",
+			"modes":"L2R",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_feeding",
+			"modes":"R2L",
+			"region":"Inequality[0, Less, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_counterbleeding",
+			"modes":"D",
+			"region":"False"
+		},
+		{
+			"pattern":"self_counterbleeding",
+			"modes":"R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_counterbleeding",
+			"modes":"L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"self_counterbleeding",
+			"modes":"R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_bleeding",
+			"modes":"D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_bleeding",
+			"modes":"R",
+			"region":"False"
+		},
+		{
+			"pattern":"self_bleeding",
+			"modes":"L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"self_bleeding",
+			"modes":"R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+D+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+D+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+D+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+D+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+L2R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+L2R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+R2L+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+R2L+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"D+R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+D+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+D+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+D+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+D+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+L2R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+L2R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+R2L+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+R2L+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R+R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+D+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+D+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+D+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+D+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+L2R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+L2R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+R2L+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+R2L+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"L2R+R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+D+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+D+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+D+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+D+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+L2R+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+L2R+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+R2L+D",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+R2L+R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"circular_chain_shift",
+			"modes":"R2L+R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, Less, 1]"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"D+D",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"D+R",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"D+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"D+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"L2R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"L2R+R",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"L2R+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"L2R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"R2L+D",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"R2L+R",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"R2L+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_blocking",
+			"modes":"R2L+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"D+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"D+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"D+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"D+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"R+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"R+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"R+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"R+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"L2R+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"L2R+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"L2R+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"R2L+D",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"R2L+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"R2L+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"vipratisedha_first_wins",
+			"modes":"R2L+R2L",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"D+D",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"D+R",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"D+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"D+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"R+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"R+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"L2R+D",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"L2R+R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"L2R+L2R",
+			"region":"Inequality[0, LessEqual, lam, LessEqual, 1]"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"L2R+R2L",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"R2L+D",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"R2L+R",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"R2L+L2R",
+			"region":"False"
+		},
+		{
+			"pattern":"changtin",
+			"modes":"R2L+R2L",
+			"region":"False"
+		}
+	]
+}

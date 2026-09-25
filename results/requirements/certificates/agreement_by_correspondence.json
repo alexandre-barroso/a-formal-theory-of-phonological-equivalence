@@ -1,0 +1,128 @@
+{
+ "candidates": 32,
+ "reference_coefficients": {
+  "CORR": [
+   0,
+   0
+  ],
+  "IDENT-IO": [
+   0,
+   0
+  ],
+  "IDENT-IO-rd": [
+   0,
+   0
+  ],
+  "IDENT-XX": [
+   2,
+   0
+  ],
+  "MAX": [
+   0,
+   0
+  ]
+ },
+ "rows": {
+  "corr_outranked_w16": {
+   "minimisers": [
+    "otu[nocorr]"
+   ],
+   "minimum8": "1"
+  },
+  "corr_outranked_w400": {
+   "minimisers": [
+    "otu[nocorr]"
+   ],
+   "minimum8": "1"
+  },
+  "corr_undominated_w16": {
+   "minimisers": [
+    "oto[corr]",
+    "utu[corr]"
+   ],
+   "minimum8": "32"
+  },
+  "repair_assimilation": {
+   "minimisers": [
+    "oto[corr]",
+    "utu[corr]"
+   ],
+   "minimum8": "32"
+  },
+  "repair_deletion": {
+   "minimisers": [
+    "ot[corr]",
+    "ot[nocorr]",
+    "tu[corr]",
+    "tu[nocorr]"
+   ],
+   "minimum8": "16"
+  },
+  "repair_deletion_identxx_x56": {
+   "minimisers": [
+    "ot[corr]",
+    "ot[nocorr]",
+    "tu[corr]",
+    "tu[nocorr]"
+   ],
+   "minimum8": "16"
+  }
+ },
+ "scope": "Schematic three-segment correspondence fragment; comparisons at the displayed weights, not universal ranking or independence claims or a full reduplication analysis.",
+ "subject_strictness": {
+  "CORR": {
+   "n": {
+    "reason": "compositional Kleene values exclude false with n unresolved",
+    "sort": "Or",
+    "subject_strict_certified": true,
+    "totality": "total"
+   },
+   "t": {
+    "reason": "compositional Kleene values exclude false with t unresolved",
+    "sort": "Or",
+    "subject_strict_certified": true,
+    "totality": "total"
+   }
+  },
+  "IDENT-IO": {
+   "t": {
+    "reason": "compositional Kleene values exclude false with t unresolved",
+    "sort": "Or",
+    "subject_strict_certified": true,
+    "totality": "total"
+   }
+  },
+  "IDENT-IO-rd": {
+   "t": {
+    "reason": "compositional Kleene values exclude false with t unresolved",
+    "sort": "Or",
+    "subject_strict_certified": true,
+    "totality": "total"
+   }
+  },
+  "IDENT-XX": {
+   "c": {
+    "reason": "compositional Kleene values exclude false with c unresolved",
+    "sort": "SCorr",
+    "subject_strict_certified": true,
+    "totality": "derived"
+   },
+   "t": {
+    "reason": "compositional Kleene values exclude false with t unresolved",
+    "sort": "Or",
+    "subject_strict_certified": true,
+    "totality": "total"
+   }
+  },
+  "MAX": {
+   "t": {
+    "reason": "compositional Kleene values exclude false with t unresolved",
+    "sort": "Or",
+    "subject_strict_certified": true,
+    "totality": "total"
+   }
+  }
+ },
+ "tested_deletion_minimisers_unchanged": true,
+ "tested_low_corr_minimisers_unchanged": true
+}

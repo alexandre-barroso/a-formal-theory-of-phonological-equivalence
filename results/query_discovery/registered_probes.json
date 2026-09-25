@@ -1,0 +1,3335 @@
+{
+  "artifact": "registered_probes",
+  "selection_policy": "spec/discovery_contract.v1.json, policy id 'length_driven_rephrasing_v1'",
+  "count": 128,
+  "probes": [
+    {
+      "base_input": "G34a",
+      "frame": "suffix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ",
+        "bɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "aheteɔkpʊkɔbɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 8,
+      "faithful_output": "ahɛteɔkpʊkɔbɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "prefix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "bɛ",
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "baahɛtɔɔkpʊkɔ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "bɛahɛteɔkpʊkɔ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "suffix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ",
+        "akʊ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "aheteɔkpʊkaakʊ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ahɛteɔkpʊkɔakʊ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "prefix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "akʊ",
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "akwahɛtɔɔkpʊkɔ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "akʊahɛteɔkpʊkɔ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "suffix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ",
+        "njɛɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "aheteɔkpʊkɔnjɛɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 8,
+      "faithful_output": "ahɛteɔkpʊkɔnjɛɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "prefix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "njɛɛ",
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "njɛaahɛtɔɔkpʊkɔ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "njɛɛahɛteɔkpʊkɔ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "suffix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ",
+        "tei"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "aheteɔkpʊkotei"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ahɛteɔkpʊkɔtei",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "prefix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "tei",
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "tejahɛtɔɔkpʊkɔ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "teiahɛteɔkpʊkɔ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "suffix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ",
+        "oni"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "aheteɔkpʊkooni"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ahɛteɔkpʊkɔoni",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "prefix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "oni",
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "onjahɛtɔɔkpʊkɔ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "oniahɛteɔkpʊkɔ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "suffix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "aheteɔkpʊkɔjsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "ahɛteɔkpʊkɔɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "prefix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɪsɛ",
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɪsaahɛtɔɔkpʊkɔ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "ɪsɛahɛteɔkpʊkɔ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "suffix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "aheteɔkpʊkɛɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ahɛteɔkpʊkɔɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "prefix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɛbɪ",
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɛbjahɛtɔɔkpʊkɔ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "ɛbɪahɛteɔkpʊkɔ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "suffix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "aheteɔkpʊkojbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "ahɛteɔkpʊkɔibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34a",
+      "frame": "prefix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ibie",
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ibiaahɛtɔɔkpʊkɔ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "ibieahɛteɔkpʊkɔ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "suffix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "afɪ",
+        "sɛ",
+        "ohili",
+        "bɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "afɪsɛohilibɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "afɪsɛohilibɛ",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "prefix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "bɛ",
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "baafɪsoohili"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "bɛafɪsɛohili",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "suffix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "afɪ",
+        "sɛ",
+        "ohili",
+        "akʊ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "afɪsɛohiljakʊ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "afɪsɛohiliakʊ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "prefix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "akʊ",
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "akwafɪsoohili"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "akʊafɪsɛohili",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "suffix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "afɪ",
+        "sɛ",
+        "ohili",
+        "njɛɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "afɪsɛohilinjɛɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "afɪsɛohilinjɛɛ",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "prefix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "njɛɛ",
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "njɛaafɪsoohili"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "njɛɛafɪsɛohili",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "suffix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "afɪ",
+        "sɛ",
+        "ohili",
+        "tei"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "afɪsɛohilitei"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "afɪsɛohilitei",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "prefix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "tei",
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "tejafɪsoohili"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "teiafɪsɛohili",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "suffix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "afɪ",
+        "sɛ",
+        "ohili",
+        "oni"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "afɪsɛohiljoni"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "afɪsɛohilioni",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "prefix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "oni",
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "onjafɪsoohili"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "oniafɪsɛohili",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "suffix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "afɪ",
+        "sɛ",
+        "ohili",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "afɪsɛohilisɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "afɪsɛohiliɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "prefix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɪsɛ",
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɪsaafɪsoohili"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "ɪsɛafɪsɛohili",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "suffix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "afɪ",
+        "sɛ",
+        "ohili",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "afɪsɛohiljɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "afɪsɛohiliɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "prefix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɛbɪ",
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɛbjafɪsoohili"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "ɛbɪafɪsɛohili",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "suffix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "afɪ",
+        "sɛ",
+        "ohili",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "afɪsɛohilibie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "afɪsɛohiliibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G34b",
+      "frame": "prefix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ibie",
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ibiaafɪsoohili"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "ibieafɪsɛohili",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "suffix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɪ",
+        "jeli",
+        "bɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃijelibɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 8,
+      "faithful_output": "atʃɪjelibɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "prefix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "bɛ",
+        "atʃɪ",
+        "jeli"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "baatʃijeli"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "bɛatʃɪjeli",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "suffix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɪ",
+        "jeli",
+        "akʊ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃijeljakʊ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "atʃɪjeliakʊ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "prefix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "akʊ",
+        "atʃɪ",
+        "jeli"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "akwatʃijeli"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "akʊatʃɪjeli",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "suffix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɪ",
+        "jeli",
+        "njɛɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃijelinjɛɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 8,
+      "faithful_output": "atʃɪjelinjɛɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "prefix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "njɛɛ",
+        "atʃɪ",
+        "jeli"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "njɛaatʃijeli"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "njɛɛatʃɪjeli",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "suffix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɪ",
+        "jeli",
+        "tei"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃijelitei"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 8,
+      "faithful_output": "atʃɪjelitei",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "prefix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "tei",
+        "atʃɪ",
+        "jeli"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "tejatʃijeli"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "teiatʃɪjeli",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "suffix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɪ",
+        "jeli",
+        "oni"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃijeljoni"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "atʃɪjelioni",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "prefix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "oni",
+        "atʃɪ",
+        "jeli"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "onjatʃijeli"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "oniatʃɪjeli",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "suffix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɪ",
+        "jeli",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃijelisɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 168,
+      "faithful_output": "atʃɪjeliɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "prefix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɪsɛ",
+        "atʃɪ",
+        "jeli"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɪsaatʃijeli"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ɪsɛatʃɪjeli",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "suffix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɪ",
+        "jeli",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃijeljɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "atʃɪjeliɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "prefix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɛbɪ",
+        "atʃɪ",
+        "jeli"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɛbjatʃijeli"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "ɛbɪatʃɪjeli",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "suffix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɪ",
+        "jeli",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃijelibie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 168,
+      "faithful_output": "atʃɪjeliibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "N7",
+      "frame": "prefix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ibie",
+        "atʃɪ",
+        "jeli"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ibiaatʃijeli"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "ibieatʃɪjeli",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "suffix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie",
+        "bɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɔtʃʊsɛibiebɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "ɔtʃʊsɛibiebɛ",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "prefix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "bɛ",
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "bɔɔtʃʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "bɛɔtʃʊsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "suffix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie",
+        "akʊ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɔtʃʊsɛibiaakʊ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ɔtʃʊsɛibieakʊ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "prefix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "akʊ",
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "akwɔtʃʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 40,
+      "faithful_output": "akʊɔtʃʊsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "suffix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie",
+        "njɛɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɔtʃʊsɛibienjɛɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "ɔtʃʊsɛibienjɛɛ",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "prefix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "njɛɛ",
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "njɛɔɔtʃʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "njɛɛɔtʃʊsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "suffix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie",
+        "tei"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɔtʃʊsɛibietei"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "ɔtʃʊsɛibietei",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "prefix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "tei",
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "tejɔtʃʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 40,
+      "faithful_output": "teiɔtʃʊsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "suffix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie",
+        "oni"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɔtʃʊsɛibiooni"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 8,
+      "faithful_output": "ɔtʃʊsɛibieoni",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "prefix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "oni",
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "onjɔtʃʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 40,
+      "faithful_output": "oniɔtʃʊsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "suffix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɔtʃʊsɛibiejsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ɔtʃʊsɛibieɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "prefix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɪsɛ",
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɪsɔɔtʃʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "ɪsɛɔtʃʊsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "suffix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɔtʃʊsɛibiɛɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 8,
+      "faithful_output": "ɔtʃʊsɛibieɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "prefix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɛbɪ",
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɛbjɔtʃʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 40,
+      "faithful_output": "ɛbɪɔtʃʊsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "suffix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɔtʃʊsɛibiejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ɔtʃʊsɛibieibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "G37c",
+      "frame": "prefix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ibie",
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ibiɔɔtʃʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 40,
+      "faithful_output": "ibieɔtʃʊsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "suffix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "kpe",
+        "isi",
+        "bɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "kpejsibɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "kpeisibɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "prefix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "bɛ",
+        "kpe",
+        "isi"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 2197,
+      "predicted_outputs": [
+        "bekpejsi"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "bɛkpeisi",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "suffix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "kpe",
+        "isi",
+        "akʊ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "kpejsjakʊ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "kpeisiakʊ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "prefix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "akʊ",
+        "kpe",
+        "isi"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 2197,
+      "predicted_outputs": [
+        "akukpejsi"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "akʊkpeisi",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "suffix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "kpe",
+        "isi",
+        "njɛɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "kpejsinjɛɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "kpeisinjɛɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "prefix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "njɛɛ",
+        "kpe",
+        "isi"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 2197,
+      "predicted_outputs": [
+        "njɛekpejsi"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "njɛɛkpeisi",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "suffix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "kpe",
+        "isi",
+        "tei"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "kpejsitei"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "kpeisitei",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "prefix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "tei",
+        "kpe",
+        "isi"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 2197,
+      "predicted_outputs": [
+        "teikpejsi"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "teikpeisi",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "suffix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "kpe",
+        "isi",
+        "oni"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "kpejsjoni"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "kpeisioni",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "prefix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "oni",
+        "kpe",
+        "isi"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 2197,
+      "predicted_outputs": [
+        "onikpejsi"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "onikpeisi",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "suffix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "kpe",
+        "isi",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "kpejsisɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 176,
+      "faithful_output": "kpeisiɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "prefix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɪsɛ",
+        "kpe",
+        "isi"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 2197,
+      "predicted_outputs": [
+        "ɪsekpejsi"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "ɪsɛkpeisi",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "suffix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "kpe",
+        "isi",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "kpejsjɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "kpeisiɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "prefix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɛbɪ",
+        "kpe",
+        "isi"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 2197,
+      "predicted_outputs": [
+        "ɛbikpejsi"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "ɛbɪkpeisi",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "suffix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "kpe",
+        "isi",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "kpejsibie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 176,
+      "faithful_output": "kpeisiibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "prefix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ibie",
+        "kpe",
+        "isi"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 2197,
+      "predicted_outputs": [
+        "ibiekpejsi"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ibiekpeisi",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "suffix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɔ",
+        "sɪ",
+        "iku",
+        "bɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃɔsɪikubɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "atʃɔsɪikubɛ",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "prefix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "bɛ",
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "baatʃɔsiku"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 176,
+      "faithful_output": "bɛatʃɔsɪiku",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "suffix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɔ",
+        "sɪ",
+        "iku",
+        "akʊ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃɔsɪikwakʊ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "atʃɔsɪikuakʊ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "prefix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "akʊ",
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "akwatʃɔsiku"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 184,
+      "faithful_output": "akʊatʃɔsɪiku",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "suffix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɔ",
+        "sɪ",
+        "iku",
+        "njɛɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃɔsɪikunjɛɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "atʃɔsɪikunjɛɛ",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "prefix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "njɛɛ",
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "njɛaatʃɔsiku"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 176,
+      "faithful_output": "njɛɛatʃɔsɪiku",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "suffix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɔ",
+        "sɪ",
+        "iku",
+        "tei"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃɔsɪikutei"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 0,
+      "faithful_output": "atʃɔsɪikutei",
+      "process_applies": false,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "prefix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "tei",
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "tejatʃɔsiku"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 184,
+      "faithful_output": "teiatʃɔsɪiku",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "suffix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɔ",
+        "sɪ",
+        "iku",
+        "oni"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃɔsɪikwoni"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "atʃɔsɪikuoni",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "prefix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "oni",
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "onjatʃɔsiku"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 184,
+      "faithful_output": "oniatʃɔsɪiku",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "suffix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɔ",
+        "sɪ",
+        "iku",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃɔsɪikusɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "atʃɔsɪikuɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "prefix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɪsɛ",
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɪsaatʃɔsiku"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 176,
+      "faithful_output": "ɪsɛatʃɔsɪiku",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "suffix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɔ",
+        "sɪ",
+        "iku",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃɔsɪikwɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "atʃɔsɪikuɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "prefix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɛbɪ",
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɛbjatʃɔsiku"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 184,
+      "faithful_output": "ɛbɪatʃɔsɪiku",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "suffix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "atʃɔ",
+        "sɪ",
+        "iku",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "atʃɔsɪikubie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "atʃɔsɪikuibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "OR38",
+      "frame": "prefix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ibie",
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ibiaatʃɔsiku"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 184,
+      "faithful_output": "ibieatʃɔsɪiku",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "suffix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɪsɛ",
+        "bɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊsʊsɛbɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "wʊsʊɪsɛbɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "prefix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "bɛ",
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "bɛwʊsʊsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "bɛwʊsʊɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "suffix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɪsɛ",
+        "akʊ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊsʊsaakʊ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 168,
+      "faithful_output": "wʊsʊɪsɛakʊ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "prefix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "akʊ",
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "akʊwʊsʊsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "akʊwʊsʊɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "suffix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɪsɛ",
+        "njɛɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊsʊsɛnjɛɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "wʊsʊɪsɛnjɛɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "prefix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "njɛɛ",
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "njɛɛwʊsʊsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "njɛɛwʊsʊɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "suffix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɪsɛ",
+        "tei"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊsʊsetei"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 172,
+      "faithful_output": "wʊsʊɪsɛtei",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "prefix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "tei",
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "teiwʊsʊsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "teiwʊsʊɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "suffix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɪsɛ",
+        "oni"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊsʊsooni"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 180,
+      "faithful_output": "wʊsʊɪsɛoni",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "prefix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "oni",
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "oniwʊsʊsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "oniwʊsʊɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "suffix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɪsɛ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊsʊsɛjsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 176,
+      "faithful_output": "wʊsʊɪsɛɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "prefix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɪsɛ",
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɪsɛwʊsʊsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "ɪsɛwʊsʊɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "suffix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɪsɛ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊsʊsɛɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "wʊsʊɪsɛɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "prefix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɛbɪ",
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɛbɪwʊsʊsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "ɛbɪwʊsʊɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "suffix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɪsɛ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊsʊsejbie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 188,
+      "faithful_output": "wʊsʊɪsɛibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C21b",
+      "frame": "prefix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ibie",
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ibiewʊsʊsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 160,
+      "faithful_output": "ibiewʊsʊɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "suffix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɛbɪ",
+        "bɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊswɛbɪbɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "wʊsʊɛbɪbɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "prefix_word('W_bE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "bɛ",
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "bɛwʊswɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "bɛwʊsʊɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "suffix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɛbɪ",
+        "akʊ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊswɛbjakʊ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "wʊsʊɛbɪakʊ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "prefix_word('W_akU',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "akʊ",
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "akʊwʊswɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "akʊwʊsʊɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "suffix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɛbɪ",
+        "njɛɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊswɛbɪnjɛɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "wʊsʊɛbɪnjɛɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "prefix_word('W_njEE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "njɛɛ",
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "njɛɛwʊswɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "njɛɛwʊsʊɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "suffix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɛbɪ",
+        "tei"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊswɛbitei"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 24,
+      "faithful_output": "wʊsʊɛbɪtei",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "prefix_word('W_tei',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "tei",
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "teiwʊswɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "teiwʊsʊɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "suffix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɛbɪ",
+        "oni"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊswɛbjoni"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 36,
+      "faithful_output": "wʊsʊɛbɪoni",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "prefix_word('W_oni',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "oni",
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "oniwʊswɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "oniwʊsʊɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "suffix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɛbɪ",
+        "ɪsɛ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊswɛbɪsɛ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 176,
+      "faithful_output": "wʊsʊɛbɪɪsɛ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "prefix_word('W_isE',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɪsɛ",
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɪsɛwʊswɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ɪsɛwʊsʊɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "suffix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɛbɪ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊswɛbjɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 32,
+      "faithful_output": "wʊsʊɛbɪɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "prefix_word('W_EbI',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ɛbɪ",
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ɛbɪwʊswɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ɛbɪwʊsʊɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "suffix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "wʊsʊ",
+        "ɛbɪ",
+        "ibie"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "wʊswɛbibie"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 184,
+      "faithful_output": "wʊsʊɛbɪibie",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "prefix_word('W_ibie',)",
+      "licence": "ATTESTED",
+      "framed_words": [
+        "ibie",
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "framed_phrases": [
+        0,
+        0,
+        0
+      ],
+      "framed_states": 28561,
+      "predicted_outputs": [
+        "ibiewʊswɛbɪ"
+      ],
+      "unique_minimiser": true,
+      "minimum8": 16,
+      "faithful_output": "ibiewʊsʊɛbɪ",
+      "process_applies": true,
+      "status": "COMPUTED_PREDICTION",
+      "evidence_status": "PENDING_INDEPENDENT_EVIDENCE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "counts": {
+  "envelope_inequalities": 14762,
+  "fiber_equivalences": 14762,
+  "grid_minimizers": 222,
+  "long_fibers": 100,
+  "native_profile_matches": 242,
+  "original_scores": 14762,
+  "positive_weight_uniqueness": 32,
+  "simplex_identities": 14762,
+  "systems": 242,
+  "zero_horizons": 33
+ },
+ "seed": 20260920
+}

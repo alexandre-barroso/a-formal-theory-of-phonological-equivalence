@@ -1,0 +1,21 @@
+ClearAll[t,a,w,z,cf,sc,states,rows];
+states=Tuples[{0,1},6];
+cf[{p_,q_,e00_,e01_,e10_,e11_}]:={2-p-q,2-e00-e11,p*q*e00*e11,p*q*e01*e10};
+rows=cf/@states;
+sc[x_]:=cf[x].{t,a,w,z};
+costs=sc/@states;
+nonnegative=t>=0&&a>=0&&w>=0&&z>=0;
+m=Min[w,t,a];
+bad=Select[states,Total[Take[cf[#],-2]]>0&];
+checks={
+ Length[states]==64&&Length[DeleteDuplicates[states]]==64,
+ TimeConstrained[Resolve[ForAll[{t,a,w,z},nonnegative,And@@Thread[costs>=m]],Reals],60,"TIMEOUT"],
+ TimeConstrained[Resolve[ForAll[{t,a,w,z},nonnegative,Or@@Thread[costs==m]],Reals],60,"TIMEOUT"],
+ TimeConstrained[Resolve[ForAll[{t,a,w,z},nonnegative,Equivalent[And@@Thread[(sc/@bad)>m],Min[t,a]<w&&Min[t,a]<a+z]],Reals],60,"TIMEOUT"],
+ And@@((Total[Take[cf[#],-2]]==0)&/@Select[states,#[[1]]==0||#[[2]]==0&])
+};
+out=FileNameJoin[{DirectoryName[DirectoryName[DirectoryName[$InputFileName]]],"results","requirements","wolfram"}];
+If[!DirectoryQ[out],CreateDirectory[out,CreateIntermediateDirectories->True]];
+Export[FileNameJoin[{out,"ocp_graph_region.json"}],<|"version"->$Version,"states"->states,"coefficients"->rows,"bad_candidates"->Length[bad],"checks"->checks,"scope"->"Independent64-state graph arithmetic;z>=0 strengthens substitutionz=lambda*w for nonnegative lambda,w;not native DSL semantics"|>,"RawJSON"];
+Print[checks];
+If[Length[checks]!=5||checks!=ConstantArray[True,5],Exit[1]];

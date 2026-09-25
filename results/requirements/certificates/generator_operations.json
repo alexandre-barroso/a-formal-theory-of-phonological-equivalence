@@ -1,0 +1,86 @@
+{
+ "bridge_copies": {
+  "candidates_with_copies": 879,
+  "left_anchored_copies_of_stem_nodes": 879
+ },
+ "bridge_fusion": {
+  "fused_tones": 666,
+  "of_adjacent_reference_tones": 666
+ },
+ "closures": {
+  "set": {
+   "mismatches": 0,
+   "renamed": 0,
+   "structures": 64,
+   "well_formed": 64
+  },
+  "set+copy": {
+   "mismatches": 0,
+   "renamed": 2304,
+   "structures": 2368,
+   "well_formed": 2368
+  },
+  "set+fuse": {
+   "mismatches": 0,
+   "renamed": 24,
+   "structures": 88,
+   "well_formed": 88
+  },
+  "set+insert": {
+   "mismatches": 0,
+   "renamed": 768,
+   "structures": 832,
+   "well_formed": 832
+  },
+  "set+split": {
+   "mismatches": 0,
+   "renamed": 432,
+   "structures": 496,
+   "well_formed": 496
+  },
+  "set+swap": {
+   "mismatches": 0,
+   "renamed": 0,
+   "structures": 384,
+   "well_formed": 384
+  },
+  "set+swap+fuse+split+copy+insert": {
+   "mismatches": 0,
+   "renamed": 18576,
+   "structures": 18960,
+   "well_formed": 18960
+  }
+ },
+ "metathesis": {
+  "certificate": {
+   "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+   "delta": "8",
+   "incumbent": "reference",
+   "incumbent_bound": "10",
+   "max_created_nodes": 1,
+   "operations": [
+    "set",
+    "swap",
+    "insert"
+   ],
+   "status": "CERTIFIED",
+   "structures_enumerated_up_to_renaming": 98304
+  },
+  "reference": "atti",
+  "score": "3",
+  "weights": {
+   "DEP": 8,
+   "IDENT": 8,
+   "IDENT_VOC": 8,
+   "LINEARITY": 3,
+   "MAX": 8,
+   "NOCC": 10
+  },
+  "winners": [
+   "atit",
+   "tati",
+   "tiat"
+  ]
+ },
+ "seconds": 38.8
+}

@@ -1,0 +1,816 @@
+{
+ "dynamic_skip": {
+  "at_reference_point": {
+   "PB": {
+    "exclusively_correct": false,
+    "fiber": [
+     3
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "48",
+     "64",
+     "128",
+     "144",
+     "168",
+     "184",
+     "24",
+     "40"
+    ]
+   },
+   "PG": {
+    "exclusively_correct": true,
+    "fiber": [
+     6
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "32",
+     "48",
+     "128",
+     "144",
+     "168",
+     "184",
+     "8",
+     "24"
+    ]
+   },
+   "TT": {
+    "exclusively_correct": false,
+    "fiber": [
+     1
+    ],
+    "minima": [
+     4
+    ],
+    "scores8": [
+     "128",
+     "144",
+     "48",
+     "64",
+     "24",
+     "40",
+     "168",
+     "184"
+    ]
+   }
+  },
+  "excluded_everywhere": true,
+  "exclusion": {
+   "PB": {
+    "branches": {
+     "3": {
+      "rows": 7,
+      "sign_infeasible_rows": [
+       [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+       ]
+      ]
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": true,
+    "fiber": [
+     3
+    ]
+   },
+   "PG": {
+    "branches": {
+     "6": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     6
+    ]
+   },
+   "TT": {
+    "branches": {
+     "1": {
+      "rows": 7,
+      "sign_infeasible_rows": [
+       [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+       ]
+      ]
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": true,
+    "fiber": [
+     1
+    ]
+   }
+  },
+  "faults": [],
+  "jointly_selective_at_reference_point": false,
+  "well_typed": true
+ },
+ "dynamic_stop": {
+  "at_reference_point": {
+   "PB": {
+    "exclusively_correct": true,
+    "fiber": [
+     3
+    ],
+    "minima": [
+     3
+    ],
+    "scores8": [
+     "48",
+     "48",
+     "128",
+     "16",
+     "168",
+     "56",
+     "24",
+     "24"
+    ]
+   },
+   "PG": {
+    "exclusively_correct": true,
+    "fiber": [
+     6
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "32",
+     "48",
+     "128",
+     "16",
+     "168",
+     "56",
+     "8",
+     "24"
+    ]
+   },
+   "TT": {
+    "exclusively_correct": true,
+    "fiber": [
+     1
+    ],
+    "minima": [
+     1
+    ],
+    "scores8": [
+     "128",
+     "16",
+     "48",
+     "48",
+     "24",
+     "24",
+     "168",
+     "56"
+    ]
+   }
+  },
+  "excluded_everywhere": false,
+  "exclusion": {
+   "PB": {
+    "branches": {
+     "3": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     3
+    ]
+   },
+   "PG": {
+    "branches": {
+     "6": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     6
+    ]
+   },
+   "TT": {
+    "branches": {
+     "1": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     1
+    ]
+   }
+  },
+  "faults": [],
+  "jointly_selective_at_reference_point": true,
+  "well_typed": true
+ },
+ "origin_bound": {
+  "at_reference_point": {
+   "PB": {
+    "exclusively_correct": false,
+    "fiber": [
+     3
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "48",
+     "64",
+     "128",
+     "144",
+     "168",
+     "184",
+     "24",
+     "40"
+    ]
+   },
+   "PG": {
+    "exclusively_correct": true,
+    "fiber": [
+     6
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "32",
+     "48",
+     "128",
+     "144",
+     "168",
+     "184",
+     "8",
+     "24"
+    ]
+   },
+   "TT": {
+    "exclusively_correct": false,
+    "fiber": [
+     1
+    ],
+    "minima": [
+     4
+    ],
+    "scores8": [
+     "128",
+     "144",
+     "48",
+     "64",
+     "24",
+     "40",
+     "168",
+     "184"
+    ]
+   }
+  },
+  "excluded_everywhere": true,
+  "exclusion": {
+   "PB": {
+    "branches": {
+     "3": {
+      "rows": 7,
+      "sign_infeasible_rows": [
+       [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+       ]
+      ]
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": true,
+    "fiber": [
+     3
+    ]
+   },
+   "PG": {
+    "branches": {
+     "6": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     6
+    ]
+   },
+   "TT": {
+    "branches": {
+     "1": {
+      "rows": 7,
+      "sign_infeasible_rows": [
+       [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+       ]
+      ]
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": true,
+    "fiber": [
+     1
+    ]
+   }
+  },
+  "faults": [],
+  "jointly_selective_at_reference_point": false,
+  "well_typed": true
+ },
+ "override_RS": {
+  "at_reference_point": {
+   "PB": {
+    "exclusively_correct": true,
+    "fiber": [
+     3
+    ],
+    "minima": [
+     3
+    ],
+    "scores8": [
+     "48",
+     "48",
+     "128",
+     "16",
+     "168",
+     "56",
+     "24",
+     "24"
+    ]
+   },
+   "PG": {
+    "exclusively_correct": true,
+    "fiber": [
+     6
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "32",
+     "48",
+     "128",
+     "16",
+     "168",
+     "56",
+     "8",
+     "24"
+    ]
+   },
+   "TT": {
+    "exclusively_correct": false,
+    "fiber": [
+     1
+    ],
+    "minima": [
+     4,
+     5
+    ],
+    "scores8": [
+     "128",
+     "144",
+     "48",
+     "48",
+     "24",
+     "24",
+     "168",
+     "184"
+    ]
+   }
+  },
+  "excluded_everywhere": true,
+  "exclusion": {
+   "PB": {
+    "branches": {
+     "3": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     3
+    ]
+   },
+   "PG": {
+    "branches": {
+     "6": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     6
+    ]
+   },
+   "TT": {
+    "branches": {
+     "1": {
+      "rows": 7,
+      "sign_infeasible_rows": [
+       [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+       ]
+      ]
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": true,
+    "fiber": [
+     1
+    ]
+   }
+  },
+  "faults": [
+   "definedness-override",
+   "resolution-split:relatum+1"
+  ],
+  "jointly_selective_at_reference_point": false,
+  "well_typed": false
+ },
+ "override_SR": {
+  "at_reference_point": {
+   "PB": {
+    "exclusively_correct": false,
+    "fiber": [
+     3
+    ],
+    "minima": [
+     6,
+     7
+    ],
+    "scores8": [
+     "48",
+     "48",
+     "128",
+     "144",
+     "168",
+     "184",
+     "24",
+     "24"
+    ]
+   },
+   "PG": {
+    "exclusively_correct": true,
+    "fiber": [
+     6
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "32",
+     "48",
+     "128",
+     "144",
+     "168",
+     "184",
+     "8",
+     "24"
+    ]
+   },
+   "TT": {
+    "exclusively_correct": true,
+    "fiber": [
+     1
+    ],
+    "minima": [
+     1
+    ],
+    "scores8": [
+     "128",
+     "16",
+     "48",
+     "48",
+     "24",
+     "24",
+     "168",
+     "56"
+    ]
+   }
+  },
+  "excluded_everywhere": true,
+  "exclusion": {
+   "PB": {
+    "branches": {
+     "3": {
+      "rows": 7,
+      "sign_infeasible_rows": [
+       [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+       ]
+      ]
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": true,
+    "fiber": [
+     3
+    ]
+   },
+   "PG": {
+    "branches": {
+     "6": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     6
+    ]
+   },
+   "TT": {
+    "branches": {
+     "1": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     1
+    ]
+   }
+  },
+  "faults": [
+   "definedness-override",
+   "resolution-split:relatum+1"
+  ],
+  "jointly_selective_at_reference_point": false,
+  "well_typed": false
+ },
+ "override_SS": {
+  "at_reference_point": {
+   "PB": {
+    "exclusively_correct": false,
+    "fiber": [
+     3
+    ],
+    "minima": [
+     6,
+     7
+    ],
+    "scores8": [
+     "48",
+     "48",
+     "128",
+     "144",
+     "168",
+     "184",
+     "24",
+     "24"
+    ]
+   },
+   "PG": {
+    "exclusively_correct": true,
+    "fiber": [
+     6
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "32",
+     "48",
+     "128",
+     "144",
+     "168",
+     "184",
+     "8",
+     "24"
+    ]
+   },
+   "TT": {
+    "exclusively_correct": false,
+    "fiber": [
+     1
+    ],
+    "minima": [
+     4,
+     5
+    ],
+    "scores8": [
+     "128",
+     "144",
+     "48",
+     "48",
+     "24",
+     "24",
+     "168",
+     "184"
+    ]
+   }
+  },
+  "excluded_everywhere": true,
+  "exclusion": {
+   "PB": {
+    "branches": {
+     "3": {
+      "rows": 7,
+      "sign_infeasible_rows": [
+       [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+       ]
+      ]
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": true,
+    "fiber": [
+     3
+    ]
+   },
+   "PG": {
+    "branches": {
+     "6": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     6
+    ]
+   },
+   "TT": {
+    "branches": {
+     "1": {
+      "rows": 7,
+      "sign_infeasible_rows": [
+       [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0
+       ]
+      ]
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": true,
+    "fiber": [
+     1
+    ]
+   }
+  },
+  "faults": [
+   "definedness-override",
+   "resolution-split:relatum+1"
+  ],
+  "jointly_selective_at_reference_point": false,
+  "well_typed": false
+ },
+ "witness": {
+  "at_reference_point": {
+   "PB": {
+    "exclusively_correct": true,
+    "fiber": [
+     3
+    ],
+    "minima": [
+     3
+    ],
+    "scores8": [
+     "48",
+     "48",
+     "128",
+     "16",
+     "168",
+     "56",
+     "24",
+     "24"
+    ]
+   },
+   "PG": {
+    "exclusively_correct": true,
+    "fiber": [
+     6
+    ],
+    "minima": [
+     6
+    ],
+    "scores8": [
+     "32",
+     "48",
+     "128",
+     "16",
+     "168",
+     "56",
+     "8",
+     "24"
+    ]
+   },
+   "TT": {
+    "exclusively_correct": true,
+    "fiber": [
+     1
+    ],
+    "minima": [
+     1
+    ],
+    "scores8": [
+     "128",
+     "16",
+     "48",
+     "48",
+     "24",
+     "24",
+     "168",
+     "56"
+    ]
+   }
+  },
+  "excluded_everywhere": false,
+  "exclusion": {
+   "PB": {
+    "branches": {
+     "3": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     3
+    ]
+   },
+   "PG": {
+    "branches": {
+     "6": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     6
+    ]
+   },
+   "TT": {
+    "branches": {
+     "1": {
+      "rows": 7,
+      "sign_infeasible_rows": []
+     }
+    },
+    "excluded_for_all_nonnegative_parameters": false,
+    "fiber": [
+     1
+    ]
+   }
+  },
+  "faults": [],
+  "jointly_selective_at_reference_point": true,
+  "well_typed": true
+ }
+}

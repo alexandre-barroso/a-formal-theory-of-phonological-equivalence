@@ -1,0 +1,14 @@
+{
+ "all_pass": true,
+ "lambda_values": [
+  "1/100",
+  "1/8",
+  "1/3",
+  "1/2",
+  "7/8",
+  "99/100"
+ ],
+ "native_minimizer_checks": 2592,
+ "native_scores": 20736,
+ "scope": "finite native regression of universal Boolean attenuation witness, not proof of arbitrary native tails"
+}

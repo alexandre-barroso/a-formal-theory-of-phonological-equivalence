@@ -1,0 +1,335 @@
+{
+ "attested_output": "bebein",
+ "coefficients": {
+  "bebein": {
+   "*CC#": [
+    0,
+    0
+   ],
+   "DEP": [
+    1,
+    0
+   ],
+   "MAX": [
+    1,
+    0
+   ],
+   "VELDEL": [
+    0,
+    0
+   ]
+  },
+  "bebekin": {
+   "*CC#": [
+    0,
+    0
+   ],
+   "DEP": [
+    1,
+    0
+   ],
+   "MAX": [
+    0,
+    0
+   ],
+   "VELDEL": [
+    0,
+    1
+   ]
+  },
+  "bebekn": {
+   "*CC#": [
+    1,
+    0
+   ],
+   "DEP": [
+    0,
+    0
+   ],
+   "MAX": [
+    0,
+    0
+   ],
+   "VELDEL": [
+    0,
+    0
+   ]
+  },
+  "beben": {
+   "*CC#": [
+    1,
+    0
+   ],
+   "DEP": [
+    0,
+    0
+   ],
+   "MAX": [
+    1,
+    0
+   ],
+   "VELDEL": [
+    0,
+    0
+   ]
+  }
+ },
+ "conditions_for_bebein": [
+  "0 < c - d - m",
+  "0 < lam*v - m",
+  "0 < c - d"
+ ],
+ "final_consonant_deletion_control": {
+  "candidate_count": 8,
+  "comparison": {
+   "bebein": "m + d",
+   "bebek": "m"
+  },
+  "correct_fiber": [
+   {
+    "coefficients": {
+     "*CC#": [
+      0,
+      0
+     ],
+     "DEP": [
+      1,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "VELDEL": [
+      0,
+      0
+     ]
+    },
+    "output": "bebein",
+    "symbolic_score": "d + m"
+   }
+  ],
+  "interpretation": "With nonnegative DEP, final-n deletion weakly dominates the complete correct fiber in this eight-candidate domain; retaining ties does not yield only bebein.",
+  "rows": [
+   {
+    "coefficients": {
+     "*CC#": [
+      1,
+      0
+     ],
+     "DEP": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "VELDEL": [
+      0,
+      0
+     ]
+    },
+    "output": "bebekn",
+    "symbolic_score": "c"
+   },
+   {
+    "coefficients": {
+     "*CC#": [
+      0,
+      0
+     ],
+     "DEP": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "VELDEL": [
+      0,
+      1
+     ]
+    },
+    "output": "bebekin",
+    "symbolic_score": "d + lam*v"
+   },
+   {
+    "coefficients": {
+     "*CC#": [
+      1,
+      0
+     ],
+     "DEP": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "VELDEL": [
+      0,
+      0
+     ]
+    },
+    "output": "beben",
+    "symbolic_score": "c + m"
+   },
+   {
+    "coefficients": {
+     "*CC#": [
+      0,
+      0
+     ],
+     "DEP": [
+      1,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "VELDEL": [
+      0,
+      0
+     ]
+    },
+    "output": "bebein",
+    "symbolic_score": "d + m"
+   },
+   {
+    "coefficients": {
+     "*CC#": [
+      0,
+      0
+     ],
+     "DEP": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "VELDEL": [
+      0,
+      0
+     ]
+    },
+    "output": "bebek",
+    "symbolic_score": "m"
+   },
+   {
+    "coefficients": {
+     "*CC#": [
+      0,
+      0
+     ],
+     "DEP": [
+      1,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "VELDEL": [
+      0,
+      1
+     ]
+    },
+    "output": "bebeki",
+    "symbolic_score": "d + lam*v + m"
+   },
+   {
+    "coefficients": {
+     "*CC#": [
+      0,
+      0
+     ],
+     "DEP": [
+      0,
+      0
+     ],
+     "MAX": [
+      2,
+      0
+     ],
+     "VELDEL": [
+      0,
+      0
+     ]
+    },
+    "output": "bebe",
+    "symbolic_score": "2*m"
+   },
+   {
+    "coefficients": {
+     "*CC#": [
+      0,
+      0
+     ],
+     "DEP": [
+      1,
+      0
+     ],
+     "MAX": [
+      2,
+      0
+     ],
+     "VELDEL": [
+      0,
+      0
+     ]
+    },
+    "output": "bebei",
+    "symbolic_score": "d + 2*m"
+   }
+  ]
+ },
+ "numeric_scan": {
+  "0": [
+   "bebekin"
+  ],
+  "1/16": [
+   "bebekin"
+  ],
+  "1/4": [
+   "bebein"
+  ],
+  "1/5": [
+   "bebein"
+  ],
+  "1/8": [
+   "bebekin"
+  ],
+  "2/15": [
+   "bebein",
+   "bebekin"
+  ],
+  "3/20": [
+   "bebein"
+  ]
+ },
+ "source_scope": {
+  "additional_source_competitors": "Example (12) explicitly compares final-consonant deletion with epenthesis.",
+  "original_domain": "Four fixed candidates; final-n deletion excluded.",
+  "scope": "Finite interaction demonstration, not a complete Turkish grammar or proof that the source analysis fails.",
+  "source": "Bakovic 2007, pp. 226–230, examples (10)–(16)",
+  "untranslated_conditions": [
+   "The *CC# declaration has no finality guard.",
+   "VELDEL has no morphological-boundary guard.",
+   "Contextual faithfulness, turbidity and the underlying-vowel alternative are not reconstructed."
+  ]
+ },
+ "symbolic_scores": {
+  "bebein": "d + m",
+  "bebekin": "d + lam*v",
+  "bebekn": "c",
+  "beben": "c + m"
+ },
+ "wolfram_region": "(m == 0 && ((d == 0 && c > 0 && v > 0 && lam > 0) || (d > 0 && c > d && v > 0 && lam > 0))) || (m > 0 && d >= 0 && c > d + m && v > 0 && lam > m/v)",
+ "wolfram_region_at_lambda_zero": "False"
+}

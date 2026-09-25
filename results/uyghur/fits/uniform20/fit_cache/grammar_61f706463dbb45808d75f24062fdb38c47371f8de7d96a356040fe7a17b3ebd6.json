@@ -1,0 +1,77 @@
+{
+  "kind": "grammar",
+  "cache_key": "61f706463dbb45808d75f24062fdb38c47371f8de7d96a356040fe7a17b3ebd6",
+  "block_key": "13a079af94e46f97cf9bd78dca9369cc9694a00172361b410848fb0439384c57",
+  "variant": "all_strict",
+  "model": "retention_bounded_plus_HU",
+  "approximation": "gh80",
+  "alpha": 0.0,
+  "beta_key": "727fe84d333080fb724346fb9cb21531b13d49685e5589e6d742a5e439aae202",
+  "hu_key": "7eced042f3061fe2301a1eba3f210f111b09160b053ae18d93765b521cb4ec1a",
+  "offset_key": null,
+  "fit": {
+    "model": "retention_hu",
+    "parameters": {
+      "A": 3.139460052135424,
+      "B": 2.4616477662954797,
+      "HU": 2.8113837082339077
+    },
+    "objective": 0.04396375712807996,
+    "regularization_alpha": 0.0,
+    "converged": true,
+    "iterations": 18,
+    "internal_coordinates": [
+      2.4616477662954797,
+      0.6778122858399444,
+      2.8113837082339077
+    ],
+    "gradient": [
+      4.7533087728256566e-12,
+      -4.345154306971067e-12,
+      -6.255645299522626e-12
+    ],
+    "projected_gradient_max_abs": 6.255645299522626e-12,
+    "finite_difference_max_abs_error": 4.0833780804070386e-13,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 18,
+        "objective": 0.04396375712807996,
+        "projected_gradient_max": 6.255645299522626e-12,
+        "finite_difference_error": 4.0833780804070386e-13,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      8452.0,
+      2.0,
+      26121.0,
+      179.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 18,
+      "0010": 322,
+      "0011": 24,
+      "1000": 63,
+      "1010": 8,
+      "1100": 2
+    },
+    "training_rows": 437,
+    "feature_difference_rows": 1311,
+    "feature_difference_columns": 3,
+    "feature_difference_rank": 3,
+    "feature_difference_sha256": "281c657f7d25f564ec6cf504bec1921d7acc791a41845c941860e7efd0e995bd",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "NUMERIC_CANDIDATE_PENDING_SEPARABILITY_AND_COERCIVITY_REVIEW"
+}

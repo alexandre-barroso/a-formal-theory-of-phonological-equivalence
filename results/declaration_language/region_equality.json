@@ -1,0 +1,929 @@
+{
+ "origin_bound": {
+  "per_input": {
+   "C21b": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "C23UE": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "C24ei": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "G34a": {
+    "appendix_rows": 245,
+    "certificates": [
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "1/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     }
+    ],
+    "cheapened_candidates": 156,
+    "distinct_extra_rows": 24,
+    "dominated": 24,
+    "regions_equal": true,
+    "undominated": [],
+    "winner": 774
+   },
+   "G34b": {
+    "appendix_rows": 292,
+    "certificates": [
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "-1",
+       "1",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "0",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "1",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     }
+    ],
+    "cheapened_candidates": 156,
+    "distinct_extra_rows": 29,
+    "dominated": 29,
+    "regions_equal": true,
+    "undominated": [],
+    "winner": 957
+   },
+   "G37c": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "N7": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "OR38": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   }
+  },
+  "regions_equal_everywhere": true,
+  "schema_order": [
+   "MAX",
+   "IDENT_ATR",
+   "IDENT_QUAL",
+   "IDENT_NUC",
+   "H",
+   "A",
+   "GL",
+   "D",
+   "INITIAL_FEATURE"
+  ],
+  "variant": "origin_bound"
+ },
+ "witness": {
+  "per_input": {
+   "C21b": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "C23UE": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "C24ei": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "G34a": {
+    "appendix_rows": 245,
+    "certificates": [
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "1/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     }
+    ],
+    "cheapened_candidates": 156,
+    "distinct_extra_rows": 24,
+    "dominated": 24,
+    "regions_equal": true,
+    "undominated": [],
+    "winner": 774
+   },
+   "G34b": {
+    "appendix_rows": 292,
+    "certificates": [
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "-1",
+       "1",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "0",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "1",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     }
+    ],
+    "cheapened_candidates": 156,
+    "distinct_extra_rows": 29,
+    "dominated": 29,
+    "regions_equal": true,
+    "undominated": [],
+    "winner": 957
+   },
+   "G37c": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "N7": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "OR38": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   }
+  },
+  "regions_equal_everywhere": true,
+  "schema_order": [
+   "MAX",
+   "IDENT_ATR",
+   "IDENT_QUAL",
+   "IDENT_NUC",
+   "H",
+   "A",
+   "GL",
+   "D",
+   "INITIAL_FEATURE"
+  ],
+  "variant": "witness"
+ },
+ "witness_phrase": {
+  "per_input": {
+   "C21b": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "C23UE": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "C24ei": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "G34a": {
+    "appendix_rows": 245,
+    "certificates": [
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "1/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "0",
+       "1",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-2",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-2",
+       "1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     }
+    ],
+    "cheapened_candidates": 156,
+    "distinct_extra_rows": 24,
+    "dominated": 24,
+    "regions_equal": true,
+    "undominated": [],
+    "winner": 774
+   },
+   "G34b": {
+    "appendix_rows": 292,
+    "certificates": [
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "-1",
+       "1",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "0",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     },
+     {
+      "dominating_appendix_row": [
+       "1",
+       "-1",
+       "-1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "extra_row": [
+       "1",
+       "-1",
+       "0",
+       "1",
+       "7/8",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     }
+    ],
+    "cheapened_candidates": 156,
+    "distinct_extra_rows": 29,
+    "dominated": 29,
+    "regions_equal": true,
+    "undominated": [],
+    "winner": 957
+   },
+   "G37c": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "N7": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   },
+   "OR38": {
+    "cheapened_candidates": 0,
+    "reason": "the two readings have identical coefficients",
+    "regions_equal": true
+   }
+  },
+  "regions_equal_everywhere": true,
+  "schema_order": [
+   "MAX",
+   "IDENT_ATR",
+   "IDENT_QUAL",
+   "IDENT_NUC",
+   "H",
+   "A",
+   "GL",
+   "D",
+   "INITIAL_FEATURE"
+  ],
+  "variant": "witness_phrase"
+ }
+}

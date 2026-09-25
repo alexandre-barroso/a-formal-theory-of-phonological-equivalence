@@ -1,0 +1,70 @@
+{
+ "MAX_scope": "positions present in the reference",
+ "hypotheses": [
+  "RR",
+  "RS",
+  "SR",
+  "SS"
+ ],
+ "length_test_tails": "a^n",
+ "minimal_characteristic_sample": [
+  "p-p",
+  "p-b"
+ ],
+ "observation_model": "complete surface minimizer sets",
+ "outputs_at_characteristic_inputs": {
+  "p-b": {
+   "RR": [
+    "apiba"
+   ],
+   "RS": [
+    "apiba"
+   ],
+   "SR": [
+    "abba",
+    "abiba"
+   ],
+   "SS": [
+    "abba"
+   ]
+  },
+  "p-p": {
+   "RR": [
+    "apipa"
+   ],
+   "RS": [
+    "abipa",
+    "abpa"
+   ],
+   "SR": [
+    "apipa"
+   ],
+   "SS": [
+    "abpa"
+   ]
+  }
+ },
+ "pairs_separated_by_tail_length": {
+  "0": 6,
+  "1": 6,
+  "2": 6,
+  "3": 6,
+  "4": 6
+ },
+ "pairwise_separating_counts": {
+  "RR|RS": 6,
+  "RR|SR": 6,
+  "RR|SS": 12,
+  "RS|SR": 12,
+  "RS|SS": 12,
+  "SR|SS": 12
+ },
+ "schema_size": 36,
+ "unseparated_pairs": [],
+ "weight_region_indistinguishable_inputs": {
+  "RR": 36,
+  "RS": 36,
+  "SR": 36,
+  "SS": 36
+ }
+}

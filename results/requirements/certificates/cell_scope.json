@@ -1,0 +1,14 @@
+{
+  "seed": 20260919,
+  "cell_checks": 96,
+  "order_checks": 900,
+  "rescaling_checks": 900,
+  "threshold_checks": 108,
+  "non_equivalent_mutations_detected": [
+    "zero_reference_markedness_implies_absent_context",
+    "fixed_faithfulness_order_survives_all_reweighting",
+    "zero_weights_preserve_strict_dominance",
+    "one_locus_threshold_ignores_other_costs"
+  ],
+  "scope": "Exact rational local identities, fixed versus varying weights, isolated comparisons and separated-column reparametrization. General finite-index proofs are in CellScope.lean."
+}

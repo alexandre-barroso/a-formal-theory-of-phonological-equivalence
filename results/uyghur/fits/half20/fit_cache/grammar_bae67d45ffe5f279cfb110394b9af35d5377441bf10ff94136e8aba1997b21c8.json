@@ -1,0 +1,78 @@
+{
+  "kind": "grammar",
+  "cache_key": "bae67d45ffe5f279cfb110394b9af35d5377441bf10ff94136e8aba1997b21c8",
+  "block_key": "bbabcb3bbbb8aa5bf3022fabd06f1ad2738fe857917b158bc06acc791bfea584",
+  "variant": "all_strict",
+  "model": "retention_bounded_plus_HU",
+  "approximation": "laplace",
+  "alpha": 0.0,
+  "beta_key": "827842c7ddaacf3d2a75cad92aaf31562326f219c77ac8b41c7b4e89199e8656",
+  "hu_key": "824603390701cd0ca920ea11e94ad82e6b0268a3f94336e55c6d75eece11c9b4",
+  "offset_key": null,
+  "fit": {
+    "model": "retention_hu",
+    "parameters": {
+      "A": 2.7958380173935757,
+      "B": 2.4909150116206407,
+      "HU": 2.2272600799908235
+    },
+    "objective": 0.07528618169725108,
+    "regularization_alpha": 0.0,
+    "converged": true,
+    "iterations": 18,
+    "internal_coordinates": [
+      2.4909150116206407,
+      0.30492300577293524,
+      2.2272600799908235
+    ],
+    "gradient": [
+      5.589884849718192e-10,
+      1.1962541071074207e-09,
+      9.639990713191647e-10
+    ],
+    "projected_gradient_max_abs": 1.1962541071074207e-09,
+    "finite_difference_max_abs_error": 1.0167393651159437e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 18,
+        "objective": 0.07528618169725108,
+        "projected_gradient_max": 1.1962541071074207e-09,
+        "finite_difference_error": 1.0167393651159437e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      12236.0,
+      6.0,
+      38612.0,
+      646.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 28,
+      "0010": 475,
+      "0011": 47,
+      "0100": 1,
+      "1000": 88,
+      "1010": 14,
+      "1100": 5
+    },
+    "training_rows": 658,
+    "feature_difference_rows": 1974,
+    "feature_difference_columns": 3,
+    "feature_difference_rank": 3,
+    "feature_difference_sha256": "64a69a0854e4a5c114ef0de6048318a637fb3a769fdc9184b5cc51c11b1af538",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "NUMERIC_CANDIDATE_PENDING_SEPARABILITY_AND_COERCIVITY_REVIEW"
+}

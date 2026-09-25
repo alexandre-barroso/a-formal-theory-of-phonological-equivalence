@@ -1,0 +1,18 @@
+{
+ "all_minimizer_cases": 82944,
+ "including_empty_domain_cases": 16,
+ "mutation_controls": {
+  "allow_joint_change": true,
+  "discard_ties": true,
+  "global_cutoff_is_product": true,
+  "nonadditive_score": true
+ },
+ "reachable_product_cases": 1024,
+ "relation_pairs": 256,
+ "scope": "Finite independent checks of universal arbitrary-relation and real-additive-score theorems; native regional generator and reader locality require separate bridges.",
+ "signed_integer_scores": [
+  -1,
+  0,
+  1
+ ]
+}

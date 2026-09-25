@@ -1,0 +1,3062 @@
+{
+ "all_pass": true,
+ "declarations": [
+  "HIATUS",
+  "MAX",
+  "IDENT",
+  "DEP"
+ ],
+ "e_control": {
+  "control@1/8": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 16,
+     "0,1": 64,
+     "1,0": 64
+    }
+   },
+   "all_pass": false,
+   "b_footprint_contained": {
+    "violations": 208,
+    "witnesses": [
+     {
+      "declaration": "HIATUS",
+      "locus": "Or1",
+      "structure": "a|i"
+     },
+     {
+      "declaration": "HIATUS",
+      "locus": "Or1",
+      "structure": "i|i"
+     },
+     {
+      "declaration": "HIATUS",
+      "locus": "Or1",
+      "structure": "t|i"
+     },
+     {
+      "declaration": "HIATUS",
+      "locus": "Or1",
+      "structure": "|i"
+     },
+     {
+      "declaration": "HIATUS",
+      "locus": "Or1",
+      "structure": "a|a"
+     }
+    ]
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 1,
+     "additivity": 30,
+     "mask": 30,
+     "projection": 0
+    },
+    "witnesses": {
+     "additivity": {
+      "score": "3",
+      "structure": "a|i",
+      "sum_of_parts": "0"
+     },
+     "mask": "a|i"
+    }
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": false,
+    "n_minimisers": [
+     7,
+     1,
+     1
+    ],
+    "product_min_score": "1",
+    "surfaces": [
+     "an|i",
+     "at|i",
+     "a|",
+     "a|ni",
+     "a|ti",
+     "t|i",
+     "|i"
+    ],
+    "surfaces_factorise": false,
+    "word_min_scores": [
+     "0",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a"
+     ],
+     [
+      "i"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/8",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))),)"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))),)",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))),)",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))),)"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 144
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 4
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 4
+    }
+   },
+   "sizes": {
+    "bound": 1,
+    "product_closure": 144,
+    "word_closures": [
+     20,
+     20
+    ]
+   },
+   "words": [
+    "a",
+    "i"
+   ]
+  },
+  "control_word_scope@1/8": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 16
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     1,
+     1,
+     1
+    ],
+    "product_min_score": "0",
+    "surfaces": [
+     "a|i"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "0",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a"
+     ],
+     [
+      "i"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": true,
+    "rank_witness": null
+   },
+   "lambda": "1/8",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))),)"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))),)"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 16
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 4
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 4
+    }
+   },
+   "sizes": {
+    "bound": 0,
+    "product_closure": 16,
+    "word_closures": [
+     4,
+     4
+    ]
+   },
+   "words": [
+    "a",
+    "i"
+   ]
+  }
+ },
+ "e_control_summary": {
+  "phrase_scope_additivity_failures": 30,
+  "phrase_scope_argmin_factorises": false,
+  "phrase_scope_footprint_violations": 208,
+  "phrase_scope_n_minimisers": [
+   7,
+   1,
+   1
+  ],
+  "word_scope_same_words_all_pass": true
+ },
+ "f_outside_material": {
+  "word0_minimisers_identical_across_P1_P3_P4_and_alone": true
+ },
+ "insert_alphabet": [
+  "t",
+  "n"
+ ],
+ "lean": {
+  "bridge": "The universal theorem uses arbitrary local relations and real additive scores. This executable separately checks the native generator, masking, projection, activation and additivity at the registered references and parameters. A global creation bound gives a count-filtered product, not a product domain; the independent positive-cost cutoff preserves all productive minimizers.",
+  "theorems": [
+   "ProductComposition.reachable_product",
+   "ProductComposition.argmin_product",
+   "ProductComposition.noninterference",
+   "FootprintSupport.external_region_irrelevant"
+  ]
+ },
+ "operations": [
+  "set",
+  "insert"
+ ],
+ "set_alphabet": [
+  "a",
+  "i",
+  "t",
+  "∅"
+ ],
+ "status": "FINITE_EXHAUSTIVE_CERTIFIED",
+ "weights": {
+  "DEP": 1,
+  "HIATUS": 3,
+  "IDENT": 1,
+  "MAX": 1
+ },
+ "word_scope": {
+  "P1@0": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "0,2": 6144,
+     "1,0": 1536,
+     "1,1": 9216,
+     "2,0": 6144
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     25,
+     5,
+     5
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ani|a",
+     "ani|i",
+     "ani|ina",
+     "ani|ita",
+     "ani|ta",
+     "ati|a",
+     "ati|i",
+     "ati|ina",
+     "ati|ita",
+     "ati|ta",
+     "a|a",
+     "a|i",
+     "a|ina",
+     "a|ita",
+     "a|ta",
+     "i|a",
+     "i|i",
+     "i|ina",
+     "i|ita",
+     "i|ta",
+     "ti|a",
+     "ti|i",
+     "ti|ina",
+     "ti|ita",
+     "ti|ta"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "1"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "a",
+      "i",
+      "ina",
+      "ita",
+      "ta"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "0",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     496,
+     496
+    ]
+   },
+   "words": [
+    "ai",
+    "ia"
+   ]
+  },
+  "P1@1": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "0,2": 6144,
+     "1,0": 1536,
+     "1,1": 9216,
+     "2,0": 6144
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     25,
+     5,
+     5
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ani|a",
+     "ani|i",
+     "ani|ina",
+     "ani|ita",
+     "ani|ta",
+     "ati|a",
+     "ati|i",
+     "ati|ina",
+     "ati|ita",
+     "ati|ta",
+     "a|a",
+     "a|i",
+     "a|ina",
+     "a|ita",
+     "a|ta",
+     "i|a",
+     "i|i",
+     "i|ina",
+     "i|ita",
+     "i|ta",
+     "ti|a",
+     "ti|i",
+     "ti|ina",
+     "ti|ita",
+     "ti|ta"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "1"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "a",
+      "i",
+      "ina",
+      "ita",
+      "ta"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     496,
+     496
+    ]
+   },
+   "words": [
+    "ai",
+    "ia"
+   ]
+  },
+  "P1@1/2": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "0,2": 6144,
+     "1,0": 1536,
+     "1,1": 9216,
+     "2,0": 6144
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     25,
+     5,
+     5
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ani|a",
+     "ani|i",
+     "ani|ina",
+     "ani|ita",
+     "ani|ta",
+     "ati|a",
+     "ati|i",
+     "ati|ina",
+     "ati|ita",
+     "ati|ta",
+     "a|a",
+     "a|i",
+     "a|ina",
+     "a|ita",
+     "a|ta",
+     "i|a",
+     "i|i",
+     "i|ina",
+     "i|ita",
+     "i|ta",
+     "ti|a",
+     "ti|i",
+     "ti|ina",
+     "ti|ita",
+     "ti|ta"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "1"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "a",
+      "i",
+      "ina",
+      "ita",
+      "ta"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/2",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     496,
+     496
+    ]
+   },
+   "words": [
+    "ai",
+    "ia"
+   ]
+  },
+  "P1@1/8": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "0,2": 6144,
+     "1,0": 1536,
+     "1,1": 9216,
+     "2,0": 6144
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     25,
+     5,
+     5
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ani|a",
+     "ani|i",
+     "ani|ina",
+     "ani|ita",
+     "ani|ta",
+     "ati|a",
+     "ati|i",
+     "ati|ina",
+     "ati|ita",
+     "ati|ta",
+     "a|a",
+     "a|i",
+     "a|ina",
+     "a|ita",
+     "a|ta",
+     "i|a",
+     "i|i",
+     "i|ina",
+     "i|ita",
+     "i|ta",
+     "ti|a",
+     "ti|i",
+     "ti|ina",
+     "ti|ita",
+     "ti|ta"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "1"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "a",
+      "i",
+      "ina",
+      "ita",
+      "ta"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/8",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     496,
+     496
+    ]
+   },
+   "words": [
+    "ai",
+    "ia"
+   ]
+  },
+  "P2@0": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1024,
+     "0,2": 3072,
+     "1,0": 2048,
+     "1,1": 8192,
+     "2,0": 10240
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     23,
+     23,
+     1
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ana|i",
+     "anina|i",
+     "anita|i",
+     "ani|i",
+     "anta|i",
+     "ata|i",
+     "atina|i",
+     "atita|i",
+     "ati|i",
+     "atta|i",
+     "a|i",
+     "ina|i",
+     "ita|i",
+     "i|i",
+     "ta|i",
+     "tina|i",
+     "tita|i",
+     "ti|i",
+     "tta|i"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "2",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ana",
+      "ani",
+      "anina",
+      "anita",
+      "anta",
+      "ata",
+      "ati",
+      "atina",
+      "atita",
+      "atta",
+      "i",
+      "ina",
+      "ita",
+      "ta",
+      "ti",
+      "tina",
+      "tita",
+      "tta"
+     ],
+     [
+      "i"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "0",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 3136
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 4
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     3136,
+     68
+    ]
+   },
+   "words": [
+    "aia",
+    "i"
+   ]
+  },
+  "P2@1": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1024,
+     "0,2": 3072,
+     "1,0": 2048,
+     "1,1": 8192,
+     "2,0": 10240
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     23,
+     23,
+     1
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ana|i",
+     "anina|i",
+     "anita|i",
+     "ani|i",
+     "anta|i",
+     "ata|i",
+     "atina|i",
+     "atita|i",
+     "ati|i",
+     "atta|i",
+     "a|i",
+     "ina|i",
+     "ita|i",
+     "i|i",
+     "ta|i",
+     "tina|i",
+     "tita|i",
+     "ti|i",
+     "tta|i"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "2",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ana",
+      "ani",
+      "anina",
+      "anita",
+      "anta",
+      "ata",
+      "ati",
+      "atina",
+      "atita",
+      "atta",
+      "i",
+      "ina",
+      "ita",
+      "ta",
+      "ti",
+      "tina",
+      "tita",
+      "tta"
+     ],
+     [
+      "i"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 3136
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 4
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     3136,
+     68
+    ]
+   },
+   "words": [
+    "aia",
+    "i"
+   ]
+  },
+  "P2@1/2": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1024,
+     "0,2": 3072,
+     "1,0": 2048,
+     "1,1": 8192,
+     "2,0": 10240
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     23,
+     23,
+     1
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ana|i",
+     "anina|i",
+     "anita|i",
+     "ani|i",
+     "anta|i",
+     "ata|i",
+     "atina|i",
+     "atita|i",
+     "ati|i",
+     "atta|i",
+     "a|i",
+     "ina|i",
+     "ita|i",
+     "i|i",
+     "ta|i",
+     "tina|i",
+     "tita|i",
+     "ti|i",
+     "tta|i"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "2",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ana",
+      "ani",
+      "anina",
+      "anita",
+      "anta",
+      "ata",
+      "ati",
+      "atina",
+      "atita",
+      "atta",
+      "i",
+      "ina",
+      "ita",
+      "ta",
+      "ti",
+      "tina",
+      "tita",
+      "tta"
+     ],
+     [
+      "i"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/2",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 3136
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 4
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     3136,
+     68
+    ]
+   },
+   "words": [
+    "aia",
+    "i"
+   ]
+  },
+  "P2@1/8": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1024,
+     "0,2": 3072,
+     "1,0": 2048,
+     "1,1": 8192,
+     "2,0": 10240
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     23,
+     23,
+     1
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ana|i",
+     "anina|i",
+     "anita|i",
+     "ani|i",
+     "anta|i",
+     "ata|i",
+     "atina|i",
+     "atita|i",
+     "ati|i",
+     "atta|i",
+     "a|i",
+     "ina|i",
+     "ita|i",
+     "i|i",
+     "ta|i",
+     "tina|i",
+     "tita|i",
+     "ti|i",
+     "tta|i"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "2",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ana",
+      "ani",
+      "anina",
+      "anita",
+      "anta",
+      "ata",
+      "ati",
+      "atina",
+      "atita",
+      "atta",
+      "i",
+      "ina",
+      "ita",
+      "ta",
+      "ti",
+      "tina",
+      "tita",
+      "tta"
+     ],
+     [
+      "i"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/8",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('lex', 2, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 't', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))), ('lex', 2, 'a', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 3136
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 4
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     3136,
+     68
+    ]
+   },
+   "words": [
+    "aia",
+    "i"
+   ]
+  },
+  "P3@0": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "0,2": 6144,
+     "1,0": 1536,
+     "1,1": 9216,
+     "2,0": 6144
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     25,
+     5,
+     5
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ani|a",
+     "ani|ani",
+     "ani|ati",
+     "ani|i",
+     "ani|ti",
+     "ati|a",
+     "ati|ani",
+     "ati|ati",
+     "ati|i",
+     "ati|ti",
+     "a|a",
+     "a|ani",
+     "a|ati",
+     "a|i",
+     "a|ti",
+     "i|a",
+     "i|ani",
+     "i|ati",
+     "i|i",
+     "i|ti",
+     "ti|a",
+     "ti|ani",
+     "ti|ati",
+     "ti|i",
+     "ti|ti"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "1"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "0",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     496,
+     496
+    ]
+   },
+   "words": [
+    "ai",
+    "ai"
+   ]
+  },
+  "P3@1": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "0,2": 6144,
+     "1,0": 1536,
+     "1,1": 9216,
+     "2,0": 6144
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     25,
+     5,
+     5
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ani|a",
+     "ani|ani",
+     "ani|ati",
+     "ani|i",
+     "ani|ti",
+     "ati|a",
+     "ati|ani",
+     "ati|ati",
+     "ati|i",
+     "ati|ti",
+     "a|a",
+     "a|ani",
+     "a|ati",
+     "a|i",
+     "a|ti",
+     "i|a",
+     "i|ani",
+     "i|ati",
+     "i|i",
+     "i|ti",
+     "ti|a",
+     "ti|ani",
+     "ti|ati",
+     "ti|i",
+     "ti|ti"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "1"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     496,
+     496
+    ]
+   },
+   "words": [
+    "ai",
+    "ai"
+   ]
+  },
+  "P3@1/2": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "0,2": 6144,
+     "1,0": 1536,
+     "1,1": 9216,
+     "2,0": 6144
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     25,
+     5,
+     5
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ani|a",
+     "ani|ani",
+     "ani|ati",
+     "ani|i",
+     "ani|ti",
+     "ati|a",
+     "ati|ani",
+     "ati|ati",
+     "ati|i",
+     "ati|ti",
+     "a|a",
+     "a|ani",
+     "a|ati",
+     "a|i",
+     "a|ti",
+     "i|a",
+     "i|ani",
+     "i|ati",
+     "i|i",
+     "i|ti",
+     "ti|a",
+     "ti|ani",
+     "ti|ati",
+     "ti|i",
+     "ti|ti"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "1"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/2",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     496,
+     496
+    ]
+   },
+   "words": [
+    "ai",
+    "ai"
+   ]
+  },
+  "P3@1/8": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "0,2": 6144,
+     "1,0": 1536,
+     "1,1": 9216,
+     "2,0": 6144
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     25,
+     5,
+     5
+    ],
+    "product_min_score": "2",
+    "surfaces": [
+     "ani|a",
+     "ani|ani",
+     "ani|ati",
+     "ani|i",
+     "ani|ti",
+     "ati|a",
+     "ati|ani",
+     "ati|ati",
+     "ati|i",
+     "ati|ti",
+     "a|a",
+     "a|ani",
+     "a|ati",
+     "a|i",
+     "a|ti",
+     "i|a",
+     "i|ani",
+     "i|ati",
+     "i|i",
+     "i|ti",
+     "ti|a",
+     "ti|ani",
+     "ti|ati",
+     "ti|i",
+     "ti|ti"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "1"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/8",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "2",
+     "max_created_nodes": 2,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 24832
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    }
+   },
+   "sizes": {
+    "bound": 2,
+    "product_closure": 24832,
+    "word_closures": [
+     496,
+     496
+    ]
+   },
+   "words": [
+    "ai",
+    "ai"
+   ]
+  },
+  "P4@0": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "1,0": 1536
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     5,
+     5,
+     1
+    ],
+    "product_min_score": "1",
+    "surfaces": [
+     "ani|ti",
+     "ati|ti",
+     "a|ti",
+     "i|ti",
+     "ti|ti"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "ti"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "0",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 3328
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 16
+    }
+   },
+   "sizes": {
+    "bound": 1,
+    "product_closure": 3328,
+    "word_closures": [
+     112,
+     112
+    ]
+   },
+   "words": [
+    "ai",
+    "ti"
+   ]
+  },
+  "P4@1": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "1,0": 1536
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     5,
+     5,
+     1
+    ],
+    "product_min_score": "1",
+    "surfaces": [
+     "ani|ti",
+     "ati|ti",
+     "a|ti",
+     "i|ti",
+     "ti|ti"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "ti"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 3328
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 16
+    }
+   },
+   "sizes": {
+    "bound": 1,
+    "product_closure": 3328,
+    "word_closures": [
+     112,
+     112
+    ]
+   },
+   "words": [
+    "ai",
+    "ti"
+   ]
+  },
+  "P4@1/2": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "1,0": 1536
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     5,
+     5,
+     1
+    ],
+    "product_min_score": "1",
+    "surfaces": [
+     "ani|ti",
+     "ati|ti",
+     "a|ti",
+     "i|ti",
+     "ti|ti"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "ti"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/2",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 3328
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 16
+    }
+   },
+   "sizes": {
+    "bound": 1,
+    "product_closure": 3328,
+    "word_closures": [
+     112,
+     112
+    ]
+   },
+   "words": [
+    "ai",
+    "ti"
+   ]
+  },
+  "P4@1/8": {
+   "a_region_local": {
+    "contiguous": true,
+    "every_node_in_one_word": true,
+    "global_bound_closure_equals_count_filtered_product": true,
+    "projection_injective": true,
+    "slices_by_created_nodes": {
+     "0,0": 256,
+     "0,1": 1536,
+     "1,0": 1536
+    }
+   },
+   "all_pass": true,
+   "b_footprint_contained": {
+    "violations": 0,
+    "witnesses": []
+   },
+   "c_bridge": {
+    "failures": {
+     "activation": 0,
+     "additivity": 0,
+     "mask": 0,
+     "projection": 0
+    },
+    "witnesses": {}
+   },
+   "d_minimisers": {
+    "argmin_factorises_with_ties": true,
+    "n_minimisers": [
+     5,
+     5,
+     1
+    ],
+    "product_min_score": "1",
+    "surfaces": [
+     "ani|ti",
+     "ati|ti",
+     "a|ti",
+     "i|ti",
+     "ti|ti"
+    ],
+    "surfaces_factorise": true,
+    "word_min_scores": [
+     "1",
+     "0"
+    ],
+    "word_surfaces": [
+     [
+      "a",
+      "ani",
+      "ati",
+      "i",
+      "ti"
+     ],
+     [
+      "ti"
+     ]
+    ]
+   },
+   "g_probabilistic_boundary": {
+    "global_family_is_product_set": false,
+    "rank_witness": {
+     "in_family": [
+      true,
+      true,
+      true
+     ],
+     "out_of_family": true,
+     "statement": "Pr(a,b)Pr(a',b') > 0 = Pr(a,b')Pr(a',b) on the globally-bounded family: not a product law; on the componentwise-bounded family (a product set, by (a)) the law is the product of the word laws, an algebraic identity given (c)"
+    }
+   },
+   "lambda": "1/8",
+   "min_keys_word0": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "min_keys_word0_from_product": [
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('lex', 1, '∅', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 'n', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 'a', (('phrase', 0), ('word', 0))), ('made', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, 't', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))",
+    "(('lex', 0, '∅', (('phrase', 0), ('word', 0))), ('lex', 1, 'i', (('phrase', 0), ('word', 0))))"
+   ],
+   "reduction": {
+    "product": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 3328
+    },
+    "word0": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "1",
+     "max_created_nodes": 1,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 112
+    },
+    "word1": {
+     "argument": "every created node (inserted, fused, split, copied) charges at least delta and every other charge is nonnegative, so a candidate with more than floor(B/delta) created nodes scores above the reference's score B; swaps create nothing and the structures over a fixed node set are finitely many; the closure within the bound is enumerated exhaustively up to renaming",
+     "delta": "1",
+     "incumbent": "creation_free",
+     "incumbent_bound": "0",
+     "max_created_nodes": 0,
+     "operations": [
+      "set",
+      "insert"
+     ],
+     "status": "CERTIFIED",
+     "structures_enumerated_up_to_renaming": 16
+    }
+   },
+   "sizes": {
+    "bound": 1,
+    "product_closure": 3328,
+    "word_closures": [
+     112,
+     112
+    ]
+   },
+   "words": [
+    "ai",
+    "ti"
+   ]
+  }
+ }
+}

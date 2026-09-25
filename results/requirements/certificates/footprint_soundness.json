@@ -1,0 +1,231 @@
+{
+ "all_narrow_witnesses_have_false_context": true,
+ "all_pass": true,
+ "corrected_violations_in_the_eight_products": [],
+ "coverage": {
+  "candidates": 9464,
+  "products": 8,
+  "reader_checks": 792441
+ },
+ "minimal_witness": {
+  "corrected_footprint": [
+   0,
+   1,
+   2
+  ],
+  "equal": false,
+  "narrow_footprint": [
+   0,
+   2
+  ],
+  "readers_a": [
+   false,
+   false,
+   false
+  ],
+  "readers_b": [
+   true,
+   true,
+   false
+  ],
+  "state_a": "ɛta",
+  "state_b": "ɛ∅a"
+ },
+ "narrow_violations_in_the_eight_products": [
+  {
+   "context_false_in_all": true,
+   "key": [
+    "h",
+    "t",
+    "∅"
+   ],
+   "locus": 1,
+   "product": "G34a",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "t",
+    "∅",
+    "k",
+    "p",
+    "ʊ",
+    "k",
+    "ɔ"
+   ],
+   "locus": 3,
+   "product": "G34a",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "f",
+    "s",
+    "∅"
+   ],
+   "locus": 1,
+   "product": "G34b",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "s",
+    "∅",
+    "h",
+    "i",
+    "l",
+    "i"
+   ],
+   "locus": 3,
+   "product": "G34b",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "tʃ",
+    "j",
+    "∅",
+    "l",
+    "i"
+   ],
+   "locus": 1,
+   "product": "N7",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "tʃ",
+    "s",
+    "∅"
+   ],
+   "locus": 1,
+   "product": "G37c",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "s",
+    "∅",
+    "b",
+    "i",
+    "e"
+   ],
+   "locus": 3,
+   "product": "G37c",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "p",
+    "∅",
+    "s",
+    "i"
+   ],
+   "locus": 1,
+   "product": "C24ei",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "tʃ",
+    "s",
+    "∅"
+   ],
+   "locus": 1,
+   "product": "OR38",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "s",
+    "∅",
+    "k",
+    "u"
+   ],
+   "locus": 3,
+   "product": "OR38",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "s",
+    "∅",
+    "s",
+    "ɛ"
+   ],
+   "locus": 2,
+   "product": "C21b",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, True)"
+   ],
+   "schema": "A"
+  },
+  {
+   "context_false_in_all": true,
+   "key": [
+    "s",
+    "∅",
+    "b",
+    "ɪ"
+   ],
+   "locus": 2,
+   "product": "C23UE",
+   "readers": [
+    "(False, False, False)",
+    "(False, True, False)"
+   ],
+   "schema": "A"
+  }
+ ]
+}

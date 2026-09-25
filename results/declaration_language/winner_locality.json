@@ -1,0 +1,1474 @@
+{
+ "single": {
+  "condition_w_MAX_lt_min": true,
+  "lambda": "1/8",
+  "phrases": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "reference_words": [
+   [
+    "e"
+   ],
+   [
+    "ɔ"
+   ],
+   [
+    "e"
+   ],
+   [
+    "e"
+   ]
+  ],
+  "variants": {
+   "baseline": {
+    "distinct_first_phrase_minimiser_sets": 2,
+    "first_phrase_origins": [
+     0,
+     1
+    ],
+    "phrases": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "reference": [
+     "e",
+     "ɔ",
+     "e",
+     "e"
+    ],
+    "second_phrase_origins": [
+     2,
+     3
+    ],
+    "second_phrase_values_swept": 169,
+    "variant": "baseline",
+    "winner_level_phrase_local": false,
+    "witness": {
+     "first_phrase_minimisers_A": [
+      [
+       "∅",
+       "ɔ"
+      ]
+     ],
+     "first_phrase_minimisers_B": [
+      [
+       "e",
+       "∅"
+      ],
+      [
+       "∅",
+       "ɔ"
+      ]
+     ],
+     "second_phrase_A": [
+      "a",
+      "a"
+     ],
+     "second_phrase_B": [
+      "e",
+      "a"
+     ]
+    }
+   },
+   "def_eq_context": {
+    "distinct_first_phrase_minimiser_sets": 1,
+    "first_phrase_origins": [
+     0,
+     1
+    ],
+    "phrases": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "reference": [
+     "e",
+     "ɔ",
+     "e",
+     "e"
+    ],
+    "second_phrase_origins": [
+     2,
+     3
+    ],
+    "second_phrase_values_swept": 169,
+    "variant": "def_eq_context",
+    "winner_level_phrase_local": true,
+    "witness": null
+   },
+   "dynamic_next_word": {
+    "distinct_first_phrase_minimiser_sets": 1,
+    "first_phrase_origins": [
+     0,
+     1
+    ],
+    "phrases": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "reference": [
+     "e",
+     "ɔ",
+     "e",
+     "e"
+    ],
+    "second_phrase_origins": [
+     2,
+     3
+    ],
+    "second_phrase_values_swept": 169,
+    "variant": "dynamic_next_word",
+    "winner_level_phrase_local": true,
+    "witness": null
+   },
+   "dynamic_phrase": {
+    "distinct_first_phrase_minimiser_sets": 1,
+    "first_phrase_origins": [
+     0,
+     1
+    ],
+    "phrases": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "reference": [
+     "e",
+     "ɔ",
+     "e",
+     "e"
+    ],
+    "second_phrase_origins": [
+     2,
+     3
+    ],
+    "second_phrase_values_swept": 169,
+    "variant": "dynamic_phrase",
+    "winner_level_phrase_local": true,
+    "witness": null
+   },
+   "origin_bound": {
+    "distinct_first_phrase_minimiser_sets": 1,
+    "first_phrase_origins": [
+     0,
+     1
+    ],
+    "phrases": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "reference": [
+     "e",
+     "ɔ",
+     "e",
+     "e"
+    ],
+    "second_phrase_origins": [
+     2,
+     3
+    ],
+    "second_phrase_values_swept": 169,
+    "variant": "origin_bound",
+    "winner_level_phrase_local": true,
+    "witness": null
+   },
+   "witness": {
+    "distinct_first_phrase_minimiser_sets": 1,
+    "first_phrase_origins": [
+     0,
+     1
+    ],
+    "phrases": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "reference": [
+     "e",
+     "ɔ",
+     "e",
+     "e"
+    ],
+    "second_phrase_origins": [
+     2,
+     3
+    ],
+    "second_phrase_values_swept": 169,
+    "variant": "witness",
+    "winner_level_phrase_local": true,
+    "witness": null
+   }
+  },
+  "weights": {
+   "A": 12,
+   "D": 20,
+   "GL": 12,
+   "H": 8,
+   "IDENT_ATR": 2,
+   "IDENT_NUC": 4,
+   "IDENT_QUAL": 3,
+   "INITIAL_FEATURE": 5,
+   "MAX": 9
+  }
+ },
+ "sweep": {
+  "baseline_winner_level_failures": 6,
+  "pairs_tried": 90,
+  "repaired_failures": [],
+  "rows": [
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "a",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɜ",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": {
+     "first_phrase_minimisers_A": [
+      [
+       "∅",
+       "ɛ"
+      ]
+     ],
+     "first_phrase_minimisers_B": [
+      [
+       "ɜ",
+       "∅"
+      ],
+      [
+       "∅",
+       "ɛ"
+      ]
+     ],
+     "second_phrase_A": [
+      "a",
+      "e"
+     ],
+     "second_phrase_B": [
+      "ɜ",
+      "e"
+     ]
+    },
+    "first_phrase_reference": [
+     "ɜ",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": false,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɜ",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɜ",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɜ",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": {
+     "first_phrase_minimisers_A": [
+      [
+       "∅",
+       "ɔ"
+      ]
+     ],
+     "first_phrase_minimisers_B": [
+      [
+       "ɜ",
+       "∅"
+      ],
+      [
+       "∅",
+       "ɔ"
+      ]
+     ],
+     "second_phrase_A": [
+      "a",
+      "e"
+     ],
+     "second_phrase_B": [
+      "ɜ",
+      "e"
+     ]
+    },
+    "first_phrase_reference": [
+     "ɜ",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": false,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɜ",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɜ",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɜ",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɛ",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": {
+     "first_phrase_minimisers_A": [
+      [
+       "∅",
+       "a"
+      ]
+     ],
+     "first_phrase_minimisers_B": [
+      [
+       "e",
+       "∅"
+      ],
+      [
+       "∅",
+       "a"
+      ]
+     ],
+     "second_phrase_A": [
+      "a",
+      "e"
+     ],
+     "second_phrase_B": [
+      "e",
+      "e"
+     ]
+    },
+    "first_phrase_reference": [
+     "e",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": false,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "e",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "e",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "e",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "e",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": {
+     "first_phrase_minimisers_A": [
+      [
+       "∅",
+       "ɔ"
+      ]
+     ],
+     "first_phrase_minimisers_B": [
+      [
+       "e",
+       "∅"
+      ],
+      [
+       "∅",
+       "ɔ"
+      ]
+     ],
+     "second_phrase_A": [
+      "a",
+      "e"
+     ],
+     "second_phrase_B": [
+      "e",
+      "e"
+     ]
+    },
+    "first_phrase_reference": [
+     "e",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": false,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "e",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "e",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "e",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɪ",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "i",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ɔ",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": {
+     "first_phrase_minimisers_A": [
+      [
+       "∅",
+       "a"
+      ]
+     ],
+     "first_phrase_minimisers_B": [
+      [
+       "o",
+       "∅"
+      ],
+      [
+       "∅",
+       "a"
+      ]
+     ],
+     "second_phrase_A": [
+      "a",
+      "e"
+     ],
+     "second_phrase_B": [
+      "o",
+      "e"
+     ]
+    },
+    "first_phrase_reference": [
+     "o",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": false,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "o",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": {
+     "first_phrase_minimisers_A": [
+      [
+       "∅",
+       "ɛ"
+      ]
+     ],
+     "first_phrase_minimisers_B": [
+      [
+       "o",
+       "∅"
+      ],
+      [
+       "∅",
+       "ɛ"
+      ]
+     ],
+     "second_phrase_A": [
+      "a",
+      "e"
+     ],
+     "second_phrase_B": [
+      "o",
+      "e"
+     ]
+    },
+    "first_phrase_reference": [
+     "o",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": false,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "o",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "o",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "o",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "o",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "o",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "o",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "ʊ",
+     "u"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "a"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "ɜ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "ɛ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "e"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "ɪ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "i"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "ɔ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "o"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   },
+   {
+    "baseline_witness": null,
+    "first_phrase_reference": [
+     "u",
+     "ʊ"
+    ],
+    "phrase_local": {
+     "baseline": true,
+     "dynamic_next_word": true,
+     "witness": true
+    }
+   }
+  ],
+  "weights": {
+   "A": 12,
+   "D": 20,
+   "GL": 12,
+   "H": 8,
+   "IDENT_ATR": 2,
+   "IDENT_NUC": 4,
+   "IDENT_QUAL": 3,
+   "INITIAL_FEATURE": 5,
+   "MAX": 9
+  }
+ }
+}

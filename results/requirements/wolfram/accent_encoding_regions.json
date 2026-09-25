@@ -1,0 +1,81 @@
+{
+	"per_configuration":{
+		"OWL_SG":"lam >= 0",
+		"OWL_2":"lam >= 0",
+		"OWL_3":"lam > 0",
+		"CHIEF_SG":"lam > 0",
+		"CHIEF_PL":"lam > 0",
+		"BULL_SG":"lam >= 0",
+		"BULL_PL":"lam >= 0",
+		"SPRING_LOC":"lam > 0",
+		"PUTDOWN_3PL":"lam > 0",
+		"BIGFISH":"lam >= 0",
+		"FUT_WALK":"lam >= 0"
+	},
+	"spring_loc_with_putdown_3pl":"False",
+	"bigfish_with_putdown_3pl":"False",
+	"epenthesis":"lam > 0",
+	"all_eleven":"False",
+	"without_bigfish":"False",
+	"all_but_bigfish_with_epenthesis":"False",
+	"shift_regime":"lam > 0",
+	"shift_regime_points":[
+		[
+			"0",
+			"False"
+		],
+		[
+			"1\/16",
+			"True"
+		],
+		[
+			"1\/8",
+			"True"
+		],
+		[
+			"1\/4",
+			"True"
+		],
+		[
+			"1\/2",
+			"True"
+		],
+		[
+			"1",
+			"True"
+		]
+	],
+	"deletion_regime":"lam > 0",
+	"deletion_witness_checks":[
+		true,
+		true,
+		true
+	],
+	"deletion_zero_feasible":false,
+	"deletion_regime_points":[
+		[
+			"0",
+			"False"
+		],
+		[
+			"1\/16",
+			"True"
+		],
+		[
+			"1\/8",
+			"True"
+		],
+		[
+			"1\/4",
+			"True"
+		],
+		[
+			"1\/2",
+			"True"
+		],
+		[
+			"1",
+			"True"
+		]
+	]
+}

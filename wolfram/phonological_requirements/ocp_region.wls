@@ -1,0 +1,24 @@
+base=DirectoryName[$InputFileName];out=FileNameJoin[{base,"..","..","results","requirements","wolfram","ocp_region.json"}];
+Clear[t,a,w,l];
+states=Tuples[{{False,True},{False,True},{0,1,2},{0,1,2}}];
+refLinks={{1,0},{2,1}};
+graph[c_]:=Module[{tones,links,old,new},
+ tones=Pick[{1,2},c[[1;;2]],True];
+ links=Select[{{1,c[[3]]},{2,c[[4]]}},Last[#]<2&];
+ old=MemberQ[tones,1]&&MemberQ[tones,2]&&MemberQ[links,{1,0}]&&MemberQ[links,{2,1}];
+ new=MemberQ[tones,1]&&MemberQ[tones,2]&&MemberQ[links,{2,0}]&&MemberQ[links,{1,1}];
+ {Length[Complement[{1,2},tones]],Length[Complement[refLinks,links]],Boole[old],Boole[new]}];
+rows=graph/@states;scores=(#.{t,a,w,l*w}&)/@rows;
+bad=Flatten@Position[rows,r_/;r[[3]]+r[[4]]>0,{1}];
+good=Complement[Range[36],bad];
+domain=t>=0&&a>=0&&w>=0&&l>=0;
+selection=And@@Table[Or@@Table[scores[[j]]<scores[[i]],{j,good}],{i,bad}];
+region=w>Min[t,a]&&2*a+l*w>Min[t,a];
+minimum=And@@Thread[scores>=Min[w,t,a]]&&Or@@Thread[scores==Min[w,t,a]];
+checks={Length[states]==36,Length[bad]==2,
+ Resolve[ForAll[{t,a,w,l},Implies[domain,Equivalent[selection,region]]],Reals],
+ Resolve[ForAll[{t,a,w,l},Implies[domain,minimum]],Reals],
+ Resolve[ForAll[{t,a,w,l},Implies[domain&&w>Min[t,a],Equivalent[2*a+l*w==Min[t,a],a==0&&l==0]]],Reals]};
+record=<|"states"->states,"coefficients"->rows,"bad_indices"->bad,"exact_region"->ToString[region,InputForm],"checks"->checks|>;
+If[!DirectoryQ[DirectoryName[out]],CreateDirectory[DirectoryName[out],CreateIntermediateDirectories->True]];
+Export[out,record,"RawJSON"];Print[checks];Exit[If[And@@(TrueQ/@checks),0,1]];

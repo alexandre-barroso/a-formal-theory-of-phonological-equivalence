@@ -1,0 +1,133 @@
+{
+ "all_underapplication_cases_are_same_schema": true,
+ "note": "The local same-schema signature is computed for every minimizer. Source labels are kept separate; no derivational classification follows from this signature alone.",
+ "rows": [
+  {
+   "new_environment": [],
+   "product": "G34a",
+   "repaired": [
+    [
+     "H",
+     2
+    ],
+    [
+     "A",
+     4
+    ]
+   ],
+   "same_schema": false,
+   "source_label": "counterbleeding"
+  },
+  {
+   "new_environment": [
+    [
+     "H",
+     2
+    ]
+   ],
+   "product": "G34b",
+   "repaired": [
+    [
+     "H",
+     4
+    ],
+    [
+     "A",
+     4
+    ]
+   ],
+   "same_schema": true,
+   "source_label": "countershifting"
+  },
+  {
+   "new_environment": [],
+   "product": "N7",
+   "repaired": [
+    [
+     "H",
+     2
+    ]
+   ],
+   "same_schema": false,
+   "source_label": null
+  },
+  {
+   "new_environment": [
+    [
+     "H",
+     2
+    ]
+   ],
+   "product": "G37c",
+   "repaired": [
+    [
+     "H",
+     4
+    ],
+    [
+     "GL",
+     5
+    ]
+   ],
+   "same_schema": true,
+   "source_label": "self-counterfeeding"
+  },
+  {
+   "new_environment": [],
+   "product": "C24ei",
+   "repaired": [
+    [
+     "GL",
+     3
+    ]
+   ],
+   "same_schema": false,
+   "source_label": null
+  },
+  {
+   "new_environment": [
+    [
+     "H",
+     2
+    ]
+   ],
+   "product": "OR38",
+   "repaired": [
+    [
+     "H",
+     4
+    ],
+    [
+     "D",
+     5
+    ]
+   ],
+   "same_schema": true,
+   "source_label": "self-counterfeeding"
+  },
+  {
+   "new_environment": [],
+   "product": "C21b",
+   "repaired": [
+    [
+     "D",
+     4
+    ]
+   ],
+   "same_schema": false,
+   "source_label": null
+  },
+  {
+   "new_environment": [],
+   "product": "C23UE",
+   "repaired": [
+    [
+     "GL",
+     3
+    ]
+   ],
+   "same_schema": false,
+   "source_label": null
+  }
+ ]
+}

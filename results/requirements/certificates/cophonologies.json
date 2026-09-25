@@ -1,0 +1,1252 @@
+{
+ "melodies": {
+  "JAMSAY": {
+   "both": {
+    "distribution": {
+     "ù bàbà mÒmÓ": 0.9991,
+     "ú bàbà mÒmÓ": 0.0,
+     "ú bàbá mÒmÓ": 0.0,
+     "ú bábá mÒmÓ": 0.0009
+    },
+    "minima": [
+     "ù bàbà mÒmÓ"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "24",
+      "overlay": "HL:None L:None",
+      "p": 0.0,
+      "surface": "ú bàbá mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "25",
+      "overlay": "HL:None L:noun",
+      "p": 0.0,
+      "surface": "ú bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "10",
+      "overlay": "HL:None L:phrase",
+      "p": 0.9991,
+      "surface": "ù bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "17",
+      "overlay": "HL:noun L:None",
+      "p": 0.0009,
+      "surface": "ú bábá mÒmÓ"
+     }
+    ]
+   },
+   "left_target": "phrase",
+   "weights": {
+    "DOCK_HL_R": "8",
+    "DOCK_L_L": "16",
+    "ID_TONE": "1"
+   }
+  },
+  "JAMSAY_fixedID": {
+   "both": {
+    "distribution": {
+     "ù bàbà mÒmÓ": 0.3333,
+     "ú bàbà mÒmÓ": 0.0001,
+     "ú bàbá mÒmÓ": 0.3333,
+     "ú bábá mÒmÓ": 0.3333
+    },
+    "minima": [
+     "ù bàbà mÒmÓ",
+     "ú bàbá mÒmÓ",
+     "ú bábá mÒmÓ"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "24",
+      "overlay": "HL:None L:None",
+      "p": 0.3333,
+      "surface": "ú bàbá mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "32",
+      "overlay": "HL:None L:noun",
+      "p": 0.0001,
+      "surface": "ú bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "24",
+      "overlay": "HL:None L:phrase",
+      "p": 0.3333,
+      "surface": "ù bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "24",
+      "overlay": "HL:noun L:None",
+      "p": 0.3333,
+      "surface": "ú bábá mÒmÓ"
+     }
+    ]
+   },
+   "left_target": "phrase",
+   "weights": {
+    "DOCK_HL_R": "8",
+    "DOCK_L_L": "16",
+    "ID_TONE": "8"
+   }
+  },
+  "JAMSAY_fixedID_refit": {
+   "both": {
+    "distribution": {
+     "ù bàbà mÒmÓ": 0.9993,
+     "ú bàbà mÒmÓ": 0.0,
+     "ú bàbá mÒmÓ": 0.0003,
+     "ú bábá mÒmÓ": 0.0003
+    },
+    "minima": [
+     "ù bàbà mÒmÓ"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "32",
+      "overlay": "HL:None L:None",
+      "p": 0.0003,
+      "surface": "ú bàbá mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "40",
+      "overlay": "HL:None L:noun",
+      "p": 0.0,
+      "surface": "ú bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "24",
+      "overlay": "HL:None L:phrase",
+      "p": 0.9993,
+      "surface": "ù bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "32",
+      "overlay": "HL:noun L:None",
+      "p": 0.0003,
+      "surface": "ú bábá mÒmÓ"
+     }
+    ]
+   },
+   "left_target": "phrase",
+   "weights": {
+    "DOCK_HL_R": "8",
+    "DOCK_L_L": "24",
+    "ID_TONE": "8"
+   }
+  },
+  "NANGA": {
+   "both": {
+    "distribution": {
+     "ù bàbà mÒmÓ": 0.3774,
+     "ú bàbà mÒmÓ": 0.0001,
+     "ú bàbá mÒmÓ": 0.0002,
+     "ú bábâ mÒmÓ": 0.6223
+    },
+    "minima": [
+     "ú bábâ mÒmÓ"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "39/2",
+      "overlay": "HL:None L:None",
+      "p": 0.0002,
+      "surface": "ú bàbá mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "41/2",
+      "overlay": "HL:None L:noun",
+      "p": 0.0001,
+      "surface": "ú bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "12",
+      "overlay": "HL:None L:phrase",
+      "p": 0.3774,
+      "surface": "ù bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "23/2",
+      "overlay": "HL:noun L:None",
+      "p": 0.6223,
+      "surface": "ú bábâ mÒmÓ"
+     }
+    ]
+   },
+   "left_target": "phrase",
+   "weights": {
+    "DOCK_HL_R": "10",
+    "DOCK_L_L": "19/2",
+    "ID_TONE": "1"
+   }
+  },
+  "NANGA_fixedID": {
+   "both": {
+    "distribution": {
+     "ù bàbà mÒmÓ": 0.0015,
+     "ú bàbà mÒmÓ": 0.0003,
+     "ú bàbá mÒmÓ": 0.9957,
+     "ú bábâ mÒmÓ": 0.0025
+    },
+    "minima": [
+     "ú bàbá mÒmÓ"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "39/2",
+      "overlay": "HL:None L:None",
+      "p": 0.9957,
+      "surface": "ú bàbá mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "55/2",
+      "overlay": "HL:None L:noun",
+      "p": 0.0003,
+      "surface": "ú bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "26",
+      "overlay": "HL:None L:phrase",
+      "p": 0.0015,
+      "surface": "ù bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "51/2",
+      "overlay": "HL:noun L:None",
+      "p": 0.0025,
+      "surface": "ú bábâ mÒmÓ"
+     }
+    ]
+   },
+   "left_target": "phrase",
+   "weights": {
+    "DOCK_HL_R": "10",
+    "DOCK_L_L": "19/2",
+    "ID_TONE": "8"
+   }
+  },
+  "NANGA_fixedID_refit": {
+   "both": {
+    "distribution": {
+     "ù bàbà mÒmÓ": 0.3775,
+     "ú bàbà mÒmÓ": 0.0,
+     "ú bàbá mÒmÓ": 0.0,
+     "ú bábâ mÒmÓ": 0.6225
+    },
+    "minima": [
+     "ú bábâ mÒmÓ"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "121/2",
+      "overlay": "HL:None L:None",
+      "p": 0.0,
+      "surface": "ú bàbá mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "137/2",
+      "overlay": "HL:None L:noun",
+      "p": 0.0,
+      "surface": "ú bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "93/2",
+      "overlay": "HL:None L:phrase",
+      "p": 0.3775,
+      "surface": "ù bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "46",
+      "overlay": "HL:noun L:None",
+      "p": 0.6225,
+      "surface": "ú bábâ mÒmÓ"
+     }
+    ]
+   },
+   "left_target": "phrase",
+   "weights": {
+    "DOCK_HL_R": "61/2",
+    "DOCK_L_L": "30",
+    "ID_TONE": "8"
+   }
+  },
+  "TOMMO_SO": {
+   "both": {
+    "distribution": {
+     "ù bàbà mÒmÓ": 0.0002,
+     "ú bàbà mÒmÓ": 0.7308,
+     "ú bàbá mÒmÓ": 0.0001,
+     "ú bábá mÒmÓ": 0.2689
+    },
+    "minima": [
+     "ú bàbà mÒmÓ"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "DOCK_L_L": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "33",
+      "overlay": "HL:None L:None",
+      "p": 0.0001,
+      "surface": "ú bàbá mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "24",
+      "overlay": "HL:None L:noun",
+      "p": 0.7308,
+      "surface": "ú bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        2,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "32",
+      "overlay": "HL:None L:phrase",
+      "p": 0.0002,
+      "surface": "ù bàbà mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "DOCK_L_L": [
+        1,
+        0
+       ],
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "both",
+      "harmony": "25",
+      "overlay": "HL:noun L:None",
+      "p": 0.2689,
+      "surface": "ú bábá mÒmÓ"
+     }
+    ]
+   },
+   "left_target": "word",
+   "mod_only": {
+    "distribution": {
+     "bàbà mÒmÓ": 0.9999,
+     "bàbá mÒmÓ": 0.0001
+    },
+    "minima": [
+     "bàbà mÒmÓ"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_L_L": [
+        1,
+        0
+       ]
+      },
+      "construction": "mod_only",
+      "harmony": "17",
+      "overlay": "HL:None L:None",
+      "p": 0.0001,
+      "surface": "bàbá mÒmÓ"
+     },
+     {
+      "coefficients": {
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "mod_only",
+      "harmony": "8",
+      "overlay": "HL:None L:noun",
+      "p": 0.9999,
+      "surface": "bàbà mÒmÓ"
+     }
+    ]
+   },
+   "poss_only": {
+    "distribution": {
+     "ú bàbá": 0.0003,
+     "ú bábá": 0.9997
+    },
+    "minima": [
+     "ú bábá"
+    ],
+    "rows": [
+     {
+      "coefficients": {
+       "DOCK_HL_R": [
+        1,
+        0
+       ]
+      },
+      "construction": "poss_only",
+      "harmony": "16",
+      "overlay": "HL:None L:None",
+      "p": 0.0003,
+      "surface": "ú bàbá"
+     },
+     {
+      "coefficients": {
+       "ID_TONE": [
+        1,
+        0
+       ]
+      },
+      "construction": "poss_only",
+      "harmony": "8",
+      "overlay": "HL:noun L:None",
+      "p": 0.9997,
+      "surface": "ú bábá"
+     }
+    ]
+   },
+   "weights": {
+    "DOCK_HL_R": "16",
+    "DOCK_L_L": "17",
+    "ID_TONE": "8"
+   }
+  }
+ },
+ "nanga_split_identity": {
+  "fixed_ID_refit": [
+   0.6225,
+   0.3775
+  ],
+  "printed": [
+   0.62,
+   0.38
+  ],
+  "reweighted": [
+   0.6223,
+   0.3774
+  ]
+ },
+ "replay": {
+  "(29a) Moro imperfective vP": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 10,
+     "H_recomputed": 10,
+     "candidate": "tʃombəDa",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 2,
+     "H_recomputed": 2,
+     "candidate": "(tʃóm)bəDa",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 1.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 12,
+     "H_recomputed": 12,
+     "candidate": "tʃombə(Dá)",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  },
+  "(29b) Moro perfective vP": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 2,
+     "H_recomputed": 2,
+     "candidate": "tʃombə(Dó)",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 1.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 11,
+     "H_recomputed": 11,
+     "candidate": "(tʃóm)bə(Dó)",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 14,
+     "H_recomputed": 14,
+     "candidate": "(tʃómbə́Dó)",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 10,
+     "H_recomputed": 10,
+     "candidate": "tʃombəD-o",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  },
+  "(40) Hebrew noun": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 1,
+     "H_recomputed": 1,
+     "candidate": "té.le.graf",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 1.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 9,
+     "H_recomputed": 9,
+     "candidate": "til.gref",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  },
+  "(41) Hebrew verb": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 19,
+     "H_recomputed": 19,
+     "candidate": "té.le.graf",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 11,
+     "H_recomputed": 11,
+     "candidate": "tí.li.gref",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 1,
+     "H_recomputed": 1,
+     "candidate": "til.gref",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 1.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 10,
+     "H_recomputed": 10,
+     "candidate": "tel.graf",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  },
+  "(48b) Kuria CP": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 9,
+     "H_recomputed": 9,
+     "candidate": "toraroma eGetOOkE",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 1,
+     "H_recomputed": 1,
+     "candidate": "toraroma eGétÓÓkE",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 1.0
+    }
+   ]
+  },
+  "(55) Guébie imperfective CP": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 23,
+     "H_recomputed": 23,
+     "candidate": "e4 li3",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 8,
+     "H_recomputed": 8,
+     "candidate": "e4 li2",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 0.999
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 16,
+     "H_recomputed": 16,
+     "candidate": "e5 li3",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 16,
+     "H_recomputed": 16,
+     "candidate": "e4 li1",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 40,
+     "H_recomputed": 40,
+     "candidate": "e4 li0",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  },
+  "(56) Guébie imperfective CP, low verb": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 23,
+     "H_recomputed": 23,
+     "candidate": "e4 pa1",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.001
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 24,
+     "H_recomputed": 24,
+     "candidate": "e4 pa0",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 16,
+     "H_recomputed": 16,
+     "candidate": "e5 pa1",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 0.999
+    }
+   ]
+  },
+  "(63d) Tommo So Poss+N+Adj": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 24,
+     "H_recomputed": 24,
+     "candidate": "ú bàbè mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 0.999
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 33,
+     "H_recomputed": 33,
+     "candidate": "ú bàbé mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 33,
+     "H_recomputed": 33,
+     "candidate": "ú bábè mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 41,
+     "H_recomputed": 41,
+     "candidate": "ú bábé mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 32,
+     "H_recomputed": 32,
+     "candidate": "ù bàbè mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  },
+  "(64) Tommo So Poss only": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 24,
+     "H_recomputed": 24,
+     "candidate": "ú bàbè",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 16,
+     "H_recomputed": 16,
+     "candidate": "ú bàbé",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 16,
+     "H_recomputed": 16,
+     "candidate": "ú bábè",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 8,
+     "H_recomputed": 8,
+     "candidate": "ú bábé",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 0.999
+    }
+   ]
+  },
+  "(65) Tommo So Mod only": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 8,
+     "H_recomputed": 8,
+     "candidate": "bàbè mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 1.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 17,
+     "H_recomputed": 17,
+     "candidate": "bàbé mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 33,
+     "H_recomputed": 33,
+     "candidate": "bábè mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 25,
+     "H_recomputed": 25,
+     "candidate": "bábé mOnjú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  },
+  "(66d) Jamsay Poss+N+Adj": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 10,
+     "H_recomputed": 10,
+     "candidate": "ù lèjù mOnú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 1,
+     "pred_recomputed": 1.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 25,
+     "H_recomputed": 25,
+     "candidate": "ú lèjù mOnú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 24,
+     "H_recomputed": 24,
+     "candidate": "ú lèjú mOnú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 18,
+     "H_recomputed": 18,
+     "candidate": "ú léjù mOnú",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  },
+  "(67d) Nanga Poss+N+Adj": {
+   "all_H_agree": true,
+   "all_pred_agree": true,
+   "rows": [
+    {
+     "H_agrees": true,
+     "H_printed": 10.5,
+     "H_recomputed": 10.5,
+     "candidate": "ú lésî mOsí",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0.62,
+     "pred_recomputed": 0.622
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 11,
+     "H_recomputed": 11.0,
+     "candidate": "ù lèsì mOsí",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0.38,
+     "pred_recomputed": 0.378
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 19.5,
+     "H_recomputed": 19.5,
+     "candidate": "ú lèsí mOsí",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    },
+    {
+     "H_agrees": true,
+     "H_printed": 20.5,
+     "H_recomputed": 20.5,
+     "candidate": "ú lèsì mOsí",
+     "pred_agrees_to_0.01": true,
+     "pred_printed": 0,
+     "pred_recomputed": 0.0
+    }
+   ]
+  }
+ },
+ "reset": {
+  "fixed reference (underlying form)": {
+   "harmony_of_winner": "73/8",
+   "minima": [
+    "ga tʃómbəDa"
+   ],
+   "p_faithful_no_H_at_T1": 0.294165,
+   "p_winner_at_T1": 0.7057
+  },
+  "reference reset to the lower domain's output": {
+   "harmony_of_winner": "1",
+   "minima": [
+    "ga tʃómbəDa"
+   ],
+   "p_faithful_no_H_at_T1": 9.6e-05,
+   "p_winner_at_T1": 0.9997
+  }
+ },
+ "tone": {
+  "MORO_IPFV_CP": {
+   "matches_source": true,
+   "minima": [
+    "ga tʃómbəDa"
+   ],
+   "score": "73/8"
+  },
+  "MORO_IPFV_VP": {
+   "matches_source": true,
+   "minima": [
+    "tʃómbəDa"
+   ],
+   "score": "73/8"
+  },
+  "MORO_PFV_VP": {
+   "matches_source": true,
+   "minima": [
+    "tʃombəDó"
+   ],
+   "score": "1"
+  }
+ }
+}

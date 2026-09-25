@@ -1,0 +1,212 @@
+{
+ "alignment_control": "Nonlocal alignment distinguishes single deletions; this control does not by itself fit the full language.",
+ "count_candidates_checked": 511,
+ "native_rows": [
+  {
+   "alignment": 0,
+   "counts": [
+    0,
+    3
+   ],
+   "retained": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "alignment": 0,
+   "counts": [
+    1,
+    2
+   ],
+   "retained": [
+    false,
+    false,
+    true
+   ]
+  },
+  {
+   "alignment": 1,
+   "counts": [
+    1,
+    2
+   ],
+   "retained": [
+    false,
+    true,
+    false
+   ]
+  },
+  {
+   "alignment": 1,
+   "counts": [
+    2,
+    1
+   ],
+   "retained": [
+    false,
+    true,
+    true
+   ]
+  },
+  {
+   "alignment": 2,
+   "counts": [
+    1,
+    2
+   ],
+   "retained": [
+    true,
+    false,
+    false
+   ]
+  },
+  {
+   "alignment": 2,
+   "counts": [
+    2,
+    1
+   ],
+   "retained": [
+    true,
+    false,
+    true
+   ]
+  },
+  {
+   "alignment": 3,
+   "counts": [
+    2,
+    1
+   ],
+   "retained": [
+    true,
+    true,
+    false
+   ]
+  },
+  {
+   "alignment": 3,
+   "counts": [
+    3,
+    0
+   ],
+   "retained": [
+    true,
+    true,
+    true
+   ]
+  }
+ ],
+ "negative_strict_preference": "h<d+m+a",
+ "positive_strict_preference": "d+m+a<h",
+ "scope": "Four source comparison candidates and the existing deletion-only count model. No full translation of directional HS or exclusion of all global evaluators.",
+ "shared_weight_cases": 256,
+ "source": "McPherson and Lamont: October2024 draft58,59,63,65; published2026 counterpart57,58,62,63. Published prose half-sum inequality differs from the displayed scores.",
+ "source_graphs": [
+  {
+   "coefficients": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "links": [
+    [
+     "M0",
+     0
+    ],
+    [
+     "M1",
+     1
+    ],
+    [
+     "M2",
+     2
+    ]
+   ],
+   "name": "positive_delete",
+   "present_tones": [
+    "M0",
+    "M1",
+    "M2"
+   ]
+  },
+  {
+   "coefficients": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "links": [
+    [
+     "H1",
+     2
+    ],
+    [
+     "M0",
+     0
+    ],
+    [
+     "M1",
+     1
+    ]
+   ],
+   "name": "positive_dock",
+   "present_tones": [
+    "H1",
+    "M0",
+    "M1"
+   ]
+  },
+  {
+   "coefficients": [
+    2,
+    0,
+    0,
+    0
+   ],
+   "links": [
+    [
+     "M0",
+     0
+    ],
+    [
+     "M1",
+     1
+    ]
+   ],
+   "name": "negative_delete",
+   "present_tones": [
+    "M0",
+    "M1"
+   ]
+  },
+  {
+   "coefficients": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "links": [
+    [
+     "H0",
+     1
+    ],
+    [
+     "M0",
+     0
+    ]
+   ],
+   "name": "negative_dock",
+   "present_tones": [
+    "H0",
+    "M0"
+   ]
+  }
+ ],
+ "weak_preferences": "h=d+m+a, with incorrect comparison candidates tied"
+}

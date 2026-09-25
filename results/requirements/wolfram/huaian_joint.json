@@ -1,0 +1,8 @@
+{
+	"inputs":12,
+	"candidates_per_input":64,
+	"candidate_models":2304,
+	"coefficient_values":36864,
+	"symbolic_gaps":6,
+	"observation_inequalities":3
+}

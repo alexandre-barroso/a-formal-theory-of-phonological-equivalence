@@ -1,0 +1,75 @@
+{
+  "kind": "grammar",
+  "cache_key": "2e4ef9849931ee3323c55e93671a159e7ac966ad342b36e3040c329328808945",
+  "block_key": "6af75daa525968e68fb8d352969dddfe3b92e90b6a86578e4f8560ce19d4e895",
+  "variant": "all_strict",
+  "model": "HU_plus_surface",
+  "approximation": "laplace",
+  "alpha": 0.01,
+  "beta_key": "3365c5d060a070cfdc8f6a7966cf6fbdee64421f8f8f408166e1c511ac64651b",
+  "hu_key": "550f39836ea7edff22f6fbdf121fc4207df039d8caa0728c817569fc864f53e3",
+  "offset_key": null,
+  "fit": {
+    "model": "hu_surface",
+    "parameters": {
+      "surface": 0.9219248479097414,
+      "HU": 2.59714686613608
+    },
+    "objective": 0.17600700644232425,
+    "regularization_alpha": 0.01,
+    "converged": true,
+    "iterations": 11,
+    "internal_coordinates": [
+      0.9219248479097414,
+      2.59714686613608
+    ],
+    "gradient": [
+      3.8910500169131446e-10,
+      3.6071839959461727e-13
+    ],
+    "projected_gradient_max_abs": 3.8910500169131446e-10,
+    "finite_difference_max_abs_error": 4.101150483792785e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 11,
+        "objective": 0.17600700644232425,
+        "projected_gradient_max": 3.8910500169131446e-10,
+        "finite_difference_error": 4.101150483792785e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      7975.0,
+      5.0,
+      14242.0,
+      474.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 18,
+      "0010": 309,
+      "0011": 35,
+      "0100": 1,
+      "1000": 45,
+      "1010": 12,
+      "1100": 4
+    },
+    "training_rows": 424,
+    "feature_difference_rows": 1272,
+    "feature_difference_columns": 2,
+    "feature_difference_rank": 2,
+    "feature_difference_sha256": "7008c2dc5414eb0f82c69ed56744d1e649cf999d63758bdc7970719377e80331",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

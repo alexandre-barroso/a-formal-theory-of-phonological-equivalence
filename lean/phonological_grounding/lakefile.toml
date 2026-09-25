@@ -1,0 +1,11 @@
+name = "phonological_grounding"
+version = "0.1.0"
+defaultTargets = ["PhonologicalGrounding"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.32.2"
+
+[[lean_lib]]
+name = "PhonologicalGrounding"

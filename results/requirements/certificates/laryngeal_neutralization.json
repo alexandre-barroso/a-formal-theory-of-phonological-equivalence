@@ -1,0 +1,730 @@
+{
+ "readers": {
+  "binary": {
+   "AGREE_BOTH": [
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 1,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "t",
+     "index": 3,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "a",
+     "index": 4,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "s",
+     "index": 5,
+     "C": 1,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    }
+   ],
+   "AGREE_MINUS": [
+    {
+     "segment": "a",
+     "index": 0,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 1,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "a",
+     "index": 4,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "a",
+     "index": 7,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    }
+   ],
+   "AGREE_PLUS": [
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "t",
+     "index": 3,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "s",
+     "index": 5,
+     "C": 1,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    }
+   ],
+   "DEVOICE_SYLL": [
+    {
+     "segment": "a",
+     "index": 0,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "a",
+     "index": 4,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "a",
+     "index": 7,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    }
+   ],
+   "DEVOICE_WORD": [
+    {
+     "segment": "a",
+     "index": 0,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "a",
+     "index": 4,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "a",
+     "index": 7,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    }
+   ],
+   "ID_ONSET_VOICE": [
+    {
+     "segment": "t",
+     "index": 3,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    }
+   ],
+   "ID_VOICE": [
+    {
+     "segment": "a",
+     "index": 0,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "t",
+     "index": 3,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "a",
+     "index": 4,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "s",
+     "index": 5,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "a",
+     "index": 7,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    }
+   ]
+  },
+  "privative": {
+   "AGREE_BOTH": [
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    },
+    {
+     "segment": "s",
+     "index": 5,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    }
+   ],
+   "AGREE_MINUS": [
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    }
+   ],
+   "AGREE_PLUS": [
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "s",
+     "index": 5,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    }
+   ],
+   "DEVOICE_SYLL": [
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    }
+   ],
+   "DEVOICE_WORD": [
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 0,
+     "Def": 1,
+     "G": 0,
+     "p": 1
+    }
+   ],
+   "ID_ONSET_VOICE": [
+    {
+     "segment": "t",
+     "index": 3,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    }
+   ],
+   "ID_VOICE": [
+    {
+     "segment": "a",
+     "index": 0,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    },
+    {
+     "segment": "z",
+     "index": 1,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "z",
+     "index": 2,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "t",
+     "index": 3,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    },
+    {
+     "segment": "a",
+     "index": 4,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    },
+    {
+     "segment": "s",
+     "index": 5,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    },
+    {
+     "segment": "d",
+     "index": 6,
+     "C": 1,
+     "Def": 1,
+     "G": 1,
+     "p": 0
+    },
+    {
+     "segment": "a",
+     "index": 7,
+     "C": 1,
+     "Def": 0,
+     "G": 0,
+     "p": 0
+    }
+   ]
+  }
+ },
+ "markedness_witnesses": {
+  "binary": {
+   "AGREE_BOTH": true,
+   "AGREE_MINUS": true,
+   "AGREE_PLUS": true,
+   "DEVOICE_SYLL": true,
+   "DEVOICE_WORD": true,
+   "ID_ONSET_VOICE": true,
+   "ID_VOICE": true
+  },
+  "privative": {
+   "AGREE_BOTH": false,
+   "AGREE_MINUS": false,
+   "AGREE_PLUS": false,
+   "DEVOICE_SYLL": true,
+   "DEVOICE_WORD": true,
+   "ID_ONSET_VOICE": false,
+   "ID_VOICE": false
+  }
+ },
+ "witness_domain": {
+  "reference": "azztasda",
+  "candidate_scope": "reference and single obstruent-voicing changes",
+  "false_means": "no markedness witness in this finite domain"
+ },
+ "refinement": {
+  "max_length": 5,
+  "structures": 90480,
+  "node_checks": 444192,
+  "violations_of_word_final_implies_syllable_final": 0
+ },
+ "typology": {
+  "no devoicing | none": {
+   "output": [
+    "az laz tas dad"
+   ],
+   "score": "0"
+  },
+  "no devoicing | plus": {
+   "output": [
+    "az laz taz dad"
+   ],
+   "score": "1"
+  },
+  "no devoicing | minus": {
+   "output": [
+    "az las tas dad"
+   ],
+   "score": "1"
+  },
+  "no devoicing | both": {
+   "output": [
+    "az las taz dad"
+   ],
+   "score": "2"
+  },
+  "word-final | none": {
+   "output": [
+    "az laz tas dat"
+   ],
+   "score": "1"
+  },
+  "word-final | plus": {
+   "output": [
+    "az laz taz dat"
+   ],
+   "score": "2"
+  },
+  "word-final | minus": {
+   "output": [
+    "az las tas dat"
+   ],
+   "score": "2"
+  },
+  "word-final | both": {
+   "output": [
+    "az las taz dat"
+   ],
+   "score": "3"
+  },
+  "syllable-final | none": {
+   "output": [
+    "as las tas dat"
+   ],
+   "score": "6"
+  },
+  "syllable-final | plus": {
+   "output": [
+    "as las taz dat"
+   ],
+   "score": "33/4"
+  },
+  "syllable-final | minus": {
+   "output": [
+    "as las tas dat"
+   ],
+   "score": "6"
+  },
+  "syllable-final | both": {
+   "output": [
+    "as las taz dat"
+   ],
+   "score": "33/4"
+  }
+ },
+ "against_the_source": {
+  "no devoicing | none": {
+   "source": "az laz tas dad",
+   "core": [
+    "az laz tas dad"
+   ],
+   "agrees": true
+  },
+  "no devoicing | plus": {
+   "source": "az laz taz dad",
+   "core": [
+    "az laz taz dad"
+   ],
+   "agrees": true
+  },
+  "no devoicing | minus": {
+   "source": "az las tas dad",
+   "core": [
+    "az las tas dad"
+   ],
+   "agrees": true
+  },
+  "no devoicing | both": {
+   "source": "az las taz dad",
+   "core": [
+    "az las taz dad"
+   ],
+   "agrees": true
+  },
+  "word-final | none": {
+   "source": "az laz tas dat",
+   "core": [
+    "az laz tas dat"
+   ],
+   "agrees": true
+  },
+  "word-final | both": {
+   "source": "az las taz dat",
+   "core": [
+    "az las taz dat"
+   ],
+   "agrees": true
+  },
+  "syllable-final | none": {
+   "source": "as las tas dat",
+   "core": [
+    "as las tas dat"
+   ],
+   "agrees": true
+  },
+  "syllable-final | both": {
+   "source": "as las taz dat",
+   "core": [
+    "as las taz dat"
+   ],
+   "agrees": true
+  }
+ },
+ "source_collapses_reproduced": {
+  "minus-spreading is invisible under syllable-final devoicing": true,
+  "plus-spreading is indistinguishable from both under syllable-final devoicing": true
+ },
+ "cluster": {
+  "/azb/ one syllable": {
+   "cluster devoicing only": [
+    "asp"
+   ],
+   "word-final devoicing only": [
+    "azp"
+   ],
+   "syllable-final devoicing only": [
+    "azp"
+   ],
+   "assimilation only": [
+    "azb"
+   ],
+   "word-final devoicing + assimilation": [
+    "asp"
+   ]
+  },
+  "/az.bo/ two syllables": {
+   "cluster devoicing only": [
+    "azbo"
+   ],
+   "word-final devoicing only": [
+    "azbo"
+   ],
+   "syllable-final devoicing only": [
+    "asbo"
+   ],
+   "assimilation only": [
+    "azbo"
+   ],
+   "word-final devoicing + assimilation": [
+    "azbo"
+   ]
+  }
+ },
+ "weights": {
+  "ID_VOICE": 1,
+  "ID_ONSET_VOICE": 3,
+  "DEVOICE_SYLL": 10,
+  "DEVOICE_WORD": 10,
+  "CLUSTER_DEVOICE": 10,
+  "AGREE_BOTH": 20,
+  "AGREE_PLUS": 20,
+  "AGREE_MINUS": 20
+ },
+ "lambda": "1/8"
+}

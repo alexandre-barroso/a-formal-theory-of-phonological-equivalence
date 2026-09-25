@@ -1,0 +1,1196 @@
+{
+ "appendix": {
+  "A_obligations_differ_from_appendix": {},
+  "destroyed": [],
+  "faults": [
+   "definedness-override",
+   "resolution-split:relatum+1",
+   "unscoped-relational-subject:n_free"
+  ],
+  "per_input": {
+   "C21b": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     9,
+     117
+    ],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "retained_obligations": {
+     "D": [
+      4
+     ]
+    }
+   },
+   "C23UE": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     159
+    ],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "C24ei": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     63
+    ],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "kpejsi"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "G34a": {
+    "A_obligations": [
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     774
+    ],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "retained_obligations": {
+     "A": [
+      4
+     ],
+     "H": [
+      2
+     ]
+    }
+   },
+   "G34b": {
+    "A_obligations": [
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     957
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_of_minima": [
+     "afɪsoohili"
+    ],
+    "retained_obligations": {
+     "A": [
+      4
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "G37c": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1584
+    ],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "retained_obligations": {
+     "GL": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "N7": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     82
+    ],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_of_minima": [
+     "atʃijeli"
+    ],
+    "retained_obligations": {
+     "H": [
+      2
+     ]
+    }
+   },
+   "OR38": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1189,
+     1261
+    ],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_of_minima": [
+     "atʃɔsiku"
+    ],
+    "retained_obligations": {
+     "D": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   }
+  },
+  "well_typed": false
+ },
+ "no_filter": {
+  "A_obligations_differ_from_appendix": {},
+  "destroyed": [],
+  "faults": [],
+  "per_input": {
+   "C21b": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     9,
+     117
+    ],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "retained_obligations": {
+     "D": [
+      4
+     ]
+    }
+   },
+   "C23UE": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     159
+    ],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "C24ei": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     63
+    ],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "kpejsi"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "G34a": {
+    "A_obligations": [
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     774
+    ],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "retained_obligations": {
+     "A": [
+      4
+     ],
+     "H": [
+      2
+     ]
+    }
+   },
+   "G34b": {
+    "A_obligations": [
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     957
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_of_minima": [
+     "afɪsoohili"
+    ],
+    "retained_obligations": {
+     "A": [
+      4
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "G37c": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1584
+    ],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "retained_obligations": {
+     "GL": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "N7": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     82
+    ],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_of_minima": [
+     "atʃijeli"
+    ],
+    "retained_obligations": {
+     "H": [
+      2
+     ]
+    }
+   },
+   "OR38": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1189,
+     1261
+    ],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_of_minima": [
+     "atʃɔsiku"
+    ],
+    "retained_obligations": {
+     "D": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   }
+  },
+  "well_typed": true
+ },
+ "skip": {
+  "A_obligations_differ_from_appendix": {
+   "G34a": {
+    "appendix": [
+     4
+    ],
+    "skip": [
+     2,
+     4
+    ]
+   },
+   "G34b": {
+    "appendix": [
+     4
+    ],
+    "skip": [
+     0,
+     4
+    ]
+   },
+   "G37c": {
+    "appendix": [],
+    "skip": [
+     0,
+     4
+    ]
+   },
+   "N7": {
+    "appendix": [],
+    "skip": [
+     0
+    ]
+   }
+  },
+  "destroyed": [
+   "G34a",
+   "G34b",
+   "N7",
+   "G37c"
+  ],
+  "faults": [],
+  "per_input": {
+   "C21b": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     9,
+     117
+    ],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "retained_obligations": {
+     "D": [
+      4
+     ]
+    }
+   },
+   "C23UE": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     159
+    ],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "C24ei": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     63
+    ],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "kpejsi"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "G34a": {
+    "A_obligations": [
+     2,
+     4
+    ],
+    "exclusively_correct": false,
+    "fiber": [
+     774
+    ],
+    "minima": [
+     732
+    ],
+    "minimum8": 32,
+    "output_of_minima": [
+     "aheteekpʊkɔ"
+    ],
+    "retained_obligations": {
+     "A": [
+      2,
+      4
+     ],
+     "H": [
+      2
+     ]
+    }
+   },
+   "G34b": {
+    "A_obligations": [
+     0,
+     4
+    ],
+    "exclusively_correct": false,
+    "fiber": [
+     957
+    ],
+    "minima": [
+     1464
+    ],
+    "minimum8": 32,
+    "output_of_minima": [
+     "afosoohili"
+    ],
+    "retained_obligations": {
+     "A": [
+      0,
+      4
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "G37c": {
+    "A_obligations": [
+     0,
+     4
+    ],
+    "exclusively_correct": false,
+    "fiber": [
+     1584
+    ],
+    "minima": [
+     739
+    ],
+    "minimum8": 40,
+    "output_of_minima": [
+     "ɔtʃesejbie"
+    ],
+    "retained_obligations": {
+     "A": [
+      0,
+      4
+     ],
+     "GL": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "N7": {
+    "A_obligations": [
+     0
+    ],
+    "exclusively_correct": false,
+    "fiber": [
+     82
+    ],
+    "minima": [
+     56,
+     84,
+     88
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "atʃejeli",
+     "atʃijili",
+     "atʃijuli"
+    ],
+    "retained_obligations": {
+     "A": [
+      0
+     ],
+     "H": [
+      2
+     ]
+    }
+   },
+   "OR38": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1189,
+     1261
+    ],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_of_minima": [
+     "atʃɔsiku"
+    ],
+    "retained_obligations": {
+     "D": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   }
+  },
+  "well_typed": true
+ },
+ "skip_in_scope": {
+  "A_obligations_differ_from_appendix": {
+   "G34a": {
+    "appendix": [
+     4
+    ],
+    "skip_in_scope": [
+     0,
+     2,
+     4
+    ]
+   },
+   "G34b": {
+    "appendix": [
+     4
+    ],
+    "skip_in_scope": [
+     0,
+     4
+    ]
+   },
+   "G37c": {
+    "appendix": [],
+    "skip_in_scope": [
+     0,
+     4
+    ]
+   },
+   "N7": {
+    "appendix": [],
+    "skip_in_scope": [
+     0
+    ]
+   }
+  },
+  "destroyed": [
+   "G34a",
+   "G34b",
+   "N7"
+  ],
+  "faults": [],
+  "per_input": {
+   "C21b": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     9,
+     117
+    ],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "retained_obligations": {
+     "D": [
+      4
+     ]
+    }
+   },
+   "C23UE": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     159
+    ],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "C24ei": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     63
+    ],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "kpejsi"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "G34a": {
+    "A_obligations": [
+     0,
+     2,
+     4
+    ],
+    "exclusively_correct": false,
+    "fiber": [
+     774
+    ],
+    "minima": [
+     183
+    ],
+    "minimum8": 72,
+    "output_of_minima": [
+     "ahataakpʊkɔ"
+    ],
+    "retained_obligations": {
+     "A": [
+      0,
+      2,
+      4
+     ],
+     "H": [
+      2
+     ]
+    }
+   },
+   "G34b": {
+    "A_obligations": [
+     0,
+     4
+    ],
+    "exclusively_correct": false,
+    "fiber": [
+     957
+    ],
+    "minima": [
+     994,
+     998,
+     1007,
+     1011
+    ],
+    "minimum8": 44,
+    "output_of_minima": [
+     "afɪsjihili",
+     "afɪsjuhili",
+     "afɪswihili",
+     "afɪswuhili"
+    ],
+    "retained_obligations": {
+     "A": [
+      0,
+      4
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "G37c": {
+    "A_obligations": [
+     0,
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     1584
+    ],
+    "minima": [
+     1584
+    ],
+    "minimum8": 92,
+    "output_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "retained_obligations": {
+     "A": [
+      0,
+      4
+     ],
+     "GL": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "N7": {
+    "A_obligations": [
+     0
+    ],
+    "exclusively_correct": false,
+    "fiber": [
+     82
+    ],
+    "minima": [
+     84,
+     88
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "atʃijili",
+     "atʃijuli"
+    ],
+    "retained_obligations": {
+     "A": [
+      0
+     ],
+     "H": [
+      2
+     ]
+    }
+   },
+   "OR38": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1189,
+     1261
+    ],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_of_minima": [
+     "atʃɔsiku"
+    ],
+    "retained_obligations": {
+     "D": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   }
+  },
+  "well_typed": true
+ },
+ "split": {
+  "A_obligations_differ_from_appendix": {},
+  "destroyed": [],
+  "faults": [
+   "resolution-split:relatum+1"
+  ],
+  "per_input": {
+   "C21b": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     9,
+     117
+    ],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "retained_obligations": {
+     "D": [
+      4
+     ]
+    }
+   },
+   "C23UE": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     159
+    ],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "C24ei": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     63
+    ],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "kpejsi"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "G34a": {
+    "A_obligations": [
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     774
+    ],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "retained_obligations": {
+     "A": [
+      4
+     ],
+     "H": [
+      2
+     ]
+    }
+   },
+   "G34b": {
+    "A_obligations": [
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     957
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_of_minima": [
+     "afɪsoohili"
+    ],
+    "retained_obligations": {
+     "A": [
+      4
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "G37c": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1584
+    ],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "retained_obligations": {
+     "GL": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "N7": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     82
+    ],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_of_minima": [
+     "atʃijeli"
+    ],
+    "retained_obligations": {
+     "H": [
+      2
+     ]
+    }
+   },
+   "OR38": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1189,
+     1261
+    ],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_of_minima": [
+     "atʃɔsiku"
+    ],
+    "retained_obligations": {
+     "D": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   }
+  },
+  "well_typed": false
+ },
+ "stop": {
+  "A_obligations_differ_from_appendix": {},
+  "destroyed": [],
+  "faults": [],
+  "per_input": {
+   "C21b": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     9,
+     117
+    ],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "retained_obligations": {
+     "D": [
+      4
+     ]
+    }
+   },
+   "C23UE": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     159
+    ],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "C24ei": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     63
+    ],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_of_minima": [
+     "kpejsi"
+    ],
+    "retained_obligations": {
+     "GL": [
+      3
+     ]
+    }
+   },
+   "G34a": {
+    "A_obligations": [
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     774
+    ],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "retained_obligations": {
+     "A": [
+      4
+     ],
+     "H": [
+      2
+     ]
+    }
+   },
+   "G34b": {
+    "A_obligations": [
+     4
+    ],
+    "exclusively_correct": true,
+    "fiber": [
+     957
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_of_minima": [
+     "afɪsoohili"
+    ],
+    "retained_obligations": {
+     "A": [
+      4
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "G37c": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1584
+    ],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "retained_obligations": {
+     "GL": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   },
+   "N7": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     82
+    ],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_of_minima": [
+     "atʃijeli"
+    ],
+    "retained_obligations": {
+     "H": [
+      2
+     ]
+    }
+   },
+   "OR38": {
+    "A_obligations": [],
+    "exclusively_correct": true,
+    "fiber": [
+     1189,
+     1261
+    ],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_of_minima": [
+     "atʃɔsiku"
+    ],
+    "retained_obligations": {
+     "D": [
+      5
+     ],
+     "H": [
+      4
+     ]
+    }
+   }
+  },
+  "well_typed": true
+ }
+}

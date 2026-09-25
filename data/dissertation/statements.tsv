@@ -1,0 +1,111 @@
+label	kind	number	page_pt	source	source_line	title	title_pt
+eq:intro-orders	equation	1	28	chapters/ch01_problem.tex	144	Winner preservation and full-order reversal	
+eq:intro-conservativity	equation	2	29	chapters/ch01_problem.tex	229	Typed transport and conservation	
+prop:int-mutual-scalar-limit	proposition	4.3	105	chapters/ch04_integration.tex	240	Limit of attenuation-only restrictions	Limite das restrições somente sobre a atenuação
+def:apph-positive-ray	definition	J.1	487	appendices/app_j_selected_output.tex	538	Positive-ray completion	Complementação por raios positivos
+lem:apph-halfspace-inclusion	lemma	J.2	487	appendices/app_j_selected_output.tex	559	Inclusion of strict homogeneous halfspaces	Inclusão de semiespaços homogêneos estritos
+thm:apph-sel-f1	theorem	J.3	488	appendices/app_j_selected_output.tex	608	Pairwise completion criterion	Critério da complementação pareada
+thm:apph-open-gap	theorem	J.4	490	appendices/app_j_selected_output.tex	716	Generic open spherical gap	Lacuna esférica aberta genérica
+cor:apph-full-support-gap	corollary	J.5	491	appendices/app_j_selected_output.tex	762	Full-support spherical overcount	Supercontagem esférica com suporte total
+thm:apph-sel-f2	theorem	J.6	502	appendices/app_j_selected_output.tex	1303	Complete-binary selected-output reversal	Reversão da saída selecionada binária completa
+lem:appg-first-step	lemma	E.1	382	appendices/app_e_opacity.tex	439	First-step barrier	Barreira do primeiro passo
+thm:apph-refinement	theorem	C.1	346	appendices/app_c_query_discovery.tex	115	The refinement computes separation, with witnesses	O refinamento calcula a separação, com testemunhas
+thm:apph-unarisation	theorem	C.2	347	appendices/app_c_query_discovery.tex	152	Reduction under an adequate policy	Redução sob uma política adequada
+prop:apph-frame	proposition	C.3	347	appendices/app_c_query_discovery.tex	182	The datum does not mention the base candidate	Elicitação enquadrada num modelo fixo
+prop:apph-tone	proposition	C.4	349	appendices/app_c_query_discovery.tex	250	When the tone bridge resolves a merge	Quando a ponte tonal resolve uma fusão
+prop:appi-rejects	proposition	D.3	354	appendices/app_d_declaration_language.tex	133	What the discipline rejects	O que a disciplina rejeita
+thm:appi-adequacy	theorem	D.4	355	appendices/app_d_declaration_language.tex	168	Adequacy of the declaration language	Adequação da linguagem de declarações
+thm:appi-no-s	theorem	D.5	355	appendices/app_d_declaration_language.tex	190	Strict relational declarations cannot retain residual pressure after access failure	Pressão residual e falha de resolução
+thm:appi-footprint	theorem	D.11	362	appendices/app_d_declaration_language.tex	535	Footprint congruence	Congruência de pegadas
+thm:appi-noninterference	theorem	D.12	362	appendices/app_d_declaration_language.tex	550	Noninterference over the productive generator	Não interferência sobre o gerador produtivo
+prop:appi-record	proposition	D.13	367	appendices/app_d_declaration_language.tex	807	Sufficiency and necessity of the retained record	Avaliação imediata e ablações do registro retido
+prop:appi-individuation	proposition	D.14	368	appendices/app_d_declaration_language.tex	841	What individuates a retained obligation	Individuação da obrigação
+thm:appi-zero	theorem	D.16	369	appendices/app_d_declaration_language.tex	911	Zero contribution of an unresolved subject	Contribuição nula de um sujeito não resolvido
+prop:appj-nonrobust	proposition	K.1	514	appendices/app_k_predictions.tex	175	No robust separation on a finite battery of this family	
+prop:appk-locality	proposition	F.1	393	appendices/app_f_computation.tex	25	Locality of contributions	Localidade das contribuições
+thm:appk-regular	theorem	F.2	393	appendices/app_f_computation.tex	45	The argmin relation is regular	A relação de argmin sob custos comensuráveis
+prop:appk-feeding	proposition	F.3	396	appendices/app_f_computation.tex	187	Length-bounded feeding	Alimentação limitada em comprimento
+prop:calc-discovery	proposition	B.1	284	appendices/sections/app_b_comparison_contract.tex	273	Discovery and registration	Descoberta e registro
+thm:calc-f1	theorem	2.1	49	chapters/ch02_calculus.tex	548	Qualified finite decision theorem	Teorema finito qualificado de decisão
+thm:rep-fin-a1	theorem	B.7	302	appendices/sections/app_b_representation_details.tex	117	Semantic-orbit recovery	Recuperação de órbita semântica
+thm:rep-fin-a2	theorem	B.8	303	appendices/sections/app_b_representation_details.tex	197	Representative recovery	Recuperação de representantes
+thm:rep-fin-a3	theorem	B.9	306	appendices/sections/app_b_representation_details.tex	305	Typed finite serial decisions	Decisões seriais finitas tipadas
+thm:rep-fin-a4	theorem	2.2	52	chapters/ch02_calculus.tex	704	Query and consumer monotonicity	Monotonicidade de consultas e consumidores
+thm:rep-licensed	theorem	B.10	307	appendices/sections/app_b_representation_details.tex	379	Licensed queries	Consultas licenciadas
+thm:rep-fin-a5	theorem	2.3	57	chapters/ch02_calculus.tex	916	Finite carrier algebra and irreversible loss	Álgebra finita de suportes portadores e perda irreversível
+thm:rep-fin-a6	theorem	2.4	61	chapters/ch02_calculus.tex	1158	Finite consumer-battery information structure	Estrutura finita de informação de baterias de consumidores
+thm:rep-fin-a7	theorem	B.11	309	appendices/sections/app_b_representation_details.tex	467	Proof-carrying symbolic response import	Importação de respostas simbólicas acompanhada de prova
+def:rep-structure	definition	3.1	70	chapters/ch03_opacity.tex	183	Admissible structure	Estrutura admissível
+def:rep-generator	definition	3.2	71	chapters/ch03_opacity.tex	210	Generator	Gerador
+thm:rep-wellformed	theorem	D.2	353	appendices/app_d_declaration_language.tex	91	Well-formedness, preservation, and equivariance	Boa formação, preservação e equivariância
+thm:maxent-quotient	theorem	5.14	166	chapters/ch05_maxent.tex	1957	The created-position quotient is forced	Posições criadas ausentes e massa de base
+thm:maxent-temperature	theorem	5.15	166	chapters/ch05_maxent.tex	1982	Maximum temperature	Crescimento do gerador e normalização
+thm:max-g1	theorem	5.1	140	chapters/ch05_maxent.tex	712	Exact finite-MaxEnt sign carrier	Suporte portador exato do sinal em MaxEnt finita
+thm:max-g2	theorem	5.2	142	chapters/ch05_maxent.tex	804	Integer-polynomial ledger realization	Realização de registros para polinômios inteiros
+thm:max-g4-cells	theorem	5.3	143	chapters/ch05_maxent.tex	869	Normalizer-by-relation classification	Classificação por normalizador e relação
+thm:max-g5	theorem	5.4	146	chapters/ch05_maxent.tex	1010	Typed vacuity and numerical transport	Vacuidade tipada e transporte numérico
+thm:max-g6	theorem	5.5	148	chapters/ch05_maxent.tex	1083	Basic Syllable decomposition	Decomposição de Basic Syllable
+thm:max-g3	theorem	G.1	412	appendices/app_g_maxent_algebra.tex	525	Compact-minimum-relative one-hot realization	Realização one-hot relativa ao mínimo compacto
+thm:max-g4-selector	theorem	G.2	414	appendices/app_g_maxent_algebra.tex	600	Proper-CNF selector construction	Construção seletora para CNF própria
+thm:max-g7	theorem	5.6	151	chapters/ch05_maxent.tex	1228	Finite fixed-support mixed-jet identification	Identificação por jatos mistos finitos em suporte fixo
+thm:max-g8	theorem	G.4	426	appendices/app_g_maxent_algebra.tex	1278	Sharp ordered contact--phase capacity	Capacidade exata ordenada de contatos e fases
+thm:max-g9	theorem	5.7	153	chapters/ch05_maxent.tex	1313	Incomparable MaxEnt consumers	Consumidores incomparáveis em MaxEnt
+prop:maxent-schwa-law	proposition	5.11	158	chapters/ch05_maxent.tex	1582	The law	A lei
+prop:chg-b1	proposition	6.1	173	chapters/ch06_continuous_hg.tex	192	Monotone normal form	Forma normal monótona
+thm:chg-b2	theorem	6.2	175	chapters/ch06_continuous_hg.tex	278	Exact finite persistence for directional superlinear continuous HG	Persistência finita exata para HG contínua direcional superlinear
+cor:chg-b3	corollary	6.3	177	chapters/ch06_continuous_hg.tex	388	Complete quadratic active set	Conjunto ativo quadrático completo
+thm:chg-nonnegative-sites	theorem	H.2	440	appendices/app_h_continuous_hg.tex	427	Nonnegative sites	Sítios não negativos
+thm:chg-obstruction	theorem	H.3	442	appendices/app_h_continuous_hg.tex	486	An exact obstruction to monotone reduction	Uma obstrução à redução monótona
+prop:chg-b5	proposition	H.4	444	appendices/app_h_continuous_hg.tex	578	Complete exponent boundary	Fronteira completa do expoente
+prop:flux-d1	proposition	I.2	459	appendices/app_i_context_flux_support.tex	131	Fixed-load path-flux equivalence	Equivalência de fluxo em percursos sob carga fixa
+prop:flux-two-load-collapse	proposition	I.3	460	appendices/app_i_context_flux_support.tex	161	Collapse by incommensurate loads	Colapso por cargas incomensuráveis
+prop:flux-star-collapse	proposition	I.4	460	appendices/app_i_context_flux_support.tex	175	Collapse by a licensed branching probe	Colapso por uma sonda ramificada autorizada
+prop:flux-odd-contact	proposition	I.5	463	appendices/app_i_context_flux_support.tex	334	Analytic realization of every positive odd contact	Realização analítica de todo contato ímpar positivo
+prop:flux-contact-response	proposition	I.6	464	appendices/app_i_context_flux_support.tex	375	Conditional logarithmic support response	Resposta logarítmica condicional do suporte
+prop:app-mcc-phases	proposition	H.1	439	appendices/app_h_continuous_hg.tex	375	Finite fixed-parameter phase classification	Classes de horizontes com parâmetros fixos
+thm:app-sel-f1	theorem	7.2	221	chapters/ch07_applications.tex	1076	Pairwise completion criterion	Critério de complementação pareada
+prop:app-pater-scaling	proposition	G.3	421	appendices/app_g_maxent_algebra.tex	981	Exact hidden-fibre scaling condition	Condição exata de escalonamento da fibra oculta
+thm:opacity-labels-cells	theorem	D.6	356	appendices/app_d_declaration_language.tex	228	Local cell diagnostics	Diagnóstico local das células
+thm:opacity-current-general	theorem	D.7	356	appendices/app_d_declaration_language.tex	253	Exclusion by equal current markedness	Exclusão por igualdade da marcação corrente
+prop:opacity-two-contrasts	proposition	D.8	357	appendices/app_d_declaration_language.tex	279	Threshold for an isolated comparison	Limiar de uma comparação isolada
+thm:opacity-gauge	theorem	5.8	155	chapters/ch05_maxent.tex	1383	Gauge of the faithfulness exemption	Calibre da exceção da fidelidade
+cor:opacity-lambda-identification	corollary	5.9	155	chapters/ch05_maxent.tex	1417	Non-identifiability by reparametrization	Uma não identificabilidade por reparametrização
+lem:opacity-entry-bridge	lemma	3.4	81	chapters/ch03_opacity.tex	734	Bridge between the hand calculation and the typed semantics	Ponte entre o cálculo à mão e a semântica tipada
+thm:opacity-modes	theorem	4.1	101	chapters/ch04_integration.tex	42	Destruction is the mode; creation is the attenuation	Carga contextual, atenuação e comparação local
+prop:opacity-interaction-regions	proposition	4.2	103	chapters/ch04_integration.tex	108	Regions of finite interaction paradigms	Regiões dos paradigmas finitos de interação
+thm:opacity-gua-selection	theorem	3.5	86	chapters/ch03_opacity.tex	1016	Joint sufficiency in the Gua fragment	Suficiência conjunta no fragmento de Gua
+thm:opacity-productive	theorem	3.6	88	chapters/ch03_opacity.tex	1096	The eight selections survive the productive generator	Seleção nos oito produtos ampliados
+thm:opacity-current-bound	theorem	3.8	92	chapters/ch03_opacity.tex	1310	Exclusion in the declared current comparator	Exclusão no comparador corrente declarado
+thm:opacity-deletion-bound	theorem	3.9	93	chapters/ch03_opacity.tex	1356	Joint incompatibility without retention of $D$	Incompatibilidade conjunta sem a retenção de $D$
+thm:opacity-lt-region	theorem	3.10	96	chapters/ch03_opacity.tex	1507	Selection and preservation in the Lithuanian fragment	Seleção e conservação no fragmento lituano
+prop:opacity-lambda-region	proposition	3.7	89	chapters/ch03_opacity.tex	1181	The exact Gua region with free weights	A região exata de Gua com pesos livres
+prop:opacity-russian-contrasts	proposition	5.13	164	chapters/ch05_maxent.tex	1862	Contrast equivalence under positive attenuation	Equivalência dos contrastes sob atenuação positiva
+thm:int-grounding	theorem	2.5	64	chapters/ch02_calculus.tex	1268	Licensing, canonicity, and cost	Licenciamento, canonicidade e custo
+thm:int-discovery	theorem	2.6	65	chapters/ch02_calculus.tex	1336	Discovery, re-registration, and the price of adaptation	Descoberta, novo registro e o preço da adaptação
+prop:int-lambda	proposition	5.10	157	chapters/ch05_maxent.tex	1504	The attenuation parameter in the Gua fragment	O parâmetro de atenuação no fragmento de Gua
+thm:int-definedness	theorem	3.3	74	chapters/ch03_opacity.tex	369	Definedness, discharge, and persistence from the syntax	Definição, pressão e persistência
+thm:int-third-party	theorem	3.11	97	chapters/ch03_opacity.tex	1590	Third-party discharge	Extinção e descarga por terceiros
+cor:int-excluded-family	corollary	3.12	98	chapters/ch03_opacity.tex	1617	The excluded family and the admitted family next to it	A família excluída e a família admitida ao lado dela
+thm:int-bridge	proposition	D.9	358	appendices/app_d_declaration_language.tex	353	The bridge has exactly three parts	Comparação no fragmento de três origens
+thm:int-resolver-law	theorem	D.10	360	appendices/app_d_declaration_language.tex	447	The 312 are the transfer set; the resolver law	Resolução e indexação nas políticas comparadas
+prop:int-individuation	proposition	D.14	368	appendices/app_d_declaration_language.tex	840	Obligation individuation	Individuação da obrigação
+thm:int-indexation	theorem	D.15	368	appendices/app_d_declaration_language.tex	867	Indexation collapse and the concavity of multiplicity	Colapso da indexação e concavidade da multiplicidade
+prop:int-narrow-footprint	proposition	4.8	111	chapters/ch04_integration.tex	503	The narrow footprint is unsound	A pegada estreita não é sólida
+def:int-footprint	definition	4.9	111	chapters/ch04_integration.tex	538	Corrected footprint	Pegada de leitura
+thm:int-footprint-sound	theorem	4.10	111	chapters/ch04_integration.tex	552	Soundness	Solidez
+thm:int-noninterference	theorem	4.11	113	chapters/ch04_integration.tex	591	Noninterference	Não interferência
+thm:int-cycles	theorem	4.13	116	chapters/ch04_integration.tex	742	Cycles	Ciclos
+prop:int-antilithuanian	proposition	4.4	107	chapters/ch04_integration.tex	324	Excluded interaction	Interação excluída
+thm:int-inert	theorem	4.5	108	chapters/ch04_integration.tex	367	The inert cell and the cell beside it	A célula inerte e a célula ao lado dela
+thm:int-transient	theorem	4.6	108	chapters/ch04_integration.tex	379	Dominance and absence of exclusive motivation	Dominância e ausência de motivação exclusiva
+prop:int-arapaho	proposition	4.7	109	chapters/ch04_integration.tex	419	The verdict	Gatilho fornecido e gatilho intermediário
+prop:int-winner-locality	proposition	4.12	114	chapters/ch04_integration.tex	644	The non-locality reaches selected outputs	A não localidade alcança as saídas selecionadas
+prop:int-locality	proposition	4.14	118	chapters/ch04_integration.tex	821	Locality of contributions	Localidade das contribuições
+thm:int-regular	theorem	4.15	119	chapters/ch04_integration.tex	865	Bounded variation and regularity	Regularidade sob custos comensuráveis
+thm:int-bounded-feeding	theorem	4.16	120	chapters/ch04_integration.tex	925	Length-bounded feeding	Alimentação limitada em comprimento
+prop:int-covering	proposition	4.17	120	chapters/ch04_integration.tex	953	Directional deletion as a covering	Apagamento direcional como cobertura
+thm:int-majority	theorem	4.18	121	chapters/ch04_integration.tex	984	Ranking against weighting on unbounded inputs	Ranqueamento contra ponderação em inputs ilimitados
+thm:int-identification	theorem	4.19	122	chapters/ch04_integration.tex	1052	Characteristic sample and identification boundary	Separação de quatro leitores
+thm:int-specialisation	proposition	7.1	202	chapters/ch07_applications.tex	199	Specialization	Boa formação das declarações registradas
+prop:int-huaian-odds	proposition	5.12	162	chapters/ch05_maxent.tex	1755	Observable restriction of contextual tone requirements	Uma restrição observável do requisito contextual
+eq:app-fin-factor-kernel	lemma	164	295	appendices/app_b_finite_representation.tex	121	Factorization through the response kernel	Critério do núcleo

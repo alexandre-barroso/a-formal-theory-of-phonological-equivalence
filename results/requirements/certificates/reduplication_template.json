@@ -1,0 +1,1225 @@
+{
+ "foot_hl": {
+  "exceptional": {
+   "dep_exempt": {
+    "farkas": null,
+    "feasible": true,
+    "inward": {
+     "copy": {
+      "by_declaration": {},
+      "violations": 0
+     },
+     "own": {
+      "by_declaration": {
+       "DEP_BR": {
+        "activated": 0,
+        "count": 1458,
+        "example": {
+         "activated": false,
+         "cycle": 2,
+         "declaration": "DEP_BR",
+         "flag": "L",
+         "licensing_cycle": 1,
+         "locus": "Or*0",
+         "slot": "t",
+         "surface": "y_ay_ap_ec_o?s"
+        }
+       }
+      },
+      "violations": 1458
+     }
+    }
+   },
+   "swp_listed": {
+    "farkas": null,
+    "feasible": null,
+    "inward": {
+     "copy": {
+      "by_declaration": {},
+      "violations": 0
+     },
+     "own": {
+      "by_declaration": {
+       "SWP_L": {
+        "activated": 80,
+        "count": 406,
+        "example": {
+         "activated": false,
+         "cycle": 2,
+         "declaration": "SWP_L",
+         "flag": "L",
+         "licensing_cycle": 1,
+         "locus": "Or0",
+         "slot": "o",
+         "surface": "y_ay_ap_ec_o?s"
+        }
+       }
+      },
+      "violations": 406
+     }
+    }
+   },
+   "sync_listed": {
+    "farkas": null,
+    "feasible": true,
+    "inward": {
+     "copy": {
+      "by_declaration": {},
+      "violations": 0
+     },
+     "own": {
+      "by_declaration": {
+       "SYNC_L": {
+        "activated": 148,
+        "count": 1130,
+        "example": {
+         "activated": false,
+         "cycle": 2,
+         "declaration": "SYNC_L",
+         "flag": "L",
+         "licensing_cycle": 1,
+         "locus": "Or0",
+         "slot": "pv",
+         "surface": "y_ay_ap_ec_o?s"
+        }
+       }
+      },
+      "violations": 1130
+     }
+    }
+   }
+  },
+  "exceptional_statement_of_main": "dep_exempt",
+  "exceptional_sync_listed_retained": {
+   "farkas": null,
+   "feasible": null
+  },
+  "grid": {
+   "0": null,
+   "1": true,
+   "1/16": true,
+   "1/2": true,
+   "1/8": true
+  },
+  "ident_br_side_identical_rows": true,
+  "kager_hamilton_hypothetical": {
+   "farkas": null,
+   "feasible": true,
+   "witness": {
+    "AFFIX_SYL_RED": "8000008",
+    "DEP_BR": "0",
+    "FOOT_HL": "0",
+    "IDENT_BR_LEN": "0",
+    "IDENT_LEN": "0",
+    "MAX_BR": "2000001/4",
+    "MAX_C": "1000000",
+    "MAX_V": "0",
+    "NOCODA": "4000004",
+    "NOCODA_RED": "0",
+    "NOLONGV": "0",
+    "NOLONGV_RED": "0",
+    "PARSE": "1000000",
+    "SWP": "0",
+    "WSP": "0"
+   }
+  },
+  "keying_self": true,
+  "main": {
+   "counts": {
+    "N1": {
+     "candidates": 11,
+     "target_fibre": 1
+    },
+    "N10": {
+     "candidates": 22,
+     "target_fibre": 1
+    },
+    "N11": {
+     "candidates": 9,
+     "target_fibre": 1
+    },
+    "N12": {
+     "candidates": 51,
+     "target_fibre": 1
+    },
+    "N13": {
+     "candidates": 75,
+     "target_fibre": 1
+    },
+    "N2": {
+     "candidates": 24,
+     "target_fibre": 1
+    },
+    "N3": {
+     "candidates": 17,
+     "target_fibre": 1
+    },
+    "N4": {
+     "candidates": 41,
+     "target_fibre": 1
+    },
+    "N5": {
+     "candidates": 63,
+     "target_fibre": 1
+    },
+    "N6": {
+     "candidates": 12,
+     "target_fibre": 1
+    },
+    "N7": {
+     "candidates": 31,
+     "target_fibre": 1
+    },
+    "N8": {
+     "candidates": 12,
+     "target_fibre": 1
+    },
+    "N9": {
+     "candidates": 22,
+     "target_fibre": 1
+    },
+    "R1": {
+     "candidates": 31,
+     "target_fibre": 1
+    },
+    "R10": {
+     "candidates": 44,
+     "target_fibre": 10
+    },
+    "R11": {
+     "candidates": 163,
+     "target_fibre": 1
+    },
+    "R12": {
+     "candidates": 163,
+     "target_fibre": 1
+    },
+    "R13": {
+     "candidates": 79,
+     "target_fibre": 13
+    },
+    "R14": {
+     "candidates": 178,
+     "target_fibre": 10
+    },
+    "R15": {
+     "candidates": 1400,
+     "target_fibre": 26
+    },
+    "R16": {
+     "candidates": 53,
+     "target_fibre": 8
+    },
+    "R2": {
+     "candidates": 31,
+     "target_fibre": 1
+    },
+    "R3": {
+     "candidates": 57,
+     "target_fibre": 11
+    },
+    "R4": {
+     "candidates": 30,
+     "target_fibre": 6
+    },
+    "R5": {
+     "candidates": 106,
+     "target_fibre": 1
+    },
+    "R6": {
+     "candidates": 435,
+     "target_fibre": 1
+    },
+    "R7": {
+     "candidates": 189,
+     "target_fibre": 8
+    },
+    "R8": {
+     "candidates": 124,
+     "target_fibre": 6
+    },
+    "R9": {
+     "candidates": 74,
+     "target_fibre": 5
+    },
+    "U1": {
+     "candidates": 9,
+     "target_fibre": 4
+    }
+   },
+   "evidence": null,
+   "farkas": null,
+   "feasible": true,
+   "winners": {
+    "E1": [
+     "h'em.am'ak.ew'o?"
+    ],
+    "E2": [
+     "h'en.an'at.ew'o?"
+    ],
+    "N1": [
+     "k'aːn'o?"
+    ],
+    "N10": [
+     "k'ent.al'o?s"
+    ],
+    "N11": [
+     "w'okm'o?s"
+    ],
+    "N12": [
+     "t'aːn'ots'o?s"
+    ],
+    "N13": [
+     "k'et.an'ots'o?s"
+    ],
+    "N2": [
+     "n'esk'aːn'o?"
+    ],
+    "N3": [
+     "x'ak.an'o?"
+    ],
+    "N4": [
+     "y'aːl'oːn'o?"
+    ],
+    "N5": [
+     "k'ey.al'oːn'o?"
+    ],
+    "N6": [
+     "n'otx'o?"
+    ],
+    "N7": [
+     "w'ent.ox'o?"
+    ],
+    "N8": [
+     "y'amx'o?"
+    ],
+    "N9": [
+     "h'eyk.ap'o?s"
+    ],
+    "R1": [
+     "t'ot.op'o?s"
+    ],
+    "R10": [
+     "h'em'.em''eyc'o?s"
+    ],
+    "R11": [
+     "y'ayp.ec'o?s"
+    ],
+    "R12": [
+     "y'ayk.aw'o?s"
+    ],
+    "R13": [
+     "w'enw'ew.el'o?s"
+    ],
+    "R14": [
+     "n'on.ot'oːn'o?s"
+    ],
+    "R15": [
+     "h'ent'at.ay'oːn'o?"
+    ],
+    "R16": [
+     "q'eq.et'aw.o?s"
+    ],
+    "R2": [
+     "k'ok.om'o?s"
+    ],
+    "R3": [
+     "s'as.alk'en.o?s"
+    ],
+    "R4": [
+     "x'ex.eyc'o?s"
+    ],
+    "R5": [
+     "n'an.at'o?s"
+    ],
+    "R6": [
+     "h'ey.ay'ac.ew'o?"
+    ],
+    "R7": [
+     "m'am.ak'an.o?s"
+    ],
+    "R8": [
+     "s'os.opk'o?s"
+    ],
+    "R9": [
+     "c'oc.ol''o?"
+    ],
+    "U1": [
+     "y'apc'o?s"
+    ]
+   },
+   "witness": {
+    "AFFIX_SYL_RED": "16",
+    "DEP_BR": "5",
+    "FOOT_HL": "8",
+    "IDENT_BR_LEN": "3",
+    "IDENT_LEN": "0",
+    "MAX_BR": "0",
+    "MAX_C": "1000000",
+    "MAX_V": "2",
+    "NOCODA": "0",
+    "NOCODA_RED": "64",
+    "NOLONGV": "0",
+    "NOLONGV_RED": "56",
+    "PARSE": "1000000",
+    "SWP": "24",
+    "WSP": "8"
+   }
+  },
+  "no_affix_syl_red": {
+   "dropped": [
+    "AFFIX_SYL_RED"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "no_completion": {
+   "dropped": [
+    "FOOT_HL",
+    "NO_3MU"
+   ],
+   "farkas": {
+    "all_labels": [
+     [
+      "N12:t'aːnt.os'o?s"
+     ]
+    ],
+    "constants": [
+     "0"
+    ],
+    "rows": [
+     "N12:t'aːnt.os'o?s"
+    ],
+    "y": [
+     "1"
+    ]
+   },
+   "feasible": null
+  },
+  "no_dep_br": {
+   "dropped": [
+    "DEP_BR"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "no_ident_br_len": {
+   "dropped": [
+    "IDENT_BR_LEN"
+   ],
+   "farkas": null,
+   "feasible": true
+  },
+  "no_listed": {
+   "dropped": [
+    "NOCODA_RED",
+    "NOLONGV_RED",
+    "AFFIX_SYL_RED",
+    "SWP_L"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "no_max_br": {
+   "dropped": [
+    "MAX_BR"
+   ],
+   "farkas": null,
+   "feasible": true
+  },
+  "no_nocoda_red": {
+   "dropped": [
+    "NOCODA_RED"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "no_nolongv_red": {
+   "dropped": [
+    "NOLONGV_RED"
+   ],
+   "farkas": null,
+   "feasible": true
+  },
+  "no_swp_l": {
+   "dropped": [
+    "SWP_L"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "tonkawa_with_truncation_candidates": true
+ },
+ "items": [
+  "N1",
+  "N2",
+  "N3",
+  "N4",
+  "N5",
+  "N6",
+  "N7",
+  "N8",
+  "N9",
+  "N10",
+  "N11",
+  "N12",
+  "N13",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8",
+  "R9",
+  "R10",
+  "R11",
+  "R12",
+  "R13",
+  "R16",
+  "R14",
+  "R15",
+  "U1"
+ ],
+ "no_3mu": {
+  "exceptional": {
+   "dep_exempt": {
+    "farkas": null,
+    "feasible": true,
+    "inward": {
+     "copy": {
+      "by_declaration": {},
+      "violations": 0
+     },
+     "own": {
+      "by_declaration": {
+       "DEP_BR": {
+        "activated": 0,
+        "count": 1458,
+        "example": {
+         "activated": false,
+         "cycle": 2,
+         "declaration": "DEP_BR",
+         "flag": "L",
+         "licensing_cycle": 1,
+         "locus": "Or*0",
+         "slot": "t",
+         "surface": "y_ay_ap_ec_o?s"
+        }
+       }
+      },
+      "violations": 1458
+     }
+    }
+   },
+   "swp_listed": {
+    "farkas": null,
+    "feasible": null,
+    "inward": {
+     "copy": {
+      "by_declaration": {},
+      "violations": 0
+     },
+     "own": {
+      "by_declaration": {
+       "SWP_L": {
+        "activated": 80,
+        "count": 406,
+        "example": {
+         "activated": false,
+         "cycle": 2,
+         "declaration": "SWP_L",
+         "flag": "L",
+         "licensing_cycle": 1,
+         "locus": "Or0",
+         "slot": "o",
+         "surface": "y_ay_ap_ec_o?s"
+        }
+       }
+      },
+      "violations": 406
+     }
+    }
+   },
+   "sync_listed": {
+    "farkas": null,
+    "feasible": true,
+    "inward": {
+     "copy": {
+      "by_declaration": {},
+      "violations": 0
+     },
+     "own": {
+      "by_declaration": {
+       "SYNC_L": {
+        "activated": 148,
+        "count": 1130,
+        "example": {
+         "activated": false,
+         "cycle": 2,
+         "declaration": "SYNC_L",
+         "flag": "L",
+         "licensing_cycle": 1,
+         "locus": "Or0",
+         "slot": "pv",
+         "surface": "y_ay_ap_ec_o?s"
+        }
+       }
+      },
+      "violations": 1130
+     }
+    }
+   }
+  },
+  "exceptional_statement_of_main": "dep_exempt",
+  "exceptional_sync_listed_retained": {
+   "farkas": null,
+   "feasible": null
+  },
+  "grid": {
+   "0": null,
+   "1": true,
+   "1/16": true,
+   "1/2": true,
+   "1/8": true
+  },
+  "ident_br_side_identical_rows": true,
+  "kager_hamilton_hypothetical": {
+   "farkas": null,
+   "feasible": true,
+   "witness": {
+    "AFFIX_SYL_RED": "8000008",
+    "DEP_BR": "0",
+    "IDENT_BR_LEN": "0",
+    "IDENT_LEN": "0",
+    "MAX_BR": "2000001/4",
+    "MAX_C": "1000000",
+    "MAX_V": "0",
+    "NOCODA": "4000004",
+    "NOCODA_RED": "0",
+    "NOLONGV": "0",
+    "NOLONGV_RED": "0",
+    "NO_3MU": "0",
+    "PARSE": "1000000",
+    "SWP": "0",
+    "WSP": "0"
+   }
+  },
+  "keying_self": true,
+  "main": {
+   "counts": {
+    "N1": {
+     "candidates": 11,
+     "target_fibre": 1
+    },
+    "N10": {
+     "candidates": 22,
+     "target_fibre": 1
+    },
+    "N11": {
+     "candidates": 9,
+     "target_fibre": 1
+    },
+    "N12": {
+     "candidates": 51,
+     "target_fibre": 1
+    },
+    "N13": {
+     "candidates": 75,
+     "target_fibre": 1
+    },
+    "N2": {
+     "candidates": 24,
+     "target_fibre": 1
+    },
+    "N3": {
+     "candidates": 17,
+     "target_fibre": 1
+    },
+    "N4": {
+     "candidates": 41,
+     "target_fibre": 1
+    },
+    "N5": {
+     "candidates": 63,
+     "target_fibre": 1
+    },
+    "N6": {
+     "candidates": 12,
+     "target_fibre": 1
+    },
+    "N7": {
+     "candidates": 31,
+     "target_fibre": 1
+    },
+    "N8": {
+     "candidates": 12,
+     "target_fibre": 1
+    },
+    "N9": {
+     "candidates": 22,
+     "target_fibre": 1
+    },
+    "R1": {
+     "candidates": 31,
+     "target_fibre": 1
+    },
+    "R10": {
+     "candidates": 44,
+     "target_fibre": 10
+    },
+    "R11": {
+     "candidates": 163,
+     "target_fibre": 1
+    },
+    "R12": {
+     "candidates": 163,
+     "target_fibre": 1
+    },
+    "R13": {
+     "candidates": 79,
+     "target_fibre": 13
+    },
+    "R14": {
+     "candidates": 178,
+     "target_fibre": 10
+    },
+    "R15": {
+     "candidates": 1400,
+     "target_fibre": 26
+    },
+    "R16": {
+     "candidates": 53,
+     "target_fibre": 8
+    },
+    "R2": {
+     "candidates": 31,
+     "target_fibre": 1
+    },
+    "R3": {
+     "candidates": 57,
+     "target_fibre": 11
+    },
+    "R4": {
+     "candidates": 30,
+     "target_fibre": 6
+    },
+    "R5": {
+     "candidates": 106,
+     "target_fibre": 1
+    },
+    "R6": {
+     "candidates": 435,
+     "target_fibre": 1
+    },
+    "R7": {
+     "candidates": 189,
+     "target_fibre": 8
+    },
+    "R8": {
+     "candidates": 124,
+     "target_fibre": 6
+    },
+    "R9": {
+     "candidates": 74,
+     "target_fibre": 5
+    },
+    "U1": {
+     "candidates": 9,
+     "target_fibre": 4
+    }
+   },
+   "evidence": null,
+   "farkas": null,
+   "feasible": true,
+   "winners": {
+    "E1": [
+     "h'em.am'ak.ew'o?"
+    ],
+    "E2": [
+     "h'en.an'at.ew'o?"
+    ],
+    "N1": [
+     "k'aːn'o?"
+    ],
+    "N10": [
+     "k'ent.al'o?s"
+    ],
+    "N11": [
+     "w'okm'o?s"
+    ],
+    "N12": [
+     "t'aːn'ots'o?s"
+    ],
+    "N13": [
+     "k'et.an'ots'o?s"
+    ],
+    "N2": [
+     "n'esk'aːn'o?"
+    ],
+    "N3": [
+     "x'ak.an'o?"
+    ],
+    "N4": [
+     "y'aːl'oːn'o?"
+    ],
+    "N5": [
+     "k'ey.al'oːn'o?"
+    ],
+    "N6": [
+     "n'otx'o?"
+    ],
+    "N7": [
+     "w'ent.ox'o?"
+    ],
+    "N8": [
+     "y'amx'o?"
+    ],
+    "N9": [
+     "h'eyk.ap'o?s"
+    ],
+    "R1": [
+     "t'ot.op'o?s"
+    ],
+    "R10": [
+     "h'em'.em''eyc'o?s"
+    ],
+    "R11": [
+     "y'ayp.ec'o?s"
+    ],
+    "R12": [
+     "y'ayk.aw'o?s"
+    ],
+    "R13": [
+     "w'enw'ew.el'o?s"
+    ],
+    "R14": [
+     "n'on.ot'oːn'o?s"
+    ],
+    "R15": [
+     "h'ent'at.ay'oːn'o?"
+    ],
+    "R16": [
+     "q'eq.et'aw.o?s"
+    ],
+    "R2": [
+     "k'ok.om'o?s"
+    ],
+    "R3": [
+     "s'as.alk'en.o?s"
+    ],
+    "R4": [
+     "x'ex.eyc'o?s"
+    ],
+    "R5": [
+     "n'an.at'o?s"
+    ],
+    "R6": [
+     "h'ey.ay'ac.ew'o?"
+    ],
+    "R7": [
+     "m'am.ak'an.o?s"
+    ],
+    "R8": [
+     "s'os.opk'o?s"
+    ],
+    "R9": [
+     "c'oc.ol''o?"
+    ],
+    "U1": [
+     "y'apc'o?s"
+    ]
+   },
+   "witness": {
+    "AFFIX_SYL_RED": "24",
+    "DEP_BR": "5",
+    "IDENT_BR_LEN": "3",
+    "IDENT_LEN": "1",
+    "MAX_BR": "0",
+    "MAX_C": "1000000",
+    "MAX_V": "0",
+    "NOCODA": "0",
+    "NOCODA_RED": "56",
+    "NOLONGV": "0",
+    "NOLONGV_RED": "48",
+    "NO_3MU": "8",
+    "PARSE": "1000000",
+    "SWP": "8",
+    "WSP": "16"
+   }
+  },
+  "no_affix_syl_red": {
+   "dropped": [
+    "AFFIX_SYL_RED"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "no_completion": {
+   "dropped": [
+    "FOOT_HL",
+    "NO_3MU"
+   ],
+   "farkas": {
+    "all_labels": [
+     [
+      "N12:t'aːnt.os'o?s"
+     ]
+    ],
+    "constants": [
+     "0"
+    ],
+    "rows": [
+     "N12:t'aːnt.os'o?s"
+    ],
+    "y": [
+     "1"
+    ]
+   },
+   "feasible": null
+  },
+  "no_dep_br": {
+   "dropped": [
+    "DEP_BR"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "no_ident_br_len": {
+   "dropped": [
+    "IDENT_BR_LEN"
+   ],
+   "farkas": {
+    "all_labels": [
+     [
+      "N2:n'esk.an'o?",
+      "N4:y'aːl.on'o?",
+      "N12:t'ant.os'o?s",
+      "R15:h'ent.at'ay.on'o?"
+     ],
+     [
+      "R6:h'ey.ay'aːc.ew'o?"
+     ]
+    ],
+    "constants": [
+     "0",
+     "0"
+    ],
+    "rows": [
+     "N2:n'esk.an'o?",
+     "R6:h'ey.ay'aːc.ew'o?"
+    ],
+    "y": [
+     "1/2",
+     "1/2"
+    ]
+   },
+   "feasible": null
+  },
+  "no_listed": {
+   "dropped": [
+    "NOCODA_RED",
+    "NOLONGV_RED",
+    "AFFIX_SYL_RED",
+    "SWP_L"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "no_max_br": {
+   "dropped": [
+    "MAX_BR"
+   ],
+   "farkas": null,
+   "feasible": true
+  },
+  "no_nocoda_red": {
+   "dropped": [
+    "NOCODA_RED"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "no_nolongv_red": {
+   "dropped": [
+    "NOLONGV_RED"
+   ],
+   "farkas": null,
+   "feasible": true
+  },
+  "no_swp_l": {
+   "dropped": [
+    "SWP_L"
+   ],
+   "farkas": null,
+   "feasible": null
+  },
+  "tonkawa_with_truncation_candidates": true
+ },
+ "no_hl_feet": {
+  "counts": {
+   "N1": {
+    "candidates": 11,
+    "target_fibre": 4
+   },
+   "N10": {
+    "candidates": 20,
+    "target_fibre": 6
+   },
+   "N11": {
+    "candidates": 9,
+    "target_fibre": 4
+   },
+   "N12": {
+    "candidates": 44,
+    "target_fibre": 8
+   },
+   "N13": {
+    "candidates": 68,
+    "target_fibre": 10
+   },
+   "N2": {
+    "candidates": 22,
+    "target_fibre": 8
+   },
+   "N3": {
+    "candidates": 17,
+    "target_fibre": 5
+   },
+   "N4": {
+    "candidates": 39,
+    "target_fibre": 8
+   },
+   "N5": {
+    "candidates": 61,
+    "target_fibre": 10
+   },
+   "N6": {
+    "candidates": 12,
+    "target_fibre": 4
+   },
+   "N7": {
+    "candidates": 29,
+    "target_fibre": 6
+   },
+   "N8": {
+    "candidates": 12,
+    "target_fibre": 4
+   },
+   "N9": {
+    "candidates": 20,
+    "target_fibre": 6
+   },
+   "R1": {
+    "candidates": 29,
+    "target_fibre": 5
+   },
+   "R10": {
+    "candidates": 40,
+    "target_fibre": 10
+   },
+   "R11": {
+    "candidates": 149,
+    "target_fibre": 6
+   },
+   "R12": {
+    "candidates": 149,
+    "target_fibre": 6
+   },
+   "R13": {
+    "candidates": 68,
+    "target_fibre": 10
+   },
+   "R14": {
+    "candidates": 158,
+    "target_fibre": 10
+   },
+   "R15": {
+    "candidates": 1135,
+    "target_fibre": 20
+   },
+   "R16": {
+    "candidates": 46,
+    "target_fibre": 8
+   },
+   "R2": {
+    "candidates": 29,
+    "target_fibre": 5
+   },
+   "R3": {
+    "candidates": 39,
+    "target_fibre": 9
+   },
+   "R4": {
+    "candidates": 26,
+    "target_fibre": 6
+   },
+   "R5": {
+    "candidates": 93,
+    "target_fibre": 5
+   },
+   "R6": {
+    "candidates": 366,
+    "target_fibre": 13
+   },
+   "R7": {
+    "candidates": 145,
+    "target_fibre": 8
+   },
+   "R8": {
+    "candidates": 108,
+    "target_fibre": 6
+   },
+   "R9": {
+    "candidates": 65,
+    "target_fibre": 5
+   },
+   "U1": {
+    "candidates": 9,
+    "target_fibre": 4
+   }
+  },
+  "evidence": {
+   "inconclusive": {
+    "branch_dual_uses_weak_rows": true,
+    "reason": "full weak-row certificate required"
+   }
+  },
+  "farkas": null,
+  "feasible": null
+ },
+ "seconds": 781.1,
+ "source_inventory": {
+  "counts": {
+   "N1": {
+    "candidates": 11,
+    "target_fibre": 1
+   },
+   "N10": {
+    "candidates": 22,
+    "target_fibre": 1
+   },
+   "N11": {
+    "candidates": 9,
+    "target_fibre": 1
+   },
+   "N12": {
+    "candidates": 51,
+    "target_fibre": 1
+   },
+   "N13": {
+    "candidates": 75,
+    "target_fibre": 1
+   },
+   "N2": {
+    "candidates": 24,
+    "target_fibre": 1
+   },
+   "N3": {
+    "candidates": 17,
+    "target_fibre": 1
+   },
+   "N4": {
+    "candidates": 41,
+    "target_fibre": 1
+   },
+   "N5": {
+    "candidates": 63,
+    "target_fibre": 1
+   },
+   "N6": {
+    "candidates": 12,
+    "target_fibre": 1
+   },
+   "N7": {
+    "candidates": 31,
+    "target_fibre": 1
+   },
+   "N8": {
+    "candidates": 12,
+    "target_fibre": 1
+   },
+   "N9": {
+    "candidates": 22,
+    "target_fibre": 1
+   },
+   "R1": {
+    "candidates": 31,
+    "target_fibre": 1
+   },
+   "R10": {
+    "candidates": 44,
+    "target_fibre": 10
+   },
+   "R11": {
+    "candidates": 163,
+    "target_fibre": 1
+   },
+   "R12": {
+    "candidates": 163,
+    "target_fibre": 1
+   },
+   "R13": {
+    "candidates": 79,
+    "target_fibre": 13
+   },
+   "R14": {
+    "candidates": 178,
+    "target_fibre": 10
+   },
+   "R15": {
+    "candidates": 1400,
+    "target_fibre": 26
+   },
+   "R16": {
+    "candidates": 53,
+    "target_fibre": 8
+   },
+   "R2": {
+    "candidates": 31,
+    "target_fibre": 1
+   },
+   "R3": {
+    "candidates": 57,
+    "target_fibre": 11
+   },
+   "R4": {
+    "candidates": 30,
+    "target_fibre": 6
+   },
+   "R5": {
+    "candidates": 106,
+    "target_fibre": 1
+   },
+   "R6": {
+    "candidates": 435,
+    "target_fibre": 1
+   },
+   "R7": {
+    "candidates": 189,
+    "target_fibre": 8
+   },
+   "R8": {
+    "candidates": 124,
+    "target_fibre": 6
+   },
+   "R9": {
+    "candidates": 74,
+    "target_fibre": 5
+   },
+   "U1": {
+    "candidates": 9,
+    "target_fibre": 4
+   }
+  },
+  "evidence": {
+   "inconclusive": {
+    "branch_dual_uses_weak_rows": true,
+    "reason": "full weak-row certificate required"
+   }
+  },
+  "farkas": null,
+  "feasible": null
+ }
+}

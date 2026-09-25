@@ -1,0 +1,28 @@
+{
+ "columns": 136,
+ "displayed_odds_equal": true,
+ "exact_coefficient_identities": 125664,
+ "full_laws_equal": false,
+ "normalized_law_witness": {
+  "costs_one": [
+   "1/20",
+   "43/40",
+   "19/8",
+   "123/40"
+  ],
+  "costs_quarter": [
+   "1/5",
+   "49/40",
+   "49/20",
+   "129/40"
+  ],
+  "faithful_probability_gap": 0.0033447988608625856
+ },
+ "positive_parameter_pairs": 3,
+ "pure_new_columns": 53,
+ "pure_old_columns": 14,
+ "row_count": 3698,
+ "scope": "Exact finite table checks and synthetic normalization counterexample. Universal positive-parameter cone equality is the Lean theorem; candidate probabilities and fitted penalties are not preserved.",
+ "status": "PASS",
+ "unique_rows": 308
+}

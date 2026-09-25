@@ -1,0 +1,1703 @@
+{
+ "controls": {
+  "aČ ta": {
+   "L": [
+    "ač ta"
+   ],
+   "R": [
+    "ač ta"
+   ],
+   "note": "gapped before voiceless"
+  },
+  "boɣ": {
+   "L": [
+    "box"
+   ],
+   "R": [
+    "box"
+   ],
+   "note": "a specified voiced dorsal fricative, word-final"
+  },
+  "boɣ-a": {
+   "L": [
+    "boɣa"
+   ],
+   "R": [
+    "boxa"
+   ],
+   "note": "a specified voiced dorsal fricative, presonorant"
+  },
+  "moX bi": {
+   "L": [
+    "moɣ bi"
+   ],
+   "R": [
+    "moɣ bi"
+   ],
+   "note": "the unspecified dorsal fricative in an assimilating cluster"
+  },
+  "moX ŢaX bi": {
+   "L": [
+    "mox ţaɣ bi"
+   ],
+   "R": [
+    "mox ţaɣ bi"
+   ],
+   "note": "gapped segments at three loci, one in an assimilating cluster"
+  },
+  "noČ Xe": {
+   "L": [
+    "noč xe"
+   ],
+   "R": [
+    "noč xe"
+   ],
+   "note": "two gapped segments in one cluster"
+  },
+  "noČ li": {
+   "L": [
+    "noč li"
+   ],
+   "R": [
+    "noč li"
+   ],
+   "note": "gapped segment word-final before a sonorant-initial enclitic"
+  },
+  "roga": {
+   "L": [
+    "roga"
+   ],
+   "R": [
+    "roga"
+   ],
+   "note": "the ordinary velar stop"
+  }
+ },
+ "hypotheticals": {
+  "ǰop": {
+   "L_if_fed": [
+    "ǰop"
+   ],
+   "R": [
+    "čop"
+   ]
+  },
+  "ǰop bi": {
+   "L_if_fed": [
+    "ǰob bi"
+   ],
+   "R": [
+    "čob bi"
+   ]
+  },
+  "ɣoda": {
+   "L_if_fed": [
+    "ɣoda"
+   ],
+   "R": [
+    "xoda"
+   ]
+  }
+ },
+ "inertness": {
+  "defined_or_charging": 0,
+  "faithfulness_readings_at_gapped_loci": 232
+ },
+ "lambda": "1/8",
+ "paradigm": {
+  "L": {
+   "bog": {
+    "agrees": true,
+    "expected": "bok",
+    "lexical": "bog",
+    "n_candidates": 4,
+    "score": "5",
+    "winners": [
+     "bok"
+    ]
+   },
+   "bog to": {
+    "agrees": true,
+    "expected": "bok to",
+    "lexical": "bog to",
+    "n_candidates": 8,
+    "score": "5",
+    "winners": [
+     "bok to"
+    ]
+   },
+   "bog ʐe": {
+    "agrees": true,
+    "expected": "bog ʐe",
+    "lexical": "bog ʐe",
+    "n_candidates": 8,
+    "score": "12",
+    "winners": [
+     "bog ʐe"
+    ]
+   },
+   "bog-am": {
+    "agrees": true,
+    "expected": "bogam",
+    "lexical": "bog-am",
+    "n_candidates": 4,
+    "score": "8",
+    "winners": [
+     "bogam"
+    ]
+   },
+   "bok": {
+    "agrees": true,
+    "expected": "bok",
+    "lexical": "bok",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "bok"
+    ]
+   },
+   "bok to": {
+    "agrees": true,
+    "expected": "bok to",
+    "lexical": "bok to",
+    "n_candidates": 8,
+    "score": "4",
+    "winners": [
+     "bok to"
+    ]
+   },
+   "bok ʐe": {
+    "agrees": true,
+    "expected": "bog ʐe",
+    "lexical": "bok ʐe",
+    "n_candidates": 8,
+    "score": "19/2",
+    "winners": [
+     "bog ʐe"
+    ]
+   },
+   "bok-am": {
+    "agrees": true,
+    "expected": "bokam",
+    "lexical": "bok-am",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "bokam"
+    ]
+   },
+   "imidʐ": {
+    "agrees": true,
+    "expected": "imitʂ",
+    "lexical": "imidʐ",
+    "n_candidates": 4,
+    "score": "2",
+    "winners": [
+     "imitʂ"
+    ]
+   },
+   "imidʐ bi": {
+    "agrees": true,
+    "expected": "imidʐ bi",
+    "lexical": "imidʐ bi",
+    "n_candidates": 8,
+    "score": "12",
+    "winners": [
+     "imidʐ bi"
+    ]
+   },
+   "imidʐ-a": {
+    "agrees": true,
+    "expected": "imidʐa",
+    "lexical": "imidʐ-a",
+    "n_candidates": 4,
+    "score": "8",
+    "winners": [
+     "imidʐa"
+    ]
+   },
+   "k vsem": {
+    "agrees": true,
+    "expected": "k fsem",
+    "lexical": "k vsem",
+    "n_candidates": 8,
+    "score": "1",
+    "winners": [
+     "k fsem"
+    ]
+   },
+   "kod": {
+    "agrees": true,
+    "expected": "kot",
+    "lexical": "kod",
+    "n_candidates": 4,
+    "score": "1",
+    "winners": [
+     "kot"
+    ]
+   },
+   "kod to": {
+    "agrees": true,
+    "expected": "kot to",
+    "lexical": "kod to",
+    "n_candidates": 8,
+    "score": "1",
+    "winners": [
+     "kot to"
+    ]
+   },
+   "kod ʐe": {
+    "agrees": true,
+    "expected": "kod ʐe",
+    "lexical": "kod ʐe",
+    "n_candidates": 8,
+    "score": "8",
+    "winners": [
+     "kod ʐe"
+    ]
+   },
+   "kod-am": {
+    "agrees": true,
+    "expected": "kodam",
+    "lexical": "kod-am",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "kodam"
+    ]
+   },
+   "kot": {
+    "agrees": true,
+    "expected": "kot",
+    "lexical": "kot",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "kot"
+    ]
+   },
+   "kot bi": {
+    "agrees": true,
+    "expected": "kod bi",
+    "lexical": "kot bi",
+    "n_candidates": 8,
+    "score": "11/2",
+    "winners": [
+     "kod bi"
+    ]
+   },
+   "kot to": {
+    "agrees": true,
+    "expected": "kot to",
+    "lexical": "kot to",
+    "n_candidates": 8,
+    "score": "0",
+    "winners": [
+     "kot to"
+    ]
+   },
+   "kot ʐe": {
+    "agrees": true,
+    "expected": "kod ʐe",
+    "lexical": "kot ʐe",
+    "n_candidates": 8,
+    "score": "11/2",
+    "winners": [
+     "kod ʐe"
+    ]
+   },
+   "kot-am": {
+    "agrees": true,
+    "expected": "kotam",
+    "lexical": "kot-am",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "kotam"
+    ]
+   },
+   "lʐeţ": {
+    "agrees": true,
+    "expected": "lʐeţ",
+    "lexical": "lʐeŢ",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "lʐeţ"
+    ]
+   },
+   "lʐeţ to": {
+    "agrees": true,
+    "expected": "lʐeţ to",
+    "lexical": "lʐeŢ to",
+    "n_candidates": 8,
+    "score": "4",
+    "winners": [
+     "lʐeţ to"
+    ]
+   },
+   "lʐeţ ʐe": {
+    "agrees": true,
+    "expected": "lʐeʣ ʐe",
+    "lexical": "lʐeŢ ʐe",
+    "n_candidates": 8,
+    "score": "17/2",
+    "winners": [
+     "lʐeʣ ʐe"
+    ]
+   },
+   "lʐeţ-am": {
+    "agrees": true,
+    "expected": "lʐeţam",
+    "lexical": "lʐeŢ-am",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "lʐeţam"
+    ]
+   },
+   "mox bi": {
+    "agrees": true,
+    "expected": "moɣ bi",
+    "lexical": "moX bi",
+    "n_candidates": 4,
+    "score": "9/2",
+    "winners": [
+     "moɣ bi"
+    ]
+   },
+   "mozg": {
+    "agrees": true,
+    "expected": "mosk",
+    "lexical": "mozg",
+    "n_candidates": 4,
+    "score": "2",
+    "winners": [
+     "mosk"
+    ]
+   },
+   "mozg bi": {
+    "agrees": true,
+    "expected": "mozg bi",
+    "lexical": "mozg bi",
+    "n_candidates": 8,
+    "score": "12",
+    "winners": [
+     "mozg bi"
+    ]
+   },
+   "mozg li": {
+    "agrees": true,
+    "expected": "mosk li",
+    "lexical": "mozg li",
+    "n_candidates": 4,
+    "score": "2",
+    "winners": [
+     "mosk li"
+    ]
+   },
+   "mozg to": {
+    "agrees": true,
+    "expected": "mosk to",
+    "lexical": "mozg to",
+    "n_candidates": 8,
+    "score": "2",
+    "winners": [
+     "mosk to"
+    ]
+   },
+   "noč": {
+    "agrees": true,
+    "expected": "noč",
+    "lexical": "noČ",
+    "n_candidates": 2,
+    "score": "0",
+    "winners": [
+     "noč"
+    ]
+   },
+   "noč bi": {
+    "agrees": true,
+    "expected": "noǰ bi",
+    "lexical": "noČ bi",
+    "n_candidates": 4,
+    "score": "9/2",
+    "winners": [
+     "noǰ bi"
+    ]
+   },
+   "noč to": {
+    "agrees": true,
+    "expected": "noč to",
+    "lexical": "noČ to",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "noč to"
+    ]
+   },
+   "noč ʐe": {
+    "agrees": true,
+    "expected": "noǰ ʐe",
+    "lexical": "noČ ʐe",
+    "n_candidates": 4,
+    "score": "9/2",
+    "winners": [
+     "noǰ ʐe"
+    ]
+   },
+   "noč-am": {
+    "agrees": true,
+    "expected": "nočam",
+    "lexical": "noČ-am",
+    "n_candidates": 2,
+    "score": "0",
+    "winners": [
+     "nočam"
+    ]
+   },
+   "ob-man": {
+    "agrees": true,
+    "expected": "obman",
+    "lexical": "ob-man",
+    "n_candidates": 2,
+    "score": "4",
+    "winners": [
+     "obman"
+    ]
+   },
+   "tigr": {
+    "agrees": true,
+    "expected": "tigr",
+    "lexical": "tigr",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "tigr"
+    ]
+   },
+   "veʃ": {
+    "agrees": true,
+    "expected": "veʃ",
+    "lexical": "veƩ",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "veʃ"
+    ]
+   },
+   "veʃ to": {
+    "agrees": true,
+    "expected": "veʃ to",
+    "lexical": "veƩ to",
+    "n_candidates": 8,
+    "score": "4",
+    "winners": [
+     "veʃ to"
+    ]
+   },
+   "veʃ ʐe": {
+    "agrees": true,
+    "expected": "veʒ ʐe",
+    "lexical": "veƩ ʐe",
+    "n_candidates": 8,
+    "score": "17/2",
+    "winners": [
+     "veʒ ʐe"
+    ]
+   },
+   "veʃ-am": {
+    "agrees": true,
+    "expected": "veʃam",
+    "lexical": "veƩ-am",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "veʃam"
+    ]
+   },
+   "vosk bi": {
+    "agrees": true,
+    "expected": "vozg bi",
+    "lexical": "vosk bi",
+    "n_candidates": 16,
+    "score": "11",
+    "winners": [
+     "vozg bi"
+    ]
+   },
+   "ţex": {
+    "agrees": true,
+    "expected": "ţex",
+    "lexical": "ŢeX",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "ţex"
+    ]
+   },
+   "ţex to": {
+    "agrees": true,
+    "expected": "ţex to",
+    "lexical": "ŢeX to",
+    "n_candidates": 8,
+    "score": "0",
+    "winners": [
+     "ţex to"
+    ]
+   },
+   "ţex ʐe": {
+    "agrees": true,
+    "expected": "ţeɣ ʐe",
+    "lexical": "ŢeX ʐe",
+    "n_candidates": 8,
+    "score": "9/2",
+    "winners": [
+     "ţeɣ ʐe"
+    ]
+   },
+   "ţex-am": {
+    "agrees": true,
+    "expected": "ţexam",
+    "lexical": "ŢeX-am",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "ţexam"
+    ]
+   }
+  },
+  "R": {
+   "bog": {
+    "agrees": true,
+    "expected": "bok",
+    "lexical": "bog",
+    "n_candidates": 4,
+    "score": "5",
+    "winners": [
+     "bok"
+    ]
+   },
+   "bog to": {
+    "agrees": true,
+    "expected": "bok to",
+    "lexical": "bog to",
+    "n_candidates": 8,
+    "score": "5",
+    "winners": [
+     "bok to"
+    ]
+   },
+   "bog ʐe": {
+    "agrees": true,
+    "expected": "bog ʐe",
+    "lexical": "bog ʐe",
+    "n_candidates": 8,
+    "score": "12",
+    "winners": [
+     "bog ʐe"
+    ]
+   },
+   "bog-am": {
+    "agrees": true,
+    "expected": "bogam",
+    "lexical": "bog-am",
+    "n_candidates": 4,
+    "score": "8",
+    "winners": [
+     "bogam"
+    ]
+   },
+   "bok": {
+    "agrees": true,
+    "expected": "bok",
+    "lexical": "bok",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "bok"
+    ]
+   },
+   "bok to": {
+    "agrees": true,
+    "expected": "bok to",
+    "lexical": "bok to",
+    "n_candidates": 8,
+    "score": "4",
+    "winners": [
+     "bok to"
+    ]
+   },
+   "bok ʐe": {
+    "agrees": true,
+    "expected": "bog ʐe",
+    "lexical": "bok ʐe",
+    "n_candidates": 8,
+    "score": "19/2",
+    "winners": [
+     "bog ʐe"
+    ]
+   },
+   "bok-am": {
+    "agrees": true,
+    "expected": "bokam",
+    "lexical": "bok-am",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "bokam"
+    ]
+   },
+   "imidʐ": {
+    "agrees": true,
+    "expected": "imitʂ",
+    "lexical": "imidʐ",
+    "n_candidates": 4,
+    "score": "2",
+    "winners": [
+     "imitʂ"
+    ]
+   },
+   "imidʐ bi": {
+    "agrees": true,
+    "expected": "imidʐ bi",
+    "lexical": "imidʐ bi",
+    "n_candidates": 8,
+    "score": "12",
+    "winners": [
+     "imidʐ bi"
+    ]
+   },
+   "imidʐ-a": {
+    "agrees": true,
+    "expected": "imidʐa",
+    "lexical": "imidʐ-a",
+    "n_candidates": 4,
+    "score": "8",
+    "winners": [
+     "imidʐa"
+    ]
+   },
+   "k vsem": {
+    "agrees": true,
+    "expected": "k fsem",
+    "lexical": "k vsem",
+    "n_candidates": 8,
+    "score": "1",
+    "winners": [
+     "k fsem"
+    ]
+   },
+   "kod": {
+    "agrees": true,
+    "expected": "kot",
+    "lexical": "kod",
+    "n_candidates": 4,
+    "score": "1",
+    "winners": [
+     "kot"
+    ]
+   },
+   "kod to": {
+    "agrees": true,
+    "expected": "kot to",
+    "lexical": "kod to",
+    "n_candidates": 8,
+    "score": "1",
+    "winners": [
+     "kot to"
+    ]
+   },
+   "kod ʐe": {
+    "agrees": true,
+    "expected": "kod ʐe",
+    "lexical": "kod ʐe",
+    "n_candidates": 8,
+    "score": "8",
+    "winners": [
+     "kod ʐe"
+    ]
+   },
+   "kod-am": {
+    "agrees": true,
+    "expected": "kodam",
+    "lexical": "kod-am",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "kodam"
+    ]
+   },
+   "kot": {
+    "agrees": true,
+    "expected": "kot",
+    "lexical": "kot",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "kot"
+    ]
+   },
+   "kot bi": {
+    "agrees": true,
+    "expected": "kod bi",
+    "lexical": "kot bi",
+    "n_candidates": 8,
+    "score": "11/2",
+    "winners": [
+     "kod bi"
+    ]
+   },
+   "kot to": {
+    "agrees": true,
+    "expected": "kot to",
+    "lexical": "kot to",
+    "n_candidates": 8,
+    "score": "0",
+    "winners": [
+     "kot to"
+    ]
+   },
+   "kot ʐe": {
+    "agrees": true,
+    "expected": "kod ʐe",
+    "lexical": "kot ʐe",
+    "n_candidates": 8,
+    "score": "11/2",
+    "winners": [
+     "kod ʐe"
+    ]
+   },
+   "kot-am": {
+    "agrees": true,
+    "expected": "kotam",
+    "lexical": "kot-am",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "kotam"
+    ]
+   },
+   "lʐeţ": {
+    "agrees": true,
+    "expected": "lʐeţ",
+    "lexical": "lʐeţ",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "lʐeţ"
+    ]
+   },
+   "lʐeţ to": {
+    "agrees": true,
+    "expected": "lʐeţ to",
+    "lexical": "lʐeţ to",
+    "n_candidates": 8,
+    "score": "4",
+    "winners": [
+     "lʐeţ to"
+    ]
+   },
+   "lʐeţ ʐe": {
+    "agrees": true,
+    "expected": "lʐeʣ ʐe",
+    "lexical": "lʐeţ ʐe",
+    "n_candidates": 8,
+    "score": "39/2",
+    "winners": [
+     "lʐeʣ ʐe"
+    ]
+   },
+   "lʐeţ-am": {
+    "agrees": true,
+    "expected": "lʐeţam",
+    "lexical": "lʐeţ-am",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "lʐeţam"
+    ]
+   },
+   "mox bi": {
+    "agrees": true,
+    "expected": "moɣ bi",
+    "lexical": "mox bi",
+    "n_candidates": 4,
+    "score": "31/2",
+    "winners": [
+     "moɣ bi"
+    ]
+   },
+   "mozg": {
+    "agrees": true,
+    "expected": "mosk",
+    "lexical": "mozg",
+    "n_candidates": 4,
+    "score": "2",
+    "winners": [
+     "mosk"
+    ]
+   },
+   "mozg bi": {
+    "agrees": true,
+    "expected": "mozg bi",
+    "lexical": "mozg bi",
+    "n_candidates": 8,
+    "score": "12",
+    "winners": [
+     "mozg bi"
+    ]
+   },
+   "mozg li": {
+    "agrees": true,
+    "expected": "mosk li",
+    "lexical": "mozg li",
+    "n_candidates": 4,
+    "score": "2",
+    "winners": [
+     "mosk li"
+    ]
+   },
+   "mozg to": {
+    "agrees": true,
+    "expected": "mosk to",
+    "lexical": "mozg to",
+    "n_candidates": 8,
+    "score": "2",
+    "winners": [
+     "mosk to"
+    ]
+   },
+   "noč": {
+    "agrees": true,
+    "expected": "noč",
+    "lexical": "noč",
+    "n_candidates": 2,
+    "score": "0",
+    "winners": [
+     "noč"
+    ]
+   },
+   "noč bi": {
+    "agrees": true,
+    "expected": "noǰ bi",
+    "lexical": "noč bi",
+    "n_candidates": 4,
+    "score": "31/2",
+    "winners": [
+     "noǰ bi"
+    ]
+   },
+   "noč to": {
+    "agrees": true,
+    "expected": "noč to",
+    "lexical": "noč to",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "noč to"
+    ]
+   },
+   "noč ʐe": {
+    "agrees": true,
+    "expected": "noǰ ʐe",
+    "lexical": "noč ʐe",
+    "n_candidates": 4,
+    "score": "31/2",
+    "winners": [
+     "noǰ ʐe"
+    ]
+   },
+   "noč-am": {
+    "agrees": true,
+    "expected": "nočam",
+    "lexical": "noč-am",
+    "n_candidates": 2,
+    "score": "0",
+    "winners": [
+     "nočam"
+    ]
+   },
+   "ob-man": {
+    "agrees": true,
+    "expected": "obman",
+    "lexical": "ob-man",
+    "n_candidates": 2,
+    "score": "4",
+    "winners": [
+     "obman"
+    ]
+   },
+   "tigr": {
+    "agrees": true,
+    "expected": "tigr",
+    "lexical": "tigr",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "tigr"
+    ]
+   },
+   "veʃ": {
+    "agrees": true,
+    "expected": "veʃ",
+    "lexical": "veʃ",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "veʃ"
+    ]
+   },
+   "veʃ to": {
+    "agrees": true,
+    "expected": "veʃ to",
+    "lexical": "veʃ to",
+    "n_candidates": 8,
+    "score": "4",
+    "winners": [
+     "veʃ to"
+    ]
+   },
+   "veʃ ʐe": {
+    "agrees": true,
+    "expected": "veʒ ʐe",
+    "lexical": "veʃ ʐe",
+    "n_candidates": 8,
+    "score": "39/2",
+    "winners": [
+     "veʒ ʐe"
+    ]
+   },
+   "veʃ-am": {
+    "agrees": true,
+    "expected": "veʃam",
+    "lexical": "veʃ-am",
+    "n_candidates": 4,
+    "score": "4",
+    "winners": [
+     "veʃam"
+    ]
+   },
+   "vosk bi": {
+    "agrees": true,
+    "expected": "vozg bi",
+    "lexical": "vosk bi",
+    "n_candidates": 16,
+    "score": "11",
+    "winners": [
+     "vozg bi"
+    ]
+   },
+   "ţex": {
+    "agrees": true,
+    "expected": "ţex",
+    "lexical": "ţex",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "ţex"
+    ]
+   },
+   "ţex to": {
+    "agrees": true,
+    "expected": "ţex to",
+    "lexical": "ţex to",
+    "n_candidates": 8,
+    "score": "0",
+    "winners": [
+     "ţex to"
+    ]
+   },
+   "ţex ʐe": {
+    "agrees": true,
+    "expected": "ţeɣ ʐe",
+    "lexical": "ţex ʐe",
+    "n_candidates": 8,
+    "score": "31/2",
+    "winners": [
+     "ţeɣ ʐe"
+    ]
+   },
+   "ţex-am": {
+    "agrees": true,
+    "expected": "ţexam",
+    "lexical": "ţex-am",
+    "n_candidates": 4,
+    "score": "0",
+    "winners": [
+     "ţexam"
+    ]
+   }
+  }
+ },
+ "regions": {
+  "L": {
+   "distinct_inequalities": [
+    " ≠ :  - 2·ID_VOICE + 2·NO_VOICE > 0",
+    " ≠ :  - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  1/8·NO_VOICE > 0",
+    " ≠ :  1/4·NO_VOICE > 0",
+    " ≠ :  1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 1·ID_VOICE - 5/4·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 1·ID_VOICE + 17/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 9/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 3/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 5/4·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 3·ID_VOICE - 3·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE - 9/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE - 17/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE + 5/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE - 17/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE - 3/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE - 3·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE - 15/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE - 3/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE + 3/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH - 1/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1/4·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 9/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 1·ID_VOICE - 17/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  1/4·AGREE_BOTH + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1/4·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH - 2·ID_VOICE - 1/4·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH - 2·ID_VOICE + 2·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 9/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE - 1·ID_VOICE - 5/4·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE + 9/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH + 1·ID_PRESON_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 9/8·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 1·ID_VOICE - 17/8·NO_VOICE > 0",
+    " ≠ :  2·AGREE_BOTH - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  2·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0"
+   ],
+   "n_distinct": 82,
+   "n_inequalities": 220,
+   "point_weights_exact": true,
+   "region": {
+    "feasible": true,
+    "slack": 1.0,
+    "witness": {
+     "AGREE_BOTH": 100.0,
+     "ID_PRESON_VOICE": 100.0,
+     "ID_VOICE": 2.25,
+     "NO_VOICE": 8.0
+    }
+   },
+   "witness_exact": true
+  },
+  "R": {
+   "distinct_inequalities": [
+    " ≠ :  - 2·ID_VOICE + 2·NO_VOICE > 0",
+    " ≠ :  - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 1·ID_VOICE - 5/4·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 1·ID_VOICE + 17/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 9/8·NO_VOICE - 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 9/8·NO_VOICE - 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 9/8·NO_VOICE - 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1·ID_PRESON_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 9/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 1·ID_VOICE + 5/4·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE + 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE + 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE + 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE + 1/8·NO_VOICED_AFF + 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1·ID_PRESON_VOICE + 3·ID_VOICE - 3·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE - 9/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE - 17/8·NO_VOICE - 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE - 17/8·NO_VOICE - 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE - 17/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE + 1/8·NO_VOICED_AFF - 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 1·ID_VOICE + 5/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE + 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE + 1/8·NO_VOICED_AFF + 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE - 3·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE - 15/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE - 3/4·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE - 3/4·NO_VOICE + 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE - 3/4·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE + 3/8·NO_VOICE > 0",
+    " ≠ :  2·ID_PRESON_VOICE + 3·ID_VOICE + 3/8·NO_VOICE + 1/8·NO_VOICED_AFF + 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1/8·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_VOICE + 1/8·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 9/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE + 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE + 1/8·NO_VOICED_AFF + 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 1·ID_VOICE - 17/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  1/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1/4·AGREE_BOTH + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1/4·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH - 2·ID_VOICE - 1/4·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH - 2·ID_VOICE + 2·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE - 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE - 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE - 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 9/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE - 1·ID_VOICE - 5/4·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE - 9/8·NO_VOICE - 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE - 9/8·NO_VOICE - 1/8·NO_VOICED_PALFRIC > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE + 1/8·NO_VOICED_AFF - 1/8·NO_VOICED_DORFRIC > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE + 9/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE - 1·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 1·ID_PRESON_VOICE + 1·ID_VOICE + 1/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 2·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE > 0",
+    " ≠ :  1·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE - 7/8·NO_VOICE + 1/8·NO_VOICED_AFF > 0",
+    " ≠ :  1·AGREE_BOTH + 2·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH - 1·ID_VOICE - 1/8·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH + 1·ID_PRESON_VOICE - 9/8·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH + 1·ID_PRESON_VOICE + 9/8·NO_VOICE > 0",
+    " ≠ :  9/8·AGREE_BOTH + 2·ID_PRESON_VOICE + 1·ID_VOICE - 17/8·NO_VOICE > 0",
+    " ≠ :  2·AGREE_BOTH - 1·ID_VOICE + 1·NO_VOICE > 0",
+    " ≠ :  2·AGREE_BOTH + 1·ID_PRESON_VOICE + 2·ID_VOICE + 1/4·NO_VOICE > 0"
+   ],
+   "n_distinct": 105,
+   "n_inequalities": 220,
+   "point_weights_exact": true,
+   "region": {
+    "feasible": true,
+    "slack": 1.0,
+    "witness": {
+     "AGREE_BOTH": 100.0,
+     "ID_PRESON_VOICE": 100.0,
+     "ID_VOICE": 0.7778,
+     "NO_VOICE": 1.7778,
+     "NO_VOICED_AFF": -0.0,
+     "NO_VOICED_DORFRIC": 0.0,
+     "NO_VOICED_PALFRIC": 0.0
+    }
+   },
+   "witness_exact": true
+  },
+  "separation": {
+   "L": {
+    "inequalities": [
+     "obČa ≠ obča:  1/8·AGREE_BOTH - 1/8·NO_VOICE > 0",
+     "obČa ≠ opǰa:  1/8·AGREE_BOTH + 1·ID_VOICE - 1·NO_VOICE > 0",
+     "obČa ≠ opča:  1·ID_VOICE - 9/8·NO_VOICE > 0"
+    ],
+    "region": {
+     "feasible": true,
+     "slack": 1.0,
+     "witness": {
+      "AGREE_BOTH": 100.0,
+      "ID_PRESON_VOICE": 0.0,
+      "ID_VOICE": 100.0,
+      "NO_VOICE": 0.0
+     }
+    },
+    "target": "obǰa",
+    "witness_exact": true
+   },
+   "L_joint_with_row_18a": {
+    "region": {
+     "feasible": false,
+     "slack": -0.0,
+     "witness": {
+      "AGREE_BOTH": 100.0,
+      "ID_PRESON_VOICE": 100.0,
+      "ID_VOICE": -0.0,
+      "NO_VOICE": -0.0
+     }
+    },
+    "witness_exact": false
+   },
+   "L_joint_with_row_18b": {
+    "region": {
+     "feasible": true,
+     "slack": 1.0,
+     "witness": {
+      "AGREE_BOTH": 100.0,
+      "ID_PRESON_VOICE": 100.0,
+      "ID_VOICE": 1.0,
+      "NO_VOICE": 0.0
+     }
+    },
+    "witness_exact": true
+   },
+   "R": {
+    "inequalities": [
+     "obča ≠ obča:  1·AGREE_BOTH - 1·ID_PRESON_VOICE - 1·ID_VOICE - 1/8·NO_VOICE - 1/8·NO_VOICED_AFF > 0",
+     "obča ≠ opǰa:  1·AGREE_BOTH + 1·ID_VOICE - 1·NO_VOICE > 0",
+     "obča ≠ opča:  - 1·ID_PRESON_VOICE - 9/8·NO_VOICE - 1/8·NO_VOICED_AFF > 0"
+    ],
+    "region": {
+     "feasible": false,
+     "slack": -0.0,
+     "witness": {
+      "AGREE_BOTH": 100.0,
+      "ID_PRESON_VOICE": 0.0,
+      "ID_VOICE": 0.0,
+      "NO_VOICE": 0.0,
+      "NO_VOICED_AFF": 0.0,
+      "NO_VOICED_DORFRIC": 0.0,
+      "NO_VOICED_PALFRIC": 0.0
+     }
+    },
+    "target": "obǰa",
+    "witness_exact": false
+   },
+   "point_check_row_18a": {
+    "adpat": {
+     "row": "atpat",
+     "winners": [
+      "atpat"
+     ]
+    },
+    "all_agree": true,
+    "atbat": {
+     "row": "adbat",
+     "winners": [
+      "adbat"
+     ]
+    },
+    "bat": {
+     "row": "bat",
+     "winners": [
+      "bat"
+     ]
+    },
+    "pad": {
+     "row": "pat",
+     "winners": [
+      "pat"
+     ]
+    }
+   },
+   "point_check_row_18b": {
+    "adpat": {
+     "row": "atpat",
+     "winners": [
+      "atpat"
+     ]
+    },
+    "all_agree": true,
+    "atbat": {
+     "row": "adbat",
+     "winners": [
+      "adbat"
+     ]
+    },
+    "bat": {
+     "row": "bat",
+     "winners": [
+      "bat"
+     ]
+    },
+    "pad": {
+     "row": "pad",
+     "winners": [
+      "pad"
+     ]
+    }
+   }
+  }
+ },
+ "separation": {
+  "adŢi | identity_over_markedness": {
+   "L": [
+    "adʣi"
+   ],
+   "R": [
+    "atţi"
+   ]
+  },
+  "adŢi | markedness_over_identity": {
+   "L": [
+    "atţi"
+   ],
+   "R": [
+    "atţi"
+   ]
+  },
+  "obČa | identity_over_markedness": {
+   "L": [
+    "obǰa"
+   ],
+   "R": [
+    "opča"
+   ]
+  },
+  "obČa | markedness_over_identity": {
+   "L": [
+    "opča"
+   ],
+   "R": [
+    "opča"
+   ]
+  }
+ },
+ "source_tableaux": {
+  "(13) bok, kod": {
+   "bok": [
+    "bok"
+   ],
+   "kod": [
+    "kot"
+   ]
+  },
+  "(15) kot bi": [
+   "kod bi"
+  ],
+  "(19) noč bi": [
+   "noǰ bi"
+  ],
+  "(20) ǰop  [the rich-base problem]": [
+   "ǰop"
+  ],
+  "(46) noč bi, bok bi  [clitic outside the PWd, as in (23c)]": {
+   "bok bi": [
+    "bok pi"
+   ],
+   "noč bi": [
+    "noč pi"
+   ]
+  },
+  "(46) nočbi, bokbi, ǰop  [clitic domain-internal, as printed]": {
+   "bokbi": [
+    "bogbi"
+   ],
+   "nočbi": [
+    "noǰbi"
+   ],
+   "ǰop": [
+    "ǰop"
+   ]
+  }
+ },
+ "source_typology_18": {
+  "n_patterns_over_24_rankings": 6,
+  "patterns": {
+   "bat | pad | adpat | atbat": [
+    "Id-pson >> Ident >> Agree >> *ObsVoice",
+    "Id-pson >> Ident >> *ObsVoice >> Agree",
+    "Ident >> Agree >> Id-pson >> *ObsVoice",
+    "Ident >> Agree >> *ObsVoice >> Id-pson",
+    "Ident >> Id-pson >> Agree >> *ObsVoice",
+    "Ident >> Id-pson >> *ObsVoice >> Agree",
+    "Ident >> *ObsVoice >> Agree >> Id-pson",
+    "Ident >> *ObsVoice >> Id-pson >> Agree"
+   ],
+   "bat | pad | atpat | adbat": [
+    "Agree >> Id-pson >> Ident >> *ObsVoice",
+    "Agree >> Ident >> Id-pson >> *ObsVoice",
+    "Id-pson >> Agree >> Ident >> *ObsVoice"
+   ],
+   "bat | pad | atpat | atpat": [
+    "Agree >> Ident >> *ObsVoice >> Id-pson"
+   ],
+   "bat | pat | atpat | adbat": [
+    "Agree >> Id-pson >> *ObsVoice >> Ident",
+    "Id-pson >> Agree >> *ObsVoice >> Ident"
+   ],
+   "bat | pat | atpat | atbat": [
+    "Id-pson >> *ObsVoice >> Agree >> Ident",
+    "Id-pson >> *ObsVoice >> Ident >> Agree"
+   ],
+   "pat | pat | atpat | atpat": [
+    "Agree >> *ObsVoice >> Id-pson >> Ident",
+    "Agree >> *ObsVoice >> Ident >> Id-pson",
+    "*ObsVoice >> Agree >> Id-pson >> Ident",
+    "*ObsVoice >> Agree >> Ident >> Id-pson",
+    "*ObsVoice >> Id-pson >> Agree >> Ident",
+    "*ObsVoice >> Id-pson >> Ident >> Agree",
+    "*ObsVoice >> Ident >> Agree >> Id-pson",
+    "*ObsVoice >> Ident >> Id-pson >> Agree"
+   ]
+  },
+  "patterns_not_printed": [],
+  "printed_rows": {
+   "a": {
+    "agrees": true,
+    "printed": [
+     "bat",
+     "pat",
+     "atpat",
+     "adbat"
+    ],
+    "reconstructed": [
+     [
+      [
+       "bat"
+      ],
+      [
+       "pat"
+      ],
+      [
+       "atpat"
+      ],
+      [
+       "adbat"
+      ]
+     ]
+    ]
+   },
+   "b": {
+    "agrees": true,
+    "printed": [
+     "bat",
+     "pad",
+     "atpat",
+     "adbat"
+    ],
+    "reconstructed": [
+     [
+      [
+       "bat"
+      ],
+      [
+       "pad"
+      ],
+      [
+       "atpat"
+      ],
+      [
+       "adbat"
+      ]
+     ]
+    ]
+   },
+   "c": {
+    "agrees": true,
+    "printed": [
+     "bat",
+     "pat",
+     "atpat",
+     "atbat"
+    ],
+    "reconstructed": [
+     [
+      [
+       "bat"
+      ],
+      [
+       "pat"
+      ],
+      [
+       "atpat"
+      ],
+      [
+       "atbat"
+      ]
+     ]
+    ]
+   },
+   "d": {
+    "agrees": true,
+    "printed": [
+     "bat",
+     "pad",
+     "adpat",
+     "atbat"
+    ],
+    "reconstructed": [
+     [
+      [
+       "bat"
+      ],
+      [
+       "pad"
+      ],
+      [
+       "adpat"
+      ],
+      [
+       "atbat"
+      ]
+     ]
+    ]
+   },
+   "e": {
+    "agrees": true,
+    "printed": [
+     "pat",
+     "pat",
+     "atpat",
+     "atpat"
+    ],
+    "reconstructed": [
+     [
+      [
+       "pat"
+      ],
+      [
+       "pat"
+      ],
+      [
+       "atpat"
+      ],
+      [
+       "atpat"
+      ]
+     ]
+    ]
+   },
+   "f": {
+    "agrees": true,
+    "printed": [
+     "bat",
+     "pad",
+     "atpat",
+     "atpat"
+    ],
+    "reconstructed": [
+     [
+      [
+       "bat"
+      ],
+      [
+       "pad"
+      ],
+      [
+       "atpat"
+      ],
+      [
+       "atpat"
+      ]
+     ]
+    ]
+   }
+  },
+  "printed_rows_all_reproduced": true,
+  "systems_stated_in_text": 7
+ },
+ "surface_totality": {
+  "noČ": {
+   "n_candidates": 3,
+   "winners_total_surface": [
+    "noč"
+   ],
+   "winners_with_surface_unspecified": [
+    "noČ",
+    "noč"
+   ]
+  },
+  "noČ ʐe": {
+   "n_candidates": 6,
+   "winners_total_surface": [
+    "noǰ ʐe"
+   ],
+   "winners_with_surface_unspecified": [
+    "noČ ʐe"
+   ]
+  },
+  "noČ-am": {
+   "n_candidates": 3,
+   "winners_total_surface": [
+    "nočam"
+   ],
+   "winners_with_surface_unspecified": [
+    "noČam",
+    "nočam"
+   ]
+  }
+ },
+ "weights": {
+  "identity_over_markedness": {
+   "AGREE_BOTH": 80,
+   "ID_PRESON_VOICE": 80,
+   "ID_VOICE": 10,
+   "NO_VOICE": 1,
+   "NO_VOICED_AFF": 80,
+   "NO_VOICED_DORFRIC": 80,
+   "NO_VOICED_PALFRIC": 80
+  },
+  "markedness_over_identity": {
+   "AGREE_BOTH": 80,
+   "ID_PRESON_VOICE": 80,
+   "ID_VOICE": 1,
+   "NO_VOICE": 4,
+   "NO_VOICED_AFF": 80,
+   "NO_VOICED_DORFRIC": 80,
+   "NO_VOICED_PALFRIC": 80
+  }
+ }
+}

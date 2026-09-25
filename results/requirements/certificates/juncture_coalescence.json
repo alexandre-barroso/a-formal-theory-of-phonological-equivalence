@@ -1,0 +1,803 @@
+{
+ "coalescence_with_retention": {
+  "minimisers": [
+   "eke",
+   "exe"
+  ],
+  "rows": [
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "fused",
+     "x"
+    ],
+    "output": "exe",
+    "score8": "48"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "fused",
+     "k"
+    ],
+    "output": "eke",
+    "score8": "48"
+   }
+  ]
+ },
+ "deletion_with_current_markedness": {
+  "minimisers": [
+   "exe",
+   "eʔe"
+  ],
+  "rows": [
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      1,
+      0
+     ],
+     "STRENGTHEN": [
+      1,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "x"
+    ],
+    "output": "eʔxe",
+    "score8": "640"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      1,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "k"
+    ],
+    "output": "eʔke",
+    "score8": "528"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "∅"
+    ],
+    "output": "eʔe",
+    "score8": "320"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "x"
+    ],
+    "output": "exe",
+    "score8": "320"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "k"
+    ],
+    "output": "eke",
+    "score8": "368"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      2,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "∅"
+    ],
+    "output": "ee",
+    "score8": "640"
+   }
+  ]
+ },
+ "deletion_with_retention": {
+  "minimisers": [
+   "eke"
+  ],
+  "rows": [
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      1,
+      0
+     ],
+     "STRENGTHEN": [
+      1,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "x"
+    ],
+    "output": "eʔxe",
+    "score8": "640"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      1,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "k"
+    ],
+    "output": "eʔke",
+    "score8": "528"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      1,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "∅"
+    ],
+    "output": "eʔe",
+    "score8": "800"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      1,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "x"
+    ],
+    "output": "exe",
+    "score8": "480"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "k"
+    ],
+    "output": "eke",
+    "score8": "368"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      2,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "∅"
+    ],
+    "output": "ee",
+    "score8": "640"
+   }
+  ]
+ },
+ "deletion_without_retention": {
+  "minimisers": [
+   "eʔxe"
+  ],
+  "rows": [
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "x"
+    ],
+    "output": "eʔxe",
+    "score8": "0"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "k"
+    ],
+    "output": "eʔke",
+    "score8": "48"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "∅"
+    ],
+    "output": "eʔe",
+    "score8": "320"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "x"
+    ],
+    "output": "exe",
+    "score8": "320"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "k"
+    ],
+    "output": "eke",
+    "score8": "368"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      2,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "∅"
+    ],
+    "output": "ee",
+    "score8": "640"
+   }
+  ]
+ },
+ "scope": {
+  "deletion_without_retention": "Old terms removed; not ordinary current markedness",
+  "domain": "Four-segment V-glottal-fricative-V diagnostic; six deletion and two coalescence candidates",
+  "interpretation": "Unique-key discharge illustration, not a translation of the source grammar",
+  "omitted_source_structure": "Lexical strata, place, voice, stridency, complex root nodes and the other source candidate families",
+  "source": "Staroverov and Kavitskaya (2017), sections 6.1 and 6.4"
+ },
+ "summary": {
+  "coalescence+retention": [
+   "eke",
+   "exe"
+  ],
+  "coalescence_selects_hardening_uniquely": false,
+  "deletion+current-markedness": [
+   "exe",
+   "eʔe"
+  ],
+  "deletion+retention": [
+   "eke"
+  ],
+  "deletion-retention": [
+   "eʔxe"
+  ],
+  "retained_term_discharged_under_coalescence": true,
+  "union+retention": [
+   "eke",
+   "exe"
+  ]
+ },
+ "union_with_retention": {
+  "minimisers": [
+   "eke",
+   "exe"
+  ],
+  "rows": [
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      1,
+      0
+     ],
+     "STRENGTHEN": [
+      1,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "x"
+    ],
+    "output": "eʔxe",
+    "score8": "640"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      1,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "k"
+    ],
+    "output": "eʔke",
+    "score8": "528"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      1,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "ʔ",
+     "∅"
+    ],
+    "output": "eʔe",
+    "score8": "800"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      1,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "x"
+    ],
+    "output": "exe",
+    "score8": "480"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      1,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "k"
+    ],
+    "output": "eke",
+    "score8": "368"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      0,
+      0
+     ],
+     "MAX": [
+      2,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "∅",
+     "∅"
+    ],
+    "output": "ee",
+    "score8": "640"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "fused",
+     "x"
+    ],
+    "output": "exe",
+    "score8": "48"
+   },
+   {
+    "coefficients": {
+     "IDENT-cont": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ],
+     "NOGLOT": [
+      0,
+      0
+     ],
+     "STRENGTHEN": [
+      0,
+      0
+     ]
+    },
+    "key": [
+     "fused",
+     "k"
+    ],
+    "output": "eke",
+    "score8": "48"
+   }
+  ]
+ },
+ "weights": {
+  "IDENT-cont": 6,
+  "MAX": 40,
+  "NOGLOT": 60,
+  "STRENGTHEN": 20
+ }
+}

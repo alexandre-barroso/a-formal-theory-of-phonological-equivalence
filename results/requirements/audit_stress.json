@@ -1,0 +1,12 @@
+{
+ "phase": "stress",
+ "results": [
+  {
+   "detail": "6 suites",
+   "ok": true,
+   "required": true,
+   "step": "stress suites"
+  }
+ ],
+ "shard": "1/1"
+}

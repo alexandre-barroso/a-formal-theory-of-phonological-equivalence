@@ -1,0 +1,116 @@
+{
+ "candidates": 36,
+ "reference_coefficients": {
+  "OCP": [
+   1,
+   0
+  ],
+  "PARSE-A": [
+   0,
+   0
+  ],
+  "PARSE-T": [
+   0,
+   0
+  ]
+ },
+ "repair_depends_on_parse_weights": true,
+ "rows": {
+  "parseA_high": {
+   "minimisers": [
+    "-H/0->0,1->1",
+    "H-/0->0,1->1"
+   ],
+   "minimum8": "8"
+  },
+  "parseA_high_ocp_x100": {
+   "minimisers": [
+    "-H/0->0,1->1",
+    "H-/0->0,1->1"
+   ],
+   "minimum8": "8"
+  },
+  "parseT_high": {
+   "minimisers": [
+    "HH/0->0,1->0",
+    "HH/0->0,1->x",
+    "HH/0->1,1->1",
+    "HH/0->x,1->1"
+   ],
+   "minimum8": "8"
+  },
+  "parseT_high_ocp_x100": {
+   "minimisers": [
+    "HH/0->0,1->0",
+    "HH/0->0,1->x",
+    "HH/0->1,1->1",
+    "HH/0->x,1->1"
+   ],
+   "minimum8": "8"
+  }
+ },
+ "scope": "36 containment candidates; two tested above-threshold OCP weights. Exact region is in ocp_region.json; full Myers translation is not established.",
+ "subject_strictness": {
+  "OCP": {
+   "h": {
+    "reason": "compositional Kleene values exclude false with h unresolved",
+    "sort": "Or",
+    "subject_strict_certified": true,
+    "totality": "total"
+   },
+   "hn": {
+    "reason": "too many free atoms (18) for the exhaustive test",
+    "sort": "Or",
+    "subject_strict_certified": false,
+    "totality": "total"
+   },
+   "hp": {
+    "reason": "too many free atoms (18) for the exhaustive test",
+    "sort": "Or",
+    "subject_strict_certified": false,
+    "totality": "total"
+   },
+   "t": {
+    "reason": "compositional Kleene values exclude false with t unresolved",
+    "sort": "Tone",
+    "subject_strict_certified": true,
+    "totality": "total"
+   },
+   "tn": {
+    "reason": "a Kleene assignment gives pressure 1 with tn unresolved: Present('t',)=True, Linked('h', 't')=True, Present('t',)=True, Linked('hp', 't')=True, Present('t',)=True, Present('tp',)=True, Linked('h', 't')=True, Linked('hn', 'tp')=True, SameFeat('t', 'tp')=True, Present('t',)=True, Present('tp',)=True, Linked('hp', 't')=True, Linked('h', 'tp')=True, SameFeat('t', 'tp')=True",
+    "sort": "Tone",
+    "subject_strict_certified": false,
+    "totality": "total"
+   },
+   "tp": {
+    "reason": "a Kleene assignment gives pressure 1 with tp unresolved: Present('t',)=True, Present('tn',)=True, Linked('h', 't')=True, Linked('hn', 'tn')=True, SameFeat('t', 'tn')=True, Present('t',)=True, Present('tn',)=True, Linked('hp', 't')=True, Linked('h', 'tn')=True, SameFeat('t', 'tn')=True, Present('t',)=True, Linked('h', 't')=True, Present('t',)=True, Linked('hp', 't')=True",
+    "sort": "Tone",
+    "subject_strict_certified": false,
+    "totality": "total"
+   }
+  },
+  "PARSE-A": {
+   "h": {
+    "reason": "compositional Kleene values exclude false with h unresolved",
+    "sort": "Or",
+    "subject_strict_certified": true,
+    "totality": "total"
+   },
+   "t": {
+    "reason": "compositional Kleene values exclude false with t unresolved",
+    "sort": "Tone",
+    "subject_strict_certified": true,
+    "totality": "total"
+   }
+  },
+  "PARSE-T": {
+   "t": {
+    "reason": "compositional Kleene values exclude false with t unresolved",
+    "sort": "Tone",
+    "subject_strict_certified": true,
+    "totality": "total"
+   }
+  }
+ },
+ "tested_ocp_weight_invariance": true
+}

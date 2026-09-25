@@ -1,0 +1,15 @@
+import PhonologicalCalculus.Application.Regularity.BoundedMemory
+import PhonologicalCalculus.Application.Regularity.ShiftRegister
+import PhonologicalCalculus.Application.Regularity.LocalScore
+import PhonologicalCalculus.Application.Regularity.PendingCompiler
+import PhonologicalCalculus.Application.Regularity.ReferenceWindows
+import PhonologicalCalculus.Application.Regularity.RegularProjection
+import PhonologicalCalculus.Application.Regularity.LatticeScore
+import PhonologicalCalculus.Application.Regularity.RuleReaders
+import PhonologicalCalculus.Application.Regularity.CappedPaths
+import PhonologicalCalculus.Application.Regularity.NativePending
+import PhonologicalCalculus.Application.Regularity.WeightedCost
+import PhonologicalCalculus.Application.Regularity.Subsequential
+import PhonologicalCalculus.Application.Regularity.CostApplication
+import PhonologicalCalculus.Application.Regularity.CostVector
+import PhonologicalCalculus.Application.Regularity.RealCost

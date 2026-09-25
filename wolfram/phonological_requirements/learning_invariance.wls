@@ -1,0 +1,10 @@
+ClearAll["Global`*"];
+region = p>0 && p<d && p<s && d==lam a && d==lam n && p+d<a && p+d<n;
+projection=TimeConstrained[Resolve[ForAll[{lam},Equivalent[Exists[{p,s,d,a,n},region],0<lam<1]],Reals],55,"TIMEOUT"];
+witness=Resolve[ForAll[{lam},Implies[0<lam<1,region/.{p->lam(1-lam),s->2,d->lam,a->1,n->1}]],Reals];
+endpoints=Resolve[ForAll[{p,s,d,a,n},Not[(region/.lam->0)||(region/.lam->1)]],Reals];
+out=<|"projection"->projection,"witness"->witness,"endpoints"->endpoints,"checks"->3|>;
+outdir=FileNameJoin[{DirectoryName[DirectoryName[DirectoryName[$InputFileName]]],"results","requirements","wolfram"}];
+If[!DirectoryQ[outdir],CreateDirectory[outdir,CreateIntermediateDirectories->True]];
+Export[FileNameJoin[{outdir,"learning_invariance.json"}],out,"RawJSON"];
+Print[out];If[!And@@(TrueQ/@{projection,witness,endpoints}),Exit[1]];

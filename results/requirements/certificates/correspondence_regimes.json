@@ -1,0 +1,271 @@
+{
+ "bijective_universe": 64,
+ "disagreements": {
+  "all_three_bridge_components": 0,
+  "inverse_image_realisation_dropped": 52,
+  "locus_side_dropped": 37,
+  "t_correspondence_keying_dropped": 16
+ },
+ "non_bijective": {
+  "epenthesis": {
+   "existential": {
+    "coefficients": {
+     "DEP": [
+      1,
+      0
+     ],
+     "HARM": [
+      1,
+      0
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "80"
+   },
+   "unique": {
+    "coefficients": {
+     "DEP": [
+      1,
+      0
+     ],
+     "HARM": [
+      1,
+      0
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "80"
+   },
+   "universal": {
+    "coefficients": {
+     "DEP": [
+      1,
+      0
+     ],
+     "HARM": [
+      1,
+      0
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "80"
+   }
+  },
+  "fission_of_marked": {
+   "existential": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      2,
+      0
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "64"
+   },
+   "unique": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      2,
+      0
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "64"
+   },
+   "universal": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      2,
+      0
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "64"
+   }
+  },
+  "fusion_marked_with_unmarked": {
+   "existential": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      1,
+      0
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "32"
+   },
+   "unique": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      0,
+      1
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "4"
+   },
+   "universal": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      0,
+      1
+     ],
+     "IDENT": [
+      0,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "4"
+   }
+  },
+  "fusion_to_repaired": {
+   "existential": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      0,
+      0
+     ],
+     "IDENT": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "8"
+   },
+   "unique": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      0,
+      0
+     ],
+     "IDENT": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "8"
+   },
+   "universal": {
+    "coefficients": {
+     "DEP": [
+      0,
+      0
+     ],
+     "HARM": [
+      0,
+      0
+     ],
+     "IDENT": [
+      1,
+      0
+     ],
+     "MAX": [
+      0,
+      0
+     ]
+    },
+    "score8": "8"
+   }
+  }
+ }
+}

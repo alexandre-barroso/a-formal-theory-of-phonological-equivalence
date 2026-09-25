@@ -1,0 +1,6 @@
+{
+	"projection":true,
+	"witness":true,
+	"endpoints":true,
+	"checks":3
+}

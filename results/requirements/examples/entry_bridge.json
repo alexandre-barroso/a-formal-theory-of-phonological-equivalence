@@ -1,0 +1,9626 @@
+{
+ "bridge_checks": 1152,
+ "bridge_mismatches": [],
+ "patterns": {
+  "nasal_stop_deletion": {
+   "D+D": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "D+L2R": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "D+R": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "D+R2L": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "L2R+D": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "L2R+L2R": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "L2R+R": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "L2R+R2L": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "R+D": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "R+L2R": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "R+R": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "R+R2L": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "R2L+D": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "R2L+L2R": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "R2L+R": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   },
+   "R2L+R2L": {
+    "input": "kVNT",
+    "rows": [
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "T"
+      ],
+      "surface": "kVNT"
+     },
+     {
+      "cells": {
+       "NDEL@2": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "new",
+        "p": 1
+       },
+       "TDEL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        0,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        1
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "N",
+       "∅"
+      ],
+      "surface": "kVN"
+     },
+     {
+      "cells": {
+       "NDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        0,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "T"
+      ],
+      "surface": "kVT"
+     },
+     {
+      "cells": {
+       "NDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "TDEL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "MAX_N": [
+        1,
+        0
+       ],
+       "MAX_T": [
+        1,
+        0
+       ],
+       "NDEL": [
+        0,
+        0
+       ],
+       "TDEL": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "V",
+       "∅",
+       "∅"
+      ],
+      "surface": "kV"
+     }
+    ],
+    "rules": [
+     [
+      "NDEL",
+      "N",
+      [],
+      [
+       "#"
+      ],
+      null
+     ],
+     [
+      "TDEL",
+      "T",
+      [
+       "N"
+      ],
+      [
+       "#"
+      ],
+      null
+     ]
+    ]
+   }
+  },
+  "palatalisation_syncope": {
+   "D+D": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "D+L2R": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "D+R": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "D+R2L": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "L2R+D": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "L2R+L2R": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "L2R+R": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "L2R+R2L": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "R+D": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "R+L2R": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "R+R": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "R+R2L": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "PAL@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "PAL@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "R2L+D": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "R2L+L2R": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "R2L+R": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@2": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@3": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@4": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   },
+   "R2L+R2L": {
+    "input": "kimIn",
+    "rows": [
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        1,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        0,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "k",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kmIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@1": {
+        "C": 1,
+        "Def": 1,
+        "G": 0,
+        "a": 1,
+        "cell": "old",
+        "p": 1
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        0,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        1,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "i",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjimIn"
+     },
+     {
+      "cells": {
+       "PAL@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       },
+       "SYNC@0": {
+        "C": 0,
+        "Def": 1,
+        "G": 0,
+        "a": 0,
+        "cell": "inert",
+        "p": 1
+       },
+       "SYNC@1": {
+        "C": 0,
+        "Def": 1,
+        "G": 1,
+        "a": 1,
+        "cell": "inert",
+        "p": 0
+       }
+      },
+      "coefficients": {
+       "IDENT_k_kj": [
+        1,
+        0
+       ],
+       "MAX_i": [
+        1,
+        0
+       ],
+       "PAL": [
+        0,
+        0
+       ],
+       "SYNC": [
+        0,
+        0
+       ]
+      },
+      "realisation": [
+       "kj",
+       "∅",
+       "m",
+       "I",
+       "n"
+      ],
+      "surface": "kjmIn"
+     }
+    ],
+    "rules": [
+     [
+      "PAL",
+      "k",
+      [],
+      [
+       "i"
+      ],
+      "kj"
+     ],
+     [
+      "SYNC",
+      "i",
+      [],
+      [
+       "C",
+       "V"
+      ],
+      null
+     ]
+    ]
+   }
+  }
+ }
+}

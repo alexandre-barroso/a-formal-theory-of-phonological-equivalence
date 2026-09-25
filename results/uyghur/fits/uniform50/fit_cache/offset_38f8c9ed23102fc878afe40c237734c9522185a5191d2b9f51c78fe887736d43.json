@@ -1,0 +1,19 @@
+{
+  "kind": "offset",
+  "cache_key": "38f8c9ed23102fc878afe40c237734c9522185a5191d2b9f51c78fe887736d43",
+  "block_key": "c987b1318e20fe8cc28abf40debc2ea1db6e17e61f72f092d3a4599fd1096ada",
+  "beta_key": "a6aee55ef44c0f81974ff92aaaa9838de873d15705e86de94cb3b89121396750",
+  "dat": -0.8964593018635743,
+  "loc": -0.5755959558433453,
+  "diagnostics": {
+    "dat_offset": -0.8964593018635743,
+    "loc_offset": -0.5755959558433453,
+    "objective": 0.019816952490105507,
+    "ridge": 0.0,
+    "separation_detected": false,
+    "degrees_of_freedom": 2,
+    "converged": true,
+    "gradient_max_abs": 2.311365869907173e-11,
+    "finite_difference_max_abs_error": 1.3163587901748262e-13
+  }
+}

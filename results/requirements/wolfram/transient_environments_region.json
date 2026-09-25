@@ -1,0 +1,5 @@
+{
+	"witness_satisfies_all":"True",
+	"feasible_lambda_with_control":"Inequality[0, Less, lam, Less, 1]",
+	"feasible_lambda_without_control":"lam > 0"
+}

@@ -1,0 +1,9 @@
+row_id	row_origin	x_exact	y_exact	difference_exact	assimilation_cost_exact	faithful_cost_exact	outcome	boundary_exact
+source_01	source_transcribed	7/10	4/5	1/10	15	18	assimilation	-1/20
+source_02	source_transcribed	7/10	9/10	1/5	15	20	assimilation	-1/20
+source_03	source_transcribed	4/5	7/10	-1/10	17	16	faithful	-1/20
+source_04	source_transcribed	4/5	9/10	1/10	17	20	assimilation	-1/20
+source_05	source_transcribed	9/10	7/10	-1/5	19	16	faithful	-1/20
+source_06	source_transcribed	9/10	4/5	-1/10	19	18	faithful	-1/20
+project_open_strip	project_constructed_counterwitness	4/5	39/50	-1/50	17	88/5	assimilation	-1/20
+project_tie	project_constructed_boundary	4/5	3/4	-1/20	17	17	tie	-1/20

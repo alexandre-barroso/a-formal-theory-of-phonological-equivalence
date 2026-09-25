@@ -1,0 +1,1708 @@
+{
+ "baseline": {
+  "A_faults": [
+   "definedness-override",
+   "resolution-split:relatum+1",
+   "unscoped-relational-subject:n_free"
+  ],
+  "all_eight_exclusively_correct": true,
+  "all_scores_identical_to_baseline": true,
+  "all_winners_identical_to_baseline": true,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": false
+ },
+ "def_eq_context": {
+  "A_faults": [
+   "definedness-override",
+   "resolution-split:relatum+1",
+   "unscoped-relational-subject:n_free"
+  ],
+  "all_eight_exclusively_correct": false,
+  "all_scores_identical_to_baseline": false,
+  "all_winners_identical_to_baseline": false,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 140,
+    "exclusively_correct": false,
+    "first_changed": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "minima": [
+     18,
+     44,
+     96,
+     128,
+     161
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊsaɪsɛ",
+     "wʊswɪsɛ",
+     "wʊsɔɪsɛ",
+     "wʊsɛɪsɛ",
+     "wʊsʊjsɛ"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 106,
+    "exclusively_correct": false,
+    "first_changed": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "minima": [
+     42
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "wʊsɛɛbɪ"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 106,
+    "exclusively_correct": false,
+    "first_changed": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "minima": [
+     56,
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpeesi",
+     "kpejsi"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 1632,
+    "exclusively_correct": false,
+    "first_changed": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ],
+    "minima": [
+     605
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "ahɛtɔɔkpʊkɔ"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 1625,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     14,
+     16,
+     18,
+     19
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 1456,
+    "exclusively_correct": false,
+    "first_changed": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "minima": [
+     1563
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsɛɛbie"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 25,
+    "exclusively_correct": false,
+    "first_changed": [
+     14,
+     16,
+     18,
+     20,
+     22
+    ],
+    "minima": [
+     68,
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli",
+     "atʃɪjɛli"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 1872,
+    "exclusively_correct": false,
+    "first_changed": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "minima": [
+     1332
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "atʃɔsjiku"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   }
+  },
+  "well_typed_A": false
+ },
+ "def_eq_context_A": {
+  "A_faults": [
+   "definedness-override",
+   "resolution-split:relatum+1",
+   "unscoped-relational-subject:n_free"
+  ],
+  "all_eight_exclusively_correct": false,
+  "all_scores_identical_to_baseline": false,
+  "all_winners_identical_to_baseline": false,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 1482,
+    "exclusively_correct": false,
+    "first_changed": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ],
+    "minima": [
+     761,
+     774,
+     813
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ahetiɔkpʊkɔ",
+     "ahetuɔkpʊkɔ",
+     "ahetɔɔkpʊkɔ"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 1482,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": false
+ },
+ "dynamic_next_word": {
+  "A_faults": [],
+  "all_eight_exclusively_correct": true,
+  "all_scores_identical_to_baseline": true,
+  "all_winners_identical_to_baseline": true,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": true
+ },
+ "dynamic_nucleus": {
+  "A_faults": [],
+  "all_eight_exclusively_correct": false,
+  "all_scores_identical_to_baseline": false,
+  "all_winners_identical_to_baseline": false,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 35,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 973,
+    "exclusively_correct": false,
+    "first_changed": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "minima": [
+     732
+    ],
+    "minimum8": 32,
+    "output_fibre_of_minima": [
+     "aheteekpʊkɔ"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 1159,
+    "exclusively_correct": false,
+    "first_changed": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ],
+    "minima": [
+     1464
+    ],
+    "minimum8": 32,
+    "output_fibre_of_minima": [
+     "afosoohili"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 2008,
+    "exclusively_correct": false,
+    "first_changed": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "minima": [
+     739
+    ],
+    "minimum8": 40,
+    "output_fibre_of_minima": [
+     "ɔtʃesejbie"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 65,
+    "exclusively_correct": false,
+    "first_changed": [
+     2,
+     3,
+     4,
+     7,
+     8
+    ],
+    "minima": [
+     56,
+     84,
+     88
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "atʃejeli",
+     "atʃijili",
+     "atʃijuli"
+    ],
+    "scores_identical": false,
+    "winners_identical": false
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 845,
+    "exclusively_correct": true,
+    "first_changed": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": true
+ },
+ "dynamic_phrase": {
+  "A_faults": [],
+  "all_eight_exclusively_correct": true,
+  "all_scores_identical_to_baseline": true,
+  "all_winners_identical_to_baseline": true,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": true
+ },
+ "dynamic_stop_nucleus": {
+  "A_faults": [],
+  "all_eight_exclusively_correct": true,
+  "all_scores_identical_to_baseline": false,
+  "all_winners_identical_to_baseline": true,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 1014,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 1014,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": true
+ },
+ "origin_bound": {
+  "A_faults": [],
+  "all_eight_exclusively_correct": true,
+  "all_scores_identical_to_baseline": false,
+  "all_winners_identical_to_baseline": true,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 156,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 156,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": true
+ },
+ "witness": {
+  "A_faults": [],
+  "all_eight_exclusively_correct": true,
+  "all_scores_identical_to_baseline": false,
+  "all_winners_identical_to_baseline": true,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 156,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 156,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": true
+ },
+ "witness_phrase": {
+  "A_faults": [],
+  "all_eight_exclusively_correct": true,
+  "all_scores_identical_to_baseline": false,
+  "all_winners_identical_to_baseline": true,
+  "per_input": {
+   "C21b": {
+    "baseline_minima": [
+     117
+    ],
+    "baseline_minimum8": 160,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     117
+    ],
+    "minimum8": 160,
+    "output_fibre_of_minima": [
+     "wʊsʊsɛ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C23UE": {
+    "baseline_minima": [
+     159
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     159
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "wʊswɛbɪ"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "C24ei": {
+    "baseline_minima": [
+     63
+    ],
+    "baseline_minimum8": 16,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     63
+    ],
+    "minimum8": 16,
+    "output_fibre_of_minima": [
+     "kpejsi"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "G34a": {
+    "baseline_minima": [
+     774
+    ],
+    "baseline_minimum8": 24,
+    "changed_candidates": 156,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ],
+    "minima": [
+     774
+    ],
+    "minimum8": 24,
+    "output_fibre_of_minima": [
+     "ahetɔɔkpʊkɔ"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G34b": {
+    "baseline_minima": [
+     957
+    ],
+    "baseline_minimum8": 20,
+    "changed_candidates": 156,
+    "exclusively_correct": true,
+    "first_changed": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ],
+    "minima": [
+     957
+    ],
+    "minimum8": 20,
+    "output_fibre_of_minima": [
+     "afɪsoohili"
+    ],
+    "scores_identical": false,
+    "winners_identical": true
+   },
+   "G37c": {
+    "baseline_minima": [
+     1584
+    ],
+    "baseline_minimum8": 28,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1584
+    ],
+    "minimum8": 28,
+    "output_fibre_of_minima": [
+     "ɔtʃʊsejbie"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "N7": {
+    "baseline_minima": [
+     82
+    ],
+    "baseline_minimum8": 8,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     82
+    ],
+    "minimum8": 8,
+    "output_fibre_of_minima": [
+     "atʃijeli"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   },
+   "OR38": {
+    "baseline_minima": [
+     1261
+    ],
+    "baseline_minimum8": 172,
+    "changed_candidates": 0,
+    "exclusively_correct": true,
+    "first_changed": [],
+    "minima": [
+     1261
+    ],
+    "minimum8": 172,
+    "output_fibre_of_minima": [
+     "atʃɔsiku"
+    ],
+    "scores_identical": true,
+    "winners_identical": true
+   }
+  },
+  "well_typed_A": true
+ }
+}

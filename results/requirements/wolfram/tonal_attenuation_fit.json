@@ -1,0 +1,42 @@
+{
+	"candidate_vectors":512,
+	"locus_declaration_reads":10752,
+	"working_precision":35,
+	"experiment1":{
+		"nll":525.6418251401383,
+		"lambda":0.5135887737462274,
+		"weights":[
+			5.976522087295780,
+			29.60579575994639,
+			2.433494510194195,
+			34.37878279810460
+		]
+	},
+	"experiment2":{
+		"nll":825.8023155267129,
+		"lambda":0.1320075385897108,
+		"weights":[
+			6.078523178928940,
+			31.19904932968278,
+			3.166172514313995,
+			35.48489835159715
+		]
+	},
+	"shared":{
+		"nll":1389.731920908167,
+		"lambda":0.2623156876736675,
+		"weights":[
+			8.788322218292299,
+			30.08370252981576,
+			2.294085472262188,
+			34.45693823225438,
+			5.569999218387511,
+			29.88519933379024,
+			3.106859775077871,
+			34.45857879817271
+		]
+	},
+	"deviance":76.57556048263104,
+	"source":"Du and Durvasula2022 Tables2 and5, printedpp573 and579; aggregate counts",
+	"scope":"Independent high-precision numerical local optimization; not a proof of global optimality or sampling assumptions."
+}

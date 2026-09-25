@@ -1,0 +1,320 @@
+{
+ "derived": {
+  "canonical_candidates": 4,
+  "compensatory_lengthening": false,
+  "construction_histories": 6,
+  "minimisers": [
+   {
+    "coda_deleted": true,
+    "coefficients": {
+     "MAX": [
+      1,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      0
+     ],
+     "MAXLINK-M": [
+      0,
+      0
+     ],
+     "NOCODA": [
+      0,
+      0
+     ]
+    },
+    "moras_on_V": 1,
+    "mu1_host": null,
+    "output": "ti",
+    "score8": "48"
+   }
+  ],
+  "rows": [
+   {
+    "coda_deleted": false,
+    "coefficients": {
+     "MAX": [
+      0,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      0
+     ],
+     "MAXLINK-M": [
+      1,
+      0
+     ],
+     "NOCODA": [
+      1,
+      0
+     ]
+    },
+    "moras_on_V": 2,
+    "mu1_host": 1,
+    "output": "tiːk",
+    "score8": "248"
+   },
+   {
+    "coda_deleted": false,
+    "coefficients": {
+     "MAX": [
+      0,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      0
+     ],
+     "MAXLINK-M": [
+      0,
+      0
+     ],
+     "NOCODA": [
+      1,
+      0
+     ]
+    },
+    "moras_on_V": 1,
+    "mu1_host": 2,
+    "output": "tik",
+    "score8": "240"
+   },
+   {
+    "coda_deleted": false,
+    "coefficients": {
+     "MAX": [
+      0,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      1
+     ],
+     "MAXLINK-M": [
+      1,
+      0
+     ],
+     "NOCODA": [
+      1,
+      0
+     ]
+    },
+    "moras_on_V": 1,
+    "mu1_host": null,
+    "output": "tik",
+    "score8": "272"
+   },
+   {
+    "coda_deleted": true,
+    "coefficients": {
+     "MAX": [
+      1,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      0
+     ],
+     "MAXLINK-M": [
+      0,
+      0
+     ],
+     "NOCODA": [
+      0,
+      0
+     ]
+    },
+    "moras_on_V": 1,
+    "mu1_host": null,
+    "output": "ti",
+    "score8": "48"
+   }
+  ]
+ },
+ "total": {
+  "canonical_candidates": 6,
+  "compensatory_lengthening": true,
+  "construction_histories": 6,
+  "minimisers": [
+   {
+    "coda_deleted": true,
+    "coefficients": {
+     "MAX": [
+      1,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      0
+     ],
+     "MAXLINK-M": [
+      1,
+      0
+     ],
+     "NOCODA": [
+      0,
+      0
+     ]
+    },
+    "moras_on_V": 2,
+    "mu1_host": 1,
+    "output": "tiː",
+    "score8": "56"
+   }
+  ],
+  "rows": [
+   {
+    "coda_deleted": false,
+    "coefficients": {
+     "MAX": [
+      0,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      0
+     ],
+     "MAXLINK-M": [
+      1,
+      0
+     ],
+     "NOCODA": [
+      1,
+      0
+     ]
+    },
+    "moras_on_V": 2,
+    "mu1_host": 1,
+    "output": "tiːk",
+    "score8": "248"
+   },
+   {
+    "coda_deleted": false,
+    "coefficients": {
+     "MAX": [
+      0,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      0
+     ],
+     "MAXLINK-M": [
+      0,
+      0
+     ],
+     "NOCODA": [
+      1,
+      0
+     ]
+    },
+    "moras_on_V": 1,
+    "mu1_host": 2,
+    "output": "tik",
+    "score8": "240"
+   },
+   {
+    "coda_deleted": false,
+    "coefficients": {
+     "MAX": [
+      0,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      1
+     ],
+     "MAXLINK-M": [
+      1,
+      0
+     ],
+     "NOCODA": [
+      1,
+      0
+     ]
+    },
+    "moras_on_V": 1,
+    "mu1_host": null,
+    "output": "tik",
+    "score8": "272"
+   },
+   {
+    "coda_deleted": true,
+    "coefficients": {
+     "MAX": [
+      1,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      0
+     ],
+     "MAXLINK-M": [
+      1,
+      0
+     ],
+     "NOCODA": [
+      0,
+      0
+     ]
+    },
+    "moras_on_V": 2,
+    "mu1_host": 1,
+    "output": "tiː",
+    "score8": "56"
+   },
+   {
+    "coda_deleted": true,
+    "coefficients": {
+     "MAX": [
+      1,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      1
+     ],
+     "MAXLINK-M": [
+      0,
+      0
+     ],
+     "NOCODA": [
+      0,
+      0
+     ]
+    },
+    "moras_on_V": 1,
+    "mu1_host": 2,
+    "output": "ti",
+    "score8": "72"
+   },
+   {
+    "coda_deleted": true,
+    "coefficients": {
+     "MAX": [
+      1,
+      0
+     ],
+     "MAX-mora": [
+      0,
+      1
+     ],
+     "MAXLINK-M": [
+      1,
+      0
+     ],
+     "NOCODA": [
+      0,
+      0
+     ]
+    },
+    "moras_on_V": 1,
+    "mu1_host": null,
+    "output": "ti",
+    "score8": "80"
+   }
+  ]
+ }
+}

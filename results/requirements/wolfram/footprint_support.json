@@ -1,0 +1,11 @@
+{
+	"finite_cases":3110,
+	"prefix_failures":[],
+	"mutation_controls":[
+		true,
+		true,
+		true,
+		true
+	],
+	"scope":"Finite independent stopping and prefix-support calculations; universal statements proved in Lean."
+}

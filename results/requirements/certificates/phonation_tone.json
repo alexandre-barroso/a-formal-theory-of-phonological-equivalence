@@ -1,0 +1,1981 @@
+{
+ "dp_check": {
+  "A1": {
+   "agree": true,
+   "dp_best": "3000",
+   "dp_winners": [
+    "LH-H"
+   ],
+   "enum_best": "3000",
+   "enum_winners": [
+    "LH-H"
+   ]
+  },
+  "A10": {
+   "agree": true,
+   "dp_best": "7000",
+   "dp_winners": [
+    "LH-M"
+   ],
+   "enum_best": "7000",
+   "enum_winners": [
+    "LH-M"
+   ]
+  },
+  "A2": {
+   "agree": true,
+   "dp_best": "3000",
+   "dp_winners": [
+    "LH-H"
+   ],
+   "enum_best": "3000",
+   "enum_winners": [
+    "LH-H"
+   ]
+  },
+  "A3": {
+   "agree": true,
+   "dp_best": "4000",
+   "dp_winners": [
+    "LH-HL"
+   ],
+   "enum_best": "4000",
+   "enum_winners": [
+    "LH-HL"
+   ]
+  },
+  "A4": {
+   "agree": true,
+   "dp_best": "4000",
+   "dp_winners": [
+    "LH-HL"
+   ],
+   "enum_best": "4000",
+   "enum_winners": [
+    "LH-HL"
+   ]
+  },
+  "A5": {
+   "agree": true,
+   "dp_best": "4000",
+   "dp_winners": [
+    "M-L"
+   ],
+   "enum_best": "4000",
+   "enum_winners": [
+    "M-L"
+   ]
+  },
+  "A6": {
+   "agree": true,
+   "dp_best": "4000",
+   "dp_winners": [
+    "M-L"
+   ],
+   "enum_best": "4000",
+   "enum_winners": [
+    "M-L"
+   ]
+  },
+  "A7": {
+   "agree": true,
+   "dp_best": "7000",
+   "dp_winners": [
+    "LH-M"
+   ],
+   "enum_best": "7000",
+   "enum_winners": [
+    "LH-M"
+   ]
+  },
+  "A8": {
+   "agree": true,
+   "dp_best": "7000",
+   "dp_winners": [
+    "LH-M"
+   ],
+   "enum_best": "7000",
+   "enum_winners": [
+    "LH-M"
+   ]
+  },
+  "A9": {
+   "agree": true,
+   "dp_best": "7000",
+   "dp_winners": [
+    "LH-M"
+   ],
+   "enum_best": "7000",
+   "enum_winners": [
+    "LH-M"
+   ]
+  },
+  "B1": {
+   "agree": true,
+   "dp_best": "5000",
+   "dp_winners": [
+    "H-L"
+   ],
+   "enum_best": "5000",
+   "enum_winners": [
+    "H-L"
+   ]
+  },
+  "B2": {
+   "agree": true,
+   "dp_best": "6000",
+   "dp_winners": [
+    "HL-L"
+   ],
+   "enum_best": "6000",
+   "enum_winners": [
+    "HL-L"
+   ]
+  },
+  "B3": {
+   "agree": true,
+   "dp_best": "5000",
+   "dp_winners": [
+    "H-L"
+   ],
+   "enum_best": "5000",
+   "enum_winners": [
+    "H-L"
+   ]
+  },
+  "B4": {
+   "agree": true,
+   "dp_best": "6000",
+   "dp_winners": [
+    "HL-L"
+   ],
+   "enum_best": "6000",
+   "enum_winners": [
+    "HL-L"
+   ]
+  },
+  "B5": {
+   "agree": true,
+   "dp_best": "5000",
+   "dp_winners": [
+    "L-L",
+    "L-M"
+   ],
+   "enum_best": "5000",
+   "enum_winners": [
+    "L-L",
+    "L-M"
+   ]
+  },
+  "B6": {
+   "agree": true,
+   "dp_best": "5000",
+   "dp_winners": [
+    "L-L",
+    "L-M"
+   ],
+   "enum_best": "5000",
+   "enum_winners": [
+    "L-L",
+    "L-M"
+   ]
+  },
+  "B7": {
+   "agree": true,
+   "dp_best": "8000",
+   "dp_winners": [
+    "LH-M"
+   ],
+   "enum_best": "8000",
+   "enum_winners": [
+    "LH-M"
+   ]
+  },
+  "B8": {
+   "agree": true,
+   "dp_best": "8000",
+   "dp_winners": [
+    "LH-M"
+   ],
+   "enum_best": "8000",
+   "enum_winners": [
+    "LH-M"
+   ]
+  },
+  "C1": {
+   "agree": true,
+   "dp_best": "4000",
+   "dp_winners": [
+    "L-M-L"
+   ],
+   "enum_best": "4000",
+   "enum_winners": [
+    "L-M-L"
+   ]
+  },
+  "C2": {
+   "agree": true,
+   "dp_best": "4000",
+   "dp_winners": [
+    "L-M-L"
+   ],
+   "enum_best": "4000",
+   "enum_winners": [
+    "L-M-L"
+   ]
+  },
+  "C3": {
+   "agree": true,
+   "dp_best": "7000",
+   "dp_winners": [
+    "LH-M-L"
+   ],
+   "enum_best": "7000",
+   "enum_winners": [
+    "LH-M-L"
+   ]
+  },
+  "D1": {
+   "agree": true,
+   "dp_best": "0",
+   "dp_winners": [
+    "H"
+   ],
+   "enum_best": "0",
+   "enum_winners": [
+    "H"
+   ]
+  },
+  "D2": {
+   "agree": true,
+   "dp_best": "1000",
+   "dp_winners": [
+    "HL"
+   ],
+   "enum_best": "1000",
+   "enum_winners": [
+    "HL"
+   ]
+  },
+  "D3": {
+   "agree": true,
+   "dp_best": "0",
+   "dp_winners": [
+    "L"
+   ],
+   "enum_best": "0",
+   "enum_winners": [
+    "L"
+   ]
+  },
+  "D4": {
+   "agree": true,
+   "dp_best": "2000",
+   "dp_winners": [
+    "HL-HL"
+   ],
+   "enum_best": "2000",
+   "enum_winners": [
+    "HL-HL"
+   ]
+  },
+  "D5": {
+   "agree": true,
+   "dp_best": "0",
+   "dp_winners": [
+    "H-L"
+   ],
+   "enum_best": "0",
+   "enum_winners": [
+    "H-L"
+   ]
+  },
+  "D6": {
+   "agree": true,
+   "dp_best": "3000",
+   "dp_winners": [
+    "LH"
+   ],
+   "enum_best": "3000",
+   "enum_winners": [
+    "LH"
+   ]
+  },
+  "E1": {
+   "agree": true,
+   "dp_best": "9000",
+   "dp_winners": [
+    "L-M-M"
+   ],
+   "enum_best": "9000",
+   "enum_winners": [
+    "L-M-M"
+   ]
+  },
+  "R3a": {
+   "agree": true,
+   "dp_best": "9000",
+   "dp_winners": [
+    "LH-HL-L"
+   ],
+   "enum_best": "9000",
+   "enum_winners": [
+    "LH-HL-L"
+   ]
+  },
+  "R3b": {
+   "agree": true,
+   "dp_best": "9000",
+   "dp_winners": [
+    "M-L-L",
+    "M-L-M"
+   ],
+   "enum_best": "9000",
+   "enum_winners": [
+    "M-L-L",
+    "M-L-M"
+   ]
+  }
+ },
+ "exact_ties": {
+  "conclusive": false,
+  "feasible": null,
+  "status": "UNRESOLVED_SELECTED_REPRESENTATIVE_SEARCH",
+  "witness": null
+ },
+ "fall_bounding": {
+  "A10": {
+   "dominated": 80,
+   "insertion_falls": 83,
+   "not_dominated": [
+    "LH-HL",
+    "LHL-HL",
+    "LHH-HL"
+   ]
+  },
+  "A2": {
+   "dominated": 9,
+   "insertion_falls": 9,
+   "not_dominated": []
+  },
+  "A4": {
+   "dominated": 9,
+   "insertion_falls": 9,
+   "not_dominated": []
+  },
+  "A6": {
+   "dominated": 9,
+   "insertion_falls": 9,
+   "not_dominated": []
+  },
+  "A8": {
+   "dominated": 83,
+   "insertion_falls": 83,
+   "not_dominated": []
+  },
+  "A9": {
+   "dominated": 83,
+   "insertion_falls": 83,
+   "not_dominated": []
+  },
+  "B3": {
+   "dominated": 9,
+   "insertion_falls": 9,
+   "not_dominated": []
+  },
+  "B4": {
+   "dominated": 9,
+   "insertion_falls": 9,
+   "not_dominated": []
+  },
+  "B6": {
+   "dominated": 9,
+   "insertion_falls": 9,
+   "not_dominated": []
+  },
+  "B8": {
+   "dominated": 80,
+   "insertion_falls": 83,
+   "not_dominated": [
+    "LH-HL",
+    "LHL-HL",
+    "LHH-HL"
+   ]
+  },
+  "C1": {
+   "dominated": 81,
+   "insertion_falls": 81,
+   "not_dominated": []
+  },
+  "C3": {
+   "dominated": 743,
+   "insertion_falls": 747,
+   "not_dominated": [
+    "LH-HL-L",
+    "LH-HL-LH",
+    "LHL-HL-L",
+    "LHL-HL-LH"
+   ]
+  },
+  "E1": {
+   "dominated": 747,
+   "insertion_falls": 747,
+   "not_dominated": []
+  }
+ },
+ "four_contour": {
+  "changed": [
+   [
+    "A1",
+    [
+     "HL"
+    ],
+    [
+     "LH-M"
+    ],
+    [
+     "LH-H"
+    ]
+   ],
+   [
+    "A2",
+    [
+     "HL"
+    ],
+    [
+     "LH-M"
+    ],
+    [
+     "LH-H"
+    ]
+   ],
+   [
+    "B1",
+    [
+     "HL"
+    ],
+    [
+     "M-M"
+    ],
+    [
+     "H-L"
+    ]
+   ],
+   [
+    "B3",
+    [
+     "HL"
+    ],
+    [
+     "M-M"
+    ],
+    [
+     "H-L"
+    ]
+   ],
+   [
+    "D1",
+    [
+     "HL"
+    ],
+    [
+     "M"
+    ],
+    [
+     "H"
+    ]
+   ]
+  ],
+  "rows": {
+   "A1": {
+    "H": [
+     "LH-H"
+    ],
+    "HL": [
+     "LH-M"
+    ]
+   },
+   "A10": {
+    "-": [
+     "LH-M"
+    ]
+   },
+   "A2": {
+    "H": [
+     "LH-H"
+    ],
+    "HL": [
+     "LH-M"
+    ]
+   },
+   "A3": {
+    "H": [
+     "LH-HL"
+    ],
+    "HL": [
+     "LH-HL"
+    ]
+   },
+   "A4": {
+    "H": [
+     "LH-HL"
+    ],
+    "HL": [
+     "LH-HL"
+    ]
+   },
+   "A5": {
+    "-": [
+     "M-L"
+    ]
+   },
+   "A6": {
+    "-": [
+     "M-L"
+    ]
+   },
+   "A7": {
+    "-": [
+     "LH-M"
+    ]
+   },
+   "A8": {
+    "-": [
+     "LH-M"
+    ]
+   },
+   "A9": {
+    "-": [
+     "LH-M"
+    ]
+   },
+   "B1": {
+    "H": [
+     "H-L"
+    ],
+    "HL": [
+     "M-M"
+    ]
+   },
+   "B2": {
+    "H": [
+     "HL-L"
+    ],
+    "HL": [
+     "HL-L"
+    ]
+   },
+   "B3": {
+    "H": [
+     "H-L"
+    ],
+    "HL": [
+     "M-M"
+    ]
+   },
+   "B4": {
+    "H": [
+     "HL-L"
+    ],
+    "HL": [
+     "HL-L"
+    ]
+   },
+   "B5": {
+    "-": [
+     "L-L",
+     "L-M"
+    ]
+   },
+   "B6": {
+    "-": [
+     "L-L",
+     "L-M"
+    ]
+   },
+   "B7": {
+    "-": [
+     "LH-M"
+    ]
+   },
+   "B8": {
+    "-": [
+     "LH-M"
+    ]
+   },
+   "C1": {
+    "-": [
+     "L-M-L"
+    ]
+   },
+   "C2": {
+    "-": [
+     "L-M-L"
+    ]
+   },
+   "C3": {
+    "-": [
+     "LH-M-L"
+    ]
+   },
+   "D1": {
+    "H": [
+     "H"
+    ],
+    "HL": [
+     "M"
+    ]
+   },
+   "D2": {
+    "H": [
+     "HL"
+    ],
+    "HL": [
+     "HL"
+    ]
+   },
+   "D3": {
+    "-": [
+     "L"
+    ]
+   },
+   "D4": {
+    "HH": [
+     "HL-HL"
+    ],
+    "HHL": [
+     "HL-HL"
+    ],
+    "HLH": [
+     "HL-HL"
+    ],
+    "HLHL": [
+     "HL-HL"
+    ]
+   },
+   "D5": {
+    "H": [
+     "H-L"
+    ],
+    "HL": [
+     "H-L"
+    ]
+   },
+   "D6": {
+    "-": [
+     "LH"
+    ]
+   },
+   "E1": {
+    "-": [
+     "L-M-M"
+    ]
+   }
+  }
+ },
+ "fusion_region": {
+  "feasible": true,
+  "status": "EXACT_FULL_FIBER_WITNESS",
+  "witness": {
+   "CROWD": "8",
+   "DEP_T": "5/8",
+   "FALL_MODAL": "2",
+   "FINAL_LOW": "8",
+   "IDENT_T": "2",
+   "LINEARITY_T": "37/8",
+   "MAX_T": "5",
+   "NO_CONTOUR": "3",
+   "NO_L_AFTER_RISE_FINAL": "8",
+   "NO_M_AFTER_HIGH": "8",
+   "NO_M_CONTOUR": "8",
+   "NO_RISE_AFTER_LOW": "8",
+   "NO_RISE_RISE": "8",
+   "OCP_SYL": "8"
+  }
+ },
+ "items": {
+  "A1": {
+   "candidates": 378,
+   "expected": [
+    "LH-H",
+    "M-H"
+   ],
+   "input": "LH-H",
+   "locator": "Table 6 #__-H, breathy",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-H"
+   ]
+  },
+  "A10": {
+   "candidates": 1764,
+   "expected": [
+    "LH-HL",
+    "LH-M",
+    "M-M"
+   ],
+   "input": "LH-LH",
+   "locator": "§5.4",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "A2": {
+   "candidates": 378,
+   "expected": [
+    "LH-H",
+    "M-H"
+   ],
+   "input": "LH-H",
+   "locator": "Table 6 #__-H, modal",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-H"
+   ]
+  },
+  "A3": {
+   "candidates": 378,
+   "expected": [
+    "LH-HL"
+   ],
+   "input": "LH-H",
+   "locator": "Table 6 #__-HL, breathy; Fig 11",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-HL"
+   ]
+  },
+  "A4": {
+   "candidates": 378,
+   "expected": [
+    "LH-HL"
+   ],
+   "input": "LH-H",
+   "locator": "Table 6 #__-HL, modal; §5.4 'realized only as LH-HL'",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-HL"
+   ]
+  },
+  "A5": {
+   "candidates": 378,
+   "expected": [
+    "LH-L",
+    "M-L"
+   ],
+   "input": "LH-L",
+   "locator": "Table 6 #__-L, breathy",
+   "winner_in_expected": true,
+   "winners": [
+    "M-L"
+   ]
+  },
+  "A6": {
+   "candidates": 378,
+   "expected": [
+    "HL-L",
+    "LH-L",
+    "M-L"
+   ],
+   "input": "LH-L",
+   "locator": "Table 6 #__-L, modal",
+   "winner_in_expected": true,
+   "winners": [
+    "M-L"
+   ]
+  },
+  "A7": {
+   "candidates": 1764,
+   "expected": [
+    "LH-M",
+    "M-M"
+   ],
+   "input": "LH-LH",
+   "locator": "Table 6 #__-M; §5.4 (6) LH-LH -> LH-M, first optionally M",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "A8": {
+   "candidates": 1764,
+   "expected": [
+    "LH-HL",
+    "LH-M",
+    "M-M"
+   ],
+   "input": "LH-LH",
+   "locator": "§5.4: LH-HL if the second syllable is modal",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "A9": {
+   "candidates": 1764,
+   "expected": [
+    "LH-M",
+    "M-M"
+   ],
+   "input": "LH-LH",
+   "locator": "§5.4",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "B1": {
+   "candidates": 378,
+   "expected": [
+    "H-L"
+   ],
+   "input": "H-LH",
+   "locator": "Table 6 H-__#; Fig 16a-i",
+   "winner_in_expected": true,
+   "winners": [
+    "H-L"
+   ]
+  },
+  "B2": {
+   "candidates": 378,
+   "expected": [
+    "HL-L"
+   ],
+   "input": "H-LH",
+   "locator": "Table 6 HL-__#; Fig 16a-ii",
+   "winner_in_expected": true,
+   "winners": [
+    "HL-L"
+   ]
+  },
+  "B3": {
+   "candidates": 378,
+   "expected": [
+    "H-L"
+   ],
+   "input": "H-LH",
+   "locator": "Table 6 H-__#, modal",
+   "winner_in_expected": true,
+   "winners": [
+    "H-L"
+   ]
+  },
+  "B4": {
+   "candidates": 378,
+   "expected": [
+    "HL-L"
+   ],
+   "input": "H-LH",
+   "locator": "Table 6 HL-__#, modal",
+   "winner_in_expected": true,
+   "winners": [
+    "HL-L"
+   ]
+  },
+  "B5": {
+   "candidates": 378,
+   "expected": [
+    "L-L",
+    "L-M"
+   ],
+   "input": "L-LH",
+   "locator": "Table 6 L-__#; Fig 16b",
+   "winner_in_expected": true,
+   "winners": [
+    "L-L",
+    "L-M"
+   ]
+  },
+  "B6": {
+   "candidates": 378,
+   "expected": [
+    "L-L",
+    "L-M"
+   ],
+   "input": "L-LH",
+   "locator": "Table 6 L-__#, modal",
+   "winner_in_expected": true,
+   "winners": [
+    "L-L",
+    "L-M"
+   ]
+  },
+  "B7": {
+   "candidates": 1764,
+   "expected": [
+    "LH-M",
+    "M-M"
+   ],
+   "input": "LH-LH",
+   "locator": "Table 6 LH-__# and M-__#, breathy; Fig 16c-i",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "B8": {
+   "candidates": 1764,
+   "expected": [
+    "LH-HL",
+    "LH-M",
+    "M-M"
+   ],
+   "input": "LH-LH",
+   "locator": "Table 6 LH-__#, modal: {M, HL}",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "C1": {
+   "candidates": 3402,
+   "expected": [
+    "L-HL-L",
+    "L-M-L"
+   ],
+   "input": "L-LH-L",
+   "locator": "Figs 12b, 13b; §5.2 (4)",
+   "winner_in_expected": true,
+   "winners": [
+    "L-M-L"
+   ]
+  },
+  "C2": {
+   "candidates": 3402,
+   "expected": [
+    "L-M-L"
+   ],
+   "input": "L-LH-L",
+   "locator": "§5.2: 'if the second syllable contains a breathy vowel, only the mid allotone'",
+   "winner_in_expected": true,
+   "winners": [
+    "L-M-L"
+   ]
+  },
+  "C3": {
+   "candidates": 15876,
+   "expected": [
+    "LH-HL-L",
+    "LH-M-L",
+    "M-M-L"
+   ],
+   "input": "LH-LH-L",
+   "locator": "Figs 12a, 13a; §5.4",
+   "winner_in_expected": true,
+   "winners": [
+    "LH-M-L"
+   ]
+  },
+  "D1": {
+   "candidates": 9,
+   "expected": [
+    "H"
+   ],
+   "input": "H",
+   "locator": "§4: high level on breathy vowels",
+   "winner_in_expected": true,
+   "winners": [
+    "H"
+   ]
+  },
+  "D2": {
+   "candidates": 9,
+   "expected": [
+    "HL"
+   ],
+   "input": "H",
+   "locator": "§4: falling on modal vowels",
+   "winner_in_expected": true,
+   "winners": [
+    "HL"
+   ]
+  },
+  "D3": {
+   "candidates": 9,
+   "expected": [
+    "L"
+   ],
+   "input": "L",
+   "locator": "§3, §6: the Low toneme has no allotones",
+   "winner_in_expected": true,
+   "winners": [
+    "L"
+   ]
+  },
+  "D4": {
+   "candidates": 81,
+   "expected": [
+    "HL-HL"
+   ],
+   "input": "H-H",
+   "locator": "§5.4: 'two High tonemes over modal vowels are realized as HL-HL'",
+   "winner_in_expected": true,
+   "winners": [
+    "HL-HL"
+   ]
+  },
+  "D5": {
+   "candidates": 81,
+   "expected": [
+    "H-L"
+   ],
+   "input": "H-L",
+   "locator": "Fig 2a type: high then low, phrase-final low",
+   "winner_in_expected": true,
+   "winners": [
+    "H-L"
+   ]
+  },
+  "D6": {
+   "candidates": 42,
+   "expected": [
+    "LH",
+    "M"
+   ],
+   "input": "LH",
+   "locator": "§5.1: rising and mid in free variation (Fig 9)",
+   "winner_in_expected": true,
+   "winners": [
+    "LH"
+   ]
+  },
+  "E1": {
+   "candidates": 15876,
+   "expected": [
+    "L-HL-L",
+    "L-M-M"
+   ],
+   "input": "L-LH-LH",
+   "locator": "Fig 16c-ii (HL then L) and 16c-i type (M then M)",
+   "winner_in_expected": true,
+   "winners": [
+    "L-M-M"
+   ]
+  }
+ },
+ "lambda": "1/8",
+ "predictions": {
+  "b:LH^2#": {
+   "cost": "8000",
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "b:LH^2+": {
+   "cost": "7000",
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "b:LH^3#": {
+   "cost": "12000",
+   "winners": [
+    "LH-M-M"
+   ]
+  },
+  "b:LH^3+": {
+   "cost": "11000",
+   "winners": [
+    "LH-M-M"
+   ]
+  },
+  "b:LH^4#": {
+   "cost": "16000",
+   "winners": [
+    "LH-M-M-M"
+   ]
+  },
+  "b:LH^4+": {
+   "cost": "15000",
+   "winners": [
+    "LH-M-M-M"
+   ]
+  },
+  "m:LH^2#": {
+   "cost": "8000",
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "m:LH^2+": {
+   "cost": "7000",
+   "winners": [
+    "LH-M"
+   ]
+  },
+  "m:LH^3#": {
+   "cost": "12000",
+   "winners": [
+    "LH-M-M"
+   ]
+  },
+  "m:LH^3+": {
+   "cost": "11000",
+   "winners": [
+    "LH-M-M"
+   ]
+  },
+  "m:LH^4#": {
+   "cost": "16000",
+   "winners": [
+    "LH-M-M-M"
+   ]
+  },
+  "m:LH^4+": {
+   "cost": "15000",
+   "winners": [
+    "LH-M-M-M"
+   ]
+  }
+ },
+ "primitive_mid": {
+  "listed_variants_without_realisation": {},
+  "region": {
+   "conclusive": false,
+   "feasible": null,
+   "status": "UNRESOLVED_NUMERICAL_BRANCH_SEARCH"
+  }
+ },
+ "seconds": 296.5,
+ "single_variant_cells_unique": [
+  "A3",
+  "A4",
+  "B1",
+  "B2",
+  "B3",
+  "B4",
+  "C2",
+  "D1",
+  "D2",
+  "D3",
+  "D4",
+  "D5"
+ ],
+ "variation_region": {
+  "A10:LH-HL": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "29/8",
+    "MAX_T": "5",
+    "NOFALL_BREATHY": "8",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A10:LH-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A10:M-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  },
+  "A1:LH-H": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A1:M-H": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  },
+  "A2:LH-H": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A2:M-H": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  },
+  "A3:LH-HL": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A4:LH-HL": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A5:LH-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A5:M-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "7",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_BEFORE_LOW": "1",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A6:HL-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "29/8",
+    "MAX_T": "5",
+    "NOFALL_BREATHY": "8",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "7",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_BEFORE_LOW": "1",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A6:LH-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A6:M-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "7",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_BEFORE_LOW": "1",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A7:LH-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A7:M-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  },
+  "A8:LH-HL": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "14",
+    "DEP_T": "17/32",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "2",
+    "IDENT_T": "11/4",
+    "LINEARITY_T": "137/32",
+    "MAX_T": "13/2",
+    "NOFALL_BREATHY": "14",
+    "NORISE_FINAL": "7/4",
+    "NO_CONTOUR": "15/4",
+    "NO_FALL_AFTER_HIGH": "6",
+    "NO_L_AFTER_RISE_FINAL": "2",
+    "NO_M_AFTER_HIGH": "14",
+    "NO_M_CONTOUR": "2",
+    "NO_RISE_AFTER_LOW": "14",
+    "NO_RISE_RISE": "14",
+    "OCP_SYL": "14"
+   }
+  },
+  "A8:LH-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A8:M-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  },
+  "A9:LH-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "A9:M-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  },
+  "B1:H-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B2:HL-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B3:H-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B4:HL-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B5:L-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B5:L-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B6:L-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B6:L-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B7:LH-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B7:M-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  },
+  "B8:LH-HL": {
+   "feasible": null,
+   "status": "UNRESOLVED_NUMERICAL_BRANCH_SEARCH",
+   "witness": null
+  },
+  "B8:LH-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "B8:M-M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  },
+  "D1:H": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "D2:HL": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "D3:L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "D4:HL-HL": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "D5:H-L": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "D6:LH": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "CROWD": "8",
+    "DEP_T": "5/8",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "37/8",
+    "MAX_T": "5",
+    "NO_CONTOUR": "3",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "8",
+    "OCP_SYL": "8"
+   }
+  },
+  "D6:M": {
+   "feasible": true,
+   "status": "EXACT_VARIANT_WITNESS",
+   "witness": {
+    "DEP_T": "1/2",
+    "FALL_MODAL": "2",
+    "FINAL_LOW": "8",
+    "IDENT_T": "2",
+    "LINEARITY_T": "9/2",
+    "MAX_T": "5",
+    "NO_CONTOUR": "4",
+    "NO_L_AFTER_RISE_FINAL": "8",
+    "NO_M_AFTER_HIGH": "8",
+    "NO_M_BEFORE_FALL": "8",
+    "NO_M_CONTOUR": "8",
+    "NO_RISE_AFTER_LOW": "8",
+    "NO_RISE_RISE": "1"
+   }
+  }
+ },
+ "weights": {
+  "CROWD": 1000000,
+  "DEP_T": 625,
+  "FALL_MODAL": 1000000,
+  "FINAL_LOW": 8000,
+  "IDENT_T": 2000,
+  "LINEARITY_T": 1000000,
+  "MAX_FIRST_T": 1000000,
+  "MAX_T": 5000,
+  "NOFALL_BREATHY": 1000000,
+  "NORISE_FINAL": 1000000,
+  "NO_CONTOUR": 3000,
+  "NO_FALL_AFTER_HIGH": 1000000,
+  "NO_L_AFTER_RISE_FINAL": 1000000,
+  "NO_M_AFTER_HIGH": 1000000,
+  "NO_M_BEFORE_FALL": 1000000,
+  "NO_M_CONTOUR": 1000000,
+  "NO_RISE_AFTER_LOW": 1000000,
+  "NO_RISE_BEFORE_LOW": 1000000,
+  "NO_RISE_RISE": 1000000,
+  "OCP_SYL": 1000000,
+  "TONED": 1000000
+ }
+}

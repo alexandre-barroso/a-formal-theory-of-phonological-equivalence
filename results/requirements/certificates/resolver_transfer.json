@@ -1,0 +1,901 @@
+{
+ "discriminator": [
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "reference",
+   "indexing": "locus",
+   "policy": "dynamic_stop",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "0",
+   "gap": "agreeing obstruent",
+   "indexing": "locus",
+   "policy": "dynamic_stop",
+   "readers": [
+    true,
+    true,
+    true
+   ],
+   "subject": "(Or*1000, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "disagreeing obstruent",
+   "indexing": "locus",
+   "policy": "dynamic_stop",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or*1000, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "0",
+   "gap": "vowel",
+   "indexing": "locus",
+   "policy": "dynamic_stop",
+   "readers": [
+    false,
+    false,
+    false
+   ],
+   "subject": "(None, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "reference",
+   "indexing": "subject",
+   "policy": "dynamic_stop",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 0,
+   "contribution": "0",
+   "gap": "agreeing obstruent",
+   "indexing": "subject",
+   "policy": "dynamic_stop",
+   "readers": [
+    true,
+    true,
+    true
+   ],
+   "subject": "(Or*1000, Or1)"
+  },
+  {
+   "a": 0,
+   "contribution": "lambda*w",
+   "gap": "disagreeing obstruent",
+   "indexing": "subject",
+   "policy": "dynamic_stop",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or*1000, Or1)"
+  },
+  {
+   "a": 0,
+   "contribution": "0",
+   "gap": "vowel",
+   "indexing": "subject",
+   "policy": "dynamic_stop",
+   "readers": [
+    false,
+    false,
+    false
+   ],
+   "subject": "(None, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "reference",
+   "indexing": "locus",
+   "policy": "dynamic_skip",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "0",
+   "gap": "agreeing obstruent",
+   "indexing": "locus",
+   "policy": "dynamic_skip",
+   "readers": [
+    true,
+    true,
+    true
+   ],
+   "subject": "(Or*1000, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "disagreeing obstruent",
+   "indexing": "locus",
+   "policy": "dynamic_skip",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or*1000, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "vowel",
+   "indexing": "locus",
+   "policy": "dynamic_skip",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "reference",
+   "indexing": "subject",
+   "policy": "dynamic_skip",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 0,
+   "contribution": "0",
+   "gap": "agreeing obstruent",
+   "indexing": "subject",
+   "policy": "dynamic_skip",
+   "readers": [
+    true,
+    true,
+    true
+   ],
+   "subject": "(Or*1000, Or1)"
+  },
+  {
+   "a": 0,
+   "contribution": "lambda*w",
+   "gap": "disagreeing obstruent",
+   "indexing": "subject",
+   "policy": "dynamic_skip",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or*1000, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "vowel",
+   "indexing": "subject",
+   "policy": "dynamic_skip",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "reference",
+   "indexing": "locus",
+   "policy": "origin_bound",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "agreeing obstruent",
+   "indexing": "locus",
+   "policy": "origin_bound",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "disagreeing obstruent",
+   "indexing": "locus",
+   "policy": "origin_bound",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "vowel",
+   "indexing": "locus",
+   "policy": "origin_bound",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "reference",
+   "indexing": "subject",
+   "policy": "origin_bound",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "agreeing obstruent",
+   "indexing": "subject",
+   "policy": "origin_bound",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "disagreeing obstruent",
+   "indexing": "subject",
+   "policy": "origin_bound",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "vowel",
+   "indexing": "subject",
+   "policy": "origin_bound",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "reference",
+   "indexing": "locus",
+   "policy": "witness",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "0",
+   "gap": "agreeing obstruent",
+   "indexing": "locus",
+   "policy": "witness",
+   "readers": [
+    false,
+    false,
+    false
+   ],
+   "subject": "(None, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "0",
+   "gap": "disagreeing obstruent",
+   "indexing": "locus",
+   "policy": "witness",
+   "readers": [
+    false,
+    false,
+    false
+   ],
+   "subject": "(None, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "0",
+   "gap": "vowel",
+   "indexing": "locus",
+   "policy": "witness",
+   "readers": [
+    false,
+    false,
+    false
+   ],
+   "subject": "(None, Or1)"
+  },
+  {
+   "a": 1,
+   "contribution": "w",
+   "gap": "reference",
+   "indexing": "subject",
+   "policy": "witness",
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject": "(Or2, Or1)"
+  },
+  {
+   "a": 0,
+   "contribution": "0",
+   "gap": "agreeing obstruent",
+   "indexing": "subject",
+   "policy": "witness",
+   "readers": [
+    false,
+    false,
+    false
+   ],
+   "subject": "(None, Or1)"
+  },
+  {
+   "a": 0,
+   "contribution": "0",
+   "gap": "disagreeing obstruent",
+   "indexing": "subject",
+   "policy": "witness",
+   "readers": [
+    false,
+    false,
+    false
+   ],
+   "subject": "(None, Or1)"
+  },
+  {
+   "a": 0,
+   "contribution": "0",
+   "gap": "vowel",
+   "indexing": "subject",
+   "policy": "witness",
+   "readers": [
+    false,
+    false,
+    false
+   ],
+   "subject": "(None, Or1)"
+  }
+ ],
+ "eight_selections": {
+  "appendix+locus": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  },
+  "dynamic_skip+locus": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  },
+  "dynamic_skip+subject": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  },
+  "dynamic_stop+locus": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  },
+  "dynamic_stop+subject": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  },
+  "origin_bound+locus": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  },
+  "origin_bound+subject": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  },
+  "witness+locus": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  },
+  "witness+subject": {
+   "all_eight": true,
+   "per_product": {
+    "C21b": true,
+    "C23UE": true,
+    "C24ei": true,
+    "G34a": true,
+    "G34b": true,
+    "G37c": true,
+    "N7": true,
+    "OR38": true
+   }
+  }
+ },
+ "pairwise_score_differences": {
+  "appendix+locus": {
+   "appendix+locus": 0,
+   "dynamic_skip+locus": 0,
+   "dynamic_skip+subject": 312,
+   "dynamic_stop+locus": 0,
+   "dynamic_stop+subject": 312,
+   "origin_bound+locus": 312,
+   "origin_bound+subject": 312,
+   "witness+locus": 312,
+   "witness+subject": 312
+  },
+  "dynamic_skip+locus": {
+   "appendix+locus": 0,
+   "dynamic_skip+locus": 0,
+   "dynamic_skip+subject": 312,
+   "dynamic_stop+locus": 0,
+   "dynamic_stop+subject": 312,
+   "origin_bound+locus": 312,
+   "origin_bound+subject": 312,
+   "witness+locus": 312,
+   "witness+subject": 312
+  },
+  "dynamic_skip+subject": {
+   "appendix+locus": 312,
+   "dynamic_skip+locus": 312,
+   "dynamic_skip+subject": 0,
+   "dynamic_stop+locus": 312,
+   "dynamic_stop+subject": 0,
+   "origin_bound+locus": 0,
+   "origin_bound+subject": 0,
+   "witness+locus": 0,
+   "witness+subject": 0
+  },
+  "dynamic_stop+locus": {
+   "appendix+locus": 0,
+   "dynamic_skip+locus": 0,
+   "dynamic_skip+subject": 312,
+   "dynamic_stop+locus": 0,
+   "dynamic_stop+subject": 312,
+   "origin_bound+locus": 312,
+   "origin_bound+subject": 312,
+   "witness+locus": 312,
+   "witness+subject": 312
+  },
+  "dynamic_stop+subject": {
+   "appendix+locus": 312,
+   "dynamic_skip+locus": 312,
+   "dynamic_skip+subject": 0,
+   "dynamic_stop+locus": 312,
+   "dynamic_stop+subject": 0,
+   "origin_bound+locus": 0,
+   "origin_bound+subject": 0,
+   "witness+locus": 0,
+   "witness+subject": 0
+  },
+  "origin_bound+locus": {
+   "appendix+locus": 312,
+   "dynamic_skip+locus": 312,
+   "dynamic_skip+subject": 0,
+   "dynamic_stop+locus": 312,
+   "dynamic_stop+subject": 0,
+   "origin_bound+locus": 0,
+   "origin_bound+subject": 0,
+   "witness+locus": 0,
+   "witness+subject": 0
+  },
+  "origin_bound+subject": {
+   "appendix+locus": 312,
+   "dynamic_skip+locus": 312,
+   "dynamic_skip+subject": 0,
+   "dynamic_stop+locus": 312,
+   "dynamic_stop+subject": 0,
+   "origin_bound+locus": 0,
+   "origin_bound+subject": 0,
+   "witness+locus": 0,
+   "witness+subject": 0
+  },
+  "witness+locus": {
+   "appendix+locus": 312,
+   "dynamic_skip+locus": 312,
+   "dynamic_skip+subject": 0,
+   "dynamic_stop+locus": 312,
+   "dynamic_stop+subject": 0,
+   "origin_bound+locus": 0,
+   "origin_bound+subject": 0,
+   "witness+locus": 0,
+   "witness+subject": 0
+  },
+  "witness+subject": {
+   "appendix+locus": 312,
+   "dynamic_skip+locus": 312,
+   "dynamic_skip+subject": 0,
+   "dynamic_stop+locus": 312,
+   "dynamic_stop+subject": 0,
+   "origin_bound+locus": 0,
+   "origin_bound+subject": 0,
+   "witness+locus": 0,
+   "witness+subject": 0
+  }
+ },
+ "transfer_by_product": {
+  "G34a": 156,
+  "G34b": 156
+ },
+ "transfer_examples": [
+  {
+   "current_subject": "(Or6, Or4)",
+   "locus": "Or4",
+   "product": "G34a",
+   "readers": [
+    false,
+    true,
+    false
+   ],
+   "reference_subjects": [
+    "(Or5, Or4)"
+   ],
+   "state": "ah∅ta∅kpʊkɔ"
+  },
+  {
+   "current_subject": "(Or6, Or4)",
+   "locus": "Or4",
+   "product": "G34a",
+   "readers": [
+    false,
+    true,
+    false
+   ],
+   "reference_subjects": [
+    "(Or5, Or4)"
+   ],
+   "state": "ah∅tɜ∅kpʊkɔ"
+  },
+  {
+   "current_subject": "(Or6, Or4)",
+   "locus": "Or4",
+   "product": "G34a",
+   "readers": [
+    false,
+    true,
+    false
+   ],
+   "reference_subjects": [
+    "(Or5, Or4)"
+   ],
+   "state": "ah∅tɛ∅kpʊkɔ"
+  },
+  {
+   "current_subject": "(Or6, Or4)",
+   "locus": "Or4",
+   "product": "G34a",
+   "readers": [
+    false,
+    true,
+    false
+   ],
+   "reference_subjects": [
+    "(Or5, Or4)"
+   ],
+   "state": "ah∅te∅kpʊkɔ"
+  },
+  {
+   "current_subject": "(Or6, Or4)",
+   "locus": "Or4",
+   "product": "G34a",
+   "readers": [
+    false,
+    true,
+    false
+   ],
+   "reference_subjects": [
+    "(Or5, Or4)"
+   ],
+   "state": "ah∅tɪ∅kpʊkɔ"
+  },
+  {
+   "current_subject": "(Or6, Or4)",
+   "locus": "Or4",
+   "product": "G34a",
+   "readers": [
+    false,
+    true,
+    false
+   ],
+   "reference_subjects": [
+    "(Or5, Or4)"
+   ],
+   "state": "ah∅ti∅kpʊkɔ"
+  }
+ ],
+ "transfer_witness_count": 312,
+ "winner_locality": {
+  "appendix+locus": {
+   "local": false,
+   "second_aa": [
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  },
+  "dynamic_skip+locus": {
+   "local": true,
+   "second_aa": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  },
+  "dynamic_skip+subject": {
+   "local": true,
+   "second_aa": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  },
+  "dynamic_stop+locus": {
+   "local": true,
+   "second_aa": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  },
+  "dynamic_stop+subject": {
+   "local": true,
+   "second_aa": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  },
+  "origin_bound+locus": {
+   "local": true,
+   "second_aa": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  },
+  "origin_bound+subject": {
+   "local": true,
+   "second_aa": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  },
+  "witness+locus": {
+   "local": true,
+   "second_aa": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  },
+  "witness+subject": {
+   "local": true,
+   "second_aa": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ],
+   "second_ea": [
+    [
+     "e"
+    ],
+    [
+     "ɔ"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,796 @@
+{
+ "discipline": {
+  "frag_abc (all)": {
+   "declarations": 5,
+   "rejected": {}
+  },
+  "frag_accent (all)": {
+   "declarations": 12,
+   "rejected": {}
+  },
+  "frag_antigem (all)": {
+   "declarations": 3,
+   "rejected": {}
+  },
+  "frag_apocope": {
+   "declarations": 5,
+   "rejected": {}
+  },
+  "frag_arapaho": {
+   "declarations": 19,
+   "rejected": {}
+  },
+  "frag_auto (all)": {
+   "declarations": 6,
+   "rejected": {}
+  },
+  "frag_contact (all)": {
+   "declarations": 5,
+   "rejected": {}
+  },
+  "frag_harmony (all)": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "frag_morphaccent": {
+   "declarations": 23,
+   "rejected": {}
+  },
+  "frag_nuer": {
+   "declarations": 22,
+   "rejected": {}
+  },
+  "frag_ocp (all)": {
+   "declarations": 3,
+   "rejected": {}
+  },
+  "frag_phase (all)": {
+   "declarations": 6,
+   "rejected": {}
+  },
+  "frag_sandhi": {
+   "declarations": 7,
+   "rejected": {}
+  },
+  "frag_stratal": {
+   "declarations": 29,
+   "rejected": {}
+  },
+  "frag_tn (all)": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "frag_turkish (all)": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "frag_voice": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "gua typed": {
+   "declarations": 9,
+   "rejected": {}
+  },
+  "lith RR (dynamic)": {
+   "declarations": 5,
+   "rejected": {}
+  },
+  "lith RR (reference)": {
+   "declarations": 5,
+   "rejected": {}
+  },
+  "lith RR (witness)": {
+   "declarations": 5,
+   "rejected": {}
+  },
+  "redup": {
+   "declarations": 15,
+   "rejected": {}
+  },
+  "redup (foot_hl, superheavy, sync_listed)": {
+   "declarations": 17,
+   "rejected": {}
+  },
+  "schwa": {
+   "declarations": 6,
+   "rejected": {}
+  },
+  "seq:bleeding": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:bleeding:ltr": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:counterbleeding": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:counterbleeding:ltr": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:counterfeeding": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:counterfeeding:ltr": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:feeding": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:feeding:ltr": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:mutual_bleeding_h_first": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:mutual_bleeding_h_first:ltr": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:mutual_counterbleeding": {
+   "declarations": 4,
+   "rejected": {}
+  },
+  "seq:mutual_counterbleeding:ltr": {
+   "declarations": 4,
+   "rejected": {}
+  }
+ },
+ "not_checked": {},
+ "proposition": {
+  "gua_A_appendix": {
+   "accepted": false,
+   "faults": [
+    "definedness-override",
+    "resolution-split:step:succ:+1",
+    "unscoped-nontotal-subject:n_free"
+   ]
+  },
+  "gua_A_typed": {
+   "accepted": true
+  },
+  "lithuanian_factorizations": {
+   "RR": {
+    "accepted": true,
+    "rejected": {}
+   },
+   "RS": {
+    "accepted": false,
+    "rejected": {
+     "NOGEM": [
+      "definedness-override",
+      "resolution-split:step:succ:+1"
+     ]
+    }
+   },
+   "SR": {
+    "accepted": false,
+    "rejected": {
+     "AGREE": [
+      "definedness-override",
+      "resolution-split:step:succ:+1"
+     ]
+    }
+   },
+   "SS": {
+    "accepted": false,
+    "rejected": {
+     "AGREE": [
+      "definedness-override",
+      "resolution-split:step:succ:+1"
+     ],
+     "NOGEM": [
+      "definedness-override",
+      "resolution-split:step:succ:+1"
+     ]
+    }
+   }
+  },
+  "note": "the S readers are constructed as the appendix describes them (a relational trigger in the context, the same relatum as a surviving-origin subject in the consequence, a declared definedness); the appendix's own S declarations are in the dissertation's repository, not in this workspace"
+ },
+ "renaming_equivariance": {
+  "mismatches": 0,
+  "renamed_candidates": 1758
+ },
+ "restatements": {
+  "CONTIG (apocope)": {
+   "candidates": 64,
+   "differences": 0,
+   "legacy_rejected": [
+    "resolution-split:step:succ:+1",
+    "trigger-slot-in-consequence:nr"
+   ],
+   "restated_accepted": true
+  },
+  "PSP (morphaccent)": {
+   "candidates": 3674,
+   "differences": 0,
+   "legacy_rejected": [
+    "resolution-split:step:succ:-1"
+   ],
+   "restated_accepted": true
+  }
+ },
+ "seconds": 10.2,
+ "well_formedness": {
+  "gua:C21b": {
+   "candidates": 169,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "gua:C23UE": {
+   "candidates": 169,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "gua:C24ei": {
+   "candidates": 169,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "gua:G34a": {
+   "candidates": 2197,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "gua:G34b": {
+   "candidates": 2197,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "gua:G37c": {
+   "candidates": 2197,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "gua:N7": {
+   "candidates": 169,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "gua:OR38": {
+   "candidates": 2197,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "lith:ap-berti": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "lith:ap-gauti": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "lith:at-taiki:ti": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N1": {
+   "candidates": 11,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N10": {
+   "candidates": 22,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N11": {
+   "candidates": 9,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N12": {
+   "candidates": 51,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N2": {
+   "candidates": 24,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N3": {
+   "candidates": 17,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N4": {
+   "candidates": 41,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N5": {
+   "candidates": 63,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N6": {
+   "candidates": 12,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N7": {
+   "candidates": 31,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N8": {
+   "candidates": 12,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:N9": {
+   "candidates": 22,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:R1": {
+   "candidates": 31,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:R2": {
+   "candidates": 31,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "redup:R3": {
+   "candidates": 57,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "schwa:1": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "schwa:2": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "schwa:3": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "schwa:4": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "schwa:5": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "schwa:6": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "schwa:7": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "schwa:8": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:bleeding:kim": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:bleeding:kimIn": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:bleeding:timIn": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:changtin:MR": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:changtin:MRM": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:changtin:RM": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:changtin:RMR": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:circular_chain_shift:XAY": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:circular_chain_shift:XBY": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:circular_chain_shift:XQY": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:counterbleeding:kim": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:counterbleeding:kimIn": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:counterbleeding:timIn": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:counterfeeding:kVN": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:counterfeeding:kVNT": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:counterfeeding:kVNV": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:fed_counterfeeding:CVCVCV": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:fed_counterfeeding:CVCVK": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:fed_counterfeeding:CVCVKV": {
+   "candidates": 16,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:feeding:kVN": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:feeding:kVNT": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:feeding:kVNV": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_h_first:darw": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_h_first:gahe": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_h_first:gaht": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_h_first:gahw": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_h_first:maw": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_voc_first:darw": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_voc_first:gahe": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_voc_first:gaht": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_voc_first:gahw": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_bleeding_voc_first:maw": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterbleeding:darw": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterbleeding:gahe": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterbleeding:gaht": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterbleeding:gahw": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterbleeding:maw": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:ah@pe": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:ah@pr@mu": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:ah@pt": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:gahe": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:gahr@mu": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:gaht": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:mae": {
+   "candidates": 1,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:mar@mu": {
+   "candidates": 2,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding:mat": {
+   "candidates": 1,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding_deletions:CVC": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:mutual_counterfeeding_deletions:CVCV": {
+   "candidates": 16,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:noniterative_left_to_right:VC@C@CV": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:noniterative_right_to_left:VC@C@CV": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:noniterative_simultaneous:VC@C@CV": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:self_bleeding:pLsLvL": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:self_counterbleeding:pLsLvL": {
+   "candidates": 8,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:self_counterfeeding:uyy": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:self_feeding:uyy": {
+   "candidates": 4,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:vipratisedha_blocking:aki": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:vipratisedha_blocking:ika": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:vipratisedha_blocking:iki": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:vipratisedha_first_wins:aki": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:vipratisedha_first_wins:ika": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  },
+  "seq:vipratisedha_first_wins:iki": {
+   "candidates": 3,
+   "first_fault": null,
+   "ill_formed": 0,
+   "reference_well_formed": true
+  }
+ }
+}

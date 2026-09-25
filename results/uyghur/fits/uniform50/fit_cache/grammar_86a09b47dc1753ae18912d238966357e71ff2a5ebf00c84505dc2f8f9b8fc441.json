@@ -1,0 +1,74 @@
+{
+  "kind": "grammar",
+  "cache_key": "86a09b47dc1753ae18912d238966357e71ff2a5ebf00c84505dc2f8f9b8fc441",
+  "block_key": "43df9afd7bbb08c16a32c53d9b371bf2731a1085c0b15d2f9d9a4be61ba45707",
+  "variant": "unrounded_strict",
+  "model": "retention_bounded",
+  "approximation": "not_applicable",
+  "alpha": 0.1,
+  "beta_key": "9297b67c34d25927038c7768591d5124c974efedfcce0b16b495072360bd7e1e",
+  "hu_key": null,
+  "offset_key": null,
+  "fit": {
+    "model": "retention",
+    "parameters": {
+      "A": 2.0973432336367237,
+      "B": 0.9505344075691267
+    },
+    "objective": 0.3521612713143288,
+    "regularization_alpha": 0.1,
+    "converged": true,
+    "iterations": 9,
+    "internal_coordinates": [
+      0.9505344075691267,
+      1.1468088260675968
+    ],
+    "gradient": [
+      -1.255595599713999e-09,
+      6.383256145880978e-10
+    ],
+    "projected_gradient_max_abs": 1.255595599713999e-09,
+    "finite_difference_max_abs_error": 1.7319756739908598e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "objective": 0.3521612713143288,
+        "projected_gradient_max": 1.255595599713999e-09,
+        "finite_difference_error": 1.7319756739908598e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      1939.0,
+      3.0,
+      13603.0,
+      199.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 11,
+      "0010": 198,
+      "0011": 23,
+      "1000": 34,
+      "1010": 13,
+      "1100": 3
+    },
+    "training_rows": 282,
+    "feature_difference_rows": 846,
+    "feature_difference_columns": 2,
+    "feature_difference_rank": 2,
+    "feature_difference_sha256": "a0977fa69f52145562a4bcb3aa8f55d571d51a169956fe3801413491af5e7eed",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

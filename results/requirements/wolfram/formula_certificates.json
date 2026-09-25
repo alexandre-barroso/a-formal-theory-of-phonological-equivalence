@@ -1,0 +1,9 @@
+{
+	"distinct_checks":190,
+	"passed":190,
+	"failed_indices":[],
+	"methods":{
+		"abstract":125,
+		"counterexample":65
+	}
+}

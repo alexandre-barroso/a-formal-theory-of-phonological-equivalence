@@ -1,0 +1,78 @@
+{
+  "kind": "grammar",
+  "cache_key": "0102eeada6deab0fe8f848d3d189df1f81b64dc313564c0b6636aba2940a3345",
+  "block_key": "dad5d4ffe3a4823687c1aff1acc1f86d373ce81b85b782fae1c4b7716c711349",
+  "variant": "all_agreeing_offsets",
+  "model": "retention_bounded_plus_HU",
+  "approximation": "laplace",
+  "alpha": 0.01,
+  "beta_key": "bc4c01aca12fdba5c82a51d4f0cda752086c093a31d50f30851ace0fc5845b39",
+  "hu_key": "3329ef633f72625fc2d849cf22764fb9fd66a1c1fdcca953ee468188478867c1",
+  "offset_key": "b9e9cd2ec943f39d4967c0980476c81d3f3876faa0eae88f029765bd2593c5b4",
+  "fit": {
+    "model": "retention_hu",
+    "parameters": {
+      "A": 2.735951057068504,
+      "B": 1.4608788339728083,
+      "HU": 1.3814205827507406
+    },
+    "objective": 0.10285024463210987,
+    "regularization_alpha": 0.01,
+    "converged": true,
+    "iterations": 14,
+    "internal_coordinates": [
+      1.4608788339728083,
+      1.275072223095696,
+      1.3814205827507406
+    ],
+    "gradient": [
+      -3.56663802138224e-09,
+      -1.8127053937749826e-09,
+      -3.744089187990296e-10
+    ],
+    "projected_gradient_max_abs": 3.56663802138224e-09,
+    "finite_difference_max_abs_error": 5.561665534055103e-13,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 14,
+        "objective": 0.10285024463210987,
+        "projected_gradient_max": 3.56663802138224e-09,
+        "finite_difference_error": 5.561665534055103e-13,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      8539.0,
+      4.0,
+      30281.0,
+      306.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 14,
+      "0010": 313,
+      "0011": 34,
+      "0100": 1,
+      "1000": 50,
+      "1010": 15,
+      "1100": 3
+    },
+    "training_rows": 430,
+    "feature_difference_rows": 1290,
+    "feature_difference_columns": 3,
+    "feature_difference_rank": 3,
+    "feature_difference_sha256": "6f3a6d660e90cc9ea04b6cdfd9f91c25a894c2529b67528a2272e54d8b247116",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

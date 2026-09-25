@@ -1,0 +1,43 @@
+SetDirectory[DirectoryName[$InputFileName]];
+Get["model.wl"];
+Get["GuaData.wl"]; inputs=inputsSelection;
+observations=observationsSelection;
+alpha=grammar["alphabet"];inv=grammar["inventory"];weights={20,1,1,2,4,8,8,24,1};
+check[x_,label_]:=If[!TrueQ[x],Print["FAILED ",label];Exit[1]];
+countsSelection[s_,r_]:=Table[Total[Table[
+ p=r[[2,k,q]]&&!r[[3,k,q]];b=r[[1,k,q]];
+ If[5<=k<=8,a=initial[[1,k,q]];v=a&&initial[[2,k,q]]&&!initial[[3,k,q]];
+ Boole/@{p&&a,p&&!a&&b,p&&v,p&&!v&&b,p&&b&&v,p&&b&&!v},
+ v=p&&b;Boole/@{v,False,v,False,v,False}],{q,Length[origin]}]],{k,9}];
+scoresSelection[cs_]:=Table[Total[Table[weights[[k]](8 cs[[k,2j-1]]+cs[[k,2j]]),{k,9}]],{j,3}];
+cases=Table[
+ name=input["id"];origin=Lookup[input["slots"],"phone"];words=Lookup[input["slots"],"word"];focal=input["focal"]+1;phrases=input["phrases"];
+ origft=ft/@origin;tuples=Tuples[Range[0,12],Length[focal]];powers=13^Reverse[Range[0,Length[focal]-1]];
+ initial=readState[origin];start=Total[(First[FirstPosition[alpha,#]]-1&/@origin[[focal]])powers];
+ records=Table[s=expandState[co=tuples[[i+1]]];r=readState[s];cs=countsSelection[s,r];ed=unaryEdges[i];
+ check[Length[ed]==12 Length[focal]&&DuplicateFreeQ[ed],"edge count"];
+ check[AllTrue[ed,0<=#<Length[tuples]&&Count[MapThread[Unequal,{co,tuples[[#+1]]}],True]==1&],"edge meaning"];
+ {i,co,s,realizeState[s],lexicalView[s],r[[1]],r[[2]],r[[3]],r[[4]],cs,scoresSelection[cs],ed},{i,0,Length[tuples]-1}];
+ observation=SelectFirst[observations,#["id"]==name&];fiber=Select[Range[0,Length[tuples]-1],MemberQ[observation["allowed"],records[[#+1,4]]]&];
+ global=Table[ps=records[[All,11,j]];minimum=Min[ps];wins=Flatten[Position[ps,minimum]]-1;
+ wrong=ps[[Complement[Range[Length[ps]],fiber+1]]];
+ <|"minimum8"->minimum,"winners"->wins,"correct"->(wins===fiber),"wrong_margin8"->(Min[wrong]-Min[ps[[fiber+1]]])|>,{j,3}];
+ ps=records[[All,11,3]];pending={start};selected=<||>;terminals={};
+ While[Length[pending]>0,i=Last[pending];pending=Most[pending];If[KeyExistsQ[selected,i],Continue[]];
+ es=records[[i+1,12]];v=Min[ps[[es+1]]+8];ts=If[ps[[i+1]]<=v,{},Select[es,ps[[#+1]]+8==v&]];
+ AssociateTo[selected,i->ts];If[ts=={},AppendTo[terminals,i]];check[AllTrue[ts,ps[[#+1]]+8<ps[[i+1]]&],"descent"];pending=Join[pending,ts]];
+ local=<|"cost8"->8,"selected"->Table[{i,selected[i]},{i,Sort[Keys[selected]]}],"terminals"->Sort[terminals],"correct"->(Sort[terminals]===fiber)|>;
+ Print[name," states ",Length[records]," fiber ",fiber," global ",global," local ",local];
+ <|"id"->name,"start"->start,"fiber"->fiber,"global_results"->global,"local_cm"->local,"records"->records|>,{input,inputs}];
+check[Total[Length[#["records"]]&/@cases]==6929,"all states"];
+edgeCount=Total[Flatten[Length/@#["records"][[All,12]]&/@cases]];check[edgeCount==245388,"all edges"];
+goal=cases[[1]]["records"][[775]];rival=cases[[1]]["records"][[606]];
+check[cases[[1]]["fiber"]=={774}&&goal[[4]]=="ahetɔɔkpʊkɔ"&&rival[[4]]=="ahɛtɔɔkpʊkɔ","G34a readout"];
+check[goal[[10,5;;8,5;;6]]==ConstantArray[0,{4,2}]&&rival[[10,5;;8,5;;6]]==ConstantArray[0,{4,2}],"zero CM"];
+delta=(goal[[10,All,5]]-rival[[10,All,5]]).Array[w,9];
+check[Expand[delta]==w[2],"reader-derived symbolic pressure difference"];
+check[Reduce[And@@Thread[Array[w,9]>=0]&&delta<0,Array[w,9],Reals]===False,"global bound all weights"];
+check[cases[[1]]["start"]==566&&MemberQ[cases[[1]]["records"][[567,12]],605]&&!MemberQ[cases[[1]]["records"][[567,12]],774],"local barrier edges"];
+check[!MemberQ[cases[[1]]["local_cm"]["selected"][[All,1]],774],"local barrier fixed-vector consequence"];
+check[Reduce[pFirst<=pRival&&pRival<=pGoal&&pGoal<pFirst,{pFirst,pRival,pGoal},Reals]===False,"general strict-descent barrier contradiction"];
+Print["PASS complete records, readers/fibers and symbolic bound; Wolfram ",$Version];

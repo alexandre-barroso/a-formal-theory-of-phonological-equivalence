@@ -1,0 +1,17 @@
+{
+ "files": {
+  "adequacy_gua.json": "0dd9e13a5a2b703d",
+  "adequacy_lithuanian.json": "d0e508a8ae0b96cb",
+  "carrier.json": "09d938e0688f8e60",
+  "coefficient_identity.json": "fb010fd87af9b886",
+  "discriminators.json": "caaf2a339ccc9305",
+  "lithuanian_region.json": "425bdc9d54d1bf9f",
+  "nucleus_audit.json": "2c35cd81ef45e0b9",
+  "obligation_indexing.json": "c0a7f56b00eccd1c",
+  "probe_g6.json": "4f0b39cca4b4bb8b",
+  "record_ablation.json": "81409319e9d7a1f4",
+  "region_equality.json": "08e4bb3b21f832bd",
+  "resolver_variants.json": "f7c450b584d97f48",
+  "winner_locality.json": "bcfad128c3371636"
+ }
+}

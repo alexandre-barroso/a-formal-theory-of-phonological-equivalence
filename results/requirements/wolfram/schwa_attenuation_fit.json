@@ -1,0 +1,24 @@
+{
+	"independent_contexts":8,
+	"algebra_checks":8,
+	"requested_working_precision":35,
+	"lambda":0.6316579569364107,
+	"deviance":1.311180405426535,
+	"observable_coefficients":[
+		-2.467544747389940,
+		0.2336350539080261,
+		3.329022755796255,
+		0.6292237864050716
+	],
+	"profile95":[
+		0.4809256747363941,
+		0.8120472924701614
+	],
+	"fixed_lambda_deviances":{
+		"0":104.6176791137401,
+		"1\/8":63.65518675066983,
+		"1":14.64029631431325
+	},
+	"source":"Smith and Pater2020 Table14p24; Flemming2021 supplemental schwa_models.R rounds162 times those proportions",
+	"scope":"Aggregate reconstructed-count reference likelihood; numerical optimizer results cross-checked separately, not a proof of sampling adequacy or maximum attainable numerical precision."
+}

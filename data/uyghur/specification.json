@@ -1,0 +1,108 @@
+{
+  "sample": {
+    "input_source": "all three conservative parse archives, exact nominal accusative/dative/locative and root-final low BB/BF/FB/FF fragment",
+    "intended_incidence_count": 70341,
+    "target_roots": 524,
+    "target_roots_with_interpretable_observations": 515,
+    "target_roots_with_no_interpretable_observations": 9,
+    "rule": "Keep all intended roots and observations in input and coverage inventories. Score only interpretable observations; no fabricated label or pseudocount is assigned to unresolved observations. All models use identical scored rows.",
+    "side_observed_target_roots": "Report as a separate availability stratum, not the only primary sample.",
+    "manual_exclusions": "retain source manual flags; no primary deletion based on them",
+    "unrounded_sensitivity": "input-defined all harmonic root vowels are a/e; same analysis scheme"
+  },
+  "partition": {
+    "unit": "root spelling",
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "seed": "AUDIT-POLISH-2.0-CODEX-UYGHUR-NOMINAL-V1",
+    "strata": "BB/BF/FB/FF template crossed with input-defined unrounded status",
+    "ordering": "SHA256 of seed, stratum and root separated by NUL; round-robin within stratum with deterministic stratum offset",
+    "rule": "All target observations of each outer root remain together. Every inner map contains only the corresponding outer-training roots. No outcomes enter partition generation."
+  },
+  "information": {
+    "primary": "side-informed root transfer: test accusative counts may set its baseline; target dative/locative outcomes are withheld",
+    "secondary": "wholly unseen root: all test side and target observations withheld; training prior and root structure only",
+    "shared": "All models receive the same reference features, side information and transformations. Hyperparameters, HU estimation, cost offsets and regularization use the corresponding training block only.",
+    "HU": "Same source full-interaction binomial-logit random-intercept architecture, now with explicitly declared proper Gaussian regularization of all original eleven fixed-effect coefficients, fitted within each block. Fixed-effects-only predictions for both training grammar features and withheld roots; no fitted conditional root intercept enters features.",
+    "source_scope": "This tests generalization when held-out harmonic paradigms are unavailable. It is not a claim about the published model's fit when the same root's harmonic outputs are available. The released published analysis remains separately reconstructed."
+  },
+  "models": [
+    "retention_bounded",
+    "retention_nonnegative",
+    "current_only",
+    "input_plus_surface",
+    "HU_plus_surface",
+    "retention_bounded_plus_HU"
+  ],
+  "general_retention_boundary": "A=0,B>0 is a limiting law, not an attained finite H,lambda grammar. A=B=0 leaves lambda unidentified. A>0 permits lambda=B/A. Report boundary behavior explicitly.",
+  "raising_baseline": "Within each corresponding training block, separately for final a/e, form the proper beta-binomial hyperposterior in mu and r=1/(1+c). Fixed independent priors mu~Beta(1/2,1/2), r~Beta(1,1) for the primary analysis. Set mu_hat=E[mu|training side counts], r_hat=E[r|training side counts], c_hat=(1-r_hat)/r_hat, alpha=mu_hat*c_hat, beta=(1-mu_hat)*c_hat. Then use exactly the existing plug-in rho=(k+alpha)/(n+alpha+beta), d=log((1-rho)/rho). This is an explicitly declared point-summary working baseline, not the full posterior predictive mixture.",
+  "control_sensitivity": "Two additive suffix offsets estimated from training BB/FF raising counts ONLY; freeze before BF/FB predictions; same offsets for all comparators; count two added nuisance choices. Use fixed ridge 0.0001 if separation prevents a finite estimate, disclose its use.",
+  "grammar_fitting": {
+    "objective": "Mean per-incidence multinomial negative log likelihood plus alpha/2 times squared Euclidean norm in declared native nonnegative coordinates",
+    "alpha_grid": [
+      0,
+      0.0001,
+      0.001,
+      0.01,
+      0.1
+    ],
+    "selection": "Maximize inner root-balanced mean log density. Differences within 1e-8 select the larger alpha.",
+    "penalty_scope": "Regularization depends on coordinates; it is not a representation-invariant theory-economy measure. Report the unregularized sensitivity where a finite checked fit exists.",
+    "checks": "Analytic gradients, independent finite differences and nonnegative-cone projected KKT; actual tolerances frozen in the validated executable, not relaxed after comparative outcomes."
+  },
+  "evaluation": {
+    "primary": "Root-balanced out-of-fold mean joint log predictive density",
+    "required_secondary": [
+      "incidence-weighted joint log density",
+      "raising marginal",
+      "suffix-harmony marginal",
+      "agreeing versus opposed",
+      "dative versus locative",
+      "BB/BF/FB/FF",
+      "final a/e",
+      "three source breakdowns",
+      "with/without accusative availability",
+      "unrounded input sensitivity",
+      "coverage of all intended inputs"
+    ],
+    "uncertainty": "Paired bootstrap of per-root out-of-fold score differences, 5000 replicates, seed 2026092007; intervals conditional on fitted folds/models. This does not establish independence of incidences, articles or speakers, nor include full refitting uncertainty.",
+    "multiple_comparisons": "Report the complete prespecified comparison table. No selective model/fold reporting or nominal iid-token significance claims.",
+    "claim_rule": "A relative score advantage alone is not confirmation of input memory. Interpret the joint restrictions, transfer controls, representational alternatives and lexical extension together. Negative or inconclusive outcomes remain visible."
+  },
+  "nuisance_prior_sensitivity": {
+    "rho_prior": "beta_half_half",
+    "prior": "Same mu prior; r~Beta(1/2,1/2)",
+    "scope": "Repeat the same complete prespecified comparison into separate outputs; never select the prior by target likelihood or model ranking. The prior is an observation-model assumption common to all six grammars, not a phonological parameter or uniquely objective choice."
+  },
+  "HU_estimator": {
+    "type": "Penalized marginal-likelihood point estimate / Gaussian-prior MAP approximation; not published unregularized glmer ML and not full Bayesian posterior prediction",
+    "native_columns": [
+      "intercept",
+      "last_one_F",
+      "log_acc_frequency",
+      "acc_raised_prop",
+      "last_one_F:log_acc_frequency",
+      "last_one_F:acc_raised_prop",
+      "log_acc_frequency:acc_raised_prop",
+      "last_one_F:log_acc_frequency:acc_raised_prop",
+      "has_name",
+      "has_ane",
+      "has_che"
+    ],
+    "penalty": "sum(beta_j^2)/(2*tau^2), including intercept, in the eleven original source-formula coordinates. Add to the sum (not mean) negative marginal log likelihood. Log frequency remains standardized by the corresponding training block; rho remains on its original0–1 scale.",
+    "primary_tau": 20.0,
+    "fixed_sensitivity_tau": 50.0,
+    "rationale": "Exact separation prevents a finite unregularized estimate in an actual required training partition. Proper regularization supplies a finite, explicitly assumption-dependent estimator. Both fixed scales are broad relative to unit-logit changes and permit nearly deterministic class predictions; neither is claimed uniquely objective or learned from held-out outcomes. Their effect is reported, not selected for a favorable mechanism ranking.",
+    "all_blocks": "Use the same estimator on every training block, in both HU_plus_surface and retention_bounded_plus_HU. Do not regularize only failed folds.",
+    "rank": "Fit all eleven native coefficients. Report data-design rank/constant/dependent columns as diagnostics; do not drop dependent columns and then silently impose a different Gaussian prior. Zero-information coefficients are controlled by the declared prior.",
+    "variance": "Keep the pre-existing log_sigma bounds[-8,log20] for numerical search and the original gate rejecting a fit at either bound. No new sigma prior or phonological restriction is asserted.",
+    "optimization": "Same three sigma starts .1,.5,2, genuine optimizer and second-order convergence, original residual/FD/PG/multistart criteria. Differentiate the penalized objective; separately retain data likelihood, penalty, and unpenalized gradient diagnostics.",
+    "complexity": "All11 regression coefficients plus random-effect variance belong to the shared HU observation layer. Tau is a declared fixed regularization assumption, not a fitted phonological parameter. Data-design rank and native prior geometry are distinct; no representation-invariant economy claim.",
+    "sensitivity_runs": "Cross tau20/50 with both already frozen raising-baseline priors. Four complete isolated comparison outputs; non-HU models must be identical across tau for a fixed baseline prior. No new outcome/fold/model selection rule."
+  },
+  "study_type": "Retrospective corpus-based comparison, with outcome-blind root partitions and nested training-only information policies.",
+  "baseline_numerics": {
+    "method": "Tensor Gauss-Jacobi quadrature with exact beta-prior weights and log-sum-exp likelihood normalization; orders32,64,128,256,512,1024. Stop on required mean/shape/log-evidence refinement agreement; retain diagnostics. No optimizer bound is reclassified as a successful MLE.",
+    "gate": "Positive finite alpha/beta and interior posterior means; refinement mean changes<=1e-7, shape relative changes<=1e-4, log-evidence change<=1e-5. Unmet convergence blocks the comparison."
+  }
+}

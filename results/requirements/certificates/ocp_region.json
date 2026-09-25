@@ -1,0 +1,946 @@
+{
+ "above_threshold_pairs": 350,
+ "candidates": [
+  {
+   "candidate": [
+    false,
+    false,
+    0,
+    0
+   ],
+   "coefficients": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    false,
+    0,
+    1
+   ],
+   "coefficients": [
+    2,
+    0,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    false,
+    0,
+    null
+   ],
+   "coefficients": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    false,
+    1,
+    0
+   ],
+   "coefficients": [
+    2,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    false,
+    1,
+    1
+   ],
+   "coefficients": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    false,
+    1,
+    null
+   ],
+   "coefficients": [
+    2,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    false,
+    null,
+    0
+   ],
+   "coefficients": [
+    2,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    false,
+    null,
+    1
+   ],
+   "coefficients": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    false,
+    null,
+    null
+   ],
+   "coefficients": [
+    2,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    0,
+    0
+   ],
+   "coefficients": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    0,
+    1
+   ],
+   "coefficients": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    0,
+    null
+   ],
+   "coefficients": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    1,
+    0
+   ],
+   "coefficients": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    1,
+    1
+   ],
+   "coefficients": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    1,
+    null
+   ],
+   "coefficients": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    null,
+    0
+   ],
+   "coefficients": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    null,
+    1
+   ],
+   "coefficients": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    false,
+    true,
+    null,
+    null
+   ],
+   "coefficients": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     true,
+     true
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    0,
+    0
+   ],
+   "coefficients": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    0,
+    1
+   ],
+   "coefficients": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    0,
+    null
+   ],
+   "coefficients": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    1,
+    0
+   ],
+   "coefficients": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    1,
+    1
+   ],
+   "coefficients": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    1,
+    null
+   ],
+   "coefficients": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    null,
+    0
+   ],
+   "coefficients": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    null,
+    1
+   ],
+   "coefficients": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    false,
+    null,
+    null
+   ],
+   "coefficients": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     true,
+     true
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    0,
+    0
+   ],
+   "coefficients": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    0,
+    1
+   ],
+   "coefficients": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "ocp_readers": [
+    [
+     true,
+     true,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    0,
+    null
+   ],
+   "coefficients": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    1,
+    0
+   ],
+   "coefficients": [
+    0,
+    2,
+    0,
+    1
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     true,
+     true,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    1,
+    1
+   ],
+   "coefficients": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    1,
+    null
+   ],
+   "coefficients": [
+    0,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    null,
+    0
+   ],
+   "coefficients": [
+    0,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    null,
+    1
+   ],
+   "coefficients": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  },
+  {
+   "candidate": [
+    true,
+    true,
+    null,
+    null
+   ],
+   "coefficients": [
+    0,
+    2,
+    0,
+    0
+   ],
+   "ocp_readers": [
+    [
+     false,
+     false,
+     false
+    ],
+    [
+     false,
+     false,
+     false
+    ]
+   ]
+  }
+ ],
+ "exact_region": "w>min(t,a) and 2a+lambda*w>min(t,a)",
+ "grid_cases": 625,
+ "minimum": "min(w,t,a)",
+ "scope": "Two tones/two bearers, 36 containment structures; no fusion, new-association penalty, directional head constraint or full Myers GEN translation.",
+ "weight_invariance": "Complete minimizers invariant for fixed nonnegative t,a,lambda when both OCP weights exceed min(t,a)."
+}

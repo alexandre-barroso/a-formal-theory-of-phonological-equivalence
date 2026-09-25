@@ -1,0 +1,120 @@
+{
+ "both_boundary_owners_present": [
+  true,
+  true
+ ],
+ "cases": [
+  {
+   "bound": 0,
+   "independent_count": 9,
+   "native_canonical_structures": 9,
+   "words": [
+    "a",
+    "a"
+   ]
+  },
+  {
+   "bound": 1,
+   "independent_count": 45,
+   "native_canonical_structures": 45,
+   "words": [
+    "a",
+    "a"
+   ]
+  },
+  {
+   "bound": 2,
+   "independent_count": 135,
+   "native_canonical_structures": 135,
+   "words": [
+    "a",
+    "a"
+   ]
+  },
+  {
+   "bound": 0,
+   "independent_count": 27,
+   "native_canonical_structures": 27,
+   "words": [
+    "a",
+    "at"
+   ]
+  },
+  {
+   "bound": 1,
+   "independent_count": 162,
+   "native_canonical_structures": 162,
+   "words": [
+    "a",
+    "at"
+   ]
+  },
+  {
+   "bound": 2,
+   "independent_count": 567,
+   "native_canonical_structures": 567,
+   "words": [
+    "a",
+    "at"
+   ]
+  },
+  {
+   "bound": 0,
+   "independent_count": 81,
+   "native_canonical_structures": 81,
+   "words": [
+    "at",
+    "ta"
+   ]
+  },
+  {
+   "bound": 1,
+   "independent_count": 567,
+   "native_canonical_structures": 567,
+   "words": [
+    "at",
+    "ta"
+   ]
+  },
+  {
+   "bound": 2,
+   "independent_count": 2268,
+   "native_canonical_structures": 2268,
+   "words": [
+    "at",
+    "ta"
+   ]
+  },
+  {
+   "bound": 0,
+   "independent_count": 81,
+   "native_canonical_structures": 81,
+   "words": [
+    "ata",
+    "t"
+   ]
+  },
+  {
+   "bound": 1,
+   "independent_count": 567,
+   "native_canonical_structures": 567,
+   "words": [
+    "ata",
+    "t"
+   ]
+  },
+  {
+   "bound": 2,
+   "independent_count": 2268,
+   "native_canonical_structures": 2268,
+   "words": [
+    "ata",
+    "t"
+   ]
+  }
+ ],
+ "complete_coefficient_projection_checks": 6777,
+ "global_cutoff_counterexample_detected": true,
+ "reader_projection_checks": 144216,
+ "scope": "Independent interleaving enumeration compared with the native set/insert closure, modulo created-node renaming. Base declarations only; frozen activation and all old/new coefficients checked before weights."
+}

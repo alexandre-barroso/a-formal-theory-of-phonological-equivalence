@@ -1,0 +1,1137 @@
+{
+ "appendix_2_products": {
+  "paso": {
+   "pás": 0.61,
+   "páso": 0.39
+  },
+  "pasos": {
+   "pás": 0.359,
+   "páso": 0.561,
+   "pásos": 0.08
+  }
+ },
+ "counterfeeding_bound": {
+  "bound": "lambda < w_MAX / w_FC = 1/5",
+  "by_lambda_at_w_FC_10_w_MAX_2": {
+   "0": {
+    "páso": [
+     "pás"
+    ],
+    "pásos": [
+     "pás"
+    ]
+   },
+   "1": {
+    "páso": [
+     "pá"
+    ],
+    "pásos": [
+     "pá"
+    ]
+   },
+   "1/16": {
+    "páso": [
+     "pás"
+    ],
+    "pásos": [
+     "pás"
+    ]
+   },
+   "1/2": {
+    "páso": [
+     "pá"
+    ],
+    "pásos": [
+     "pá"
+    ]
+   },
+   "1/4": {
+    "páso": [
+     "pá"
+    ],
+    "pásos": [
+     "pá"
+    ]
+   },
+   "1/5": {
+    "páso": [
+     "pá",
+     "pás"
+    ],
+    "pásos": [
+     "pá",
+     "pás"
+    ]
+   },
+   "1/8": {
+    "páso": [
+     "pás"
+    ],
+    "pásos": [
+     "pás"
+    ]
+   }
+  }
+ },
+ "coupling": {
+  "complete_fiber_log_odds_C": "w_U - w_MAX - lambda*w_FC - w_MAX_V_BEFORE_C + log(1+exp(-w_CONTIG-(1-lambda)*w_FC))",
+  "complete_fiber_log_odds_V": "w_U - w_MAX - lambda*w_FC",
+  "cost_differences_pas_minus_paso": {
+   "p á s o": {
+    "CONTIG": "0",
+    "MAX": "1",
+    "MAX_V_INIT": "0",
+    "NO_FINAL_C": "1/8",
+    "NO_UNSTR_V": "-1"
+   },
+   "p á s o s": {
+    "CONTIG": "0",
+    "MAX": "1",
+    "MAX_V_INIT": "0",
+    "NO_FINAL_C": "1/8",
+    "NO_UNSTR_V": "-1"
+   }
+  },
+  "identical": true,
+  "observed_conditional_rates": {
+   "C_final_given_C_deletion": 0.393,
+   "V_final": 0.611
+  },
+  "scope": "Suffix-deletion representatives. Complete C-final pas fiber contains a second correspondence.",
+  "without_contextual_faithfulness": "C-final apocope odds are at least V-final apocope odds in this declared fragment.",
+  "z": 2.74,
+  "z_scope": "Descriptive pooled independent-binomial calculation; speaker clustering and lexical sampling are not modeled. No inferential p-value is asserted."
+ },
+ "lambda": "1/8",
+ "maxent_with_contextual": {
+  "MAE_over_attested_and_other": 2.0625999405372634e-06,
+  "fit_status": "Finite numerical fit, not a certified global maximum or an identified parameter estimate.",
+  "nll": 625.3196739398842,
+  "observation": "Surface law summed over every correspondence in each fiber.",
+  "optimization_runs": [
+   {
+    "iterations": 49,
+    "nll": 625.3196746411522,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 54,
+    "nll": 625.319673940483,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 67,
+    "nll": 625.3196739398842,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 71,
+    "nll": 625.3196739420434,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 67,
+    "nll": 625.3196739399438,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 70,
+    "nll": 625.3196739416904,
+    "status": 0,
+    "success": true
+   }
+  ],
+  "predictions": {
+   "metro C_final": {
+    "attested": {
+     "métɾ": 36.000001583013955,
+     "métɾo": 55.999998837589224,
+     "métɾos": 7.999999579400291
+    },
+    "observed": {
+     "métɾ": 36,
+     "métɾo": 56,
+     "métɾos": 8
+    },
+    "other": 1.3641294734421645e-12
+   },
+   "metro V_final": {
+    "attested": {
+     "métɾ": 61.00000563608175,
+     "métɾo": 38.99999436392079
+    },
+    "observed": {
+     "métɾ": 61,
+     "métɾo": 39
+    },
+    "other": 2.5290342971101663e-129
+   },
+   "oferta C_final": {
+    "attested": {
+     "oféɾt": 36.000001583013955,
+     "oféɾta": 55.999998837582865,
+     "oféɾtas": 7.999999579399382
+    },
+    "observed": {
+     "oféɾt": 36,
+     "oféɾta": 56,
+     "oféɾtas": 8
+    },
+    "other": 1.3641294734428608e-12
+   },
+   "oferta V_final": {
+    "attested": {
+     "oféɾt": 61.00000563608175,
+     "oféɾta": 38.999994363918574
+    },
+    "observed": {
+     "oféɾt": 61,
+     "oféɾta": 39
+    },
+    "other": 6.963355418561537e-25
+   },
+   "paso C_final": {
+    "attested": {
+     "pás": 36.000001583013955,
+     "páso": 55.999998837589224,
+     "pásos": 7.999999579400291
+    },
+    "observed": {
+     "pás": 36,
+     "páso": 56,
+     "pásos": 8
+    },
+    "other": 1.3641294734421645e-12
+   },
+   "paso V_final": {
+    "attested": {
+     "pás": 61.00000563608175,
+     "páso": 38.99999436392079
+    },
+    "observed": {
+     "pás": 61,
+     "páso": 39
+    },
+    "other": 2.7389232091403764e-113
+   },
+   "paxaro C_final": {
+    "attested": {
+     "páxaɾ": 36.00000158300987,
+     "páxaɾo": 55.99999883757649,
+     "páxaɾos": 7.999999579398471
+    },
+    "observed": {
+     "páxaɾ": 36,
+     "páxaɾo": 56,
+     "páxaɾos": 8
+    },
+    "other": 1.841574878795622e-11
+   },
+   "paxaro V_final": {
+    "attested": {
+     "páxaɾ": 61.00000563606789,
+     "páxaɾo": 38.99999436390971
+    },
+    "observed": {
+     "páxaɾ": 61,
+     "páxaɾo": 39
+    },
+    "other": 1.7051619314512257e-11
+   }
+  },
+  "training": "Source Table 6 rounded percentage weights replicated across four schematic word pairs; not 800 independent observations.",
+  "weights": {
+   "CONTIG": 66.84973269668566,
+   "MAX": 301.1870438670969,
+   "MAX_V_BEFORE_C": 0.8891451425023738,
+   "MAX_V_INIT": 97.67892262074513,
+   "NO_FINAL_C": 303.13295404796986,
+   "NO_UNSTR_V": 339.5259755780465
+  }
+ },
+ "maxent_without_contextual": {
+  "MAE_over_attested_and_other": 5.988095240346431,
+  "fit_status": "Finite numerical fit, not a certified global maximum or an identified parameter estimate.",
+  "nll": 643.8031159573944,
+  "observation": "Surface law summed over every correspondence in each fiber.",
+  "optimization_runs": [
+   {
+    "iterations": 49,
+    "nll": 643.8031159854261,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 49,
+    "nll": 643.803115959942,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 51,
+    "nll": 643.8031159573944,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 52,
+    "nll": 643.8031159872901,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 57,
+    "nll": 643.803116267997,
+    "status": 0,
+    "success": true
+   },
+   {
+    "iterations": 62,
+    "nll": 643.8031159578218,
+    "status": 0,
+    "success": true
+   }
+  ],
+  "predictions": {
+   "metro C_final": {
+    "attested": {
+     "métɾ": 46.479166669283586,
+     "métɾo": 45.520833345443954,
+     "métɾos": 7.9999999852697945
+    },
+    "observed": {
+     "métɾ": 36,
+     "métɾo": 56,
+     "métɾos": 8
+    },
+    "other": 2.8639423705232438e-12
+   },
+   "metro V_final": {
+    "attested": {
+     "métɾ": 50.520833328090454,
+     "métɾo": 49.47916667190907
+    },
+    "observed": {
+     "métɾ": 61,
+     "métɾo": 39
+    },
+    "other": 4.253084173953443e-13
+   },
+   "oferta C_final": {
+    "attested": {
+     "oféɾt": 46.479166669283586,
+     "oféɾta": 45.520833345443954,
+     "oféɾtas": 7.9999999852697945
+    },
+    "observed": {
+     "oféɾt": 36,
+     "oféɾta": 56,
+     "oféɾtas": 8
+    },
+    "other": 2.5813845291989173e-12
+   },
+   "oferta V_final": {
+    "attested": {
+     "oféɾt": 50.520833328090816,
+     "oféɾta": 49.47916667190942
+    },
+    "observed": {
+     "oféɾt": 61,
+     "oféɾta": 39
+    },
+    "other": 1.427505760710492e-13
+   },
+   "paso C_final": {
+    "attested": {
+     "pás": 46.47916666927831,
+     "páso": 45.520833345438774,
+     "pásos": 7.999999985268885
+    },
+    "observed": {
+     "pás": 36,
+     "páso": 56,
+     "pásos": 8
+    },
+    "other": 1.3481593049481962e-11
+   },
+   "paso V_final": {
+    "attested": {
+     "pás": 50.52083332808471,
+     "páso": 49.47916667190344
+    },
+    "observed": {
+     "pás": 61,
+     "páso": 39
+    },
+    "other": 1.1966233066590195e-11
+   },
+   "paxaro C_final": {
+    "attested": {
+     "páxaɾ": 46.47916666925915,
+     "páxaɾo": 45.520833345420016,
+     "páxaɾos": 7.999999985265588
+    },
+    "observed": {
+     "páxaɾ": 36,
+     "páxaɾo": 56,
+     "páxaɾos": 8
+    },
+    "other": 5.508254364366121e-11
+   },
+   "paxaro V_final": {
+    "attested": {
+     "páxaɾ": 50.52083332806282,
+     "páxaɾo": 49.479166671882
+    },
+    "observed": {
+     "páxaɾ": 61,
+     "páxaɾo": 39
+    },
+    "other": 5.452155544563258e-11
+   }
+  },
+  "training": "Source Table 6 rounded percentage weights replicated across four schematic word pairs; not 800 independent observations.",
+  "weights": {
+   "CONTIG": 33.2400356601933,
+   "MAX": 33.50006330321942,
+   "MAX_V_INIT": 66.85446111618772,
+   "NO_FINAL_C": 35.238791860268705,
+   "NO_UNSTR_V": 37.92574637244612
+  }
+ },
+ "transparent_bound": {
+  "binary_logit_gap_lower": 3.266056181121439,
+  "exact_binomial_upper": 0.03675419777998231,
+  "one_sided_confidence": 0.95,
+  "rule_of_three_upper": 0.0375,
+  "scope": "Conditional two-candidate iid benchmark. It does not identify a grammar parameter from clustered speech tokens or an unconditional full-candidate probability.",
+  "trials": 80,
+  "zero_count": 0
+ },
+ "variant_regions": {
+  "A": {
+   "with_contextual": {
+    "feasible": true,
+    "n_inequalities": 21,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1",
+     "MAX_V_BEFORE_C": "0",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "0",
+     "NO_UNSTR_V": "1000"
+    },
+    "witness_exact": true
+   },
+   "without_contextual": {
+    "feasible": true,
+    "n_inequalities": 21,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "0",
+     "NO_UNSTR_V": "1000"
+    },
+    "witness_exact": true
+   }
+  },
+  "A_all_words": {
+   "targets": [
+    [
+     "p á s o",
+     "pás"
+    ],
+    [
+     "p á s o s",
+     "pás"
+    ],
+    [
+     "p á x a ɾ o",
+     "páxaɾ"
+    ],
+    [
+     "p á x a ɾ o s",
+     "páxaɾ"
+    ],
+    [
+     "m é t ɾ o",
+     "métɾ"
+    ],
+    [
+     "m é t ɾ o s",
+     "métɾ"
+    ],
+    [
+     "o f é ɾ t a",
+     "oféɾt"
+    ],
+    [
+     "o f é ɾ t a s",
+     "oféɾt"
+    ]
+   ],
+   "with_contextual": {
+    "feasible": true,
+    "n_inequalities": 255,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1142857/500000",
+     "MAX_V_BEFORE_C": "0",
+     "MAX_V_INIT": "1000",
+     "NO_FINAL_C": "1142857/500000",
+     "NO_UNSTR_V": "3571429/1000000"
+    },
+    "witness_exact": true
+   },
+   "without_contextual": {
+    "feasible": true,
+    "n_inequalities": 255,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1142857/500000",
+     "MAX_V_INIT": "1000",
+     "NO_FINAL_C": "1142857/500000",
+     "NO_UNSTR_V": "3571429/1000000"
+    },
+    "witness_exact": true
+   }
+  },
+  "B": {
+   "with_contextual": {
+    "feasible": true,
+    "n_inequalities": 22,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1000",
+     "MAX_V_BEFORE_C": "1000",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "0",
+     "NO_UNSTR_V": "0"
+    },
+    "witness_exact": true
+   },
+   "without_contextual": {
+    "feasible": true,
+    "n_inequalities": 22,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1000",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "0",
+     "NO_UNSTR_V": "0"
+    },
+    "witness_exact": true
+   }
+  },
+  "C": {
+   "with_contextual": {
+    "feasible": true,
+    "n_inequalities": 22,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1",
+     "MAX_V_BEFORE_C": "1000",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "1000",
+     "NO_UNSTR_V": "0"
+    },
+    "witness_exact": true
+   },
+   "without_contextual": {
+    "feasible": true,
+    "n_inequalities": 22,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "1000",
+     "NO_UNSTR_V": "0"
+    },
+    "witness_exact": true
+   }
+  },
+  "D": {
+   "with_contextual": {
+    "feasible": true,
+    "n_inequalities": 22,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "1",
+     "MAX_V_BEFORE_C": "1000",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "0",
+     "NO_UNSTR_V": "2"
+    },
+    "witness_exact": true
+   },
+   "without_contextual": {
+    "feasible": true,
+    "n_inequalities": 22,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "2",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "0",
+     "NO_UNSTR_V": "3"
+    },
+    "witness_exact": true
+   }
+  },
+  "E": {
+   "with_contextual": {
+    "feasible": true,
+    "n_inequalities": 22,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "642857/500000",
+     "MAX_V_BEFORE_C": "1000",
+     "MAX_V_INIT": "0",
+     "NO_FINAL_C": "1142857/500000",
+     "NO_UNSTR_V": "2571429/1000000"
+    },
+    "witness_exact": true
+   },
+   "without_contextual": {
+    "feasible": false,
+    "n_inequalities": 22,
+    "names": [
+     "CONTIG",
+     "MAX",
+     "MAX_V_INIT",
+     "NO_FINAL_C",
+     "NO_UNSTR_V"
+    ],
+    "positive_multiplier_rows": [
+     [
+      "0",
+      "-1",
+      "0",
+      "-1/8",
+      "1"
+     ],
+     [
+      "0",
+      "1",
+      "0",
+      "1/8",
+      "-1"
+     ]
+    ],
+    "representative_dominates_correct_fiber": true,
+    "row_sum": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    "status": "exact_nonnegative_weight_obstruction"
+   }
+  },
+  "E_all_words": {
+   "targets": [
+    [
+     "p á s o",
+     "pás"
+    ],
+    [
+     "p á s o s",
+     "páso"
+    ],
+    [
+     "p á x a ɾ o",
+     "páxaɾ"
+    ],
+    [
+     "p á x a ɾ o s",
+     "páxaɾo"
+    ],
+    [
+     "m é t ɾ o",
+     "métɾ"
+    ],
+    [
+     "m é t ɾ o s",
+     "métɾo"
+    ],
+    [
+     "o f é ɾ t a",
+     "oféɾt"
+    ],
+    [
+     "o f é ɾ t a s",
+     "oféɾta"
+    ]
+   ],
+   "with_contextual": {
+    "feasible": true,
+    "n_inequalities": 256,
+    "slack": 1.0,
+    "witness": {
+     "CONTIG": "1000",
+     "MAX": "642857/500000",
+     "MAX_V_BEFORE_C": "1000",
+     "MAX_V_INIT": "1000",
+     "NO_FINAL_C": "1142857/500000",
+     "NO_UNSTR_V": "2571429/1000000"
+    },
+    "witness_exact": true
+   },
+   "without_contextual": {
+    "feasible": false,
+    "n_inequalities": 256,
+    "names": [
+     "CONTIG",
+     "MAX",
+     "MAX_V_INIT",
+     "NO_FINAL_C",
+     "NO_UNSTR_V"
+    ],
+    "positive_multiplier_rows": [
+     [
+      "0",
+      "-1",
+      "0",
+      "-1/8",
+      "1"
+     ],
+     [
+      "0",
+      "1",
+      "0",
+      "1/8",
+      "-1"
+     ]
+    ],
+    "representative_dominates_correct_fiber": true,
+    "row_sum": [
+     "0",
+     "0",
+     "0",
+     "0",
+     "0"
+    ],
+    "status": "exact_nonnegative_weight_obstruction"
+   }
+  }
+ },
+ "variants_at_points": {
+  "A": {
+   "all_words_agree": true,
+   "expected": {
+    "metro": {
+     "C_final": [
+      "métɾ"
+     ],
+     "V_final": [
+      "métɾ"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾt"
+     ],
+     "V_final": [
+      "oféɾt"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "pás"
+     ],
+     "V_final": [
+      "pás"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾ"
+     ],
+     "V_final": [
+      "páxaɾ"
+     ]
+    }
+   },
+   "outputs": {
+    "metro": {
+     "C_final": [
+      "métɾ"
+     ],
+     "V_final": [
+      "métɾ"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾt"
+     ],
+     "V_final": [
+      "oféɾt"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "pás"
+     ],
+     "V_final": [
+      "pás"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾ"
+     ],
+     "V_final": [
+      "páxaɾ"
+     ]
+    }
+   },
+   "paso_agrees": true,
+   "weights": {
+    "CONTIG": 100,
+    "MAX": 2,
+    "MAX_V_BEFORE_C": 0,
+    "MAX_V_INIT": 100,
+    "NO_FINAL_C": 4,
+    "NO_UNSTR_V": 3
+   }
+  },
+  "B": {
+   "all_words_agree": true,
+   "expected": {
+    "metro": {
+     "C_final": [
+      "métɾos"
+     ],
+     "V_final": [
+      "métɾo"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾtas"
+     ],
+     "V_final": [
+      "oféɾta"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "pásos"
+     ],
+     "V_final": [
+      "páso"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾos"
+     ],
+     "V_final": [
+      "páxaɾo"
+     ]
+    }
+   },
+   "outputs": {
+    "metro": {
+     "C_final": [
+      "métɾos"
+     ],
+     "V_final": [
+      "métɾo"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾtas"
+     ],
+     "V_final": [
+      "oféɾta"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "pásos"
+     ],
+     "V_final": [
+      "páso"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾos"
+     ],
+     "V_final": [
+      "páxaɾo"
+     ]
+    }
+   },
+   "paso_agrees": true,
+   "weights": {
+    "CONTIG": 100,
+    "MAX": 2,
+    "MAX_V_BEFORE_C": 0,
+    "MAX_V_INIT": 100,
+    "NO_FINAL_C": 1,
+    "NO_UNSTR_V": 1
+   }
+  },
+  "C": {
+   "all_words_agree": true,
+   "expected": {
+    "metro": {
+     "C_final": [
+      "métɾo"
+     ],
+     "V_final": [
+      "métɾo"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾta"
+     ],
+     "V_final": [
+      "oféɾta"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "páso"
+     ],
+     "V_final": [
+      "páso"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾo"
+     ],
+     "V_final": [
+      "páxaɾo"
+     ]
+    }
+   },
+   "outputs": {
+    "metro": {
+     "C_final": [
+      "métɾo"
+     ],
+     "V_final": [
+      "métɾo"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾta"
+     ],
+     "V_final": [
+      "oféɾta"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "páso"
+     ],
+     "V_final": [
+      "páso"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾo"
+     ],
+     "V_final": [
+      "páxaɾo"
+     ]
+    }
+   },
+   "paso_agrees": true,
+   "weights": {
+    "CONTIG": 100,
+    "MAX": 2,
+    "MAX_V_BEFORE_C": 0,
+    "MAX_V_INIT": 100,
+    "NO_FINAL_C": 10,
+    "NO_UNSTR_V": 1
+   }
+  },
+  "D": {
+   "all_words_agree": true,
+   "expected": {
+    "metro": {
+     "C_final": [
+      "métɾos"
+     ],
+     "V_final": [
+      "métɾ"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾtas"
+     ],
+     "V_final": [
+      "oféɾt"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "pásos"
+     ],
+     "V_final": [
+      "pás"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾos"
+     ],
+     "V_final": [
+      "páxaɾ"
+     ]
+    }
+   },
+   "outputs": {
+    "metro": {
+     "C_final": [
+      "métɾos"
+     ],
+     "V_final": [
+      "métɾ"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾtas"
+     ],
+     "V_final": [
+      "oféɾt"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "pásos"
+     ],
+     "V_final": [
+      "pás"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾos"
+     ],
+     "V_final": [
+      "páxaɾ"
+     ]
+    }
+   },
+   "paso_agrees": true,
+   "weights": {
+    "CONTIG": 100,
+    "MAX": 2,
+    "MAX_V_BEFORE_C": 0,
+    "MAX_V_INIT": 100,
+    "NO_FINAL_C": 1,
+    "NO_UNSTR_V": 3
+   }
+  },
+  "E": {
+   "all_words_agree": true,
+   "expected": {
+    "metro": {
+     "C_final": [
+      "métɾo"
+     ],
+     "V_final": [
+      "métɾ"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾta"
+     ],
+     "V_final": [
+      "oféɾt"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "páso"
+     ],
+     "V_final": [
+      "pás"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾo"
+     ],
+     "V_final": [
+      "páxaɾ"
+     ]
+    }
+   },
+   "outputs": {
+    "metro": {
+     "C_final": [
+      "métɾo"
+     ],
+     "V_final": [
+      "métɾ"
+     ]
+    },
+    "oferta": {
+     "C_final": [
+      "oféɾta"
+     ],
+     "V_final": [
+      "oféɾt"
+     ]
+    },
+    "paso": {
+     "C_final": [
+      "páso"
+     ],
+     "V_final": [
+      "pás"
+     ]
+    },
+    "paxaro": {
+     "C_final": [
+      "páxaɾo"
+     ],
+     "V_final": [
+      "páxaɾ"
+     ]
+    }
+   },
+   "paso_agrees": true,
+   "weights": {
+    "CONTIG": 100,
+    "MAX": 2,
+    "MAX_V_BEFORE_C": 10,
+    "MAX_V_INIT": 100,
+    "NO_FINAL_C": 10,
+    "NO_UNSTR_V": 5
+   }
+  }
+ }
+}

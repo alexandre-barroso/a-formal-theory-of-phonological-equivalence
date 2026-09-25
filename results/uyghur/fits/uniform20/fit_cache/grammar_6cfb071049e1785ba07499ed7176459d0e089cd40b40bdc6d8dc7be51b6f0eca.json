@@ -1,0 +1,74 @@
+{
+  "kind": "grammar",
+  "cache_key": "6cfb071049e1785ba07499ed7176459d0e089cd40b40bdc6d8dc7be51b6f0eca",
+  "block_key": "6dd45e013a2fc8f0d8675389d26c97426ab2be730e65c54a9723d572f80dcdf7",
+  "variant": "unrounded_strict",
+  "model": "HU_plus_surface",
+  "approximation": "gh80",
+  "alpha": 0.0,
+  "beta_key": "5e3d47696dbc38504bbe04e4c8eec5bf1f9f5da79b0b063aa3a97c132f1e447d",
+  "hu_key": "571a19c8d6166b36427f41d3be2ac199c5c839aa762d63385d4857bca1da9e1c",
+  "offset_key": null,
+  "fit": {
+    "model": "hu_surface",
+    "parameters": {
+      "surface": 0.9811107789780046,
+      "HU": 4.55126686441597
+    },
+    "objective": 0.11411286029216969,
+    "regularization_alpha": 0.0,
+    "converged": true,
+    "iterations": 13,
+    "internal_coordinates": [
+      0.9811107789780046,
+      4.55126686441597
+    ],
+    "gradient": [
+      -5.289841791127064e-11,
+      -2.346903446816939e-10
+    ],
+    "projected_gradient_max_abs": 2.346903446816939e-10,
+    "finite_difference_max_abs_error": 2.386063756077136e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 13,
+        "objective": 0.11411286029216969,
+        "projected_gradient_max": 2.346903446816939e-10,
+        "finite_difference_error": 2.386063756077136e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      4629.0,
+      2.0,
+      21608.0,
+      247.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 15,
+      "0010": 309,
+      "0011": 33,
+      "1000": 54,
+      "1010": 21,
+      "1100": 2
+    },
+    "training_rows": 434,
+    "feature_difference_rows": 1302,
+    "feature_difference_columns": 2,
+    "feature_difference_rank": 2,
+    "feature_difference_sha256": "9d8ea945d8add29ea0c42c5f67707ea834ae1ca1fc2cbd7d0354c7aa037ce1c0",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "NUMERIC_CANDIDATE_PENDING_SEPARABILITY_AND_COERCIVITY_REVIEW"
+}

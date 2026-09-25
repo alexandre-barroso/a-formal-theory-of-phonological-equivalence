@@ -1,0 +1,549 @@
+{
+  "artifact": "t5_p2_identity_check",
+  "coefficient_identical_to_baseline": [
+    "dynamic_next_word",
+    "dynamic_phrase"
+  ],
+  "per_variant": {
+    "baseline": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G34b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "N7": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G37c": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C21b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 0,
+      "A_old_deltas": {},
+      "coefficient_identical": true
+    },
+    "def_eq_context": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 1632,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1",
+            "0"
+          ]
+        },
+        "G34b": {
+          "changed_candidates": 1625,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1",
+            "0"
+          ]
+        },
+        "N7": {
+          "changed_candidates": 25,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "G37c": {
+          "changed_candidates": 1456,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "C24ei": {
+          "changed_candidates": 106,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "OR38": {
+          "changed_candidates": 1872,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "C21b": {
+          "changed_candidates": 140,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "C23UE": {
+          "changed_candidates": 106,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        }
+      },
+      "changed_total": 6962,
+      "A_old_deltas": {
+        "-1": 2,
+        "0": 8
+      },
+      "coefficient_identical": false
+    },
+    "def_eq_context_A": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 1482,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "G34b": {
+          "changed_candidates": 1482,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "N7": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G37c": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C21b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 2964,
+      "A_old_deltas": {
+        "-1": 2
+      },
+      "coefficient_identical": false
+    },
+    "dynamic_next_word": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G34b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "N7": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G37c": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C21b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 0,
+      "A_old_deltas": {},
+      "coefficient_identical": true
+    },
+    "dynamic_phrase": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G34b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "N7": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G37c": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C21b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 0,
+      "A_old_deltas": {},
+      "coefficient_identical": true
+    },
+    "dynamic_nucleus": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 930,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1",
+            "0",
+            "1"
+          ]
+        },
+        "G34b": {
+          "changed_candidates": 1404,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1",
+            "0"
+          ]
+        },
+        "N7": {
+          "changed_candidates": 65,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "G37c": {
+          "changed_candidates": 929,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 845,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "C21b": {
+          "changed_candidates": 35,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "0"
+          ]
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 4208,
+      "A_old_deltas": {
+        "-1": 2,
+        "0": 6,
+        "1": 1
+      },
+      "coefficient_identical": false
+    },
+    "dynamic_stop_nucleus": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 1014,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "G34b": {
+          "changed_candidates": 1014,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "N7": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G37c": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C21b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 2028,
+      "A_old_deltas": {
+        "-1": 2
+      },
+      "coefficient_identical": false
+    },
+    "origin_bound": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 156,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "G34b": {
+          "changed_candidates": 156,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "N7": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G37c": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C21b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 312,
+      "A_old_deltas": {
+        "-1": 2
+      },
+      "coefficient_identical": false
+    },
+    "witness": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 156,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "G34b": {
+          "changed_candidates": 156,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "N7": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G37c": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C21b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 312,
+      "A_old_deltas": {
+        "-1": 2
+      },
+      "coefficient_identical": false
+    },
+    "witness_phrase": {
+      "per_input": {
+        "G34a": {
+          "changed_candidates": 156,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "G34b": {
+          "changed_candidates": 156,
+          "coefficient_vectors_identical": false,
+          "A_old_deltas_on_changed": [
+            "-1"
+          ]
+        },
+        "N7": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "G37c": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C24ei": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "OR38": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C21b": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        },
+        "C23UE": {
+          "changed_candidates": 0,
+          "coefficient_vectors_identical": true,
+          "A_old_deltas_on_changed": []
+        }
+      },
+      "changed_total": 312,
+      "A_old_deltas": {
+        "-1": 2
+      },
+      "coefficient_identical": false
+    }
+  }
+}

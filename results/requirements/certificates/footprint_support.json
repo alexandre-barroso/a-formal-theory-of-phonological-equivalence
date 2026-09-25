@@ -1,0 +1,20 @@
+{
+ "generic": {
+  "finite_cases": 3110,
+  "prefix_equalities": 3110,
+  "scope_before_filter_equalities": 3110
+ },
+ "native": {
+  "controls": "Both directions, stop/skip, dynamic/in-scope/search, unrestricted/same-word/next-word scopes, fixed coordinates, absent anchors and neighbors.",
+  "fixed_frame_reader_cases": 180288,
+  "maximum_length": 4,
+  "resolver_and_selected_value_cases": 180288,
+  "tokens": [
+   "ɛ",
+   "t",
+   "a",
+   "∅"
+  ]
+ },
+ "scope": "Fixed structural frame and current anchor-based scans. Full support handles extension predicates; productive structural composition is a separate theorem."
+}

@@ -1,0 +1,50 @@
+{
+ "native_declarations": {
+  "exists_and_property": {
+   "missing_slot": "n",
+   "pressure": 1,
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject_strict": false,
+   "well_typed": true
+  },
+  "false_and_missing": {
+   "missing_slot": "n",
+   "pressure": 1,
+   "readers": [
+    true,
+    true,
+    false
+   ],
+   "subject_strict": false,
+   "well_typed": true
+  },
+  "property_of_missing": {
+   "missing_slot": "n",
+   "pressure": 0,
+   "readers": [
+    true,
+    false,
+    false
+   ],
+   "subject_strict": true,
+   "well_typed": true
+  },
+  "true_or_missing": {
+   "missing_slot": "n",
+   "pressure": 0,
+   "readers": [
+    true,
+    true,
+    true
+   ],
+   "subject_strict": true,
+   "well_typed": true
+  }
+ },
+ "scope": "No definedness override; native Kleene semantics and pressure-strictness tested independently of absence of truth value.",
+ "truth_pairs": 9
+}

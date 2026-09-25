@@ -1,0 +1,2167 @@
+{
+ "distinguishing": {
+  "atamá over atama": {
+   "loser_prefers": [
+    "Align-L",
+    "Nonfin",
+    "OO-Dep"
+   ],
+   "winner_prefers": [
+    "Head",
+    "IO-Max",
+    "IO-Max-root"
+   ]
+  },
+  "atamá over atáma": {
+   "loser_prefers": [
+    "Nonfin"
+   ],
+   "winner_prefers": [
+    "Align-R",
+    "Align-R-gradient",
+    "IO-NoFlop"
+   ]
+  },
+  "há-no over ha-nó": {
+   "loser_prefers": [
+    "Align-R",
+    "Align-R-gradient",
+    "nOOdom4-Max",
+    "nOOdom4-MaxFin"
+   ],
+   "winner_prefers": [
+    "Align-L",
+    "IO-NoFlop",
+    "Nonfin",
+    "OO-Max"
+   ]
+  },
+  "kaki-té over kaki-te": {
+   "loser_prefers": [
+    "IO-NoFlop",
+    "Nonfin"
+   ],
+   "winner_prefers": [
+    "Head",
+    "IO-Max",
+    "IO-Max-root",
+    "s1-Max"
+   ]
+  },
+  "kaki-té over káki-te": {
+   "loser_prefers": [
+    "IO-NoFlop",
+    "Nonfin",
+    "OO-Max"
+   ],
+   "winner_prefers": [
+    "Align-R",
+    "Align-R-gradient",
+    "nOOdom2-Max"
+   ]
+  },
+  "kakí-mono over kaki-móno": {
+   "loser_prefers": [
+    "Align-L",
+    "OO-NoFlop",
+    "nOOdom3-Max"
+   ],
+   "winner_prefers": [
+    "Align-R",
+    "Align-R-gradient",
+    "OO-Max",
+    "nOOdom3-NoFlop"
+   ]
+  },
+  "kawa-no over kawa-nó": {
+   "loser_prefers": [
+    "Head",
+    "IO-Max",
+    "IO-Max-root"
+   ],
+   "winner_prefers": [
+    "Align-L",
+    "IO-NoFlop",
+    "Nonfin"
+   ]
+  },
+  "kokóro over kókoro": {
+   "loser_prefers": [
+    "Align-L"
+   ],
+   "winner_prefers": [
+    "Align-R-gradient",
+    "IO-NoFlop"
+   ]
+  },
+  "koobe-kko over koobe-kkó": {
+   "loser_prefers": [
+    "Head",
+    "IO-Max",
+    "IO-Max-root",
+    "s1-Max"
+   ],
+   "winner_prefers": [
+    "Align-L",
+    "IO-NoFlop",
+    "Nonfin"
+   ]
+  }
+ },
+ "kko_te": {
+  "constraints": [
+   "nOOdom-Max",
+   "nOOdom2-Max",
+   "IO-Max-root",
+   "IO-Dep",
+   "Head",
+   "Nonfin",
+   "IO-NoFlop",
+   "Align-L",
+   "Align-R"
+  ],
+  "examples": [
+   "nOOdom-Max >> nOOdom2-Max >> IO-NoFlop >> IO-Max-root >> Align-L >> Align-R >> Head >> IO-Dep >> Nonfin",
+   "nOOdom-Max >> nOOdom2-Max >> IO-NoFlop >> IO-Max-root >> Align-L >> Align-R >> Head >> Nonfin >> IO-Dep",
+   "nOOdom-Max >> nOOdom2-Max >> IO-NoFlop >> IO-Max-root >> Align-R >> Align-L >> Head >> IO-Dep >> Nonfin",
+   "nOOdom-Max >> nOOdom2-Max >> IO-NoFlop >> IO-Max-root >> Align-R >> Align-L >> Head >> Nonfin >> IO-Dep",
+   "nOOdom-Max >> IO-NoFlop >> nOOdom2-Max >> IO-Max-root >> Align-L >> Align-R >> Head >> IO-Dep >> Nonfin"
+  ],
+  "kaki_te_realisation_in_survivors": [
+   "acc[2<ins]"
+  ],
+  "note": "koobe-kkó (the root accent relinked to the suffix) satisfies -kko's ¬OO-Max under Stem-to-Stem correspondence exactly as kaki-té satisfies -te's; what separates the two printed outcomes is the fate of the relinked candidate, decided by the non-affix-specific constraints and by the prosodic structure the source assigns ([koobe-kko] one prosodic word; [[kaki][te]] two).",
+  "rankings_giving_all": 24,
+  "rankings_tested": 362880,
+  "shared_orders": [
+   "nOOdom-Max >> IO-Max-root",
+   "nOOdom-Max >> IO-Dep",
+   "nOOdom-Max >> Head",
+   "nOOdom-Max >> Nonfin",
+   "nOOdom-Max >> Align-L",
+   "nOOdom-Max >> Align-R",
+   "nOOdom2-Max >> IO-Max-root",
+   "nOOdom2-Max >> IO-Dep",
+   "nOOdom2-Max >> Head",
+   "nOOdom2-Max >> Nonfin",
+   "nOOdom2-Max >> Align-L",
+   "nOOdom2-Max >> Align-R",
+   "IO-Max-root >> IO-Dep",
+   "IO-Max-root >> Head",
+   "IO-Max-root >> Nonfin",
+   "IO-Max-root >> Align-L",
+   "IO-Max-root >> Align-R",
+   "Head >> IO-Dep",
+   "Head >> Nonfin",
+   "IO-NoFlop >> IO-Max-root",
+   "IO-NoFlop >> IO-Dep",
+   "IO-NoFlop >> Head",
+   "IO-NoFlop >> Nonfin",
+   "IO-NoFlop >> Align-L",
+   "IO-NoFlop >> Align-R",
+   "Align-L >> IO-Dep",
+   "Align-L >> Head",
+   "Align-L >> Nonfin",
+   "Align-R >> IO-Dep",
+   "Align-R >> Head",
+   "Align-R >> Nonfin"
+  ],
+  "survivors_with_printed_IO-Dep_over_Head": 0,
+  "words": {
+   "atama": "(2,)",
+   "hasi_0": "()",
+   "kaki-te": "(2,)",
+   "kokoro": "(1,)",
+   "koobe-kko": "()"
+  }
+ },
+ "loopholes": {
+  "5.125 kaki-te": {
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "repaired": [
+    [
+     2
+    ]
+   ]
+  },
+  "5.126 inoti-nagara": {
+   "free": [
+    []
+   ],
+   "free_labels": [
+    "acc[]"
+   ],
+   "induced": [
+    []
+   ],
+   "repaired": [
+    []
+   ]
+  },
+  "5.15 ada-ppo-i": {
+   "free": [
+    [
+     1
+    ]
+   ],
+   "free_labels": [
+    "acc[1<io0]"
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "repaired": [
+    [
+     2
+    ]
+   ]
+  },
+  "5.17 koobe-kko": {
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "repaired": [
+    [
+     2
+    ]
+   ]
+  },
+  "5.43a kawa-no": {
+   "free": [
+    [
+     1
+    ]
+   ],
+   "free_labels": [
+    "acc[1<io0]"
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "repaired": [
+    [
+     2
+    ]
+   ]
+  },
+  "5.6 koobe-kko": {
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "repaired": [
+    [
+     2
+    ]
+   ]
+  },
+  "5.82b nisimura-si": {
+   "free": [
+    [
+     3
+    ]
+   ],
+   "free_labels": [
+    "acc[3<io0]"
+   ],
+   "induced": [
+    [
+     1
+    ]
+   ],
+   "repaired": [
+    [
+     1
+    ]
+   ]
+  }
+ },
+ "replay": {
+  "5.122 kaki-mono": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom3-NoFlop",
+    "OO-NoFlop",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    1
+   ],
+   "free": {
+    "candidates": 71,
+    "labels": [
+     "acc[1<io0<oo0']",
+     "acc[1<io0<oo0]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[1<io0<oo0']",
+     "acc[1<io0<oo0]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 35,
+    "labels": [
+     "acc[1<io0<oo0']",
+     "acc[1<io0<oo0]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     1
+    ]
+   ],
+   "ranking": [
+    "nOOdom3-NoFlop",
+    "OO-NoFlop"
+   ]
+  },
+  "5.123 nori-mono": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom3-NoFlop",
+    "IO-Dep",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [],
+   "free": {
+    "candidates": 11,
+    "labels": [
+     "acc[]"
+    ],
+    "winners": [
+     []
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[]"
+    ],
+    "winners": [
+     []
+    ]
+   },
+   "induced": {
+    "candidates": 11,
+    "labels": [
+     "acc[]"
+    ],
+    "winners": [
+     []
+    ]
+   },
+   "printed_rows_winner": [
+    []
+   ],
+   "ranking": [
+    "nOOdom3-NoFlop",
+    "IO-Dep"
+   ]
+  },
+  "5.124 tititi-mono": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom3-NoFlop",
+    "OO-NoFlop",
+    "Align-R",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    2
+   ],
+   "free": {
+    "candidates": 125,
+    "labels": [
+     "acc[2<io0<oo0']",
+     "acc[2<io0<oo0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[2<io0<oo0']",
+     "acc[2<io0<oo0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 56,
+    "labels": [
+     "acc[2<io0<oo0']",
+     "acc[2<io0<oo0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     2
+    ]
+   ],
+   "ranking": [
+    "nOOdom3-NoFlop",
+    "OO-NoFlop",
+    "Align-R"
+   ]
+  },
+  "5.125 kaki-te": {
+   "agree_free": false,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom2-Max",
+    "IO-Max-root",
+    "Nonfin",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    2
+   ],
+   "free": {
+    "candidates": 48,
+    "labels": [
+     "acc[0<io0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 22,
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     2
+    ]
+   ],
+   "ranking": [
+    "nOOdom2-Max",
+    "IO-Max-root",
+    "Nonfin"
+   ]
+  },
+  "5.126 inoti-nagara": {
+   "agree_free": false,
+   "agree_free_repaired": false,
+   "agree_induced": false,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom2-Max",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Head"
+   ],
+   "expected": [
+    3
+   ],
+   "free": {
+    "candidates": 160,
+    "labels": [
+     "acc[]"
+    ],
+    "winners": [
+     []
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[]"
+    ],
+    "winners": [
+     []
+    ]
+   },
+   "induced": {
+    "candidates": 76,
+    "labels": [
+     "acc[]"
+    ],
+    "winners": [
+     []
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     3
+    ]
+   ],
+   "ranking": [
+    "nOOdom2-Max",
+    "Nonfin",
+    "Align-R",
+    "Align-L"
+   ]
+  },
+  "5.15 ada-ppo-i": {
+   "agree_free": false,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom-Max",
+    "OO-Max",
+    "IO-Max",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    2
+   ],
+   "free": {
+    "candidates": 151,
+    "labels": [
+     "acc[1<io0]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 69,
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     2
+    ]
+   ],
+   "ranking": [
+    "nOOdom-Max",
+    "OO-Max",
+    "IO-Max"
+   ]
+  },
+  "5.16 yom-tara": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "OO-Max",
+    "nOOrec-Max",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    0
+   ],
+   "free": {
+    "candidates": 65,
+    "labels": [
+     "acc[0<io0<oo0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[0<io0<oo0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 36,
+    "labels": [
+     "acc[0<io0<oo0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     0
+    ]
+   ],
+   "ranking": [
+    "OO-Max",
+    "nOOrec-Max"
+   ]
+  },
+  "5.17 koobe-kko": {
+   "agree_free": false,
+   "agree_free_repaired": false,
+   "agree_induced": false,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom-Max",
+    "IO-Dep",
+    "Head",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "Nonfin",
+    "Align-R",
+    "Align-L"
+   ],
+   "expected": [],
+   "free": {
+    "candidates": 48,
+    "labels": [
+     "acc[0<io0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 22,
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    []
+   ],
+   "ranking": [
+    "nOOdom-Max",
+    "IO-Dep",
+    "Head"
+   ]
+  },
+  "5.30 luz-ic-a": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "Head",
+    "IO-NoFlop",
+    "IO-Max-root",
+    "IO-Max-stem",
+    "PSP",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Align-R"
+   ],
+   "expected": [
+    0
+   ],
+   "free": {
+    "candidates": 65,
+    "labels": [
+     "acc[0<io0<oo0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[0<io0<oo0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 36,
+    "labels": [
+     "acc[0<io0<oo0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     0
+    ]
+   ],
+   "ranking": [
+    "IO-Max-root",
+    "IO-Max-stem",
+    "PSP"
+   ]
+  },
+  "5.31 cast-ic-a": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "Head",
+    "IO-NoFlop",
+    "IO-Max-root",
+    "IO-Max-stem",
+    "PSP",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Align-R"
+   ],
+   "expected": [
+    1
+   ],
+   "free": {
+    "candidates": 16,
+    "labels": [
+     "acc[1<io1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[1<io1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 16,
+    "labels": [
+     "acc[1<io1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     1
+    ]
+   ],
+   "ranking": [
+    "IO-Max-root",
+    "IO-Max-stem",
+    "PSP"
+   ]
+  },
+  "5.33 siv-ux-a": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "Head",
+    "IO-NoFlop",
+    "nOOdom-Max",
+    "OO-Max",
+    "IO-Max-stem",
+    "PSP",
+    "OO-Dep",
+    "IO-Max-root",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Align-R"
+   ],
+   "expected": [
+    1
+   ],
+   "free": {
+    "candidates": 65,
+    "labels": [
+     "acc[1<io1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[1<io1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 36,
+    "labels": [
+     "acc[1<io1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     1
+    ]
+   ],
+   "ranking": [
+    "nOOdom-Max",
+    "OO-Max",
+    "IO-Max-stem",
+    "PSP"
+   ]
+  },
+  "5.34 puz-ac-u": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "Head",
+    "IO-NoFlop",
+    "nOOdom-Max",
+    "OO-Max",
+    "IO-Max-stem",
+    "PSP",
+    "OO-Dep",
+    "IO-Max-root",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Align-R"
+   ],
+   "expected": [
+    2
+   ],
+   "free": {
+    "candidates": 32,
+    "labels": [
+     "acc[2<ins]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[2<ins]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 19,
+    "labels": [
+     "acc[2<ins]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     2
+    ]
+   ],
+   "ranking": [
+    "nOOdom-Max",
+    "OO-Max",
+    "IO-Max-stem",
+    "PSP"
+   ]
+  },
+  "5.43a kawa-no": {
+   "agree_free": false,
+   "agree_free_repaired": false,
+   "agree_induced": false,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom4-MaxFin",
+    "OO-Max",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [],
+   "free": {
+    "candidates": 48,
+    "labels": [
+     "acc[1<io0]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 22,
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    []
+   ],
+   "ranking": [
+    "nOOdom4-MaxFin",
+    "OO-Max"
+   ]
+  },
+  "5.43b utiwa-no": {
+   "agree_free": true,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom4-MaxFin",
+    "OO-Max",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    1
+   ],
+   "free": {
+    "candidates": 93,
+    "labels": [
+     "acc[1<io0<oo1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[1<io0<oo1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 39,
+    "labels": [
+     "acc[1<io0<oo1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     1
+    ]
+   ],
+   "ranking": [
+    "nOOdom4-MaxFin",
+    "OO-Max"
+   ]
+  },
+  "5.44 ha-no": {
+   "agree_free": true,
+   "agree_free_repaired": false,
+   "agree_induced": false,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "s1-Max",
+    "nOOdom4-MaxFin",
+    "OO-Max",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    0
+   ],
+   "free": {
+    "candidates": 18,
+    "labels": [
+     "acc[0<io0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[1<io0]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 10,
+    "labels": [
+     "acc[1<io0]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     0
+    ]
+   ],
+   "ranking": [
+    "s1-Max",
+    "nOOdom4-MaxFin",
+    "OO-Max"
+   ]
+  },
+  "5.6 koobe-kko": {
+   "agree_free": false,
+   "agree_free_repaired": false,
+   "agree_induced": false,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom-Max",
+    "OO-Max",
+    "IO-Dep",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [],
+   "free": {
+    "candidates": 48,
+    "labels": [
+     "acc[0<io0]"
+    ],
+    "winners": [
+     [
+      0
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 22,
+    "labels": [
+     "acc[2<io0]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    []
+   ],
+   "ranking": [
+    "nOOdom-Max",
+    "OO-Max",
+    "IO-Dep"
+   ]
+  },
+  "5.78 nisimura-ke": {
+   "agree_free": true,
+   "agree_free_repaired": false,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "nOOdom-DepEdge",
+    "IO-Max-root",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    3
+   ],
+   "free": {
+    "candidates": 153,
+    "labels": [
+     "acc[3<io0]"
+    ],
+    "winners": [
+     [
+      3
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[1<io0<oo1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 61,
+    "labels": [
+     "acc[3<ins]"
+    ],
+    "winners": [
+     [
+      3
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     3
+    ]
+   ],
+   "ranking": [
+    "Culmin",
+    "nOOdom-DepEdge",
+    "IO-Max-root"
+   ]
+  },
+  "5.82a yosida-si": {
+   "agree_free": true,
+   "agree_free_repaired": false,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "IO-Max-root",
+    "nOOrec-DepEdge",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    2
+   ],
+   "free": {
+    "candidates": 11,
+    "labels": [
+     "acc[2<ins]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[]"
+    ],
+    "winners": [
+     []
+    ]
+   },
+   "induced": {
+    "candidates": 11,
+    "labels": [
+     "acc[2<ins]"
+    ],
+    "winners": [
+     [
+      2
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     2
+    ]
+   ],
+   "ranking": [
+    "IO-Max-root",
+    "nOOrec-DepEdge"
+   ]
+  },
+  "5.82b nisimura-si": {
+   "agree_free": false,
+   "agree_free_repaired": true,
+   "agree_induced": true,
+   "agree_printed": true,
+   "completed_ranking": [
+    "Culmin",
+    "IO-Max-root",
+    "nOOrec-DepEdge",
+    "IO-NoFlop",
+    "OO-Dep",
+    "IO-Max-affix",
+    "IO-Dep",
+    "Nonfin",
+    "Align-R",
+    "Align-L",
+    "Head"
+   ],
+   "expected": [
+    1
+   ],
+   "free": {
+    "candidates": 153,
+    "labels": [
+     "acc[3<io0]"
+    ],
+    "winners": [
+     [
+      3
+     ]
+    ]
+   },
+   "free_repaired": {
+    "labels": [
+     "acc[1<io0<oo1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "induced": {
+    "candidates": 61,
+    "labels": [
+     "acc[1<io0<oo1]"
+    ],
+    "winners": [
+     [
+      1
+     ]
+    ]
+   },
+   "printed_rows_winner": [
+    [
+     1
+    ]
+   ],
+   "ranking": [
+    "IO-Max-root",
+    "nOOrec-DepEdge"
+   ]
+  }
+ },
+ "total": {
+  "5.122 kaki-mono": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    1
+   ],
+   "free": [
+    [
+     1
+    ]
+   ],
+   "free_labels": [
+    "acc[1<io0<oo0']",
+    "acc[1<io0<oo0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     1
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     1
+    ]
+   ],
+   "induced": [
+    [
+     1
+    ]
+   ],
+   "induced_labels": [
+    "acc[1<io0<oo0']",
+    "acc[1<io0<oo0]"
+   ]
+  },
+  "5.123 nori-mono": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [],
+   "free": [
+    []
+   ],
+   "free_labels": [
+    "acc[]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    []
+   ],
+   "free_oo_dep_top": [
+    []
+   ],
+   "induced": [
+    []
+   ],
+   "induced_labels": [
+    "acc[]"
+   ]
+  },
+  "5.124 tititi-mono": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    2
+   ],
+   "free": [
+    [
+     2
+    ]
+   ],
+   "free_labels": [
+    "acc[2<io0<oo0']",
+    "acc[2<io0<oo0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     2
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     2
+    ]
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "induced_labels": [
+    "acc[2<io0<oo0']",
+    "acc[2<io0<oo0]"
+   ]
+  },
+  "5.125 kaki-te": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    2
+   ],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     2
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     2
+    ]
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "induced_labels": [
+    "acc[2<io0]"
+   ]
+  },
+  "5.126 inoti-nagara": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    3
+   ],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     3
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     3
+    ]
+   ],
+   "induced": [
+    [
+     3
+    ]
+   ],
+   "induced_labels": [
+    "acc[3<io0]"
+   ]
+  },
+  "5.15 ada-ppo-i": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    2
+   ],
+   "free": [
+    [
+     1
+    ]
+   ],
+   "free_labels": [
+    "acc[1<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     2
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     2
+    ]
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "induced_labels": [
+    "acc[2<io0]"
+   ]
+  },
+  "5.16 yom-tara": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    0
+   ],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0<oo0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     0
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     0
+    ]
+   ],
+   "induced": [
+    [
+     0
+    ]
+   ],
+   "induced_labels": [
+    "acc[0<io0<oo0]"
+   ]
+  },
+  "5.17 koobe-kko": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": false,
+   "agree_free_oo_dep_top": false,
+   "agree_induced": false,
+   "expected": [],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     2
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     2
+    ]
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "induced_labels": [
+    "acc[2<io0]"
+   ]
+  },
+  "5.30 luz-ic-a": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    0
+   ],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0<oo0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     0
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     0
+    ]
+   ],
+   "induced": [
+    [
+     0
+    ]
+   ],
+   "induced_labels": [
+    "acc[0<io0<oo0]"
+   ]
+  },
+  "5.31 cast-ic-a": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    1
+   ],
+   "free": [
+    [
+     1
+    ]
+   ],
+   "free_labels": [
+    "acc[1<io1]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     1
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     1
+    ]
+   ],
+   "induced": [
+    [
+     1
+    ]
+   ],
+   "induced_labels": [
+    "acc[1<io1]"
+   ]
+  },
+  "5.33 siv-ux-a": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    1
+   ],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     1
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     1
+    ]
+   ],
+   "induced": [
+    [
+     1
+    ]
+   ],
+   "induced_labels": [
+    "acc[1<io1]"
+   ]
+  },
+  "5.34 puz-ac-u": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    2
+   ],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     2
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     2
+    ]
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "induced_labels": [
+    "acc[2<ins]"
+   ]
+  },
+  "5.43a kawa-no": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": false,
+   "agree_free_oo_dep_top": false,
+   "agree_induced": false,
+   "expected": [],
+   "free": [
+    [
+     1
+    ]
+   ],
+   "free_labels": [
+    "acc[1<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     2
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     2
+    ]
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "induced_labels": [
+    "acc[2<io0]"
+   ]
+  },
+  "5.43b utiwa-no": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    1
+   ],
+   "free": [
+    [
+     1
+    ]
+   ],
+   "free_labels": [
+    "acc[1<io0<oo1]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     1
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     1
+    ]
+   ],
+   "induced": [
+    [
+     1
+    ]
+   ],
+   "induced_labels": [
+    "acc[1<io0<oo1]"
+   ]
+  },
+  "5.44 ha-no": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": false,
+   "agree_free_oo_dep_top": false,
+   "agree_induced": false,
+   "expected": [
+    0
+   ],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     1
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     1
+    ]
+   ],
+   "induced": [
+    [
+     1
+    ]
+   ],
+   "induced_labels": [
+    "acc[1<io0]"
+   ]
+  },
+  "5.6 koobe-kko": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": false,
+   "agree_free_oo_dep_top": false,
+   "agree_induced": false,
+   "expected": [],
+   "free": [
+    [
+     0
+    ]
+   ],
+   "free_labels": [
+    "acc[0<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     2
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     2
+    ]
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "induced_labels": [
+    "acc[2<io0]"
+   ]
+  },
+  "5.78 nisimura-ke": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": false,
+   "agree_induced": true,
+   "expected": [
+    3
+   ],
+   "free": [
+    [
+     3
+    ]
+   ],
+   "free_labels": [
+    "acc[3<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     3
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     4
+    ]
+   ],
+   "induced": [
+    [
+     3
+    ]
+   ],
+   "induced_labels": [
+    "acc[3<ins]"
+   ]
+  },
+  "5.82a yosida-si": {
+   "agree_free": true,
+   "agree_free_oo_dep_below_dep_edge": true,
+   "agree_free_oo_dep_top": false,
+   "agree_induced": true,
+   "expected": [
+    2
+   ],
+   "free": [
+    [
+     2
+    ]
+   ],
+   "free_labels": [
+    "acc[2<ins]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     2
+    ]
+   ],
+   "free_oo_dep_top": [
+    []
+   ],
+   "induced": [
+    [
+     2
+    ]
+   ],
+   "induced_labels": [
+    "acc[2<ins]"
+   ]
+  },
+  "5.82b nisimura-si": {
+   "agree_free": false,
+   "agree_free_oo_dep_below_dep_edge": false,
+   "agree_free_oo_dep_top": true,
+   "agree_induced": true,
+   "expected": [
+    1
+   ],
+   "free": [
+    [
+     3
+    ]
+   ],
+   "free_labels": [
+    "acc[3<io0]"
+   ],
+   "free_oo_dep_below_dep_edge": [
+    [
+     3
+    ]
+   ],
+   "free_oo_dep_top": [
+    [
+     1
+    ]
+   ],
+   "induced": [
+    [
+     1
+    ]
+   ],
+   "induced_labels": [
+    "acc[1<io0<oo1]"
+   ]
+  }
+ }
+}

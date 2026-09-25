@@ -1,0 +1,4551 @@
+{
+ "a_specialisation": {
+  "declaration_sets": 109,
+  "declarations": 527,
+  "fragment_modules_defining_their_own_scoring": [],
+  "ill_typed": [],
+  "note": "a runner may implement a rival or a refutation with its own scoring (the schema-level activation bit); a fragment module never scores: every fragment is evaluated by gp.evaluate",
+  "runners_defining_a_scoring_function": [
+   "individuation_ablations.py",
+   "irrational_selection.py"
+  ],
+  "sets_by_family": {
+   "frag_abc": 1,
+   "frag_accent": 1,
+   "frag_antigem": 1,
+   "frag_apocope": 1,
+   "frag_arapaho": 1,
+   "frag_auto": 1,
+   "frag_contact": 1,
+   "frag_harmony": 1,
+   "frag_morphaccent": 1,
+   "frag_nuer": 1,
+   "frag_ocp": 1,
+   "frag_phase": 1,
+   "frag_sandhi": 1,
+   "frag_stratal": 1,
+   "frag_tn": 1,
+   "frag_turkish": 1,
+   "frag_voice": 1,
+   "gua": 1,
+   "lith": 3,
+   "redup": 2,
+   "schwa": 1,
+   "seq": 84,
+   "t07": 1
+  }
+ },
+ "all_pass": true,
+ "b_usage": {
+  "core_primitives_unused": {
+   "policies": [
+    "dynamic_in_scope",
+    "origin_bound"
+   ],
+   "slot_kinds": []
+  },
+  "per_set": {
+   "frag_abc (module-level)": {
+    "definedness_override": false,
+    "filters": [
+     "round"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "assoc",
+     "search"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Linked",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "frag_accent (module-level)": {
+    "definedness_override": false,
+    "filters": [
+     "nuclear"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "morph",
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "assoc",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.InScope",
+     "core.Linked",
+     "core.Made",
+     "core.Positional",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "frag_antigem (module-level)": {
+    "definedness_override": false,
+    "filters": [
+     "consonantal",
+     "nuclear"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "morph",
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves",
+     "core.SameSeg"
+    ],
+    "tiers": [],
+    "where_reference": true
+   },
+   "frag_apocope": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Positional",
+     "core.Present",
+     "core.Resolves",
+     "frag_apocope._RefSuccPresent"
+    ],
+    "tiers": [],
+    "where_reference": true
+   },
+   "frag_arapaho": {
+    "definedness_override": false,
+    "filters": [
+     "nuclear"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.InScope",
+     "core.Made",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat",
+     "core.SameSeg"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "frag_auto (module-level)": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [],
+    "slot_kinds": [
+     "anchor",
+     "assoc"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Linked",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [],
+    "where_reference": true
+   },
+   "frag_contact (module-level)": {
+    "definedness_override": false,
+    "filters": [
+     "consonantal"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "syll",
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Resolves",
+     "core.SameFeat",
+     "core.SameSeg"
+    ],
+    "tiers": [],
+    "where_reference": true
+   },
+   "frag_harmony (module-level)": {
+    "definedness_override": false,
+    "filters": [
+     "nonhigh"
+    ],
+    "kinds": [
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "fin",
+     "init",
+     "side",
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "search"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Positional",
+     "core.Resolves",
+     "core.SameFeat",
+     "frag_harmony._SideIs"
+    ],
+    "tiers": [],
+    "where_reference": true
+   },
+   "frag_morphaccent": {
+    "definedness_override": false,
+    "filters": [
+     "moraic",
+     "nuclear",
+     "stressed"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "morph",
+     "pwd",
+     "rank",
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "assoc",
+     "assocof",
+     "search",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.InScope",
+     "core.Linked",
+     "core.Made",
+     "core.Positional",
+     "core.Present",
+     "core.Resolves",
+     "frag_morphaccent._CoordIs"
+    ],
+    "tiers": [
+     "acc",
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "frag_nuer": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "phrase",
+     "syll"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "assoc",
+     "search",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat",
+     "frag_nuer._CoordIs",
+     "frag_nuer._PosOrder"
+    ],
+    "tiers": [
+     "syll",
+     "tone"
+    ],
+    "where_reference": false
+   },
+   "frag_ocp (module-level)": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "assoc",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Linked",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat"
+    ],
+    "tiers": [
+     "seg",
+     "tone"
+    ],
+    "where_reference": false
+   },
+   "frag_phase (module-level)": {
+    "definedness_override": false,
+    "filters": [
+     "nuclear"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "vdom"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat",
+     "frag_phase._AspectIs",
+     "frag_phase._LinkedIntoWord"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "frag_sandhi": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic",
+     "reference"
+    ],
+    "scope_coords": [
+     "phrase"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Resolves",
+     "core.SameFeat"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "frag_stratal": {
+    "definedness_override": false,
+    "filters": [
+     "nuclear",
+     "present",
+     "stressed"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "search",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat",
+     "frag_stratal._CoordIs",
+     "frag_stratal._Fused",
+     "frag_stratal._LostSlots",
+     "frag_stratal._RefNext",
+     "frag_stratal._SonDrop"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "frag_tn (module-level)": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "frag_turkish (module-level)": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "frag_voice": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "phrase"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Positional",
+     "core.Resolves",
+     "core.SameFeat"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "gua typed": {
+    "definedness_override": false,
+    "filters": [
+     "nuclear"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "phrase",
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "search",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.InScope",
+     "core.Positional",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat",
+     "core.SameSeg"
+    ],
+    "tiers": [],
+    "where_reference": true
+   },
+   "lith RR (dynamic)": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Present",
+     "core.SameFeat",
+     "frag_lith.DomIs"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "lith RR (reference)": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "reference"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Present",
+     "core.SameFeat",
+     "frag_lith.DomIs"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "lith RR (witness)": {
+    "definedness_override": false,
+    "filters": [],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "witness"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Present",
+     "core.SameFeat",
+     "frag_lith.DomIs"
+    ],
+    "tiers": [],
+    "where_reference": false
+   },
+   "redup": {
+    "definedness_override": false,
+    "filters": [
+     "nuclear",
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "corr",
+     "search",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat",
+     "frag_redup._CoordIs"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "redup (foot_hl, superheavy, sync_listed)": {
+    "definedness_override": false,
+    "filters": [
+     "nuclear",
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "corr",
+     "search",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves",
+     "core.SameFeat",
+     "frag_redup._CoordIs",
+     "frag_redup._PrevOpen"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "schwa": {
+    "definedness_override": false,
+    "filters": [
+     "nuclear",
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "phrase"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves",
+     "frag_schwa._Made"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:bleeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:bleeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:bleeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:bleeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:changtin:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:changtin:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:changtin:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:changtin:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:circular_chain_shift:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:circular_chain_shift:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:circular_chain_shift:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:circular_chain_shift:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:counterbleeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:counterbleeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:counterbleeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:counterbleeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:counterfeeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:counterfeeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:counterfeeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:counterfeeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:fed_counterfeeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:fed_counterfeeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:fed_counterfeeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:fed_counterfeeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:feeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:feeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:feeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:feeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_bleeding_h_first:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_bleeding_h_first:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_bleeding_h_first:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_bleeding_h_first:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_bleeding_voc_first:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_bleeding_voc_first:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_bleeding_voc_first:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_bleeding_voc_first:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterbleeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterbleeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterbleeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterbleeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterfeeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterfeeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterfeeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterfeeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterfeeding_deletions:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterfeeding_deletions:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterfeeding_deletions:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:mutual_counterfeeding_deletions:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_left_to_right:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_left_to_right:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_left_to_right:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_left_to_right:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_right_to_left:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_right_to_left:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_right_to_left:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_right_to_left:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_simultaneous:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_simultaneous:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_simultaneous:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:noniterative_simultaneous:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_bleeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_bleeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_bleeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_bleeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_counterbleeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_counterbleeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_counterbleeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_counterbleeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_counterfeeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_counterfeeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_counterfeeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_counterfeeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_feeding:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_feeding:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_feeding:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:self_feeding:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:vipratisedha_blocking:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:vipratisedha_blocking:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:vipratisedha_blocking:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:vipratisedha_blocking:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:vipratisedha_first_wins:discharge": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:vipratisedha_first_wins:ltr": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:vipratisedha_first_wins:retain": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "seq:vipratisedha_first_wins:rtl": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Present",
+     "core.Resolves"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": true
+   },
+   "t07 two-word": {
+    "definedness_override": false,
+    "filters": [
+     "present"
+    ],
+    "kinds": [
+     "faithfulness",
+     "markedness"
+    ],
+    "locus_sides": [
+     "candidate",
+     "reference"
+    ],
+    "policies": [
+     "dynamic"
+    ],
+    "scope_coords": [
+     "word"
+    ],
+    "slot_kinds": [
+     "anchor",
+     "step",
+     "stepof"
+    ],
+    "sort_classes": [
+     "derived",
+     "total"
+    ],
+    "terms": [
+     "core.Feat",
+     "core.Made",
+     "core.Present",
+     "core.Resolves",
+     "core.SameSeg"
+    ],
+    "tiers": [
+     "seg"
+    ],
+    "where_reference": false
+   }
+  },
+  "sets_reading_the_reference": [
+   "frag_abc (module-level)",
+   "frag_accent (module-level)",
+   "frag_antigem (module-level)",
+   "frag_apocope",
+   "frag_arapaho",
+   "frag_auto (module-level)",
+   "frag_contact (module-level)",
+   "frag_harmony (module-level)",
+   "frag_morphaccent",
+   "frag_nuer",
+   "frag_ocp (module-level)",
+   "frag_phase (module-level)",
+   "frag_sandhi",
+   "frag_stratal",
+   "frag_tn (module-level)",
+   "frag_turkish (module-level)",
+   "frag_voice",
+   "gua typed",
+   "lith RR (reference)",
+   "lith RR (witness)",
+   "redup",
+   "redup (foot_hl, superheavy, sync_listed)",
+   "schwa",
+   "seq:bleeding:discharge",
+   "seq:bleeding:ltr",
+   "seq:bleeding:retain",
+   "seq:bleeding:rtl",
+   "seq:changtin:discharge",
+   "seq:changtin:ltr",
+   "seq:changtin:retain",
+   "seq:changtin:rtl",
+   "seq:circular_chain_shift:discharge",
+   "seq:circular_chain_shift:ltr",
+   "seq:circular_chain_shift:retain",
+   "seq:circular_chain_shift:rtl",
+   "seq:counterbleeding:discharge",
+   "seq:counterbleeding:ltr",
+   "seq:counterbleeding:retain",
+   "seq:counterbleeding:rtl",
+   "seq:counterfeeding:discharge",
+   "seq:counterfeeding:ltr",
+   "seq:counterfeeding:retain",
+   "seq:counterfeeding:rtl",
+   "seq:fed_counterfeeding:discharge",
+   "seq:fed_counterfeeding:ltr",
+   "seq:fed_counterfeeding:retain",
+   "seq:fed_counterfeeding:rtl",
+   "seq:feeding:discharge",
+   "seq:feeding:ltr",
+   "seq:feeding:retain",
+   "seq:feeding:rtl",
+   "seq:mutual_bleeding_h_first:discharge",
+   "seq:mutual_bleeding_h_first:ltr",
+   "seq:mutual_bleeding_h_first:retain",
+   "seq:mutual_bleeding_h_first:rtl",
+   "seq:mutual_bleeding_voc_first:discharge",
+   "seq:mutual_bleeding_voc_first:ltr",
+   "seq:mutual_bleeding_voc_first:retain",
+   "seq:mutual_bleeding_voc_first:rtl",
+   "seq:mutual_counterbleeding:discharge",
+   "seq:mutual_counterbleeding:ltr",
+   "seq:mutual_counterbleeding:retain",
+   "seq:mutual_counterbleeding:rtl",
+   "seq:mutual_counterfeeding:discharge",
+   "seq:mutual_counterfeeding:ltr",
+   "seq:mutual_counterfeeding:retain",
+   "seq:mutual_counterfeeding:rtl",
+   "seq:mutual_counterfeeding_deletions:discharge",
+   "seq:mutual_counterfeeding_deletions:ltr",
+   "seq:mutual_counterfeeding_deletions:retain",
+   "seq:mutual_counterfeeding_deletions:rtl",
+   "seq:noniterative_left_to_right:discharge",
+   "seq:noniterative_left_to_right:ltr",
+   "seq:noniterative_left_to_right:retain",
+   "seq:noniterative_left_to_right:rtl",
+   "seq:noniterative_right_to_left:discharge",
+   "seq:noniterative_right_to_left:ltr",
+   "seq:noniterative_right_to_left:retain",
+   "seq:noniterative_right_to_left:rtl",
+   "seq:noniterative_simultaneous:discharge",
+   "seq:noniterative_simultaneous:ltr",
+   "seq:noniterative_simultaneous:retain",
+   "seq:noniterative_simultaneous:rtl",
+   "seq:self_bleeding:discharge",
+   "seq:self_bleeding:ltr",
+   "seq:self_bleeding:retain",
+   "seq:self_bleeding:rtl",
+   "seq:self_counterbleeding:discharge",
+   "seq:self_counterbleeding:ltr",
+   "seq:self_counterbleeding:retain",
+   "seq:self_counterbleeding:rtl",
+   "seq:self_counterfeeding:discharge",
+   "seq:self_counterfeeding:ltr",
+   "seq:self_counterfeeding:retain",
+   "seq:self_counterfeeding:rtl",
+   "seq:self_feeding:discharge",
+   "seq:self_feeding:ltr",
+   "seq:self_feeding:retain",
+   "seq:self_feeding:rtl",
+   "seq:vipratisedha_blocking:discharge",
+   "seq:vipratisedha_blocking:ltr",
+   "seq:vipratisedha_blocking:retain",
+   "seq:vipratisedha_blocking:rtl",
+   "seq:vipratisedha_first_wins:discharge",
+   "seq:vipratisedha_first_wins:ltr",
+   "seq:vipratisedha_first_wins:retain",
+   "seq:vipratisedha_first_wins:rtl",
+   "t07 two-word"
+  ],
+  "sets_using_each": {
+   "filters": {
+    "consonantal": 2,
+    "moraic": 1,
+    "nonhigh": 1,
+    "nuclear": 10,
+    "present": 90,
+    "round": 1,
+    "stressed": 2
+   },
+   "kinds": {
+    "faithfulness": 108,
+    "markedness": 109
+   },
+   "locus_sides": {
+    "candidate": 109,
+    "reference": 19
+   },
+   "policies": {
+    "dynamic": 107,
+    "reference": 2,
+    "witness": 1
+   },
+   "scope_coords": {
+    "fin": 1,
+    "init": 1,
+    "morph": 3,
+    "phrase": 5,
+    "pwd": 1,
+    "rank": 1,
+    "side": 1,
+    "syll": 2,
+    "vdom": 1,
+    "word": 103
+   },
+   "slot_kinds": {
+    "anchor": 109,
+    "assoc": 6,
+    "assocof": 1,
+    "corr": 2,
+    "search": 8,
+    "step": 106,
+    "stepof": 94
+   },
+   "sort_classes": {
+    "derived": 109,
+    "total": 109
+   },
+   "terms": {
+    "core.Feat": 108,
+    "core.InScope": 4,
+    "core.Linked": 5,
+    "core.Made": 12,
+    "core.Positional": 6,
+    "core.Present": 105,
+    "core.Resolves": 106,
+    "core.SameFeat": 18,
+    "core.SameSeg": 5,
+    "frag_apocope._RefSuccPresent": 1,
+    "frag_harmony._SideIs": 1,
+    "frag_lith.DomIs": 3,
+    "frag_morphaccent._CoordIs": 1,
+    "frag_nuer._CoordIs": 1,
+    "frag_nuer._PosOrder": 1,
+    "frag_phase._AspectIs": 1,
+    "frag_phase._LinkedIntoWord": 1,
+    "frag_redup._CoordIs": 2,
+    "frag_redup._PrevOpen": 1,
+    "frag_schwa._Made": 1,
+    "frag_stratal._CoordIs": 1,
+    "frag_stratal._Fused": 1,
+    "frag_stratal._LostSlots": 1,
+    "frag_stratal._RefNext": 1,
+    "frag_stratal._SonDrop": 1
+   },
+   "tiers": {
+    "acc": 1,
+    "seg": 92,
+    "syll": 1,
+    "tone": 2
+   }
+  },
+  "sets_with_definedness_override": [],
+  "shared_by_every_set": {
+   "filters": [],
+   "kinds": [
+    "markedness"
+   ],
+   "locus_sides": [
+    "candidate"
+   ],
+   "policies": [],
+   "scope_coords": [],
+   "slot_kinds": [
+    "anchor"
+   ],
+   "sort_classes": [
+    "derived",
+    "total"
+   ],
+   "terms": [],
+   "tiers": []
+  },
+  "used_by_some": {
+   "filters": [
+    "consonantal",
+    "moraic",
+    "nonhigh",
+    "nuclear",
+    "present",
+    "round",
+    "stressed"
+   ],
+   "kinds": [
+    "faithfulness",
+    "markedness"
+   ],
+   "locus_sides": [
+    "candidate",
+    "reference"
+   ],
+   "policies": [
+    "dynamic",
+    "reference",
+    "witness"
+   ],
+   "scope_coords": [
+    "fin",
+    "init",
+    "morph",
+    "phrase",
+    "pwd",
+    "rank",
+    "side",
+    "syll",
+    "vdom",
+    "word"
+   ],
+   "slot_kinds": [
+    "anchor",
+    "assoc",
+    "assocof",
+    "corr",
+    "search",
+    "step",
+    "stepof"
+   ],
+   "sort_classes": [
+    "derived",
+    "total"
+   ],
+   "terms": [
+    "core.Feat",
+    "core.InScope",
+    "core.Linked",
+    "core.Made",
+    "core.Positional",
+    "core.Present",
+    "core.Resolves",
+    "core.SameFeat",
+    "core.SameSeg",
+    "frag_apocope._RefSuccPresent",
+    "frag_harmony._SideIs",
+    "frag_lith.DomIs",
+    "frag_morphaccent._CoordIs",
+    "frag_nuer._CoordIs",
+    "frag_nuer._PosOrder",
+    "frag_phase._AspectIs",
+    "frag_phase._LinkedIntoWord",
+    "frag_redup._CoordIs",
+    "frag_redup._PrevOpen",
+    "frag_schwa._Made",
+    "frag_stratal._CoordIs",
+    "frag_stratal._Fused",
+    "frag_stratal._LostSlots",
+    "frag_stratal._RefNext",
+    "frag_stratal._SonDrop"
+   ],
+   "tiers": [
+    "acc",
+    "seg",
+    "syll",
+    "tone"
+   ]
+  }
+ },
+ "c_common_domain": {
+  "caveat": "The Gua projection is exact for the eight focal products with shared nonnegative weights. The French interval is a conditional aggregate likelihood profile, not a hard admissibility interval or evidence for cross-language parameter sharing.",
+  "conditional_profile_intersection": {
+   "lower": 0.48092567470921993,
+   "lower_included": true,
+   "upper": 0.5,
+   "upper_included": false
+  },
+  "french_profile_interval_95": [
+   0.48092567470921993,
+   0.8120472924701634
+  ],
+  "gua_exact_projection": {
+   "lower": "0",
+   "lower_included": true,
+   "upper": "1/2",
+   "upper_included": false
+  },
+  "nonempty": true
+ },
+ "d_irreducible": [
+  {
+   "proof": "conditional law and sampling design",
+   "what": "the empirical sharing partition",
+   "why": "pooled French contrasts and process/occasion-confounded Huai’an data do not identify whether sharing follows grammar, process, task or speaker"
+  },
+  {
+   "proof": "D08.2",
+   "what": "the weights (a polytope per fragment)",
+   "why": "two weight vectors inside a selecting region give identical outputs on every input of the productive schema"
+  },
+  {
+   "proof": "D03",
+   "what": "the resolution policy up to its two conditions",
+   "why": "the surviving policies are score-identical on every declared product; the law selects by subject type and operation, not by data"
+  },
+  {
+   "proof": "D27.1, D27.5",
+   "what": "the mode of a requirement",
+   "why": "a formula of the consequence, fixed per requirement by the fate of its loci under destruction from each side"
+  },
+  {
+   "proof": "D27.4, D27.7",
+   "what": "an ordering asymmetry between two requirements",
+   "why": "no mode and no attenuation supplies it; mutual counterfeeding stays generable"
+  }
+ ],
+ "predicate_catalogue": {
+  "atom_constructors": [
+   "core.Feat",
+   "core.InScope",
+   "core.Linked",
+   "core.Made",
+   "core.Positional",
+   "core.Present",
+   "core.Resolves",
+   "core.SameFeat",
+   "core.SameSeg",
+   "frag_apocope._RefSuccPresent",
+   "frag_contact._SideIs",
+   "frag_harmony._SideIs",
+   "frag_lith.DomIs",
+   "frag_morphaccent._CoordIs",
+   "frag_nuer._CoordIs",
+   "frag_nuer._PosOrder",
+   "frag_phase._AspectIs",
+   "frag_phase._LinkedIntoWord",
+   "frag_redup._CoordIs",
+   "frag_redup._PrevOpen",
+   "frag_schwa._Made",
+   "frag_stratal._CoordIs",
+   "frag_stratal._Fused",
+   "frag_stratal._LostSlots",
+   "frag_stratal._RefAnyMorphV",
+   "frag_stratal._RefNext",
+   "frag_stratal._SonDrop",
+   "generator_operations._RefBefore"
+  ],
+  "logic_constructors": [
+   "core.Const",
+   "core.Not",
+   "core.And",
+   "core.Or_"
+  ],
+  "scope": "The fixed catalogue includes predicates defined in fragment modules. It is not limited to the thirteen constructors in core.py.",
+  "used_atom_constructors": [
+   "core.Feat",
+   "core.InScope",
+   "core.Linked",
+   "core.Made",
+   "core.Positional",
+   "core.Present",
+   "core.Resolves",
+   "core.SameFeat",
+   "core.SameSeg",
+   "frag_apocope._RefSuccPresent",
+   "frag_harmony._SideIs",
+   "frag_lith.DomIs",
+   "frag_morphaccent._CoordIs",
+   "frag_nuer._CoordIs",
+   "frag_nuer._PosOrder",
+   "frag_phase._AspectIs",
+   "frag_phase._LinkedIntoWord",
+   "frag_redup._CoordIs",
+   "frag_redup._PrevOpen",
+   "frag_schwa._Made",
+   "frag_stratal._CoordIs",
+   "frag_stratal._Fused",
+   "frag_stratal._LostSlots",
+   "frag_stratal._RefNext",
+   "frag_stratal._SonDrop"
+  ]
+ },
+ "scope": "Closed formulas and the static declaration checks. Source reconstruction, candidate preservation, full semantic translations and empirical explanation are separate obligations.",
+ "shared_commitments": [
+  "the sort table with total and derived sorts (origins against relation instances)",
+  "the finite predicate library with strong-Kleene evaluation and Resolves total over a failing slot",
+  "subject-strictness: the retained bit keyed per locus by the subject through t-correspondence",
+  "activation read once off the fixed reference",
+  "the retained construction's cells: w [a p + lambda (1 - a) p c]",
+  "the four consequence modes as formulas",
+  "additive weighting with one attenuation per grammar",
+  "word- and phrase-scoped reading through the corrected footprint",
+  "the finite reduction's closure as the candidate domain"
+ ],
+ "status": "REGISTERED_SYNTAX_CHECKED"
+}

@@ -1,0 +1,8 @@
+{
+ "candidates": 9464,
+ "claim": "P_uniform(s; w_F, w_M, lambda) = P_exempt(s; lambda w_F, w_M, lambda)",
+ "faithfulness_loci_with_activation_bit_1": 0,
+ "lambda": "1/8",
+ "score_mismatches_exempt_wF_vs_uniform_wF_over_lambda": 0,
+ "status": "FINITE_EXHAUSTIVE_CERTIFIED"
+}

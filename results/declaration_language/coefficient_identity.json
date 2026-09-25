@@ -1,0 +1,516 @@
+{
+ "baseline": {
+  "identical_for_all_weights_and_lambda": true,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G37c": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "N7": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "OR38": {
+    "differing_candidates": 0,
+    "first": []
+   }
+  }
+ },
+ "def_eq_context": {
+  "identical_for_all_weights_and_lambda": false,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 140,
+    "first": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "C23UE": {
+    "differing_candidates": 106,
+    "first": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   "C24ei": {
+    "differing_candidates": 106,
+    "first": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "G34a": {
+    "differing_candidates": 1632,
+    "first": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   "G34b": {
+    "differing_candidates": 1625,
+    "first": [
+     13,
+     14,
+     16,
+     18,
+     19
+    ]
+   },
+   "G37c": {
+    "differing_candidates": 1456,
+    "first": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "N7": {
+    "differing_candidates": 25,
+    "first": [
+     14,
+     16,
+     18,
+     20,
+     22
+    ]
+   },
+   "OR38": {
+    "differing_candidates": 1872,
+    "first": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  }
+ },
+ "def_eq_context_A": {
+  "identical_for_all_weights_and_lambda": false,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 1482,
+    "first": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   "G34b": {
+    "differing_candidates": 1482,
+    "first": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   "G37c": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "N7": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "OR38": {
+    "differing_candidates": 0,
+    "first": []
+   }
+  }
+ },
+ "dynamic_next_word": {
+  "identical_for_all_weights_and_lambda": true,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G37c": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "N7": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "OR38": {
+    "differing_candidates": 0,
+    "first": []
+   }
+  }
+ },
+ "dynamic_nucleus": {
+  "identical_for_all_weights_and_lambda": false,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 35,
+    "first": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 973,
+    "first": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   },
+   "G34b": {
+    "differing_candidates": 1159,
+    "first": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   "G37c": {
+    "differing_candidates": 2008,
+    "first": [
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   "N7": {
+    "differing_candidates": 65,
+    "first": [
+     2,
+     3,
+     4,
+     7,
+     8
+    ]
+   },
+   "OR38": {
+    "differing_candidates": 845,
+    "first": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ]
+   }
+  }
+ },
+ "dynamic_phrase": {
+  "identical_for_all_weights_and_lambda": true,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G37c": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "N7": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "OR38": {
+    "differing_candidates": 0,
+    "first": []
+   }
+  }
+ },
+ "dynamic_stop_nucleus": {
+  "identical_for_all_weights_and_lambda": false,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 1014,
+    "first": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   "G34b": {
+    "differing_candidates": 1014,
+    "first": [
+     13,
+     18,
+     19,
+     22,
+     23
+    ]
+   },
+   "G37c": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "N7": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "OR38": {
+    "differing_candidates": 0,
+    "first": []
+   }
+  }
+ },
+ "origin_bound": {
+  "identical_for_all_weights_and_lambda": false,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 156,
+    "first": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ]
+   },
+   "G34b": {
+    "differing_candidates": 156,
+    "first": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ]
+   },
+   "G37c": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "N7": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "OR38": {
+    "differing_candidates": 0,
+    "first": []
+   }
+  }
+ },
+ "witness": {
+  "identical_for_all_weights_and_lambda": false,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 156,
+    "first": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ]
+   },
+   "G34b": {
+    "differing_candidates": 156,
+    "first": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ]
+   },
+   "G37c": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "N7": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "OR38": {
+    "differing_candidates": 0,
+    "first": []
+   }
+  }
+ },
+ "witness_phrase": {
+  "identical_for_all_weights_and_lambda": false,
+  "per_input": {
+   "C21b": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C23UE": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "C24ei": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "G34a": {
+    "differing_candidates": 156,
+    "first": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ]
+   },
+   "G34b": {
+    "differing_candidates": 156,
+    "first": [
+     13,
+     26,
+     39,
+     52,
+     65
+    ]
+   },
+   "G37c": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "N7": {
+    "differing_candidates": 0,
+    "first": []
+   },
+   "OR38": {
+    "differing_candidates": 0,
+    "first": []
+   }
+  }
+ }
+}

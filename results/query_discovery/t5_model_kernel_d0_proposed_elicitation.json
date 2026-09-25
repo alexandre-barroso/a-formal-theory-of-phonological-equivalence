@@ -1,0 +1,1504 @@
+{
+  "artifact": "t5_model_level_kernel",
+  "M_is_partial": true,
+  "licence_ceiling": "PROPOSED_ELICITATION",
+  "max_depth": 0,
+  "compute_budget_states": 30000,
+  "instances": [
+    {
+      "id": "RET",
+      "provenance": "DISSERTATION_BASELINE",
+      "lambda": "1/8",
+      "modes": {}
+    },
+    {
+      "id": "CUR",
+      "provenance": "DISSERTATION_COMPARATOR",
+      "lambda": "1/8",
+      "modes": {
+        "H": "current",
+        "A": "current",
+        "GL": "current",
+        "D": "current"
+      }
+    },
+    {
+      "id": "RET_lam0",
+      "provenance": "DISSERTATION_BOUNDARY",
+      "lambda": "0",
+      "modes": {}
+    },
+    {
+      "id": "RET_lam1",
+      "provenance": "DISSERTATION_BOUNDARY",
+      "lambda": "1",
+      "modes": {}
+    },
+    {
+      "id": "CUR_H",
+      "provenance": "ABLATION",
+      "lambda": "1/8",
+      "modes": {
+        "H": "current"
+      }
+    },
+    {
+      "id": "OFF_H",
+      "provenance": "ABLATION",
+      "lambda": "1/8",
+      "modes": {
+        "H": "off"
+      }
+    },
+    {
+      "id": "CUR_A",
+      "provenance": "ABLATION",
+      "lambda": "1/8",
+      "modes": {
+        "A": "current"
+      }
+    },
+    {
+      "id": "OFF_A",
+      "provenance": "ABLATION",
+      "lambda": "1/8",
+      "modes": {
+        "A": "off"
+      }
+    },
+    {
+      "id": "CUR_GL",
+      "provenance": "ABLATION",
+      "lambda": "1/8",
+      "modes": {
+        "GL": "current"
+      }
+    },
+    {
+      "id": "OFF_GL",
+      "provenance": "ABLATION",
+      "lambda": "1/8",
+      "modes": {
+        "GL": "off"
+      }
+    },
+    {
+      "id": "CUR_D",
+      "provenance": "ABLATION",
+      "lambda": "1/8",
+      "modes": {
+        "D": "current"
+      }
+    },
+    {
+      "id": "OFF_D",
+      "provenance": "ABLATION",
+      "lambda": "1/8",
+      "modes": {
+        "D": "off"
+      }
+    }
+  ],
+  "protocols": 32,
+  "protocol_meta": [
+    {
+      "base_input": "G34a",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_seg",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G34a",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_segtone",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G34a",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_atr",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G34a",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_count",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "ahɛ",
+        "te",
+        "ɔkpʊkɔ"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G34b",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_seg",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G34b",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_segtone",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G34b",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_atr",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G34b",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_count",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "afɪ",
+        "sɛ",
+        "ohili"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "N7",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_seg",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "atʃɪ",
+        "jeli"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "N7",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_segtone",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "atʃɪ",
+        "jeli"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "N7",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_atr",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "atʃɪ",
+        "jeli"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "N7",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_count",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "atʃɪ",
+        "jeli"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "G37c",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_seg",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G37c",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_segtone",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G37c",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_atr",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "G37c",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_count",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "ɔtʃʊ",
+        "sɛ",
+        "ibie"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_seg",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "kpe",
+        "isi"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_segtone",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "kpe",
+        "isi"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_atr",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "kpe",
+        "isi"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C24ei",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_count",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "kpe",
+        "isi"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "OR38",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_seg",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "OR38",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_segtone",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "OR38",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_atr",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "OR38",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_count",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "atʃɔ",
+        "sɪ",
+        "iku"
+      ],
+      "phrases": [
+        0,
+        0,
+        0
+      ],
+      "states": 2197
+    },
+    {
+      "base_input": "C21b",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_seg",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C21b",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_segtone",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C21b",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_atr",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C21b",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_count",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "wʊsʊ",
+        "ɪsɛ"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_seg",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_segtone",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_atr",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    },
+    {
+      "base_input": "C23UE",
+      "frame": "[-]",
+      "licence": "ATTESTED",
+      "bridge": "B_count",
+      "bridge_licence": "ATTESTED",
+      "words": [
+        "wʊsʊ",
+        "ɛbɪ"
+      ],
+      "phrases": [
+        0,
+        0
+      ],
+      "states": 169
+    }
+  ],
+  "a_priori_query_space": {
+    "carrier": 12,
+    "boolean_kernels_log2": 11,
+    "nominal_kernels_bits": 23
+  },
+  "licensed_query_space": {
+    "carrier": 11,
+    "boolean_kernels_log2": 10,
+    "nominal_kernels_bits": 20
+  },
+  "classes": 11,
+  "class_members": [
+    [
+      "RET",
+      "RET_lam0"
+    ],
+    [
+      "CUR"
+    ],
+    [
+      "RET_lam1"
+    ],
+    [
+      "CUR_H"
+    ],
+    [
+      "OFF_H"
+    ],
+    [
+      "CUR_A"
+    ],
+    [
+      "OFF_A"
+    ],
+    [
+      "CUR_GL"
+    ],
+    [
+      "OFF_GL"
+    ],
+    [
+      "CUR_D"
+    ],
+    [
+      "OFF_D"
+    ]
+  ],
+  "collapse_boolean_bits": 1,
+  "separating_protocol_count": 26,
+  "minimum_cost_battery": {
+    "status": "EXACT",
+    "minimum_cost": "8",
+    "optima_count": 14,
+    "optima": [
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 0
+        },
+        {
+          "base_input": "G37c",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ɔtʃʊ",
+            "sɛ",
+            "ibie"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 12
+        },
+        {
+          "base_input": "C21b",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɪsɛ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 24
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 0
+        },
+        {
+          "base_input": "G37c",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ɔtʃʊ",
+            "sɛ",
+            "ibie"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 12
+        },
+        {
+          "base_input": "C21b",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɪsɛ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 26
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 0
+        },
+        {
+          "base_input": "G37c",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ɔtʃʊ",
+            "sɛ",
+            "ibie"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 14
+        },
+        {
+          "base_input": "C21b",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɪsɛ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 24
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 0
+        },
+        {
+          "base_input": "G37c",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ɔtʃʊ",
+            "sɛ",
+            "ibie"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 14
+        },
+        {
+          "base_input": "C21b",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɪsɛ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 26
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 0
+        },
+        {
+          "base_input": "C24ei",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "kpe",
+            "isi"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 16
+        },
+        {
+          "base_input": "OR38",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "atʃɔ",
+            "sɪ",
+            "iku"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 20
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 0
+        },
+        {
+          "base_input": "C24ei",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "kpe",
+            "isi"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 18
+        },
+        {
+          "base_input": "OR38",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "atʃɔ",
+            "sɪ",
+            "iku"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 20
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 0
+        },
+        {
+          "base_input": "OR38",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "atʃɔ",
+            "sɪ",
+            "iku"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 20
+        },
+        {
+          "base_input": "C23UE",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɛbɪ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 28
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 2
+        },
+        {
+          "base_input": "G37c",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ɔtʃʊ",
+            "sɛ",
+            "ibie"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 12
+        },
+        {
+          "base_input": "C21b",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɪsɛ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 24
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 2
+        },
+        {
+          "base_input": "G37c",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ɔtʃʊ",
+            "sɛ",
+            "ibie"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 12
+        },
+        {
+          "base_input": "C21b",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɪsɛ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 26
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 2
+        },
+        {
+          "base_input": "G37c",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ɔtʃʊ",
+            "sɛ",
+            "ibie"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 14
+        },
+        {
+          "base_input": "C21b",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɪsɛ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 24
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 2
+        },
+        {
+          "base_input": "G37c",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ɔtʃʊ",
+            "sɛ",
+            "ibie"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 14
+        },
+        {
+          "base_input": "C21b",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɪsɛ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 26
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 2
+        },
+        {
+          "base_input": "C24ei",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "kpe",
+            "isi"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 16
+        },
+        {
+          "base_input": "OR38",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "atʃɔ",
+            "sɪ",
+            "iku"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 20
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 2
+        },
+        {
+          "base_input": "C24ei",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "kpe",
+            "isi"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 18
+        },
+        {
+          "base_input": "OR38",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "atʃɔ",
+            "sɪ",
+            "iku"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 20
+        }
+      ],
+      [
+        {
+          "base_input": "G34a",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_atr",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "ahɛ",
+            "te",
+            "ɔkpʊkɔ"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 2
+        },
+        {
+          "base_input": "OR38",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "atʃɔ",
+            "sɪ",
+            "iku"
+          ],
+          "phrases": [
+            0,
+            0,
+            0
+          ],
+          "states": 2197,
+          "index": 20
+        },
+        {
+          "base_input": "C23UE",
+          "frame": "[-]",
+          "licence": "ATTESTED",
+          "bridge": "B_seg",
+          "bridge_licence": "ATTESTED",
+          "words": [
+            "wʊsʊ",
+            "ɛbɪ"
+          ],
+          "phrases": [
+            0,
+            0
+          ],
+          "states": 169,
+          "index": 28
+        }
+      ]
+    ],
+    "explored": 91
+  }
+}

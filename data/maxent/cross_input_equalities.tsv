@@ -1,0 +1,3 @@
+case_id	input_a_rows	input_b_rows	base_masses	universal_equality
+multiplicity_preserved	0;1;1	0;1;1	1;1;1	true
+multiplicity_deleted	0;1;1	0;1	1;1	false

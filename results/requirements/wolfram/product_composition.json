@@ -1,0 +1,7 @@
+{
+	"relation_pairs":256,
+	"reachable_product_cases":1024,
+	"all_minimizer_cases":82944,
+	"failures":[],
+	"method":"Exact Boolean reachability via adjacency matrix powers, then all minimum score fibers."
+}

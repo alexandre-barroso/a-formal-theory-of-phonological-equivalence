@@ -1,0 +1,29 @@
+{
+ "detected_mutations": {
+  "alter_negative_weight": true,
+  "erase_monotonicity_premise": true,
+  "symmetric_drop": true
+ },
+ "monotone_checks": 216,
+ "monotone_minimum": "1/4",
+ "monotone_witness": [
+  "9/10",
+  "9/10",
+  "9/10",
+  "3/5",
+  "2/5",
+  "3/10"
+ ],
+ "native_original_comparisons": 17627,
+ "original_minimum": "1/20",
+ "original_witness": [
+  "4/5",
+  "7/10",
+  "1",
+  "7/10",
+  "1/2",
+  "2/5"
+ ],
+ "scope": "Exact continuous six-site witness; universal lower bounds are independently proved in Lean and Wolfram. No assertion that every negative site causes failure.",
+ "seed": 20260919
+}

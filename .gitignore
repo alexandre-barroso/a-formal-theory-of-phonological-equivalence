@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.lake/
+lean/phonological_requirements/lake-manifest.json
+build/

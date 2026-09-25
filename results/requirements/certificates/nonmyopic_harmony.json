@@ -1,0 +1,1782 @@
+{
+ "lambda": "1/8",
+ "liko": {
+  "(12a)": {
+   "agrees": true,
+   "expected": "I a a a",
+   "input": "i? a? a? a?",
+   "n_candidates": 16,
+   "winners": [
+    "I a a a"
+   ]
+  },
+  "(12b)": {
+   "agrees": true,
+   "expected": "I a a a",
+   "input": "i? a? a? a?",
+   "n_candidates": 16,
+   "winners": [
+    "I a a a"
+   ]
+  },
+  "(12c)": {
+   "agrees": true,
+   "expected": "U a",
+   "input": "u? a?",
+   "n_candidates": 4,
+   "winners": [
+    "U a"
+   ]
+  },
+  "(12d)": {
+   "agrees": true,
+   "expected": "I I O",
+   "input": "i? i? o?",
+   "n_candidates": 8,
+   "winners": [
+    "I I O"
+   ]
+  },
+  "(12e)": {
+   "agrees": true,
+   "expected": "i o o",
+   "input": "i a? a?",
+   "n_candidates": 8,
+   "winners": [
+    "i o o"
+   ]
+  },
+  "(12f)": {
+   "agrees": true,
+   "expected": "u o o o",
+   "input": "u a? a? a?",
+   "n_candidates": 16,
+   "winners": [
+    "u o o o"
+   ]
+  },
+  "(12g)": {
+   "agrees": true,
+   "expected": "u o i",
+   "input": "u a? i?",
+   "n_candidates": 8,
+   "winners": [
+    "u o i"
+   ]
+  },
+  "(12h)": {
+   "agrees": true,
+   "expected": "i i o",
+   "input": "i i? o?",
+   "n_candidates": 8,
+   "winners": [
+    "i i o"
+   ]
+  },
+  "(13a)": {
+   "agrees": true,
+   "expected": "i i U",
+   "input": "i i? U",
+   "n_candidates": 8,
+   "winners": [
+    "i i U"
+   ]
+  },
+  "(13b)": {
+   "agrees": true,
+   "expected": "u i O",
+   "input": "u i? O",
+   "n_candidates": 8,
+   "winners": [
+    "u i O"
+   ]
+  },
+  "(13c)": {
+   "agrees": true,
+   "expected": "i i o o i U",
+   "input": "i i? a? a? i? U",
+   "n_candidates": 64,
+   "winners": [
+    "i i o o i U"
+   ]
+  },
+  "(13d)": {
+   "agrees": true,
+   "expected": "i o o u U",
+   "input": "i o o? u U",
+   "n_candidates": 32,
+   "winners": [
+    "i o o u U"
+   ]
+  },
+  "(13e)": {
+   "agrees": true,
+   "expected": "i o i I",
+   "input": "i a? i? I",
+   "n_candidates": 16,
+   "winners": [
+    "i o i I"
+   ]
+  },
+  "(13f)": {
+   "agrees": true,
+   "expected": "o u O",
+   "input": "a? u O",
+   "n_candidates": 8,
+   "winners": [
+    "o u O"
+   ]
+  },
+  "(14a)": {
+   "agrees": true,
+   "expected": "i a O",
+   "input": "i a? O",
+   "n_candidates": 8,
+   "winners": [
+    "i a O"
+   ]
+  },
+  "(14b)": {
+   "agrees": true,
+   "expected": "i a U",
+   "input": "i a? U",
+   "n_candidates": 8,
+   "winners": [
+    "i a U"
+   ]
+  },
+  "(14c)": {
+   "agrees": true,
+   "expected": "i i a I",
+   "input": "i i? a? I",
+   "n_candidates": 16,
+   "winners": [
+    "i i a I"
+   ]
+  },
+  "(14d)": {
+   "agrees": true,
+   "expected": "i a a U",
+   "input": "i a? a? U",
+   "n_candidates": 16,
+   "winners": [
+    "i a a U"
+   ]
+  },
+  "(14e)": {
+   "agrees": true,
+   "expected": "o a a U",
+   "input": "o a? a? U",
+   "n_candidates": 16,
+   "winners": [
+    "o a a U"
+   ]
+  },
+  "(15c)": {
+   "agrees": true,
+   "expected": "o u o",
+   "input": "o u o?",
+   "n_candidates": 8,
+   "winners": [
+    "o u o"
+   ]
+  },
+  "(15d)": {
+   "agrees": true,
+   "expected": "i o i O U",
+   "input": "i a? i? o? U",
+   "n_candidates": 32,
+   "winners": [
+    "i o i O U"
+   ]
+  }
+ },
+ "predicted_thresholds": {
+  "chain, specified": "n < 1 + lam*w_LR/w_ID = 9/4",
+  "chain, unspecified": "n < w_LR/w_def = 10",
+  "pairwise, specified": "n < 1 + lam*w_AG/w_ID = 9/4",
+  "pairwise, unspecified": "n < w_AG/w_def = 10",
+  "target, specified (nearest root)": "all n, iff w_ID < w_LR",
+  "target, unspecified": "all n, iff w_def < w_LR"
+ },
+ "prefix_threshold": {
+  "full_spreading_up_to": 10,
+  "predicted_bound_n_lt": "11",
+  "winners_by_n": {
+   "1": [
+    "e u"
+   ],
+   "10": [
+    "e e e e e e e e e e u"
+   ],
+   "11": [
+    "a a a a a a a a a a e u",
+    "e e e e e e e e e e e u"
+   ],
+   "12": [
+    "a a a a a a a a a a a e u"
+   ],
+   "2": [
+    "e e u"
+   ],
+   "3": [
+    "e e e u"
+   ],
+   "4": [
+    "e e e e u"
+   ],
+   "5": [
+    "e e e e e u"
+   ],
+   "6": [
+    "e e e e e e u"
+   ],
+   "7": [
+    "e e e e e e e u"
+   ],
+   "8": [
+    "e e e e e e e e u"
+   ],
+   "9": [
+    "e e e e e e e e e u"
+   ]
+  }
+ },
+ "shapes": {
+  "lambda": "1/8",
+  "largest_score_without_touching_fixed": "121",
+  "rows": {
+   "chain, affix subjects | specified | T V^n": {
+    "1": [
+     "i e"
+    ],
+    "10": [
+     "i e a a a a a a a a a"
+    ],
+    "11": [
+     "i e a a a a a a a a a a"
+    ],
+    "12": [
+     "i e a a a a a a a a a a a"
+    ],
+    "2": [
+     "i e e"
+    ],
+    "3": [
+     "i e a a"
+    ],
+    "4": [
+     "i e a a a"
+    ],
+    "5": [
+     "i e a a a a"
+    ],
+    "6": [
+     "i e a a a a a"
+    ],
+    "7": [
+     "i e a a a a a a"
+    ],
+    "8": [
+     "i e a a a a a a a"
+    ],
+    "9": [
+     "i e a a a a a a a a"
+    ]
+   },
+   "chain, affix subjects | specified | T V^n Z": {
+    "1": [
+     "i e U"
+    ],
+    "10": [
+     "i e a a a a a a a a a U"
+    ],
+    "11": [
+     "i e a a a a a a a a a a U"
+    ],
+    "12": [
+     "i e a a a a a a a a a a a U"
+    ],
+    "2": [
+     "i e e U"
+    ],
+    "3": [
+     "i e a a U"
+    ],
+    "4": [
+     "i e a a a U"
+    ],
+    "5": [
+     "i e a a a a U"
+    ],
+    "6": [
+     "i e a a a a a U"
+    ],
+    "7": [
+     "i e a a a a a a U"
+    ],
+    "8": [
+     "i e a a a a a a a U"
+    ],
+    "9": [
+     "i e a a a a a a a a U"
+    ]
+   },
+   "chain, affix subjects | unspecified | T V^n": {
+    "1": [
+     "i o"
+    ],
+    "10": [
+     "i a a a a a a a a a a",
+     "i o o o o o o o o o o"
+    ],
+    "11": [
+     "i a a a a a a a a a a a"
+    ],
+    "12": [
+     "i a a a a a a a a a a a a"
+    ],
+    "2": [
+     "i o o"
+    ],
+    "3": [
+     "i o o o"
+    ],
+    "4": [
+     "i o o o o"
+    ],
+    "5": [
+     "i o o o o o"
+    ],
+    "6": [
+     "i o o o o o o"
+    ],
+    "7": [
+     "i o o o o o o o"
+    ],
+    "8": [
+     "i o o o o o o o o"
+    ],
+    "9": [
+     "i o o o o o o o o o"
+    ]
+   },
+   "chain, affix subjects | unspecified | T V^n Z": {
+    "1": [
+     "i o U"
+    ],
+    "10": [
+     "i a a a a a a a a a a U",
+     "i o o o o o o o o o o U"
+    ],
+    "11": [
+     "i a a a a a a a a a a a U"
+    ],
+    "12": [
+     "i a a a a a a a a a a a a U"
+    ],
+    "2": [
+     "i o o U"
+    ],
+    "3": [
+     "i o o o U"
+    ],
+    "4": [
+     "i o o o o U"
+    ],
+    "5": [
+     "i o o o o o U"
+    ],
+    "6": [
+     "i o o o o o o U"
+    ],
+    "7": [
+     "i o o o o o o o U"
+    ],
+    "8": [
+     "i o o o o o o o o U"
+    ],
+    "9": [
+     "i o o o o o o o o o U"
+    ]
+   },
+   "chain, all subjects | specified | T V^n": {
+    "1": [
+     "i e"
+    ],
+    "10": [
+     "i e a a a a a a a a a"
+    ],
+    "11": [
+     "i e a a a a a a a a a a"
+    ],
+    "12": [
+     "i e a a a a a a a a a a a"
+    ],
+    "2": [
+     "i e e"
+    ],
+    "3": [
+     "i e a a"
+    ],
+    "4": [
+     "i e a a a"
+    ],
+    "5": [
+     "i e a a a a"
+    ],
+    "6": [
+     "i e a a a a a"
+    ],
+    "7": [
+     "i e a a a a a a"
+    ],
+    "8": [
+     "i e a a a a a a a"
+    ],
+    "9": [
+     "i e a a a a a a a a"
+    ]
+   },
+   "chain, all subjects | specified | T V^n Z": {
+    "1": [
+     "i e U"
+    ],
+    "10": [
+     "i e a a a a a a a a a U"
+    ],
+    "11": [
+     "i e a a a a a a a a a a U"
+    ],
+    "12": [
+     "i e a a a a a a a a a a a U"
+    ],
+    "2": [
+     "i e a U"
+    ],
+    "3": [
+     "i e a a U"
+    ],
+    "4": [
+     "i e a a a U"
+    ],
+    "5": [
+     "i e a a a a U"
+    ],
+    "6": [
+     "i e a a a a a U"
+    ],
+    "7": [
+     "i e a a a a a a U"
+    ],
+    "8": [
+     "i e a a a a a a a U"
+    ],
+    "9": [
+     "i e a a a a a a a a U"
+    ]
+   },
+   "chain, all subjects | unspecified | T V^n": {
+    "1": [
+     "i o"
+    ],
+    "10": [
+     "i a a a a a a a a a a",
+     "i o o o o o o o o o o"
+    ],
+    "11": [
+     "i a a a a a a a a a a a"
+    ],
+    "12": [
+     "i a a a a a a a a a a a a"
+    ],
+    "2": [
+     "i o o"
+    ],
+    "3": [
+     "i o o o"
+    ],
+    "4": [
+     "i o o o o"
+    ],
+    "5": [
+     "i o o o o o"
+    ],
+    "6": [
+     "i o o o o o o"
+    ],
+    "7": [
+     "i o o o o o o o"
+    ],
+    "8": [
+     "i o o o o o o o o"
+    ],
+    "9": [
+     "i o o o o o o o o o"
+    ]
+   },
+   "chain, all subjects | unspecified | T V^n Z": {
+    "1": [
+     "i a U"
+    ],
+    "10": [
+     "i a a a a a a a a a a U"
+    ],
+    "11": [
+     "i a a a a a a a a a a a U"
+    ],
+    "12": [
+     "i a a a a a a a a a a a a U"
+    ],
+    "2": [
+     "i a a U"
+    ],
+    "3": [
+     "i a a a U"
+    ],
+    "4": [
+     "i a a a a U"
+    ],
+    "5": [
+     "i a a a a a U"
+    ],
+    "6": [
+     "i a a a a a a U"
+    ],
+    "7": [
+     "i a a a a a a a U"
+    ],
+    "8": [
+     "i a a a a a a a a U"
+    ],
+    "9": [
+     "i a a a a a a a a a U"
+    ]
+   },
+   "pairwise agreement | specified | T V^n": {
+    "1": [
+     "i e"
+    ],
+    "10": [
+     "i e a a a a a a a a a"
+    ],
+    "11": [
+     "i e a a a a a a a a a a"
+    ],
+    "12": [
+     "i e a a a a a a a a a a a"
+    ],
+    "2": [
+     "i e e"
+    ],
+    "3": [
+     "i e a a"
+    ],
+    "4": [
+     "i e a a a"
+    ],
+    "5": [
+     "i e a a a a"
+    ],
+    "6": [
+     "i e a a a a a"
+    ],
+    "7": [
+     "i e a a a a a a"
+    ],
+    "8": [
+     "i e a a a a a a a"
+    ],
+    "9": [
+     "i e a a a a a a a a"
+    ]
+   },
+   "pairwise agreement | specified | T V^n Z": {
+    "1": [
+     "i e U"
+    ],
+    "10": [
+     "i e a a a a a a a a a U"
+    ],
+    "11": [
+     "i e a a a a a a a a a a U"
+    ],
+    "12": [
+     "i e a a a a a a a a a a a U"
+    ],
+    "2": [
+     "i e a U"
+    ],
+    "3": [
+     "i e a a U"
+    ],
+    "4": [
+     "i e a a a U"
+    ],
+    "5": [
+     "i e a a a a U"
+    ],
+    "6": [
+     "i e a a a a a U"
+    ],
+    "7": [
+     "i e a a a a a a U"
+    ],
+    "8": [
+     "i e a a a a a a a U"
+    ],
+    "9": [
+     "i e a a a a a a a a U"
+    ]
+   },
+   "pairwise agreement | unspecified | T V^n": {
+    "1": [
+     "i o"
+    ],
+    "10": [
+     "i a a a a a a a a a a",
+     "i o o o o o o o o o o"
+    ],
+    "11": [
+     "i a a a a a a a a a a a"
+    ],
+    "12": [
+     "i a a a a a a a a a a a a"
+    ],
+    "2": [
+     "i o o"
+    ],
+    "3": [
+     "i o o o"
+    ],
+    "4": [
+     "i o o o o"
+    ],
+    "5": [
+     "i o o o o o"
+    ],
+    "6": [
+     "i o o o o o o"
+    ],
+    "7": [
+     "i o o o o o o o"
+    ],
+    "8": [
+     "i o o o o o o o o"
+    ],
+    "9": [
+     "i o o o o o o o o o"
+    ]
+   },
+   "pairwise agreement | unspecified | T V^n Z": {
+    "1": [
+     "i a U"
+    ],
+    "10": [
+     "i a a a a a a a a a a U"
+    ],
+    "11": [
+     "i a a a a a a a a a a a U"
+    ],
+    "12": [
+     "i a a a a a a a a a a a a U"
+    ],
+    "2": [
+     "i a a U"
+    ],
+    "3": [
+     "i a a a U"
+    ],
+    "4": [
+     "i a a a a U"
+    ],
+    "5": [
+     "i a a a a a U"
+    ],
+    "6": [
+     "i a a a a a a U"
+    ],
+    "7": [
+     "i a a a a a a a U"
+    ],
+    "8": [
+     "i a a a a a a a a U"
+    ],
+    "9": [
+     "i a a a a a a a a a U"
+    ]
+   },
+   "target = nearest root, affix subjects | specified | T V^n": {
+    "1": [
+     "i e"
+    ],
+    "10": [
+     "i e e e e e e e e e e"
+    ],
+    "11": [
+     "i e e e e e e e e e e e"
+    ],
+    "12": [
+     "i e e e e e e e e e e e e"
+    ],
+    "2": [
+     "i e e"
+    ],
+    "3": [
+     "i e e e"
+    ],
+    "4": [
+     "i e e e e"
+    ],
+    "5": [
+     "i e e e e e"
+    ],
+    "6": [
+     "i e e e e e e"
+    ],
+    "7": [
+     "i e e e e e e e"
+    ],
+    "8": [
+     "i e e e e e e e e"
+    ],
+    "9": [
+     "i e e e e e e e e e"
+    ]
+   },
+   "target = nearest root, affix subjects | specified | T V^n Z": {
+    "1": [
+     "i e U"
+    ],
+    "10": [
+     "i e e e e e e e e e e U"
+    ],
+    "11": [
+     "i e e e e e e e e e e e U"
+    ],
+    "12": [
+     "i e e e e e e e e e e e e U"
+    ],
+    "2": [
+     "i e e U"
+    ],
+    "3": [
+     "i e e e U"
+    ],
+    "4": [
+     "i e e e e U"
+    ],
+    "5": [
+     "i e e e e e U"
+    ],
+    "6": [
+     "i e e e e e e U"
+    ],
+    "7": [
+     "i e e e e e e e U"
+    ],
+    "8": [
+     "i e e e e e e e e U"
+    ],
+    "9": [
+     "i e e e e e e e e e U"
+    ]
+   },
+   "target = nearest root, affix subjects | unspecified | T V^n": {
+    "1": [
+     "i o"
+    ],
+    "10": [
+     "i o o o o o o o o o o"
+    ],
+    "11": [
+     "i o o o o o o o o o o o"
+    ],
+    "12": [
+     "i o o o o o o o o o o o o"
+    ],
+    "2": [
+     "i o o"
+    ],
+    "3": [
+     "i o o o"
+    ],
+    "4": [
+     "i o o o o"
+    ],
+    "5": [
+     "i o o o o o"
+    ],
+    "6": [
+     "i o o o o o o"
+    ],
+    "7": [
+     "i o o o o o o o"
+    ],
+    "8": [
+     "i o o o o o o o o"
+    ],
+    "9": [
+     "i o o o o o o o o o"
+    ]
+   },
+   "target = nearest root, affix subjects | unspecified | T V^n Z": {
+    "1": [
+     "i o U"
+    ],
+    "10": [
+     "i o o o o o o o o o o U"
+    ],
+    "11": [
+     "i o o o o o o o o o o o U"
+    ],
+    "12": [
+     "i o o o o o o o o o o o o U"
+    ],
+    "2": [
+     "i o o U"
+    ],
+    "3": [
+     "i o o o U"
+    ],
+    "4": [
+     "i o o o o U"
+    ],
+    "5": [
+     "i o o o o o U"
+    ],
+    "6": [
+     "i o o o o o o U"
+    ],
+    "7": [
+     "i o o o o o o o U"
+    ],
+    "8": [
+     "i o o o o o o o o U"
+    ],
+    "9": [
+     "i o o o o o o o o o U"
+    ]
+   },
+   "target = nearest specified, affix subjects | specified | T V^n": {
+    "1": [
+     "i e"
+    ],
+    "10": [
+     "i e a a a a a a a a a"
+    ],
+    "11": [
+     "i e a a a a a a a a a a"
+    ],
+    "12": [
+     "i e a a a a a a a a a a a"
+    ],
+    "2": [
+     "i e e"
+    ],
+    "3": [
+     "i e a a"
+    ],
+    "4": [
+     "i e a a a"
+    ],
+    "5": [
+     "i e a a a a"
+    ],
+    "6": [
+     "i e a a a a a"
+    ],
+    "7": [
+     "i e a a a a a a"
+    ],
+    "8": [
+     "i e a a a a a a a"
+    ],
+    "9": [
+     "i e a a a a a a a a"
+    ]
+   },
+   "target = nearest specified, affix subjects | specified | T V^n Z": {
+    "1": [
+     "i e U"
+    ],
+    "10": [
+     "i e a a a a a a a a a U"
+    ],
+    "11": [
+     "i e a a a a a a a a a a U"
+    ],
+    "12": [
+     "i e a a a a a a a a a a a U"
+    ],
+    "2": [
+     "i e e U"
+    ],
+    "3": [
+     "i e a a U"
+    ],
+    "4": [
+     "i e a a a U"
+    ],
+    "5": [
+     "i e a a a a U"
+    ],
+    "6": [
+     "i e a a a a a U"
+    ],
+    "7": [
+     "i e a a a a a a U"
+    ],
+    "8": [
+     "i e a a a a a a a U"
+    ],
+    "9": [
+     "i e a a a a a a a a U"
+    ]
+   },
+   "target = nearest specified, affix subjects | unspecified | T V^n": {
+    "1": [
+     "i o"
+    ],
+    "10": [
+     "i o o o o o o o o o o"
+    ],
+    "11": [
+     "i o o o o o o o o o o o"
+    ],
+    "12": [
+     "i o o o o o o o o o o o o"
+    ],
+    "2": [
+     "i o o"
+    ],
+    "3": [
+     "i o o o"
+    ],
+    "4": [
+     "i o o o o"
+    ],
+    "5": [
+     "i o o o o o"
+    ],
+    "6": [
+     "i o o o o o o"
+    ],
+    "7": [
+     "i o o o o o o o"
+    ],
+    "8": [
+     "i o o o o o o o o"
+    ],
+    "9": [
+     "i o o o o o o o o o"
+    ]
+   },
+   "target = nearest specified, affix subjects | unspecified | T V^n Z": {
+    "1": [
+     "i o U"
+    ],
+    "10": [
+     "i o o o o o o o o o o U"
+    ],
+    "11": [
+     "i o o o o o o o o o o o U"
+    ],
+    "12": [
+     "i o o o o o o o o o o o o U"
+    ],
+    "2": [
+     "i o o U"
+    ],
+    "3": [
+     "i o o o U"
+    ],
+    "4": [
+     "i o o o o U"
+    ],
+    "5": [
+     "i o o o o o U"
+    ],
+    "6": [
+     "i o o o o o o U"
+    ],
+    "7": [
+     "i o o o o o o o U"
+    ],
+    "8": [
+     "i o o o o o o o o U"
+    ],
+    "9": [
+     "i o o o o o o o o o U"
+    ]
+   }
+  },
+  "weights": {
+   "AGREE_PAIR": 10,
+   "ID_ATR": 1,
+   "ID_FIXED": 1000,
+   "LR": 10,
+   "NO_ATR": 1
+  }
+ },
+ "shapes_summary": {
+  "chain, affix subjects | specified | T V^n": {
+   "first_failure": 3,
+   "full_spreading_at_n": [
+    1,
+    2
+   ],
+   "winners_at_first_failure": [
+    "i e a a"
+   ]
+  },
+  "chain, affix subjects | specified | T V^n Z": {
+   "first_failure": 3,
+   "full_spreading_at_n": [
+    1,
+    2
+   ],
+   "winners_at_first_failure": [
+    "i e a a U"
+   ]
+  },
+  "chain, affix subjects | unspecified | T V^n": {
+   "first_failure": 10,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "winners_at_first_failure": [
+    "i a a a a a a a a a a",
+    "i o o o o o o o o o o"
+   ]
+  },
+  "chain, affix subjects | unspecified | T V^n Z": {
+   "first_failure": 10,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "winners_at_first_failure": [
+    "i a a a a a a a a a a U",
+    "i o o o o o o o o o o U"
+   ]
+  },
+  "chain, all subjects | specified | T V^n": {
+   "first_failure": 3,
+   "full_spreading_at_n": [
+    1,
+    2
+   ],
+   "winners_at_first_failure": [
+    "i e a a"
+   ]
+  },
+  "chain, all subjects | specified | T V^n Z": {
+   "first_failure": 2,
+   "full_spreading_at_n": [
+    1
+   ],
+   "winners_at_first_failure": [
+    "i e a U"
+   ]
+  },
+  "chain, all subjects | unspecified | T V^n": {
+   "first_failure": 10,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "winners_at_first_failure": [
+    "i a a a a a a a a a a",
+    "i o o o o o o o o o o"
+   ]
+  },
+  "chain, all subjects | unspecified | T V^n Z": {
+   "first_failure": 1,
+   "full_spreading_at_n": [],
+   "winners_at_first_failure": [
+    "i a U"
+   ]
+  },
+  "pairwise agreement | specified | T V^n": {
+   "first_failure": 3,
+   "full_spreading_at_n": [
+    1,
+    2
+   ],
+   "winners_at_first_failure": [
+    "i e a a"
+   ]
+  },
+  "pairwise agreement | specified | T V^n Z": {
+   "first_failure": 2,
+   "full_spreading_at_n": [
+    1
+   ],
+   "winners_at_first_failure": [
+    "i e a U"
+   ]
+  },
+  "pairwise agreement | unspecified | T V^n": {
+   "first_failure": 10,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "winners_at_first_failure": [
+    "i a a a a a a a a a a",
+    "i o o o o o o o o o o"
+   ]
+  },
+  "pairwise agreement | unspecified | T V^n Z": {
+   "first_failure": 1,
+   "full_spreading_at_n": [],
+   "winners_at_first_failure": [
+    "i a U"
+   ]
+  },
+  "target = nearest root, affix subjects | specified | T V^n": {
+   "first_failure": null,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "winners_at_first_failure": null
+  },
+  "target = nearest root, affix subjects | specified | T V^n Z": {
+   "first_failure": null,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "winners_at_first_failure": null
+  },
+  "target = nearest root, affix subjects | unspecified | T V^n": {
+   "first_failure": null,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "winners_at_first_failure": null
+  },
+  "target = nearest root, affix subjects | unspecified | T V^n Z": {
+   "first_failure": null,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "winners_at_first_failure": null
+  },
+  "target = nearest specified, affix subjects | specified | T V^n": {
+   "first_failure": 3,
+   "full_spreading_at_n": [
+    1,
+    2
+   ],
+   "winners_at_first_failure": [
+    "i e a a"
+   ]
+  },
+  "target = nearest specified, affix subjects | specified | T V^n Z": {
+   "first_failure": 3,
+   "full_spreading_at_n": [
+    1,
+    2
+   ],
+   "winners_at_first_failure": [
+    "i e a a U"
+   ]
+  },
+  "target = nearest specified, affix subjects | unspecified | T V^n": {
+   "first_failure": null,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "winners_at_first_failure": null
+  },
+  "target = nearest specified, affix subjects | unspecified | T V^n Z": {
+   "first_failure": null,
+   "full_spreading_at_n": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "winners_at_first_failure": null
+  }
+ },
+ "tutrugbu_tafi": {
+  "(5a)": {
+   "agrees": true,
+   "expected": "u u",
+   "n_candidates": 8,
+   "prefixes": "U U",
+   "root": "u",
+   "winners": [
+    "u u"
+   ]
+  },
+  "(5b)": {
+   "agrees": true,
+   "expected": "e e",
+   "n_candidates": 8,
+   "prefixes": "a a",
+   "root": "u",
+   "winners": [
+    "e e"
+   ]
+  },
+  "(5c)": {
+   "agrees": true,
+   "expected": "e i",
+   "n_candidates": 8,
+   "prefixes": "a I",
+   "root": "u",
+   "winners": [
+    "e i"
+   ]
+  },
+  "(5d)": {
+   "agrees": true,
+   "expected": "e i e",
+   "n_candidates": 16,
+   "prefixes": "a I a",
+   "root": "u",
+   "winners": [
+    "e i e"
+   ]
+  },
+  "(6a)": {
+   "agrees": true,
+   "expected": "u u",
+   "n_candidates": 8,
+   "prefixes": "U U",
+   "root": "i",
+   "winners": [
+    "u u"
+   ]
+  },
+  "(6b)": {
+   "agrees": true,
+   "expected": "e e",
+   "n_candidates": 8,
+   "prefixes": "a a",
+   "root": "i",
+   "winners": [
+    "e e"
+   ]
+  },
+  "(6c)": {
+   "agrees": true,
+   "expected": "e i",
+   "n_candidates": 8,
+   "prefixes": "a I",
+   "root": "u",
+   "winners": [
+    "e i"
+   ]
+  },
+  "(6d)": {
+   "agrees": true,
+   "expected": "e i e",
+   "n_candidates": 16,
+   "prefixes": "a I a",
+   "root": "i",
+   "winners": [
+    "e i e"
+   ]
+  },
+  "(7a)": {
+   "agrees": true,
+   "expected": "I a",
+   "n_candidates": 8,
+   "prefixes": "I a",
+   "root": "u",
+   "winners": [
+    "I a"
+   ]
+  },
+  "(7b)": {
+   "agrees": true,
+   "expected": "I a",
+   "n_candidates": 8,
+   "prefixes": "I a",
+   "root": "e",
+   "winners": [
+    "I a"
+   ]
+  },
+  "(7c)": {
+   "agrees": true,
+   "expected": "I I a",
+   "n_candidates": 16,
+   "prefixes": "I I a",
+   "root": "u",
+   "winners": [
+    "I I a"
+   ]
+  },
+  "(7d)": {
+   "agrees": true,
+   "expected": "I I a a",
+   "n_candidates": 32,
+   "prefixes": "I I a a",
+   "root": "u",
+   "winners": [
+    "I I a a"
+   ]
+  },
+  "(7e)": {
+   "agrees": true,
+   "expected": "I I a a a",
+   "n_candidates": 64,
+   "prefixes": "I I a a a",
+   "root": "u",
+   "winners": [
+    "I I a a a"
+   ]
+  },
+  "(7f)": {
+   "agrees": true,
+   "expected": "I a i",
+   "n_candidates": 16,
+   "prefixes": "I a I",
+   "root": "u",
+   "winners": [
+    "I a i"
+   ]
+  },
+  "(8a)": {
+   "agrees": true,
+   "expected": "U a",
+   "n_candidates": 8,
+   "prefixes": "U a",
+   "root": "i",
+   "winners": [
+    "U a"
+   ]
+  },
+  "(8b)": {
+   "agrees": true,
+   "expected": "I a",
+   "n_candidates": 8,
+   "prefixes": "I a",
+   "root": "i",
+   "winners": [
+    "I a"
+   ]
+  },
+  "(8c)": {
+   "agrees": true,
+   "expected": "I I a",
+   "n_candidates": 16,
+   "prefixes": "I I a",
+   "root": "i",
+   "winners": [
+    "I I a"
+   ]
+  },
+  "(8d)": {
+   "agrees": true,
+   "expected": "I I a",
+   "n_candidates": 16,
+   "prefixes": "I I a",
+   "root": "u",
+   "winners": [
+    "I I a"
+   ]
+  }
+ },
+ "tutrugbu_tafi_target_counting": {
+  "all_agree": true,
+  "forms": {
+   "(5a)": {
+    "agrees": true,
+    "expected": "u u",
+    "winners": [
+     "u u"
+    ]
+   },
+   "(5b)": {
+    "agrees": true,
+    "expected": "e e",
+    "winners": [
+     "e e"
+    ]
+   },
+   "(5c)": {
+    "agrees": true,
+    "expected": "e i",
+    "winners": [
+     "e i"
+    ]
+   },
+   "(5d)": {
+    "agrees": true,
+    "expected": "e i e",
+    "winners": [
+     "e i e"
+    ]
+   },
+   "(6a)": {
+    "agrees": true,
+    "expected": "u u",
+    "winners": [
+     "u u"
+    ]
+   },
+   "(6b)": {
+    "agrees": true,
+    "expected": "e e",
+    "winners": [
+     "e e"
+    ]
+   },
+   "(6c)": {
+    "agrees": true,
+    "expected": "e i",
+    "winners": [
+     "e i"
+    ]
+   },
+   "(6d)": {
+    "agrees": true,
+    "expected": "e i e",
+    "winners": [
+     "e i e"
+    ]
+   },
+   "(7a)": {
+    "agrees": true,
+    "expected": "I a",
+    "winners": [
+     "I a"
+    ]
+   },
+   "(7b)": {
+    "agrees": true,
+    "expected": "I a",
+    "winners": [
+     "I a"
+    ]
+   },
+   "(7c)": {
+    "agrees": true,
+    "expected": "I I a",
+    "winners": [
+     "I I a"
+    ]
+   },
+   "(7d)": {
+    "agrees": true,
+    "expected": "I I a a",
+    "winners": [
+     "I I a a"
+    ]
+   },
+   "(7e)": {
+    "agrees": true,
+    "expected": "I I a a a",
+    "winners": [
+     "I I a a a"
+    ]
+   },
+   "(7f)": {
+    "agrees": true,
+    "expected": "I a i",
+    "winners": [
+     "I a i"
+    ]
+   },
+   "(8a)": {
+    "agrees": true,
+    "expected": "U a",
+    "winners": [
+     "U a"
+    ]
+   },
+   "(8b)": {
+    "agrees": true,
+    "expected": "I a",
+    "winners": [
+     "I a"
+    ]
+   },
+   "(8c)": {
+    "agrees": true,
+    "expected": "I I a",
+    "winners": [
+     "I I a"
+    ]
+   },
+   "(8d)": {
+    "agrees": true,
+    "expected": "I I a",
+    "winners": [
+     "I I a"
+    ]
+   }
+  },
+  "full_spreading_at_n": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "spreading_by_n": {
+   "1": [
+    "e u"
+   ],
+   "10": [
+    "e e e e e e e e e e u"
+   ],
+   "11": [
+    "e e e e e e e e e e e u"
+   ],
+   "12": [
+    "e e e e e e e e e e e e u"
+   ],
+   "2": [
+    "e e u"
+   ],
+   "3": [
+    "e e e u"
+   ],
+   "4": [
+    "e e e e u"
+   ],
+   "5": [
+    "e e e e e u"
+   ],
+   "6": [
+    "e e e e e e u"
+   ],
+   "7": [
+    "e e e e e e e u"
+   ],
+   "8": [
+    "e e e e e e e e u"
+   ],
+   "9": [
+    "e e e e e e e e e u"
+   ]
+  }
+ },
+ "weights": {
+  "height": {
+   "HEIGHT_2SIDED": 20,
+   "ID_MID": 1,
+   "ID_MID_ROOT": 100
+  },
+  "prefix": {
+   "BLOCK_INIT": 1000,
+   "ID_ATR": 1,
+   "ID_ATR_ROOT": 1000,
+   "T1": 80
+  },
+  "suffix": {
+   "ID_ATR": 100,
+   "LR": 10,
+   "NO_ATR": 1,
+   "RL": 20
+  }
+ },
+ "yaka": {
+  "(10a)": {
+   "agrees": true,
+   "expected": "e e",
+   "n_candidates": 8,
+   "root": "e",
+   "suffixes": "i e",
+   "winners": [
+    "e e"
+   ]
+  },
+  "(10b)": {
+   "agrees": true,
+   "expected": "e e e e",
+   "n_candidates": 32,
+   "root": "e",
+   "suffixes": "i i i e",
+   "winners": [
+    "e e e e"
+   ]
+  },
+  "(10c)": {
+   "agrees": true,
+   "expected": "e e e",
+   "n_candidates": 16,
+   "root": "o",
+   "suffixes": "i i e",
+   "winners": [
+    "e e e"
+   ]
+  },
+  "(11a)": {
+   "agrees": true,
+   "expected": "i i",
+   "n_candidates": 8,
+   "root": "i",
+   "suffixes": "i e",
+   "winners": [
+    "i i"
+   ]
+  },
+  "(11b)": {
+   "agrees": true,
+   "expected": "i i i",
+   "n_candidates": 16,
+   "root": "i",
+   "suffixes": "i i e",
+   "winners": [
+    "i i i"
+   ]
+  },
+  "(11c)": {
+   "agrees": true,
+   "expected": "i i i",
+   "n_candidates": 8,
+   "root": "a",
+   "suffixes": "i i e",
+   "winners": [
+    "i i i"
+   ]
+  },
+  "(9a)": {
+   "agrees": true,
+   "expected": "i a",
+   "n_candidates": 4,
+   "root": "i",
+   "suffixes": "i a",
+   "winners": [
+    "i a"
+   ]
+  },
+  "(9b)": {
+   "agrees": true,
+   "expected": "i i a",
+   "n_candidates": 8,
+   "root": "e",
+   "suffixes": "i i a",
+   "winners": [
+    "i i a"
+   ]
+  },
+  "(9c)": {
+   "agrees": true,
+   "expected": "i",
+   "n_candidates": 4,
+   "root": "e",
+   "suffixes": "i",
+   "winners": [
+    "i"
+   ]
+  },
+  "(9d)": {
+   "agrees": true,
+   "expected": "i i",
+   "n_candidates": 8,
+   "root": "e",
+   "suffixes": "i i",
+   "winners": [
+    "i i"
+   ]
+  }
+ }
+}

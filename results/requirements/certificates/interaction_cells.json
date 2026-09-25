@@ -1,0 +1,242 @@
+{
+ "rows": [
+  {
+   "product": "G34a",
+   "minimum_score": "3",
+   "candidates": 2197,
+   "minimizers": [
+    {
+     "winner": "ahetɔɔkpʊkɔ",
+     "aligned": [
+      "a",
+      "h",
+      "e",
+      "t",
+      "ɔ",
+      "ɔ",
+      "k",
+      "p",
+      "ʊ",
+      "k",
+      "ɔ"
+     ],
+     "winner_cell_01": [],
+     "rival_cell_10": [
+      [
+       "H",
+       2
+      ]
+     ],
+     "local_signature": [
+      true,
+      false
+     ]
+    }
+   ],
+   "all_local_signatures_equal": true
+  },
+  {
+   "product": "G34b",
+   "minimum_score": "5/2",
+   "candidates": 2197,
+   "minimizers": [
+    {
+     "winner": "afɪsoohili",
+     "aligned": [
+      "a",
+      "f",
+      "ɪ",
+      "s",
+      "o",
+      "o",
+      "h",
+      "i",
+      "l",
+      "i"
+     ],
+     "winner_cell_01": [
+      [
+       "H",
+       2
+      ]
+     ],
+     "rival_cell_10": [],
+     "local_signature": [
+      false,
+      true
+     ]
+    }
+   ],
+   "all_local_signatures_equal": true
+  },
+  {
+   "product": "N7",
+   "minimum_score": "1",
+   "candidates": 169,
+   "minimizers": [
+    {
+     "winner": "atʃijeli",
+     "aligned": [
+      "a",
+      "tʃ",
+      "i",
+      "j",
+      "e",
+      "l",
+      "i"
+     ],
+     "winner_cell_01": [],
+     "rival_cell_10": [],
+     "local_signature": [
+      false,
+      false
+     ]
+    }
+   ],
+   "all_local_signatures_equal": true
+  },
+  {
+   "product": "G37c",
+   "minimum_score": "7/2",
+   "candidates": 2197,
+   "minimizers": [
+    {
+     "winner": "ɔtʃʊsejbie",
+     "aligned": [
+      "ɔ",
+      "tʃ",
+      "ʊ",
+      "s",
+      "e",
+      "j",
+      "b",
+      "i",
+      "e"
+     ],
+     "winner_cell_01": [
+      [
+       "H",
+       2
+      ]
+     ],
+     "rival_cell_10": [],
+     "local_signature": [
+      false,
+      true
+     ]
+    }
+   ],
+   "all_local_signatures_equal": true
+  },
+  {
+   "product": "C24ei",
+   "minimum_score": "2",
+   "candidates": 169,
+   "minimizers": [
+    {
+     "winner": "kpejsi",
+     "aligned": [
+      "k",
+      "p",
+      "e",
+      "j",
+      "s",
+      "i"
+     ],
+     "winner_cell_01": [],
+     "rival_cell_10": [],
+     "local_signature": [
+      false,
+      false
+     ]
+    }
+   ],
+   "all_local_signatures_equal": true
+  },
+  {
+   "product": "OR38",
+   "minimum_score": "43/2",
+   "candidates": 2197,
+   "minimizers": [
+    {
+     "winner": "atʃɔsiku",
+     "aligned": [
+      "a",
+      "tʃ",
+      "ɔ",
+      "s",
+      "i",
+      "∅",
+      "k",
+      "u"
+     ],
+     "winner_cell_01": [
+      [
+       "H",
+       2
+      ]
+     ],
+     "rival_cell_10": [],
+     "local_signature": [
+      false,
+      true
+     ]
+    }
+   ],
+   "all_local_signatures_equal": true
+  },
+  {
+   "product": "C21b",
+   "minimum_score": "20",
+   "candidates": 169,
+   "minimizers": [
+    {
+     "winner": "wʊsʊsɛ",
+     "aligned": [
+      "w",
+      "ʊ",
+      "s",
+      "ʊ",
+      "∅",
+      "s",
+      "ɛ"
+     ],
+     "winner_cell_01": [],
+     "rival_cell_10": [],
+     "local_signature": [
+      false,
+      false
+     ]
+    }
+   ],
+   "all_local_signatures_equal": true
+  },
+  {
+   "product": "C23UE",
+   "minimum_score": "2",
+   "candidates": 169,
+   "minimizers": [
+    {
+     "winner": "wʊswɛbɪ",
+     "aligned": [
+      "w",
+      "ʊ",
+      "s",
+      "w",
+      "ɛ",
+      "b",
+      "ɪ"
+     ],
+     "winner_cell_01": [],
+     "rival_cell_10": [],
+     "local_signature": [
+      false,
+      false
+     ]
+    }
+   ],
+   "all_local_signatures_equal": true
+  }
+ ],
+ "scope": "Local pressure diagnostics over complete minimizers, not a classical process classification theorem."
+}

@@ -1,0 +1,10 @@
+example_id	h	m	p	position	exact_value	decimal_value	support_status
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	0	1	1	positive
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	1	3/5	0.6	positive
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	2	3/10	0.3	positive
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	3	1/10	0.1	positive
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	4	0	0	zero
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	5	0	0	zero
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	6	0	0	zero
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	7	0	0	zero
+KAZAKH-FORMAL-H5-M1-P2	5	1	2	8	0	0	zero

@@ -1,0 +1,58 @@
+{
+ "per_input": {
+  "G34a": {
+   "pairs_checked": 8010902,
+   "witness": {
+    "edit": {
+     "origin": 5,
+     "value": "ɜ"
+    },
+    "locus": 0,
+    "schema": "H",
+    "shared_triple": [
+     false,
+     true,
+     false
+    ],
+    "state_a": [
+     "a",
+     "h",
+     "∅",
+     "t",
+     "∅",
+     "∅",
+     "k",
+     "p",
+     "ʊ",
+     "k",
+     "ɔ"
+    ],
+    "state_b": [
+     "a",
+     "h",
+     "∅",
+     "t",
+     "a",
+     "∅",
+     "k",
+     "p",
+     "ʊ",
+     "k",
+     "ɔ"
+    ],
+    "triple_after_a": [
+     true,
+     true,
+     false
+    ],
+    "triple_after_b": [
+     false,
+     true,
+     false
+    ]
+   }
+  }
+ },
+ "variant": "dynamic_next_word",
+ "verdict": "REFUTED"
+}

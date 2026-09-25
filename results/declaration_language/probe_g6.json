@@ -1,0 +1,408 @@
+{
+ "guard_bite": {
+  "C21b": {
+   "candidates": 169,
+   "initially_violated_A_loci": [],
+   "pressure_changed_by_frozen_witness": 0,
+   "pressure_changed_by_scope_guard": 0
+  },
+  "C23UE": {
+   "candidates": 169,
+   "initially_violated_A_loci": [],
+   "pressure_changed_by_frozen_witness": 0,
+   "pressure_changed_by_scope_guard": 0
+  },
+  "C24ei": {
+   "candidates": 169,
+   "initially_violated_A_loci": [],
+   "pressure_changed_by_frozen_witness": 0,
+   "pressure_changed_by_scope_guard": 0
+  },
+  "G34a": {
+   "candidates": 2197,
+   "initially_violated_A_loci": [
+    4
+   ],
+   "pressure_changed_by_frozen_witness": 156,
+   "pressure_changed_by_scope_guard": 0
+  },
+  "G34b": {
+   "candidates": 2197,
+   "initially_violated_A_loci": [
+    4
+   ],
+   "pressure_changed_by_frozen_witness": 156,
+   "pressure_changed_by_scope_guard": 0
+  },
+  "G37c": {
+   "candidates": 2197,
+   "initially_violated_A_loci": [],
+   "pressure_changed_by_frozen_witness": 0,
+   "pressure_changed_by_scope_guard": 0
+  },
+  "N7": {
+   "candidates": 169,
+   "initially_violated_A_loci": [],
+   "pressure_changed_by_frozen_witness": 0,
+   "pressure_changed_by_scope_guard": 0
+  },
+  "OR38": {
+   "candidates": 2197,
+   "initially_violated_A_loci": [],
+   "pressure_changed_by_frozen_witness": 0,
+   "pressure_changed_by_scope_guard": 0
+  }
+ },
+ "probe": {
+  "baseline": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    64
+   ],
+   "scope_safe": false,
+   "states": [
+    {
+     "context": false,
+     "defined": true,
+     "good": true,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": true,
+     "good": false,
+     "retained8": 64,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "def_eq_context": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": true,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "def_eq_context_A": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": true,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "dynamic_next_word": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "dynamic_nucleus": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "dynamic_phrase": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "dynamic_stop_nucleus": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "origin_bound": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "witness": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  },
+  "witness_phrase": {
+   "first_phrase_projection_equal": true,
+   "reference_marked": true,
+   "retained8": [
+    0,
+    0
+   ],
+   "scope_safe": true,
+   "states": [
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "e",
+      "e"
+     ]
+    },
+    {
+     "context": false,
+     "defined": false,
+     "good": false,
+     "retained8": 0,
+     "state": [
+      "e",
+      "∅",
+      "o",
+      "e"
+     ]
+    }
+   ]
+  }
+ }
+}

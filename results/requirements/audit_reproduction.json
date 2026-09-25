@@ -1,0 +1,30 @@
+{
+ "phase": "reproduction",
+ "results": [
+  {
+   "detail": "opacity PASS; grounding PASS",
+   "ok": true,
+   "required": true,
+   "step": "reproduction entry points"
+  },
+  {
+   "detail": "PASS: core derived readers == appendix-G readers at every origin of every one of the 9464 candidates (refined=True).",
+   "ok": true,
+   "required": true,
+   "step": "bridge"
+  },
+  {
+   "detail": "20.2 held-output leakage, Arapaho: [('CLUS1', 1), ('CLUS2', 1), ('RND1', 1)]; error = None",
+   "ok": true,
+   "required": true,
+   "step": "leakage"
+  },
+  {
+   "detail": "PASS: 18 ordered comparisons, 27 native Gua coefficient pairs, all three opening rows, two full laws and deletion law; \"PASS: orders, both orientations, laws, native Gua rows and symbolic fixed-faithfulness obstruction; Wolfram \"\"15.0.1 for Mac OS X ARM (64-bit) (July 2, 2026)\"",
+   "ok": true,
+   "required": true,
+   "step": "opening comparisons"
+  }
+ ],
+ "shard": "1/1"
+}

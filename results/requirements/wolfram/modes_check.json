@@ -1,0 +1,8 @@
+{
+	"counterbleeding_not_carried_iff":true,
+	"counterbleeding_carried_never":true,
+	"bleeding_iff_carried":true,
+	"mutual_both_apply_iff":true,
+	"feeding_needs_positive_attenuation":true,
+	"counterfeeding_needs_attenuation_below_one":true
+}

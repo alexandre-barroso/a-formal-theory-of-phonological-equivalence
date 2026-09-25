@@ -1,0 +1,203 @@
+{
+  "artifact": "t7_two_correspondences",
+  "cases": {
+    "OR38": {
+      "rows": [
+        {
+          "focal": [
+            "ɔ",
+            "∅",
+            "i"
+          ],
+          "B_seg": "atʃɔsiku",
+          "B_atr": [
+            "-",
+            "-",
+            "+",
+            "+"
+          ],
+          "B_count": 7,
+          "B_segtone": [
+            [
+              "a",
+              "H"
+            ],
+            [
+              "tʃ",
+              null
+            ],
+            [
+              "ɔ",
+              "L"
+            ],
+            [
+              "s",
+              null
+            ],
+            [
+              "i",
+              "H"
+            ],
+            [
+              "k",
+              null
+            ],
+            [
+              "u",
+              "L"
+            ]
+          ],
+          "score8": 356,
+          "score": "89/2"
+        },
+        {
+          "focal": [
+            "ɔ",
+            "i",
+            "∅"
+          ],
+          "B_seg": "atʃɔsiku",
+          "B_atr": [
+            "-",
+            "-",
+            "+",
+            "+"
+          ],
+          "B_count": 7,
+          "B_segtone": [
+            [
+              "a",
+              "H"
+            ],
+            [
+              "tʃ",
+              null
+            ],
+            [
+              "ɔ",
+              "L"
+            ],
+            [
+              "s",
+              null
+            ],
+            [
+              "i",
+              "L"
+            ],
+            [
+              "k",
+              null
+            ],
+            [
+              "u",
+              "L"
+            ]
+          ],
+          "score8": 172,
+          "score": "43/2"
+        }
+      ],
+      "separated_by": {
+        "B_seg": false,
+        "B_atr": false,
+        "B_count": false,
+        "B_segtone": true,
+        "score8": true
+      }
+    },
+    "C21b": {
+      "rows": [
+        {
+          "focal": [
+            "∅",
+            "ʊ"
+          ],
+          "B_seg": "wʊsʊsɛ",
+          "B_atr": [
+            "-",
+            "-",
+            "-"
+          ],
+          "B_count": 6,
+          "B_segtone": [
+            [
+              "w",
+              null
+            ],
+            [
+              "ʊ",
+              "L"
+            ],
+            [
+              "s",
+              null
+            ],
+            [
+              "ʊ",
+              "H"
+            ],
+            [
+              "s",
+              null
+            ],
+            [
+              "ɛ",
+              "L"
+            ]
+          ],
+          "score8": 368,
+          "score": "46"
+        },
+        {
+          "focal": [
+            "ʊ",
+            "∅"
+          ],
+          "B_seg": "wʊsʊsɛ",
+          "B_atr": [
+            "-",
+            "-",
+            "-"
+          ],
+          "B_count": 6,
+          "B_segtone": [
+            [
+              "w",
+              null
+            ],
+            [
+              "ʊ",
+              "L"
+            ],
+            [
+              "s",
+              null
+            ],
+            [
+              "ʊ",
+              "H"
+            ],
+            [
+              "s",
+              null
+            ],
+            [
+              "ɛ",
+              "L"
+            ]
+          ],
+          "score8": 160,
+          "score": "20"
+        }
+      ],
+      "separated_by": {
+        "B_seg": false,
+        "B_atr": false,
+        "B_count": false,
+        "B_segtone": false,
+        "score8": true
+      }
+    }
+  }
+}

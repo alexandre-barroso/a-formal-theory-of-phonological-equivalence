@@ -1,0 +1,4 @@
+case_id	parameter_exact	left_probability_exact	right_probability_exact	relation
+MAX-G4	1/2	3/4	32/59	left_greater
+MAX-G4	1	1/2	4/5	left_less
+MAX-G4	2	1/4	32/33	left_less

@@ -1,0 +1,18 @@
+{
+ "all_pass": true,
+ "coordinates_per_matrix": 12,
+ "matrix_sha256": "7d32694f6233801e27a64bd89178e0752e41ea1e4dd308d9302338136a2a947e",
+ "native_coefficient_matrices": 12672,
+ "seed": 201126,
+ "seeded_long_tail_matrices": 256,
+ "tail_lengths": [
+  0,
+  1,
+  2,
+  4,
+  9,
+  17,
+  33,
+  65
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "options": {},
+ "per_input": [
+  {
+   "candidates": 2197,
+   "first_examples": {},
+   "input": "G34a",
+   "origins": 11,
+   "pressure_disagreements": {},
+   "score_disagreements": 0,
+   "triple_disagreements": {}
+  },
+  {
+   "candidates": 2197,
+   "first_examples": {},
+   "input": "G34b",
+   "origins": 10,
+   "pressure_disagreements": {},
+   "score_disagreements": 0,
+   "triple_disagreements": {}
+  },
+  {
+   "candidates": 169,
+   "first_examples": {},
+   "input": "N7",
+   "origins": 7,
+   "pressure_disagreements": {},
+   "score_disagreements": 0,
+   "triple_disagreements": {}
+  },
+  {
+   "candidates": 2197,
+   "first_examples": {},
+   "input": "G37c",
+   "origins": 9,
+   "pressure_disagreements": {},
+   "score_disagreements": 0,
+   "triple_disagreements": {}
+  },
+  {
+   "candidates": 169,
+   "first_examples": {},
+   "input": "C24ei",
+   "origins": 6,
+   "pressure_disagreements": {},
+   "score_disagreements": 0,
+   "triple_disagreements": {}
+  },
+  {
+   "candidates": 2197,
+   "first_examples": {},
+   "input": "OR38",
+   "origins": 8,
+   "pressure_disagreements": {},
+   "score_disagreements": 0,
+   "triple_disagreements": {}
+  },
+  {
+   "candidates": 169,
+   "first_examples": {},
+   "input": "C21b",
+   "origins": 7,
+   "pressure_disagreements": {},
+   "score_disagreements": 0,
+   "triple_disagreements": {}
+  },
+  {
+   "candidates": 169,
+   "first_examples": {},
+   "input": "C23UE",
+   "origins": 7,
+   "pressure_disagreements": {},
+   "score_disagreements": 0,
+   "triple_disagreements": {}
+  }
+ ],
+ "pressure_total": 0,
+ "score_total": 0,
+ "total_candidates": 9464,
+ "triple_total": 0,
+ "variant": "baseline",
+ "well_typedness": {
+  "A": {
+   "consequence_depth": 3,
+   "consequence_slots": [
+    "n_free",
+    "t"
+   ],
+   "faults": [
+    "definedness-override",
+    "resolution-split:relatum+1",
+    "unscoped-relational-subject:n_free"
+   ],
+   "relational_subject": true,
+   "subject_slots": [
+    "t",
+    "n_free"
+   ],
+   "well_typed": false
+  },
+  "D": {
+   "consequence_depth": 2,
+   "consequence_slots": [
+    "t"
+   ],
+   "faults": [],
+   "relational_subject": false,
+   "subject_slots": [
+    "t"
+   ],
+   "well_typed": true
+  },
+  "GL": {
+   "consequence_depth": 3,
+   "consequence_slots": [
+    "t"
+   ],
+   "faults": [],
+   "relational_subject": false,
+   "subject_slots": [
+    "t"
+   ],
+   "well_typed": true
+  },
+  "H": {
+   "consequence_depth": 1,
+   "consequence_slots": [
+    "t"
+   ],
+   "faults": [],
+   "relational_subject": false,
+   "subject_slots": [
+    "t"
+   ],
+   "well_typed": true
+  },
+  "IDENT_ATR": {
+   "consequence_depth": 1,
+   "consequence_slots": [
+    "t"
+   ],
+   "faults": [],
+   "relational_subject": false,
+   "subject_slots": [
+    "t"
+   ],
+   "well_typed": true
+  },
+  "IDENT_NUC": {
+   "consequence_depth": 1,
+   "consequence_slots": [
+    "t"
+   ],
+   "faults": [],
+   "relational_subject": false,
+   "subject_slots": [
+    "t"
+   ],
+   "well_typed": true
+  },
+  "IDENT_QUAL": {
+   "consequence_depth": 1,
+   "consequence_slots": [
+    "t"
+   ],
+   "faults": [],
+   "relational_subject": false,
+   "subject_slots": [
+    "t"
+   ],
+   "well_typed": true
+  },
+  "INITIAL_FEATURE": {
+   "consequence_depth": 4,
+   "consequence_slots": [
+    "t"
+   ],
+   "faults": [],
+   "relational_subject": false,
+   "subject_slots": [
+    "t"
+   ],
+   "well_typed": true
+  },
+  "MAX": {
+   "consequence_depth": 1,
+   "consequence_slots": [
+    "t"
+   ],
+   "faults": [],
+   "relational_subject": false,
+   "subject_slots": [
+    "t"
+   ],
+   "well_typed": true
+  }
+ }
+}

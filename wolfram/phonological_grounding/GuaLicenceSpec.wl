@@ -1,0 +1,100 @@
+<|"version" -> "1.2.0", "provenance" ->
+  <|"note" -> "Every entry below carries the page and example number actually \
+read in that PDF. Nothing here is an observation of this repository. The tone \
+annotations are transcriptions read off the source's own examples; they are \
+not new measurements."|>, "tone" -> <|"inventory" -> {"H", "L"},
+   "evidence" -> "Obiri-Yeboah & Rasin p. 7 \[Section]2.2: the vowels 'can \
+occur with high or low tone', and every datum in that paper is transcribed \
+with an acute (H) or grave (L) accent. Obiri-Yeboah 2021 \[Section]7.1 (pp. \
+207-210) gives the two-tone system in full, and analyses the falling tone of \
+'HF nouns' as underlyingly H-L with a delayed peak (p. 210, (6)), which is \
+why a noun written with a circumflex there corresponds to an H...L sequence \
+in Obiri-Yeboah & Rasin.", "per_input" ->
+    <|"G34a" -> <|"source" ->
+        "p. 18, (34a): /ahE te OkpUkO/ -> [ahe tO OkpUkO]",
+       "tones" -> {"L", Null, "H", Null, "L", "L", Null, Null, "L", Null,
+         "H"}|>, "G34b" -> <|"source" ->
+        "p. 18, (34b): /afI sE ohili/ -> [afI so ohili]",
+       "tones" -> {"H", Null, "L", Null, "L", "L", Null, "H", Null, "L"}|>,
+     "N7" -> <|"source" -> "p. 19, footnote 7: /atCI jeli/ -> [atCi jeli]",
+       "tones" -> {"L", Null, "H", Null, "H", Null, "L"}|>,
+     "G37c" -> <|"source" ->
+        "pp. 19-20, (37c): /OtSU sE ibie/ -> [OtSU sejbie]",
+       "tones" -> {"L", Null, "H", Null, "L", "H", Null, "H", "L"}|>,
+     "C24ei" -> <|"source" -> "p. 13, (24), e/i cell: kpe isi [ej]",
+       "tones" -> {Null, Null, "L", "H", Null, "L"}|>,
+     "OR38" -> <|"source" -> "p. 20, (38a): /atSO sI iku/ -> [atSO siku]",
+       "tones" -> {"H", Null, "L", Null, "L", "H", Null, "L"}|>,
+     "C21b" -> <|"source" -> "p. 12, (21b): wUsU IsE -> [wUsU sE]",
+       "tones" -> {Null, "L", Null, "H", "H", Null, "L"}|>,
+     "C23UE" -> <|"source" -> "p. 13, (23), U/E cell: wUsU EbI [wE]",
+       "tones" -> {Null, "L", Null, "H", "H", Null, "L"}|>|>|>,
+ "operations" -> {<|"id" -> "isolate_word", "arity" -> 2,
+    "licence" -> "ATTESTED", "definedness" ->
+     "defined for every word index of the state's skeleton",
+    "cost_fields" -> <|"items" -> 1, "words" -> 1|>|>,
+   <|"id" -> "drop_word", "arity" -> 2, "definedness" ->
+     "undefined when the result would have fewer than one word",
+    "cost_fields" -> <|"items" -> 1, "words" -> "|words| - 1"|>|>,
+   <|"id" -> "prefix_word", "arity" -> 2, "licence" -> "ATTESTED",
+    "definedness" -> "always", "cost_fields" -> <|"items" -> 1,
+      "words" -> "|words| + 1"|>|>, <|"id" -> "suffix_word", "arity" -> 2,
+    "licence" -> "ATTESTED", "definedness" -> "always",
+    "cost_fields" -> <|"items" -> 1, "words" -> "|words| + 1"|>|>,
+   <|"id" -> "substitute_word", "arity" -> 3, "licence" -> "ATTESTED",
+    "definedness" ->
+     "undefined when the substituted word would begin with /u/ or /U/",
+    "definedness_locator" -> "p. 13, footnote 5: 'the high back vowels /u/ \
+and /U/ cannot occur word-initially. This is why they are missing from the \
+columns in the tables'.", "cost_fields" -> <|"items" -> 1,
+      "words" -> "|words|"|>|>, <|"id" -> "insert_word_at", "arity" -> 3,
+    "licence" -> "PROPOSED_ELICITATION", "definedness" -> "always",
+    "cost_fields" -> <|"items" -> 1, "words" -> "|words| + 1"|>|>,
+   <|"id" -> "rephrase_by_length", "arity" -> 1, "licence" -> "ATTESTED",
+    "definedness" -> "defined for utterances of one to four lexical words; \
+undefined beyond four (the source discusses longer sentences only by \
+reference to Obiri-Yeboah and Rose 2022, which is not in this collection)",
+    "definedness_locator" -> "Obiri-Yeboah & Rasin p. 11, footnote 4, \
+deferring longer sentences to Obiri-Yeboah & Rose 2022, which is not in this \
+collection.", "cost_fields" -> <|"items" -> 0, "words" -> "|words|"|>|>,
+   <|"id" -> "project_phrase", "arity" -> 2, "licence" -> "MODEL_INTERNAL",
+    "definedness" -> "defined for every phrase index of the skeleton",
+    "cost_fields" -> <|"items" -> 0, "words" -> 0|>|>,
+   <|"id" -> "weight_derivative", "arity" -> 2,
+    "licence" -> "MODEL_INTERNAL", "definedness" -> "always",
+    "cost_fields" -> <|"items" -> 0, "words" -> 0|>|>},
+ "bridges" -> {<|"id" -> "B_seg", "licence" -> "ATTESTED", "cost" -> 0|>,
+   <|"id" -> "B_atr", "licence" -> "ATTESTED", "cost" -> 0|>,
+   <|"id" -> "B_count", "licence" -> "ATTESTED", "cost" -> 0|>,
+   <|"id" -> "B_segtone", "licence" -> "ATTESTED", "cost" -> 1,
+    "cost_justification" -> "tone must be transcribed by a trained \
+transcriber or extracted from a pitch track; the segmental transcription is \
+already produced by the baseline protocol. UNCHANGED at version 1.1.0: \
+promoting the licence class does not reduce the transcription effort, and \
+revising a declared cost after seeing which battery wins is forbidden by \
+decision D4."|>, <|"id" -> "B_score8", "licence" -> "MODEL_INTERNAL",
+    "cost" -> Null, "cost_justification" ->
+     "no experimental cost is declared because no experiment realises it"|>},
+ "lexical_words_for_frames" ->
+  {<|"id" -> "W_bE", "segments" -> {"b", "\:025b"}, "tones" -> {Null, "L"},
+    "gloss" -> "coming", "locator" -> "p. 15, (28c)/(28d): bE"|>,
+   <|"id" -> "W_akU", "segments" -> {"a", "k", "\:028a"},
+    "tones" -> {"H", Null, "L"}, "gloss" -> "one",
+    "locator" -> "p. 14, (28a): akU"|>, <|"id" -> "W_njEE",
+    "segments" -> {"n", "j", "\:025b", "\:025b"},
+    "tones" -> {Null, Null, "H", "L"}, "gloss" -> "1st.say.pst",
+    "locator" -> "p. 15, (28b)/(28d): njEE. The syllabic nasal's low tone is \
+outside the declared alphabet and is abstracted away, as tone is throughout \
+the shared representation."|>, <|"id" -> "W_tei",
+    "segments" -> {"t", "e", "i"}, "tones" -> {Null, "H", "L"},
+    "gloss" -> "food", "locator" -> "p. 12, (20a): teI"|>,
+   <|"id" -> "W_oni", "segments" -> {"o", "n", "i"},
+    "tones" -> {"L", Null, "H"}, "gloss" -> "fish/meat",
+    "locator" -> "p. 12, (20b): oni"|>, <|"id" -> "W_isE",
+    "segments" -> {"\:026a", "s", "\:025b"}, "tones" -> {"H", Null, "L"},
+    "gloss" -> "grass", "locator" -> "p. 12, (21a)/(21b): IsE"|>,
+   <|"id" -> "W_EbI", "segments" -> {"\:025b", "b", "\:026a"},
+    "tones" -> {"H", Null, "L"}, "gloss" -> "palm tree",
+    "locator" -> "p. 13, (23): EbI"|>, <|"id" -> "W_ibie",
+    "segments" -> {"i", "b", "i", "e"}, "tones" -> {"H", Null, "H", "L"},
+    "gloss" -> "market", "locator" -> "p. 20, (37c): ibie"|>}|>

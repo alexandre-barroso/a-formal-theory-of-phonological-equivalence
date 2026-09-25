@@ -1,0 +1,2450 @@
+{
+ "cell_table": {
+  "a=0,C=0": "0",
+  "a=0,C=1": "lam*p*w",
+  "a=1,C=0": "p*w",
+  "a=1,C=1": "p*w"
+ },
+ "weights": {
+  "ID_SEG": 5,
+  "ID_NUCLEAR": 3,
+  "ID_CONT": 2,
+  "ID_GLOTTAL": 2,
+  "ID_DOR": 1,
+  "ID_ANT": 1,
+  "ID_LAB": 1,
+  "ID_NAS": 1,
+  "ID_OBS": 1,
+  "ID_FRONT": 1,
+  "ID_HIGH": 1,
+  "ID_ROUND": 1,
+  "ID_HTONE": 1,
+  "MUT_DOR": 8,
+  "MUT_ANT": 8,
+  "NOCODA": 2,
+  "DEP": 10,
+  "MAX": 10,
+  "SYNC": 0
+ },
+ "lambda": "1/8",
+ "configurations": {
+  "TRIG1": {
+   "input": "étʃexíihiʔ",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "surface": "étʃesíihiʔ",
+   "status": "ATTESTED"
+  },
+  "TRIG2": {
+   "input": "éketii",
+   "morphs": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "surface": "étʃetii",
+   "status": "ATTESTED"
+  },
+  "TRIG3": {
+   "input": "nóóhowéθen",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "surface": "nóóhobéθen",
+   "status": "ATTESTED"
+  },
+  "CLUS1": {
+   "input": "étʃexnówoʔ",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "surface": "étʃesnówoʔ",
+   "status": "ATTESTED"
+  },
+  "CLUS2": {
+   "input": "tʃewkóóhu",
+   "morphs": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "surface": "tʃebkóóhu",
+   "status": "ATTESTED"
+  },
+  "CLUS3": {
+   "input": "nihbebíiθtiit",
+   "morphs": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3
+   ],
+   "surface": "nihbebíistiit",
+   "status": "ATTESTED"
+  },
+  "RND1": {
+   "input": "wóxhoox",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "surface": "wóxhoox",
+   "status": "ATTESTED"
+  },
+  "RND2": {
+   "input": "hoowbén",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "surface": "hoowbén",
+   "status": "ATTESTED"
+  },
+  "SUPP1": {
+   "input": "étʃexinówoʔ",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "surface": "étʃes∅nówoʔ",
+   "status": "ATTESTED"
+  },
+  "SUPP2": {
+   "input": "néíki",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "surface": "néítʃ∅",
+   "status": "ATTESTED"
+  },
+  "SUPP3": {
+   "input": "bexi",
+   "morphs": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "surface": "bes∅",
+   "status": "ATTESTED"
+  },
+  "SUPP4": {
+   "input": "bebíiθitii",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2
+   ],
+   "surface": "bebíis∅tii",
+   "status": "ATTESTED"
+  },
+  "SUPP5": {
+   "input": "tʃewikóóhu",
+   "morphs": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "surface": "tʃeb∅kóóhu",
+   "status": "ATTESTED"
+  },
+  "MADE1": {
+   "input": "bekuno",
+   "morphs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "surface": "bek∅no",
+   "status": "LOGICALLY_CONSTRUCTED"
+  }
+ },
+ "bounding": {
+  "plain": {
+   "TRIG1": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ],
+     "ID_ANT": [
+      1,
+      0
+     ]
+    }
+   },
+   "TRIG2": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "TRIG3": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS1": {
+    "attested_bounded_by_faithful": true,
+    "coefficient_difference": {
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ],
+     "ID_ANT": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS2": {
+    "attested_bounded_by_faithful": true,
+    "coefficient_difference": {
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS3": {
+    "attested_bounded_by_faithful": true,
+    "coefficient_difference": {
+     "ID_SEG": [
+      1,
+      0
+     ]
+    }
+   },
+   "RND1": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {}
+   },
+   "RND2": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {}
+   }
+  },
+  "lookahead": {
+   "TRIG1": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ],
+     "ID_ANT": [
+      1,
+      0
+     ]
+    }
+   },
+   "TRIG2": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "TRIG3": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS1": {
+    "attested_bounded_by_faithful": true,
+    "coefficient_difference": {
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ],
+     "ID_ANT": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS2": {
+    "attested_bounded_by_faithful": true,
+    "coefficient_difference": {
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS3": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_ANT": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ]
+    }
+   },
+   "RND1": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {}
+   },
+   "RND2": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {}
+   }
+  },
+  "duplicated": {
+   "TRIG1": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ],
+     "ID_ANT": [
+      1,
+      0
+     ]
+    }
+   },
+   "TRIG2": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "TRIG3": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS1": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ],
+     "ID_ANT": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS2": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_DOR": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ],
+     "ID_DOR": [
+      1,
+      0
+     ]
+    }
+   },
+   "CLUS3": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {
+     "MUT_ANT": [
+      -1,
+      0
+     ],
+     "ID_SEG": [
+      1,
+      0
+     ]
+    }
+   },
+   "RND1": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {}
+   },
+   "RND2": {
+    "attested_bounded_by_faithful": false,
+    "coefficient_difference": {}
+   }
+  }
+ },
+ "selection": {
+  "plain": {
+   "TRIG1": {
+    "faithful": "8",
+    "attested": "7",
+    "best": "7",
+    "minima": [
+     "étʃesíihiʔ"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "7",
+     "kmax": 0,
+     "leaves_scored": 89
+    },
+    "seconds": 3.4
+   },
+   "TRIG2": {
+    "faithful": "8",
+    "attested": "6",
+    "best": "6",
+    "minima": [
+     "étʃetii"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "6",
+     "kmax": 0,
+     "leaves_scored": 39
+    },
+    "seconds": 0.6
+   },
+   "TRIG3": {
+    "faithful": "8",
+    "attested": "6",
+    "best": "6",
+    "minima": [
+     "nóóhobéθen"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "5",
+     "delta_ins": "10",
+     "incumbent_bound": "6",
+     "kmax": 0,
+     "leaves_scored": 68
+    },
+    "seconds": 5.6
+   },
+   "CLUS1": {
+    "faithful": "2",
+    "attested": "9",
+    "best": "2",
+    "minima": [
+     "étʃexnówoʔ"
+    ],
+    "attested_is_unique_minimum": false,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 89
+    },
+    "seconds": 2.2
+   },
+   "CLUS2": {
+    "faithful": "2",
+    "attested": "8",
+    "best": "2",
+    "minima": [
+     "tʃewkóóhu"
+    ],
+    "attested_is_unique_minimum": false,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 84
+    },
+    "seconds": 1.7
+   },
+   "CLUS3": {
+    "faithful": "2",
+    "attested": "7",
+    "best": "2",
+    "minima": [
+     "nihbebíiθtiit"
+    ],
+    "attested_is_unique_minimum": false,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "5",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 124
+    },
+    "seconds": 7.2
+   },
+   "RND1": {
+    "faithful": "2",
+    "attested": "2",
+    "best": "2",
+    "minima": [
+     "wóxhoox"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 78
+    },
+    "seconds": 1.2
+   },
+   "RND2": {
+    "faithful": "2",
+    "attested": "2",
+    "best": "2",
+    "minima": [
+     "hoowbén"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 50
+    },
+    "seconds": 1.2
+   }
+  },
+  "lookahead": {
+   "TRIG1": {
+    "faithful": "8",
+    "attested": "7",
+    "best": "7",
+    "minima": [
+     "étʃesíihiʔ"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "7",
+     "kmax": 0,
+     "leaves_scored": 89
+    },
+    "seconds": 3.3
+   },
+   "TRIG2": {
+    "faithful": "8",
+    "attested": "6",
+    "best": "6",
+    "minima": [
+     "étʃetii"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "6",
+     "kmax": 0,
+     "leaves_scored": 39
+    },
+    "seconds": 0.6
+   },
+   "TRIG3": {
+    "faithful": "8",
+    "attested": "6",
+    "best": "6",
+    "minima": [
+     "nóóhobéθen"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "5",
+     "delta_ins": "10",
+     "incumbent_bound": "6",
+     "kmax": 0,
+     "leaves_scored": 68
+    },
+    "seconds": 5.8
+   },
+   "CLUS1": {
+    "faithful": "2",
+    "attested": "9",
+    "best": "2",
+    "minima": [
+     "étʃexnówoʔ"
+    ],
+    "attested_is_unique_minimum": false,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 89
+    },
+    "seconds": 2.3
+   },
+   "CLUS2": {
+    "faithful": "2",
+    "attested": "8",
+    "best": "2",
+    "minima": [
+     "tʃewkóóhu"
+    ],
+    "attested_is_unique_minimum": false,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 84
+    },
+    "seconds": 1.7
+   },
+   "CLUS3": {
+    "faithful": "10",
+    "attested": "7",
+    "best": "7",
+    "minima": [
+     "nihbebíistiit"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "5",
+     "delta_ins": "10",
+     "incumbent_bound": "7",
+     "kmax": 0,
+     "leaves_scored": 166
+    },
+    "seconds": 28.4
+   },
+   "RND1": {
+    "faithful": "2",
+    "attested": "2",
+    "best": "2",
+    "minima": [
+     "wóxhoox"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 78
+    },
+    "seconds": 1.3
+   },
+   "RND2": {
+    "faithful": "10",
+    "attested": "10",
+    "best": "8",
+    "minima": [
+     "hoobbén"
+    ],
+    "attested_is_unique_minimum": false,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "10",
+     "kmax": 1,
+     "leaves_scored": 42
+    },
+    "seconds": 22.4
+   }
+  },
+  "duplicated": {
+   "TRIG1": {
+    "faithful": "8",
+    "attested": "7",
+    "best": "7",
+    "minima": [
+     "étʃesíihiʔ"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "7",
+     "kmax": 0,
+     "leaves_scored": 89
+    },
+    "seconds": 3.3
+   },
+   "TRIG2": {
+    "faithful": "8",
+    "attested": "6",
+    "best": "6",
+    "minima": [
+     "étʃetii"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "6",
+     "kmax": 0,
+     "leaves_scored": 39
+    },
+    "seconds": 0.6
+   },
+   "TRIG3": {
+    "faithful": "8",
+    "attested": "6",
+    "best": "6",
+    "minima": [
+     "nóóhobéθen"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "5",
+     "delta_ins": "10",
+     "incumbent_bound": "6",
+     "kmax": 0,
+     "leaves_scored": 68
+    },
+    "seconds": 5.8
+   },
+   "CLUS1": {
+    "faithful": "10",
+    "attested": "9",
+    "best": "9",
+    "minima": [
+     "étʃesnówoʔ"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "9",
+     "kmax": 0,
+     "leaves_scored": 98
+    },
+    "seconds": 5.2
+   },
+   "CLUS2": {
+    "faithful": "10",
+    "attested": "8",
+    "best": "8",
+    "minima": [
+     "tʃebkóóhu"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "8",
+     "kmax": 0,
+     "leaves_scored": 74
+    },
+    "seconds": 2.3
+   },
+   "CLUS3": {
+    "faithful": "10",
+    "attested": "7",
+    "best": "7",
+    "minima": [
+     "nihbebíistiit"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "5",
+     "delta_ins": "10",
+     "incumbent_bound": "7",
+     "kmax": 0,
+     "leaves_scored": 167
+    },
+    "seconds": 29.3
+   },
+   "RND1": {
+    "faithful": "2",
+    "attested": "2",
+    "best": "2",
+    "minima": [
+     "wóxhoox"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 70
+    },
+    "seconds": 1.2
+   },
+   "RND2": {
+    "faithful": "2",
+    "attested": "2",
+    "best": "2",
+    "minima": [
+     "hoowbén"
+    ],
+    "attested_is_unique_minimum": true,
+    "search": {
+     "status": "COMPLETE",
+     "delta_sub": "6",
+     "delta_ins": "10",
+     "incumbent_bound": "2",
+     "kmax": 0,
+     "leaves_scored": 46
+    },
+    "seconds": 1.2
+   }
+  }
+ },
+ "recoding": {
+  "skip": {
+   "TRIG1": true,
+   "TRIG2": true,
+   "TRIG3": true,
+   "CLUS1": true,
+   "CLUS2": true,
+   "CLUS3": true,
+   "RND1": true,
+   "RND2": true
+  },
+  "stop": {
+   "TRIG1": true,
+   "TRIG2": true,
+   "TRIG3": true,
+   "CLUS1": true,
+   "CLUS2": true,
+   "CLUS3": true,
+   "RND1": true,
+   "RND2": true
+  }
+ },
+ "region": {
+  "TRIG1": {
+   "attested_score": "ID_ANT + ID_DOR + ID_SEG + 2*SYNC",
+   "strictly_positive_required": [
+    "-ID_ANT + ID_CONT",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_GLOTTAL",
+    "-ID_ANT + ID_CONT + ID_GLOTTAL + ID_LAB + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_GLOTTAL + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_GLOTTAL + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_LAB",
+    "-ID_ANT + ID_CONT + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_LAB + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + MUT_DOR",
+    "-ID_ANT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS",
+    "-ID_ANT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + SYNC*lam",
+    "-ID_ANT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS",
+    "-ID_ANT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_FRONT + ID_NUCLEAR + ID_OBS",
+    "-ID_ANT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_FRONT + ID_OBS",
+    "-ID_ANT + ID_GLOTTAL",
+    "-ID_ANT + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "-ID_ANT + ID_GLOTTAL + MUT_DOR",
+    "-ID_ANT + ID_GLOTTAL + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "-ID_ANT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + SYNC*lam",
+    "-ID_ANT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "-ID_ANT + ID_LAB + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "-ID_ANT + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_OBS + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR - SYNC",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR - SYNC",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_HIGH + ID_HTONE + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR - SYNC",
+    "-ID_ANT - ID_DOR + ID_HIGH + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_HIGH + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_HIGH + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_HTONE + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_HTONE + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_HTONE + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_HTONE + MUT_DOR - SYNC",
+    "-ID_ANT - ID_DOR + ID_LAB + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT - ID_DOR + MAX",
+    "-ID_ANT - ID_DOR + MAX + MUT_DOR",
+    "-ID_ANT - ID_DOR + MAX + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + MAX + MUT_DOR - SYNC",
+    "-ID_ANT - ID_DOR - ID_SEG + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "-ID_DOR + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "-ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_DOR + MUT_DOR",
+    "ID_CONT + ID_NAS + ID_OBS",
+    "ID_CONT + MUT_ANT*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_CONT - ID_DOR + MUT_DOR",
+    "MUT_ANT*lam"
+   ],
+   "tail_bounds_required": [
+    "-ID_ANT - ID_DOR + ID_SEG - 2*SYNC",
+    "DEP - ID_ANT - ID_DOR - ID_SEG - 2*SYNC"
+   ]
+  },
+  "TRIG2": {
+   "attested_score": "ID_DOR + ID_SEG + 2*SYNC",
+   "strictly_positive_required": [
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR - SYNC",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR - SYNC",
+    "-ID_DOR + ID_FRONT + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR",
+    "-ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR - SYNC",
+    "-ID_DOR + ID_HIGH + ID_NUCLEAR + MUT_DOR",
+    "-ID_DOR + ID_HIGH + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_HIGH + MUT_DOR",
+    "-ID_DOR + ID_HIGH + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_HTONE + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_HTONE + MUT_DOR",
+    "-ID_DOR + ID_HTONE + MUT_DOR - SYNC",
+    "-ID_DOR + ID_LAB + MUT_DOR",
+    "-ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "-ID_DOR + MAX",
+    "-ID_DOR + MAX + MUT_DOR",
+    "-ID_DOR + MAX + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + MAX + MUT_DOR - SYNC",
+    "-ID_DOR - ID_SEG + MUT_DOR",
+    "ID_ANT + ID_CONT",
+    "ID_ANT + ID_CONT + MUT_ANT*lam",
+    "ID_ANT + ID_CONT + MUT_DOR*lam + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_ANT + ID_LAB + MUT_DOR*lam + MUT_DOR",
+    "ID_ANT + ID_NAS + ID_OBS",
+    "ID_ANT + MUT_ANT*lam",
+    "ID_ANT + MUT_DOR*lam + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_LAB + MUT_DOR",
+    "ID_ANT - ID_DOR + MUT_DOR",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + SYNC*lam",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_OBS",
+    "ID_CONT + ID_GLOTTAL",
+    "ID_CONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + SYNC*lam",
+    "ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + MUT_DOR",
+    "ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "ID_GLOTTAL",
+    "ID_LAB"
+   ],
+   "tail_bounds_required": [
+    "-ID_DOR + ID_SEG - 2*SYNC",
+    "DEP - ID_DOR - ID_SEG - 2*SYNC"
+   ]
+  },
+  "TRIG3": {
+   "attested_score": "ID_DOR + ID_SEG",
+   "strictly_positive_required": [
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_NUCLEAR + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR",
+    "-ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_HIGH + MUT_DOR",
+    "-ID_DOR + ID_HIGH + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_HTONE + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "-ID_DOR + ID_HTONE + MUT_DOR",
+    "-ID_DOR + ID_LAB + MUT_DOR",
+    "-ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "-ID_DOR + MAX",
+    "-ID_DOR + MAX + MUT_DOR",
+    "-ID_DOR + MAX + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + MUT_DOR",
+    "-ID_DOR - ID_SEG + MUT_DOR",
+    "ID_ANT + ID_CONT + ID_LAB",
+    "ID_ANT + ID_CONT + ID_LAB + MUT_ANT*lam",
+    "ID_ANT + ID_CONT + ID_LAB + MUT_DOR*lam + MUT_DOR",
+    "ID_ANT + ID_CONT + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_CONT + MUT_DOR*lam + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + MUT_DOR + SYNC*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NAS + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR + SYNC*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_LAB + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + MUT_DOR",
+    "ID_ANT + ID_LAB + ID_NAS + ID_OBS",
+    "ID_ANT + ID_LAB + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_LAB + MUT_ANT*lam",
+    "ID_ANT + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT + MUT_DOR*lam + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "ID_ANT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_LAB + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + SYNC*lam",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT + ID_GLOTTAL + ID_LAB",
+    "ID_CONT + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "ID_CONT + ID_GLOTTAL + MUT_DOR",
+    "ID_CONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + SYNC*lam",
+    "ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_LAB + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + MUT_DOR",
+    "ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "ID_GLOTTAL + ID_LAB",
+    "ID_GLOTTAL + MUT_DOR",
+    "ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_LAB",
+    "ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam"
+   ],
+   "tail_bounds_required": [
+    "-ID_DOR + ID_SEG",
+    "DEP - ID_DOR - ID_SEG"
+   ]
+  },
+  "CLUS1": {
+   "attested_score": "ID_ANT + ID_DOR + ID_SEG + NOCODA",
+   "strictly_positive_required": [
+    "-ID_ANT + ID_CONT",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_LAB + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_GLOTTAL",
+    "-ID_ANT + ID_CONT + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_GLOTTAL + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_LAB",
+    "-ID_ANT + ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_LAB + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_ANT + ID_CONT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_CONT - ID_DOR + MUT_DOR",
+    "-ID_ANT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS",
+    "-ID_ANT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + SYNC*lam",
+    "-ID_ANT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS",
+    "-ID_ANT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT + ID_FRONT + ID_NUCLEAR + ID_OBS",
+    "-ID_ANT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_FRONT + ID_OBS",
+    "-ID_ANT + ID_GLOTTAL",
+    "-ID_ANT + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "-ID_ANT + ID_GLOTTAL + MUT_DOR",
+    "-ID_ANT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "-ID_ANT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + SYNC*lam",
+    "-ID_ANT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "-ID_ANT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + ID_LAB + MUT_DOR",
+    "-ID_ANT + ID_LAB + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "-ID_ANT + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT + MUT_DOR",
+    "-ID_ANT + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR*lam + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_ROUND + MUT_DOR*lam + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_ROUND + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_FRONT + ID_ROUND + MUT_DOR*lam + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_HIGH + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_HIGH + MUT_DOR + SYNC*lam",
+    "-ID_ANT - ID_DOR + ID_HTONE + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + ID_HTONE + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_LAB + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_ANT - ID_DOR + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "-ID_ANT - ID_DOR + MAX + MUT_DOR",
+    "-ID_ANT - ID_DOR + MAX + MUT_DOR + NOCODA*lam",
+    "-ID_ANT - ID_DOR + MAX + MUT_DOR - NOCODA",
+    "-ID_ANT - ID_DOR + MAX - NOCODA",
+    "-ID_ANT - ID_DOR - ID_SEG + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "-ID_DOR + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "-ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_DOR + ID_LAB + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "-ID_DOR + MUT_DOR",
+    "ID_CONT + ID_LAB + MUT_DOR",
+    "ID_CONT + ID_NAS + ID_OBS",
+    "ID_CONT + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_CONT + MUT_ANT*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR - NOCODA",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + MUT_DOR - NOCODA + SYNC*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_DOR - NOCODA",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_DOR - NOCODA",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NAS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR - NOCODA",
+    "ID_CONT - ID_DOR + ID_HIGH + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR - NOCODA + SYNC*lam",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR - NOCODA",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR - NOCODA",
+    "ID_CONT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + MUT_DOR",
+    "ID_LAB + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_LAB + MUT_DOR",
+    "ID_NAS + ID_OBS + MUT_DOR",
+    "MUT_ANT*lam"
+   ],
+   "tail_bounds_required": [
+    "-ID_ANT - ID_DOR + ID_SEG - NOCODA",
+    "DEP - ID_ANT - ID_DOR - ID_SEG - NOCODA"
+   ]
+  },
+  "CLUS2": {
+   "attested_score": "ID_DOR + ID_SEG + NOCODA + SYNC",
+   "strictly_positive_required": [
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_GLOTTAL + ID_OBS + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR - SYNC",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_DOR*lam + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_FRONT + ID_HIGH + ID_ROUND + MUT_DOR*lam + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR - SYNC",
+    "-ID_DOR + ID_FRONT + ID_HTONE + ID_ROUND + MUT_DOR*lam + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_FRONT + ID_ROUND + MUT_DOR*lam + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "-ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "-ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR",
+    "-ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_HIGH + ID_HTONE + MUT_DOR - SYNC",
+    "-ID_DOR + ID_HIGH + MUT_DOR",
+    "-ID_DOR + ID_HIGH + MUT_DOR + SYNC*lam",
+    "-ID_DOR + ID_HTONE + MUT_DOR",
+    "-ID_DOR + ID_HTONE + MUT_DOR - SYNC",
+    "-ID_DOR + ID_LAB + MUT_DOR",
+    "-ID_DOR + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "-ID_DOR + MAX + MUT_DOR",
+    "-ID_DOR + MAX + MUT_DOR + NOCODA*lam",
+    "-ID_DOR + MAX + MUT_DOR - NOCODA",
+    "-ID_DOR + MAX + MUT_DOR - SYNC",
+    "-ID_DOR + MAX - NOCODA",
+    "-ID_DOR - ID_SEG + MUT_DOR",
+    "ID_ANT + ID_CONT + ID_LAB",
+    "ID_ANT + ID_CONT + ID_LAB + MUT_ANT*lam",
+    "ID_ANT + ID_CONT + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_ANT + ID_CONT - ID_DOR + MUT_DOR",
+    "ID_ANT + ID_LAB + ID_NAS + ID_OBS",
+    "ID_ANT + ID_LAB + MUT_ANT*lam",
+    "ID_ANT + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_ANT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_ANT - ID_DOR + ID_NAS + ID_OBS + MUT_DOR",
+    "ID_ANT - ID_DOR + MUT_DOR",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR - NOCODA",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + SYNC*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR - NOCODA + SYNC*lam",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR - NOCODA",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_OBS",
+    "ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR - NOCODA",
+    "ID_CONT + ID_FRONT + ID_OBS + MUT_DOR",
+    "ID_CONT + ID_GLOTTAL + ID_LAB",
+    "ID_CONT + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "ID_CONT + ID_GLOTTAL + MUT_DOR",
+    "ID_CONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR - NOCODA",
+    "ID_CONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + SYNC*lam",
+    "ID_CONT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR - NOCODA + SYNC*lam",
+    "ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR - NOCODA",
+    "ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR - NOCODA",
+    "ID_CONT + MUT_DOR*lam + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_DOR + SYNC*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_FRONT + ID_OBS + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + ID_LAB + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_GLOTTAL + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + SYNC*lam",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_CONT - ID_DOR + ID_LAB + MUT_DOR",
+    "ID_CONT - ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_CONT - ID_DOR + MUT_DOR",
+    "ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_DOR + 2*NOCODA*lam",
+    "ID_GLOTTAL + ID_LAB",
+    "ID_GLOTTAL + MUT_DOR",
+    "ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR",
+    "ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR + NOCODA*lam",
+    "ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_DOR*lam + MUT_DOR + NOCODA*lam",
+    "ID_LAB",
+    "ID_LAB + MUT_DOR",
+    "ID_LAB + MUT_DOR*lam + MUT_DOR",
+    "MUT_DOR",
+    "MUT_DOR*(lam + 1)"
+   ],
+   "tail_bounds_required": [
+    "-ID_DOR + ID_SEG - NOCODA - SYNC",
+    "DEP - ID_DOR - ID_SEG - NOCODA - SYNC"
+   ]
+  },
+  "CLUS3": {
+   "attested_score": "ID_SEG + NOCODA + 4*SYNC",
+   "strictly_positive_required": [
+    "-ID_SEG + MUT_ANT",
+    "ID_ANT + ID_CONT",
+    "ID_ANT + ID_CONT + ID_DOR + ID_LAB + MUT_DOR*lam",
+    "ID_ANT + ID_CONT + ID_DOR + ID_NAS + ID_OBS + MUT_ANT + MUT_DOR*lam",
+    "ID_ANT + ID_CONT + ID_DOR + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_DOR + MUT_ANT + MUT_DOR*lam",
+    "ID_ANT + ID_CONT + ID_DOR + MUT_DOR*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT - NOCODA",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + MUT_ANT + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + MUT_ANT + SYNC*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + SYNC*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT - NOCODA + SYNC*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT*lam + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT - NOCODA",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_NAS + ID_NUCLEAR + MUT_ANT + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_NAS + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_ANT - NOCODA",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_OBS + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_GLOTTAL",
+    "ID_ANT + ID_CONT + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_GLOTTAL + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_GLOTTAL + MUT_ANT*lam + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT - NOCODA",
+    "ID_ANT + ID_CONT + ID_HIGH + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_ANT + SYNC*lam",
+    "ID_ANT + ID_CONT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT + SYNC*lam",
+    "ID_ANT + ID_CONT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT - NOCODA + SYNC*lam",
+    "ID_ANT + ID_CONT + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT - NOCODA",
+    "ID_ANT + ID_CONT + ID_LAB",
+    "ID_ANT + ID_CONT + ID_LAB + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_NAS + ID_NUCLEAR + ID_ROUND + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_ANT + ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT - NOCODA",
+    "ID_ANT + ID_DOR + ID_LAB + ID_NAS + ID_OBS + MUT_ANT + MUT_DOR*lam",
+    "ID_ANT + ID_DOR + ID_LAB + MUT_ANT",
+    "ID_ANT + ID_DOR + ID_LAB + MUT_ANT + MUT_DOR*lam",
+    "ID_ANT + ID_DOR + ID_NAS + ID_OBS + MUT_ANT + MUT_DOR*lam",
+    "ID_ANT + ID_DOR + MUT_ANT",
+    "ID_ANT + ID_DOR + MUT_ANT + MUT_DOR*lam",
+    "ID_ANT + ID_DOR + MUT_DOR*lam",
+    "ID_ANT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS",
+    "ID_ANT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_ANT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT*lam + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + SYNC*lam",
+    "ID_ANT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS",
+    "ID_ANT + ID_FRONT + ID_NUCLEAR + ID_OBS",
+    "ID_ANT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_ANT + ID_FRONT + ID_OBS",
+    "ID_ANT + ID_GLOTTAL",
+    "ID_ANT + ID_GLOTTAL + ID_NAS + ID_OBS + MUT_ANT",
+    "ID_ANT + ID_GLOTTAL + MUT_ANT",
+    "ID_ANT + ID_GLOTTAL + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_GLOTTAL + MUT_ANT*lam + MUT_ANT + NOCODA*lam",
+    "ID_ANT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_ANT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + SYNC*lam",
+    "ID_ANT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_ANT + ID_LAB + ID_NAS + ID_OBS + MUT_ANT",
+    "ID_ANT + ID_LAB + MUT_ANT",
+    "ID_ANT + ID_NAS + ID_OBS + MUT_ANT",
+    "ID_ANT + ID_NUCLEAR + ID_OBS + ID_ROUND",
+    "ID_ANT + MUT_ANT",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + 2*NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + 2*NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_GLOTTAL + ID_LAB + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_GLOTTAL + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_LAB + MUT_ANT + MUT_DOR*lam",
+    "ID_CONT + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_CONT + ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + SYNC*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_OBS + MUT_ANT",
+    "ID_CONT + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_CONT + ID_GLOTTAL + ID_LAB + MUT_ANT",
+    "ID_CONT + ID_GLOTTAL + ID_LAB + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_GLOTTAL + MUT_ANT + NOCODA*lam",
+    "ID_CONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_CONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT + SYNC*lam",
+    "ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_CONT + ID_NAS + ID_OBS + MUT_ANT",
+    "ID_CONT + MUT_ANT",
+    "ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + 2*NOCODA*lam",
+    "ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + MUT_ANT + MUT_DOR*lam + 2*NOCODA*lam",
+    "ID_DOR + ID_GLOTTAL + MUT_ANT + MUT_DOR*lam + NOCODA*lam",
+    "ID_DOR + ID_LAB + MUT_ANT + MUT_DOR*lam",
+    "ID_DOR + MUT_ANT + MUT_DOR*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + MUT_ANT + SYNC*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_ANT",
+    "ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_OBS + MUT_ANT + NOCODA*lam",
+    "ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_ANT",
+    "ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + MUT_ANT - SYNC",
+    "ID_FRONT + ID_HIGH + ID_ROUND + MUT_ANT",
+    "ID_FRONT + ID_HIGH + ID_ROUND + MUT_ANT + SYNC*lam",
+    "ID_FRONT + ID_HTONE + ID_ROUND + MUT_ANT",
+    "ID_FRONT + ID_HTONE + ID_ROUND + MUT_ANT + SYNC*lam",
+    "ID_FRONT + ID_HTONE + ID_ROUND + MUT_ANT - SYNC",
+    "ID_FRONT + ID_ROUND + MUT_ANT",
+    "ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT + SYNC*lam",
+    "ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_GLOTTAL + ID_LAB + MUT_ANT",
+    "ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + MUT_ANT",
+    "ID_HIGH + ID_HTONE + ID_NUCLEAR + MUT_ANT + NOCODA*lam",
+    "ID_HIGH + ID_HTONE + MUT_ANT",
+    "ID_HIGH + ID_HTONE + MUT_ANT - SYNC",
+    "ID_HIGH + ID_NUCLEAR + MUT_ANT + 2*NOCODA*lam",
+    "ID_HIGH + ID_NUCLEAR + MUT_ANT + NOCODA*lam",
+    "ID_HIGH + MUT_ANT",
+    "ID_HIGH + MUT_ANT + SYNC*lam",
+    "ID_HTONE + MUT_ANT",
+    "ID_HTONE + MUT_ANT + SYNC*lam",
+    "ID_HTONE + MUT_ANT - SYNC",
+    "ID_LAB + MUT_ANT",
+    "ID_NAS + ID_OBS + MUT_ANT",
+    "ID_NUCLEAR + MUT_ANT + 2*NOCODA*lam",
+    "MAX + MUT_ANT",
+    "MAX + MUT_ANT + NOCODA*lam",
+    "MAX + MUT_ANT + NOCODA*lam - SYNC",
+    "MAX + MUT_ANT - NOCODA",
+    "MAX + MUT_ANT - SYNC",
+    "MAX - NOCODA"
+   ],
+   "tail_bounds_required": [
+    "ID_SEG - NOCODA - 4*SYNC",
+    "DEP - ID_SEG - NOCODA - 4*SYNC"
+   ]
+  },
+  "RND1": {
+   "attested_score": "NOCODA",
+   "strictly_positive_required": [
+    "ID_ANT + ID_CONT + ID_DOR + ID_LAB + ID_SEG",
+    "ID_ANT + ID_CONT + ID_DOR + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_CONT + ID_DOR + ID_SEG",
+    "ID_ANT + ID_CONT + ID_GLOTTAL + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_CONT + ID_GLOTTAL + ID_SEG",
+    "ID_ANT + ID_CONT + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + ID_SEG + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_NAS + ID_NUCLEAR + ID_ROUND + ID_SEG",
+    "ID_ANT + ID_CONT + ID_NAS + ID_NUCLEAR + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_ANT + ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_ANT + ID_DOR + ID_LAB + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_DOR + ID_LAB + ID_SEG",
+    "ID_ANT + ID_DOR + ID_SEG",
+    "ID_ANT + ID_GLOTTAL + ID_SEG",
+    "ID_ANT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + 2*NOCODA*lam",
+    "ID_ANT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_ANT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG + SYNC*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_LAB + ID_OBS + ID_SEG",
+    "ID_CONT + ID_DOR + ID_GLOTTAL + ID_LAB + ID_SEG",
+    "ID_CONT + ID_DOR + ID_GLOTTAL + ID_SEG",
+    "ID_CONT + ID_DOR + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_DOR + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + SYNC*lam",
+    "ID_CONT + ID_DOR + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_DOR + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + 2*NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + 2*NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_DOR + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_LAB + ID_SEG",
+    "ID_CONT + ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_SEG",
+    "ID_CONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_GLOTTAL + ID_LAB + ID_SEG",
+    "ID_CONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_GLOTTAL + ID_SEG",
+    "ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + 2*NOCODA*lam",
+    "ID_CONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + 2*NOCODA*lam",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_LAB + ID_SEG",
+    "ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_SEG",
+    "ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_DOR + ID_FRONT + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_SEG + SYNC*lam",
+    "ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_DOR + ID_FRONT + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_DOR + ID_FRONT + ID_OBS + ID_SEG",
+    "ID_DOR + ID_GLOTTAL + ID_LAB + ID_SEG",
+    "ID_DOR + ID_GLOTTAL + ID_SEG",
+    "ID_DOR + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_DOR + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + SYNC*lam",
+    "ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_DOR + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + 2*NOCODA*lam",
+    "ID_DOR + ID_LAB + ID_SEG",
+    "ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_DOR + ID_SEG",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + MUT_DOR*lam - NOCODA",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_SEG + MUT_DOR*lam - NOCODA + SYNC*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + MUT_DOR*lam - NOCODA",
+    "ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_SEG + MUT_DOR*lam - NOCODA",
+    "ID_FRONT + ID_GLOTTAL + ID_OBS + ID_SEG + MUT_DOR*lam",
+    "ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + ID_SEG + 2*MUT_DOR*lam + SYNC*lam",
+    "ID_FRONT + ID_HIGH + ID_ROUND + ID_SEG + 2*MUT_DOR*lam",
+    "ID_FRONT + ID_HIGH + ID_ROUND + ID_SEG + SYNC*lam",
+    "ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_ROUND + ID_SEG + MUT_DOR*lam + 2*NOCODA*lam",
+    "ID_FRONT + ID_HTONE + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_HTONE + ID_ROUND + ID_SEG + 2*MUT_DOR*lam",
+    "ID_FRONT + ID_NUCLEAR + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_NUCLEAR + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_FRONT + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_ROUND + ID_SEG + 2*MUT_DOR*lam",
+    "ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG - NOCODA",
+    "ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG - NOCODA + SYNC*lam",
+    "ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG - NOCODA",
+    "ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG - NOCODA",
+    "ID_HIGH + ID_HTONE + ID_SEG",
+    "ID_HIGH + ID_HTONE + ID_SEG + SYNC*lam",
+    "ID_HIGH + ID_SEG",
+    "ID_HIGH + ID_SEG + SYNC*lam",
+    "ID_HTONE + ID_SEG",
+    "ID_LAB + ID_SEG",
+    "ID_SEG + MAX",
+    "ID_SEG + MAX + NOCODA*lam",
+    "ID_SEG + MAX - NOCODA"
+   ],
+   "tail_bounds_required": [
+    "2*ID_SEG - NOCODA",
+    "DEP - NOCODA"
+   ]
+  },
+  "RND2": {
+   "attested_score": "NOCODA",
+   "strictly_positive_required": [
+    "ID_ANT + ID_CONT + ID_DOR + ID_LAB + ID_SEG",
+    "ID_ANT + ID_CONT + ID_DOR + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_SEG",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HIGH + ID_NAS + ID_NUCLEAR + ID_SEG + SYNC*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_SEG",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_SEG + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + 2*NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_NAS + ID_NUCLEAR + ID_SEG",
+    "ID_ANT + ID_CONT + ID_FRONT + ID_NAS + ID_SEG",
+    "ID_ANT + ID_CONT + ID_GLOTTAL + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_CONT + ID_GLOTTAL + ID_SEG",
+    "ID_ANT + ID_CONT + ID_HIGH + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + ID_SEG",
+    "ID_ANT + ID_CONT + ID_HIGH + ID_NAS + ID_NUCLEAR + ID_ROUND + ID_SEG + SYNC*lam",
+    "ID_ANT + ID_CONT + ID_HTONE + ID_NAS + ID_NUCLEAR + ID_ROUND + ID_SEG",
+    "ID_ANT + ID_CONT + ID_LAB + ID_SEG",
+    "ID_ANT + ID_CONT + ID_NAS + ID_NUCLEAR + ID_ROUND + ID_SEG",
+    "ID_ANT + ID_CONT + ID_NAS + ID_NUCLEAR + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_ANT + ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_ANT + ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_ANT + ID_DOR + ID_LAB + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_DOR + ID_LAB + ID_SEG",
+    "ID_ANT + ID_DOR + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + 2*NOCODA*lam",
+    "ID_ANT + ID_GLOTTAL + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_GLOTTAL + ID_SEG",
+    "ID_ANT + ID_LAB + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_LAB + ID_SEG",
+    "ID_ANT + ID_NAS + ID_OBS + ID_SEG",
+    "ID_ANT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_ANT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG + SYNC*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG + 2*NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + 2*NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_CONT + ID_DOR + ID_FRONT + ID_LAB + ID_OBS + ID_SEG",
+    "ID_CONT + ID_DOR + ID_GLOTTAL + ID_LAB + ID_SEG",
+    "ID_CONT + ID_DOR + ID_GLOTTAL + ID_SEG",
+    "ID_CONT + ID_DOR + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_DOR + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + SYNC*lam",
+    "ID_CONT + ID_DOR + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_DOR + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_DOR + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_DOR + ID_LAB + ID_SEG + MUT_DOR*lam",
+    "ID_CONT + ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG + MUT_DOR*lam - NOCODA",
+    "ID_CONT + ID_FRONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG + MUT_DOR*lam - NOCODA + SYNC*lam",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG + MUT_DOR*lam - NOCODA",
+    "ID_CONT + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + 2*NOCODA*lam",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_SEG + MUT_DOR*lam - NOCODA",
+    "ID_CONT + ID_FRONT + ID_LAB + ID_OBS + ID_SEG + MUT_DOR*lam",
+    "ID_CONT + ID_GLOTTAL + ID_LAB + ID_SEG",
+    "ID_CONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_GLOTTAL + ID_SEG",
+    "ID_CONT + ID_HIGH + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG - NOCODA",
+    "ID_CONT + ID_HIGH + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG - NOCODA + SYNC*lam",
+    "ID_CONT + ID_HTONE + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG - NOCODA",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_LAB + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG - NOCODA",
+    "ID_CONT + ID_LAB + ID_SEG",
+    "ID_CONT + ID_NAS + ID_OBS + ID_SEG",
+    "ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_CONT + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_CONT + ID_SEG",
+    "ID_DOR + ID_FRONT + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + 2*NOCODA*lam",
+    "ID_DOR + ID_GLOTTAL + ID_LAB + ID_SEG",
+    "ID_DOR + ID_GLOTTAL + ID_SEG",
+    "ID_DOR + ID_LAB + ID_SEG",
+    "ID_DOR + ID_LAB + ID_SEG + MUT_DOR*lam",
+    "ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_DOR + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_DOR + ID_SEG",
+    "ID_DOR + ID_SEG + MUT_DOR*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_FRONT + ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_SEG + SYNC*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_FRONT + ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_SEG + NOCODA*lam",
+    "ID_FRONT + ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_SEG",
+    "ID_FRONT + ID_GLOTTAL + ID_OBS + ID_SEG",
+    "ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + ID_SEG + MUT_DOR*lam",
+    "ID_FRONT + ID_HIGH + ID_HTONE + ID_ROUND + ID_SEG + SYNC*lam",
+    "ID_FRONT + ID_HIGH + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_HIGH + ID_ROUND + ID_SEG + MUT_DOR*lam + SYNC*lam",
+    "ID_FRONT + ID_HIGH + ID_ROUND + ID_SEG + SYNC*lam",
+    "ID_FRONT + ID_HTONE + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_HTONE + ID_ROUND + ID_SEG + MUT_DOR*lam",
+    "ID_FRONT + ID_NUCLEAR + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_NUCLEAR + ID_ROUND + ID_SEG + NOCODA*lam",
+    "ID_FRONT + ID_ROUND + ID_SEG",
+    "ID_FRONT + ID_ROUND + ID_SEG + MUT_DOR*lam",
+    "ID_GLOTTAL + ID_HIGH + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_GLOTTAL + ID_HIGH + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG + SYNC*lam",
+    "ID_GLOTTAL + ID_HTONE + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_GLOTTAL + ID_LAB + ID_SEG",
+    "ID_GLOTTAL + ID_NUCLEAR + ID_OBS + ID_ROUND + ID_SEG",
+    "ID_HIGH + ID_HTONE + ID_SEG",
+    "ID_HIGH + ID_HTONE + ID_SEG + SYNC*lam",
+    "ID_HIGH + ID_SEG",
+    "ID_HIGH + ID_SEG + SYNC*lam",
+    "ID_HTONE + ID_NUCLEAR + ID_SEG + 2*NOCODA*lam",
+    "ID_HTONE + ID_SEG",
+    "ID_LAB + ID_SEG",
+    "ID_NAS + ID_OBS + ID_SEG",
+    "ID_SEG + MAX",
+    "ID_SEG + MAX + MUT_DOR*lam - NOCODA",
+    "ID_SEG + MAX + NOCODA*lam",
+    "ID_SEG + MAX - NOCODA"
+   ],
+   "tail_bounds_required": [
+    "2*ID_SEG - NOCODA",
+    "DEP - NOCODA"
+   ]
+  }
+ },
+ "control_created_cluster": {
+  "plain": {
+   "faithful": "0",
+   "deletion_only": "61/4",
+   "deletion_and_mutation": "85/4",
+   "mutation_blocked": true,
+   "condition": "vacuous"
+  },
+  "duplicated": {
+   "faithful": "0",
+   "deletion_only": "65/4",
+   "deletion_and_mutation": "85/4",
+   "mutation_blocked": true,
+   "condition": "MUT_DOR*lam < ID_DOR + ID_SEG"
+  }
+ },
+ "supplied_trigger": {
+  "SUPP1": {
+   "unmutated": {
+    "MUT_DOR": [
+     1,
+     0
+    ],
+    "NOCODA": [
+     0,
+     1
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     1,
+     0
+    ]
+   },
+   "mutated": {
+    "NOCODA": [
+     0,
+     1
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     2,
+     0
+    ],
+    "ID_DOR": [
+     1,
+     0
+    ],
+    "ID_ANT": [
+     1,
+     0
+    ]
+   },
+   "mutated_minus_unmutated": "ID_ANT + ID_DOR + ID_SEG - MUT_DOR",
+   "mutation_forced_iff": "ID_ANT + ID_DOR + ID_SEG - MUT_DOR < 0",
+   "at_the_witness": "-1",
+   "mutation_wins_at_the_witness": true,
+   "matches_surface": true
+  },
+  "SUPP2": {
+   "unmutated": {
+    "MUT_DOR": [
+     1,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     1,
+     0
+    ]
+   },
+   "mutated": {
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     2,
+     0
+    ],
+    "ID_DOR": [
+     1,
+     0
+    ]
+   },
+   "mutated_minus_unmutated": "ID_DOR + ID_SEG - MUT_DOR",
+   "mutation_forced_iff": "ID_DOR + ID_SEG - MUT_DOR < 0",
+   "at_the_witness": "-2",
+   "mutation_wins_at_the_witness": true,
+   "matches_surface": true
+  },
+  "SUPP3": {
+   "unmutated": {
+    "MUT_DOR": [
+     1,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     1,
+     0
+    ]
+   },
+   "mutated": {
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     2,
+     0
+    ],
+    "ID_DOR": [
+     1,
+     0
+    ],
+    "ID_ANT": [
+     1,
+     0
+    ]
+   },
+   "mutated_minus_unmutated": "ID_ANT + ID_DOR + ID_SEG - MUT_DOR",
+   "mutation_forced_iff": "ID_ANT + ID_DOR + ID_SEG - MUT_DOR < 0",
+   "at_the_witness": "-1",
+   "mutation_wins_at_the_witness": true,
+   "matches_surface": true
+  },
+  "SUPP4": {
+   "unmutated": {
+    "MUT_ANT": [
+     1,
+     0
+    ],
+    "NOCODA": [
+     0,
+     1
+    ],
+    "SYNC": [
+     3,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     1,
+     0
+    ]
+   },
+   "mutated": {
+    "NOCODA": [
+     0,
+     1
+    ],
+    "SYNC": [
+     3,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     2,
+     0
+    ]
+   },
+   "mutated_minus_unmutated": "ID_SEG - MUT_ANT",
+   "mutation_forced_iff": "ID_SEG - MUT_ANT < 0",
+   "at_the_witness": "-3",
+   "mutation_wins_at_the_witness": true,
+   "matches_surface": true
+  },
+  "SUPP5": {
+   "unmutated": {
+    "MUT_DOR": [
+     1,
+     0
+    ],
+    "NOCODA": [
+     0,
+     1
+    ],
+    "SYNC": [
+     1,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     1,
+     0
+    ]
+   },
+   "mutated": {
+    "NOCODA": [
+     0,
+     1
+    ],
+    "SYNC": [
+     1,
+     0
+    ],
+    "MAX": [
+     1,
+     0
+    ],
+    "ID_SEG": [
+     2,
+     0
+    ],
+    "ID_DOR": [
+     1,
+     0
+    ]
+   },
+   "mutated_minus_unmutated": "ID_DOR + ID_SEG - MUT_DOR",
+   "mutation_forced_iff": "ID_DOR + ID_SEG - MUT_DOR < 0",
+   "at_the_witness": "-2",
+   "mutation_wins_at_the_witness": true,
+   "matches_surface": true
+  }
+ },
+ "refuted_extensions": {
+  "no_trigger": {
+   "description": "the activation drops the trigger conjunct altogether",
+   "verdict": "refuted by attested controls",
+   "rows": [
+    {
+     "configuration": "RND1",
+     "position": 2,
+     "change": "x->s",
+     "retained_bit": true,
+     "faithful": "26",
+     "mutated": "25",
+     "mutation_wins": true,
+     "attested_is_the_faithful_one": true
+    },
+    {
+     "configuration": "RND1",
+     "position": 0,
+     "change": "w->b",
+     "retained_bit": true,
+     "faithful": "26",
+     "mutated": "24",
+     "mutation_wins": true,
+     "attested_is_the_faithful_one": true
+    },
+    {
+     "configuration": "RND2",
+     "position": 3,
+     "change": "w->b",
+     "retained_bit": true,
+     "faithful": "10",
+     "mutated": "8",
+     "mutation_wins": true,
+     "attested_is_the_faithful_one": true
+    }
+   ]
+  },
+  "lookahead": {
+   "description": "a search slot for a front vowel anywhere later in the word",
+   "verdict": "refuted: repairs one configuration, leaves two bounded, and selects the form the source stars at the attested control",
+   "rows": {
+    "TRIG1": {
+     "selected": "étʃesíihiʔ",
+     "matches_surface": true
+    },
+    "TRIG2": {
+     "selected": "étʃetii",
+     "matches_surface": true
+    },
+    "TRIG3": {
+     "selected": "nóóhobéθen",
+     "matches_surface": true
+    },
+    "CLUS1": {
+     "selected": "étʃexnówoʔ",
+     "matches_surface": false
+    },
+    "CLUS2": {
+     "selected": "tʃewkóóhu",
+     "matches_surface": false
+    },
+    "CLUS3": {
+     "selected": "nihbebíistiit",
+     "matches_surface": true
+    },
+    "RND1": {
+     "selected": "wóxhoox",
+     "matches_surface": true
+    },
+    "RND2": {
+     "selected": "hoobbén",
+     "matches_surface": false
+    }
+   }
+  }
+ },
+ "syncope": {
+  "SUPP1": {
+   "drop_minus_keep": "ID_SEG + MAX + NOCODA*lam - SYNC",
+   "trigger_deleted_iff": "ID_SEG + MAX + NOCODA*lam - SYNC < 0"
+  },
+  "SUPP2": {
+   "drop_minus_keep": "ID_SEG + MAX - SYNC",
+   "trigger_deleted_iff": "ID_SEG + MAX - SYNC < 0"
+  },
+  "SUPP3": {
+   "drop_minus_keep": "ID_SEG + MAX - SYNC",
+   "trigger_deleted_iff": "ID_SEG + MAX - SYNC < 0"
+  },
+  "SUPP4": {
+   "drop_minus_keep": "ID_SEG + MAX + NOCODA*lam - SYNC",
+   "trigger_deleted_iff": "ID_SEG + MAX + NOCODA*lam - SYNC < 0"
+  },
+  "SUPP5": {
+   "drop_minus_keep": "ID_SEG + MAX + NOCODA*lam - SYNC",
+   "trigger_deleted_iff": "ID_SEG + MAX + NOCODA*lam - SYNC < 0"
+  }
+ }
+}

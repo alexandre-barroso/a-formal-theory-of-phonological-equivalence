@@ -1,0 +1,9 @@
+{
+ "assignments": 300,
+ "candidate_rows": 3888,
+ "coefficient_pairs": 36288,
+ "current_reader_and_subject_key_checks": 32816,
+ "independent_rows_sha256": "3020cab086f842b24bd55723fa1900d806d571aecd09b5ce9ff5e0560028a8ff",
+ "patterns": 21,
+ "subject_changed_rows": 8
+}

@@ -1,0 +1,24 @@
+{
+ "phase": "examples",
+ "results": [
+  {
+   "detail": "4 examples",
+   "ok": true,
+   "required": true,
+   "step": "examples"
+  },
+  {
+   "detail": "72 certificates",
+   "ok": true,
+   "required": true,
+   "step": "certificates"
+  },
+  {
+   "detail": "109 sets, 527 declarations; 776 formula checks",
+   "ok": true,
+   "required": true,
+   "step": "registered declarations regenerated identically"
+  }
+ ],
+ "shard": "1/1"
+}

@@ -1,0 +1,74 @@
+{
+  "kind": "grammar",
+  "cache_key": "d6ab42cb4398fc8ecc3130abd4d6ed2df87b7d173f3c998a0e33716e9eadfc42",
+  "block_key": "375ac5032a9e3c57e0a33947e30ec35ed19a33cd16476377d08907bad53f8f78",
+  "variant": "all_strict",
+  "model": "retention_bounded",
+  "approximation": "not_applicable",
+  "alpha": 0.1,
+  "beta_key": "32f8ed6de130477c8ee563eb6c61f2ca5081fda369cf49a6a31895cf7981da91",
+  "hu_key": null,
+  "offset_key": null,
+  "fit": {
+    "model": "retention",
+    "parameters": {
+      "A": 2.1220091792362834,
+      "B": 0.9802253290504496
+    },
+    "objective": 0.2782029250858319,
+    "regularization_alpha": 0.1,
+    "converged": true,
+    "iterations": 9,
+    "internal_coordinates": [
+      0.9802253290504496,
+      1.1417838501858337
+    ],
+    "gradient": [
+      -1.9038887133504545e-09,
+      1.144611225245562e-09
+    ],
+    "projected_gradient_max_abs": 1.9038887133504545e-09,
+    "finite_difference_max_abs_error": 2.919331443251849e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 9,
+        "objective": 0.2782029250858319,
+        "projected_gradient_max": 1.9038887133504545e-09,
+        "finite_difference_error": 2.919331443251849e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      8145.0,
+      2.0,
+      31437.0,
+      162.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 15,
+      "0010": 319,
+      "0011": 25,
+      "1000": 50,
+      "1010": 14,
+      "1100": 2
+    },
+    "training_rows": 425,
+    "feature_difference_rows": 1275,
+    "feature_difference_columns": 2,
+    "feature_difference_rank": 2,
+    "feature_difference_sha256": "da97b8854cdfc64ad247a6b8953275e8658aabe6448cfc05f14022fd107e1111",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

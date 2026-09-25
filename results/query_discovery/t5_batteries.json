@@ -1,0 +1,562 @@
+{
+  "artifact": "t5_minimum_cost_batteries",
+  "depth": 1,
+  "per_input": {
+    "G34a": {
+      "ATTESTED": {
+        "ceiling": "ATTESTED",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      },
+      "PROPOSED_ELICITATION": {
+        "ceiling": "PROPOSED_ELICITATION",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      },
+      "MODEL_INTERNAL": {
+        "ceiling": "MODEL_INTERNAL",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      }
+    },
+    "G34b": {
+      "ATTESTED": {
+        "ceiling": "ATTESTED",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      },
+      "PROPOSED_ELICITATION": {
+        "ceiling": "PROPOSED_ELICITATION",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      },
+      "MODEL_INTERNAL": {
+        "ceiling": "MODEL_INTERNAL",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      }
+    },
+    "N7": {
+      "ATTESTED": {
+        "ceiling": "ATTESTED",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      },
+      "PROPOSED_ELICITATION": {
+        "ceiling": "PROPOSED_ELICITATION",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      },
+      "MODEL_INTERNAL": {
+        "ceiling": "MODEL_INTERNAL",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      }
+    },
+    "G37c": {
+      "ATTESTED": {
+        "ceiling": "ATTESTED",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      },
+      "PROPOSED_ELICITATION": {
+        "ceiling": "PROPOSED_ELICITATION",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      },
+      "MODEL_INTERNAL": {
+        "ceiling": "MODEL_INTERNAL",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      }
+    },
+    "C24ei": {
+      "ATTESTED": {
+        "ceiling": "ATTESTED",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      },
+      "PROPOSED_ELICITATION": {
+        "ceiling": "PROPOSED_ELICITATION",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      },
+      "MODEL_INTERNAL": {
+        "ceiling": "MODEL_INTERNAL",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      }
+    },
+    "OR38": {
+      "ATTESTED": {
+        "ceiling": "ATTESTED",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      },
+      "PROPOSED_ELICITATION": {
+        "ceiling": "PROPOSED_ELICITATION",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      },
+      "MODEL_INTERNAL": {
+        "ceiling": "MODEL_INTERNAL",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "3",
+        "optima_count": 2,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg",
+            "[-].isolate_word(2,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(2,) | B_seg",
+            "[-].drop_word(2,) | B_seg"
+          ]
+        ],
+        "explored": 81
+      }
+    },
+    "C21b": {
+      "ATTESTED": {
+        "ceiling": "ATTESTED",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      },
+      "PROPOSED_ELICITATION": {
+        "ceiling": "PROPOSED_ELICITATION",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      },
+      "MODEL_INTERNAL": {
+        "ceiling": "MODEL_INTERNAL",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      }
+    },
+    "C23UE": {
+      "ATTESTED": {
+        "ceiling": "ATTESTED",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      },
+      "PROPOSED_ELICITATION": {
+        "ceiling": "PROPOSED_ELICITATION",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      },
+      "MODEL_INTERNAL": {
+        "ceiling": "MODEL_INTERNAL",
+        "depth": 1,
+        "status": "EXACT",
+        "minimum_cost": "2",
+        "optima_count": 4,
+        "optima": [
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].isolate_word(1,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(0,) | B_seg",
+            "[-].drop_word(0,) | B_seg"
+          ],
+          [
+            "[-].isolate_word(1,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ],
+          [
+            "[-].drop_word(0,) | B_seg",
+            "[-].drop_word(1,) | B_seg"
+          ]
+        ],
+        "explored": 11
+      }
+    }
+  }
+}

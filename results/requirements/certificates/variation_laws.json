@@ -1,0 +1,1542 @@
+{
+ "SG_reproduced_all": false,
+ "equal_pattern_groups": [
+  {
+   "count_law_weak_pct": 0.0,
+   "difference_vector": [
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    -2,
+    1
+   ],
+   "items": [
+    "kamera",
+    "taiteilija",
+    "ajattelija"
+   ],
+   "pairs": [
+    {
+     "observed_weak_pct": [
+      0.0,
+      0.0
+     ],
+     "pair": [
+      "kamera",
+      "taiteilija"
+     ],
+     "tokens": [
+      720,
+      276
+     ],
+     "z": NaN
+    },
+    {
+     "observed_weak_pct": [
+      0.0,
+      0.0
+     ],
+     "pair": [
+      "kamera",
+      "ajattelija"
+     ],
+     "tokens": [
+      720,
+      101
+     ],
+     "z": NaN
+    },
+    {
+     "observed_weak_pct": [
+      0.0,
+      0.0
+     ],
+     "pair": [
+      "taiteilija",
+      "ajattelija"
+     ],
+     "tokens": [
+      276,
+      101
+     ],
+     "z": NaN
+    }
+   ]
+  },
+  {
+   "count_law_weak_pct": 0.0,
+   "difference_vector": [
+    0,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    -2,
+    1
+   ],
+   "items": [
+    "hetero",
+    "luettelo",
+    "televisio"
+   ],
+   "pairs": [
+    {
+     "observed_weak_pct": [
+      2.2,
+      0.0
+     ],
+     "pair": [
+      "hetero",
+      "luettelo"
+     ],
+     "tokens": [
+      91,
+      25
+     ],
+     "z": 0.75
+    },
+    {
+     "observed_weak_pct": [
+      2.2,
+      0.0
+     ],
+     "pair": [
+      "hetero",
+      "televisio"
+     ],
+     "tokens": [
+      91,
+      41
+     ],
+     "z": 0.96
+    },
+    {
+     "observed_weak_pct": [
+      0.0,
+      0.0
+     ],
+     "pair": [
+      "luettelo",
+      "televisio"
+     ],
+     "tokens": [
+      25,
+      41
+     ],
+     "z": NaN
+    }
+   ]
+  },
+  {
+   "count_law_weak_pct": 66.67,
+   "difference_vector": [
+    0,
+    0,
+    0,
+    -1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    -2,
+    1
+   ],
+   "items": [
+    "naapuri",
+    "ministeri",
+    "Aleksanteri"
+   ],
+   "pairs": [
+    {
+     "observed_weak_pct": [
+      63.1,
+      85.7
+     ],
+     "pair": [
+      "naapuri",
+      "ministeri"
+     ],
+     "tokens": [
+      583,
+      273
+     ],
+     "z": -6.74
+    },
+    {
+     "observed_weak_pct": [
+      63.1,
+      88.2
+     ],
+     "pair": [
+      "naapuri",
+      "Aleksanteri"
+     ],
+     "tokens": [
+      583,
+      17
+     ],
+     "z": -2.12
+    },
+    {
+     "observed_weak_pct": [
+      85.7,
+      88.2
+     ],
+     "pair": [
+      "ministeri",
+      "Aleksanteri"
+     ],
+     "tokens": [
+      273,
+      17
+     ],
+     "z": -0.29
+    }
+   ]
+  },
+  {
+   "count_law_weak_pct": 80.0,
+   "difference_vector": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    -2,
+    1
+   ],
+   "items": [
+    "korjaamo",
+    "koordinaatisto"
+   ],
+   "pairs": [
+    {
+     "observed_weak_pct": [
+      82.2,
+      80.0
+     ],
+     "pair": [
+      "korjaamo",
+      "koordinaatisto"
+     ],
+     "tokens": [
+      426,
+      10
+     ],
+     "z": 0.18
+    }
+   ]
+  },
+  {
+   "count_law_weak_pct": 100.0,
+   "difference_vector": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    -2,
+    1
+   ],
+   "items": [
+    "poliisi",
+    "avantgardisti"
+   ],
+   "pairs": [
+    {
+     "observed_weak_pct": [
+      98.4,
+      100.0
+     ],
+     "pair": [
+      "poliisi",
+      "avantgardisti"
+     ],
+     "tokens": [
+      819,
+      2
+     ],
+     "z": -0.18
+    }
+   ]
+  },
+  {
+   "count_law_weak_pct": 100.0,
+   "difference_vector": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "items": [
+    "luonnehdinta",
+    "evankelista"
+   ],
+   "pairs": [
+    {
+     "observed_weak_pct": [
+      100.0,
+      100.0
+     ],
+     "pair": [
+      "luonnehdinta",
+      "evankelista"
+     ],
+     "tokens": [
+      1,
+      2
+     ],
+     "z": NaN
+    }
+   ]
+  },
+  {
+   "count_law_weak_pct": 100.0,
+   "difference_vector": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0
+   ],
+   "items": [
+    "edustusto",
+    "italiaano"
+   ],
+   "pairs": [
+    {
+     "observed_weak_pct": [
+      100.0,
+      100.0
+     ],
+     "pair": [
+      "edustusto",
+      "italiaano"
+     ],
+     "tokens": [
+      84,
+      1
+     ],
+     "z": NaN
+    }
+   ]
+  },
+  {
+   "count_law_weak_pct": 100.0,
+   "difference_vector": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "items": [
+    "margariini",
+    "sosialisti"
+   ],
+   "pairs": [
+    {
+     "observed_weak_pct": [
+      100.0,
+      100.0
+     ],
+     "pair": [
+      "margariini",
+      "sosialisti"
+     ],
+     "tokens": [
+      736,
+      99
+     ],
+     "z": NaN
+    }
+   ]
+  }
+ ],
+ "finnish": {
+  "Aleksanteri": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 66.67,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 88.2,
+   "printed_CRG_weak_pct": 69.51,
+   "printed_SG_weak_pct": 67,
+   "strong": "á.lek.sàn.te.rèi.den",
+   "tokens": [
+    15,
+    2
+   ],
+   "violations_strong": {
+    "*'H": 2,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 2,
+    "*H/I": 1,
+    "*H/O": 2,
+    "*L.L": 0,
+    "*L/A": 1,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 2,
+    "*L.L": 1,
+    "*L/A": 1,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 74.95,
+   "weak": "á.lek.sàn.te.ri.en"
+  },
+  "ajattelija": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 0.0,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 0.0,
+   "printed_CRG_weak_pct": 0.52,
+   "printed_SG_weak_pct": 0,
+   "strong": "á.jat.te.li.jòi.den",
+   "tokens": [
+    0,
+    101
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 1,
+    "*L/A": 1,
+    "*X.X": 2
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 2,
+    "*L/A": 1,
+    "*X.X": 4
+   },
+   "volume_law_weak_pct": 0.0,
+   "weak": "á.jat.te.li.jo.jen"
+  },
+  "avantgardisti": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "á.vant.gàr.dis.tèi.den",
+   "tokens": [
+    2,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 2,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 3,
+    "*H.H": 4,
+    "*H/I": 2,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 1,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 3,
+    "*H.H": 2,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 1,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "á.vant.gàr.dis.ti.en"
+  },
+  "edustusto": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*H",
+    "*'L"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "é.dus.tùs.toi.den",
+   "tokens": [
+    84,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 3,
+    "*H.H": 3,
+    "*H/I": 2,
+    "*H/O": 2,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 1
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 2,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 1
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "é.dus.tùs.to.jen"
+  },
+  "evankelista": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*H",
+    "*'L"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "é.van.ke.lìs.toi.den",
+   "tokens": [
+    2,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 3,
+    "*H.H": 2,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 0,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "é.van.ke.lìs.to.jen"
+  },
+  "hetero": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 0.0,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 0.5,
+   "printed_CRG_weak_pct": 0.57,
+   "printed_SG_weak_pct": 0,
+   "strong": "hé.te.ròi.den",
+   "tokens": [
+    2,
+    89
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 2,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 2,
+    "*L.L": 1,
+    "*L/A": 0,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 2,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 0.0,
+   "weak": "hé.te.ro.jen"
+  },
+  "italiaano": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*H",
+    "*'L"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "í.ta.li.àa.noi.den",
+   "tokens": [
+    1,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 2,
+    "*H/I": 0,
+    "*H/O": 2,
+    "*L.L": 2,
+    "*L/A": 1,
+    "*X.X": 2
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 2,
+    "*L/A": 1,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "í.ta.li.àa.no.jen"
+  },
+  "kala": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*H",
+    "*'L"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "ká.loi.den",
+   "tokens": [
+    500,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 1,
+    "*X.X": 1
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 1,
+    "*L/A": 1,
+    "*X.X": 1
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "ká.lo.jen"
+  },
+  "kamera": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 0.0,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 0.0,
+   "printed_CRG_weak_pct": 0.52,
+   "printed_SG_weak_pct": 0,
+   "strong": "ká.me.ròi.den",
+   "tokens": [
+    0,
+    720
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 1,
+    "*L/A": 1,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 2,
+    "*L/A": 1,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 0.0,
+   "weak": "ká.me.ro.jen"
+  },
+  "koordinaatisto": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 80.0,
+   "deciding_stratum": [
+    "*L/A",
+    "*H/O",
+    "*'O",
+    "*H.H",
+    "*X.X",
+    "*'H"
+   ],
+   "observed_weak_pct": 80.0,
+   "printed_CRG_weak_pct": 81.61,
+   "printed_SG_weak_pct": 80,
+   "strong": "kóor.di.nàa.tis.tòi.den",
+   "tokens": [
+    8,
+    2
+   ],
+   "violations_strong": {
+    "*'H": 3,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 2,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 3,
+    "*H/I": 1,
+    "*H/O": 3,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 2,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 1,
+    "*H/O": 2,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 85.3,
+   "weak": "kóor.di.nàa.tis.to.jen"
+  },
+  "korjaamo": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 80.0,
+   "deciding_stratum": [
+    "*L/A",
+    "*H/O",
+    "*'O",
+    "*H.H",
+    "*X.X",
+    "*'H"
+   ],
+   "observed_weak_pct": 82.2,
+   "printed_CRG_weak_pct": 81.61,
+   "printed_SG_weak_pct": 80,
+   "strong": "kór.jaa.mòi.den",
+   "tokens": [
+    350,
+    76
+   ],
+   "violations_strong": {
+    "*'H": 2,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 2,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 3,
+    "*H/I": 0,
+    "*H/O": 3,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 2,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 85.3,
+   "weak": "kór.jaa.mo.jen"
+  },
+  "lasi": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*H",
+    "*'L"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "lá.sei.den",
+   "tokens": [
+    500,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 1,
+    "*X.X": 1
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 1,
+    "*L/A": 1,
+    "*X.X": 1
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "lá.si.en"
+  },
+  "luettelo": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 0.0,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 0.0,
+   "printed_CRG_weak_pct": 0.56,
+   "printed_SG_weak_pct": 0,
+   "strong": "lú.et.te.lòi.den",
+   "tokens": [
+    0,
+    25
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 3,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 1
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 2,
+    "*L.L": 1,
+    "*L/A": 0,
+    "*X.X": 3
+   },
+   "volume_law_weak_pct": 0.0,
+   "weak": "lú.et.te.lo.jen"
+  },
+  "luonnehdinta": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*H",
+    "*'L"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "lúon.neh.dìn.noi.den",
+   "tokens": [
+    1,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 2,
+    "*'I": 2,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 3,
+    "*H.H": 4,
+    "*H/I": 2,
+    "*H/O": 2,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 1
+   },
+   "violations_weak": {
+    "*'H": 2,
+    "*'I": 2,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 2,
+    "*H/I": 2,
+    "*H/O": 2,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 1
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "lúon.neh.dìn.to.jen"
+  },
+  "maailma": {
+   "SG_reproduced": false,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 66.67,
+   "deciding_stratum": [
+    "*L/A",
+    "*H/O",
+    "*'O",
+    "*H.H",
+    "*X.X",
+    "*'H"
+   ],
+   "observed_weak_pct": 49.5,
+   "printed_CRG_weak_pct": 42.03,
+   "printed_SG_weak_pct": 50,
+   "strong": "máa.il.mòi.den",
+   "tokens": [
+    45,
+    46
+   ],
+   "violations_strong": {
+    "*'H": 2,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 3,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 66.74,
+   "weak": "máa.il.mo.jen"
+  },
+  "margariini": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*H",
+    "*'L"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "már.ga.rìi.nei.den",
+   "tokens": [
+    736,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 2,
+    "*'I": 1,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 2,
+    "*H/I": 2,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 1,
+    "*X.X": 1
+   },
+   "violations_weak": {
+    "*'H": 2,
+    "*'I": 1,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 1,
+    "*X.X": 1
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "már.ga.rìi.ni.en"
+  },
+  "ministeri": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 66.67,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 85.7,
+   "printed_CRG_weak_pct": 69.49,
+   "printed_SG_weak_pct": 67,
+   "strong": "mí.nis.te.rèi.den",
+   "tokens": [
+    234,
+    39
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 2,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 2,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 1
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 0,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 1,
+    "*L/A": 0,
+    "*X.X": 3
+   },
+   "volume_law_weak_pct": 74.95,
+   "weak": "mí.nis.te.ri.en"
+  },
+  "naapuri": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 66.67,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 63.1,
+   "printed_CRG_weak_pct": 69.51,
+   "printed_SG_weak_pct": 67,
+   "strong": "náa.pu.rèi.den",
+   "tokens": [
+    368,
+    215
+   ],
+   "violations_strong": {
+    "*'H": 2,
+    "*'I": 1,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 1,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 1,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 74.95,
+   "weak": "náa.pu.ri.en"
+  },
+  "poliisi": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 98.4,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "pó.lii.sèi.den",
+   "tokens": [
+    806,
+    13
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 2,
+    "*H/I": 2,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 0
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 0,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "pó.lii.si.en"
+  },
+  "sosialisti": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 100.0,
+   "deciding_stratum": [
+    "*H",
+    "*'L"
+   ],
+   "observed_weak_pct": 100.0,
+   "printed_CRG_weak_pct": 100,
+   "printed_SG_weak_pct": 100,
+   "strong": "só.si.a.lìs.tei.den",
+   "tokens": [
+    99,
+    0
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 2,
+    "*H/I": 2,
+    "*H/O": 1,
+    "*L.L": 2,
+    "*L/A": 1,
+    "*X.X": 2
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 1,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 1,
+    "*H/O": 1,
+    "*L.L": 2,
+    "*L/A": 1,
+    "*X.X": 2
+   },
+   "volume_law_weak_pct": 100.0,
+   "weak": "só.si.a.lìs.ti.en"
+  },
+  "taiteilija": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 0.0,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 0.0,
+   "printed_CRG_weak_pct": 0.52,
+   "printed_SG_weak_pct": 0,
+   "strong": "tái.tei.li.jòi.den",
+   "tokens": [
+    0,
+    276
+   ],
+   "violations_strong": {
+    "*'H": 2,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 2,
+    "*H/I": 0,
+    "*H/O": 2,
+    "*L.L": 0,
+    "*L/A": 0,
+    "*X.X": 1
+   },
+   "violations_weak": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 0,
+    "*'O": 0,
+    "*'X.'X": 0,
+    "*H": 2,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 2,
+    "*L.L": 1,
+    "*L/A": 0,
+    "*X.X": 3
+   },
+   "volume_law_weak_pct": 0.0,
+   "weak": "tái.tei.li.jo.jen"
+  },
+  "televisio": {
+   "SG_reproduced": true,
+   "count_law_tie": "0",
+   "count_law_weak_pct": 0.0,
+   "deciding_stratum": [
+    "*L.L",
+    "*H/I",
+    "*'I"
+   ],
+   "observed_weak_pct": 0.0,
+   "printed_CRG_weak_pct": 0.57,
+   "printed_SG_weak_pct": 0,
+   "strong": "té.le.vi.si.òi.den",
+   "tokens": [
+    0,
+    41
+   ],
+   "violations_strong": {
+    "*'H": 1,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 2,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 1,
+    "*H/I": 0,
+    "*H/O": 2,
+    "*L.L": 3,
+    "*L/A": 0,
+    "*X.X": 2
+   },
+   "violations_weak": {
+    "*'H": 0,
+    "*'I": 0,
+    "*'L": 1,
+    "*'O": 1,
+    "*'X.'X": 0,
+    "*H": 1,
+    "*H.H": 0,
+    "*H/I": 0,
+    "*H/O": 1,
+    "*L.L": 4,
+    "*L/A": 0,
+    "*X.X": 4
+   },
+   "volume_law_weak_pct": 0.0,
+   "weak": "té.le.vi.si.o.jen"
+  }
+ },
+ "td": {
+  "counts_agree": true,
+  "n_patterns": 5,
+  "patterns_from_120_rankings": {
+   "cos.V | cos.C": 25,
+   "cos.tV | cos.C": 25,
+   "cos.tV | cos.tC": 20,
+   "cos.tV | cost.C": 25,
+   "cost.V | cost.C": 25
+  },
+  "ranking_count_pct": {
+   "C": {
+    "cos.C": 41.67,
+    "cos.tC": 16.67,
+    "cost.C": 41.67
+   },
+   "V": {
+    "cos.V": 20.83,
+    "cos.tV": 58.33,
+    "cost.V": 20.83
+   }
+  },
+  "ranking_counts": {
+   "C": {
+    "cos.C": 50,
+    "cos.tC": 20,
+    "cost.C": 50
+   },
+   "V": {
+    "cos.V": 25,
+    "cos.tV": 70,
+    "cost.V": 25
+   }
+  },
+  "source_counts": {
+   "C": {
+    "cos.C": 50,
+    "cos.tC": 20,
+    "cost.C": 50
+   },
+   "V": {
+    "cos.V": 25,
+    "cos.tV": 70,
+    "cost.V": 25
+   }
+  },
+  "source_patterns": {
+   "1": [
+    "cost.V",
+    "cost.C"
+   ],
+   "4": [
+    "cos.tV",
+    "cost.C"
+   ],
+   "5": [
+    "cos.tV",
+    "cos.tC"
+   ],
+   "6": [
+    "cos.tV",
+    "cos.C"
+   ],
+   "9": [
+    "cos.V",
+    "cos.C"
+   ]
+  },
+  "weight_volume_pct": {
+   "C": {
+    "cos.C": 44.41,
+    "cos.tC": 11.06,
+    "cost.C": 44.53
+   },
+   "V": {
+    "cos.V": 16.6,
+    "cos.tV": 66.72,
+    "cost.V": 16.68
+   }
+  }
+ }
+}

@@ -1,0 +1,5 @@
+case	identified	not_identified	required_bridge
+persistence_only	phase_cell_for_h_over_m	exact_ratio;common_scale	none
+two_powered_gaps_known_p	h_over_m	common_scale	grammar_internal_profile
+admissible_log_concave_triple	p;h_over_m	common_scale	grammar_internal_profile
+finite_constitutive_ledger	registered_scores_only	constitutive_law	accumulating_exact_response

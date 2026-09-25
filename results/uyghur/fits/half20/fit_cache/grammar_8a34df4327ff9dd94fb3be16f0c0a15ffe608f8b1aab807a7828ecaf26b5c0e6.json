@@ -1,0 +1,74 @@
+{
+  "kind": "grammar",
+  "cache_key": "8a34df4327ff9dd94fb3be16f0c0a15ffe608f8b1aab807a7828ecaf26b5c0e6",
+  "block_key": "5408050a7c8e3fd51bef6658f73bc7cde508d9922d061daa850381a661f5a7ea",
+  "variant": "unrounded_strict",
+  "model": "retention_bounded",
+  "approximation": "not_applicable",
+  "alpha": 0.1,
+  "beta_key": "4e705bb60187d8eff9571924d01f5c35584a8024955c8bc43fdea51bc1433974",
+  "hu_key": null,
+  "offset_key": null,
+  "fit": {
+    "model": "retention",
+    "parameters": {
+      "A": 2.051544092532879,
+      "B": 0.9652774429885844
+    },
+    "objective": 0.3184007648429335,
+    "regularization_alpha": 0.1,
+    "converged": true,
+    "iterations": 9,
+    "internal_coordinates": [
+      0.9652774429885844,
+      1.0862666495442947
+    ],
+    "gradient": [
+      -8.358022468568649e-10,
+      6.045690198464015e-10
+    ],
+    "projected_gradient_max_abs": 8.358022468568649e-10,
+    "finite_difference_max_abs_error": 9.978935503829623e-13,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "objective": 0.3184007648429335,
+        "projected_gradient_max": 8.358022468568649e-10,
+        "finite_difference_error": 9.978935503829623e-13,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      3727.0,
+      2.0,
+      17654.0,
+      390.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 12,
+      "0010": 204,
+      "0011": 18,
+      "1000": 42,
+      "1010": 15,
+      "1100": 2
+    },
+    "training_rows": 293,
+    "feature_difference_rows": 879,
+    "feature_difference_columns": 2,
+    "feature_difference_rank": 2,
+    "feature_difference_sha256": "0521f56412ea6eeb6fcdba31b0733a2a00b22067eb7c142a457b6b848d75a7ed",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

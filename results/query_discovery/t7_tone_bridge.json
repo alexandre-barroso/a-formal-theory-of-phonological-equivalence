@@ -1,0 +1,856 @@
+{
+  "artifact": "t7_tone_bridge",
+  "per_input": {
+    "G34a": {
+      "states": 2197,
+      "image_B_seg": 2041,
+      "image_B_segtone": 2041,
+      "merged_pairs_B_seg": 156,
+      "resolved_by_tone": 0,
+      "residual_after_tone": 156,
+      "focal_origin_tones": [
+        "H",
+        "L",
+        "L"
+      ],
+      "distinct_focal_tones": 2,
+      "residual_examples": [
+        {
+          "observation": "ahtakpʊkɔ",
+          "left_focal": [
+            "∅",
+            "∅",
+            "a"
+          ],
+          "right_focal": [
+            "∅",
+            "a",
+            "∅"
+          ],
+          "left_score8": 336,
+          "right_score8": 400
+        },
+        {
+          "observation": "ahtɜkpʊkɔ",
+          "left_focal": [
+            "∅",
+            "∅",
+            "ɜ"
+          ],
+          "right_focal": [
+            "∅",
+            "ɜ",
+            "∅"
+          ],
+          "left_score8": 348,
+          "right_score8": 396
+        },
+        {
+          "observation": "ahtɛkpʊkɔ",
+          "left_focal": [
+            "∅",
+            "∅",
+            "ɛ"
+          ],
+          "right_focal": [
+            "∅",
+            "ɛ",
+            "∅"
+          ],
+          "left_score8": 336,
+          "right_score8": 392
+        },
+        {
+          "observation": "ahtekpʊkɔ",
+          "left_focal": [
+            "∅",
+            "∅",
+            "e"
+          ],
+          "right_focal": [
+            "∅",
+            "e",
+            "∅"
+          ],
+          "left_score8": 348,
+          "right_score8": 388
+        },
+        {
+          "observation": "ahtɪkpʊkɔ",
+          "left_focal": [
+            "∅",
+            "∅",
+            "ɪ"
+          ],
+          "right_focal": [
+            "∅",
+            "ɪ",
+            "∅"
+          ],
+          "left_score8": 336,
+          "right_score8": 400
+        },
+        {
+          "observation": "ahtikpʊkɔ",
+          "left_focal": [
+            "∅",
+            "∅",
+            "i"
+          ],
+          "right_focal": [
+            "∅",
+            "i",
+            "∅"
+          ],
+          "left_score8": 348,
+          "right_score8": 396
+        },
+        {
+          "observation": "ahtɔkpʊkɔ",
+          "left_focal": [
+            "∅",
+            "∅",
+            "ɔ"
+          ],
+          "right_focal": [
+            "∅",
+            "ɔ",
+            "∅"
+          ],
+          "left_score8": 320,
+          "right_score8": 400
+        },
+        {
+          "observation": "ahtokpʊkɔ",
+          "left_focal": [
+            "∅",
+            "∅",
+            "o"
+          ],
+          "right_focal": [
+            "∅",
+            "o",
+            "∅"
+          ],
+          "left_score8": 340,
+          "right_score8": 396
+        }
+      ]
+    },
+    "G34b": {
+      "states": 2197,
+      "image_B_seg": 2041,
+      "image_B_segtone": 2041,
+      "merged_pairs_B_seg": 156,
+      "resolved_by_tone": 0,
+      "residual_after_tone": 156,
+      "focal_origin_tones": [
+        "L",
+        "L",
+        "L"
+      ],
+      "distinct_focal_tones": 1,
+      "residual_examples": [
+        {
+          "observation": "afsahili",
+          "left_focal": [
+            "∅",
+            "∅",
+            "a"
+          ],
+          "right_focal": [
+            "∅",
+            "a",
+            "∅"
+          ],
+          "left_score8": 344,
+          "right_score8": 424
+        },
+        {
+          "observation": "afsɜhili",
+          "left_focal": [
+            "∅",
+            "∅",
+            "ɜ"
+          ],
+          "right_focal": [
+            "∅",
+            "ɜ",
+            "∅"
+          ],
+          "left_score8": 340,
+          "right_score8": 404
+        },
+        {
+          "observation": "afsɛhili",
+          "left_focal": [
+            "∅",
+            "∅",
+            "ɛ"
+          ],
+          "right_focal": [
+            "∅",
+            "ɛ",
+            "∅"
+          ],
+          "left_score8": 344,
+          "right_score8": 416
+        },
+        {
+          "observation": "afsehili",
+          "left_focal": [
+            "∅",
+            "∅",
+            "e"
+          ],
+          "right_focal": [
+            "∅",
+            "e",
+            "∅"
+          ],
+          "left_score8": 340,
+          "right_score8": 396
+        },
+        {
+          "observation": "afsɪhili",
+          "left_focal": [
+            "∅",
+            "∅",
+            "ɪ"
+          ],
+          "right_focal": [
+            "∅",
+            "ɪ",
+            "∅"
+          ],
+          "left_score8": 344,
+          "right_score8": 424
+        },
+        {
+          "observation": "afsihili",
+          "left_focal": [
+            "∅",
+            "∅",
+            "i"
+          ],
+          "right_focal": [
+            "∅",
+            "i",
+            "∅"
+          ],
+          "left_score8": 340,
+          "right_score8": 404
+        },
+        {
+          "observation": "afsɔhili",
+          "left_focal": [
+            "∅",
+            "∅",
+            "ɔ"
+          ],
+          "right_focal": [
+            "∅",
+            "ɔ",
+            "∅"
+          ],
+          "left_score8": 336,
+          "right_score8": 424
+        },
+        {
+          "observation": "afsohili",
+          "left_focal": [
+            "∅",
+            "∅",
+            "o"
+          ],
+          "right_focal": [
+            "∅",
+            "o",
+            "∅"
+          ],
+          "left_score8": 324,
+          "right_score8": 404
+        }
+      ]
+    },
+    "N7": {
+      "states": 169,
+      "image_B_seg": 168,
+      "image_B_segtone": 168,
+      "merged_pairs_B_seg": 1,
+      "resolved_by_tone": 0,
+      "residual_after_tone": 1,
+      "focal_origin_tones": [
+        "H",
+        "H"
+      ],
+      "distinct_focal_tones": 1,
+      "residual_examples": [
+        {
+          "observation": "atʃjjli",
+          "left_focal": [
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "j",
+            "∅"
+          ],
+          "left_score8": 188,
+          "right_score8": 180
+        }
+      ]
+    },
+    "G37c": {
+      "states": 2197,
+      "image_B_seg": 2041,
+      "image_B_segtone": 2171,
+      "merged_pairs_B_seg": 156,
+      "resolved_by_tone": 130,
+      "residual_after_tone": 26,
+      "focal_origin_tones": [
+        "H",
+        "L",
+        "H"
+      ],
+      "distinct_focal_tones": 2,
+      "residual_examples": [
+        {
+          "observation": "ɔtʃsjbie",
+          "left_focal": [
+            "∅",
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "∅",
+            "j",
+            "∅"
+          ],
+          "left_score8": 340,
+          "right_score8": 348
+        },
+        {
+          "observation": "ɔtʃswbie",
+          "left_focal": [
+            "∅",
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "∅",
+            "w",
+            "∅"
+          ],
+          "left_score8": 356,
+          "right_score8": 348
+        },
+        {
+          "observation": "ɔtʃasjbie",
+          "left_focal": [
+            "a",
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "a",
+            "j",
+            "∅"
+          ],
+          "left_score8": 188,
+          "right_score8": 196
+        },
+        {
+          "observation": "ɔtʃaswbie",
+          "left_focal": [
+            "a",
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "a",
+            "w",
+            "∅"
+          ],
+          "left_score8": 204,
+          "right_score8": 196
+        },
+        {
+          "observation": "ɔtʃɜsjbie",
+          "left_focal": [
+            "ɜ",
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "ɜ",
+            "j",
+            "∅"
+          ],
+          "left_score8": 192,
+          "right_score8": 200
+        },
+        {
+          "observation": "ɔtʃɜswbie",
+          "left_focal": [
+            "ɜ",
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "ɜ",
+            "w",
+            "∅"
+          ],
+          "left_score8": 208,
+          "right_score8": 200
+        },
+        {
+          "observation": "ɔtʃɛsjbie",
+          "left_focal": [
+            "ɛ",
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "ɛ",
+            "j",
+            "∅"
+          ],
+          "left_score8": 188,
+          "right_score8": 196
+        },
+        {
+          "observation": "ɔtʃɛswbie",
+          "left_focal": [
+            "ɛ",
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "ɛ",
+            "w",
+            "∅"
+          ],
+          "left_score8": 204,
+          "right_score8": 196
+        }
+      ]
+    },
+    "C24ei": {
+      "states": 169,
+      "image_B_seg": 157,
+      "image_B_segtone": 167,
+      "merged_pairs_B_seg": 12,
+      "resolved_by_tone": 10,
+      "residual_after_tone": 2,
+      "focal_origin_tones": [
+        "L",
+        "H"
+      ],
+      "distinct_focal_tones": 2,
+      "residual_examples": [
+        {
+          "observation": "kpjsi",
+          "left_focal": [
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "j",
+            "∅"
+          ],
+          "left_score8": 176,
+          "right_score8": 184
+        },
+        {
+          "observation": "kpwsi",
+          "left_focal": [
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "w",
+            "∅"
+          ],
+          "left_score8": 192,
+          "right_score8": 184
+        }
+      ]
+    },
+    "OR38": {
+      "states": 2197,
+      "image_B_seg": 2041,
+      "image_B_segtone": 2171,
+      "merged_pairs_B_seg": 156,
+      "resolved_by_tone": 130,
+      "residual_after_tone": 26,
+      "focal_origin_tones": [
+        "L",
+        "L",
+        "H"
+      ],
+      "distinct_focal_tones": 2,
+      "residual_examples": [
+        {
+          "observation": "atʃsjku",
+          "left_focal": [
+            "∅",
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "∅",
+            "j",
+            "∅"
+          ],
+          "left_score8": 532,
+          "right_score8": 340
+        },
+        {
+          "observation": "atʃswku",
+          "left_focal": [
+            "∅",
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "∅",
+            "w",
+            "∅"
+          ],
+          "left_score8": 548,
+          "right_score8": 348
+        },
+        {
+          "observation": "atʃasjku",
+          "left_focal": [
+            "a",
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "a",
+            "j",
+            "∅"
+          ],
+          "left_score8": 380,
+          "right_score8": 188
+        },
+        {
+          "observation": "atʃaswku",
+          "left_focal": [
+            "a",
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "a",
+            "w",
+            "∅"
+          ],
+          "left_score8": 396,
+          "right_score8": 196
+        },
+        {
+          "observation": "atʃɜsjku",
+          "left_focal": [
+            "ɜ",
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "ɜ",
+            "j",
+            "∅"
+          ],
+          "left_score8": 384,
+          "right_score8": 192
+        },
+        {
+          "observation": "atʃɜswku",
+          "left_focal": [
+            "ɜ",
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "ɜ",
+            "w",
+            "∅"
+          ],
+          "left_score8": 400,
+          "right_score8": 200
+        },
+        {
+          "observation": "atʃɛsjku",
+          "left_focal": [
+            "ɛ",
+            "∅",
+            "j"
+          ],
+          "right_focal": [
+            "ɛ",
+            "j",
+            "∅"
+          ],
+          "left_score8": 380,
+          "right_score8": 188
+        },
+        {
+          "observation": "atʃɛswku",
+          "left_focal": [
+            "ɛ",
+            "∅",
+            "w"
+          ],
+          "right_focal": [
+            "ɛ",
+            "w",
+            "∅"
+          ],
+          "left_score8": 396,
+          "right_score8": 196
+        }
+      ]
+    },
+    "C21b": {
+      "states": 169,
+      "image_B_seg": 157,
+      "image_B_segtone": 157,
+      "merged_pairs_B_seg": 12,
+      "resolved_by_tone": 0,
+      "residual_after_tone": 12,
+      "focal_origin_tones": [
+        "H",
+        "H"
+      ],
+      "distinct_focal_tones": 1,
+      "residual_examples": [
+        {
+          "observation": "wʊsasɛ",
+          "left_focal": [
+            "∅",
+            "a"
+          ],
+          "right_focal": [
+            "a",
+            "∅"
+          ],
+          "left_score8": 368,
+          "right_score8": 168
+        },
+        {
+          "observation": "wʊsɜsɛ",
+          "left_focal": [
+            "∅",
+            "ɜ"
+          ],
+          "right_focal": [
+            "ɜ",
+            "∅"
+          ],
+          "left_score8": 380,
+          "right_score8": 176
+        },
+        {
+          "observation": "wʊsɛsɛ",
+          "left_focal": [
+            "∅",
+            "ɛ"
+          ],
+          "right_focal": [
+            "ɛ",
+            "∅"
+          ],
+          "left_score8": 368,
+          "right_score8": 168
+        },
+        {
+          "observation": "wʊsesɛ",
+          "left_focal": [
+            "∅",
+            "e"
+          ],
+          "right_focal": [
+            "e",
+            "∅"
+          ],
+          "left_score8": 380,
+          "right_score8": 176
+        },
+        {
+          "observation": "wʊsɪsɛ",
+          "left_focal": [
+            "∅",
+            "ɪ"
+          ],
+          "right_focal": [
+            "ɪ",
+            "∅"
+          ],
+          "left_score8": 352,
+          "right_score8": 168
+        },
+        {
+          "observation": "wʊsisɛ",
+          "left_focal": [
+            "∅",
+            "i"
+          ],
+          "right_focal": [
+            "i",
+            "∅"
+          ],
+          "left_score8": 372,
+          "right_score8": 176
+        },
+        {
+          "observation": "wʊsɔsɛ",
+          "left_focal": [
+            "∅",
+            "ɔ"
+          ],
+          "right_focal": [
+            "ɔ",
+            "∅"
+          ],
+          "left_score8": 368,
+          "right_score8": 168
+        },
+        {
+          "observation": "wʊsosɛ",
+          "left_focal": [
+            "∅",
+            "o"
+          ],
+          "right_focal": [
+            "o",
+            "∅"
+          ],
+          "left_score8": 380,
+          "right_score8": 176
+        }
+      ]
+    },
+    "C23UE": {
+      "states": 169,
+      "image_B_seg": 157,
+      "image_B_segtone": 157,
+      "merged_pairs_B_seg": 12,
+      "resolved_by_tone": 0,
+      "residual_after_tone": 12,
+      "focal_origin_tones": [
+        "H",
+        "H"
+      ],
+      "distinct_focal_tones": 1,
+      "residual_examples": [
+        {
+          "observation": "wʊsabɪ",
+          "left_focal": [
+            "∅",
+            "a"
+          ],
+          "right_focal": [
+            "a",
+            "∅"
+          ],
+          "left_score8": 176,
+          "right_score8": 232
+        },
+        {
+          "observation": "wʊsɜbɪ",
+          "left_focal": [
+            "∅",
+            "ɜ"
+          ],
+          "right_focal": [
+            "ɜ",
+            "∅"
+          ],
+          "left_score8": 188,
+          "right_score8": 240
+        },
+        {
+          "observation": "wʊsɛbɪ",
+          "left_focal": [
+            "∅",
+            "ɛ"
+          ],
+          "right_focal": [
+            "ɛ",
+            "∅"
+          ],
+          "left_score8": 160,
+          "right_score8": 232
+        },
+        {
+          "observation": "wʊsebɪ",
+          "left_focal": [
+            "∅",
+            "e"
+          ],
+          "right_focal": [
+            "e",
+            "∅"
+          ],
+          "left_score8": 180,
+          "right_score8": 240
+        },
+        {
+          "observation": "wʊsɪbɪ",
+          "left_focal": [
+            "∅",
+            "ɪ"
+          ],
+          "right_focal": [
+            "ɪ",
+            "∅"
+          ],
+          "left_score8": 176,
+          "right_score8": 232
+        },
+        {
+          "observation": "wʊsibɪ",
+          "left_focal": [
+            "∅",
+            "i"
+          ],
+          "right_focal": [
+            "i",
+            "∅"
+          ],
+          "left_score8": 188,
+          "right_score8": 240
+        },
+        {
+          "observation": "wʊsɔbɪ",
+          "left_focal": [
+            "∅",
+            "ɔ"
+          ],
+          "right_focal": [
+            "ɔ",
+            "∅"
+          ],
+          "left_score8": 176,
+          "right_score8": 232
+        },
+        {
+          "observation": "wʊsobɪ",
+          "left_focal": [
+            "∅",
+            "o"
+          ],
+          "right_focal": [
+            "o",
+            "∅"
+          ],
+          "left_score8": 188,
+          "right_score8": 240
+        }
+      ]
+    }
+  }
+}

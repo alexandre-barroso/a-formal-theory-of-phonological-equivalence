@@ -1,0 +1,1899 @@
+{
+ "ablations": {
+  "env_open": {
+   "mismatches": [
+    "S5",
+    "S7",
+    "T4"
+   ],
+   "region": {
+    "conclusive": false,
+    "feasible": null,
+    "status": "UNRESOLVED_NUMERICAL_BRANCH_SEARCH"
+   },
+   "winners_at_mismatches": {
+    "S5": [
+     "hituk’wéept’awaniqane"
+    ],
+    "S7": [
+     "hicúukwensine"
+    ],
+    "T4": [
+     "hinéescukwense"
+    ]
+   }
+  },
+  "realisational_shortening": {
+   "mismatches": [],
+   "winners_at_mismatches": {}
+  },
+  "surface_weight": {
+   "mismatches": [
+    "S12",
+    "S13"
+   ],
+   "region": {
+    "conclusive": false,
+    "feasible": null,
+    "status": "UNRESOLVED_NUMERICAL_BRANCH_SEARCH"
+   },
+   "winners_at_mismatches": {
+    "S12": [
+     "péehewtk’iye"
+    ],
+    "S13": [
+     "hewtk’íise"
+    ]
+   }
+  },
+  "unscoped": {
+   "mismatches": [
+    "K13",
+    "K3",
+    "K6",
+    "K9"
+   ],
+   "region": {
+    "conclusive": false,
+    "feasible": null,
+    "status": "UNRESOLVED_NUMERICAL_BRANCH_SEARCH"
+   },
+   "winners_at_mismatches": {
+    "K13": [
+     "’e’yáqney’me"
+    ],
+    "K3": [
+     "heknéy’me"
+    ],
+    "K6": [
+     "péekiyey’qane"
+    ],
+    "K9": [
+     "néeskiyey’me"
+    ]
+   }
+  }
+ },
+ "allo_out": {
+  "mismatches": [
+   "K1",
+   "K13",
+   "K2",
+   "K3",
+   "K7",
+   "K8",
+   "S1",
+   "S2",
+   "S3",
+   "S4",
+   "S5",
+   "S8"
+  ],
+  "winners_at_mismatches": {
+   "K1": [
+    "hekinéy’se"
+   ],
+   "K13": [
+    "’e’iyáqnen’ime"
+   ],
+   "K2": [
+    "hekinéy’semqa"
+   ],
+   "K3": [
+    "hekinén’ime"
+   ],
+   "K7": [
+    "’e’iyáaqney’qaqa"
+   ],
+   "K8": [
+    "hekinén’im"
+   ],
+   "S1": [
+    "nikéehawaqse"
+   ],
+   "S2": [
+    "tukwéephawaqse"
+   ],
+   "S3": [
+    "páat’awanise"
+   ],
+   "S4": [
+    "hit’awáaniyu’"
+   ],
+   "S5": [
+    "hituk’wéept’awaniqane"
+   ],
+   "S8": [
+    "hipiséene"
+   ]
+  }
+ },
+ "constructed_floating": {
+  "fixed_reference": [
+   "hic’ákne"
+  ],
+  "input": "hic’akNe",
+  "two_level_final_ban_word_level": [
+   "hic’áke"
+  ],
+  "two_level_no_persist": [
+   "hic’áke"
+  ],
+  "two_level_persist": [
+   "hic’ákne"
+  ]
+ },
+ "constructed_selection": {
+  "any": [
+   "kitáayney’se"
+  ],
+  "input": "kuutaayNen’isee",
+  "sister": [
+   "kutáayney’se"
+  ]
+ },
+ "exchange": {
+  "changes": {
+   "CODA2": [
+    "-1/8"
+   ],
+   "DEP_C": [
+    "1"
+   ],
+   "IDENT_LONG": [
+    "1"
+   ],
+   "MAX_V": [
+    "-1"
+   ],
+   "MAX_VV": [
+    "-1"
+   ],
+   "NONFIN": [
+    "-1/8"
+   ],
+   "PENULT": [
+    "-1/8",
+    "1/8"
+   ],
+   "SYNCOPE": [
+    "1",
+    "1/8"
+   ],
+   "VVCC": [
+    "-1",
+    "-1/8"
+   ]
+  },
+  "exchanges": 1711,
+  "excluded_by_a_bound_requirement": 286
+ },
+ "exchange_subregion": {
+  "feasible": true,
+  "inequality": "MAX_V + MAX_VV > IDENT_LONG + 2 DEP_C + (1+lambda) SYNCOPE + lambda PENULT",
+  "status": "EXACT_DECLARED_DOMAIN_WITNESS",
+  "witness": {
+   "ACC_STRESS": "5",
+   "CODA2": "8",
+   "CODA_SSP": "1000",
+   "DEP_C": "1",
+   "DEP_X": "2",
+   "DEP_X_FINAL": "1000",
+   "IDENT_LONG_S": "1",
+   "IDENT_NAS": "1",
+   "IDENT_NUC": "1",
+   "LEFTMOST_ACC": "8",
+   "MAX_ACC": "1000",
+   "MAX_C": "1000",
+   "MAX_FLOAT": "3",
+   "MAX_V": "3",
+   "MAX_VV": "77/8",
+   "NOCC_INIT": "1000",
+   "ONSET": "1000",
+   "PENULT": "32",
+   "RIGHTMOST_DOM": "8",
+   "RR_GLOT": "1000",
+   "SEL_SISTER": "1000",
+   "SHORTEN": "5/8",
+   "SYNCOPE": "5",
+   "UNIF2": "21/8",
+   "VVCC": "1000"
+  }
+ },
+ "inward_audit": {
+  "accent_fragment": {
+   "n_violations": 0,
+   "structures": 3674,
+   "violations": []
+  },
+  "coverage": "Resolved-slot accesses only; custom reference terms require separate semantic inspection. Zero slot violations does not certify all information access.",
+  "term_access": {
+   "SEL_ANY": "any later vowel-initial morpheme of the stem in the reference (outward: excluded by the restriction)",
+   "SEL_SISTER": "the reference's next present node after the root's vowel: its sister, cycle 1 (inward)"
+  },
+  "this_fragment": {
+   "examples": [
+    [
+     "K1",
+     "hkn’sée",
+     [
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or2",
+       "slot": "n2"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or6",
+       "slot": "n1"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or6",
+       "slot": "n2"
+      }
+     ]
+    ],
+    [
+     "K1",
+     "hkn’sé",
+     [
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or2",
+       "slot": "n2"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or6",
+       "slot": "n1"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or6",
+       "slot": "n2"
+      }
+     ]
+    ],
+    [
+     "K1",
+     "hkn’ís",
+     [
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or6",
+       "slot": "n2"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or7",
+       "slot": "n1"
+      }
+     ]
+    ],
+    [
+     "K1",
+     "hkn’íse",
+     [
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or6",
+       "slot": "n2"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or7",
+       "slot": "n1"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or7",
+       "slot": "n2"
+      }
+     ]
+    ],
+    [
+     "K1",
+     "hkn’isée",
+     [
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or6",
+       "slot": "n2"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or7",
+       "slot": "n1"
+      },
+      {
+       "cycle": 2,
+       "declaration": "ALLO_OUT",
+       "listed_cycle": 1,
+       "locus": "Or7",
+       "slot": "n2"
+      }
+     ]
+    ]
+   ],
+   "structures": 34081,
+   "structures_with_a_violation": 22860,
+   "violations_by_declaration": {
+    "ALLO_OUT": 63427
+   }
+  }
+ },
+ "items": {
+  "K1": {
+   "candidates": 360,
+   "expected": [
+    "heknéy’se"
+   ],
+   "input": "hekiNen’isee",
+   "locator": "(70a) hexnéy’se; (25a)",
+   "winner_in_expected": true,
+   "winners": [
+    "heknéy’se"
+   ]
+  },
+  "K10": {
+   "candidates": 1846,
+   "expected": [
+    "péekiyen’e",
+    "péekiyen’ye"
+   ],
+   "input": "peekuuen’ie",
+   "locator": "(19c) péekiyen’ye (the final vowel before a vowel not compared)",
+   "winner_in_expected": true,
+   "winners": [
+    "péekiyen’e"
+   ]
+  },
+  "K11": {
+   "candidates": 1557,
+   "expected": [
+    "péekiyey’se"
+   ],
+   "input": "peekuuen’isee",
+   "locator": "(21a) péekiyey’se",
+   "winner_in_expected": true,
+   "winners": [
+    "péekiyey’se"
+   ]
+  },
+  "K13": {
+   "candidates": 1280,
+   "expected": [
+    "’e’yáqnen’ime"
+   ],
+   "input": "’e’iyaqNen’ime",
+   "locator": "(22c) ’aw’-yáẋn-an’i-m-a (the root's length as printed there)",
+   "winner_in_expected": true,
+   "winners": [
+    "’e’yáqnen’ime"
+   ]
+  },
+  "K2": {
+   "candidates": 864,
+   "expected": [
+    "heknéy’semqa"
+   ],
+   "input": "hekiNen’iseemqa",
+   "locator": "(70b) haxnáy’sàmqa; (25b), (30c)",
+   "winner_in_expected": true,
+   "winners": [
+    "heknéy’semqa"
+   ]
+  },
+  "K3": {
+   "candidates": 224,
+   "expected": [
+    "heknén’ime"
+   ],
+   "input": "hekiNen’ime",
+   "locator": "(70c) hexnénìme; (71b)",
+   "winner_in_expected": true,
+   "winners": [
+    "heknén’ime"
+   ]
+  },
+  "K4": {
+   "candidates": 739,
+   "expected": [
+    "kiyén’u’",
+    "kiyén’yu’"
+   ],
+   "input": "kuuen’iuu’",
+   "locator": "(19a) kiyén’yu’ (the applicative's final vowel before a vowel: glide or deletion not compared)",
+   "winner_in_expected": true,
+   "winners": [
+    "kiyén’yu’"
+   ]
+  },
+  "K5": {
+   "candidates": 99,
+   "expected": [
+    "hipén’it"
+   ],
+   "input": "hipien’it",
+   "locator": "(20a) hipén’it",
+   "winner_in_expected": true,
+   "winners": [
+    "hipén’it"
+   ]
+  },
+  "K6": {
+   "candidates": 3627,
+   "expected": [
+    "péekiyen’iqane"
+   ],
+   "input": "peekuuen’iqaane",
+   "locator": "(29a) páakiyan’iqana with -qaane a fused word-level tense (§3.2); (48ix)",
+   "winner_in_expected": true,
+   "winners": [
+    "péekiyen’iqane"
+   ]
+  },
+  "K7": {
+   "candidates": 7200,
+   "expected": [
+    "’e’yáaqney’qaqa"
+   ],
+   "input": "’e’iyaaqNen’iqaaqa",
+   "locator": "(30d) ’aw’yáaẋnay’qaqa",
+   "winner_in_expected": true,
+   "winners": [
+    "’e’yáaqney’qaqa"
+   ]
+  },
+  "K8": {
+   "candidates": 88,
+   "expected": [
+    "heknén’im"
+   ],
+   "input": "hekiNen’im",
+   "locator": "(20e) hexné’nim (glottal shift undone)",
+   "winner_in_expected": true,
+   "winners": [
+    "heknén’im"
+   ]
+  },
+  "K9": {
+   "candidates": 981,
+   "expected": [
+    "néeskiyen’ime"
+   ],
+   "input": "neeskuuen’ime",
+   "locator": "(12b) nées-kiy-en’i-m-e; (48viii)",
+   "winner_in_expected": true,
+   "winners": [
+    "néeskiyen’ime"
+   ]
+  },
+  "N1": {
+   "candidates": 256,
+   "expected": [
+    "hiq’uyímne"
+   ],
+   "input": "hiq’uuyimNe",
+   "locator": "fn 11 hiq’uyímne (the root's first vowel long, as fn 11's q’uuyímN-úu-see)",
+   "winner_in_expected": true,
+   "winners": [
+    "hiq’uyímne"
+   ]
+  },
+  "N2": {
+   "candidates": 612,
+   "expected": [
+    "hiq’uyímce"
+   ],
+   "input": "hiq’uuyimNsee",
+   "locator": "fn 11 hiq’uyímce",
+   "winner_in_expected": true,
+   "winners": [
+    "hiq’uyímce"
+   ]
+  },
+  "N3": {
+   "candidates": 648,
+   "expected": [
+    "q’uyimnúuse"
+   ],
+   "input": "q’uuyimNuusee",
+   "locator": "fn 11 q’uyimnúuse (the directional suffix dominant, (40))",
+   "winner_in_expected": true,
+   "winners": [
+    "q’uyimnúuse"
+   ]
+  },
+  "R1": {
+   "candidates": 71,
+   "expected": [
+    "hikúuye",
+    "hikúye"
+   ],
+   "input": "hikuue",
+   "locator": "(13a) hi-kú(u)y-e",
+   "winner_in_expected": true,
+   "winners": [
+    "hikúuye"
+   ]
+  },
+  "R2": {
+   "candidates": 22,
+   "expected": [
+    "kusíix"
+   ],
+   "input": "kuusiix",
+   "locator": "(11b) ku-siix",
+   "winner_in_expected": true,
+   "winners": [
+    "kusíix"
+   ]
+  },
+  "R3": {
+   "candidates": 711,
+   "expected": [
+    "kutáayce"
+   ],
+   "input": "kuutaayNsee",
+   "locator": "(14a) kotáayca",
+   "winner_in_expected": true,
+   "winners": [
+    "kutáayce"
+   ]
+  },
+  "S1": {
+   "candidates": 204,
+   "expected": [
+    "nikéehwaqse"
+   ],
+   "input": "nikeehawaqsee",
+   "locator": "(52a) ni.káah.waq.sa",
+   "winner_in_expected": true,
+   "winners": [
+    "nikéehwaqse"
+   ]
+  },
+  "S10": {
+   "candidates": 84,
+   "expected": [
+    "hitúxisix"
+   ],
+   "input": "hituxiisiix",
+   "locator": "(54a) hi.tú.xi-six",
+   "winner_in_expected": true,
+   "winners": [
+    "hitúxisix"
+   ]
+  },
+  "S11": {
+   "candidates": 324,
+   "expected": [
+    "hiwíituxisix"
+   ],
+   "input": "hiwiituxiisiix",
+   "locator": "(54b) hi.wíi.tu.xi-six",
+   "winner_in_expected": true,
+   "winners": [
+    "hiwíituxisix"
+   ]
+  },
+  "S12": {
+   "candidates": 615,
+   "expected": [
+    "péehewtuk’iye"
+   ],
+   "input": "peeheewtuk’iie",
+   "locator": "(55a) pée.hew.tu.k’i.ye",
+   "winner_in_expected": true,
+   "winners": [
+    "péehewtuk’iye"
+   ]
+  },
+  "S13": {
+   "candidates": 135,
+   "expected": [
+    "hewtuk’íise"
+   ],
+   "input": "heewtuk’iisee",
+   "locator": "(55b) hew.tu.k’íi.se",
+   "winner_in_expected": true,
+   "winners": [
+    "hewtuk’íise"
+   ]
+  },
+  "S2": {
+   "candidates": 204,
+   "expected": [
+    "tukwéephawqse"
+   ],
+   "input": "tukweephawaqsee",
+   "locator": "(52b) to.káap.hawq.sa",
+   "winner_in_expected": true,
+   "winners": [
+    "tukwéephawqse"
+   ]
+  },
+  "S3": {
+   "candidates": 513,
+   "expected": [
+    "páat’wanise"
+   ],
+   "input": "paat’awaaniisee",
+   "locator": "(57c) páat’.wa.ni.sa",
+   "winner_in_expected": true,
+   "winners": [
+    "páat’wanise"
+   ]
+  },
+  "S4": {
+   "candidates": 596,
+   "expected": [
+    "hit’wáaniyu’"
+   ],
+   "input": "hit’awaaniiuu’",
+   "locator": "(57b) hit’.wáa.ni.yo’",
+   "winner_in_expected": true,
+   "winners": [
+    "hit’wáaniyu’"
+   ]
+  },
+  "S5": {
+   "candidates": 6048,
+   "expected": [
+    "hitk’wéept’awaniqane"
+   ],
+   "input": "hituk’weept’awaaniiqaane",
+   "locator": "(57d) hit.k’óop.t’a.wa.ni.qa.na",
+   "winner_in_expected": true,
+   "winners": [
+    "hitk’wéept’awaniqane"
+   ]
+  },
+  "S6": {
+   "candidates": 60,
+   "expected": [
+    "hekíce"
+   ],
+   "input": "hekiNsee",
+   "locator": "(23a) hekíce",
+   "winner_in_expected": true,
+   "winners": [
+    "hekíce"
+   ]
+  },
+  "S7": {
+   "candidates": 612,
+   "expected": [
+    "hicúukwecine"
+   ],
+   "input": "hicuukweNsiine",
+   "locator": "(32b) hicúukwecine; (48ii)",
+   "winner_in_expected": true,
+   "winners": [
+    "hicúukwecine"
+   ]
+  },
+  "S8": {
+   "candidates": 52,
+   "expected": [
+    "hipséene"
+   ],
+   "input": "hipiseene",
+   "locator": "p. 419 hipséene",
+   "winner_in_expected": true,
+   "winners": [
+    "hipséene"
+   ]
+  },
+  "T3": {
+   "candidates": 101,
+   "expected": [
+    "wawayéet"
+   ],
+   "input": "waawaaeet",
+   "locator": "(48iii) wàa.wa.yáat (the agent suffix dominant, (42))",
+   "winner_in_expected": true,
+   "winners": [
+    "wawayéet"
+   ]
+  },
+  "T4": {
+   "candidates": 972,
+   "expected": [
+    "hinéescukwece"
+   ],
+   "input": "hineescuukweNsee",
+   "locator": "(48iv) hìnèescùkwèce; (33a)",
+   "winner_in_expected": true,
+   "winners": [
+    "hinéescukwece"
+   ]
+  },
+  "T5": {
+   "candidates": 2376,
+   "expected": [
+    "hinespaynúuse"
+   ],
+   "input": "hineespaayNuusee",
+   "locator": "(48v) hìnàspàynóosa; (40b)",
+   "winner_in_expected": true,
+   "winners": [
+    "hinespaynúuse"
+   ]
+  }
+ },
+ "items_at_witness": {
+  "agree": 33,
+  "mismatches": [],
+  "n": 33
+ },
+ "lambda": "1/8",
+ "recoding_glide": {
+  "mismatches": [],
+  "n": 12,
+  "winners_at_mismatches": {}
+ },
+ "recoding_region": {
+  "feasible": true,
+  "status": "EXACT_DECLARED_DOMAIN_WITNESS",
+  "witness": {
+   "ACC_STRESS": "8",
+   "CODA_SSP": "1000",
+   "DEP_X_FINAL": "1000",
+   "IDENT_LONG_S": "1",
+   "IDENT_NAS": "2",
+   "IDENT_NUC": "1",
+   "LEFTMOST_ACC": "8",
+   "MAX_ACC": "1000",
+   "MAX_C": "1000",
+   "MAX_FLOAT": "1",
+   "MAX_V": "1",
+   "MAX_VV": "2",
+   "NOCC_INIT": "1000",
+   "ONSET": "1000",
+   "RR_GLOT": "1000",
+   "SEL_SISTER": "1000",
+   "SHORTEN": "2",
+   "SYNCOPE": "16",
+   "UNIF2": "3",
+   "VVCC": "1000"
+  }
+ },
+ "region": {
+  "feasible": true,
+  "status": "EXACT_DECLARED_DOMAIN_WITNESS",
+  "witness": {
+   "ACC_STRESS": "5",
+   "CODA2": "8",
+   "CODA_SSP": "1000",
+   "DEP_C": "1",
+   "DEP_X": "2",
+   "DEP_X_FINAL": "1000",
+   "IDENT_LONG_S": "1",
+   "IDENT_NAS": "1",
+   "IDENT_NUC": "1",
+   "LEFTMOST_ACC": "8",
+   "MAX_ACC": "1000",
+   "MAX_C": "1000",
+   "MAX_FLOAT": "3",
+   "MAX_V": "3",
+   "MAX_VV": "3",
+   "NOCC_INIT": "1000",
+   "ONSET": "1000",
+   "PENULT": "32",
+   "RIGHTMOST_DOM": "8",
+   "RR_GLOT": "1000",
+   "SEL_SISTER": "1000",
+   "SHORTEN": "5/8",
+   "SYNCOPE": "5",
+   "UNIF2": "21/8",
+   "VVCC": "1000"
+  }
+ },
+ "residue": {
+  "X1": {
+   "candidates": 47,
+   "expected": [
+    "hipekúye"
+   ],
+   "input": "hipekuue",
+   "locator": "(48i) hìpekúye: the prefix vowel is not syncopated",
+   "pruned": 133,
+   "winner_in_expected": false,
+   "winners": [
+    "hipéku"
+   ]
+  },
+  "X2": {
+   "candidates": 202,
+   "expected": [
+    "hineshitéemene"
+   ],
+   "input": "hineeshiteemeeNe",
+   "locator": "(42c) hinesitéemene: the root-initial vowel is not syncopated (derived by the cluster ban reading the lexical length of the preceding nucleus)",
+   "pruned": 1310,
+   "winner_in_expected": true,
+   "winners": [
+    "hineshitéemene"
+   ]
+  },
+  "X3": {
+   "candidates": 560,
+   "expected": [
+    "sepehitemenew’éet"
+   ],
+   "input": "sepeehiteemeeNew’eet",
+   "locator": "(48vii) sèpèhìtèmenèw’éet, (43a): the same root-initial vowel; the root's second vowel long as in (43b)",
+   "pruned": 4840,
+   "winner_in_expected": false,
+   "winners": [
+    "sepehtemenew’éet"
+   ]
+  }
+ },
+ "schematic": {
+  "alternation": {
+   "counter": [],
+   "long_elsewhere": 34,
+   "short_before_stem_CV": 29
+  },
+  "long_nuclei_unrealised": 0,
+  "without_admissible_candidate": 0,
+  "words": 120
+ },
+ "seconds": 3879.9,
+ "sel_any": {
+  "mismatches": [],
+  "n": 15
+ },
+ "two_level": {
+  "K1": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "heknéy’se"
+    ],
+    "word_level": [
+     "heknéy’se"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "heknéy’se"
+    ],
+    "word_level": [
+     "heknéy’se"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "heknéy’se"
+    ],
+    "word_level": [
+     "heknéy’se"
+    ]
+   }
+  },
+  "K10": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyen’i"
+    ],
+    "word_level": [
+     "péekiyen’e"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyen’i"
+    ],
+    "word_level": [
+     "péekiyen’e"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyen’i"
+    ],
+    "word_level": [
+     "péekiyen’e"
+    ]
+   }
+  },
+  "K11": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyey’se"
+    ],
+    "word_level": [
+     "péekiyey’se"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyey’se"
+    ],
+    "word_level": [
+     "péekiyey’se"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyey’se"
+    ],
+    "word_level": [
+     "péekiyey’se"
+    ]
+   }
+  },
+  "K13": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "’e’yáqnen’i"
+    ],
+    "word_level": [
+     "’e’yáqnen’ime"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "’e’yáqnen’i"
+    ],
+    "word_level": [
+     "’e’yáqnen’ime"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "’e’yáqnen’i"
+    ],
+    "word_level": [
+     "’e’yáqnen’ime"
+    ]
+   }
+  },
+  "K2": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "heknéy’se"
+    ],
+    "word_level": [
+     "heknéy’semqa"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "heknéy’se"
+    ],
+    "word_level": [
+     "heknéy’semqa"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "heknéy’se"
+    ],
+    "word_level": [
+     "heknéy’semqa"
+    ]
+   }
+  },
+  "K3": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "heknén’i"
+    ],
+    "word_level": [
+     "heknén’ime"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "heknén’i"
+    ],
+    "word_level": [
+     "heknén’ime"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "heknén’i"
+    ],
+    "word_level": [
+     "heknén’ime"
+    ]
+   }
+  },
+  "K4": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "kiyén’yu’"
+    ],
+    "word_level": [
+     "kiyén’yu’"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "kiyén’yu’"
+    ],
+    "word_level": [
+     "kiyén’yu’"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "kiyén’yu’"
+    ],
+    "word_level": [
+     "kiyén’yu’"
+    ]
+   }
+  },
+  "K5": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hipén’it"
+    ],
+    "word_level": [
+     "hipén’it"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hipén’it"
+    ],
+    "word_level": [
+     "hipén’it"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hipén’it"
+    ],
+    "word_level": [
+     "hipén’it"
+    ]
+   }
+  },
+  "K6": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyen’i"
+    ],
+    "word_level": [
+     "péekiyen’iqane"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyen’i"
+    ],
+    "word_level": [
+     "péekiyen’iqane"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "péekiyen’i"
+    ],
+    "word_level": [
+     "péekiyen’iqane"
+    ]
+   }
+  },
+  "K7": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "’e’yáaqney’qa"
+    ],
+    "word_level": [
+     "’e’yáaqney’qaqa"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "’e’yáaqney’qa"
+    ],
+    "word_level": [
+     "’e’yáaqney’qaqa"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "’e’yáaqney’qa"
+    ],
+    "word_level": [
+     "’e’yáaqney’qaqa"
+    ]
+   }
+  },
+  "K8": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "heknén’i"
+    ],
+    "word_level": [
+     "heknén’im"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "heknén’i"
+    ],
+    "word_level": [
+     "heknén’im"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "heknén’i"
+    ],
+    "word_level": [
+     "heknén’im"
+    ]
+   }
+  },
+  "K9": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "néeskiyen’i"
+    ],
+    "word_level": [
+     "néeskiyen’ime"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "néeskiyen’i"
+    ],
+    "word_level": [
+     "néeskiyen’ime"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "néeskiyen’i"
+    ],
+    "word_level": [
+     "néeskiyen’ime"
+    ]
+   }
+  },
+  "N1": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hiq’uyímn"
+    ],
+    "word_level": [
+     "hiq’uyímne"
+    ]
+   },
+   "no_persist": {
+    "in_expected": false,
+    "stem_level": [
+     "hiq’uyím"
+    ],
+    "word_level": [
+     "hiq’uyíme"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hiq’uyím"
+    ],
+    "word_level": [
+     "hiq’uyímne"
+    ]
+   }
+  },
+  "N2": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hiq’uyímce"
+    ],
+    "word_level": [
+     "hiq’uyímce"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hiq’uyímce"
+    ],
+    "word_level": [
+     "hiq’uyímce"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hiq’uyímce"
+    ],
+    "word_level": [
+     "hiq’uyímce"
+    ]
+   }
+  },
+  "N3": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "q’uyimnúuse"
+    ],
+    "word_level": [
+     "q’uyimnúuse"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "q’uyimnúuse"
+    ],
+    "word_level": [
+     "q’uyimnúuse"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "q’uyimnúuse"
+    ],
+    "word_level": [
+     "q’uyimnúuse"
+    ]
+   }
+  },
+  "R1": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "híku"
+    ],
+    "word_level": [
+     "hikúuye"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "híku"
+    ],
+    "word_level": [
+     "hikúuye"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "híku"
+    ],
+    "word_level": [
+     "hikúuye"
+    ]
+   }
+  },
+  "R2": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "kusíix"
+    ],
+    "word_level": [
+     "kusíix"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "kusíix"
+    ],
+    "word_level": [
+     "kusíix"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "kusíix"
+    ],
+    "word_level": [
+     "kusíix"
+    ]
+   }
+  },
+  "R3": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "kutáayce"
+    ],
+    "word_level": [
+     "kutáayce"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "kutáayce"
+    ],
+    "word_level": [
+     "kutáayce"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "kutáayce"
+    ],
+    "word_level": [
+     "kutáayce"
+    ]
+   }
+  },
+  "S1": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "nikéehwaqse"
+    ],
+    "word_level": [
+     "nikéehwaqse"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "nikéehwaqse"
+    ],
+    "word_level": [
+     "nikéehwaqse"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "nikéehwaqse"
+    ],
+    "word_level": [
+     "nikéehwaqse"
+    ]
+   }
+  },
+  "S10": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hitúxisix"
+    ],
+    "word_level": [
+     "hitúxisix"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hitúxisix"
+    ],
+    "word_level": [
+     "hitúxisix"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hitúxisix"
+    ],
+    "word_level": [
+     "hitúxisix"
+    ]
+   }
+  },
+  "S11": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hiwíituxisix"
+    ],
+    "word_level": [
+     "hiwíituxisix"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hiwíituxisix"
+    ],
+    "word_level": [
+     "hiwíituxisix"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hiwíituxisix"
+    ],
+    "word_level": [
+     "hiwíituxisix"
+    ]
+   }
+  },
+  "S12": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "péehewtuk’i"
+    ],
+    "word_level": [
+     "péehewtuk’iye"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "péehewtuk’i"
+    ],
+    "word_level": [
+     "péehewtuk’iye"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "péehewtuk’i"
+    ],
+    "word_level": [
+     "péehewtuk’iye"
+    ]
+   }
+  },
+  "S13": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hewtuk’íise"
+    ],
+    "word_level": [
+     "hewtuk’íise"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hewtuk’íise"
+    ],
+    "word_level": [
+     "hewtuk’íise"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hewtuk’íise"
+    ],
+    "word_level": [
+     "hewtuk’íise"
+    ]
+   }
+  },
+  "S2": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "tukwéephawqse"
+    ],
+    "word_level": [
+     "tukwéephawqse"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "tukwéephawqse"
+    ],
+    "word_level": [
+     "tukwéephawqse"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "tukwéephawqse"
+    ],
+    "word_level": [
+     "tukwéephawqse"
+    ]
+   }
+  },
+  "S3": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "páat’wanise"
+    ],
+    "word_level": [
+     "páat’wanise"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "páat’wanise"
+    ],
+    "word_level": [
+     "páat’wanise"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "páat’wanise"
+    ],
+    "word_level": [
+     "páat’wanise"
+    ]
+   }
+  },
+  "S4": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hit’wáaniyu’"
+    ],
+    "word_level": [
+     "hit’wáaniyu’"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hit’wáaniyu’"
+    ],
+    "word_level": [
+     "hit’wáaniyu’"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hit’wáaniyu’"
+    ],
+    "word_level": [
+     "hit’wáaniyu’"
+    ]
+   }
+  },
+  "S5": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hitk’wéept’awani"
+    ],
+    "word_level": [
+     "hitk’wéept’awaniqane"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hitk’wéept’awani"
+    ],
+    "word_level": [
+     "hitk’wéept’awaniqane"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hitk’wéept’awani"
+    ],
+    "word_level": [
+     "hitk’wéept’awaniqane"
+    ]
+   }
+  },
+  "S6": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hekíce"
+    ],
+    "word_level": [
+     "hekíce"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hekíce"
+    ],
+    "word_level": [
+     "hekíce"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hekíce"
+    ],
+    "word_level": [
+     "hekíce"
+    ]
+   }
+  },
+  "S7": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hicúukweci"
+    ],
+    "word_level": [
+     "hicúukwecine"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hicúukweci"
+    ],
+    "word_level": [
+     "hicúukwecine"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hicúukweci"
+    ],
+    "word_level": [
+     "hicúukwecine"
+    ]
+   }
+  },
+  "S8": {
+   "final_ban_word_level": {
+    "in_expected": false,
+    "stem_level": [
+     "hipíse"
+    ],
+    "word_level": [
+     "hipiséene"
+    ]
+   },
+   "no_persist": {
+    "in_expected": false,
+    "stem_level": [
+     "hipíse"
+    ],
+    "word_level": [
+     "hipiséene"
+    ]
+   },
+   "persist": {
+    "in_expected": false,
+    "stem_level": [
+     "hipíse"
+    ],
+    "word_level": [
+     "hipiséene"
+    ]
+   }
+  },
+  "T3": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "wawayéet"
+    ],
+    "word_level": [
+     "wawayéet"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "wawayéet"
+    ],
+    "word_level": [
+     "wawayéet"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "wawayéet"
+    ],
+    "word_level": [
+     "wawayéet"
+    ]
+   }
+  },
+  "T4": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hinéescukwece"
+    ],
+    "word_level": [
+     "hinéescukwece"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hinéescukwece"
+    ],
+    "word_level": [
+     "hinéescukwece"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hinéescukwece"
+    ],
+    "word_level": [
+     "hinéescukwece"
+    ]
+   }
+  },
+  "T5": {
+   "final_ban_word_level": {
+    "in_expected": true,
+    "stem_level": [
+     "hinespaynúuse"
+    ],
+    "word_level": [
+     "hinespaynúuse"
+    ]
+   },
+   "no_persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hinespaynúuse"
+    ],
+    "word_level": [
+     "hinespaynúuse"
+    ]
+   },
+   "persist": {
+    "in_expected": true,
+    "stem_level": [
+     "hinespaynúuse"
+    ],
+    "word_level": [
+     "hinespaynúuse"
+    ]
+   }
+  }
+ },
+ "two_level_mismatches": {
+  "final_ban_word_level": [
+   "S8"
+  ],
+  "no_persist": [
+   "S8",
+   "N1"
+  ],
+  "persist": [
+   "S8"
+  ]
+ },
+ "weights": {
+  "ACC_STRESS": 400000,
+  "CODA2": 800,
+  "CODA_SSP": 1000000,
+  "DEP_C": 700,
+  "DEP_X": 1500,
+  "DEP_X_FINAL": 1000000,
+  "IDENT_FRONT": 2000,
+  "IDENT_LONG": 500,
+  "IDENT_LONG_S": 5000,
+  "IDENT_NAS": 400,
+  "IDENT_NUC": 500,
+  "LEFTMOST_ACC": 300000,
+  "MAX_ACC": 1000000,
+  "MAX_C": 1000000,
+  "MAX_FLOAT": 8000,
+  "MAX_V": 4000,
+  "MAX_VV": 20000,
+  "NOCC_INIT": 1000000,
+  "NONFIN": 60000,
+  "ONSET": 1000000,
+  "PENULT": 40000,
+  "RIGHTMOST_DOM": 500000,
+  "RR_GLOT": 1000000,
+  "SEL_SISTER": 1000000,
+  "SHORTEN": 3000,
+  "SYNCOPE": 6000,
+  "UNIF": 400,
+  "UNIF2": 2500,
+  "VVCC": 1000000
+ }
+}

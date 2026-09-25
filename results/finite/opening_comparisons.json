@@ -1,0 +1,118 @@
+{
+ "changed_canonical": [
+  [
+   "b",
+   "c"
+  ]
+ ],
+ "changed_directed": [
+  [
+   "b",
+   "c"
+  ],
+  [
+   "c",
+   "b"
+  ]
+ ],
+ "gua_native_coefficient_pairs": 27,
+ "gua_rows": [
+  {
+   "current": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "index": 566,
+   "parts": [
+    "0",
+    "4",
+    "8",
+    "12"
+   ],
+   "surface": "ahɛteɔkpʊkɔ"
+  },
+  {
+   "current": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "index": 774,
+   "parts": [
+    "3",
+    "0",
+    "0",
+    "3"
+   ],
+   "surface": "ahetɔɔkpʊkɔ"
+  },
+  {
+   "current": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "index": 605,
+   "parts": [
+    "2",
+    "4",
+    "0",
+    "6"
+   ],
+   "surface": "ahɛtɔɔkpʊkɔ"
+  }
+ ],
+ "laws": [
+  {
+   "a": "4/7",
+   "b": "2/7",
+   "c": "1/7"
+  },
+  {
+   "a": "16/21",
+   "b": "4/21",
+   "c": "1/21"
+  },
+  {
+   "a": "2/3",
+   "b": "1/3"
+  }
+ ],
+ "order_source": [
+  [
+   "a",
+   "b"
+  ],
+  [
+   "a",
+   "c"
+  ],
+  [
+   "b",
+   "c"
+  ]
+ ],
+ "order_target": [
+  [
+   "a",
+   "b"
+  ],
+  [
+   "a",
+   "c"
+  ],
+  [
+   "c",
+   "b"
+  ]
+ ],
+ "profile_comparisons": 18,
+ "status": "PASS",
+ "winner": [
+  "a"
+ ]
+}

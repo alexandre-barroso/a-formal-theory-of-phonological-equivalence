@@ -1,0 +1,285 @@
+{
+  "artifact": "lithuanian_operational_kernel",
+  "reference_point": {
+    "c": "1",
+    "r": "4",
+    "d": "2",
+    "a": "16",
+    "n": "16",
+    "lambda": "1/8"
+  },
+  "per_config": {
+    "O": {
+      "PG": {
+        "outputs": [
+          "abgauti"
+        ],
+        "minima": [
+          6
+        ],
+        "fiber": [
+          6
+        ],
+        "exclusively_correct": true,
+        "minimum8": 8
+      },
+      "PB": {
+        "outputs": [
+          "apiberti"
+        ],
+        "minima": [
+          3
+        ],
+        "fiber": [
+          3
+        ],
+        "exclusively_correct": true,
+        "minimum8": 16
+      },
+      "TT": {
+        "outputs": [
+          "atitaiki:ti"
+        ],
+        "minima": [
+          1
+        ],
+        "fiber": [
+          1
+        ],
+        "exclusively_correct": true,
+        "minimum8": 16
+      }
+    },
+    "RR": {
+      "PG": {
+        "outputs": [
+          "abgauti"
+        ],
+        "minima": [
+          6
+        ],
+        "fiber": [
+          6
+        ],
+        "exclusively_correct": true,
+        "minimum8": 8
+      },
+      "PB": {
+        "outputs": [
+          "apiberti"
+        ],
+        "minima": [
+          3
+        ],
+        "fiber": [
+          3
+        ],
+        "exclusively_correct": true,
+        "minimum8": 16
+      },
+      "TT": {
+        "outputs": [
+          "atitaiki:ti"
+        ],
+        "minima": [
+          1
+        ],
+        "fiber": [
+          1
+        ],
+        "exclusively_correct": true,
+        "minimum8": 16
+      }
+    },
+    "SR": {
+      "PG": {
+        "outputs": [
+          "abgauti"
+        ],
+        "minima": [
+          6
+        ],
+        "fiber": [
+          6
+        ],
+        "exclusively_correct": true,
+        "minimum8": 8
+      },
+      "PB": {
+        "outputs": [
+          "abberti",
+          "abiberti"
+        ],
+        "minima": [
+          6,
+          7
+        ],
+        "fiber": [
+          3
+        ],
+        "exclusively_correct": false,
+        "minimum8": 24
+      },
+      "TT": {
+        "outputs": [
+          "atitaiki:ti"
+        ],
+        "minima": [
+          1
+        ],
+        "fiber": [
+          1
+        ],
+        "exclusively_correct": true,
+        "minimum8": 16
+      }
+    },
+    "RS": {
+      "PG": {
+        "outputs": [
+          "abgauti"
+        ],
+        "minima": [
+          6
+        ],
+        "fiber": [
+          6
+        ],
+        "exclusively_correct": true,
+        "minimum8": 8
+      },
+      "PB": {
+        "outputs": [
+          "apiberti"
+        ],
+        "minima": [
+          3
+        ],
+        "fiber": [
+          3
+        ],
+        "exclusively_correct": true,
+        "minimum8": 16
+      },
+      "TT": {
+        "outputs": [
+          "aditaiki:ti",
+          "adtaiki:ti"
+        ],
+        "minima": [
+          4,
+          5
+        ],
+        "fiber": [
+          1
+        ],
+        "exclusively_correct": false,
+        "minimum8": 24
+      }
+    },
+    "SS": {
+      "PG": {
+        "outputs": [
+          "abgauti"
+        ],
+        "minima": [
+          6
+        ],
+        "fiber": [
+          6
+        ],
+        "exclusively_correct": true,
+        "minimum8": 8
+      },
+      "PB": {
+        "outputs": [
+          "abberti",
+          "abiberti"
+        ],
+        "minima": [
+          6,
+          7
+        ],
+        "fiber": [
+          3
+        ],
+        "exclusively_correct": false,
+        "minimum8": 24
+      },
+      "TT": {
+        "outputs": [
+          "aditaiki:ti",
+          "adtaiki:ti"
+        ],
+        "minima": [
+          4,
+          5
+        ],
+        "fiber": [
+          1
+        ],
+        "exclusively_correct": false,
+        "minimum8": 24
+      }
+    },
+    "RR0": {
+      "PG": {
+        "outputs": [
+          "abgauti"
+        ],
+        "minima": [
+          6
+        ],
+        "fiber": [
+          6
+        ],
+        "exclusively_correct": true,
+        "minimum8": 8
+      },
+      "PB": {
+        "outputs": [
+          "abberti"
+        ],
+        "minima": [
+          6
+        ],
+        "fiber": [
+          3
+        ],
+        "exclusively_correct": false,
+        "minimum8": 8
+      },
+      "TT": {
+        "outputs": [
+          "adtaiki:ti"
+        ],
+        "minima": [
+          4
+        ],
+        "fiber": [
+          1
+        ],
+        "exclusively_correct": false,
+        "minimum8": 8
+      }
+    }
+  },
+  "operational_classes_at_reference_point": [
+    [
+      "O",
+      "RR"
+    ],
+    [
+      "SR"
+    ],
+    [
+      "RS"
+    ],
+    [
+      "SS"
+    ],
+    [
+      "RR0"
+    ]
+  ]
+}

@@ -1,0 +1,139 @@
+{
+ "exact_derived_deletion_region": "max<nocoda",
+ "exact_total_region": "max+maxlink<nocoda and maxlink<lambda*mora",
+ "finite_weight_checks": 648,
+ "native_coefficient_pairs": 80,
+ "rows": [
+  {
+   "coefficients": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "compensates": false,
+   "deleted": false,
+   "host": 1,
+   "output": "tiːk",
+   "total": false
+  },
+  {
+   "coefficients": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "compensates": false,
+   "deleted": false,
+   "host": 2,
+   "output": "tik",
+   "total": false
+  },
+  {
+   "coefficients": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "compensates": false,
+   "deleted": false,
+   "host": null,
+   "output": "tik",
+   "total": false
+  },
+  {
+   "coefficients": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "compensates": false,
+   "deleted": true,
+   "host": null,
+   "output": "ti",
+   "total": false
+  },
+  {
+   "coefficients": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "compensates": false,
+   "deleted": false,
+   "host": 1,
+   "output": "tiːk",
+   "total": true
+  },
+  {
+   "coefficients": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "compensates": false,
+   "deleted": false,
+   "host": 2,
+   "output": "tik",
+   "total": true
+  },
+  {
+   "coefficients": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "compensates": false,
+   "deleted": false,
+   "host": null,
+   "output": "tik",
+   "total": true
+  },
+  {
+   "coefficients": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "compensates": true,
+   "deleted": true,
+   "host": 1,
+   "output": "tiː",
+   "total": true
+  },
+  {
+   "coefficients": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "compensates": false,
+   "deleted": true,
+   "host": 2,
+   "output": "ti",
+   "total": true
+  },
+  {
+   "coefficients": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "compensates": false,
+   "deleted": true,
+   "host": null,
+   "output": "ti",
+   "total": true
+  }
+ ],
+ "source_scope": "Constructed tik mechanism comparison. The source UMQ stress system and its full GEN are not translated by this finite example."
+}

@@ -1,0 +1,19 @@
+{
+	"status":"PASS",
+	"coefficient_identities":41888,
+	"pure_columns":true,
+	"positive_scaling":true,
+	"ranks":[
+		12,
+		54,
+		54,
+		54
+	],
+	"equal_displayed_odds":true,
+	"normalized_law_gap":0.00334479886086251387910444690995,
+	"normalization":true,
+	"selection_odds_identity":true,
+	"binary_score_gradient":true,
+	"binary_score_hessian":true,
+	"discordant_pair_odds":true
+}

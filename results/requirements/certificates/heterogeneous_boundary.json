@@ -1,0 +1,59 @@
+{
+ "all_zero_horizons": 33,
+ "extension_records": [
+  {
+   "canonical_profile": [
+    "1",
+    "0"
+   ],
+   "h": "1",
+   "weights": [
+    "2"
+   ]
+  },
+  {
+   "canonical_profile": [
+    "1",
+    "49/50",
+    "193/200",
+    "191/200",
+    "19/20"
+   ],
+   "h": "100",
+   "weights": [
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "canonical_profile": [
+    "1",
+    "1",
+    "1"
+   ],
+   "h": "1",
+   "weights": [
+    "0",
+    "0"
+   ]
+  }
+ ],
+ "negative_single_site_checks": 65,
+ "original_grid_comparisons": 10845,
+ "scope": "Unique reduced optimizer is separate from original-cube minimizers. Nonnegative sites do not ensure a first zero; arbitrary negative sites do not force every conclusion to fail.",
+ "two_site_argmin_checks": 4913,
+ "two_site_family": {
+  "domain": "0<=c<=2;0<=x,y<=1",
+  "h": 1,
+  "minimizers": "x=1-c/2 and x<=y<=1",
+  "minimum": "c-c^2/4",
+  "p": 2,
+  "weights": [
+   "c",
+   0
+  ]
+ },
+ "zero_cost_suffix_checks": 27
+}

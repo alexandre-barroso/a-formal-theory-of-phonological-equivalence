@@ -1,0 +1,71 @@
+{
+  "kind": "grammar",
+  "cache_key": "0a25a929e51716fcf3e0c756273da305f10534274c3db058bbd2850d0fcc67b2",
+  "block_key": "27a3bb4a6140f901a59aa471a99c58258a97e252dc1e140d0e5312309b75b41b",
+  "variant": "all_agreeing_offsets",
+  "model": "current_only",
+  "approximation": "not_applicable",
+  "alpha": 0.001,
+  "beta_key": "ed5168269e85da80c5ec182347f1cb36dac038772680484c9b2fa0d381355169",
+  "hu_key": null,
+  "offset_key": "85a7b017c851b924d3e7b1d8deac7167918bf2328ddfa2d454756b7af27f922e",
+  "fit": {
+    "model": "current_only",
+    "parameters": {
+      "C": 2.4394169840436883
+    },
+    "objective": 0.32370729968485135,
+    "regularization_alpha": 0.001,
+    "converged": true,
+    "iterations": 8,
+    "internal_coordinates": [
+      2.4394169840436883
+    ],
+    "gradient": [
+      -6.660464280799916e-12
+    ],
+    "projected_gradient_max_abs": 6.660464280799916e-12,
+    "finite_difference_max_abs_error": 8.130876656945796e-12,
+    "optimizer": "L-BFGS-B",
+    "optimization_attempts": [
+      {
+        "optimizer": "L-BFGS-B",
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 8,
+        "objective": 0.32370729968485135,
+        "projected_gradient_max": 6.660464280799916e-12,
+        "finite_difference_error": 8.130876656945796e-12,
+        "existing_gate_passed": true
+      }
+    ]
+  },
+  "gate": {
+    "passed": true,
+    "reasons": []
+  },
+  "support_diagnostics": {
+    "four_cell_totals": [
+      4832.0,
+      3.0,
+      29647.0,
+      310.0
+    ],
+    "support_mask_row_counts": {
+      "0001": 13,
+      "0010": 308,
+      "0011": 33,
+      "1000": 58,
+      "1010": 16,
+      "1100": 3
+    },
+    "training_rows": 431,
+    "feature_difference_rows": 1293,
+    "feature_difference_columns": 1,
+    "feature_difference_rank": 1,
+    "feature_difference_sha256": "2e95576ab98880c63da95ae21d93a43d7e7a36207903c9f784e06b3fdd2597dc",
+    "coercivity_status": "SUPPORT_RECORDED_REQUIRES_ROOT_SEPARABILITY_REVIEW"
+  },
+  "alpha_zero_status": "REGULARIZED_FINITE_FIT"
+}

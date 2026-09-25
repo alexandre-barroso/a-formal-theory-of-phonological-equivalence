@@ -1,0 +1,16 @@
+{
+  "author": "Connor Mayer",
+  "paper_key": "mayer2025largeScaleCorpusOpacityUyghur",
+  "source_repository": "uyghur_corpora",
+  "source_license": "GPL-3.0",
+  "license_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+  "derivation": "New analytical fragment and root-wise partitions derived from the released conservative morphological parses.",
+  "unit": "Article–spelling incidence after within-article collapse; article identities are unavailable.",
+  "contains": "Non-reconstructive aggregate counts, short roots and phonological/morphological features; outcome-blind partitions.",
+  "excludes": "Newspaper prose, document archives, recordings, private research records and reference PDFs.",
+  "reference_representation": "Declared feature-level four-state fragment; parser outputs do not by themselves identify grammatical U.",
+  "source_url": "https://github.com/connormayer/uyghur_corpora",
+  "source_commit": "21d9dcfe873fe662beba5d2ec210914186ab5d87",
+  "source_commit_utc": "2025-10-29T02:10:40Z",
+  "dataset_key": "mayer2025uyghurCorpusData"
+}

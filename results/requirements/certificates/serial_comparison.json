@@ -1,0 +1,141 @@
+{
+ "SH_full_paradigm_evaluations": 54,
+ "architectures": [
+  {
+   "architecture": "global",
+   "failures": {
+    "gahr@mu": [
+     "gar@mu",
+     "garmu"
+    ]
+   },
+   "order": "HS",
+   "predictions": {
+    "ah@pe": "ahpe",
+    "ah@pr@mu": "ah@pr@mu",
+    "ah@pt": "ah@pt",
+    "gahe": "gahe",
+    "gahr@mu": "garmu",
+    "gaht": "gat",
+    "mae": "mae",
+    "mar@mu": "marmu",
+    "mat": "mat"
+   }
+  },
+  {
+   "architecture": "blockLR",
+   "failures": {
+    "gahr@mu": [
+     "gar@mu",
+     "garmu"
+    ]
+   },
+   "order": "HS",
+   "predictions": {
+    "ah@pe": "ahpe",
+    "ah@pr@mu": "ah@pr@mu",
+    "ah@pt": "ah@pt",
+    "gahe": "gahe",
+    "gahr@mu": "garmu",
+    "gaht": "gat",
+    "mae": "mae",
+    "mar@mu": "marmu",
+    "mat": "mat"
+   }
+  },
+  {
+   "architecture": "blockRL",
+   "failures": {
+    "ah@pe": [
+     "ahpe",
+     "ape"
+    ]
+   },
+   "order": "HS",
+   "predictions": {
+    "ah@pe": "ape",
+    "ah@pr@mu": "ah@pr@mu",
+    "ah@pt": "ah@pt",
+    "gahe": "gahe",
+    "gahr@mu": "gar@mu",
+    "gaht": "gat",
+    "mae": "mae",
+    "mar@mu": "marmu",
+    "mat": "mat"
+   }
+  },
+  {
+   "architecture": "global",
+   "failures": {
+    "ah@pe": [
+     "ahpe",
+     "ape"
+    ]
+   },
+   "order": "SH",
+   "predictions": {
+    "ah@pe": "ape",
+    "ah@pr@mu": "ah@pr@mu",
+    "ah@pt": "ah@pt",
+    "gahe": "gahe",
+    "gahr@mu": "gar@mu",
+    "gaht": "gat",
+    "mae": "mae",
+    "mar@mu": "marmu",
+    "mat": "mat"
+   }
+  },
+  {
+   "architecture": "blockLR",
+   "failures": {
+    "gahr@mu": [
+     "gar@mu",
+     "garmu"
+    ]
+   },
+   "order": "SH",
+   "predictions": {
+    "ah@pe": "ahpe",
+    "ah@pr@mu": "ah@pr@mu",
+    "ah@pt": "ah@pt",
+    "gahe": "gahe",
+    "gahr@mu": "garmu",
+    "gaht": "gat",
+    "mae": "mae",
+    "mar@mu": "marmu",
+    "mat": "mat"
+   }
+  },
+  {
+   "architecture": "blockRL",
+   "failures": {
+    "ah@pe": [
+     "ahpe",
+     "ape"
+    ]
+   },
+   "order": "SH",
+   "predictions": {
+    "ah@pe": "ape",
+    "ah@pr@mu": "ah@pr@mu",
+    "ah@pt": "ah@pt",
+    "gahe": "gahe",
+    "gahr@mu": "gar@mu",
+    "gaht": "gat",
+    "mae": "mae",
+    "mar@mu": "marmu",
+    "mat": "mat"
+   }
+  }
+ ],
+ "finalCVblock_positive_checks": 4,
+ "scope": "Exactly stated obligatory two-rule architectures; no unrestricted serial-theory exclusion.",
+ "source": "frischoffRasin2026absenceCruciallySimultaneous",
+ "source_pages": [
+  12,
+  13,
+  39,
+  40,
+  41
+ ]
+}

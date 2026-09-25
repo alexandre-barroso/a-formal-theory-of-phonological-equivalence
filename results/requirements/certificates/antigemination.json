@@ -1,0 +1,733 @@
+{
+ "alternatives": {
+  "afar_hetero_under_word_scope": {
+   "as-əs-e-y-yo": [
+    "as-əs-e-y-yo"
+   ],
+   "sas-əs-e-tto": [
+    "sas-əs-e-tto"
+   ],
+   "xas-əs-e-y-yo": [
+    "xas-əs-e-y-yo"
+   ]
+  },
+  "afar_with_tier_adjacency": {
+   "adəd-e": [
+    "add-e"
+   ],
+   "danən-e": [
+    "dann-e"
+   ],
+   "darəg-u": [
+    "darg-u"
+   ],
+   "digəb-e": [
+    "digb-e"
+   ],
+   "gonən-a": [
+    "gonn-a"
+   ],
+   "meʔər-a": [
+    "meʔr-a"
+   ],
+   "midədi": [
+    "middi"
+   ],
+   "modəd-e": [
+    "modd-e"
+   ],
+   "sabəba": [
+    "sabba"
+   ],
+   "wagər-e": [
+    "wagr-e"
+   ],
+   "xaməl-i": [
+    "xaml-i"
+   ],
+   "xarər-e": [
+    "xarr-e"
+   ],
+   "ʔagər-i": [
+    "ʔagr-i"
+   ]
+  },
+  "afar_without_surface_OCP": {
+   "adəd-e": [
+    "add-e"
+   ],
+   "danən-e": [
+    "dann-e"
+   ],
+   "gonən-a": [
+    "gonn-a"
+   ],
+   "midədi": [
+    "middi"
+   ],
+   "modəd-e": [
+    "modd-e"
+   ],
+   "sabəba": [
+    "sabba"
+   ],
+   "xarər-e": [
+    "xarr-e"
+   ]
+  },
+  "damascene_partial_under_full_identity": {
+   "fəḍḍ-ət-o": [
+    "fəḍḍ-t-o"
+   ],
+   "madd-ət-o": [
+    "madd-t-o"
+   ],
+   "ḥaṭṭ-ət-o": [
+    "ḥaṭṭ-t-o"
+   ]
+  },
+  "yupik_under_morph_scope": {
+   "atə-tə-q": [
+    "at-tə-q"
+   ],
+   "kəmə-mi": [
+    "kəm-mi"
+   ]
+  }
+ },
+ "blocking_region": {
+  "bound": "w_OCP > (w_SYNCOPE - w_MAX)/lambda = 72",
+  "by_w_OCP": {
+   "100": [
+    "xarər-e"
+   ],
+   "60": [
+    "xarr-e"
+   ],
+   "70": [
+    "xarr-e"
+   ],
+   "71": [
+    "xarr-e"
+   ],
+   "72": [
+    "xarr-e",
+    "xarər-e"
+   ],
+   "73": [
+    "xarər-e"
+   ],
+   "80": [
+    "xarər-e"
+   ]
+  },
+  "coefficients_at_100": {
+   "xarr-e": {
+    "MAX_V": [
+     1,
+     0
+    ],
+    "OCP": [
+     0,
+     1
+    ],
+    "SYNCOPE": [
+     0,
+     0
+    ]
+   },
+   "xarər-e": {
+    "MAX_V": [
+     0,
+     0
+    ],
+    "OCP": [
+     0,
+     0
+    ],
+    "SYNCOPE": [
+     1,
+     0
+    ]
+   }
+  }
+ },
+ "lambda": "1/8",
+ "survey": {
+  "afar": {
+   "all_agree": true,
+   "forms": {
+    "adəd-e": {
+     "agrees": true,
+     "expected": "adəd-e",
+     "winners": [
+      "adəd-e"
+     ]
+    },
+    "as-əs-e-y-yo": {
+     "agrees": true,
+     "expected": "as-s-e-y-yo",
+     "winners": [
+      "as-s-e-y-yo"
+     ]
+    },
+    "danən-e": {
+     "agrees": true,
+     "expected": "danən-e",
+     "winners": [
+      "danən-e"
+     ]
+    },
+    "darəg-u": {
+     "agrees": true,
+     "expected": "darg-u",
+     "winners": [
+      "darg-u"
+     ]
+    },
+    "digəb-e": {
+     "agrees": true,
+     "expected": "digb-e",
+     "winners": [
+      "digb-e"
+     ]
+    },
+    "gonən-a": {
+     "agrees": true,
+     "expected": "gonən-a",
+     "winners": [
+      "gonən-a"
+     ]
+    },
+    "meʔər-a": {
+     "agrees": true,
+     "expected": "meʔr-a",
+     "winners": [
+      "meʔr-a"
+     ]
+    },
+    "midədi": {
+     "agrees": true,
+     "expected": "midədi",
+     "winners": [
+      "midədi"
+     ]
+    },
+    "modəd-e": {
+     "agrees": true,
+     "expected": "modəd-e",
+     "winners": [
+      "modəd-e"
+     ]
+    },
+    "sabəba": {
+     "agrees": true,
+     "expected": "sabəba",
+     "winners": [
+      "sabəba"
+     ]
+    },
+    "sas-əs-e-tto": {
+     "agrees": true,
+     "expected": "sas-s-e-tto",
+     "winners": [
+      "sas-s-e-tto"
+     ]
+    },
+    "wagər-e": {
+     "agrees": true,
+     "expected": "wagr-e",
+     "winners": [
+      "wagr-e"
+     ]
+    },
+    "xaməl-i": {
+     "agrees": true,
+     "expected": "xaml-i",
+     "winners": [
+      "xaml-i"
+     ]
+    },
+    "xarər-e": {
+     "agrees": true,
+     "expected": "xarər-e",
+     "winners": [
+      "xarər-e"
+     ]
+    },
+    "xas-əs-e-y-yo": {
+     "agrees": true,
+     "expected": "xas-s-e-y-yo",
+     "winners": [
+      "xas-s-e-y-yo"
+     ]
+    },
+    "ʔagər-i": {
+     "agrees": true,
+     "expected": "ʔagr-i",
+     "winners": [
+      "ʔagr-i"
+     ]
+    }
+   },
+   "identity": "segment",
+   "scope": "morph",
+   "syncope_left_context": "single",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 100,
+    "SYNCOPE": 10
+   }
+  },
+  "akkadian": {
+   "all_agree": true,
+   "forms": {
+    "daməqat": {
+     "agrees": true,
+     "expected": "damqat",
+     "winners": [
+      "damqat"
+     ]
+    },
+    "dubəbii": {
+     "agrees": true,
+     "expected": "dubbii",
+     "winners": [
+      "dubbii"
+     ]
+    },
+    "issaləlu": {
+     "agrees": true,
+     "expected": "issallu",
+     "winners": [
+      "issallu"
+     ]
+    },
+    "lemənu": {
+     "agrees": true,
+     "expected": "lemnu",
+     "winners": [
+      "lemnu"
+     ]
+    },
+    "rapəsum": {
+     "agrees": true,
+     "expected": "rapsum",
+     "winners": [
+      "rapsum"
+     ]
+    },
+    "sakəkat": {
+     "agrees": true,
+     "expected": "sakkat",
+     "winners": [
+      "sakkat"
+     ]
+    }
+   },
+   "identity": "segment",
+   "scope": "morph",
+   "syncope_left_context": "single",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 10,
+    "SYNCOPE": 10
+   }
+  },
+  "chevak": {
+   "all_agree": true,
+   "forms": {
+    "anə=ni": {
+     "agrees": true,
+     "expected": "an=ni",
+     "winners": [
+      "an=ni"
+     ]
+    },
+    "atə=tə-q": {
+     "agrees": true,
+     "expected": "at=tə-q",
+     "winners": [
+      "at=tə-q"
+     ]
+    },
+    "kəmə-mi": {
+     "agrees": true,
+     "expected": "kəmə-mi",
+     "winners": [
+      "kəmə-mi"
+     ]
+    }
+   },
+   "identity": "segment",
+   "scope": "lexdom",
+   "syncope_left_context": "single",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 100,
+    "SYNCOPE": 10
+   }
+  },
+  "damascene": {
+   "all_agree": true,
+   "forms": {
+    "bisaaʕəd-u": {
+     "agrees": true,
+     "expected": "bisaaʕd-u",
+     "winners": [
+      "bisaaʕd-u"
+     ]
+    },
+    "bisabbəb-u": {
+     "agrees": true,
+     "expected": "bisabbəb-u",
+     "winners": [
+      "bisabbəb-u"
+     ]
+    },
+    "biḥaazəz-u": {
+     "agrees": true,
+     "expected": "biḥaazəz-u",
+     "winners": [
+      "biḥaazəz-u"
+     ]
+    },
+    "btaskən-i": {
+     "agrees": true,
+     "expected": "btaskn-i",
+     "winners": [
+      "btaskn-i"
+     ]
+    },
+    "fəḍḍ-ət-o": {
+     "agrees": true,
+     "expected": "fəḍḍ-ət-o",
+     "winners": [
+      "fəḍḍ-ət-o"
+     ]
+    },
+    "madd-ət-o": {
+     "agrees": true,
+     "expected": "madd-ət-o",
+     "winners": [
+      "madd-ət-o"
+     ]
+    },
+    "taxassəs-ak": {
+     "agrees": true,
+     "expected": "taxassəs-ak",
+     "winners": [
+      "taxassəs-ak"
+     ]
+    },
+    "ḥaṭṭ-ət-o": {
+     "agrees": true,
+     "expected": "ḥaṭṭ-ət-o",
+     "winners": [
+      "ḥaṭṭ-ət-o"
+     ]
+    }
+   },
+   "identity": [
+    "place",
+    "manner"
+   ],
+   "scope": "word",
+   "syncope_left_context": "none",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 100,
+    "SYNCOPE": 10
+   }
+  },
+  "iraqi": {
+   "all_agree": true,
+   "forms": {
+    "haajəj-at": {
+     "agrees": true,
+     "expected": "haajəj-at",
+     "winners": [
+      "haajəj-at"
+     ]
+    },
+    "mʔaθθəθ-a": {
+     "agrees": true,
+     "expected": "mʔaθθəθ-a",
+     "winners": [
+      "mʔaθθəθ-a"
+     ]
+    },
+    "mḥaadəd-a": {
+     "agrees": true,
+     "expected": "mḥaadəd-a",
+     "winners": [
+      "mḥaadəd-a"
+     ]
+    },
+    "saʔər-ak": {
+     "agrees": true,
+     "expected": "saʔr-ak",
+     "winners": [
+      "saʔr-ak"
+     ]
+    },
+    "xaabər-at": {
+     "agrees": true,
+     "expected": "xaabr-at",
+     "winners": [
+      "xaabr-at"
+     ]
+    },
+    "yḥaddəd-uun": {
+     "agrees": true,
+     "expected": "yḥaddəd-uun",
+     "winners": [
+      "yḥaddəd-uun"
+     ]
+    }
+   },
+   "identity": "segment",
+   "scope": "morph",
+   "syncope_left_context": "cluster",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 100,
+    "SYNCOPE": 10
+   }
+  },
+  "modern_hebrew": {
+   "all_agree": true,
+   "forms": {
+    "hitkaʃər-u": {
+     "agrees": true,
+     "expected": "hitkaʃr-u",
+     "winners": [
+      "hitkaʃr-u"
+     ]
+    },
+    "kasər-u": {
+     "agrees": true,
+     "expected": "kasr-u",
+     "winners": [
+      "kasr-u"
+     ]
+    },
+    "kucəc-a": {
+     "agrees": true,
+     "expected": "kucəc-a",
+     "winners": [
+      "kucəc-a"
+     ]
+    },
+    "kusər-a": {
+     "agrees": true,
+     "expected": "kusr-a",
+     "winners": [
+      "kusr-a"
+     ]
+    },
+    "nadəd-u": {
+     "agrees": true,
+     "expected": "nadəd-u",
+     "winners": [
+      "nadəd-u"
+     ]
+    },
+    "titpaləl-i": {
+     "agrees": true,
+     "expected": "titpaləl-i",
+     "winners": [
+      "titpaləl-i"
+     ]
+    }
+   },
+   "identity": "segment",
+   "scope": "morph",
+   "syncope_left_context": "single",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 100,
+    "SYNCOPE": 10
+   }
+  },
+  "tiberian": {
+   "all_agree": true,
+   "forms": {
+    "daaləlúu": {
+     "agrees": true,
+     "expected": "daaləlúu",
+     "winners": [
+      "daaləlúu"
+     ]
+    },
+    "haaləxúu": {
+     "agrees": true,
+     "expected": "haalxúu",
+     "winners": [
+      "haalxúu"
+     ]
+    },
+    "naasəsáa": {
+     "agrees": true,
+     "expected": "naasəsáa",
+     "winners": [
+      "naasəsáa"
+     ]
+    },
+    "saabəbúu": {
+     "agrees": true,
+     "expected": "saabəbúu",
+     "winners": [
+      "saabəbúu"
+     ]
+    },
+    "saaləlúu": {
+     "agrees": true,
+     "expected": "saaləlúu",
+     "winners": [
+      "saaləlúu"
+     ]
+    },
+    "tə-βaarex-əxaa": {
+     "agrees": true,
+     "expected": "tə-βaarex-xaa",
+     "winners": [
+      "tə-βaarex-xaa"
+     ]
+    },
+    "yaaðəʕúu": {
+     "agrees": true,
+     "expected": "yaaðʕúu",
+     "winners": [
+      "yaaðʕúu"
+     ]
+    },
+    "zaaXərúu": {
+     "agrees": true,
+     "expected": "zaaXrúu",
+     "winners": [
+      "zaaXrúu"
+     ]
+    },
+    "ʔaaxəláa": {
+     "agrees": true,
+     "expected": "ʔaaxláa",
+     "winners": [
+      "ʔaaxláa"
+     ]
+    }
+   },
+   "identity": "segment",
+   "scope": "morph",
+   "syncope_left_context": "single",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 100,
+    "SYNCOPE": 10
+   }
+  },
+  "tonkawa": {
+   "all_agree": true,
+   "forms": {
+    "haṃəṃa": {
+     "agrees": true,
+     "expected": "haṃəṃa",
+     "winners": [
+      "haṃəṃa"
+     ]
+    },
+    "hewəwa": {
+     "agrees": true,
+     "expected": "hewəwa",
+     "winners": [
+      "hewəwa"
+     ]
+    },
+    "notəxo": {
+     "agrees": true,
+     "expected": "notxo",
+     "winners": [
+      "notxo"
+     ]
+    },
+    "picəna": {
+     "agrees": true,
+     "expected": "picna",
+     "winners": [
+      "picna"
+     ]
+    },
+    "yakəkəpa": {
+     "agrees": true,
+     "expected": "yakəkpa",
+     "winners": [
+      "yakəkpa"
+     ]
+    },
+    "yakəpa": {
+     "agrees": true,
+     "expected": "yakpa",
+     "winners": [
+      "yakpa"
+     ]
+    }
+   },
+   "identity": "segment",
+   "scope": "morph",
+   "syncope_left_context": "single",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 100,
+    "SYNCOPE": 10
+   }
+  },
+  "yupik": {
+   "all_agree": true,
+   "forms": {
+    "atə-tə-q": {
+     "agrees": true,
+     "expected": "atə-tə-q",
+     "winners": [
+      "atə-tə-q"
+     ]
+    },
+    "avəga": {
+     "agrees": true,
+     "expected": "avga",
+     "winners": [
+      "avga"
+     ]
+    },
+    "kəmə-mi": {
+     "agrees": true,
+     "expected": "kəmə-mi",
+     "winners": [
+      "kəmə-mi"
+     ]
+    },
+    "kəmə-ni": {
+     "agrees": true,
+     "expected": "kəm-ni",
+     "winners": [
+      "kəm-ni"
+     ]
+    },
+    "qatəgak": {
+     "agrees": true,
+     "expected": "qatgak",
+     "winners": [
+      "qatgak"
+     ]
+    }
+   },
+   "identity": "segment",
+   "scope": "word",
+   "syncope_left_context": "single",
+   "weights": {
+    "MAX_V": 1,
+    "OCP": 100,
+    "SYNCOPE": 10
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "R4_cycle": [
+  "APO creates KDEL at origin6",
+  "KDEL creates APO at origin5 with three remaining vowels"
+ ],
+ "fibers": [
+  [
+   1
+  ],
+  [
+   1
+  ],
+  [
+   3
+  ]
+ ],
+ "inputs": 3,
+ "modes": 16,
+ "native_coefficient_pairs": 40960,
+ "records": 5120,
+ "sha256": "a8148cbbc2f8a94ac7d136df10093301247fb7744ae5cf532593bce886656294",
+ "source": "frischoffRasin2026absenceCruciallySimultaneous",
+ "source_pages": [
+  13,
+  14
+ ],
+ "subject_changed_records": 256
+}

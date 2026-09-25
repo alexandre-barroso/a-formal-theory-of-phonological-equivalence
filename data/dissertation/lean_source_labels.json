@@ -1,0 +1,964 @@
+{
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/BasicSyllable.lean": [
+    "MAX-G6",
+    "APP-BASIC"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/CellScope.lean": [
+    "thm:opacity-labels-cells",
+    "thm:opacity-current-general",
+    "prop:opacity-two-contrasts",
+    "cor:opacity-lambda-identification"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/CompensatoryLengthening.lean": [
+    "F05-2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/GappedScope.lean": [
+    "sec:demo-corpus"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/HuaianOdds.lean": [
+    "prop:int-huaian-odds"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/HuaianVariants.lean": [
+    "prop:int-huaian-odds"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/LearningExact.lean": [
+    "thm:int-identification"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/LearningTail.lean": [
+    "thm:int-identification",
+    "sec:appk-identification"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/LithuanianComparison.lean": [
+    "prop:int-antilithuanian"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/LithuanianEncodings.lean": [
+    "prop:int-antilithuanian"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/LithuanianPolicyScope.lean": [
+    "prop:int-antilithuanian"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/McCollum.lean": [
+    "APP-MCC-GRID",
+    "APP-MCC-LENGTH",
+    "APP-MCC-LENGTH",
+    "APP-MCC-COMP"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/McCollumCompiler.lean": [
+    "APP-MCC-COMP"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/OCPGraphRegion.lean": [
+    "eq:int-ocp-expanded-region"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/OCPRegion.lean": [
+    "F03-2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/PokoComparison.lean": [
+    "F07-1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/ProductComposition.lean": [
+    "thm:int-noninterference",
+    "thm:appi-noninterference"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/BoundedMemory.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/CappedPaths.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/CostApplication.lean": [
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/CostVector.lean": [
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/CrossInputVariation.lean": [
+    "thm:int-regular",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/Irrational/BinaryMinima.lean": [
+    "thm:int-regular",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/Irrational/BinaryScore.lean": [
+    "thm:int-regular",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/Irrational/Density.lean": [
+    "thm:int-regular",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/Irrational/Grammar.lean": [
+    "thm:int-regular",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/Irrational/MechanicalWords.lean": [
+    "thm:int-regular",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/Irrational/Negative.lean": [
+    "thm:int-regular",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/Irrational/Partial.lean": [
+    "thm:int-regular",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/LatticeScore.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/LocalScore.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/NativePending.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/PendingCompiler.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/RealCost.lean": [
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/ReferenceWindows.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/RegularProjection.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/RuleReaders.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/ShiftRegister.lean": [
+    "prop:appk-locality",
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/Subsequential.lean": [
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/Regularity/WeightedCost.lean": [
+    "thm:appk-regular"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/RussianDisplayed.lean": [
+    "prop:opacity-russian-contrasts"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/RussianFinite.lean": [
+    "prop:opacity-russian-contrasts"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/RussianNormalizer.lean": [
+    "prop:opacity-russian-contrasts"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/SourceFacing.lean": [
+    "SEL-F2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/WordContiguity.lean": [
+    "thm:int-noninterference",
+    "thm:appi-noninterference"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Application/WordProjection.lean": [
+    "thm:int-noninterference",
+    "thm:appi-noninterference"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Context/Orientation.lean": [
+    "CTX-C2",
+    "CTX-C2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Context/OrientationAnalytic.lean": [
+    "CTX-C2",
+    "CTX-C2",
+    "CTX-C1",
+    "CTX-C2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Context/TwoTrigger.lean": [
+    "CTX-C1",
+    "CTX-C1",
+    "CTX-C1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/Bifurcation.lean": [
+    "CHG-B14",
+    "CHG-B14",
+    "CHG-B14",
+    "CHG-B14"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/BifurcationAsymptotic.lean": [
+    "CHG-B14",
+    "sec:chg-scaling"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/BifurcationRatioAsymptotic.lean": [
+    "CHG-B14"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/ComparativeStatics.lean": [
+    "CHG-B10"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/ComparativeStaticsComplete.lean": [
+    "CHG-B10"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/Core.lean": [
+    "prop:chg-b1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/Endpoint.lean": [
+    "CHG-B4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/ExponentBoundary.lean": [
+    "prop:chg-b5"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/GeneralPersistenceAsymptotic.lean": [
+    "CHG-B7"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/GeneralPowerOptimizer.lean": [
+    "CHG-B1",
+    "CHG-B2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HardExponent.lean": [
+    "CHG-B16",
+    "CHG-B16",
+    "CHG-B16",
+    "CHG-B16",
+    "CHG-B16",
+    "CHG-B16",
+    "CHG-B16"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HardExponentActualAsymptotic.lean": [
+    "CHG-B16",
+    "sec:chg-exponent-limits"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HardExponentActualFollower.lean": [
+    "CHG-B16",
+    "sec:chg-exponent-limits"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HardExponentAsymptotic.lean": [
+    "CHG-B16",
+    "sec:chg-exponent-limits"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HardExponentSupportBridge.lean": [
+    "CHG-B16",
+    "sec:chg-exponent-limits"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/Heterogeneous.lean": [
+    "thm:chg-nonnegative-sites",
+    "thm:chg-obstruction",
+    "thm:chg-nonnegative-sites",
+    "thm:chg-nonnegative-sites",
+    "thm:chg-nonnegative-sites",
+    "thm:chg-nonnegative-sites",
+    "thm:chg-nonnegative-sites",
+    "thm:chg-nonnegative-sites",
+    "thm:chg-obstruction"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HeterogeneousBoundary.lean": [
+    "thm:chg-nonnegative-sites",
+    "thm:chg-obstruction"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HeterogeneousCubeBridge.lean": [
+    "prop:chg-b1",
+    "thm:chg-nonnegative-sites",
+    "eq:chg-heterogeneous-reduction"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HeterogeneousFibers.lean": [
+    "prop:chg-b1",
+    "thm:chg-nonnegative-sites"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HeterogeneousGradient.lean": [
+    "thm:chg-nonnegative-sites"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HeterogeneousObstruction.lean": [
+    "thm:chg-obstruction"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/HeterogeneousProfileBridge.lean": [
+    "eq:chg-heterogeneous-reduction",
+    "thm:chg-nonnegative-sites"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/IdentifiabilityComplete.lean": [
+    "CHG-B11",
+    "sec:chg-profile-inverse"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/LatticeConvergence.lean": [
+    "CHG-B12",
+    "CHG-B12",
+    "CHG-B12",
+    "CHG-B12"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/ParameterIdentifiability.lean": [
+    "CHG-B11",
+    "sec:chg-profile-inverse"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/PersistenceAsymptotic.lean": [
+    "CHG-B7",
+    "sec:chg-phases"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/PhaseComparativeStatics.lean": [
+    "CHG-B10"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/PhaseProfile.lean": [
+    "CHG-B9",
+    "CHG-B9",
+    "CHG-B9",
+    "CHG-B9"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/PhaseProfileOptimizerBridge.lean": [
+    "CHG-B9",
+    "sec:chg-profile-inverse"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/Quadratic.lean": [
+    "thm:chg-b2",
+    "cor:chg-b3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/QuadraticProjection.lean": [
+    "cor:chg-b3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/Registered.lean": [
+    "CHG-B1",
+    "CHG-B2",
+    "CHG-B2",
+    "CHG-B3",
+    "CHG-B3",
+    "CHG-B3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/ScalingLimit.lean": [
+    "CHG-B13",
+    "CHG-B13",
+    "CHG-B13",
+    "CHG-B13"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/ScalingLimitMoments.lean": [
+    "CHG-B13",
+    "sec:chg-scaling"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/ScalingLimitUniform.lean": [
+    "CHG-B13"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/SingularBoundary.lean": [
+    "CHG-B15",
+    "sec:chg-exponent-limits"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/SingularFullVector.lean": [
+    "CHG-B15"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/SingularOptimizerBridge.lean": [
+    "CHG-B15",
+    "sec:chg-exponent-limits"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/TripleIdentifiability.lean": [
+    "CHG-B11",
+    "sec:chg-profile-inverse"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/ContinuousHG/UniformLattice.lean": [
+    "CHG-B12",
+    "sec:chg-grid"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Contract/FiniteDecision.lean": [
+    "thm:calc-f1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/CarrierAlgebra.lean": [
+    "FIN-A5"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/InformationLattice.lean": [
+    "FIN-A6"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/ManySortedCompleteContext.lean": [
+    "FIN-A6",
+    "FIN-A6"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/ManySortedContext.lean": [
+    "FIN-A6",
+    "FIN-A6"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/OrbitRecovery.lean": [
+    "thm:rep-fin-a1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/OrderComparison.lean": [
+    "eq:intro-orders",
+    "eq:intro-conservativity"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/QueryFactorization.lean": [
+    "FIN-A4",
+    "FIN-A5"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/RepresentativeRecovery.lean": [
+    "thm:rep-fin-a2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/ResponseImport.lean": [
+    "FIN-A7"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Finite/SerialDecisions.lean": [
+    "thm:rep-fin-a3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/ContactAsymptoticComplete.lean": [
+    "FLUX-D4",
+    "FLUX-D4",
+    "FLUX-D4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/ContactLambertComplete.lean": [
+    "FLUX-D4",
+    "FLUX-D4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/ContactResponse.lean": [
+    "FLUX-D4",
+    "FLUX-D4",
+    "FLUX-D4",
+    "FLUX-D4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/ContactResponseComplete.lean": [
+    "FLUX-D4",
+    "FLUX-D4",
+    "FLUX-D4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/ContactSpectrumComplete.lean": [
+    "FLUX-D4",
+    "FLUX-D4",
+    "FLUX-D4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/FiniteLedger.lean": [
+    "FLUX-D3",
+    "FLUX-D3",
+    "FLUX-D3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/FiniteLedgerComplete.lean": [
+    "FLUX-D3",
+    "FLUX-D3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/PathWinnerComplete.lean": [
+    "FLUX-D1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/PeriodicGauge.lean": [
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D1",
+    "FLUX-D2",
+    "FLUX-D2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/ResponseTomographyComplete.lean": [
+    "FLUX-D5"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/Rigidity.lean": [
+    "FLUX-D2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/StarWinnerComplete.lean": [
+    "FLUX-D2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Flux/Tomography.lean": [
+    "FLUX-D5",
+    "FLUX-D5",
+    "FLUX-D5",
+    "FLUX-D5"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Foundation/Finite.lean": [
+    "thm:rep-fin-a4",
+    "thm:rep-licensed"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/BasicSyllable.lean": [
+    "MAX-G6",
+    "MAX-G6"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/BasicSyllableComplete.lean": [
+    "MAX-G6"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/BasicSyllableCone.lean": [
+    "MAX-G6",
+    "MAX-G6"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/CollectedSupport.lean": [
+    "MAX-G7"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ContactPhaseCapacity.lean": [
+    "MAX-G8",
+    "MAX-G8",
+    "MAX-G8",
+    "MAX-G8",
+    "MAX-G8",
+    "MAX-G8",
+    "MAX-G8"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ContractionStrictifierComplete.lean": [
+    "MAX-G3",
+    "MAX-G3",
+    "MAX-G3",
+    "MAX-G3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ETRResidualComplete.lean": [
+    "ETR-INV",
+    "MAX-G3",
+    "ETR-INV",
+    "ETR-INV",
+    "MAX-G3",
+    "ETR-INV",
+    "MAX-G3",
+    "MAX-G3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ETRStrictifierPolynomialComplete.lean": [
+    "MAX-G3",
+    "ETR-INV",
+    "MAX-G3",
+    "ETR-INV"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ETRTagReductionComplete.lean": [
+    "MAX-G3",
+    "MAX-G4",
+    "ETR-INV",
+    "ETR-INV",
+    "ETR-INV",
+    "MAX-G3",
+    "ETR-INV",
+    "MAX-G4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ExactCore.lean": [
+    "MAX-G5",
+    "MAX-G5",
+    "MAX-G9",
+    "MAX-G1",
+    "MAX-G2",
+    "MAX-G7",
+    "MAX-G7",
+    "MAX-G1",
+    "MAX-G3",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G9",
+    "MAX-G9",
+    "MAX-G9",
+    "MAX-G9",
+    "MAX-G9",
+    "MAX-G8",
+    "MAX-G8"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ExecutableCNFComplexity.lean": [
+    "thm:max-g4-selector",
+    "sec:app-maxent-g4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ExecutableComplexity.lean": [
+    "thm:max-g3",
+    "sec:app-maxent-g3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ExecutableOneHotTagCompiler.lean": [
+    "thm:max-g3",
+    "sec:app-maxent-g3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ExecutableQuarticCompiler.lean": [
+    "thm:max-g3",
+    "sec:app-maxent-g3"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/FiniteLaw.lean": [
+    "MAX-G1",
+    "MAX-G1",
+    "MAX-G1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/FixedMassResponseComplete.lean": [
+    "MAX-G7",
+    "MAX-G7"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/NormalizedLawJetComplete.lean": [
+    "MAX-G7",
+    "MAX-G7"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/NormalizerRelation.lean": [
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "MAX-G4",
+    "ETR-INV",
+    "MAX-G4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/Productive.lean": [
+    "thm:maxent-temperature",
+    "eq:maxent-partition-productive"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ProjectiveResponse.lean": [
+    "MAX-G7",
+    "MAX-G7",
+    "MAX-G7",
+    "MAX-G7"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ResponseEnvelope.lean": [
+    "MAX-G9"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ResponseEnvelopeComplete.lean": [
+    "MAX-G9",
+    "MAX-G9",
+    "MAX-G9",
+    "MAX-G9"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/ResponseQuotientGerm.lean": [
+    "MAX-G7"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/SchwaAttenuation.lean": [
+    "prop:maxent-schwa-law"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/SparseCompiler.lean": [
+    "MAX-G2",
+    "MAX-G2",
+    "MAX-G2",
+    "MAX-G2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/SparseLaurentCarrier.lean": [
+    "MAX-G1",
+    "MAX-G1",
+    "MAX-G1",
+    "MAX-G1",
+    "MAX-G1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/MaxEnt/TypedVacuityComplete.lean": [
+    "MAX-G5",
+    "MAX-G5",
+    "MAX-G5"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Regression/Finite.lean": [
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Regression/Quantitative.lean": [
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R",
+    "CALC-R"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Selection/GenericOpenGap.lean": [
+    "thm:apph-open-gap",
+    "cor:apph-full-support-gap"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Selection/MatchedPair.lean": [
+    "SEL-F2",
+    "SEL-F2",
+    "SEL-F2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Selection/OpenPatchMeasureProof.lean": [
+    "SEL-F1",
+    "SEL-F1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Selection/Regions.lean": [
+    "SEL-F1",
+    "SEL-F1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Selection/SphericalMeasure.lean": [
+    "SEL-F2",
+    "SEL-F2",
+    "SEL-F2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Selection/SphericalMeasureComplete.lean": [
+    "SEL-F1",
+    "SEL-F1",
+    "SEL-F1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Selection/TwoShellReversal.lean": [
+    "thm:apph-sel-f2"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Support/BellmanContinuation.lean": [
+    "SUP-E2",
+    "sec:support-projectivity"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Support/EndpointSlope.lean": [
+    "SUP-E1",
+    "sec:support-endpoint"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Support/EndpointSlopeComplete.lean": [
+    "SUP-E1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Support/EndpointWinnerComplete.lean": [
+    "SUP-E1"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Support/MatchedPower.lean": [
+    "SUP-E3",
+    "SUP-E3",
+    "SUP-E4",
+    "SUP-E4",
+    "SUP-E4",
+    "SUP-E4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Support/MatchedPowerInfinite.lean": [
+    "SUP-E3",
+    "SUP-E4"
+  ],
+  "lean/phonological_equivalence/PhonologicalCalculus/Support/Projectivity.lean": [
+    "SUP-E2",
+    "SUP-E2",
+    "SUP-E2"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Attenuation/Core.lean": [
+    "eq:opacity-retention",
+    "eq:opacity-retention"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Attenuation/FreeWeights/Complete.lean": [
+    "prop:opacity-lambda-region"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Attenuation/FreeWeights/SubjectComplete.lean": [
+    "prop:opacity-lambda-region"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Attenuation/Productive/Baseline/ProductiveComplete.lean": [
+    "prop:opacity-lambda-region",
+    "sec:appg-region"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Attenuation/Productive/Baseline/ProductiveFixedComplete.lean": [
+    "thm:opacity-productive"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Attenuation/Productive/Baseline/ProductiveReaderBridge.lean": [
+    "sec:appg-region"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Attenuation/Productive/Subject/ProductiveComplete.lean": [
+    "prop:opacity-lambda-region",
+    "sec:appg-region"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Attenuation/Productive/Subject/ProductiveReaderBridge.lean": [
+    "sec:appg-region"
+  ],
+  "lean/phonological_opacity/PhonologicalOpacity/Gua/Opening.lean": [
+    "thm:opacity-current-general"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/DeclarationLanguage/Decl.lean": [
+    "def:int-footprint",
+    "thm:int-definedness"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/DeclarationLanguage/Kleene.lean": [
+    "eq:opacity-readers",
+    "thm:int-definedness"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/DeclarationLanguage/Persistence.lean": [
+    "thm:int-definedness",
+    "thm:appi-zero"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/DeclarationLanguage/Record.lean": [
+    "prop:appi-record",
+    "thm:appi-footprint"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/DeclarationLanguage/Scope.lean": [
+    "eq:opacity-retention"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/DeclarationLanguage.lean": [
+    "thm:appi-noninterference",
+    "thm:appi-no-s",
+    "thm:appi-zero",
+    "prop:appi-record"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/Interaction/CycleOptima.lean": [
+    "thm:int-cycles"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/Interaction/Cycles.lean": [
+    "thm:int-cycles"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/Interaction/TransientBattery.lean": [
+    "thm:int-transient",
+    "thm:int-inert"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/Interaction/TransientScope.lean": [
+    "thm:int-transient",
+    "thm:int-inert"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/Predictions/SharedActivity.lean": [
+    "prop:appj-nonrobust"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/Predictions/Threshold.lean": [
+    "eq:int-threshold",
+    "prop:appj-nonrobust"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/Predictions.lean": [
+    "eq:int-threshold",
+    "prop:appj-nonrobust"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/QueryDiscovery/DiscoveryContract.lean": [
+    "thm:int-discovery",
+    "prop:calc-discovery",
+    "eq:calc-query"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/QueryDiscovery/FrameFutility.lean": [
+    "prop:apph-frame"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/QueryDiscovery/Grounding.lean": [
+    "thm:rep-fin-a4",
+    "eq:rep-query-factor",
+    "thm:rep-fin-a4",
+    "eq:rep-redundancy-closure"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/QueryDiscovery/Invariance.lean": [
+    "thm:int-grounding"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/QueryDiscovery/Refinement.lean": [
+    "thm:rep-fin-a6"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/QueryDiscovery/ToneCertificate.lean": [
+    "eq:opacity-alphabet"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/QueryDiscovery/Unarisation.lean": [
+    "thm:apph-unarisation"
+  ],
+  "lean/phonological_grounding/PhonologicalGrounding/QueryDiscovery.lean": [
+    "thm:int-grounding",
+    "thm:apph-refinement",
+    "thm:apph-unarisation",
+    "prop:apph-frame",
+    "thm:int-discovery",
+    "prop:apph-tone"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Barrier.lean": [
+    "lem:appg-first-step",
+    "thm:opacity-current-bound"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Cells.lean": [
+    "thm:opacity-labels-cells",
+    "thm:opacity-current-general",
+    "prop:opacity-two-contrasts",
+    "cor:opacity-lambda-identification",
+    "thm:opacity-labels-cells",
+    "thm:opacity-labels-cells",
+    "thm:opacity-current-general",
+    "prop:opacity-two-contrasts",
+    "prop:opacity-two-contrasts",
+    "cor:opacity-lambda-identification",
+    "cor:opacity-lambda-identification"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Compose.lean": [
+    "thm:int-noninterference"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Contribution.lean": [
+    "eq:opacity-retention",
+    "thm:int-indexation",
+    "thm:opacity-gauge",
+    "thm:int-resolver-law"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Covering.lean": [
+    "prop:int-covering"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Definedness.lean": [
+    "thm:int-definedness",
+    "thm:int-third-party",
+    "thm:appi-no-s",
+    "cor:int-excluded-family"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Discharge.lean": [
+    "thm:int-definedness",
+    "thm:int-third-party",
+    "cor:int-excluded-family",
+    "prop:int-antilithuanian",
+    "thm:int-third-party",
+    "cor:int-excluded-family",
+    "cor:int-excluded-family",
+    "prop:int-antilithuanian"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Discipline.lean": [
+    "thm:rep-wellformed",
+    "prop:appi-rejects"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Feeding.lean": [
+    "thm:int-bounded-feeding",
+    "prop:appk-feeding"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Footprint.lean": [
+    "def:int-footprint",
+    "thm:int-footprint-sound",
+    "prop:int-narrow-footprint",
+    "prop:int-locality",
+    "prop:appk-locality",
+    "prop:int-narrow-footprint"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/FootprintSupport.lean": [
+    "def:int-footprint",
+    "thm:int-footprint-sound",
+    "thm:appi-footprint"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/FormulaCertificate.lean": [
+    "thm:int-definedness",
+    "thm:int-specialisation"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Indexation.lean": [
+    "thm:int-indexation"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Interaction.lean": [
+    "thm:int-cycles"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Kleene.lean": [
+    "thm:int-definedness"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Majority.lean": [
+    "thm:int-majority"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Modes.lean": [
+    "thm:opacity-modes"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Prosody.lean": [
+    "F01-1",
+    "F01-1"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Quotient.lean": [
+    "thm:maxent-quotient",
+    "def:rep-generator"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Reduction.lean": [
+    "def:rep-generator",
+    "thm:maxent-quotient"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Registered.lean": [
+    "thm:int-specialisation",
+    "thm:rep-wellformed"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/RegisteredFormulae.lean": [
+    "thm:int-definedness",
+    "thm:int-specialisation"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Rep.lean": [
+    "def:rep-structure",
+    "def:rep-generator",
+    "thm:rep-wellformed",
+    "def:rep-generator",
+    "thm:maxent-quotient"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Schwa.lean": [
+    "prop:maxent-schwa-law"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Splice.lean": [
+    "thm:int-regular",
+    "thm:appk-regular",
+    "thm:int-regular"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Terms.lean": [
+    "thm:int-definedness"
+  ],
+  "lean/phonological_requirements/PhonologicalRequirements/Transient.lean": [
+    "thm:opacity-labels-cells",
+    "thm:int-transient",
+    "thm:int-inert",
+    "thm:int-inert",
+    "thm:int-transient",
+    "prop:int-arapaho",
+    "prop:int-arapaho",
+    "prop:int-arapaho"
+  ]
+}

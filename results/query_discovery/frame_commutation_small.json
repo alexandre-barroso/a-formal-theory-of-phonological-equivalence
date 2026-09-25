@@ -1,0 +1,485 @@
+{
+  "artifact": "frame_commutation",
+  "per_input": {
+    "G34a": {
+      "base_minimum8": 24,
+      "base_selected": [
+        "ahetɔɔkpʊkɔ"
+      ],
+      "frames": [
+        {
+          "frame": "isolate_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "ahe"
+          ],
+          "selected_for_framed_input": [
+            "ahɛ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "isolate_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "tɔ"
+          ],
+          "selected_for_framed_input": [
+            "te"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "tɔɔkpʊkɔ"
+          ],
+          "selected_for_framed_input": [
+            "tɔɔkpʊkɔ"
+          ],
+          "commutes": true,
+          "framed_states": 169,
+          "framed_minimum8": 16
+        },
+        {
+          "frame": "drop_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "aheɔkpʊkɔ"
+          ],
+          "selected_for_framed_input": [
+            "ahɔɔkpʊkɔ"
+          ],
+          "commutes": false,
+          "framed_states": 169,
+          "framed_minimum8": 8
+        }
+      ]
+    },
+    "G34b": {
+      "base_minimum8": 20,
+      "base_selected": [
+        "afɪsoohili"
+      ],
+      "frames": [
+        {
+          "frame": "isolate_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "afɪ"
+          ],
+          "selected_for_framed_input": [
+            "afɪ"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "isolate_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "so"
+          ],
+          "selected_for_framed_input": [
+            "sɛ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "soohili"
+          ],
+          "selected_for_framed_input": [
+            "soohili"
+          ],
+          "commutes": true,
+          "framed_states": 169,
+          "framed_minimum8": 16
+        },
+        {
+          "frame": "drop_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "afɪohili"
+          ],
+          "selected_for_framed_input": [
+            "afjohili"
+          ],
+          "commutes": false,
+          "framed_states": 169,
+          "framed_minimum8": 20
+        }
+      ]
+    },
+    "N7": {
+      "base_minimum8": 8,
+      "base_selected": [
+        "atʃijeli"
+      ],
+      "frames": [
+        {
+          "frame": "isolate_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "atʃi"
+          ],
+          "selected_for_framed_input": [
+            "atʃɪ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "isolate_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "jeli"
+          ],
+          "selected_for_framed_input": [
+            "jeli"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "jeli"
+          ],
+          "selected_for_framed_input": [
+            "jeli"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "atʃi"
+          ],
+          "selected_for_framed_input": [
+            "atʃɪ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        }
+      ]
+    },
+    "G37c": {
+      "base_minimum8": 28,
+      "base_selected": [
+        "ɔtʃʊsejbie"
+      ],
+      "frames": [
+        {
+          "frame": "isolate_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "ɔtʃʊ"
+          ],
+          "selected_for_framed_input": [
+            "ɔtʃʊ"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "isolate_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "se"
+          ],
+          "selected_for_framed_input": [
+            "sɛ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "sejbie"
+          ],
+          "selected_for_framed_input": [
+            "sejbie"
+          ],
+          "commutes": true,
+          "framed_states": 169,
+          "framed_minimum8": 24
+        },
+        {
+          "frame": "drop_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "ɔtʃʊjbie"
+          ],
+          "selected_for_framed_input": [
+            "ɔtʃubie"
+          ],
+          "commutes": false,
+          "framed_states": 169,
+          "framed_minimum8": 168
+        }
+      ]
+    },
+    "C24ei": {
+      "base_minimum8": 16,
+      "base_selected": [
+        "kpejsi"
+      ],
+      "frames": [
+        {
+          "frame": "isolate_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "kpe"
+          ],
+          "selected_for_framed_input": [
+            "kpe"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "isolate_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "jsi"
+          ],
+          "selected_for_framed_input": [
+            "isi"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "jsi"
+          ],
+          "selected_for_framed_input": [
+            "isi"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "kpe"
+          ],
+          "selected_for_framed_input": [
+            "kpe"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        }
+      ]
+    },
+    "OR38": {
+      "base_minimum8": 172,
+      "base_selected": [
+        "atʃɔsiku"
+      ],
+      "frames": [
+        {
+          "frame": "isolate_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "atʃɔ"
+          ],
+          "selected_for_framed_input": [
+            "atʃɔ"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "isolate_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "si"
+          ],
+          "selected_for_framed_input": [
+            "sɪ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "siku"
+          ],
+          "selected_for_framed_input": [
+            "siku"
+          ],
+          "commutes": true,
+          "framed_states": 169,
+          "framed_minimum8": 168
+        },
+        {
+          "frame": "drop_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "atʃɔku"
+          ],
+          "selected_for_framed_input": [
+            "atʃojku"
+          ],
+          "commutes": false,
+          "framed_states": 169,
+          "framed_minimum8": 24
+        }
+      ]
+    },
+    "C21b": {
+      "base_minimum8": 160,
+      "base_selected": [
+        "wʊsʊsɛ"
+      ],
+      "frames": [
+        {
+          "frame": "isolate_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "wʊsʊ"
+          ],
+          "selected_for_framed_input": [
+            "wʊsʊ"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "isolate_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "sɛ"
+          ],
+          "selected_for_framed_input": [
+            "ɪsɛ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "sɛ"
+          ],
+          "selected_for_framed_input": [
+            "ɪsɛ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "wʊsʊ"
+          ],
+          "selected_for_framed_input": [
+            "wʊsʊ"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        }
+      ]
+    },
+    "C23UE": {
+      "base_minimum8": 16,
+      "base_selected": [
+        "wʊswɛbɪ"
+      ],
+      "frames": [
+        {
+          "frame": "isolate_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "wʊsw"
+          ],
+          "selected_for_framed_input": [
+            "wʊsʊ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "isolate_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "ɛbɪ"
+          ],
+          "selected_for_framed_input": [
+            "ɛbɪ"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(0,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "ɛbɪ"
+          ],
+          "selected_for_framed_input": [
+            "ɛbɪ"
+          ],
+          "commutes": true,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        },
+        {
+          "frame": "drop_word(1,)",
+          "licence": "ATTESTED",
+          "image_of_selected": [
+            "wʊsw"
+          ],
+          "selected_for_framed_input": [
+            "wʊsʊ"
+          ],
+          "commutes": false,
+          "framed_states": 1,
+          "framed_minimum8": 0
+        }
+      ]
+    }
+  }
+}

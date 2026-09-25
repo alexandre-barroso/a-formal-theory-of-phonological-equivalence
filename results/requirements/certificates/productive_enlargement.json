@@ -1,0 +1,292 @@
+{
+ "C21b": {
+  "best": "20",
+  "cert": {
+   "argument": "faithfulness is a sum of per-origin terms and markedness is nonnegative, so a prefix whose faithfulness already exceeds the bound cannot be completed to a candidate at or below it",
+   "bound": "20",
+   "coverage_identity": true,
+   "eligible_origins": [
+    0,
+    1,
+    3,
+    4,
+    6
+   ],
+   "leaves_excluded_by_lower_bound": 122456,
+   "leaves_scored": 248837,
+   "nodes_visited": 271468,
+   "product": "C21b",
+   "search_space": 371293
+  },
+  "exclusive": true,
+  "minima": [
+   [
+    "w",
+    "ʊ",
+    "s",
+    "ʊ",
+    "∅",
+    "s",
+    "ɛ"
+   ]
+  ],
+  "outputs": [
+   "wʊsʊsɛ"
+  ]
+ },
+ "C23UE": {
+  "best": "2",
+  "cert": {
+   "argument": "faithfulness is a sum of per-origin terms and markedness is nonnegative, so a prefix whose faithfulness already exceeds the bound cannot be completed to a candidate at or below it",
+   "bound": "2",
+   "coverage_identity": true,
+   "eligible_origins": [
+    0,
+    1,
+    3,
+    4,
+    6
+   ],
+   "leaves_excluded_by_lower_bound": 371164,
+   "leaves_scored": 129,
+   "nodes_visited": 233,
+   "product": "C23UE",
+   "search_space": 371293
+  },
+  "exclusive": true,
+  "minima": [
+   [
+    "w",
+    "ʊ",
+    "s",
+    "w",
+    "ɛ",
+    "b",
+    "ɪ"
+   ]
+  ],
+  "outputs": [
+   "wʊswɛbɪ"
+  ]
+ },
+ "C24ei": {
+  "best": "2",
+  "cert": {
+   "argument": "faithfulness is a sum of per-origin terms and markedness is nonnegative, so a prefix whose faithfulness already exceeds the bound cannot be completed to a candidate at or below it",
+   "bound": "2",
+   "coverage_identity": true,
+   "eligible_origins": [
+    2,
+    3,
+    5
+   ],
+   "leaves_excluded_by_lower_bound": 2146,
+   "leaves_scored": 51,
+   "nodes_visited": 75,
+   "product": "C24ei",
+   "search_space": 2197
+  },
+  "exclusive": true,
+  "minima": [
+   [
+    "k",
+    "p",
+    "e",
+    "j",
+    "s",
+    "i"
+   ]
+  ],
+  "outputs": [
+   "kpejsi"
+  ]
+ },
+ "G34a": {
+  "best": "3",
+  "cert": {
+   "argument": "faithfulness is a sum of per-origin terms and markedness is nonnegative, so a prefix whose faithfulness already exceeds the bound cannot be completed to a candidate at or below it",
+   "bound": "3",
+   "coverage_identity": true,
+   "eligible_origins": [
+    0,
+    2,
+    4,
+    5,
+    8,
+    10
+   ],
+   "leaves_excluded_by_lower_bound": 4825641,
+   "leaves_scored": 1168,
+   "nodes_visited": 2016,
+   "product": "G34a",
+   "search_space": 4826809
+  },
+  "exclusive": true,
+  "minima": [
+   [
+    "a",
+    "h",
+    "e",
+    "t",
+    "ɔ",
+    "ɔ",
+    "k",
+    "p",
+    "ʊ",
+    "k",
+    "ɔ"
+   ]
+  ],
+  "outputs": [
+   "ahetɔɔkpʊkɔ"
+  ]
+ },
+ "G34b": {
+  "best": "5/2",
+  "cert": {
+   "argument": "faithfulness is a sum of per-origin terms and markedness is nonnegative, so a prefix whose faithfulness already exceeds the bound cannot be completed to a candidate at or below it",
+   "bound": "5/2",
+   "coverage_identity": true,
+   "eligible_origins": [
+    0,
+    2,
+    4,
+    5,
+    7,
+    9
+   ],
+   "leaves_excluded_by_lower_bound": 4826609,
+   "leaves_scored": 200,
+   "nodes_visited": 409,
+   "product": "G34b",
+   "search_space": 4826809
+  },
+  "exclusive": true,
+  "minima": [
+   [
+    "a",
+    "f",
+    "ɪ",
+    "s",
+    "o",
+    "o",
+    "h",
+    "i",
+    "l",
+    "i"
+   ]
+  ],
+  "outputs": [
+   "afɪsoohili"
+  ]
+ },
+ "G37c": {
+  "best": "7/2",
+  "cert": {
+   "argument": "faithfulness is a sum of per-origin terms and markedness is nonnegative, so a prefix whose faithfulness already exceeds the bound cannot be completed to a candidate at or below it",
+   "bound": "7/2",
+   "coverage_identity": true,
+   "eligible_origins": [
+    0,
+    2,
+    4,
+    5,
+    7,
+    8
+   ],
+   "leaves_excluded_by_lower_bound": 4825605,
+   "leaves_scored": 1204,
+   "nodes_visited": 2101,
+   "product": "G37c",
+   "search_space": 4826809
+  },
+  "exclusive": true,
+  "minima": [
+   [
+    "ɔ",
+    "tʃ",
+    "ʊ",
+    "s",
+    "e",
+    "j",
+    "b",
+    "i",
+    "e"
+   ]
+  ],
+  "outputs": [
+   "ɔtʃʊsejbie"
+  ]
+ },
+ "N7": {
+  "best": "1",
+  "cert": {
+   "argument": "faithfulness is a sum of per-origin terms and markedness is nonnegative, so a prefix whose faithfulness already exceeds the bound cannot be completed to a candidate at or below it",
+   "bound": "1",
+   "coverage_identity": true,
+   "eligible_origins": [
+    0,
+    2,
+    3,
+    4,
+    6
+   ],
+   "leaves_excluded_by_lower_bound": 371276,
+   "leaves_scored": 17,
+   "nodes_visited": 44,
+   "product": "N7",
+   "search_space": 371293
+  },
+  "exclusive": true,
+  "minima": [
+   [
+    "a",
+    "tʃ",
+    "i",
+    "j",
+    "e",
+    "l",
+    "i"
+   ]
+  ],
+  "outputs": [
+   "atʃijeli"
+  ]
+ },
+ "OR38": {
+  "best": "43/2",
+  "cert": {
+   "argument": "faithfulness is a sum of per-origin terms and markedness is nonnegative, so a prefix whose faithfulness already exceeds the bound cannot be completed to a candidate at or below it",
+   "bound": "43/2",
+   "coverage_identity": true,
+   "eligible_origins": [
+    0,
+    2,
+    4,
+    5,
+    7
+   ],
+   "leaves_excluded_by_lower_bound": 122396,
+   "leaves_scored": 248897,
+   "nodes_visited": 271568,
+   "product": "OR38",
+   "search_space": 371293
+  },
+  "exclusive": true,
+  "minima": [
+   [
+    "a",
+    "tʃ",
+    "ɔ",
+    "s",
+    "i",
+    "∅",
+    "k",
+    "u"
+   ]
+  ],
+  "outputs": [
+   "atʃɔsiku"
+  ]
+ }
+}
