@@ -1,5 +1,7 @@
 # A Formal Theory of Phonological Equivalence
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22960540.svg)](https://doi.org/10.5281/zenodo.22960540)
+
 Full download also on <https://osf.io/6nd8s>.
 
 This repository contains the public code and data accompanying my doctoral dissertation, which is hosted [here](https://phd.alexandrebarroso.com) as an interactive experience. It collects the exact calculations, the formal proofs, the worked examples and the reduced empirical tables used in the dissertation, with a source-label index connecting the dissertation to its proof modules, exact computations and independent symbolic reconstructions. The integrated theory combines a first-order grammatical construction with a second-order account of what comparisons preserve and identify. The formal aspects of this research, and consequently this public-facing repo, were developed between 2024 and 2026. Some degree of chaos is expected, but everything is thoroughly checked even if somewhat unorganized. These files were developed in my private Macbook Air and Linux Ubuntu laptops, so scripts might need some fine tuning on their absolute paths to run. I did my best to make this whole repo machine-readable and parsing-friendly for automated checking (a sign of the times, I suppose). See also [PhonoScript](https://github.com/alexandre-barroso/phonoscript_project), a continuing research development whose reusable comparison operations are described in Appendix L.
